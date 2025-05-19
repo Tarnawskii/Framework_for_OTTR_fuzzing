@@ -1,0 +1,133 @@
+2025-04-15 22:47:55,353 - ERROR - Instance foot:League(_:OSn,"""gA",0000^^xsd:gYear,((""&HP""),("az",(B)),(((h)))),((f),(r)))  
+
+2025-04-15 22:47:55,354 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '"gA"' expecting {',', ')'} at line 7 column 28[ERROR] Syntax error: extraneous input '^^' expecting {',', ')'} at line 7 column 37[ERROR] Syntax error: token recognition error at: '&' at line 7 column 53
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7llcvovm.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#League(blank501 : LUB<rdfs:Resource>, ""^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "0000"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer)
+[ERROR] Incompatible argument type. Argument "0000"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer with type xsd:integer given to parameter ?foundedYear : xsd:gYear
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp7llcvovm.stottr
+
+
+2025-04-15 22:47:58,629 - ERROR - Instance foot:Country("tj\//cyFD",a,"North America"@en,"EGY",(wI),()) .
+
+2025-04-15 22:47:58,630 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '"tj\/' at line 7 column 21[ERROR] Syntax error: token recognition error at: '/c' at line 7 column 26[ERROR] Syntax error: extraneous input 'yFD' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 28[ERROR] Syntax error: mismatched input 'North' expecting {',', ')'} at line 7 column 36[ERROR] Syntax error: token recognition error at: '",(wI),()) .\n' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsl1q6_8g.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country(",a,"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument ",a,"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpsl1q6_8g.stottr
+
+
+2025-04-15 22:48:02,197 - ERROR - Instance foot:Club("iMxYZJ","Manchester United","2016"^^xsd:gYear,"Anfield","England"@en) ,
+
+2025-04-15 22:48:02,198 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk4x25jay.stottr
+
+[ERROR] Incompatible argument type. Argument "iMxYZJ"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "England"@en : rdfs:Literal with type rdfs:Literal given to parameter ?country : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpk4x25jay.stottr
+
+
+2025-04-15 22:48:06,411 - ERROR - Instance foot:Footballer(m,"Cristiano","",""""^^xsd:date,Q,(V),a,"","")  ?
+
+2025-04-15 22:48:06,411 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'm' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 24
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpzz3mm4pl.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 0 in instance: http://example.org/football#Footballer()
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpzz3mm4pl.stottr
+
+
+2025-04-15 22:48:09,902 - ERROR - Instance example:Footballer(++none) }"_"]
+
+2025-04-15 22:48:09,902 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '}' expecting '.' at line 7 column 35
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8kvs74cr.stottr
+
+[ERROR] Error in instance of template '[IRI missing]'.
+  [ERROR] Unrecognized prefix 'example' in 'example:Footballer' at line 7 column 8
+Location(s):
+- Signature with IRI '[IRI missing]'
+- File C:\Users\adria\AppData\Local\Temp\tmp8kvs74cr.stottr
+
+
+2025-04-15 22:48:13,228 - ERROR - Instance foot:League((E,U,""]"Gb"),none,4vp#+s)
+
+2025-04-15 22:48:13,229 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'E' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 21[ERROR] Syntax error: mismatched input 'U' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 23[ERROR] Syntax error: extraneous input ']' expecting {',', ')'} at line 7 column 27[ERROR] Syntax error: mismatched input ',' expecting {',', ')', '^^', LANGTAG} at line 7 column 33
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppxzggkl_.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#League'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'U' at line 7 column 23
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmppxzggkl_.stottr
+
+
+2025-04-15 22:48:16,644 - ERROR - Instance foot:Country(C,"Portugal","","",( ),(q,X,u,T)) "@"|
+
+2025-04-15 22:48:16,644 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'C' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 21
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk9p5u0ae.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 0 in instance: http://example.org/football#Country()
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpk9p5u0ae.stottr
+
+
+2025-04-15 22:48:20,066 - ERROR - Instance foot:Country(="NRLl,"Egypt","Africa","ARG",(eo,"%KW"),(d)) "/"
+
+2025-04-15 22:48:20,066 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '=' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 21[ERROR] Syntax error: mismatched input 'Egypt' expecting {',', ')'} at line 7 column 29[ERROR] Syntax error: token recognition error at: '%K' at line 7 column 56[ERROR] Syntax error: token recognition error at: '/"' at line 7 column 68
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp3ri3oct6.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("NRLl,"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "NRLl,"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmp3ri3oct6.stottr
+
+
+2025-04-15 22:48:23,493 - ERROR - Instance foot:Country(_:DXk,"";"gX","Asia","POR",( ),(m,L,G,(This is invalid))) "$"
+
+2025-04-15 22:48:23,493 - ERROR - Instance 15 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: ';' at line 7 column 29[ERROR] Syntax error: extraneous input '"gX"' expecting {',', ')'} at line 7 column 30[ERROR] Syntax error: mismatched input 'm' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 53[ERROR] Syntax error: mismatched input 'L' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 55[ERROR] Syntax error: mismatched input 'G' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 57[ERROR] Syntax error: mismatched input 'This' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 60[ERROR] Syntax error: mismatched input ')' expecting '.' at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoyjmauvj.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'G' at line 7 column 57
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpoyjmauvj.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'L' at line 7 column 55
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpoyjmauvj.stottr
+
+

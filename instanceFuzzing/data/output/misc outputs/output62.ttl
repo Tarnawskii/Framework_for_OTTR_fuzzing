@@ -1,0 +1,417 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "Portugal" ;
+        foaf:birthDate    "1998-05-16"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  _:b1 .
+
+_:b1    rdf:rest   _:b2 ;
+        rdf:first  "AC Milan" .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b0    rdf:type         foot:Footballer ;
+        foot:position    "Striker"@en ;
+        foaf:name        "Cristiano" ;
+        foaf:familyName  "NÃºÃ±ez" .
+
+_:b3    foot:teams        _:b4 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b4 ;
+        foaf:name         "La Liga" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b11 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b6 .
+
+_:b12   foot:country      "England" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b4 .
+
+_:b13   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b14 ;
+        foot:leagues        _:b15 ;
+        foot:leagues        _:b16 ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:famousPlayers  "Amadou" ;
+        foot:continent      "Europe" ;
+        foot:fifaCode       _:b17 .
+
+_:b18   foot:country      "Egypt" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b19 .
+
+_:b20   foot:country      "Portugal" ;
+        foaf:birthDate    "1961-11-05"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Midfielder" ;
+        foaf:name         "Amadou" ;
+        foaf:familyName   "Mbappe" .
+
+_:b21   foaf:name       "Argentina" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b22 ;
+        foot:leagues    _:b23 ;
+        foot:leagues    _:b24 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "EGY" .
+
+_:b25   foot:country      "England" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b9 .
+
+_:b26   foot:teams        _:b9 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b5 ;
+        foaf:name         "Ligue 1" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b4 .
+
+_:b27   foot:country      "Portugal" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b4 .
+
+_:b28   foot:country      "France" ;
+        foaf:birthDate    "1996-01-10"^^xsd:date ;
+        foot:marketValue  100100100100100100100100100100 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Midfielder" ;
+        foaf:name         "Cristiano" ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b29   foot:teams        _:b9 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b8 ;
+        foaf:name         "Serie A" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b11 ;
+        foot:topTeams     _:b7 .
+
+_:b30   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b31 ;
+        foot:leagues        _:b32 ;
+        foot:famousPlayers  "Lionel" ;
+        foot:famousPlayers  "Amadou" ;
+        foot:continent      "Asia" ;
+        foot:fifaCode       "ARG" .
+
+_:b33   foot:teams        _:b10 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b6 ;
+        foaf:name         "Ligue 1" ;
+        foot:foundedYear  _:b7 ;
+        rdf:type          foot:League .
+
+_:b34   foot:teams        _:b10 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b9 ;
+        foaf:name         "La Liga" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b35   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b36 ;
+        foot:leagues        _:b37 ;
+        foot:leagues        _:b38 ;
+        foot:famousPlayers  "Amadou" ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:famousPlayers  "Lionel" ;
+        foot:continent      "Africa" ;
+        foot:fifaCode       "ENG" .
+
+_:b39   foot:country      "England" ;
+        foaf:birthDate    "1969-12-03"^^xsd:date ;
+        foot:marketValue  100100100100100100100100100100 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Defender" ;
+        foaf:name         "Amadou" ;
+        foaf:familyName   "BjÃ¶rk" .
+
+_:b40   foot:country      "Argentina" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b11 .
+
+_:b41   foot:country      "Argentina" ;
+        foaf:birthDate    "1983-11-01"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  _:b42 .
+
+_:b43   rdf:rest   rdf:nil ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b42   rdf:rest   _:b43 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b41   rdf:type         foot:Footballer ;
+        foot:position    "Defender" ;
+        foaf:name        "Lionel" ;
+        foaf:familyName  "D'Artagnan" .
+
+_:b44   foot:country      "England" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b6 .
+
+_:b45   foot:teams        _:b8 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b5 ;
+        foaf:name         "La Liga" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b11 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b11 ;
+        foot:topTeams     _:b8 .
+
+_:b46   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  "Amadou" ;
+        foot:famousPlayers  "Amadou" ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:continent      "Africa" ;
+        foot:fifaCode       "FRA" .
+
+_:b47   foaf:name       "Portugal" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b48 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   _:b7 .
+
+_:b49   foot:teams        _:b7 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b5 ;
+        foaf:name         "Bundesliga" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b8 .
+
+_:b50   foot:country      "Egypt" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b7 .
+
+_:b51   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b52 ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:continent      "North America" ;
+        foot:fifaCode       "ENG" .
+
+_:b53   foot:country      "England" ;
+        foaf:birthDate    "2005-11-03"^^xsd:date ;
+        foot:marketValue  100100100100100100100100100100 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Defender" ;
+        foaf:name         "Lionel" ;
+        foaf:familyName   "Ronaldo" .
+
+_:b54   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b55 ;
+        foot:leagues        _:b56 ;
+        foot:leagues        _:b57 ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:continent      _:b58 ;
+        foot:fifaCode       "POR" .
+
+_:b59   foot:country      "England" ;
+        foot:stadiumName  _:b4 ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b10 .
+
+_:b60   foot:country      "France" ;
+        foaf:birthDate    "2015-06-02"^^xsd:date ;
+        foot:marketValue  100100100100100100100100100100 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Defender" ;
+        foaf:name         "Amadou" ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b61   foaf:name         "Premier League" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b11 ;
+        foot:topTeams     _:b11 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b5 .
+
+_:b62   foot:country      "Argentina" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b4 .
+
+_:b63   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  "Lionel" ;
+        foot:continent      "North America" ;
+        foot:fifaCode       "FRA" .
+
+_:b64   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b65 ;
+        foot:leagues        _:b66 ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:continent      _:b11 ;
+        foot:fifaCode       "ENG" .
+
+_:b67   foot:teams        _:b5 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b9 ;
+        foaf:name         "Bundesliga" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b5 .
+
+_:b68   foot:country      "England" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b11 .
+
+_:b69   foot:country      "France" ;
+        foaf:birthDate    "1958-05-19"^^xsd:date ;
+        foot:marketValue  757314620 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Forward" ;
+        foaf:name         "Lionel" ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b70   foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b71 ;
+        foot:leagues        _:b72 ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:famousPlayers  "Amadou" ;
+        foot:famousPlayers  "Cristiano" ;
+        foot:continent      "North America" ;
+        foot:fifaCode       "POR" .
+
+_:b73   foot:teams        _:b4 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b11 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b10 ;
+        foaf:name         "La Liga" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League .

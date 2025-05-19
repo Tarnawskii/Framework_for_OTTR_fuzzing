@@ -1,0 +1,459 @@
+2025-04-16 11:23:09,480 - INFO - Template 1 processed in 6.74 seconds
+2025-04-16 11:23:09,481 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:23:09,482 - ERROR - Output: 
+2025-04-16 11:23:09,482 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:23:09,482 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:23:09,482 - ERROR - Output: 
+2025-04-16 11:23:15,483 - INFO - Template 2 processed in 6.00 seconds
+2025-04-16 11:23:15,483 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '6i' expecting {',', ')'} at line 7 column 79
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjf1pa2sj.stottr
+
+
+2025-04-16 11:23:15,484 - ERROR - Output: 
+2025-04-16 11:23:15,484 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa 6i ?clubHistory)} .
+
+2025-04-16 11:23:15,484 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '6i' expecting {',', ')'} at line 7 column 79
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjf1pa2sj.stottr
+
+
+2025-04-16 11:23:15,484 - ERROR - Output: 
+2025-04-16 11:23:20,738 - INFO - Template 3 processed in 5.25 seconds
+2025-04-16 11:23:20,742 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdn8iqd28.stottr
+
+
+2025-04-16 11:23:20,742 - ERROR - Output: 
+2025-04-16 11:23:20,743 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:23:20,743 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdn8iqd28.stottr
+
+
+2025-04-16 11:23:20,743 - ERROR - Output: 
+2025-04-16 11:23:27,433 - INFO - Template 4 processed in 6.68 seconds
+2025-04-16 11:23:27,434 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-04-16 11:23:27,434 - ERROR - Output: 
+2025-04-16 11:23:27,434 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?clubHistory)} .
+
+2025-04-16 11:23:27,435 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-04-16 11:23:27,435 - ERROR - Output: 
+2025-04-16 11:23:46,551 - INFO - Template 1 processed in 4.88 seconds
+2025-04-16 11:23:46,552 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:23:46,553 - ERROR - Output: 
+2025-04-16 11:23:46,553 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:23:46,553 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:23:46,553 - ERROR - Output: 
+2025-04-16 11:23:51,553 - INFO - Template 2 processed in 4.99 seconds
+2025-04-16 11:23:51,554 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa6300kwz.stottr
+
+
+2025-04-16 11:23:51,555 - ERROR - Output: 
+2025-04-16 11:23:51,555 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?clubHistory)} .
+
+2025-04-16 11:23:51,555 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa6300kwz.stottr
+
+
+2025-04-16 11:23:51,555 - ERROR - Output: 
+2025-04-16 11:23:57,554 - INFO - Template 3 processed in 5.99 seconds
+2025-04-16 11:23:57,555 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2181cvmy.stottr
+
+
+2025-04-16 11:23:57,555 - ERROR - Output: 
+2025-04-16 11:23:57,555 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:23:57,556 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2181cvmy.stottr
+
+
+2025-04-16 11:23:57,556 - ERROR - Output: 
+2025-04-16 11:24:03,333 - INFO - Template 4 processed in 5.77 seconds
+2025-04-16 11:24:03,335 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-04-16 11:24:03,335 - ERROR - Output: 
+2025-04-16 11:24:03,335 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?clubHistory)} .
+
+2025-04-16 11:24:03,335 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-04-16 11:24:03,336 - ERROR - Output: 
+2025-04-16 11:25:14,192 - INFO - Template 1 processed in 5.38 seconds
+2025-04-16 11:25:14,194 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:25:14,194 - ERROR - Output: 
+2025-04-16 11:25:14,194 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:25:14,195 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:25:14,195 - ERROR - Output: 
+2025-04-16 11:25:19,293 - INFO - Template 2 processed in 5.09 seconds
+2025-04-16 11:25:19,294 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4lc30gij.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4lc30gij.stottr
+
+
+2025-04-16 11:25:19,294 - ERROR - Output: 
+2025-04-16 11:25:19,294 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] : {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:25:19,295 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4lc30gij.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4lc30gij.stottr
+
+
+2025-04-16 11:25:19,295 - ERROR - Output: 
+2025-04-16 11:25:24,952 - INFO - Template 3 processed in 5.65 seconds
+2025-04-16 11:25:24,953 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 11:25:24,954 - ERROR - Output: 
+2025-04-16 11:25:24,954 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ] .: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:25:24,954 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 11:25:24,954 - ERROR - Output: 
+2025-04-16 11:26:18,180 - INFO - Template 1 processed in 4.85 seconds
+2025-04-16 11:26:18,182 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:26:18,183 - ERROR - Output: 
+2025-04-16 11:26:18,183 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:26:18,183 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:26:18,183 - ERROR - Output: 
+2025-04-16 11:26:22,876 - INFO - Template 2 processed in 4.69 seconds
+2025-04-16 11:26:22,878 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqh9r9kdd.stottr
+
+
+2025-04-16 11:26:22,878 - ERROR - Output: 
+2025-04-16 11:26:22,878 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?clubHistory)} .
+
+2025-04-16 11:26:22,878 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqh9r9kdd.stottr
+
+
+2025-04-16 11:26:22,878 - ERROR - Output: 
+2025-04-16 11:26:27,561 - INFO - Template 3 processed in 4.68 seconds
+2025-04-16 11:26:27,562 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbf170fdr.stottr
+
+
+2025-04-16 11:26:27,563 - ERROR - Output: 
+2025-04-16 11:26:27,563 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:26:27,563 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbf170fdr.stottr
+
+
+2025-04-16 11:26:27,563 - ERROR - Output: 
+2025-04-16 11:26:32,886 - INFO - Template 4 processed in 5.32 seconds
+2025-04-16 11:26:32,887 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-04-16 11:26:32,887 - ERROR - Output: 
+2025-04-16 11:26:32,887 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?clubHistory)} .
+
+2025-04-16 11:26:32,888 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-04-16 11:26:32,888 - ERROR - Output: 
+2025-04-16 11:47:44,948 - INFO - Template 1 processed in 5.18 seconds
+2025-04-16 11:47:44,951 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:47:44,951 - ERROR - Output: 
+2025-04-16 11:47:44,951 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:47:44,951 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 11:47:44,952 - ERROR - Output: 
+2025-04-16 11:47:49,576 - INFO - Template 2 processed in 4.62 seconds
+2025-04-16 11:47:49,577 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcg8dhkg7.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcg8dhkg7.stottr
+
+
+2025-04-16 11:47:49,577 - ERROR - Output: 
+2025-04-16 11:47:49,577 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] : {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:47:49,578 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcg8dhkg7.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcg8dhkg7.stottr
+
+
+2025-04-16 11:47:49,578 - ERROR - Output: 
+2025-04-16 11:47:54,596 - INFO - Template 3 processed in 5.01 seconds
+2025-04-16 11:47:54,597 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]{' at line 7 column 44[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 93
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvnk8megw.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvnk8megw.stottr
+
+
+2025-04-16 11:47:54,598 - ERROR - Output: 
+2025-04-16 11:47:54,598 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ]  {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:47:54,598 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]{' at line 7 column 44[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 93
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvnk8megw.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvnk8megw.stottr
+
+
+2025-04-16 11:47:54,598 - ERROR - Output: 
+2025-04-16 11:48:01,125 - INFO - Template 4 processed in 6.52 seconds
+2025-04-16 11:48:01,126 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 11:48:01,126 - ERROR - Output: 
+2025-04-16 11:48:01,127 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] .: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 11:48:01,127 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 11:48:01,127 - ERROR - Output: 
+2025-04-16 12:27:27,723 - INFO - Template 1 processed in 6.63 seconds
+2025-04-16 12:27:27,725 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 12:27:27,726 - ERROR - Output: 
+2025-04-16 12:27:27,726 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 12:27:27,726 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 12:27:27,726 - ERROR - Output: 
+2025-04-16 12:27:34,209 - INFO - Template 2 processed in 6.48 seconds
+2025-04-16 12:27:34,210 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpznwz5gtc.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpznwz5gtc.stottr
+
+
+2025-04-16 12:27:34,211 - ERROR - Output: 
+2025-04-16 12:27:34,211 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] : {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 12:27:34,211 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpznwz5gtc.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpznwz5gtc.stottr
+
+
+2025-04-16 12:27:34,211 - ERROR - Output: 
+2025-04-16 12:27:40,327 - INFO - Template 3 processed in 6.11 seconds
+2025-04-16 12:27:40,328 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]{' at line 7 column 44[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 93
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqrcxh7vg.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqrcxh7vg.stottr
+
+
+2025-04-16 12:27:40,328 - ERROR - Output: 
+2025-04-16 12:27:40,328 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ]  {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 12:27:40,328 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]{' at line 7 column 44[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 93
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqrcxh7vg.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqrcxh7vg.stottr
+
+
+2025-04-16 12:27:40,329 - ERROR - Output: 
+2025-04-16 12:27:47,923 - INFO - Template 4 processed in 7.59 seconds
+2025-04-16 12:27:47,925 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 12:27:47,925 - ERROR - Output: 
+2025-04-16 12:27:47,926 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] .: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 12:27:47,926 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 12:27:47,926 - ERROR - Output: 
+2025-04-16 13:20:20,935 - INFO - Template 1 processed in 4.27 seconds
+2025-04-16 13:20:20,936 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 13:20:20,936 - ERROR - Output: 
+2025-04-16 13:20:20,936 - ERROR - Template 1: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 13:20:20,936 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 8 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/dummy_instance.stottr
+
+
+2025-04-16 13:20:20,937 - ERROR - Output: 
+2025-04-16 13:20:25,689 - INFO - Template 2 processed in 4.75 seconds
+2025-04-16 13:20:25,689 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpr9rwk1_x.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpr9rwk1_x.stottr
+
+
+2025-04-16 13:20:25,689 - ERROR - Output: 
+2025-04-16 13:20:25,689 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] : {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 13:20:25,689 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]:' at line 7 column 43[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 94
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpr9rwk1_x.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpr9rwk1_x.stottr
+
+
+2025-04-16 13:20:25,690 - ERROR - Output: 
+2025-04-16 13:20:29,535 - INFO - Template 3 processed in 3.84 seconds
+2025-04-16 13:20:29,536 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]{' at line 7 column 44[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 93
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphesoo1zy.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphesoo1zy.stottr
+
+
+2025-04-16 13:20:29,537 - ERROR - Output: 
+2025-04-16 13:20:29,537 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ]  {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 13:20:29,537 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?clubHistory]{' at line 7 column 44[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 93
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphesoo1zy.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphesoo1zy.stottr
+
+
+2025-04-16 13:20:29,538 - ERROR - Output: 
+2025-04-16 13:20:34,223 - INFO - Template 4 processed in 4.68 seconds
+2025-04-16 13:20:34,224 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 13:20:34,225 - ERROR - Output: 
+2025-04-16 13:20:34,225 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] .: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-04-16 13:20:34,225 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-16 13:20:34,225 - ERROR - Output: 

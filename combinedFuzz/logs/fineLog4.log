@@ -1,0 +1,83 @@
+2025-05-11 23:05:46,317 - INFO - Template 1 processed in 3.87 seconds
+2025-05-11 23:05:46,318 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 105[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?LUB<xsd:date>' at line 8 column 22[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 61[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 81[ERROR] Syntax error: extraneous input '+.4' expecting {',', ')'} at line 8 column 102
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+[INFO] Ignoring instance: foot:Template1(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,2+.4}<missing '). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+
+2025-05-11 23:05:46,318 - ERROR - Output: 
+2025-05-11 23:05:46,318 - ERROR - Template 1: foot:Footballer [ ?LUB<xsd:date> ?C ] @@ zipMin | ottr:IRI() @@ foot:Template1() :: { o-rdf:Type(?M, 2+.4+) } .
+
+2025-05-11 23:05:46,318 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 105[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?LUB<xsd:date>' at line 8 column 22[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 61[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 81[ERROR] Syntax error: extraneous input '+.4' expecting {',', ')'} at line 8 column 102
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+[INFO] Ignoring instance: foot:Template1(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,2+.4}<missing '). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsf8b2_iu.stottr
+
+
+2025-05-11 23:05:46,318 - ERROR - Output: 
+2025-05-11 23:05:50,263 - INFO - Template 2 processed in 3.94 seconds
+2025-05-11 23:05:50,267 - ERROR - Stderr: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/IRI. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-05-11 23:05:50,267 - ERROR - Output: 
+2025-05-11 23:05:50,267 - ERROR - Template 2: ottr:IRI [ ?!xsd:string ?A ]  :: { ottr:Triple(?Q, foot:Footballer, _:b2) , ottr:Triple(?f, foot:Template1, _:b2) , o-rdf:Type(?P, _:b2) } .
+
+2025-05-11 23:05:50,267 - ERROR - Error: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/IRI. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-05-11 23:05:50,268 - ERROR - Output: 
+2025-05-11 23:05:53,667 - INFO - Template 3 processed in 3.40 seconds
+2025-05-11 23:05:53,668 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 9 arguments, but found 8 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpe8w9pwcp.stottr
+
+
+2025-05-11 23:05:53,668 - ERROR - Output: 
+2025-05-11 23:05:53,668 - ERROR - Template 3: foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+
+2025-05-11 23:05:53,668 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 9 arguments, but found 8 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpe8w9pwcp.stottr
+
+
+2025-05-11 23:05:53,669 - ERROR - Output: 
+2025-05-11 23:05:57,796 - INFO - Template 4 processed in 4.12 seconds
+2025-05-11 23:05:57,796 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Template1. The template has a parameter ?K : rdfs:Datatype (arg no. 1) which does not occur in the pattern of the template.
+
+[FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-05-11 23:05:57,796 - ERROR - Output: 
+2025-05-11 23:05:57,796 - ERROR - Template 4: foot:Template1 [ !rdfs:Datatype ?K ]  :: { o-rdf:Type(?r, _:b2) , ottr:Triple(?Z, foot:Footballer, _:b1) , o-rdf:Type(?q, _:b2) } .
+2025-05-11 23:05:57,796 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Template1. The template has a parameter ?K : rdfs:Datatype (arg no. 1) which does not occur in the pattern of the template.
+
+[FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-05-11 23:05:57,796 - ERROR - Output: 

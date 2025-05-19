@@ -1,0 +1,9 @@
+@prefix ex: <http://example.org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ex:b ( _:naa4589494eed475f87c24dcd97871ee3b5 _:naa4589494eed475f87c24dcd97871ee3b4 ),
+        ( _:naa4589494eed475f87c24dcd97871ee3b5 _:naa4589494eed475f87c24dcd97871ee3b4 ) ;
+    ex:c 10.5,
+        12.5 .
+

@@ -1,0 +1,1444 @@
+2025-02-25 18:36:26,644 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '1'  (at char 112), (line:3, col:26)
+2025-02-25 18:36:31,030 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 15), (line:1, col:16)
+2025-02-25 18:36:34,571 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 25[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 27[ERROR] Syntax error: token recognition error at: '/t' at line 2 column 38
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgxgx_ama.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 20
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpgxgx_ama.stottr
+
+
+2025-02-25 18:36:34,583 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:36:37,980 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 33[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1035
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9s_bxkhe.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 15
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp9s_bxkhe.stottr
+
+
+2025-02-25 18:36:37,994 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:36:41,480 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"c, _:D8r).' at line 2 column 1044
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpey5nope6.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpey5nope6.stottr
+
+
+2025-02-25 18:36:41,492 - ERROR - [Runtime] Error in pyOTTR: 'ex'
+2025-02-25 18:36:45,331 - ERROR - [Runtime] Error in Lutra: [ERROR] Incompatible argument type. Argument "E"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?c : xsd:decimal
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpm6_4mj9c.stottr
+
+
+2025-02-25 18:36:45,347 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:36:49,636 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1050[ERROR] Syntax error: token recognition error at: '/e' at line 2 column 1063
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj6xyzj9v.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpj6xyzj9v.stottr
+
+
+2025-02-25 18:36:49,655 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:36:53,521 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 33
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbikls5ja.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpbikls5ja.stottr
+
+
+2025-02-25 18:36:53,536 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:36:57,544 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/O' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp56_k874k.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp56_k874k.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"%"^^xsd:integer' at line 2 column 51
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:integer' at line 2 column 56
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp56_k874k.stottr
+
+
+2025-02-25 18:36:57,557 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 15), (line:1, col:16)
+2025-02-25 18:37:01,586 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 24[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 26[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 37
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8wc8r974.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 19
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp8wc8r974.stottr
+
+
+2025-02-25 18:37:01,598 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:05,614 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/1' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 40[ERROR] Syntax error: token recognition error at: '/G' at line 2 column 53[ERROR] Syntax error: token recognition error at: '//' at line 2 column 71[ERROR] Syntax error: token recognition error at: '/0' at line 2 column 84
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpv5zt5_pj.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpv5zt5_pj.stottr
+
+
+2025-02-25 18:37:05,630 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:09,732 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/B' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"PBfY).' at line 2 column 39
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpadftpxzm.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpadftpxzm.stottr
+
+
+2025-02-25 18:37:09,747 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:14,426 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkp273l3f.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpkp273l3f.stottr
+
+
+2025-02-25 18:37:14,443 - ERROR - [Runtime] Error in pyOTTR: 'ex'
+2025-02-25 18:37:19,184 - ERROR - [Runtime] Error in Lutra: [ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"1$"^^xsd:integer' at line 2 column 26
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:integer' at line 2 column 32
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp37bkyh7v.stottr
+
+
+2025-02-25 18:37:19,196 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:23,943 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5u8gwpe0.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp5u8gwpe0.stottr
+
+
+2025-02-25 18:37:23,954 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '0'  (at char 35), (line:1, col:36)
+2025-02-25 18:37:28,282 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '0.5a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 35
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1c4c5pf0.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '0.5a' at line 2 column 35
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp1c4c5pf0.stottr
+
+
+2025-02-25 18:37:28,301 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:32,796 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 36[ERROR] Syntax error: token recognition error at: '/L' at line 2 column 49[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 38[ERROR] Syntax error: token recognition error at: '//' at line 2 column 58[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 60[ERROR] Syntax error: token recognition error at: '/m' at line 2 column 71[ERROR] Syntax error: mismatched input '96a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 77
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpnsdj7lc0.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpnsdj7lc0.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '96a' at line 2 column 77
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpnsdj7lc0.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 31
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpnsdj7lc0.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 53
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpnsdj7lc0.stottr
+
+
+2025-02-25 18:37:32,812 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:37:37,467 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 28[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 39
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpioh9u08e.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 21
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpioh9u08e.stottr
+
+
+2025-02-25 18:37:37,479 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '2'  (at char 21), (line:1, col:22)
+2025-02-25 18:37:42,979 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:49,203 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/d' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7pvdm3j9.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp7pvdm3j9.stottr
+
+
+2025-02-25 18:37:49,232 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:37:55,660 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/A' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkzen6dwc.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpkzen6dwc.stottr
+
+
+2025-02-25 18:37:55,692 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:38:00,939 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/A' at line 2 column 33[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 22[ERROR] Syntax error: token recognition error at: '//' at line 2 column 42[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 44[ERROR] Syntax error: token recognition error at: '/V' at line 2 column 55[ERROR] Syntax error: token recognition error at: '//' at line 2 column 64[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 66[ERROR] Syntax error: token recognition error at: '/w' at line 2 column 77[ERROR] Syntax error: token recognition error at: '//' at line 2 column 86[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 88[ERROR] Syntax error: token recognition error at: '/o' at line 2 column 99[ERROR] Syntax error: token recognition error at: '//' at line 2 column 117[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 130[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 119[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1141
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy6c2a69y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 59
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy6c2a69y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 37
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy6c2a69y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 15
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy6c2a69y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 112
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy6c2a69y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 81
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy6c2a69y.stottr
+
+
+2025-02-25 18:38:00,955 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:38:05,400 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14[ERROR] Syntax error: token recognition error at: '//' at line 2 column 40[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 53
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1gor6e0y.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp1gor6e0y.stottr
+
+
+2025-02-25 18:38:05,414 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:38:09,842 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/2' at line 2 column 33[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpsoj29ksj.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 15
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpsoj29ksj.stottr
+
+
+2025-02-25 18:38:09,861 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 16), (line:1, col:17)
+2025-02-25 18:38:14,360 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 49[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 51[ERROR] Syntax error: token recognition error at: '/m' at line 2 column 62
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphd9d54xm.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 44
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmphd9d54xm.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"$"^^xsd:integer' at line 2 column 26
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:integer' at line 2 column 31
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmphd9d54xm.stottr
+
+
+2025-02-25 18:38:14,377 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 17), (line:1, col:18)
+2025-02-25 18:38:18,907 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 23[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 36[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 25[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1043
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp46n8d7z4.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 18
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp46n8d7z4.stottr
+
+
+2025-02-25 18:38:18,920 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:38:23,609 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/K' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp34sqtbw.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpp34sqtbw.stottr
+
+
+2025-02-25 18:38:23,667 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:38:29,805 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1038[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 1051
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbkx0wff_.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpbkx0wff_.stottr
+
+
+2025-02-25 18:38:29,820 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:38:35,292 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/X' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpckpx1oyd.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpckpx1oyd.stottr
+
+
+2025-02-25 18:38:35,308 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:38:39,672 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1078[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 1091
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpedeyslu7.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpedeyslu7.stottr
+
+
+2025-02-25 18:38:39,688 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:38:45,007 - ERROR - [Runtime] Error in Lutra: [ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"G"^^xsd:decimal' at line 2 column 28
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:decimal' at line 2 column 33
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmplfrn6iwa.stottr
+
+
+2025-02-25 18:38:45,041 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:38:53,796 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 19[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 32[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 21[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1040[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 1042[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 1053[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 2055
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6d49fy9i.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 1035
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp6d49fy9i.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 14
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp6d49fy9i.stottr
+
+
+2025-02-25 18:38:53,881 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '1'  (at char 20), (line:1, col:21)
+2025-02-25 18:39:02,150 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '1.0a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 20
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbi3bvbi1.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '1.0a' at line 2 column 20
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpbi3bvbi1.stottr
+
+
+2025-02-25 18:39:02,176 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:39:07,481 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 33[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 22[ERROR] Syntax error: extraneous input ')' expecting '.' at line 2 column 1041
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2t1znuv1.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 15
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp2t1znuv1.stottr
+
+
+2025-02-25 18:39:07,502 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:39:12,719 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/e' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"^^xsd:invalid).' at line 2 column 40
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpyw5wqs00.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpyw5wqs00.stottr
+
+
+2025-02-25 18:39:12,735 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:39:17,132 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1037[ERROR] Syntax error: token recognition error at: '/X' at line 2 column 1050
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfsl_ie2u.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpfsl_ie2u.stottr
+
+
+2025-02-25 18:39:17,144 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:39:21,707 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppba28ak6.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmppba28ak6.stottr
+
+
+2025-02-25 18:39:21,724 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '"'  (at char 25), (line:1, col:26)
+2025-02-25 18:39:25,991 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '"omO0).' at line 2 column 25[ERROR] Syntax error: mismatched input '<EOF>' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 32
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps7ownqkw.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '' at line 2 column 32
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmps7ownqkw.stottr
+
+
+2025-02-25 18:39:26,002 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:39:30,145 - ERROR - [Runtime] Error in Lutra: [ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"dJ"^^xsd:invalid' at line 2 column 19
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:invalid' at line 2 column 25
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp0sxc7ull.stottr
+
+
+2025-02-25 18:39:30,159 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:39:34,611 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 37[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 39[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 50
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp661mnwem.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 32
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp661mnwem.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '" f"^^xsd:decimal' at line 2 column 1054
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:decimal' at line 2 column 1060
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp661mnwem.stottr
+
+
+2025-02-25 18:39:34,752 - ERROR - [Runtime] Error in pyOTTR: 'ex'
+2025-02-25 18:39:40,387 - ERROR - [Runtime] Error in Lutra: [ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"y"^^xsd:decimal' at line 2 column 28
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:decimal' at line 2 column 33
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpd0hf76zs.stottr
+
+
+2025-02-25 18:39:40,415 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 17), (line:1, col:18)
+2025-02-25 18:39:46,538 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 23[ERROR] Syntax error: token recognition error at: '/9' at line 2 column 36[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 25[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfttnj2nq.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 18
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpfttnj2nq.stottr
+
+
+2025-02-25 18:39:46,572 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:39:53,571 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/S' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 39[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 52
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwjvsqilz.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpwjvsqilz.stottr
+
+
+2025-02-25 18:39:53,602 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:40:09,553 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz7elwvg1.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpz7elwvg1.stottr
+
+
+2025-02-25 18:40:09,590 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:40:16,291 - ERROR - [Runtime] Error in Lutra: [ERROR] Incompatible argument type. Argument "cu"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?c : xsd:decimal
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpo5ufj1mo.stottr
+
+
+2025-02-25 18:40:16,323 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:40:23,774 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 29[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 31[ERROR] Syntax error: token recognition error at: '/i' at line 2 column 42[ERROR] Syntax error: token recognition error at: '//' at line 2 column 53[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 55[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 66
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1e33ckqy.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 48
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp1e33ckqy.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 24
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp1e33ckqy.stottr
+
+
+2025-02-25 18:40:23,807 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:40:31,065 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpg3253ngs.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpg3253ngs.stottr
+
+
+2025-02-25 18:40:31,096 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:40:37,975 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/Z' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 41[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 54
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpv9lwdi1c.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpv9lwdi1c.stottr
+
+
+2025-02-25 18:40:38,013 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:40:46,076 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14[ERROR] Syntax error: token recognition error at: '//' at line 2 column 24[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 37
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjqgsozkv.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpjqgsozkv.stottr
+
+
+2025-02-25 18:40:46,115 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:40:53,903 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1043[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 1056[ERROR] Syntax error: token recognition error at: '//' at line 2 column 2073[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 2086[ERROR] Syntax error: token recognition error at: '//' at line 2 column 3099[ERROR] Syntax error: token recognition error at: '/p' at line 2 column 3112
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbgw0um7f.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpbgw0um7f.stottr
+
+
+2025-02-25 18:40:53,939 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:40:59,532 - ERROR - [Runtime] Error in Lutra: [ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"g"^^xsd:invalid' at line 2 column 29
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:invalid' at line 2 column 34
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp3074wy0f.stottr
+
+
+2025-02-25 18:40:59,552 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:41:03,641 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 25[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 27[ERROR] Syntax error: token recognition error at: '/4' at line 2 column 38
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5w1mfdxx.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 20
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp5w1mfdxx.stottr
+
+
+2025-02-25 18:41:03,659 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 16), (line:1, col:17)
+2025-02-25 18:41:07,927 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 22[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 35[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 24[ERROR] Syntax error: token recognition error at: '"AvBW(, http://example.org/v).' at line 2 column 1039[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1037
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmped5muihe.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 17
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmped5muihe.stottr
+
+
+2025-02-25 18:41:07,940 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:41:12,490 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '129a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 18
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpuq5r8jef.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '129a' at line 2 column 18
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpuq5r8jef.stottr
+
+
+2025-02-25 18:41:12,508 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:16,978 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"I).' at line 2 column 1041
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpf9kfnbmm.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpf9kfnbmm.stottr
+
+
+2025-02-25 18:41:16,992 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:41:21,522 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '2.0a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 31
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphdby4nb7.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '2.0a' at line 2 column 31
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmphdby4nb7.stottr
+
+
+2025-02-25 18:41:21,537 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:25,958 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/X' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 37[ERROR] Syntax error: token recognition error at: '/N' at line 2 column 50
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpzm5bwxag.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpzm5bwxag.stottr
+
+
+2025-02-25 18:41:25,975 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:30,676 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpyd9oq0r5.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpyd9oq0r5.stottr
+
+
+2025-02-25 18:41:30,698 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:41:35,003 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 19[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 32[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 21[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1039
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpm4e66ka_.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 14
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpm4e66ka_.stottr
+
+
+2025-02-25 18:41:35,015 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:41:39,117 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 21[ERROR] Syntax error: token recognition error at: '/b' at line 2 column 34[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 23[ERROR] Syntax error: token recognition error at: '//' at line 2 column 44[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 46[ERROR] Syntax error: token recognition error at: '/T' at line 2 column 57[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 64
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiv2_kx1u.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 39
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpiv2_kx1u.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 16
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpiv2_kx1u.stottr
+
+
+2025-02-25 18:41:39,137 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:43,192 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8wxjunjg.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp8wxjunjg.stottr
+
+
+2025-02-25 18:41:43,228 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:41:47,380 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/Q' at line 2 column 33
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2waiu583.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp2waiu583.stottr
+
+
+2025-02-25 18:41:47,392 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:51,437 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/Y' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpv_fjsx3_.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpv_fjsx3_.stottr
+
+
+2025-02-25 18:41:51,450 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:55,486 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/L' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 43[ERROR] Syntax error: token recognition error at: '/M' at line 2 column 56[ERROR] Syntax error: token recognition error at: '//' at line 2 column 83[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 96[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1109[ERROR] Syntax error: token recognition error at: '/h' at line 2 column 1122
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2gawuxfa.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp2gawuxfa.stottr
+
+
+2025-02-25 18:41:55,499 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:41:59,502 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjqial71c.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpjqial71c.stottr
+
+
+2025-02-25 18:41:59,516 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 17), (line:1, col:18)
+2025-02-25 18:42:04,333 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '<EOF>' expecting {',', ')'} at line 2 column 60
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgbso0mdv.stottr
+
+[ERROR] Incompatible argument type. Argument "@"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?c : xsd:decimal
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpgbso0mdv.stottr
+
+
+2025-02-25 18:42:04,349 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:42:08,704 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1036[ERROR] Syntax error: token recognition error at: '/c' at line 2 column 1049[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1063[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 1076
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpv8o5tun4.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpv8o5tun4.stottr
+
+
+2025-02-25 18:42:08,721 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 16), (line:1, col:17)
+2025-02-25 18:42:15,933 - ERROR - [Runtime] Error in Lutra: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 2 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>, ()(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpg2znfaq7.stottr
+
+
+2025-02-25 18:42:15,973 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:42:26,809 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1035[ERROR] Syntax error: token recognition error at: '/t' at line 2 column 1048
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxa64611r.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpxa64611r.stottr
+
+
+2025-02-25 18:42:26,853 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:42:36,732 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/V' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2kziknqm.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp2kziknqm.stottr
+
+
+2025-02-25 18:42:36,776 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:42:44,212 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 29[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 31[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6t6zz90h.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 24
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp6t6zz90h.stottr
+
+
+2025-02-25 18:42:44,230 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:42:48,858 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/0' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy9tgtnhh.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy9tgtnhh.stottr
+
+
+2025-02-25 18:42:48,874 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:42:53,214 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpo_dk8mes.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpo_dk8mes.stottr
+
+
+2025-02-25 18:42:53,235 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:42:57,718 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 19[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 32[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 21[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1037
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0cd2u12y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 14
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp0cd2u12y.stottr
+
+
+2025-02-25 18:42:57,743 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:43:02,389 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"^^xsd:invalid).' at line 2 column 1049
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp67isesrx.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp67isesrx.stottr
+
+
+2025-02-25 18:43:02,403 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:43:06,774 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqizvolc_.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpqizvolc_.stottr
+
+
+2025-02-25 18:43:06,796 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:43:11,766 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpygz2nrco.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpygz2nrco.stottr
+
+
+2025-02-25 18:43:11,788 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:43:16,481 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/Q' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0_9cwhrl.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp0_9cwhrl.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"c"^^xsd:string' at line 2 column 40
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:string' at line 2 column 45
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp0_9cwhrl.stottr
+
+
+2025-02-25 18:43:16,507 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:43:22,201 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1043[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 1056
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpyyadh4a6.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpyyadh4a6.stottr
+
+
+2025-02-25 18:43:22,230 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:43:26,999 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/v' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: mismatched input '08.8a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 38[ERROR] Syntax error: token recognition error at: '//' at line 2 column 50[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 52[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpaoiz87s9.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpaoiz87s9.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 45
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpaoiz87s9.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '08.8a' at line 2 column 38
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpaoiz87s9.stottr
+
+
+2025-02-25 18:43:27,029 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '^'  (at char 21), (line:1, col:22)
+2025-02-25 18:43:32,371 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '^"' at line 2 column 21[ERROR] Syntax error: extraneous input '^^' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9lh25nzx.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'xsd' in 'xsd:invalid' at line 2 column 25
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp9lh25nzx.stottr
+
+
+2025-02-25 18:43:32,389 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:43:36,661 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 19[ERROR] Syntax error: token recognition error at: '/Q' at line 2 column 32[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 21
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdf73xg92.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 14
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpdf73xg92.stottr
+
+
+2025-02-25 18:43:36,672 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:43:46,529 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 15), (line:1, col:16)
+2025-02-25 18:44:02,497 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 30[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 32[ERROR] Syntax error: token recognition error at: '/n' at line 2 column 43
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp80hz7s4y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 25
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp80hz7s4y.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"K"^^xsd:integer' at line 2 column 51
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:integer' at line 2 column 56
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp80hz7s4y.stottr
+
+
+2025-02-25 18:44:02,548 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:44:10,088 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 24[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 26[ERROR] Syntax error: token recognition error at: '/Q' at line 2 column 37[ERROR] Syntax error: extraneous input 'LN' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 42[ERROR] Syntax error: token recognition error at: '"^^xsd:invalid).' at line 2 column 45[ERROR] Syntax error: mismatched input '<EOF>' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1yfd3c2l.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 19
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp1yfd3c2l.stottr
+
+
+2025-02-25 18:44:10,111 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:44:15,241 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpe941_sch.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpe941_sch.stottr
+
+
+2025-02-25 18:44:15,260 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:44:21,307 - ERROR - [Runtime] Error in Lutra: [ERROR] Incompatible argument type. Argument "w"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?c : xsd:decimal
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmprn5rmu6x.stottr
+
+
+2025-02-25 18:44:21,329 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:44:29,022 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/F' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"%).' at line 2 column 37
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpifp0vstw.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpifp0vstw.stottr
+
+
+2025-02-25 18:44:29,046 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 15), (line:1, col:16)
+2025-02-25 18:44:37,430 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '"@).' at line 2 column 19[ERROR] Syntax error: mismatched input '<EOF>' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9qmprlp2.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '' at line 2 column 23
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp9qmprlp2.stottr
+
+
+2025-02-25 18:44:37,469 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:44:45,415 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/K' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: mismatched input '9.2a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 2 column 36
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppi7bhgbp.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '9.2a' at line 2 column 36
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmppi7bhgbp.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmppi7bhgbp.stottr
+
+
+2025-02-25 18:44:45,452 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:44:53,785 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/1' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 48[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 50[ERROR] Syntax error: token recognition error at: '/7' at line 2 column 61[ERROR] Syntax error: token recognition error at: '//' at line 2 column 83[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 85[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 96[ERROR] Syntax error: token recognition error at: '//' at line 2 column 1110[ERROR] Syntax error: token recognition error at: '/t' at line 2 column 1123[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 1112[ERROR] Syntax error: mismatched input ',' expecting '.' at line 2 column 1149[ERROR] Syntax error: token recognition error at: '"^^xsd:invalid).' at line 2 column 1153
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpana5zx7p.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 78
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpana5zx7p.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 43
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpana5zx7p.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 1105
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpana5zx7p.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpana5zx7p.stottr
+
+
+2025-02-25 18:44:53,823 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:45:01,440 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/C' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdzf6wof8.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpdzf6wof8.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"O"^^xsd:date' at line 2 column 34
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:date' at line 2 column 39
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpdzf6wof8.stottr
+
+
+2025-02-25 18:45:01,473 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:45:08,433 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpveyg4pv8.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpveyg4pv8.stottr
+
+
+2025-02-25 18:45:08,471 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:45:15,509 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/6' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpevrbqd_l.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpevrbqd_l.stottr
+
+
+2025-02-25 18:45:15,537 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:45:22,198 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 26[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '"^^xsd:invalid).' at line 2 column 1096
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz00b5jcm.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpz00b5jcm.stottr
+
+
+2025-02-25 18:45:22,225 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 15), (line:1, col:16)
+2025-02-25 18:45:29,266 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:45:36,301 - ERROR - [Runtime] Error in Lutra: [ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"("^^xsd:string' at line 2 column 17
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:string' at line 2 column 22
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp2bwx9yro.stottr
+
+
+2025-02-25 18:45:36,338 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:45:43,163 - ERROR - [Runtime] Error in Lutra: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 2 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>, ()(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpy67mh6t7.stottr
+
+
+2025-02-25 18:45:43,188 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 14), (line:1, col:15)
+2025-02-25 18:45:49,369 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 26[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 2 column 28[ERROR] Syntax error: token recognition error at: '/A' at line 2 column 39
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkrjqio43.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized literal datatype IRI  in '"&"^^xsd:date' at line 2 column 45
+      [ERROR] Unrecognized prefix 'xsd' in 'xsd:date' at line 2 column 50
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpkrjqio43.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 21
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpkrjqio43.stottr
+
+
+2025-02-25 18:45:49,395 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '('  (at char 13), (line:1, col:14)
+2025-02-25 18:45:55,967 - ERROR - [Runtime] Error in Lutra: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 2 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>, ()(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpiv9bnk6v.stottr
+
+
+2025-02-25 18:45:56,005 - ERROR - [Runtime] Error in pyOTTR: Expected ")", found '@'  (at char 11), (line:1, col:12)
+2025-02-25 18:46:03,180 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 11[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 2 column 14[ERROR] Syntax error: token recognition error at: '//' at line 2 column 20[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 33[ERROR] Syntax error: token recognition error at: '"^^xsd:invalid).' at line 2 column 1038
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfiwdohx2.stottr
+
+[ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org#Test(blank501 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmpfiwdohx2.stottr
+
+
+2025-02-25 18:46:03,210 - ERROR - [Runtime] Error in pyOTTR: Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'h'  (at char 8), (line:1, col:9)
+2025-02-25 18:46:10,711 - ERROR - [Syntax] Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '//' at line 2 column 13[ERROR] Syntax error: token recognition error at: '/u' at line 2 column 26[ERROR] Syntax error: token recognition error at: '@,' at line 2 column 28[ERROR] Syntax error: mismatched input 'example.org' expecting {',', ')'} at line 2 column 15[ERROR] Syntax error: token recognition error at: '//' at line 2 column 48[ERROR] Syntax error: token recognition error at: '/a' at line 2 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp02v8jiyi.stottr
+
+[ERROR] Error in instance of template 'http://example.org#Test'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix 'http' in 'http:' at line 2 column 8
+Location(s):
+- Signature with IRI 'http://example.org#Test'
+- File C:\Users\adria\AppData\Local\Temp\tmp02v8jiyi.stottr
+
+

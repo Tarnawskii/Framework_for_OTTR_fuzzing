@@ -1,0 +1,276 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:teams        _:b1 ;
+        foot:teams        _:b2 ;
+        foot:teams        _:b3 ;
+        foot:teams        _:b3 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b2 ;
+        foot:teams        _:b6 ;
+        foaf:name         "Premier League" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b1 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b6 .
+
+_:b9    foot:country      "Portugal" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b6 .
+
+_:b10   foot:country      "England" ;
+        foaf:birthDate    "1987-12-04"^^xsd:date ;
+        foot:marketValue  100 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Midfielder" ;
+        foaf:name         "Amadou" ;
+        foaf:familyName   "BjÃ¶rk" .
+
+_:b11   foot:country      "Egypt" ;
+        foaf:birthDate    "2012-07-13"^^xsd:date ;
+        foot:marketValue  416013958 ;
+        foot:clubHistory  _:b12 .
+
+_:b13   rdf:rest   _:b14 ;
+        rdf:first  rdf:nil .
+
+_:b15   rdf:rest   _:b16 ;
+        rdf:first  "Manchester United" .
+
+_:b12   rdf:rest   _:b17 ;
+        rdf:first  _:b18 .
+
+_:b19   rdf:rest   _:b20 ;
+        rdf:first  rdf:nil .
+
+_:b21   rdf:rest   _:b22 ;
+        rdf:first  "AS Roma" .
+
+_:b14   rdf:rest   _:b23 ;
+        rdf:first  rdf:nil .
+
+_:b16   rdf:rest   _:b24 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b25   rdf:rest   _:b19 ;
+        rdf:first  rdf:nil .
+
+_:b26   rdf:rest   _:b27 ;
+        rdf:first  rdf:nil .
+
+_:b28   rdf:rest   _:b29 ;
+        rdf:first  rdf:nil .
+
+_:b30   rdf:rest   _:b31 ;
+        rdf:first  "FC Barcelona" .
+
+_:b32   rdf:rest   _:b15 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b33   rdf:rest   _:b34 ;
+        rdf:first  rdf:nil .
+
+_:b35   rdf:rest   _:b36 ;
+        rdf:first  _:b28 .
+
+_:b37   rdf:rest   rdf:nil ;
+        rdf:first  _:b38 .
+
+_:b39   rdf:rest   _:b32 ;
+        rdf:first  rdf:nil .
+
+_:b23   rdf:rest   _:b35 ;
+        rdf:first  _:b26 .
+
+_:b40   rdf:rest   _:b41 ;
+        rdf:first  rdf:nil .
+
+_:b42   rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b20   rdf:rest   _:b43 ;
+        rdf:first  rdf:nil .
+
+_:b22   rdf:rest   _:b44 ;
+        rdf:first  "Arsenal FC" .
+
+_:b43   rdf:rest   _:b21 ;
+        rdf:first  "Inter Milan" .
+
+_:b45   rdf:rest   _:b39 ;
+        rdf:first  rdf:nil .
+
+_:b46   rdf:rest   _:b33 ;
+        rdf:first  rdf:nil .
+
+_:b47   rdf:rest   _:b48 ;
+        rdf:first  rdf:nil .
+
+_:b49   rdf:rest   _:b50 ;
+        rdf:first  rdf:nil .
+
+_:b51   rdf:rest   _:b13 ;
+        rdf:first  rdf:nil .
+
+_:b52   rdf:rest   _:b42 ;
+        rdf:first  "Benfica" .
+
+_:b18   rdf:rest   _:b53 ;
+        rdf:first  rdf:nil .
+
+_:b36   rdf:rest   _:b37 ;
+        rdf:first  _:b40 .
+
+_:b29   rdf:rest   _:b45 ;
+        rdf:first  rdf:nil .
+
+_:b53   rdf:rest   _:b54 ;
+        rdf:first  rdf:nil .
+
+_:b41   rdf:rest   _:b46 ;
+        rdf:first  rdf:nil .
+
+_:b24   rdf:rest   rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b55   rdf:rest   _:b52 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b48   rdf:rest   _:b55 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b44   rdf:rest   rdf:nil ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b34   rdf:rest   _:b56 ;
+        rdf:first  "FC Porto" .
+
+_:b57   rdf:rest   _:b47 ;
+        rdf:first  rdf:nil .
+
+_:b56   rdf:rest   _:b30 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b54   rdf:rest   _:b49 ;
+        rdf:first  rdf:nil .
+
+_:b38   rdf:rest   _:b25 ;
+        rdf:first  rdf:nil .
+
+_:b31   rdf:rest   rdf:nil ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b50   rdf:rest   _:b51 ;
+        rdf:first  rdf:nil .
+
+_:b17   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b27   rdf:rest   _:b57 ;
+        rdf:first  rdf:nil .
+
+_:b11   rdf:type          foot:Footballer ;
+        foot:position     "Defender" ;
+        foaf:name         "Lionel" ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  _:b5 .
+
+_:b58   foot:country      "France" ;
+        foaf:birthDate    "1958-02-03"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Forward" ;
+        foaf:name         "Lionel" ;
+        foaf:familyName   "HÃ¥kon" .
+
+_:b59   foot:country      "France" ;
+        foaf:birthDate    "1997-05-06"^^xsd:date ;
+        foot:marketValue  544923773 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Goalkeeper" ;
+        foaf:name         "Lionel" ;
+        foaf:familyName   "O'Connor" .
+
+_:b60   foot:country      "Egypt" ;
+        foaf:birthDate    "1975-08-01"^^xsd:date ;
+        foot:marketValue  041767408 ;
+        foot:clubHistory  _:b61 .
+
+_:b61   rdf:rest   _:b62 ;
+        rdf:first  "Valencia CF"@fi .
+
+_:b62   rdf:rest   rdf:nil ;
+        rdf:first  "Real Madrid"@fr .
+
+_:b60   rdf:type         foot:Footballer ;
+        foot:position    "Striker"@en ;
+        foaf:name        "Lionel" ;
+        foaf:familyName  "MÃ¼ller" .
+
+_:b63   foot:country      "England" ;
+        foaf:birthDate    "1965-09-09"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Forward" ;
+        foaf:name         "Cristiano" ;
+        foaf:familyName   "BrontÃ«" .
+
+_:b64   foot:country      "France" ;
+        foaf:birthDate    "2002-03-02"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  _:b65 .
+
+_:b66   rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b67   rdf:rest   _:b68 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b65   rdf:rest   _:b69 ;
+        rdf:first  rdf:nil .
+
+_:b68   rdf:rest   _:b70 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b69   rdf:rest   rdf:nil ;
+        rdf:first  _:b67 .
+
+_:b71   rdf:rest   _:b72 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b73   rdf:rest   _:b74 ;
+        rdf:first  "Benfica" .
+
+_:b72   rdf:rest   _:b73 ;
+        rdf:first  "AS Roma" .
+
+_:b70   rdf:rest   _:b71 ;
+        rdf:first  "Manchester United" .
+
+_:b74   rdf:rest   _:b66 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b64   rdf:type         foot:Footballer ;
+        foot:position    "Defender" ;
+        foaf:name        "Cristiano" ;
+        foaf:familyName  "Messi" .

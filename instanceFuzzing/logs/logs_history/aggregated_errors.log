@@ -1,0 +1,270 @@
+
+=== Sammendrag av tester ===
+Antall instanser testet: 28
+Begge verktøy gyldig (output): 0
+pyOTTR OK: 0
+Lutra OK: 1
+Begge feilet med samme feil: 0
+Begge feilet med ulike feil: 18
+Én OK og én feilet: 1
+Gyldige instanser med ikke-isomorfe grafer: 0
+
+Aggregerte pyOTTR-feil:
+  Expected ")", found '0'  (at char 356), (line:7, col:84): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'P'  (at char 289), (line:7, col:17): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'N'  (at char 286), (line:7, col:14): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'd'  (at char 289), (line:7, col:17): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'W'  (at char 289), (line:7, col:17): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'r'  (at char 285), (line:7, col:13): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '%'  (at char 283), (line:7, col:11): 1
+  Expected ")", found 'a'  (at char 292), (line:7, col:20): 1
+  Expected ")", found end of text  (at char 300), (line:7, col:28): 1
+  Expected ".", found end of text  (at char 294), (line:7, col:22): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '$'  (at char 283), (line:7, col:11): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'd'  (at char 286), (line:7, col:14): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'i'  (at char 289), (line:7, col:17): 1
+  Expected ")", found '`'  (at char 311), (line:7, col:39): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found ':'  (at char 283), (line:7, col:11): 1
+  Expected ")", found end of text  (at char 297), (line:7, col:25): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'p'  (at char 289), (line:7, col:17): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '#'  (at char 286), (line:7, col:14): 1
+  Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found 'r'  (at char 283), (line:7, col:11): 1
+
+Aggregerte Lutra-feil:
+  None: 0
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'P' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 'G' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 103
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcyg7y2rh.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 0 in instance: http://example.org/football#Footballer()
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpcyg7y2rh.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 0 in instance: http://example.org/football#Footballer()
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpcyg7y2rh.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'N' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 13
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpe6lcjp18.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 0 in instance: http://example.org/football#Country()
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpe6lcjp18.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'd' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 't' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 56[ERROR] Syntax error: extraneous input 'D' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 59
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpv5spabol.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Footballer'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 't' at line 7 column 56
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpv5spabol.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Footballer'.
+  [ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpv5spabol.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'W' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp29rphc3o.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 0 in instance: http://example.org/football#Footballer()
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp29rphc3o.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'r' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 12[ERROR] Syntax error: token recognition error at: '&' at line 7 column 16
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmc01w78i.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmpmc01w78i.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%\' at line 7 column 10[ERROR] Syntax error: mismatched input 'J' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 12[ERROR] Syntax error: token recognition error at: '<"' at line 7 column 31[ERROR] Syntax error: token recognition error at: '",Ru)/&' at line 7 column 45
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcw647y1j.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpcw647y1j.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'a' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 19[ERROR] Syntax error: extraneous input 'm' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 24[ERROR] Syntax error: extraneous input 'v' expecting {',', ')'} at line 7 column 28[ERROR] Syntax error: mismatched input 'This' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 36[ERROR] Syntax error: mismatched input 'kZ' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 53[ERROR] Syntax error: missing '.' at '<EOF>' at line 7 column 56
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpt4_n0emw.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'a' at line 7 column 19
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpt4_n0emw.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'kZ' at line 7 column 53
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpt4_n0emw.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '"ej\/' at line 7 column 16[ERROR] Syntax error: token recognition error at: '/H' at line 7 column 21[ERROR] Syntax error: token recognition error at: '"' at line 7 column 26[ERROR] Syntax error: mismatched input 'qTo' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprhyu3v9q.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 0 in instance: http://example.org/football#Footballer()
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmprhyu3v9q.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 20[ERROR] Syntax error: missing '.' at '<EOF>' at line 7 column 21
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpf_z4h6d1.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Club'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '' at line 7 column 20
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpf_z4h6d1.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '$' at line 7 column 10[ERROR] Syntax error: extraneous input 'LhAE' expecting {',', ')'} at line 7 column 14[ERROR] Syntax error: extraneous input ':' expecting {',', ')'} at line 7 column 33[ERROR] Syntax error: token recognition error at: '")' at line 7 column 57
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqbo7hhcr.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(","^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Liverpool"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ""^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument ","^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument ""^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?foundedYear : xsd:gYear
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpqbo7hhcr.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'd' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 13
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2mvndih4.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 0 in instance: http://example.org/football#Country()
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmp2mvndih4.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'i' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 'V' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 47[ERROR] Syntax error: extraneous input 'G' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 50[ERROR] Syntax error: missing '.' at '<EOF>' at line 7 column 62
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmplhu1lxdb.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Footballer'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'V' at line 7 column 47
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplhu1lxdb.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Footballer'.
+  [ERROR] Invalid literal value. The value '2020-13-32' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplhu1lxdb.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '`' at line 7 column 38[ERROR] Syntax error: extraneous input '00000' expecting {',', ')'} at line 7 column 39
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxcpv1rij.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#League(blank501 : LUB<rdfs:Resource>, "Premier League"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "_"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "_"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?foundedYear : xsd:gYear
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmpxcpv1rij.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '"FE\/' at line 7 column 11[ERROR] Syntax error: token recognition error at: '/I' at line 7 column 16[ERROR] Syntax error: mismatched input 'MOe' expecting {',', ')'} at line 7 column 18[ERROR] Syntax error: token recognition error at: '"^^xsd:gYear,Dw&B,a)~=' at line 7 column 39
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp38bs6aw5.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Club'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized prefix '' in ':' at line 7 column 10
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp38bs6aw5.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 7 column 24
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp76vi5i1o.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 1 in instance: http://example.org/football#Footballer("QgmKxW"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "QgmKxW"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp76vi5i1o.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'p' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp09qgr11b.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 0 in instance: http://example.org/football#Footballer()
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp09qgr11b.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '<EOF>' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 40
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpypar9kdu.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 0 in instance: http://example.org/football#Country()
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpypar9kdu.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'r' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 10
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprwh0jgsa.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmprwh0jgsa.stottr
+
+: 1

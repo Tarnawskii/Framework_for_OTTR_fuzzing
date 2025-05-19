@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Club(_:pxe,dK^^xsd:string,"$Em"^^gYear, "y"="f"^^xsd:string, " zC"^^xsd:string) ;
+foot:Footballer(I,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,B,(J),Millions^^xsd:integer,"Midfielder"^^xsd:string,"Argentina"^^xsd:string)  foot:Club(o,none^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string) .
+foot:Country("uUObnc","Egypt"^^xsd:string,"North America"@en^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,(P,X,G,"Wrong")) ":"{~
+foot:League("YR\//kivh","La Liga"^^xsd:string,"England"@en^^xsd:string,(((M),(L)),("N"s")), ((S),(D),(((q))))) ,
+foot:League(A,""^"0wTl"^^xsd:string,""^^xsd:string,(""&Wr""), ((V))) "|"
+foot:Footballer(t,"Cristiano"^^xsd:string,"Çelik"^^xsd:string,""""^^xsd:date,H,(j),010^^xsd:integer,""^^xsd:string,""^^xsd:string) .foot:Club(F,none^^xsd:string,0^^gYear, "Allianz Arena"^^xsd:string, "France"^^xsd:string) .
+foot:Country(a,""^^xsd:string,QZ^^:xsd:string,""^^xsd:string,(H,v,B,Mw)^^List<xsd:string>,(g]q)) .
+foot:Footballer(d,""^^xsd:string,"Ronaldo"^^xsd:string,"9999-99-99"^^xsd:date,c,(u),a^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string) .foot:Club(d,none^^xsd:string,00000^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+foot:Footballer(s,""^^xsd:string,"Messi"^^xsd:string,"0000-00-00"^^xsd:date,A,(M),100000000^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string) .foot:Club(D,none^^xsd:string,""^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string)  
+foot:Footballer(U,""^^xsd:string,"Müller"^^xsd:string,"9999-99-99"^^xsd:date,M,(F),1million^^xsd:integer,""^^xsd:string,""^^xsd:string)  foot:Club(x,none^^xsd:string,00^^gYear, "Allianz Arena"^^xsd:string, a^^xsd:string)  

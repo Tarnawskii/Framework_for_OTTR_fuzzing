@@ -1,0 +1,25 @@
+2025-04-08 18:44:16,626 - INFO - Template 1 processed in 4.98 seconds
+2025-04-08 18:44:16,629 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<unclosedIRI ' at line 7 column 245[ERROR] Syntax error: no viable alternative at input 'xsd:Annotation[?!ottr:Bot,' at line 7 column 29[ERROR] Syntax error: mismatched input '.' expecting IRIREF at line 7 column 297
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy6eeg1a2.stottr
+
+[ERROR] Syntax error in base prefix declaration: unparsable base URI,  in 'BASE.' at line 7 column 292
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy6eeg1a2.stottr
+
+
+2025-04-08 18:44:16,630 - ERROR - Output: 
+2025-04-08 18:44:16,630 - ERROR - Template 1: xsd:Annotation [ ?! ottr:Bot , ?? ?BP = ?s , , ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] @@  <unclosedIRI ( ( ( ?,[ , _:b2 ,, ) ) ) ,, ) :: BASE .
+
+2025-04-08 18:44:16,630 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<unclosedIRI ' at line 7 column 245[ERROR] Syntax error: no viable alternative at input 'xsd:Annotation[?!ottr:Bot,' at line 7 column 29[ERROR] Syntax error: mismatched input '.' expecting IRIREF at line 7 column 297
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy6eeg1a2.stottr
+
+[ERROR] Syntax error in base prefix declaration: unparsable base URI,  in 'BASE.' at line 7 column 292
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy6eeg1a2.stottr
+
+
+2025-04-08 18:44:16,630 - ERROR - Output: 

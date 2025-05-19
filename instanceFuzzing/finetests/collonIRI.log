@@ -1,0 +1,250 @@
+2025-02-26 12:49:31,525 - ERROR - Instance 8 failed: [ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpoexybw92.stottr
+
+
+2025-02-26 12:49:35,672 - ERROR - Instance 9 failed: [ERROR] Incompatible argument type. Argument ("Camp Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14) with type NEList<LUB<rdfs:Resource>> given to parameter ?stadiumName : xsd:string
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmped6qb6tt.stottr
+
+
+2025-02-26 12:49:40,175 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '%\n' at line 7 column 72
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmplkysixy5.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmplkysixy5.stottr
+
+
+2025-02-26 12:49:45,245 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1wz9vnmy.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp1wz9vnmy.stottr
+
+
+2025-02-26 12:49:50,000 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '%\n' at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmrvb_dwz.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpmrvb_dwz.stottr
+
+
+2025-02-26 12:49:55,186 - ERROR - Instance 13 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-02-26 12:49:55,188 - ERROR - Fatal error at instance 13: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-02-26 12:51:53,191 - ERROR - Instance 8 failed: [ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpqd3ugyaj.stottr
+
+
+2025-02-26 12:51:57,115 - ERROR - Instance 9 failed: [ERROR] Incompatible argument type. Argument ("Camp Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14) with type NEList<LUB<rdfs:Resource>> given to parameter ?stadiumName : xsd:string
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp0m33op3z.stottr
+
+
+2025-02-26 12:52:00,971 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '%\n' at line 7 column 72
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8w2v4ayj.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp8w2v4ayj.stottr
+
+
+2025-02-26 12:52:05,190 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptj0ueim_.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmptj0ueim_.stottr
+
+
+2025-02-26 12:52:09,762 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '%\n' at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6fvf48bp.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp6fvf48bp.stottr
+
+
+2025-02-26 12:52:14,352 - ERROR - Instance 13 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-02-26 12:52:14,354 - ERROR - Fatal error at instance 13: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-02-26 12:52:17,890 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq1a25lko.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpq1a25lko.stottr
+
+
+2025-02-26 12:52:21,545 - ERROR - Instance 15 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 51
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphiuqfrbr.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmphiuqfrbr.stottr
+
+
+2025-02-26 12:52:25,191 - ERROR - Instance 16 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 62
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp87bivppi.stottr
+
+[ERROR] Incompatible argument type. Argument "c"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp87bivppi.stottr
+
+
+2025-02-26 12:52:28,846 - ERROR - Instance 17 failed: [ERROR] Incompatible argument type. Argument "2018"^^http://www.w3.org/2001/XMLSchema#invalid : rdfs:Literal with type rdfs:Literal given to parameter ?foundedYear : xsd:gYear
+[ERROR] Incompatible argument type. Argument "Spain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [WARNING] Unusual literal datatype. The literal value'Result("2018"^^http://www.w3.org/2001/XMLSchema#invalid : rdfs:Literal)[]' uses a datatype 'http://www.w3.org/2001/XMLSchema#invalid' that is not registered by the parser
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpem0c4n0j.stottr
+
+
+2025-02-26 12:52:32,588 - ERROR - Instance 18 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ')' expecting '.' at line 7 column 67
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6bxmx9xu.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 4 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear, "deep"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp6bxmx9xu.stottr
+
+
+2025-02-26 12:52:36,336 - ERROR - Instance 19 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8tl2xygl.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 4 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear, "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp8tl2xygl.stottr
+
+
+2025-02-26 12:52:40,468 - ERROR - Instance 20 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: extraneous input ')' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcqf_qkai.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpcqf_qkai.stottr
+
+
+2025-02-26 12:52:44,738 - ERROR - Instance 21 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input ',' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 32[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 50[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 59
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprrk3ywen.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmprrk3ywen.stottr
+
+
+2025-02-26 12:52:48,707 - ERROR - Instance 22 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_j27ihtw.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp_j27ihtw.stottr
+
+
+2025-02-26 12:52:52,462 - ERROR - Instance 23 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58[ERROR] Syntax error: token recognition error at: '").\n' at line 7 column 71
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp00x5ljy8.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp00x5ljy8.stottr
+
+
+2025-02-26 12:52:56,212 - ERROR - Instance 24 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58[ERROR] Syntax error: token recognition error at: '%)' at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiwqvom9j.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpiwqvom9j.stottr
+
+
+2025-02-26 12:53:00,027 - ERROR - Instance 25 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 435
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_efbhtxs.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp_efbhtxs.stottr
+
+
+2025-02-26 12:53:03,779 - ERROR - Instance 26 failed: [ERROR] Incompatible argument type. Argument "Spain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmprydc9pzd.stottr
+
+
+2025-02-26 12:53:07,807 - ERROR - Instance 27 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 57
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8zmv2y35.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Juve"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp8zmv2y35.stottr
+
+
+2025-02-26 12:53:12,669 - ERROR - Instance 28 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-02-26 12:53:12,670 - ERROR - Fatal error at instance 28: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+

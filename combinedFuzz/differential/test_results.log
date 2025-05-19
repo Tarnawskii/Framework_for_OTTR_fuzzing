@@ -1,0 +1,306 @@
+Template 1, Instance 1:
+Template: ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+Instance: foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'W'  (at char 8), (line:1, col:9)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+
+Processing time: 3.35 seconds
+
+Template 1, Instance 2:
+Template: ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+Instance: foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'W'  (at char 8), (line:1, col:9)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+
+Processing time: 3.42 seconds
+
+Template 1, Instance 3:
+Template: ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+Instance: foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'W'  (at char 8), (line:1, col:9)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+
+Processing time: 3.70 seconds
+
+Template 1, Instance 4:
+Template: ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+Instance: foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'W'  (at char 8), (line:1, col:9)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+
+Processing time: 3.83 seconds
+
+Template 2, Instance 1:
+Template: ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+Instance: foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'x'  (at char 16), (line:1, col:17)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+
+Processing time: 3.58 seconds
+
+Template 2, Instance 2:
+Template: ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+Instance: foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'x'  (at char 16), (line:1, col:17)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+
+Processing time: 3.94 seconds
+
+Template 2, Instance 3:
+Template: ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+Instance: foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'x'  (at char 16), (line:1, col:17)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+
+Processing time: 3.94 seconds
+
+Template 2, Instance 4:
+Template: ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+Instance: foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+Result: Both rejected, different errors:
+pyOTTR: Expected "[", found 'x'  (at char 16), (line:1, col:17)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+
+Processing time: 4.66 seconds
+
+Template 3, Instance 1:
+Template: ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+Instance: foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found '_'  (at char 46), (line:1, col:47)
+Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: ';' at line 7 column 12[ERROR] Syntax error: extraneous input 'uPZd' expecting {',', ')'} at line 7 column 16[ERROR] Syntax error: mismatched input '""' expecting {',', ')'} at line 7 column 74[ERROR] Syntax error: token recognition error at: '"), (n))\r' at line 7 column 80
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#League
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+
+Processing time: 4.81 seconds
+
+Template 3, Instance 2:
+Template: ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+Instance: foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found '_'  (at char 46), (line:1, col:47)
+Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'E' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 'x' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 133
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Footballer
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Club
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+
+Processing time: 5.82 seconds
+
+Template 3, Instance 3:
+Template: ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+Instance: foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found '_'  (at char 46), (line:1, col:47)
+Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'a' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 74[ERROR] Syntax error: mismatched input 'h' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76[ERROR] Syntax error: mismatched input 'Ab' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 78[ERROR] Syntax error: mismatched input '^^' expecting '.' at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'Ab' at line 7 column 78
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'h' at line 7 column 76
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+
+Processing time: 6.00 seconds
+
+Template 3, Instance 4:
+Template: ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+Instance: foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found '_'  (at char 46), (line:1, col:47)
+Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'O' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 13[ERROR] Syntax error: token recognition error at: '^\r' at line 7 column 111
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Country
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+
+Processing time: 7.77 seconds
+
+Template 4, Instance 1:
+Template: foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+Instance: foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found ','  (at char 42), (line:1, col:43)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjuqpg0wq.stottr
+
+
+Processing time: 5.83 seconds
+
+Template 4, Instance 2:
+Template: foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+Instance: foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found ','  (at char 42), (line:1, col:43)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwiicl7yf.stottr
+
+
+Processing time: 5.81 seconds
+
+Template 4, Instance 3:
+Template: foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+Instance: foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found ','  (at char 42), (line:1, col:43)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppcufm34w.stottr
+
+
+Processing time: 4.82 seconds
+
+Template 4, Instance 4:
+Template: foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+Instance: foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+Result: Both rejected, different errors:
+pyOTTR: Expected "]", found ','  (at char 42), (line:1, col:43)
+Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk7p6tri0.stottr
+
+
+Processing time: 4.80 seconds
+

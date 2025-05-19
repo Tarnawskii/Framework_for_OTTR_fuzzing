@@ -1,0 +1,12 @@
+Instance 1: @prefix ex: <http://example.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ex:Test(_:x, (_:y, _:z), 12.5).
+maplib validation issues: ['Expected 2 ex:b and 1 ex:c, got 0 ex:b and 0 ex:c']
+Lutra validation issues: ['Expected 3 triples, got 6', 'Expected 2 ex:b and 1 ex:c, got 0 ex:b and 0 ex:c']
+Result: Graphs differ or invalid
+Differences:
+In maplib only: [(rdflib.term.URIRef('http://example.org#c'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#rest'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#rest')), (rdflib.term.BNode('cb0'), rdflib.term.URIRef('_:l_1_0_0'), rdflib.term.URIRef('_:l_1_0_1')), (rdflib.term.URIRef('"12.5"^^<http://www.w3.org/2001/XMLSchema#decimal>'), rdflib.term.URIRef('_:l_1_0_1'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#nil'))]
+In Lutra only: [(rdflib.term.BNode('cbd7c96744b860be374134b6eeace4a6009e3d5947219e59b3c009836ad1012775'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#rest'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#nil')), (rdflib.term.BNode('cbaf175829a097de6e06b9e421448d2027fff49578b6a4377a9f4a59c0aab84cb5'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#rest'), rdflib.term.BNode('cbd7c96744b860be374134b6eeace4a6009e3d5947219e59b3c009836ad1012775')), (rdflib.term.BNode('cbaf175829a097de6e06b9e421448d2027fff49578b6a4377a9f4a59c0aab84cb5'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#first'), rdflib.term.BNode('cb0')), (rdflib.term.BNode('cbb0d74e5000155fc95cd3ec6c597e7c765e024ac6c1c32dbefda8e100c24cc7d5'), rdflib.term.URIRef('http://example.org#b'), rdflib.term.BNode('cbaf175829a097de6e06b9e421448d2027fff49578b6a4377a9f4a59c0aab84cb5')), (rdflib.term.BNode('cbb0d74e5000155fc95cd3ec6c597e7c765e024ac6c1c32dbefda8e100c24cc7d5'), rdflib.term.URIRef('http://example.org#c'), rdflib.term.Literal('12.5', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#decimal'))), (rdflib.term.BNode('cbd7c96744b860be374134b6eeace4a6009e3d5947219e59b3c009836ad1012775'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#first'), rdflib.term.BNode('cb8e4156f582d3d228947db38d8c7e06d3eb26b76940d30c6849e2a7486ea4631a'))]
+Serialization error: ""12.5"^^<http://www.w3.org/2001/XMLSchema#decimal>" does not look like a valid URI, I cannot serialize this as N3/Turtle. Perhaps you wanted to urlencode it?
+Processing time: 4.73 seconds
+

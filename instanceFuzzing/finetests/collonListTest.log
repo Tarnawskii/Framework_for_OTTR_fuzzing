@@ -1,0 +1,173 @@
+2025-03-06 23:30:18,201 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((l),(f)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:30:18,202 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'f' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 77
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjqkf9xuv.stottr
+
+
+2025-03-06 23:30:21,760 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((l)),10,_:Forward,"Argentina") .
+2025-03-06 23:30:21,760 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp06visp0.stottr
+
+
+2025-03-06 23:31:12,223 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((l),(f)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:31:12,223 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'f' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 77
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmplxtq6q8l.stottr
+
+
+2025-03-06 23:31:16,130 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(((l))),10,_:Forward,"Argentina") .
+2025-03-06 23:31:16,130 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 74
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqiay9p74.stottr
+
+
+2025-03-06 23:31:42,276 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:l),(f)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:31:42,276 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'f' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 79
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi585gsj_.stottr
+
+
+2025-03-06 23:31:46,333 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(((l))),10,_:Forward,"Argentina") .
+2025-03-06 23:31:46,333 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 74
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpexmdllyq.stottr
+
+
+2025-03-06 23:32:16,435 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:l),(f)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:32:16,435 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'f' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 79
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkph2ptk8.stottr
+
+
+2025-03-06 23:32:20,189 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:(l))),10,_:Forward,"Argentina") .
+2025-03-06 23:32:20,190 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '_:' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpf7osr9kn.stottr
+
+
+2025-03-06 23:32:57,741 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(_:l,(f)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:32:57,741 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'f' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 77
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcskohhcw.stottr
+
+
+2025-03-06 23:33:01,454 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:(l))),10,_:Forward,"Argentina") .
+2025-03-06 23:33:01,454 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '_:' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2b39wztl.stottr
+
+
+2025-03-06 23:33:57,969 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((l),_:f),10,_:Forward,"Argentina") .
+
+2025-03-06 23:33:57,970 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4g27ihof.stottr
+
+
+2025-03-06 23:34:02,244 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:(l))),10,_:Forward,"Argentina") .
+2025-03-06 23:34:02,244 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '_:' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2ovm53b9.stottr
+
+
+2025-03-06 23:36:21,120 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((l),_:f),10,_:Forward,"Argentina") .
+
+2025-03-06 23:36:21,124 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpciaqp3cl.stottr
+
+
+2025-03-06 23:36:29,527 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:(l))),10,_:Forward,"Argentina") .
+2025-03-06 23:36:29,527 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '_:' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptvir676q.stottr
+
+
+2025-03-06 23:36:55,886 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((l),_:f),10,_:Forward,"Argentina") .
+
+2025-03-06 23:36:55,889 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4bhpvxg9.stottr
+
+
+2025-03-06 23:37:13,374 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:(l))),10,_:Forward,"Argentina") .
+
+2025-03-06 23:37:13,375 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '_:' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 73[ERROR] Syntax error: extraneous input 'l' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdk3ccxw7.stottr
+
+
+2025-03-06 23:37:30,307 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:37:30,308 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4ib7i_77.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp4ib7i_77.stottr
+
+
+2025-03-06 23:37:37,347 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:f),10,_:Forward,"Argentina") .
+
+2025-03-06 23:37:37,348 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 7 column 104
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz4gmdecx.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14), "10"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer, blank503 : LUB<rdfs:Resource>, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpz4gmdecx.stottr
+
+
+2025-03-06 23:44:12,800 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-03-06 23:44:12,802 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_0yp_lca.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp_0yp_lca.stottr
+
+
+2025-03-06 23:44:21,390 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:f),10,_:Forward,"Argentina") .
+
+2025-03-06 23:44:21,390 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 7 column 104
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp83qx30vi.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14), "10"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer, blank503 : LUB<rdfs:Resource>, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp83qx30vi.stottr
+
+

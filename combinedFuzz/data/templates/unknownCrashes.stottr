@@ -1,0 +1,15 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+foot:Footballer [ ?rdfs:Resource ?q ] zipMax | foot:Footballer() :: { ottr:Triple(?Z, foot:Footballer, "0742-39-61"^^xsd:date) } .
+foot:Ball[LUB<ottr:Bot> ?name, ?List<LUB<NEList<rdfs:Datatype>>> ?list] :: {o-rdf:Type(?wKR, ?name), ottr:Triple(?e, foot:Footballer, ?list) } .
+
+foot:Footballer [ ?LUB<xsd:date> ?C ] @@ zipMin | ottr:IRI() @@ foot:Template1() :: { o-rdf:Type(?M, 2+.4+) } .
+ottr:IRI [ ?!xsd:string ?A ]  :: { ottr:Triple(?Q, foot:Footballer, _:b2) , ottr:Triple(?f, foot:Template1, _:b2) , o-rdf:Type(?P, _:b2) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Template1 [ !rdfs:Datatype ?K ]  :: { o-rdf:Type(?r, _:b2) , ottr:Triple(?Z, foot:Footballer, _:b1) , o-rdf:Type(?q, _:b2) } .
+foot:Template1 [ !xsd:string ?q ]  :: { o-rdf:Type(?W, none) , o-rdf:Type(?r, _:b1) } .

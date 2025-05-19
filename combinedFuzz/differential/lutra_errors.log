@@ -1,0 +1,772 @@
+Debug: Template file content (t1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+
+Debug: Template file size: 312 bytes
+Debug: Instance file content (i1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+
+Debug: Instance file size: 330 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpp4_2_dkq.stottr -o C:\Users\adria\AppData\Local\Temp\tmpqkgvwoeb.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t1_i1.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+
+Debug: Template file content (t1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+
+Debug: Template file size: 312 bytes
+Debug: Instance file content (i2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+
+Debug: Instance file size: 449 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpiniqaspr.stottr -o C:\Users\adria\AppData\Local\Temp\tmp3lsuhl9v.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t1_i2.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+
+Debug: Template file content (t1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+
+Debug: Template file size: 312 bytes
+Debug: Instance file content (i3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+
+Debug: Instance file size: 345 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmp4_kw2ikb.stottr -o C:\Users\adria\AppData\Local\Temp\tmpp85z9ufe.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t1_i3.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+
+Debug: Template file content (t1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ex:Name With Space [  ] :: { o-rdf:Type(?birthday, foot:Club), xXUls }
+
+Debug: Template file size: 312 bytes
+Debug: Instance file content (i4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+
+Debug: Instance file size: 354 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmp6ay6lorn.stottr -o C:\Users\adria\AppData\Local\Temp\tmp5x6av1fn.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t1_i4.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+
+Debug: Template file content (t2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+
+Debug: Template file size: 382 bytes
+Debug: Instance file content (i1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+
+Debug: Instance file size: 330 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpixx3qf8b.stottr -o C:\Users\adria\AppData\Local\Temp\tmpuckyzhg3.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t2_i1.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+
+Debug: Template file content (t2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+
+Debug: Template file size: 382 bytes
+Debug: Instance file content (i2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+
+Debug: Instance file size: 449 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpl5553yw9.stottr -o C:\Users\adria\AppData\Local\Temp\tmp2raweb07.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t2_i2.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+
+Debug: Template file content (t2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+
+Debug: Template file size: 382 bytes
+Debug: Instance file content (i3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+
+Debug: Instance file size: 345 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmplulbpicf.stottr -o C:\Users\adria\AppData\Local\Temp\tmptjy2ft_u.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t2_i3.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+
+Debug: Template file content (t2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Footballer xsd:integer year,, List<gYear> ?stadium_name ? List<xsd:string> ?fifaCode, :: { ottr:Triple(?marketValue, ex:continent)  } .
+
+Debug: Template file size: 382 bytes
+Debug: Instance file content (i4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+
+Debug: Instance file size: 354 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpcbq3cs1o.stottr -o C:\Users\adria\AppData\Local\Temp\tmpl5g5svve.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t2_i4.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+
+Debug: Template file content (t3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+
+Debug: Template file size: 367 bytes
+Debug: Instance file content (i1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+
+Debug: Instance file size: 330 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmptj_1igcj.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr -o C:\Users\adria\AppData\Local\Temp\tmp8fu3nj1c.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: ';' at line 7 column 12[ERROR] Syntax error: extraneous input 'uPZd' expecting {',', ')'} at line 7 column 16[ERROR] Syntax error: mismatched input '""' expecting {',', ')'} at line 7 column 74[ERROR] Syntax error: token recognition error at: '"), (n))\r' at line 7 column 80
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#League
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t3_i1.ttl
+TemplateInstanceProcessing: Error in Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: ';' at line 7 column 12[ERROR] Syntax error: extraneous input 'uPZd' expecting {',', ')'} at line 7 column 16[ERROR] Syntax error: mismatched input '""' expecting {',', ')'} at line 7 column 74[ERROR] Syntax error: token recognition error at: '"), (n))\r' at line 7 column 80
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#League
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+
+Debug: Template file content (t3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+
+Debug: Template file size: 367 bytes
+Debug: Instance file content (i2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+
+Debug: Instance file size: 449 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpd2bvxzu9.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr -o C:\Users\adria\AppData\Local\Temp\tmp3020xubx.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'E' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 'x' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 133
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Footballer
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Club
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t3_i2.ttl
+TemplateInstanceProcessing: Error in Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'E' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 'x' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 133
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Footballer
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Club
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+
+Debug: Template file content (t3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+
+Debug: Template file size: 367 bytes
+Debug: Instance file content (i3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+
+Debug: Instance file size: 345 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmp9a88yqw6.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr -o C:\Users\adria\AppData\Local\Temp\tmp1adwkmbs.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'a' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 74[ERROR] Syntax error: mismatched input 'h' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76[ERROR] Syntax error: mismatched input 'Ab' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 78[ERROR] Syntax error: mismatched input '^^' expecting '.' at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'Ab' at line 7 column 78
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'h' at line 7 column 76
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t3_i3.ttl
+TemplateInstanceProcessing: Error in Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'a' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 74[ERROR] Syntax error: mismatched input 'h' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76[ERROR] Syntax error: mismatched input 'Ab' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 78[ERROR] Syntax error: mismatched input '^^' expecting '.' at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'Ab' at line 7 column 78
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'h' at line 7 column 76
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+
+Debug: Template file content (t3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+ottr:Country [ ? ?currentClub, ottr:IRI ?array_of_topPlayers ] :: { ottr:Triple(?countryName, foot:clubName, ?leagueName) } .
+
+Debug: Template file size: 367 bytes
+Debug: Instance file content (i4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+
+Debug: Instance file size: 354 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpncfd_bhh.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr -o C:\Users\adria\AppData\Local\Temp\tmpjklxnh2j.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'O' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 13[ERROR] Syntax error: token recognition error at: '^\r' at line 7 column 111
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Country
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t3_i4.ttl
+TemplateInstanceProcessing: Error in Lutra: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'O' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 13[ERROR] Syntax error: token recognition error at: '^\r' at line 7 column 111
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Country
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+
+Debug: Template file content (t4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+
+Debug: Template file size: 322 bytes
+Debug: Instance file content (i1):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:League(;":"uPZd,"La Liga"^^xsd:string,"Argentina"^^xsd:string,("l%D,"""or"""), (n))
+
+Debug: Instance file size: 330 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpjuqpg0wq.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmppx17rckc.stottr -o C:\Users\adria\AppData\Local\Temp\tmptn6cj9ej.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjuqpg0wq.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t4_i1.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjuqpg0wq.stottr
+
+
+Debug: Template file content (t4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+
+Debug: Template file size: 322 bytes
+Debug: Instance file content (i2):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .
+
+Debug: Instance file size: 449 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpwiicl7yf.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpirmybnon.stottr -o C:\Users\adria\AppData\Local\Temp\tmpn8ndr6b_.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwiicl7yf.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t4_i2.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwiicl7yf.stottr
+
+
+Debug: Template file content (t4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+
+Debug: Template file size: 322 bytes
+Debug: Instance file content (i3):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(_:RkU,"France"^^xsd:string,""^^xsd:string,"ENG"^^xsd:string,(a,h,Ab)^^List<xsd:string>,())
+
+Debug: Instance file size: 345 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmppcufm34w.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpu3g2p312.stottr -o C:\Users\adria\AppData\Local\Temp\tmphu2i9v7e.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppcufm34w.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t4_i3.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppcufm34w.stottr
+
+
+Debug: Template file content (t4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer [ List<xsd:string> ?LwecR,, xsd:date ?position, ] :: { BqNYF } .
+
+Debug: Template file size: 322 bytes
+Debug: Instance file content (i4):
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Country(O,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(NV)^^List<xsd:string>,(s,t,v,I)) "|"^
+
+Debug: Instance file size: 354 bytes
+Debug: Executing Lutra command: java -jar lutra.jar --mode expand -L stottr -l C:\Users\adria\AppData\Local\Temp\tmpk7p6tri0.stottr -I stottr C:\Users\adria\AppData\Local\Temp\tmpoe_i1die.stottr -o C:\Users\adria\AppData\Local\Temp\tmp6771as_7.ttl
+Debug: Lutra stdout: 
+Debug: Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk7p6tri0.stottr
+
+
+Debug: Lutra return code: 1
+Debug: Copied Lutra output to ./differential/data/outputs\lutra_output_t4_i4.ttl
+TemplateInstanceProcessing: Error in Lutra: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk7p6tri0.stottr
+
+

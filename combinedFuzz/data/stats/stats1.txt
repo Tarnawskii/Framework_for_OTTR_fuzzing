@@ -1,0 +1,12 @@
+--- Summary ---
+Input rows (ISLa generated): 500
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 0
+
+No actual errors found.
+
+Aggregated error counts (by type):
+Aggregated error counts (by exact message, actual errors):
+
+Non-critical messages (not starting with '[ERROR]'):
+'[FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string': 1

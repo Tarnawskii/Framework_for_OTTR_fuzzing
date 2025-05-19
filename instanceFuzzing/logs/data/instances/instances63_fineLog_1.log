@@ -1,0 +1,153 @@
+2025-05-14 16:40:08,242 - ERROR - Instance foot:League(_:Dis,"La Liga","2016"^^xsd:gYear,(_:RCStrasbourg, _:WislaKrakow, _:ParisSaintGermain, _:ManchesterUnited, _:Barcelona, _:VAlerenga, _:Juventus, _:Liverpool),((_:VAlerenga, ((_:Juventus, _:ParisSaintGermain, _:ParisSaintGermain, _:Juventus, _:ParisSaintGermain, _:ParisSaintGermain, _:VAlerenga, _:Liverpool), (_:WislaKrakow))), (_:ManchesterUnited, ((_:Liverpool, _:Barcelona, _:Liverpool, _:Juventus, _:Barcelona, _:WislaKrakow, _:Liverpool, _:VAlerenga), (_:Liverpool))), (_:VAlerenga, ((_:WislaKrakow, _:Liverpool, _:RCStrasbourg, _:ParisSaintGermain, _:ParisSaintGermain, _:WislaKrakow, _:RCStrasbourg, _:Barcelona), (_:WislaKrakow))), (_:ParisSaintGermain, ((_:Barcelona, _:Liverpool, _:RCStrasbourg, _:RCStrasbourg, _:RCStrasbourg, _:ParisSaintGermain, _:ManchesterUnited, _:Liverpool), (_:RCStrasbourg))), (_:Barcelona, ((_:Barcelona, _:WislaKrakow, _:ManchesterUnited, _:ManchesterUnited, _:VAlerenga, _:VAlerenga, _:ManchesterUnited, _:VAlerenga), (_:Barcelona))), (_:Juventus, ((_:WislaKrakow, _:Juventus, _:Barcelona, _:ParisSaintGermain, _:WislaKrakow, _:ParisSaintGermain, _:WislaKrakow, _:WislaKrakow), (_:WislaKrakow))), (_:WislaKrakow, ((_:VAlerenga, _:ManchesterUnited, _:WislaKrakow, _:Barcelona, _:ManchesterUnited, _:ManchesterUnited, _:ParisSaintGermain, _:RCStrasbourg), (_:ParisSaintGermain))), (_:ManchesterUnited, ((_:VAlerenga, _:Juventus, _:Juventus, _:Liverpool, _:RCStrasbourg, _:RCStrasbourg, _:RCStrasbourg, _:Barcelona), (_:Barcelona))))) .
+
+2025-05-14 16:40:08,243 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank507 : LUB<rdfs:Resource>, ((blank508 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank508 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank507 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>)(id: 16), (blank503 : LUB<rdfs:Resource>)(id: 18))(id: 20))(id: 22) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank505 : LUB<rdfs:Resource>, ((blank509 : LUB<rdfs:Resource>, blank506 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>, blank508 : LUB<rdfs:Resource>, blank506 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>, blank507 : LUB<rdfs:Resource>)(id: 24), (blank509 : LUB<rdfs:Resource>)(id: 26))(id: 28))(id: 30) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank507 : LUB<rdfs:Resource>, ((blank503 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank506 : LUB<rdfs:Resource>)(id: 32), (blank503 : LUB<rdfs:Resource>)(id: 34))(id: 36))(id: 38) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank504 : LUB<rdfs:Resource>, ((blank506 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>)(id: 40), (blank502 : LUB<rdfs:Resource>)(id: 42))(id: 44))(id: 46) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank506 : LUB<rdfs:Resource>, ((blank506 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank507 : LUB<rdfs:Resource>, blank507 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank507 : LUB<rdfs:Resource>)(id: 48), (blank506 : LUB<rdfs:Resource>)(id: 50))(id: 52))(id: 54) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank508 : LUB<rdfs:Resource>, ((blank503 : LUB<rdfs:Resource>, blank508 : LUB<rdfs:Resource>, blank506 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>)(id: 56), (blank503 : LUB<rdfs:Resource>)(id: 58))(id: 60))(id: 62) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank503 : LUB<rdfs:Resource>, ((blank507 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank503 : LUB<rdfs:Resource>, blank506 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank505 : LUB<rdfs:Resource>, blank504 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>)(id: 64), (blank504 : LUB<rdfs:Resource>)(id: 66))(id: 68))(id: 70) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+[ERROR] Incompatible argument type. Argument (blank505 : LUB<rdfs:Resource>, ((blank507 : LUB<rdfs:Resource>, blank508 : LUB<rdfs:Resource>, blank508 : LUB<rdfs:Resource>, blank509 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank502 : LUB<rdfs:Resource>, blank506 : LUB<rdfs:Resource>)(id: 72), (blank506 : LUB<rdfs:Resource>)(id: 74))(id: 76))(id: 78) with type NEList<LUB<rdfs:Resource>> given to parameter ?team : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp2_xj0n2k.stottr
+
+
+2025-05-14 16:40:11,853 - ERROR - Instance foot:Club(_:WCt,_:ManchesterUnited,"2015"^^xsd:gYear,"Old Trafford","Argentina") .
+
+2025-05-14 16:40:11,853 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9emksjjb.stottr
+
+
+2025-05-14 16:40:15,421 - ERROR - Instance foot:Country(_:NbZ,"France",(),"EGY",("Lionel" "Müller", "Cristiano" "D'Artagnan", "Amadou" "Håkon"),(_:fze, _:hMp)) .
+
+2025-05-14 16:40:15,421 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: extraneous input '"Müller"' expecting {',', ')'} at line 8 column 55[ERROR] Syntax error: extraneous input '"D'Artagnan"' expecting {',', ')'} at line 8 column 77[ERROR] Syntax error: extraneous input '"Håkon"' expecting {',', ')'} at line 8 column 100
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpr250a_m1.stottr
+
+[ERROR] Incompatible argument type. Argument ()(id: 14) with type List<ottr:Bot> given to parameter ?continent : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpr250a_m1.stottr
+
+
+2025-05-14 16:40:18,787 - ERROR - Instance foot:Footballer(_:FnU,"Amadou","Núñez","1951-11-19"^^xsd:date,none,(),100000000,"Striker"@en,"England") .
+
+2025-05-14 16:40:18,787 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpf_1gyvqs.stottr
+
+
+2025-05-14 16:40:22,295 - ERROR - Instance foot:Country(_:QSL,"Portugal","Africa","POR",("Amadou" "Björk"),(_:JHR, _:auy, _:wov)) .
+
+2025-05-14 16:40:22,295 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: extraneous input '"Björk"' expecting {',', ')'} at line 8 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphwim2cwi.stottr
+
+
+2025-05-14 16:40:25,736 - ERROR - Instance foot:Country(_:rOl,"Egypt","Asia",36875042,( ),(_:Ycj)) .
+
+2025-05-14 16:40:25,736 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwa32s4f_.stottr
+
+[ERROR] Incompatible argument type. Argument "36875042"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer with type xsd:integer given to parameter ?fifaCode : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwa32s4f_.stottr
+
+
+2025-05-14 16:40:29,402 - ERROR - Instance foot:Footballer(_:qAK,true,"Al-Hassan","2025-04-02"^^xsd:date,none,(),_:Liverpool,"Forward","France") .
+
+2025-05-14 16:40:29,403 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjrkt8aq6.stottr
+
+[ERROR] Incompatible argument type. Argument "true"^^http://www.w3.org/2001/XMLSchema#boolean : xsd:boolean with type xsd:boolean given to parameter ?firstName : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpjrkt8aq6.stottr
+
+
+2025-05-14 16:40:32,966 - ERROR - Instance foot:League(_:kBE,"Serie A","2018"^^xsd:gYear,"PTgX",((_:VAlerenga, _:ParisSaintGermain, _:VAlerenga, _:Juventus, _:VAlerenga, _:Juventus, _:ManchesterUnited, _:Barcelona), (_:RCStrasbourg, _:WislaKrakow, _:WislaKrakow, _:ManchesterUnited, _:Juventus, _:Liverpool, _:WislaKrakow, _:Liverpool), (_:Barcelona, _:Juventus, _:ParisSaintGermain, _:ManchesterUnited, _:ManchesterUnited, _:ManchesterUnited, _:ParisSaintGermain, _:Barcelona), (_:Juventus, _:VAlerenga, _:ManchesterUnited, _:VAlerenga, _:Juventus, _:Barcelona, _:RCStrasbourg, _:WislaKrakow), _:Juventus, _:WislaKrakow, _:Liverpool, _:VAlerenga)) .
+
+2025-05-14 16:40:32,966 - ERROR - Instance 15 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpzkxq3tha.stottr
+
+[ERROR] Incompatible argument type. Argument "PTgX"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?topTeams : List<ottr:IRI>
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmpzkxq3tha.stottr
+
+
+2025-05-14 16:40:36,803 - ERROR - Instance foot:Footballer(_:xIm,"Cristiano","Pérez","()"^^xsd:date,none,("Manchester United", "FC Barcelona", "Tottenham Hotspur", "Benfica"),100100100100100100,"Defender",()) .
+
+2025-05-14 16:40:36,803 - ERROR - Instance 16 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy51cfs5q.stottr
+
+[ERROR] Incompatible argument type. Argument ()(id: 16) with type List<ottr:Bot> given to parameter ?country : xsd:string
+  [ERROR] Invalid literal value. The value '()' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpy51cfs5q.stottr
+
+
+2025-05-14 16:40:40,613 - ERROR - Instance foot:Club(_:dVG,_:Barcelona,"2017"^^xsd:gYear,1974-07-05,"England") .
+
+2025-05-14 16:40:40,613 - ERROR - Instance 17 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: mismatched input '1974-07-05' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 54
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwrse1roh.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Club'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '1974-07-05' at line 8 column 54
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpwrse1roh.stottr
+
+

@@ -1,0 +1,306 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Country("^""}"kBTu,"Argentina","Africa",Zq,(_:vlW,_:xbL),(_:NaK,_:gfQ)) .
+foot:Club("@""%"YMjo,"Juventus","2018"^^xsd:gYear,7dnJ,"'"msp)  
+foot:Footballer(_:eiR, "Cristiano","Salah","1999-18-23"^^xsd:date,"Manchester United",(),250000000,"Midfielder","Portugal")  
+foot:League(_:Vcz,Pw,"("E"["^^xsd:gYear,(_:CGt,_:XAD, _:rHO),(_:hyF)) ":"
+foot:Country(" ""="IgUG,"Egypt",gS,"POR",(),()) "$"
+foot:Country(">""."PQdx,"England","North America","ENG",(),(_:Yts,_:yRp,_:ROR,_:XsZ)) ")"
+foot:Country(_:YEv,"France","Asia","ARG",(jl,zI,aV,dK),(MI,pc)) .
+foot:Country("~""?"eKBe,t9O,"Europe","/"d"`",(),(_:sQl)) "\"
+foot:Country("!""_"zQIo,"France","South America","EGY",(_:PfB,"<"r"#"),()) "]"
+foot:Country(",""*"CMnX,Cb,"""Z"&","FRA",(Bi),(_:sNO,_:IPx,_:iCt)) "|"
+foot:League("?""^"hJfp,"Serie A","2015"^^xsd:gYear,(),())  
+foot:Country(_:vKU,PF,tD,"ARG",(wy,IM,bN),(_:LOT)) .
+foot:Footballer(_:dSC, "Cristiano","Ronaldo","2026-18-02"^^xsd:date,"Juventus",(),200000000,"Goalkeeper","Egypt")  
+foot:Club(";""."XHrm,nR,"2019"^^xsd:gYear,"Old Trafford","Portugal") .
+foot:Country(_:AgZ,"Argentina","South America",sY,(),(_:Bqx,_:ecE,_:zVW,Gl))  
+foot:Country(">""!"onFi,"England","Asia","POR",("_""}"RjuQ,ll),(ak)) """
+foot:Country(_:VWs,"France","North America","EGY",(_:ViI,_:YXn,_:Edg,_:nJi),())  
+foot:Country("'""%"wJvx,nA,"Europe","FRA",(_:VSw,_:BpE),()) "="
+foot:League("(""-"oezv,"":"Sg","2017"^^xsd:gYear,(_:qNz,_:cjO,_:MZn, _:ixS,_:HHz),())  
+foot:Country("]""~"fcfu,"Argentina","Africa","ENG",(Rn,mI,Em,Yd),()) "*"
+foot:Footballer(_:yDl, "Lionel","Mbappe","1993-12-08"^^xsd:date,"Manchester United",(),200000000,"Goalkeeper","Portugal") .
+foot:League("`""."ZOas,"Bundesliga","2019"^^xsd:gYear,(),()) "!"
+foot:Club("$""_"xQXI,"Paris Saint-Germain",cb^^xsd:gYear,"Camp Nou","Egypt")  
+foot:Country("~"":"jLod,hg,"North America",TF,(),(WY)) "&"
+foot:Country(_:KGf,"France",mH,"EGY",(te,ER),(MV,"^"r"}",""%"AC")) .
+foot:Country(">""/"kiJU,"Argentina","Europe","ARG",(wB,vS,zq),(_:pTN,_:nuP,_:eHH)) "]"
+foot:Country("+"";"oUnR,"<"u"[","Asia","FRA",(""("Tc"),(")""'"LLka)) """
+foot:Country(_:VkI,"England","Africa","ENG",(_:RVx,_:JpM,_:BYG,Cy),()) .
+foot:League("|""{"SGJY,"?"P"-","2015"^^xsd:gYear,(_:DKn,"=""\"RkUy, _:mJG,""*"z",", "pZ""),(_:GGj)) " "
+foot:Country(""""{"HYVY,ur,"#"xT,"("T"[",("?""?"eBUV,_:TQm,"""B"^"),()) "@"
+foot:Footballer(_:RxI, "Kylian","Ronaldo","1999-11-06"^^xsd:date,"Paris Saint-Germain",(),250000000,"Defender","Egypt")  
+foot:Club("@""""pBbA,"Paris Saint-Germain","2019"^^xsd:gYear,""*"jT",y5YP) .
+foot:League("{""~"tSrn,"Premier League",""]"iL"^^xsd:gYear,(_:vqu,"UH"),(_:eKa,"kh")) "!"
+foot:Country(_:flc,"Argentina","Europe","ARG",(_:JZm,_:VwW,_:dNs,FC),())  
+foot:Country(_:QOD,"England","South America","POR",(_:PjI,_:zgo,_:oLE,_:GXM),()) .
+foot:Country("}""'"hmJw,"`"Z"|",""#"qM",rZ,(Zr,Xj,Xr,Mv),(_:ldK,_:ysL,_:wtv)) "<"
+foot:Country("\""$"kQHm,"France","Africa","EGY",("?"" "umJE),(_:JLC,qX)) "_"
+foot:Country("&""/"uEkU,"Portugal","Asia",Ut,(),(yH,OK,UC)) .
+foot:Country("(""["ZGal,"","ZU","North America","ENG",(_:IZi,sg),("%"PX)) "."
+foot:League(")""-"YQry,"La Liga","2015"^^xsd:gYear,(),()) "^"
+foot:Footballer(_:kCZ, "Mohamed","Ronaldo","1995-9-07"^^xsd:date,"Barcelona",(),100000000,"Goalkeeper","France")  
+foot:Club("+""%"MTjH,"Paris Saint-Germain","2015"^^xsd:gYear,"Old Trafford","!"2wyv) .
+foot:League("="">"uVRf,tO,"-"Y","^^xsd:gYear,(_:Nbs,_:Gdz,_:nDm, _:Uxa,_:WeE),("""*"qr"")) "]"
+foot:Country("\""/"BpKo,"Portugal","Europe",XL,(),("""AIJhg"^")) ")"
+foot:Country(_:FPl,"England","South America","EGY",(_:MLQ,_:cSi),(_:frn,_:MKa,_:tDS,Eb)) "?"
+foot:Country(_:ecc,"Argentina","North America","FRA",(_:ORw,_:HGc,_:YCI,vW),(te,yW,HW)) .
+foot:Country(_:gpc,"Egypt","Asia","POR",(kB,DL),(_:Wna,_:Usi,Yv)) .
+foot:Country(".""|"GOWP,"Egypt","Africa",AP,(_:lOx),()) "`"
+foot:Country(_:HvS,"England","South America","ARG",(Bg,zb,CN,Af),())  
+foot:League("<""("OeoS,"Bundesliga","2019"^^xsd:gYear,(_:zZM, _:Jex,_:Qpu,_:JqD),(_:BTj)) "~"
+foot:Country(_:hrW,Bd,"South America","@"Pp,(cH,CN,tG,Ak),("/"g"_",ln,""!"xf"))  
+foot:Club(";""?"KULF,ez,mT^^xsd:gYear,"Allianz Stadium","Argentina") .
+foot:Footballer(_:ZSu, "Kylian","Fernandes","2024-17-26"^^xsd:date,"Paris Saint-Germain",(),200000000,"Goalkeeper","England")  
+foot:League("`""+"aMiQ,"Serie A","2018"^^xsd:gYear,(_:yOw,_:qRj,_:VsJ,_:vbE),("""["YD"")) "]"
+foot:Country(".""}"IHoe,"France",""{"bB","ENG",(mC,""&"GX"),()) .
+foot:Country(_:zYa,"Portugal","North America","ARG",(_:LhR,sW),(_:kSH,_:oqf,_:bWL,PP))  
+foot:Country(_:kEN,"Egypt","Europe","EGY",(_:kJc,_:TLR,_:Tqx,_:Nzo),()) .
+foot:Country("\""="YUgL,"">"Yr","Asia",QJ,(),(_:ReL)) ":"
+foot:Country("~""$"vrbN,"'"j"*",SR,"POR",(_:vcJ,_:RjM,_:dmg,Qq),(_:Lhf,_:nye,_:gVZ)) "^"
+foot:League("%""|"hiUh,jU,"2017"^^xsd:gYear,("fY","Nb","Ok","gC"),("""")"yall, _:WGO)) "#"
+foot:Club(_:cQs,"Paris Saint-Germain","2017"^^xsd:gYear,K4Gtp,ju) "."
+foot:Country("+""%"Fghv,"France","Asia","POR",(),()) .
+foot:League("<""?"MLkV,"^"z"}",AEOC^^xsd:gYear,("ya"),())  
+foot:Footballer(_:WXI, "Kylian","Messi","2028-1-13"^^xsd:date,"Liverpool",(),250000000,"Goalkeeper","Portugal") .
+foot:Country("`"":"midq,"Argentina",bf,">"r""",(",""#"NBSJ,ex),()) ")"
+foot:Country(_:ZRD,"England","Africa","FRA",(),(Hw,TY,UP,nl)) "|"
+foot:Country("*""\"tovf,nI,"South America","ARG",(_:xjU,_:Lkq,_:PES),("["S"!",""&"OQ",SH)) "="
+foot:Country("@""]"ppbx,"Egypt",""("HG","ENG",(),(_:yLK,_:EVC,_:EZP,_:dKG))  
+foot:Country(";""$"jcQJ,"/"NL,"North America",Ly,("-"" "wTeX,_:jaW),(_:rjA,EP)) "{"
+foot:League("~""'"yEvy,"La Liga","2015"^^xsd:gYear,(_:zhm,_:tdK,_:ZqL,_:eZG),()) "_"
+foot:Country(_:Ehc,"France","North America","EGY",(IV,uU,sW,AP),(wi,gv,nD)) .
+foot:League(",""\"fSrF,"La Liga","2019"^^xsd:gYear,(_:BMR, _:tmz),())  
+foot:Footballer(_:qQH, "Bruno","Ronaldo","2020-0-27"^^xsd:date,"Manchester United",(),250000000,"Goalkeeper","Egypt") .
+foot:Club("<""@"JdlX,"/"KZ,""'"xe"^^xsd:gYear,"Camp Nou",yb) "("
+foot:Country("="">"akLC,"Argentina","Europe",OG,(_:NpT,_:joY),(_:mgN,_:Ilb,_:Jor,Ap)) "?"
+foot:Country("%""{"LIxT,jH,Nx,"FRA",(),()) " "
+foot:Country(_:HJv,Ab,"Asia","POR",(_:zII,_:NCj,""-"WH"),(_:TeX,_:Mfp,_:LIX)) ":"
+foot:Country("#""!"xWec,"England","South America","ARG",(),()) .
+foot:Country(_:tlf,"Portugal","Africa","ENG",(_:zhM,_:GXY,_:MKz,Rq),())  
+foot:Country(_:jfz,""&"Uh","South America",""["aR",(_:iSZ,_:LDk,_:vVt,_:QLK),()) "|"
+foot:Club("$""*"UHoC,"Barcelona","2016"^^xsd:gYear,"Anfield","Argentina") .
+foot:Footballer(_:TDF, "Bruno","Mbappe","2025-13-16"^^xsd:date,"Paris Saint-Germain",(),100000000,"Forward","Egypt")  
+foot:League(_:daz,"Ligue 1",IL^^xsd:gYear,("cP"),(">"":"qelw)) .
+foot:Country("#""["Qxrt,"France","Asia","POR",(_:Ryp,_:ugi,_:Kkb,Wv),()) "+"
+foot:Country(_:NBY,"England",Vn,"FRA",(Jm,ZS,hM,Aj),())  
+foot:Country("~""^"sfOE,Xs,"Africa","EGY",(GK),()) "}"
+foot:Country(_:oyT,"Portugal","North America",cL,(),(_:nDF,_:OfL,_:ivr,_:yiG)) .
+foot:Country(_:MFX,"Portugal","Europe","?"R"(",(_:zOB,_:riy,_:hEx,_:Cle),()) .
+foot:Country("="")"dIwm,","c"%","South America","ENG",(Dz,"`"y"\","";"TY"),(bM,Ua,lT)) "."
+foot:Country(_:JOB,"Portugal",""-"az","ARG",(_:qHr,_:sxY,_:KFi),(_:sQD,_:aZr,_:LKa)) "{"
+foot:Club(_:ElM,"Juventus",""_"xdC"^^xsd:gYear,O9jc,"&"Zin)  
+foot:Country("|""+"fvUg,"England","North America","ENG",(),()) .
+foot:Footballer(_:BLY, "Kylian","Ronaldo","1990-7-20"^^xsd:date,"Liverpool",(),300000000,"Forward","Egypt") .
+foot:League(",""<"FwQm,Gb,"2016"^^xsd:gYear,("AR","KT","ky"),("aq")) .
+foot:Country("*"" "HoWz,"Argentina","Africa",Ve,(_:NtX,_:DsJ,Ip),(uS,hr,"-"P"."))  
+foot:Country("{""~"gDmI,"Portugal","Asia","EGY",(Ll,js,Yw,FZ),()) .
+foot:Country("]""("MWjV,bV,Ik,"FRA",("$""%"UATS,"""q"="),(_:Ose,_:GVh)) .
+foot:Country("'""^"ErOE,kg,"Europe","ARG",(),(QX,mi,Da,wp)) ":"
+foot:Country(_:DPX,"France",Bc,"POR",(Tq,zr,Nu),(_:WNP,UP))  
+foot:Country("/""`"cSqr,"France","South America","}"Q">",(_:oci,_:vSe,_:faI),())  
+foot:Footballer(_:dcx, "Kylian","Salah","2024-2-01"^^xsd:date,"Manchester United",(),200000000,"Defender","England")  
+foot:Country(" "","ZYPH,Ii,"("n"\","POR",(),(_:TRN,_:vtQ)) .
+foot:League(":""~"oFXV,"Serie A",gM^^xsd:gYear,(_:zeG,_:ODy),(_:EaB,"pL")) "%"
+foot:Club("=""<"CmUh,"{"rJ5K,"2017"^^xsd:gYear,"Camp Nou","Argentina") ";"
+foot:Country(_:wSA,"France","North America","""s"/",(),(_:kfu,_:XQo,_:cjq,_:bWl)) .
+foot:Country(_:INA,"Egypt","Asia","ARG",(),(Nr,bj,Lq,Uj)) .
+foot:Country(_:uxF,"Portugal","Europe","ENG",(_:rAF,_:xuH),(_:GjW,_:KFD,rO)) "'"
+foot:Country("@""^"zPUX,"Portugal","")"ae","FRA",(Bq),(ky,"."L"}",""["Rr")) "_"
+foot:Country("-""*"bcgG,""|"zc","Africa",vu,(lt,Vg,"]"D"$"),()) .
+foot:Country("#"">"KlWu,"Egypt","South America",UZ,(_:tdr,_:Gey,_:gcS,Ju),()) "&"
+foot:League(_:EVB,"Ligue 1","2016"^^xsd:gYear,(_:rgO,_:sXv, _:zPL,_:wGI,""&"b"[""),())  
+foot:Club("}"":"RuQZ,"Paris Saint-Germain",cj^^xsd:gYear,Wt,"England") .
+foot:Country(""""$"JhTK,"Argentina",NA,Do,(_:aSn,_:xMk,_:fly),())  
+foot:Footballer(_:Ump, "Bruno","Messi","1995-8-19"^^xsd:date,"Liverpool",(),150000000,"Goalkeeper","Egypt")  
+foot:Country("_"" "YCiq,"<"e"{","Asia","EGY",("#"Hd),(BJ,RF,zQ,CN)) ")"
+foot:Country("|"","GXPh,"Portugal","South America","ENG",(_:sGn,_:yPD,NI),(_:Ggn,Bm)) "'"
+foot:Country("+""."cYSO,""]"wM","Europe","ARG",(),(_:xfB,"!"">"ypgc,_:TkQ,"~"";"lvtY)) "("
+foot:Country("-""?"qULR,w6x,"%"L"/",tE,(_:WbP),(_:whh,_:PFG)) "^"
+foot:League("`""@"sCKl,"Premier League","2017"^^xsd:gYear,("yx","Il","Lb","zF"),("Xd")) "="
+foot:Country("[""\"Fbtd,"France","Africa",">"v"*",(_:NLw,_:UEg,_:pbU,_:AtC),(_:tRl,_:akR,_:IZx,bK)) "\"
+foot:Country(_:pLu,"Egypt","Europe","ENG",(_:ekT,_:ovs,_:aOQ,_:FhG),()) .
+foot:League("_"";"Eqwx,"Ligue 1","2017"^^xsd:gYear,(),())  
+foot:Footballer(_:zfy, "Lionel","Mbappe","1999-14-26"^^xsd:date,"Liverpool",(),200000000,"Forward","Argentina") .
+foot:Club("]""/"jXtm,"Paris Saint-Germain",g1WS^^xsd:gYear,"Parc des Princes",")"A"^") "["
+foot:Country("\""&"bVrR,"England","`"K"$",DJ,(),(_:BCY,UM)) "?"
+foot:Country(","">"NldP,"Portugal","Africa","FRA",(_:BIZ,ic),(CA,"-"X"+",Hn)) ":"
+foot:Country("(""'"FbFK,DD,"Asia","EGY",(),(_:igK,_:ZBZ,DP)) "|"
+foot:Country("~""{"POrg,"France","South America","ARG",(_:MZN,_:ErN),(_:Dze))  
+foot:League("#""}"AaTi,"*"IO,"2019"^^xsd:gYear,("""%"iW"","vC"),("<""="xdQQ,"fu")) "!"
+foot:Country("@"" "DwHo,"England","North America","POR",(od),()) .
+foot:Footballer(_:xGO, "Mohamed","Messi","2024-8-14"^^xsd:date,"Manchester United",(),300000000,"Forward","Egypt")  
+foot:Country("?""\"ldzF,"France","Africa","POR",(),(_:Thy,_:Ptu,_:IBc)) .
+foot:League("#""`"pZnW,"" "Nj","2018"^^xsd:gYear,(_:VHw,"ME"),(_:UsX)) .
+foot:Club("~"";"iavk,""]"LJ","""K":"^^xsd:gYear,"Old Trafford","@"YA) "}"
+foot:Country("%""&"eSor,"England","North America","FRA",(),())  
+foot:Country(_:mRf,"Portugal","Europe","EGY",(),(_:XlL,_:rsT,_:CqD,_:Qgb))  
+foot:Country("_""("vVGk,"Argentina","Asia","ARG",(_:ygJ,_:EOj,fd),()) .
+foot:Country("!"">"MouV,"Egypt","South America",lm,(oX),(""."ck")) "+"
+foot:Country(_:OnQ,cr,HW,yR,(),(jB,tZ,Bo)) ")"
+foot:Country(_:Mvl,"Portugal","Asia","ENG",(),(Aa,si,AZ,qW)) .
+foot:League(_:EHn,""<"V6A","2019"^^xsd:gYear,(),("&""]"TzKZ, _:cwW))  
+foot:Country("@""}"Dvyb,Pk,Jd,""?"lC",("`""+"umia,_:BoG,_:USs,jg),()) "^"
+foot:Club("."";"reML,Xq,"!"R"$"^^xsd:gYear,"Old Trafford","France") .
+foot:Footballer(_:NFO, "Kylian","Messi","1994-11-12"^^xsd:date,"Paris Saint-Germain",(),300000000,"Goalkeeper","Argentina") .
+foot:Country(_:xfI,"Portugal","Europe","POR",(),("{""'"QtpY)) ":"
+foot:Country("#"")"hOxH,OP,"Asia","EGY",("%"m" "),(_:Fsq,_:udO,_:pHz,_:FNS)) "_"
+foot:Country("-""""GPOX,"Egypt","Africa","ENG",(_:rxs),(_:eTz,_:voe,pa)) "="
+foot:Country("(""["xiXU,Hf,"South America","FRA",(_:sTB,_:tNd),()) ","
+foot:Country(">""|"TpwP,"England","North America",bn,(_:Zcj,ON),(_:whi,_:naN,_:Rah)) "\"
+foot:League("/""~"FbWC,"Serie A","2018"^^xsd:gYear,(""*"UZ, "SK"","":"J"_""),())  
+foot:Club(_:GIB,"Liverpool","2015"^^xsd:gYear,"Parc des Princes","Egypt") .
+foot:League("~""'"goLr,";"c"!",XJ^^xsd:gYear,(_:bnQ),()) "*"
+foot:Country("[""+"HMyF,Nu,OY,"POR",(_:TEU,""&"xS"),(Dh,pe,""""dj"))  
+foot:Footballer(_:mVP, "Cristiano","Fernandes","2020-10-24"^^xsd:date,"Liverpool",(),150000000,"Midfielder","Portugal")  
+foot:Country(":""`"ivla,"Argentina","Asia",""/"Rw",(_:ifm,_:zeC,_:kZA),(_:qsu,_:tKW)) "."
+foot:Country(_:fbe," "v"%","South America","EGY",(kZ,VH,vo),(_:wZX,_:tHl,_:kKC,vW)) .
+foot:Country("?""{"nkZs,"France","Europe","ENG",(KA,sC),("("q",",za)) "@"
+foot:Country(_:eKj,Hu,"Africa","FRA",("}""$"SBaJ),(_:VqH,YQ)) "^"
+foot:League("<""-"PiaH,"Ligue 1","2019"^^xsd:gYear,(_:PIX, _:OVu,""">"Ml""),()) "|"
+foot:Country(")""]"JYrp,GX,"North America","#"P"\",(),()) .
+foot:Footballer(_:Ejc, "Cristiano","Salah","1994-18-01"^^xsd:date,"Barcelona",(),100000000,"Goalkeeper","Egypt")  
+foot:Club("\""("QmsT,"'"W".",XgS^^xsd:gYear,"Old Trafford",""?"JV") .
+foot:Country("""":"Ydhb,"England","Africa","FRA",(),())  
+foot:League("$""_"fMDR,oU,"2017"^^xsd:gYear,(),(""#"v"|", "CN""))  
+foot:Country(_:Pxn,"Argentina","Asia",Hl,(_:yBI,_:akA,rK),(_:pLe,FZ))  
+foot:Country("<""%"uwtz,"Portugal","Europe","ENG",(),(mO,Gq,Do,iO)) .
+foot:Country(_:Vlw,"France","North America","ARG",(_:zUJ,_:Pja,_:Qol),(_:Gyz,_:MQj,OO))  
+foot:Country(_:WCu,"Argentina",AB,"POR",(_:HuX,_:xcT,_:Eva,_:IEq),()) .
+foot:Country(_:Mel,"Portugal",""+"IH",""]"Jn",("["EY),("*"Q">")) "!"
+foot:Country("~""="VgkY,cX,kz,","E"`",(),(""{"wj",Yo,TX)) ")"
+foot:League("#""^"pMrs,oz,fa^^xsd:gYear,("tR","ZU","OP","NI"),()) "\"
+foot:Club(_:kAg,ju,"2016"^^xsd:gYear,"~"2Dd""",""@"Le")  
+foot:Country(_:CHF,"Portugal","Africa","FRA",(XT,EG,iw),(_:BYl,_:vWK,_:bVh)) .
+foot:Footballer(_:ymx, "Bruno","Fernandes","2023-0-08"^^xsd:date,"Juventus",(),100000000,"Defender","France")  
+foot:Country(":"")"Qcnq,"England","Asia",JS,(_:PyM,_:GOu,_:iks,HX),(gr,"="R"<",ce))  
+foot:Country(">""$"Wgsj,"Egypt",yZ,"ARG",(rh,jL,jD,dh),(_:ALW,_:WmZ)) "&"
+foot:Country("/""|"FTEa,"Argentina","North America","POR",(_:cew,"}"Ot),()) " "
+foot:Country(_:fVw,"Portugal","South America","EGY",(),(hT,oz,PH,mW)) .
+foot:League(_:Ajx,"La Liga","2017"^^xsd:gYear,(_:UFZ,_:ngd,_:PIq,"ex"),(""{"A","")) "-"
+foot:Country("`""["eJfF,4kR,PV,"ENG",(),(""!"OC",""("Dj")) "_"
+foot:League(_:lNx,"Serie A",CA^^xsd:gYear,(_:ndf,_:Ebo,_:rFL, _:UBI,"eR"),())  
+foot:Country("'""~"ZWkD,"Argentina","}"z"#",vX,(_:qQO,_:cHY),(_:myw,_:stu,jG)) .
+foot:Footballer(_:pJK, "Bruno","Mbappe","1993-10-22"^^xsd:date,"Barcelona",(),100000000,"Midfielder","Portugal") .
+foot:Club("*""|"VSPT,""^"hM","2018"^^xsd:gYear,"Camp Nou","England") ")"
+foot:Country(",""&"agiV,"Egypt","South America","FRA",(),())  
+foot:Country("+""/"PWtj,"France","Africa","EGY",(BL,QZ,ME),())  
+foot:Country("-""!"ldGq,"France","Asia","ARG",(),(_:zoe,_:DUq,_:uTx,_:gQv))  
+foot:Country(_:Xub,"England","Europe","POR",(_:iEU,_:FyM,_:JQg,_:LQE),())  
+foot:Country(_:ejB,"Portugal","North America","ENG",(),(Cw,Hh,RP,PJ))  
+foot:Country(":""{"cSiQ,"""y"<",UF,"FRA",(),(">""@"QsvY)) .
+foot:League(";""~"aciU,"La Liga","2017"^^xsd:gYear,("PH","On","NX"),())  
+foot:Club(_:WDC,"#"Jk"^","?"lT^^xsd:gYear,6po,"France") .
+foot:Footballer(_:YRu, "Bruno","Salah","1999-14-00"^^xsd:date,"Manchester United",(),200000000,"Midfielder","Portugal")  
+foot:Country(_:bqM,Ad,""!"tV",Ff,(hs),(">"","LEeB,_:QIm,_:gzv)) "("
+foot:Country(_:GwK,"Egypt","South America","ARG",(_:Hqj,_:ZSx,_:rpQ,yL),())  
+foot:Country("`"" "Rqiq,"Argentina","North America","FRA",(),()) "+"
+foot:Country("'""&"dVpN,"England","Africa","ENG",(_:JAs,_:piu,_:lak),()) .
+foot:Country(_:Tfo,"England","Europe","POR",(_:RQg,_:Zpf,Uq),(_:oZI,_:kBN,LR))  
+foot:Country("=""\"LtmW,Ef,"""J"%",In,(),()) "$"
+foot:Country("-""."SbgD,"*"N"_",uK,Kt,(_:qEu,Vu),(_:itN,_:een,_:uxr,_:tye)) ":"
+foot:League(")""@"tQPC,"Premier League","2017"^^xsd:gYear,(""_"X"?"","""/"ba""),(""'"g",", "KI""))  
+foot:Club(_:yeT,"Juventus",RM0S^^xsd:gYear,"("nf,"Portugal") .
+foot:Footballer(_:Vwk, "Kylian","Messi","1995-5-07"^^xsd:date,"Liverpool",(),150000000,"Defender","France")  
+foot:Country("]""*"JuOD,"England",Hd,""|"Zj",(_:hxA,_:vEq),(WU,cN,Yr))  
+foot:Country("+"":"opLB,"Egypt","South America","POR",(mF),(_:xkH,_:ali,_:Gsz)) ";"
+foot:Country("-""\"zUVv,""%"jW","North America","ARG",(_:RQC,_:YFr,_:Vwx,_:wqc),(_:KjK,_:QQO))  
+foot:Country("$""="MAQr,"Argentina","Europe","FRA",(),())  
+foot:Country(""""&"UiGj,"}"8j"`",Rh,"EGY",(),(OV))  
+foot:Country("!""#"rsUp,On,"Asia",Si,(),()) "<"
+foot:Country("{""~"Xbwx,">"g".","Africa",Kg,(qm,""["zg",xg),(_:ObN,_:erM,_:BAV,_:sPT)) " "
+foot:Club(_:TLe,"Paris Saint-Germain",0jVBQCu^^xsd:gYear,"Camp Nou",""*"hHO") "{"
+foot:Footballer(_:Zzb, "Bruno","Mbappe","1999-13-22"^^xsd:date,"Liverpool",(),300000000,"Midfielder","France")  
+foot:Country(_:xXl,"England",Rn,"ARG",(),(_:SMo,_:JIW,_:vEU,si)) .
+foot:League(_:cak,"La Liga","2015"^^xsd:gYear,(_:gDY,_:dwq, _:tfK,_:Nym,"">"r"?""),()) .
+foot:Country("'""#"GFAP,"Argentina","North America","ENG",(_:Qwm,_:TpX),(""$"qF")) .
+foot:Country("<"","JMgf,"Portugal","Asia","POR",(_:whn,_:gxE,_:UYM),(_:ypV,_:mfL)) ":"
+foot:Country("~""%"QrzX,"!"x"]","South America",bZ,(eI,Lw),()) "."
+foot:Country("=""`"XDns,Qd,"Europe",Kr,(_:HwQ,bf),("@""}"wQas,_:ouw,_:FrY)) "-"
+foot:League("^""\"CPxS,dA,"2016"^^xsd:gYear,(),(_:HIf, _:NtE,""/"f" ", "ZJ"")) """
+foot:Country("&"")"Dqoi,"Egypt",uE,"|"o";",(Cv),(_:YuE,VM)) "("
+foot:League("!""`"pXLI,"-"E"<",""="DP"^^xsd:gYear,(_:TcK,"hB"),(")""["gYUb, _:GQF))  
+foot:Footballer(_:ktO, "Kylian","Mbappe","2028-13-28"^^xsd:date,"Liverpool",(),250000000,"Defender","England") .
+foot:Club("/""."vnrA,"Barcelona","2018"^^xsd:gYear,"Allianz Stadium","Argentina") .
+foot:Country(";""*"xVaC,"Portugal","Africa","ENG",(_:yiw,_:dqe,_:HRz,Wm),())  
+foot:Country("$""\"lufJ,"France","Europe",jZ,(),()) .
+foot:Country("+""_"MeNW,sK,"North America","ARG",("~"So),(_:sbd,_:tOm,Tq)) "|"
+foot:Country(">""%"mvnn,VE,CX,"EGY",(_:Iqo,""^"ZJ"),(_:FsI," "L"(")) "{"
+foot:Country(_:Wbn,XV,"South America",Ma,(_:NnV,_:DAt,_:erS),(_:fzS,_:mDg,_:Jfq,ZN)) ","
+foot:Country(""""?"hEOv,iL,"Asia","FRA",(zA,ru),()) "]"
+foot:League("'""}"Ejkn,"Ligue 1","2019"^^xsd:gYear,(),())  
+foot:Footballer(_:tVq, "Lionel","Messi","1996-3-14"^^xsd:date,"Barcelona",(),150000000,"Goalkeeper","Egypt")  
+foot:League("-""]"GxjE,";"MZ,"^"F"`"^^xsd:gYear,(),(_:OWc,"eK")) ">"
+foot:Club("|""!"uQow,"*"h"#","2017"^^xsd:gYear,"Camp Nou",Hm) .
+foot:Country(_:bSf,"England","North America","POR",(),(DY,lk,Cy,rT)) .
+foot:Country("&""/"JXiP,"Portugal",AN,"EGY",(_:jAU,_:pvI,_:znd),(_:sLR,_:aEg,UB)) "["
+foot:Country(_:Dxu,"Argentina","Europe","FRA",(_:buL,_:tbp,Wz),(pu,FS)) .
+foot:Country(_:lnF,"France","South America",""$"YT",("~"f"{"),()) .
+foot:Country("%"")"UuXk,"Egypt","Asia","ENG",(),())  
+foot:Country("@""\"qPbM,"France","Africa","ARG",(),()) "_"
+foot:Country(" ""?"aZvJ,"France","South America","EGY",(),(_:keq,_:Udy,_:yai,_:OSw))  
+foot:League(_:dWf,"La Liga","2019"^^xsd:gYear,("]""!"TrwM, _:aVg),()) "["
+foot:Club(":""+"czNS,"*"l"<",bF^^xsd:gYear,""^"OC","@"2K")")  
+foot:Footballer(_:npe, "Lionel","Ronaldo","2025-4-15"^^xsd:date,"Manchester United",(),300000000,"Goalkeeper","France") .
+foot:Country("\""."ZkLt,"England","Europe","&"Bj,("=""%"voQs),(""~"hJDi")) "_"
+foot:Country("?""|"HPGY,"Portugal",UX,"POR",(_:uRI,EA),(_:qmx,_:CNE,_:JVk,yw)) " "
+foot:Country("}""-"DWjP,"Egypt","Asia","EGY",(),(_:OfU,_:WKN)) ";"
+foot:Country(">""'"OuOW,""`"UY","Africa","FRA",(oA),(_:hmI,cF)) "#"
+foot:Country("/"","YJFR,"Argentina","""K"(",""$"rv",(_:ahN,_:viY),()) "{"
+foot:League(_:izj,"{"b"=","2017"^^xsd:gYear,("nE",""}"c">", "Fv"","","F"@""),(""";"WL""))  
+foot:Country("=""*"BZqI,IW,"South America","ENG",(_:WHW,_:Sdm,_:KrW),("="T"=",Ih))  
+foot:Club(_:nOh,"%"Uw":","2015"^^xsd:gYear,"Parc des Princes","France") .
+foot:League("^"">"Bpil,"Bundesliga","\"rev^^xsd:gYear,("7qVDW"),()) "{"
+foot:Country(_:dfL,"England","South America","ENG",(),(_:KAs,_:SxG,_:QXR,_:JoN))  
+foot:Footballer(_:mCZ, "Kylian","Mbappe","2029-19-05"^^xsd:date,"Paris Saint-Germain",(),150000000,"Goalkeeper","Argentina") .
+foot:Country("_""<"MckP,"Portugal","Africa",bj,(zg,IF,ty,Hu),()) ")"
+foot:Country(_:atM,bT,GP,"FRA",(_:jGG,_:YYP),(xw,EP,Pn)) .
+foot:Country("#""*"bCir,"Egypt","Europe","EGY",(_:Fio,_:oBQ,_:dXD,_:eBy),(CZ,CJ,YP,KS)) "!"
+foot:Country("&""$"Skat,"."L";",""~"HX","POR",(_:aHg),(xe,xx)) """
+foot:League("=""}"LiVr,Ce,"2016"^^xsd:gYear,(),()) "|"
+foot:Country(_:kiN,"Argentina","North America","ARG",(_:vXh,_:CZx,_:fdM,TR),()) .
+foot:Country(_:rzc,"England","North America","ARG",(),(JU,Wp,Es,Lx))  
+foot:League("<""#"RTMA,Zj,fl^^xsd:gYear,(_:Pqo,_:hIX,"_""{"Fnve, _:QYy),()) "("
+foot:Club("}""]"wOtB,"Barcelona","2018"^^xsd:gYear,"Parc des Princes",mK) .
+foot:Footballer(_:ikG, "Lionel","Messi","1997-17-00"^^xsd:date,"Paris Saint-Germain",(),200000000,"Midfielder","Egypt") .
+foot:Country("*""&"VNgu,"France",SD,Cb,(),()) """
+foot:Country("!""-"aJHd,""?"wu","Europe","EGY",(),(_:Iji,";"r"@")) "+"
+foot:Country(":""/"UZWw,"Argentina","Asia","POR",(),(_:cNv,_:TWj,_:yan,gP)) "^"
+foot:Country(")""'"jljM,Me,"Africa","FRA",(".""$"MCRK),()) ">"
+foot:Country(_:ZFC,cw,oT," "Hj,(_:zGm,_:kIN,Lt),()) "\"
+foot:Country("[""|"BGSb,"Portugal","South America","ENG",(),()) "%"
+foot:Club("#""?"ozJc,"Juventus","2016"^^xsd:gYear,"Parc des Princes","Argentina") .
+foot:League(_:iKq,HT,"*"S"<"^^xsd:gYear,(_:urX, _:Bwj,""""x"~""),(_:Eyt))  
+foot:Country("$""|"ePfn,"Egypt","South America","FRA",(_:dsL,hm),(_:aQk,_:lNM,GF)) .
+foot:Footballer(_:VUg, "Kylian","Messi","1990-4-15"^^xsd:date,"Paris Saint-Germain",(),150000000,"Goalkeeper","Portugal") .
+foot:Country("-""\"ApbY,CI,"Europe","EGY",(Ns,mg,Rv),(_:HmY,_:xDw,_:ZOW)) ";"
+foot:Country(_:eJQ,"France","Africa","POR",(OC,cM,Ob,Fj),(_:JsK,_:PLQ)) "}"
+foot:Country(".""!"kiEl,Bz,wy,":"z"(",(_:hwB,_:jkJ),("+"Lp)) "'"
+foot:Country(_:MyE,"^"R",","North America","ENG",(_:iDm,_:tbK,_:ypZ),(od,mm,Xv,jO)) .
+foot:Country("="">"VNHQ,Wk,"Asia",qd,("_""&"eRVk,_:YBK,sG),(_:qqg)) "["
+foot:League(")""@"DrLx,"La Liga","2017"^^xsd:gYear,(_:YBt,_:LeR,_:MsH, _:onC,""" "uo""),("Os")) "/"
+foot:Country("}""<"veON,"England","Africa",gA,(_:cKr,_:zDl),(_:Whm,_:HYy,_:FbM))  
+foot:Footballer(_:fPx, "Cristiano","Messi","1993-13-27"^^xsd:date,"Manchester United",(),300000000,"Forward","Argentina") .
+foot:League(" ""]"nVqJ,"Premier League","2019"^^xsd:gYear,(_:uws,_:GoR,_:ZTB,"ad"),()) "{"
+foot:Club("~"")"IULX,"Juventus",""+"9QCg6n0Z6kBq18zF548kSj"^^xsd:gYear,"Camp Nou","""tj0pi261E) ":"
+foot:Country(_:cuG,"France","Asia","ARG",(_:KOv,_:eqd,_:bPv,_:XiX),(xw,tS,yM)) "@"
+foot:Country(">""?"WZTA,PN,"North America","POR",(_:mKN,_:IuQ,mB),("*"t"/")) "\"
+foot:Country("|""$"Ywau,"Portugal",sT,"EGY",(lL,vB),()) .
+foot:Country("-""."OZKr,"Egypt","Europe","FRA",(""%"Ct"),()) "!"
+foot:Country(_:gDf,"Portugal","South America","ENG",(RJ,Ta,Xc),(_:BGO,_:GWK,_:caf,yx)) "`"
+foot:League(_:dMc,"Ligue 1","2015"^^xsd:gYear,("ts",""="k"^"",""'"M"[", "dX""),(_:fNC,"""("fe"")) "#"
+foot:Club(_:iJX,"Manchester United","2016"^^xsd:gYear,"]"sdj,""!"0VWn")  
+foot:League(_:cug,"Bundesliga",KB^^xsd:gYear,("QZ",""-"q"?""),(_:ROf,"bF")) .
+foot:Footballer(_:LYl, "Cristiano","Messi","2023-14-02"^^xsd:date,"Barcelona",(),300000000,"Midfielder","Argentina") .
+foot:Country("{""""ThPk,"France",CG,"POR",(""~"zI"),(_:xSH,_:oDE,"&"r"_")) " "
+foot:Country(">""^"mpUv,"England","South America","+"e".",(),(":"")"aMAt)) "#"
+foot:Country("<""*"NeyH,Xw,"Europe","FRA",(_:zUd,pD),()) .
+foot:Country("`""$"aEEu,"Portugal","Asia","EGY",(_:svH,_:NZm,_:BIb),(_:npz,_:uYt,_:poU)) "\"
+foot:Country("%""'"RzLE,"Egypt","Africa",GN,(_:Rvw,_:vjs),()) "|"
+foot:Country("}"";"cDCk,Gd,""("Yk","ARG",(_:Jrv,_:dbI,ZL),(_:FBg,NW))  
+foot:League("@""="zTFg,3hF,"2017"^^xsd:gYear,(_:ssx,_:auj,_:qWD,"no"),(_:Htk, _:HPW)) "/"

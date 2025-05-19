@@ -1,0 +1,281 @@
+2025-03-06 22:06:59,419 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"),"Nou","_:Spain").
+
+2025-03-06 22:06:59,422 - ERROR - Instance 7 failed: [ERROR] Wrong number of arguments. Expected 5 arguments, but found 6 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear, ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "_:Spain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14) with type NEList<LUB<rdfs:Resource>> given to parameter ?stadiumName : xsd:string
+[ERROR] Incompatible argument type. Argument "Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpp34yon7j.stottr
+
+
+2025-03-06 22:07:31,283 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("Camp Nou"),_:france).
+
+2025-03-06 22:07:31,284 - ERROR - Instance 9 failed: [ERROR] Incompatible argument type. Argument ("Camp Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14) with type NEList<LUB<rdfs:Resource>> given to parameter ?stadiumName : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpdpu15ym1.stottr
+
+
+2025-03-06 22:07:56,246 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear,("Camp Nou",_:france)"_"%
+
+2025-03-06 22:07:56,247 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '%\n' at line 7 column 72
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgku1n1hj.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpgku1n1hj.stottr
+
+
+2025-03-06 22:08:15,596 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+
+2025-03-06 22:08:15,597 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0l1bpdr8.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp0l1bpdr8.stottr
+
+
+2025-03-06 22:08:24,247 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear,,("Camp Nou",_:france)"_"%
+
+2025-03-06 22:08:24,247 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '%\n' at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1d_9o8sp.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp1d_9o8sp.stottr
+
+
+2025-03-06 22:08:32,418 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear("Camp Nou",_:france))"_"%
+
+2025-03-06 22:08:32,418 - ERROR - Instance 13 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-03-06 22:08:32,420 - ERROR - Fatal error at instance 13: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-03-06 22:08:37,977 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+
+2025-03-06 22:08:37,977 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkwtrfy68.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpkwtrfy68.stottr
+
+
+2025-03-06 22:08:44,056 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear(),"Nou","_:Spain").
+
+2025-03-06 22:08:44,058 - ERROR - Instance 15 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 51
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpw6b30i75.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpw6b30i75.stottr
+
+
+2025-03-06 22:08:50,501 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("a","b","c"),"Nou","_:Spain").
+
+2025-03-06 22:08:50,501 - ERROR - Instance 16 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 62
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppw23ype8.stottr
+
+[ERROR] Incompatible argument type. Argument "c"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmppw23ype8.stottr
+
+
+2025-03-06 22:08:57,093 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:invalid,"Nou","_:Spain").
+
+2025-03-06 22:08:57,093 - ERROR - Instance 17 failed: [ERROR] Incompatible argument type. Argument "2018"^^http://www.w3.org/2001/XMLSchema#invalid : rdfs:Literal with type rdfs:Literal given to parameter ?foundedYear : xsd:gYear
+[ERROR] Incompatible argument type. Argument "_:Spain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [WARNING] Unusual literal datatype. The literal value'Result("2018"^^http://www.w3.org/2001/XMLSchema#invalid : rdfs:Literal)[]' uses a datatype 'http://www.w3.org/2001/XMLSchema#invalid' that is not registered by the parser
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp69wtxywx.stottr
+
+
+2025-03-06 22:09:06,188 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear(("nested","deep")),"Nou","_:Spain").
+
+2025-03-06 22:09:06,189 - ERROR - Instance 18 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ')' expecting '.' at line 7 column 67
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppq3afuez.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 4 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear, "deep"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmppq3afuez.stottr
+
+
+2025-03-06 22:09:13,073 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("Camp Nou",_:france),"Nou","_:Spain").
+
+2025-03-06 22:09:13,073 - ERROR - Instance 19 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_zzunaoe.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 4 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear, blank502 : LUB<rdfs:Resource>)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp_zzunaoe.stottr
+
+
+2025-03-06 22:09:17,972 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra")).
+
+2025-03-06 22:09:17,972 - ERROR - Instance 20 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: extraneous input ')' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpslxmrr_k.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpslxmrr_k.stottr
+
+
+2025-03-06 22:09:22,769 - ERROR - Instance foot:Club(_:abc,"Barca",,"2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+
+2025-03-06 22:09:22,769 - ERROR - Instance 21 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input ',' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 32[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 50[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 59
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpii2070n_.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpii2070n_.stottr
+
+
+2025-03-06 22:09:27,358 - ERROR - Instance foot:Club(?\`cdBk,"U!E","2018"^^xsd:gYear,"Camp Nou",_:france).
+
+2025-03-06 22:09:27,358 - ERROR - Instance 22 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\`' at line 7 column 19[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp280rlrwt.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp280rlrwt.stottr
+
+
+2025-03-06 22:09:32,044 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou,_:france).
+
+2025-03-06 22:09:32,045 - ERROR - Instance 23 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: token recognition error at: '"Nou,_:france).\n' at line 7 column 59[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprm7gw8fc.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmprm7gw8fc.stottr
+
+
+2025-03-06 22:09:36,716 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou",_:france%).
+
+2025-03-06 22:09:36,716 - ERROR - Instance 24 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 58[ERROR] Syntax error: token recognition error at: '%)' at line 7 column 73
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxr3o65y6.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpxr3o65y6.stottr
+
+
+2025-03-06 22:09:44,080 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"),"Nou","_:Spain").
+
+2025-03-06 22:09:44,081 - ERROR - Instance 25 failed: [ERROR] Wrong number of arguments. Expected 5 arguments, but found 6 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear, ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "_:Spain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument ("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14) with type NEList<LUB<rdfs:Resource>> given to parameter ?stadiumName : xsd:string
+[ERROR] Incompatible argument type. Argument "Nou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmptp2dw7cm.stottr
+
+
+2025-03-06 22:09:56,598 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,"Nou","_:Spain").
+
+2025-03-06 22:09:56,599 - ERROR - Instance 26 failed: [ERROR] Incompatible argument type. Argument "_:Spain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpxexmyep9.stottr
+
+
+2025-03-06 22:10:07,245 - ERROR - Instance foot:Club(_:def,"Juve","2018"^^xsd:gYear("extra"),"Allianz","_:Italy").
+
+2025-03-06 22:10:07,245 - ERROR - Instance 27 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 57
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2hccsm9u.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Juve"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2018"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmp2hccsm9u.stottr
+
+
+2025-03-06 22:10:18,109 - ERROR - Instance foot:Club(.?"="Z,"Barcelona","2016"^^xsd:gYear("_"+mr,"_:Egypt")")"@
+
+2025-03-06 22:10:18,109 - ERROR - Instance 28 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-03-06 22:10:18,111 - ERROR - Fatal error at instance 28: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-03-06 22:10:26,634 - ERROR - Instance foot:Club(}^"oE\//knme","",f`U^^xsd:gYear("Camp Nou","_:England")"="%
+
+2025-03-06 22:10:26,634 - ERROR - Instance 29 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '^"' at line 7 column 19[ERROR] Syntax error: mismatched input '}' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '/k' at line 7 column 25[ERROR] Syntax error: token recognition error at: '"%\n' at line 7 column 75
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpctydp8un.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpctydp8un.stottr
+
+
+2025-03-06 22:10:33,426 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear("Camp Nou",_:france)"_"%
+
+2025-03-06 22:10:33,426 - ERROR - Instance 30 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-03-06 22:10:33,428 - ERROR - Fatal error at instance 30: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-03-06 22:10:38,390 - ERROR - Instance foot:Club(_:abc,"Barca","2000"^^xsd:gYearky,"Camp Nou",_:france).
+
+2025-03-06 22:10:38,390 - ERROR - Instance 31 failed: [ERROR] Incompatible argument type. Argument "2000"^^http://www.w3.org/2001/XMLSchema#gYearky : rdfs:Literal with type rdfs:Literal given to parameter ?foundedYear : xsd:gYear
+  [WARNING] Unusual literal datatype. The literal value'Result("2000"^^http://www.w3.org/2001/XMLSchema#gYearky : rdfs:Literal)[]' uses a datatype 'http://www.w3.org/2001/XMLSchema#gYearky' that is not registered by the parser
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpcfkc8ems.stottr
+
+
+2025-03-06 22:10:43,158 - ERROR - Instance foot:Club(_:abc,"Barca","2000"^^xsd:gYear(("Hello")),"Camp Nou",_:france).
+
+2025-03-06 22:10:43,159 - ERROR - Instance 32 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 49[ERROR] Syntax error: mismatched input ')' expecting '.' at line 7 column 59
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkoyoi0va.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, "Barca"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2000"^^http://www.w3.org/2001/XMLSchema#gYear : xsd:gYear)
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpkoyoi0va.stottr
+
+

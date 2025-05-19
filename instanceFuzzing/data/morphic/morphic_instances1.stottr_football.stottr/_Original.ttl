@@ -1,0 +1,349 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foaf:name       "!zg" ;
+        rdf:type        foot:Country ;
+        foot:continent  "Africa" ;
+        foot:fifaCode   "POR" .
+
+_:b1    foaf:name         "Premier League" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b3 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b5 .
+
+_:b6    foaf:name       "*" ;
+        rdf:type        foot:Country ;
+        foot:continent  "North America" ;
+        foot:fifaCode   "FRA" .
+
+_:b7    foaf:name         "Serie A" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b8 .
+
+_:b9    foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b10 ;
+        foot:famousPlayers  _:b11 ;
+        foot:famousPlayers  _:b12 ;
+        foot:continent      "~yZ" ;
+        foot:fifaCode       "ARG" .
+
+_:b13   foaf:name       "France" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b14 ;
+        foot:leagues    _:b15 ;
+        foot:leagues    _:b16 ;
+        foot:leagues    _:b17 ;
+        foot:continent  "South America" ;
+        foot:fifaCode   "ENG" .
+
+_:b18   foaf:name       "_" ;
+        rdf:type        foot:Country ;
+        foot:continent  "Africa" ;
+        foot:fifaCode   "FRA" .
+
+_:b19   foaf:name       "Argentina" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b20 ;
+        foot:leagues    _:b21 ;
+        foot:leagues    _:b22 ;
+        foot:leagues    _:b23 ;
+        foot:continent  "Africa" ;
+        foot:fifaCode   "ARG" .
+
+_:b24   foaf:name       "France" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b25 ;
+        foot:leagues    _:b26 ;
+        foot:leagues    _:b27 ;
+        foot:leagues    _:b28 ;
+        foot:continent  "South America" ;
+        foot:fifaCode   "FRA" .
+
+_:b29   foaf:name         "Premier League" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b30   foaf:name       "England" ;
+        rdf:type        foot:Country ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "ARG" .
+
+_:b31   foaf:name       "Egypt" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b32 ;
+        foot:continent  "Asia" ;
+        foot:fifaCode   "EGY" .
+
+_:b33   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b34 ;
+        foot:famousPlayers  _:b35 ;
+        foot:famousPlayers  _:b36 ;
+        foot:famousPlayers  "}" ;
+        foot:continent      "North America" ;
+        foot:fifaCode       "POR" .
+
+_:b37   foaf:name       "Portugal" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b38 ;
+        foot:leagues    _:b39 ;
+        foot:leagues    _:b40 ;
+        foot:leagues    _:b41 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "POR" .
+
+_:b42   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b43 ;
+        foot:famousPlayers  _:b44 ;
+        foot:famousPlayers  _:b45 ;
+        foot:famousPlayers  _:b46 ;
+        foot:continent      "Asia" ;
+        foot:fifaCode       "ARG" .
+
+_:b47   foot:country      "" ;
+        foot:stadiumName  "_" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Paris Saint-Germain" .
+
+_:b48   foaf:name         "Premier League" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b49 ;
+        foot:topTeams     _:b50 ;
+        foot:topTeams     _:b51 ;
+        foot:topTeams     _:b52 .
+
+_:b53   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b54 ;
+        foot:famousPlayers  _:b55 ;
+        foot:famousPlayers  _:b56 ;
+        foot:famousPlayers  _:b57 ;
+        foot:continent      "Africa" ;
+        foot:fifaCode       "EGY" .
+
+_:b58   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b59 ;
+        foot:famousPlayers  _:b60 ;
+        foot:famousPlayers  _:b61 ;
+        foot:famousPlayers  _:b62 ;
+        foot:continent      "South America" ;
+        foot:fifaCode       "ENG" .
+
+_:b63   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b64 ;
+        foot:famousPlayers  _:b65 ;
+        foot:famousPlayers  _:b66 ;
+        foot:famousPlayers  _:b67 ;
+        foot:continent      "South America" ;
+        foot:fifaCode       "" .
+
+_:b68   foaf:name       "Argentina" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b69 ;
+        foot:leagues    _:b70 ;
+        foot:leagues    _:b71 ;
+        foot:leagues    _:b72 ;
+        foot:continent  "Africa" ;
+        foot:fifaCode   "EGY" .
+
+_:b73   foaf:name       "France" ;
+        rdf:type        foot:Country ;
+        foot:continent  "Asia" ;
+        foot:fifaCode   "ARG" .
+
+_:b74   foaf:name       "Egypt" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b75 ;
+        foot:continent  "Asia" ;
+        foot:fifaCode   "EGY" .
+
+_:b76   foaf:name       "Portugal" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b77 ;
+        foot:leagues    _:b78 ;
+        foot:leagues    _:b79 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "EGY" .
+
+_:b80   foaf:name           "=IO" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b81 ;
+        foot:famousPlayers  _:b82 ;
+        foot:famousPlayers  _:b83 ;
+        foot:continent      "" ;
+        foot:fifaCode       "ENG" .
+
+_:b84   foaf:name       "Argentina" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b85 ;
+        foot:leagues    _:b86 ;
+        foot:leagues    _:b87 ;
+        foot:leagues    _:b88 ;
+        foot:continent  "South America" ;
+        foot:fifaCode   "EGY" .
+
+_:b89   foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b90 ;
+        foot:famousPlayers  _:b91 ;
+        foot:famousPlayers  _:b92 ;
+        foot:famousPlayers  _:b93 ;
+        foot:continent      "Asia" ;
+        foot:fifaCode       "ARG" .
+
+_:b94   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b95 ;
+        foot:famousPlayers  _:b96 ;
+        foot:famousPlayers  _:b97 ;
+        foot:famousPlayers  _:b98 ;
+        foot:continent      "Europe" ;
+        foot:fifaCode       "POR" .
+
+_:b99   foaf:name       "Egypt" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b100 ;
+        foot:leagues    _:b101 ;
+        foot:leagues    _:b102 ;
+        foot:leagues    _:b103 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "ARG" .
+
+_:b104  foaf:name       "France" ;
+        rdf:type        foot:Country ;
+        foot:continent  "(" ;
+        foot:fifaCode   "" .
+
+_:b105  foaf:name         "Premier League" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b106  foot:country      "Argentina" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b107  foaf:name         "La Liga" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b108 ;
+        foot:topTeams     _:b109 ;
+        foot:topTeams     _:b110 ;
+        foot:topTeams     _:b111 .
+
+_:b112  foaf:name       "<" ;
+        rdf:type        foot:Country ;
+        foot:continent  "Asia" ;
+        foot:fifaCode   "POR" .
+
+_:b113  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b114 ;
+        foot:leagues        _:b115 ;
+        foot:leagues        _:b116 ;
+        foot:famousPlayers  _:b117 ;
+        foot:famousPlayers  _:b118 ;
+        foot:famousPlayers  _:b119 ;
+        foot:continent      "South America" ;
+        foot:fifaCode       "FRA" .
+
+_:b120  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b121 ;
+        foot:famousPlayers  _:b122 ;
+        foot:continent      "North America" ;
+        foot:fifaCode       "ENG" .
+
+_:b123  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b124 ;
+        foot:famousPlayers  _:b125 ;
+        foot:famousPlayers  _:b126 ;
+        foot:famousPlayers  _:b127 ;
+        foot:famousPlayers  _:b128 ;
+        foot:continent      "North America" ;
+        foot:fifaCode       "FRA" .
+
+_:b129  foot:teams        _:b130 ;
+        foaf:name         "&" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b131  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b132 ;
+        foot:famousPlayers  _:b133 ;
+        foot:famousPlayers  _:b134 ;
+        foot:famousPlayers  _:b135 ;
+        foot:continent      "Africa" ;
+        foot:fifaCode       "ARG" .
+
+_:b136  foaf:name         "Premier League" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b137 ;
+        foot:topTeams     _:b138 ;
+        foot:topTeams     _:b139 .
+
+_:b140  foot:teams        _:b141 ;
+        foaf:name         "Ligue 1" ;
+        foot:foundedYear  "?WE"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b142 ;
+        foot:topTeams     _:b143 ;
+        foot:topTeams     _:b144 ;
+        foot:topTeams     _:b145 .
+
+_:b146  foaf:name       "France" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b147 ;
+        foot:leagues    _:b148 ;
+        foot:leagues    _:b149 ;
+        foot:leagues    _:b150 ;
+        foot:continent  "Africa" ;
+        foot:fifaCode   "ENG" .
+
+_:b151  foaf:name       "France" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b152 ;
+        foot:leagues    _:b153 ;
+        foot:leagues    _:b154 ;
+        foot:leagues    _:b155 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "EGY" .
+
+_:b156  foaf:name       "~" ;
+        rdf:type        foot:Country ;
+        foot:continent  "South America" ;
+        foot:fifaCode   "ARG" .
+
+_:b157  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b158 ;
+        foot:famousPlayers  _:b159 ;
+        foot:continent      "Africa" ;
+        foot:fifaCode       "ARG" .
+
+_:b160  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b161 ;
+        foot:continent      "" ;
+        foot:fifaCode       "EGY" .

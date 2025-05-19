@@ -1,0 +1,79 @@
+--- Summary ---
+Input rows (ISLa generated): 20
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 53
+
+Last error before quitting: [ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+
+Aggregated error counts (by type):
+Wrong number of arguments: 13
+Incompatible argument type: 10
+Error in instance of template: 7
+Error in argument: 7
+List expander applied to non-list argument: 5
+Unrecognized term: 4
+Unrecognized instance argument: 3
+Arguments marked for list expansion: 2
+Parsing stOTTR: 1
+Syntax error: 1
+Aggregated error counts (by exact message, actual errors):
+'  [ERROR] Error in argument.': 7
+'[ERROR] Error in instance of template 'http://example.org/football#Club'.': 3
+'[ERROR] Error in instance of template 'http://example.org/football#Footballer'.': 3
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()': 2
+'[ERROR] Parsing stOTTR': 1
+'[ERROR] Syntax error: missing '.' at 'foot:Club' at line 9 column 0[ERROR] Syntax error: mismatched input 'c' expecting {'[', '(', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 20[ERROR] Syntax error: mismatched input '"-"' expecting '.' at line 9 column 24[ERROR] Syntax error: mismatched input 'w5enQq' expecting {'[', '(', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 26[ERROR] Syntax error: mismatched input 'Millions' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 33[ERROR] Syntax error: mismatched input 'P' expecting {'[', '(', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 44[ERROR] Syntax error: token recognition error at: '"/d))\r' at line 10 column 52[ERROR] Syntax error: extraneous input 'Zi' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 50[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 11 column 15[ERROR] Syntax error: token recognition error at: '"hk\/' at line 11 column 17[ERROR] Syntax error: token recognition error at: '/N' at line 11 column 22[ERROR] Syntax error: token recognition error at: '") {\r' at line 11 column 49[ERROR] Syntax error: mismatched input '>' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 10[ERROR] Syntax error: extraneous input 'SOKl' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 12 column 12[ERROR] Syntax error: extraneous input 'Ey' expecting {'[', '(', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 24[ERROR] Syntax error: extraneous input 'jv' expecting {',', ')'} at line 13 column 29[ERROR] Syntax error: mismatched input '"+"' expecting {',', ')', '^^', LANGTAG} at line 13 column 32[ERROR] Syntax error: missing '.' at 'zipMax' at line 15 column 0[ERROR] Syntax error: token recognition error at: '@\r' at line 15 column 31[ERROR] Syntax error: missing '.' at 'foot:Club' at line 16 column 0[ERROR] Syntax error: extraneous input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 16 column 16[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 17 column 12[ERROR] Syntax error: missing '.' at 'foot:Club' at line 18 column 0[ERROR] Syntax error: mismatched input 'IHqwK' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 21[ERROR] Syntax error: missing '.' at 'foot:Footballer' at line 19 column 0[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 21 column 0[ERROR] Syntax error: mismatched input '>' expecting '.' at line 21 column 27[ERROR] Syntax error: token recognition error at: '$' at line 22 column 36[ERROR] Syntax error: mismatched input '"#"' expecting '.' at line 22 column 37[ERROR] Syntax error: token recognition error at: '"ic\/' at line 23 column 23[ERROR] Syntax error: token recognition error at: '/Q' at line 23 column 28[ERROR] Syntax error: extraneous input 'TzG' expecting {'[', '(', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 23 column 30[ERROR] Syntax error: token recognition error at: '"\r' at line 23 column 36[ERROR] Syntax error: mismatched input 'zipMax' expecting {',', ')'} at line 24 column 0[ERROR] Syntax error: mismatched input 'B' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 24 column 35[ERROR] Syntax error: token recognition error at: '/ ' at line 24 column 37[ERROR] Syntax error: token recognition error at: '~' at line 24 column 39[ERROR] Syntax error: mismatched input 'fSMys' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 24 column 40[ERROR] Syntax error: mismatched input ')' expecting '.' at line 24 column 46[ERROR] Syntax error: mismatched input 'm' expecting {'[', '(', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 25 column 30[ERROR] Syntax error: extraneous input '"!"' expecting '.' at line 25 column 34[ERROR] Syntax error: extraneous input '"-"' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 25 column 38[ERROR] Syntax error: mismatched input 'L' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 26 column 10': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 1 in instance: http://example.org/football#League((blank501 : LUB<rdfs:Resource>)(id: 14))': 1
+'[ERROR] Incompatible argument type. Argument (blank501 : LUB<rdfs:Resource>)(id: 14) with type NEList<LUB<rdfs:Resource>> given to parameter ?leagueIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#League(++"France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1988-2-071"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ottr:none : ottr:Bot)': 1
+'[ERROR] List expander applied to non-list argument: ++"France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string': 1
+'[ERROR] Incompatible argument type. Argument ++"France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?leagueIRI : ottr:IRI': 1
+'  [ERROR] The instance has arguments which are marked for list expansion:[++"France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string], but the instance is not marked with a list expander': 1
+'    [ERROR] Unrecognized term  in 'c' at line 9 column 20': 1
+'    [ERROR] Unrecognized instance argument  in 'Millions' at line 10 column 33': 1
+'    [ERROR] Unrecognized term  in 'w5enQq' at line 10 column 26': 1
+'    [ERROR] Unrecognized term  in 'P!WsH' at line 10 column 44': 1
+'[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: zipMin | http://example.org/football#Country(++"."^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] List expander applied to non-list argument: ++"."^^http://www.w3.org/2001/XMLSchema#string : xsd:string': 1
+'[ERROR] Incompatible argument type. Argument ++"."^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 6 arguments, but found 2 in instance: http://example.org/football#Country("POR"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ""^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] Incompatible argument type. Argument "POR"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 1 in instance: zipMax | http://example.org/football#Club(++"Forward"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] List expander applied to non-list argument: ++"Forward"^^http://www.w3.org/2001/XMLSchema#string : xsd:string': 1
+'[ERROR] Incompatible argument type. Argument ++"Forward"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 2 in instance: http://example.org/football#Club(blank502 : LUB<rdfs:Resource>, http://example.org/football#Country : LUB<ottr:IRI>)': 1
+'[ERROR] Incompatible argument type. Argument http://example.org/football#Country : LUB<ottr:IRI> with type LUB<ottr:IRI> given to parameter ?clubName : xsd:string': 1
+'    [ERROR] Unrecognized instance argument  in 'IHqwK' at line 18 column 21': 1
+'[ERROR] Wrong number of arguments. Expected 9 arguments, but found 1 in instance: http://example.org/football#Footballer("Cristiano"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] Incompatible argument type. Argument "Cristiano"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 6 arguments, but found 2 in instance: http://example.org/football#Country("2018"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ottr:none : ottr:Bot)': 1
+'[ERROR] Incompatible argument type. Argument "2018"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 9 arguments, but found 1 in instance: http://example.org/football#Footballer(++(blank503 : LUB<rdfs:Resource>)(id: 16))': 1
+'  [ERROR] The instance has arguments which are marked for list expansion:[++(blank503 : LUB<rdfs:Resource>)(id: 16)], but the instance is not marked with a list expander': 1
+'[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: cross | http://example.org/football#Country(++"^|ekbUnphP"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] List expander applied to non-list argument: ++"^|ekbUnphP"^^http://www.w3.org/2001/XMLSchema#string : xsd:string': 1
+'[ERROR] Incompatible argument type. Argument ++"^|ekbUnphP"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 1 in instance: zipMin | http://example.org/football#League(++")"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] List expander applied to non-list argument: ++")"^^http://www.w3.org/2001/XMLSchema#string : xsd:string': 1
+'[ERROR] Incompatible argument type. Argument ++")"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?leagueIRI : ottr:IRI': 1
+'    [ERROR] Unrecognized instance argument  in 'fSMys' at line 24 column 40': 1
+'[ERROR] Error in instance of template 'http://example.org/football#League'.': 1
+'    [ERROR] Unrecognized term  in 'm' at line 25 column 30': 1
+
+Non-critical messages (not starting with '[ERROR]'):
+'Location(s):': 21
+'- File instances19.stottr': 21
+'- Signature with IRI 'http://example.org/football#Club'': 7
+'- Signature with IRI 'http://example.org/football#Footballer'': 5
+'- Signature with IRI 'http://example.org/football#League'': 4
+'- Signature with IRI 'http://example.org/football#Country'': 4
+
+SHACL validation results:
+(rdflib.term.BNode('N85214321f3e44bc69de32a4ed8590167'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#conforms'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean'))): 1
+SHACL validation results:
+(rdflib.term.BNode('N85214321f3e44bc69de32a4ed8590167'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#conforms'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean')))
+(rdflib.term.BNode('N85214321f3e44bc69de32a4ed8590167'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#ValidationReport'))
+(rdflib.term.BNode('N85214321f3e44bc69de32a4ed8590167'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#ValidationReport')): 1
+SHACL validation results:
+(rdflib.term.BNode('N85214321f3e44bc69de32a4ed8590167'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#conforms'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean')))
+(rdflib.term.BNode('N85214321f3e44bc69de32a4ed8590167'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#ValidationReport'))

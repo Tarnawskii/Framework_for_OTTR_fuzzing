@@ -1,0 +1,46 @@
+2025-05-20 00:03:06,597 - INFO - Prosesserer batch: templates15.stottr
+2025-05-20 00:03:06,598 - INFO - Lutra output: 
+2025-05-20 00:03:06,598 - INFO - Lutra feil: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?!xsd:token?c,?ottr:IRI' at line 11 column 34[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 56[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 100[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 123[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 146
+Location(s):
+- File ./data/templates/templates15.stottr
+
+[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates15.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?i,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates15.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates15.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?J,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates15.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 15 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates15.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+
+2025-05-20 00:03:06,599 - INFO - Lutra processing time: 3.47 seconds
+2025-05-20 00:03:06,599 - ERROR - Lutra crashed with exit code 1

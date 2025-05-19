@@ -1,0 +1,116 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer ( ;rL, Kt9a, "Müller", "1980-07-31"^^xsd:date^^badPrefix:string ) .
+foot:Footballer ( _:footballer1, "Kylian", "", "2020-13-32"^^xsd:date, ,y, ( "CgSYB" ), wqN, "Portugal" ) .
+ex:Annotation ( _:footballer1, "Lionel", "Mbappe", "9999-99-99"^^xsd:date, "Paris Saint-Germain", ( "Barcelona" , ( "Juventus" ) ), 658213, "" ) .
+invalid |  o-rdf:Type ( 1million ) .
+zipMin |  ottr:Triple ( ++ ++ """" , ( , ) ++ "" ,, ) .
+zipMax |  ex:Template2 (  ) .
+foot:Footballer ( ++ ++ "Messi" , ++ ( ( "Paris Saint-Germain" ) ) ) . .
+ ex:Template1 ( ++ cjbk "France" ++ "Juventus" ,, ) .
+cross foot:Footballer ( ?var3 ?var 1 ) .
+foot:Type ( "string"^^^xsd:string ++ ++ ( _:Usu ,, ) .
+ex:Template1 ( 5Ct _:footballer1, "Lionel", "Müller", "9999-99-99"^^xsd:date, "Juventus", ( "Paris Saint-Germain" ), 100000000, "France" ) .
+foot:Footballer ( ~wi ,, .
+cross |  ex:Footballer (  ) .
+foot:Footballer ( _:footballer1, (I, "", "2012-04-23"^^xsd:date^^xsd:date, |r, ( ( "Barcelona" ) ), XJ, #ER ) .
+invalid |  o-rdf:Type ( ++ "PM" , ++ ++ "" ) .
+ ex:Annotation ( ++ ( "Cristiano" ) ,, ) .
+cross ex:Template2 ( ( "Paris Saint-Germain" , ( "VFeOHxosp" ) ) "Paris Saint-Germain" ++ ++ "" ,, ) .
+foot:Footballer ( _:zNm .
+foot:Footballer ( ++ ?var5 , "string"^^^xsd:string ,, ) - .
+zipMax |  ottr:Triple ( ++ ++ "Messi" ) .
+ex:Annotation ( "string"^^^xsd:string ++ ++ "" , _:footballer1, "O'Neil", 2uM, "2020-04-17"^^xsd:date^^xsd:date, "Juventus", ( _O ), "", VX ) .
+zipMax |  foot:Type (  ) .
+foot:Footballer ( ++ ( "Müller" ) ) * .
+foot:Footballer ( _:footballer1, "Cristiano", "Mbappe", "2020-13-32"^^xsd:date, mB, ( "Paris Saint-Germain" ), 563891, "France" ) .
+invalid |  ottr:Triple ( _:PyS ,, ) .
+ foot:Footballer ( K ,, ) .
+cross |  ex:Template1 ( ++ ++ $HYw ) .
+foot:Footballer ( _:eEo .
+o-rdf:Type ( ++ ++ ( "Barcelona" , ( ( "Barcelona" ) ) ) ++ ++ "Rkc" ++ ++ "" , AGrajFD ?var 1 .
+foot:Footballer ( .nJ, +LfiW { ) .
+foot:Footballer ( ++ ++ "Barcelona" ++ ?AYl ) .
+foot:Footballer ( _:GrU .
+invalid |  ottr:Triple ( ?var 1 ,, ) .
+foot:Footballer ( _:footballer1, "", "Messi", "1961-11-31"^^xsd:date^^xsd:date, "", ( "Paris Saint-Germain" , ( "Juventus" ) ), 1million, "France" ) .
+cross |  ex:Template2 ( ( "Cristiano" , 23 ,, ) , _:footballer1, "O'Neil", ps, "2020-13-32"^^xsd:date, oW, ( ;R ), 634590, "" ) .
+zipMax |  ex:Template1 (  ) .
+ o-rdf:Type ( ++ k , ++ "ZKE8T" , ++ ( "hJCm" ) ) .
+foot:Footballer ( "gXz", "Kylian" D ) .
+foot:Footballer ( ++ ++ jP ( , ) , ++ ++ "" , "string"^^^xsd:string ++ ++ "Ronaldo" , ++ 2002-00-27 qa ) - .
+zipMin |  ottr:Template1 ( _:Lfc , 3.14 ) .
+ foot:Footballer ( _:footballer1, h0Mi, "Messi", "1988-12-26"^^xsd:date^^xsd:date, "Barcelona", ( "Juventus" , ( "zc" ) ), 100000000, "Portugal" ) .
+o-rdf:Type ( "ZjW" "string"^^^xsd:string , ++ ++ "" ) .
+cross ex:Annotation ( ++ "Lionel" ,, ) .
+foot:Footballer ( _:footballer1, "Cristiano", "", """"^^xsd:date, Fx, ( "Paris Saint-Germain" ), "", %EyP ) .
+cross |  foot:Footballer (  ) .
+invalid |  ottr:Triple ( "2020-13-32" 1million ,, ) .
+foot:Footballer ( _:tgV, "" \ ) .
+zipMax |  ex:Template1 ( ++ _:RwJ ++ ++ "Müller" ++ ?var2 ( (Yus ) , ?var 1 , AKBCn ++ #v ) .
+ex:Template2 ( ++ ++ ( "France" ) ( , ) ,, .
+foot:Footballer ( m, "Kylian", "Ronaldo", "IHef"^^badPrefix:string ) .
+zipMin |  o-rdf:Type ( ( , )  ) .
+foot:Footballer ( "yzA" .
+ex:Annotation ( _:GUh , ++ ++ "O'Neil" ) .
+foot:Footballer ( _:footballer1, $HP, "Ronaldo", """"^^xsd:date, W1r, ( "Paris Saint-Germain" , ( "Barcelona" ) ), Vp, "" ) .
+ ex:Template1 ( ++ ( "1989-12-14"^^xsd:date ) ,, ) .
+zipMax |  ex:Template2 ( _:footballer1, "Kylian", /n, "2020-13-32"^^xsd:date, "Juventus", ( "MRXD" ), 100000000, "Argentina" ) .
+cross |  foot:Footballer ( ++ ++ ( ( "Juventus" ) ) ,, ) .
+cross ottr:Triple ( ++ "Müller" ) .
+o-rdf:Footballer ( 573026 , ++ 1million , gofid , ++ "" .
+foot:Footballer ( <FB, "" OaJwjY ) .
+ex:Annotation ( ?var4 ) .
+foot:Footballer ( _:footballer1, "Cristiano", "Müller", "2020-13-32"^^xsd:date, "Juventus", ( }H ), 100000000, "Portugal" ) .
+foot:Footballer ( W, -s2Q, ZPq, "1981-04-28"^^xsd:date^^badPrefix:string ) .
+ o-rdf:Footballer (  ) .
+zipMax |  ex:Template1 ( ++ ++ KIw ?var 1 , ++ )OC ,, ) .
+invalid |  ottr:Triple ( _:footballer1, "O'Neil", "Messi", "mbBc"^^xsd:date, @z, ( "Barcelona" , ( "Paris Saint-Germain" ) ), 1million, "" ) .
+cross |  foot:Footballer ( ++ ++ ( ( "AXF" ) ,  ) ,, ) .
+o-rdf:Type ( "" ++ ++ """" .
+foot:Footballer ( ++ ++ "France" ) [ .
+foot:Footballer ( _:Rpu, MSJ 0 ) .
+foot:Footballer ( K, 2tnXoC 0 ) .
+o-rdf:Type ( _:VTZ ( , ) ) .
+foot:Footballer ( _:footballer1, "Kylian", "", """"^^xsd:date, "Barcelona", ( "Qasy" ), 789134, "Portugal" ) .
+zipMax |  ex:Annotation ( _:footballer1, "O'Neil", "Müller", "2016-05-31"^^xsd:date^^xsd:date, YdkALBfvx, ( "Juventus" , ( "Paris Saint-Germain" ) ), "", "" ) .
+invalid |  ex:Template1 ( ++ cHzhej ,, ) .
+cross |  ex:Template2 ( ++ ++ "France" ,  ) .
+foot:Footballer ( ++ ++ "9999-99-99" ++ ++ "Argentina" ) - .
+zipMin |  foot:Footballer ( ( =JMg ) ) .
+foot:Footballer ( "bNr" .
+foot:Triple ( "Messi" ++ ++ [WmEO ,, .
+ex:Template2 ( _:footballer1, "Cristiano", "Messi", "5mYU"^^xsd:date, "Barcelona", ( "Juventus" , ( "Paris Saint-Germain" ) ), 1million, "Argentina" ) .
+invalid |  o-rdf:Type ( ++ ++ "" ) .
+foot:Footballer ( j, $sNx H ) .
+foot:Footballer ( _:footballer1, "O'Neil", "Mbappe", "2023-10-11"^^xsd:date^^xsd:date, uMcv, ( "dZp" ), 100000000, "F ) .
+zipMax |  foot:Footballer ( SeQ ,, ) .
+ ex:Annotation (  ) .
+cross |  ottr:Triple ( "" ++ ++ """" , ++ "Kylian" ,, ) .
+foot:Footballer ( ++ _:hRV ) % .
+cross foot:Type ( ++ ++ kD ,, ) .
+foot:Footballer ( "iEf", "", gl, "9999-99-99"^^xsd:invalidType ) .
+invalid |  ex:Annotation ( _:footballer1, "Cristiano", [F, "9999-99-99"^^xsd:date, "Barcelona", ( "Paris Saint-Germain" ), 782651, "Argentina" ) .
+foot:Footballer ( _:footballer1, "", "Mbappe", "1993-11-31"^^xsd:date^^xsd:date, "", ( -m9o ), "", =l ) .
+foot:Footballer ( "wYV", "Kylian", "Ronaldo", """"^^badPrefix:string ) .
+foot:Footballer ( none , "string"^^^xsd:string ,, ) .
+cross |  ex:Template1 ( ++ ++ ( "Juventus" , ( ( "Barcelona" ) ) ) ) .
+ ottr:Triple (  ) .
+zipMax |  o-rdf:Triple ( ++ ( "Messi" ,, ) ++ ++ "" ++ ++ _:Zjp ) .
+foot:Footballer ( )Dx, .N a ) .
+cross o-rdf:Type ( ++ ++ ?var4 ) .
+ex:Template2 ( ++ ++ "O'Neil" ,, .
+foot:Footballer ( "Paris Saint-Germain" ,, ) .
+cross |  o-rdf:Type (  ) .
+foot:Footballer ( _:footballer1, WZ1PbjpC, "", "BrF"^^xsd:date, "Barcelona", ( "Juventus" ), 1million, "France" ) .
+foot:Footballer ( _:LQI, "Cristiano" N ) .
+zipMin |  ex:Template1 ( _:footballer1, "O'Neil", "Mbappe", "2019-06-10"^^xsd:date^^xsd:date, tE, ( "Paris Saint-Germain" , ( "Paris Saint-Germain" ) ), 475832, (mK ) .
+ ottr:Triple ( zO , ++ ++ Vxa ++ "" ) .
+ex:Template2 ( ++ "2020-13-32" ,, .
+foot:Footballer ( "gAy", "Lionel", "Messi", "9999-99-99"^^badPrefix:string ) .
+zipMax |  ex:Annotation ( ( ( "Paris Saint-Germain" ) ) ) .
+foot:Footballer ( ++ ,sqie ,, ) \ .

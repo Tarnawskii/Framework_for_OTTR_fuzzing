@@ -1,0 +1,7 @@
+--- Oppsummering ---
+Genererte templates: 100
+Antall templates med feil: 1
+Totalt antall feilmeldinger: 2
+
+Feil på linje 8:
+  [ERROR] Syntax error: token recognition error at: '*' at line 8 column 37[ERROR] Syntax error: token recognition error at: '*' at line 9 column 36[ERROR] Syntax error: token recognition error at: '*' at line 13 column 18[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!List<<http://example.org/T>' at line 12 column 25[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 98[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 124[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 151[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!List<<http://example.org/6t>' at line 14 column 25[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 94[ERROR] Syntax error: extraneous input '}' expecting '.' at line 14 column 128

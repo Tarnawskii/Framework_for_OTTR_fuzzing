@@ -1,0 +1,13 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a foot:Footballer ;
+    foot:clubHistory [ ] ;
+    foot:country "Egypt" ;
+    foot:currentClub [ ] ;
+    foot:marketValue 2 ;
+    foot:position "asd" ;
+    foaf:birthDate "2016-12-12"^^xsd:date ;
+    foaf:familyName "O'Neil" ;
+    foaf:name "F" .

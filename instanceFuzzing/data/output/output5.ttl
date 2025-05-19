@@ -1,0 +1,188 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1 .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  "ia" .
+
+_:b3    rdf:rest   _:b4 ;
+        rdf:first  "BP" .
+
+_:b4    rdf:rest   _:b2 ;
+        rdf:first  "Ay" .
+
+_:b1    rdf:rest   _:b3 ;
+        rdf:first  "yE" .
+
+_:b0    foot:teams  _:b5 .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  _:b7 .
+
+_:b8    rdf:rest   _:b6 ;
+        rdf:first  _:b9 .
+
+_:b10   rdf:rest   _:b8 ;
+        rdf:first  _:b11 .
+
+_:b5    rdf:rest   _:b10 ;
+        rdf:first  _:b12 .
+
+_:b13   foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b14 .
+
+_:b15   rdf:rest   _:b16 ;
+        rdf:first  "gR" .
+
+_:b14   rdf:rest   _:b15 ;
+        rdf:first  "lk" .
+
+_:b16   rdf:rest   rdf:nil ;
+        rdf:first  "ZD" .
+
+_:b13   foot:teams  _:b17 .
+
+_:b18   rdf:rest   rdf:nil ;
+        rdf:first  "qM" .
+
+_:b19   rdf:rest   _:b18 ;
+        rdf:first  "nB" .
+
+_:b17   rdf:rest   _:b19 ;
+        rdf:first  "aV" .
+
+_:b20   foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b21 .
+
+_:b22   rdf:rest   _:b23 ;
+        rdf:first  _:b24 .
+
+_:b21   rdf:rest   _:b25 ;
+        rdf:first  _:b26 .
+
+_:b23   rdf:rest   rdf:nil ;
+        rdf:first  _:b27 .
+
+_:b25   rdf:rest   _:b22 ;
+        rdf:first  _:b28 .
+
+_:b20   foot:teams  _:b29 .
+
+_:b30   rdf:rest   _:b31 ;
+        rdf:first  _:b32 .
+
+_:b31   rdf:rest   rdf:nil ;
+        rdf:first  "Ju" .
+
+_:b33   rdf:rest   _:b30 ;
+        rdf:first  _:b34 .
+
+_:b29   rdf:rest   _:b33 ;
+        rdf:first  _:b35 .
+
+_:b36   foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "]" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b37 .
+
+_:b37   rdf:rest   _:b38 ;
+        rdf:first  _:b39 .
+
+_:b38   rdf:rest   rdf:nil ;
+        rdf:first  _:b40 .
+
+_:b36   foot:teams  _:b41 .
+
+_:b41   rdf:rest   rdf:nil ;
+        rdf:first  "\"\"\",\"Br\"\")) \"_\"\r\nfoot:Country(_:apg,\"Egypt\",\"Asia\",\"ENG\",(_:qAj,_:gym,_:YRY,_:MrQ),())  \r\nfoot:Country(\"%\"\"&\"xbeS,\"Portugal\",yY,\"EGY\",(),()) \"|\"\r\nfoot:League(\"(\"\"}\"bllT,\"Premier League\",\"2016\"^^xsd:gYear,(\"\"{\"a\"\"\"" .
+
+_:b42   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b43 .
+
+_:b44   rdf:rest   _:b45 ;
+        rdf:first  _:b46 .
+
+_:b43   rdf:rest   _:b44 ;
+        rdf:first  _:b47 .
+
+_:b48   rdf:rest   rdf:nil ;
+        rdf:first  _:b49 .
+
+_:b45   rdf:rest   _:b48 ;
+        rdf:first  _:b50 .
+
+_:b42   foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b51   foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b52 .
+
+_:b53   rdf:rest   rdf:nil ;
+        rdf:first  "sb" .
+
+_:b54   rdf:rest   _:b53 ;
+        rdf:first  "Qq" .
+
+_:b52   rdf:rest   _:b54 ;
+        rdf:first  "ZC" .
+
+_:b51   foot:teams  _:b55 .
+
+_:b56   rdf:rest   rdf:nil ;
+        rdf:first  "Gx" .
+
+_:b57   rdf:rest   _:b56 ;
+        rdf:first  _:b58 .
+
+_:b55   rdf:rest   _:b57 ;
+        rdf:first  _:b59 .
+
+_:b60   foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b61 .
+
+_:b62   rdf:rest   rdf:nil ;
+        rdf:first  "iT" .
+
+_:b61   rdf:rest   _:b63 ;
+        rdf:first  _:b64 .
+
+_:b63   rdf:rest   _:b65 ;
+        rdf:first  _:b66 .
+
+_:b65   rdf:rest   _:b62 ;
+        rdf:first  _:b67 .
+
+_:b60   foot:teams  _:b68 .
+
+_:b69   rdf:rest   _:b70 ;
+        rdf:first  _:b71 .
+
+_:b72   rdf:rest   _:b69 ;
+        rdf:first  _:b73 .
+
+_:b70   rdf:rest   rdf:nil ;
+        rdf:first  _:b74 .
+
+_:b68   rdf:rest   _:b72 ;
+        rdf:first  _:b75 .

@@ -1,0 +1,17 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(_:M4c, "WnV", "AeC", "2018-10-26"^^xsd:date, "ODY",("ksJ","Tqu","aHB"),971032,"Striker","vUi").
+foot:Country(_:Qdo,"ESP","Kfj","tpZI",("MWc","pri","EoR"),("NLX","zxg","Gly"),("wpT","mJF","obh")).
+foot:League(_:lJz,"xsP","5227"^^xsd:gYear,"wkL",("JPP","LJR","oin"),("qql","UhW","NWX")).
+foot:Club(_:2Zo,"bJf","2843"^^xsd:gYear,"EcT","uBp","gyh").
+foot:Footballer(_:58v, "IUU", "gvv", "1980-11-05"^^xsd:date, "uIA",("uJq","lJZ","QeD"),236271,"Goalkeeper","cAm").
+foot:League(_:y2M,"gPy","1650"^^xsd:gYear,"iYW",("FiD","UeK","mJL"),("IJI","Bux","gcZ")).
+foot:Club(_:39H,"vVu","2832"^^xsd:gYear,"GlcCJ","lQKjtkG","bRm").
+foot:League(_:z65,"yzz","9196"^^xsd:gYear,"ERE",("TPe","UFY","XjI"),("fdf","Amk","hpS")).
+foot:Club(_:d95,"NMB","6139"^^xsd:gYear,"TaU","DeWJTN","QaWKOM").
+foot:Footballer(_:5V7, "Wvs", "PPV", "1958-12-14"^^xsd:date, "xbM",("kCp","RPS","FwL"),883438,"Midfielder","QQg").

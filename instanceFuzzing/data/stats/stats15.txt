@@ -1,0 +1,13 @@
+--- Summary ---
+Input rows (ISLa generated): 200000
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 0
+
+No actual errors found.
+
+Aggregated error counts (by type):
+Aggregated error counts (by exact message, actual errors):
+
+Non-critical messages (not starting with '[ERROR]'):
+'Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects': 1
+'Exception in thread "HttpClient-1-SelectorManager" java.lang.OutOfMemoryError: Java heap space': 1

@@ -1,0 +1,225 @@
+2025-04-03 09:41:06,937 - INFO - Template 1 processed in 5.73 seconds
+2025-04-03 09:41:06,939 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-03 09:41:06,939 - ERROR - Output: 
+2025-04-03 09:41:06,939 - ERROR - Template 1: foot:Footballer[ xsd:string ?O ] .: {o-rdf:Type(?personIRI, ?q), ottr:Triple(?personIRI, foot:H, ?T), ottr:Triple(?personIRI, foot:p, ?0/R)} .
+
+2025-04-03 09:41:06,940 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-03 09:41:06,940 - ERROR - Output: 
+2025-04-03 09:41:11,297 - INFO - Template 2 processed in 4.35 seconds
+2025-04-03 09:41:11,298 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 134[ERROR] Syntax error: token recognition error at: '/R' at line 7 column 136
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpphpj9cla.stottr
+
+
+2025-04-03 09:41:11,298 - ERROR - Output: 
+2025-04-03 09:41:11,298 - ERROR - Template 2: foot:Footballer[ xsd:string ?O ] :: {o-rdf:Type(?personIRI, ?q), ottr:Triple(?personIRI, foot:H, ?T), ottr:Triple(?personIRI, foot:p, ?0/R)} .
+2025-04-03 09:41:11,298 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 134[ERROR] Syntax error: token recognition error at: '/R' at line 7 column 136
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpphpj9cla.stottr
+
+
+2025-04-03 09:41:11,298 - ERROR - Output: 
+2025-04-03 09:43:38,081 - INFO - Template 1 processed in 6.70 seconds
+2025-04-03 09:43:38,083 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-03 09:43:38,084 - ERROR - Output: 
+2025-04-03 09:43:38,084 - ERROR - Template 1: foot:Footballer[ xsd:string ?O ] .: {o-rdf:Type(?personIRI, ?q), ottr:Triple(?personIRI, foot:H, ?T), ottr:Triple(?personIRI, foot:p, ?0/R)} .
+
+2025-04-03 09:43:38,084 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-03 09:43:38,084 - ERROR - Output: 
+2025-04-03 09:43:44,279 - INFO - Template 2 processed in 6.19 seconds
+2025-04-03 09:43:44,280 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 134[ERROR] Syntax error: token recognition error at: '/R' at line 7 column 136
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy__zfab5.stottr
+
+
+2025-04-03 09:43:44,281 - ERROR - Output: 
+2025-04-03 09:43:44,281 - ERROR - Template 2: foot:Footballer[ xsd:string ?O ] :: {o-rdf:Type(?personIRI, ?q), ottr:Triple(?personIRI, foot:H, ?T), ottr:Triple(?personIRI, foot:p, ?0/R)} .
+
+2025-04-03 09:43:44,281 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 134[ERROR] Syntax error: token recognition error at: '/R' at line 7 column 136
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy__zfab5.stottr
+
+
+2025-04-03 09:43:44,281 - ERROR - Output: 
+2025-04-03 09:43:49,458 - INFO - Template 3 processed in 5.17 seconds
+2025-04-03 09:43:49,459 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '/R' at line 7 column 136[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?O]:' at line 7 column 33[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 63[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 100[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 134[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 139
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?q). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:H,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:p,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+
+2025-04-03 09:43:49,459 - ERROR - Output: 
+2025-04-03 09:43:49,459 - ERROR - Template 3: foot:Footballer[ xsd:string ?O ] :. {o-rdf:Type(?personIRI, ?q), ottr:Triple(?personIRI, foot:H, ?T), ottr:Triple(?personIRI, foot:p, ?0/R)} .
+
+2025-04-03 09:43:49,459 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '/R' at line 7 column 136[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?O]:' at line 7 column 33[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 63[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 100[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 134[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 139
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?q). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:H,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:p,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpubjvhegm.stottr
+
+
+2025-04-03 09:43:49,459 - ERROR - Output: 
+2025-04-03 09:43:53,950 - INFO - Template 4 processed in 4.49 seconds
+2025-04-03 09:43:53,951 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 7 column 73[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?v],' at line 7 column 31[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 70[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 7 column 75
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpt4zbvk5w.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:G6. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpt4zbvk5w.stottr
+
+
+2025-04-03 09:43:53,951 - ERROR - Output: 
+2025-04-03 09:43:53,951 - ERROR - Template 4: foot:Footballer[ ottr:IRI ?v ] ,: {ottr:Triple(?PersonIRI, foot:G6ji, ?-0+)} .
+
+2025-04-03 09:43:53,951 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 7 column 73[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?v],' at line 7 column 31[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 70[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 7 column 75
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpt4zbvk5w.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:G6. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpt4zbvk5w.stottr
+
+
+2025-04-03 09:43:53,951 - ERROR - Output: 
+2025-04-03 09:43:58,845 - INFO - Template 5 processed in 4.89 seconds
+2025-04-03 09:43:58,846 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-03 09:43:58,846 - ERROR - Output: 
+2025-04-03 09:43:58,846 - ERROR - Template 5: foot:Footballer[ ottr:IRI ?v ] .: {ottr:Triple(?PersonIRI, foot:G6ji, ?-0+)} .
+
+2025-04-03 09:43:58,846 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-04-03 09:43:58,846 - ERROR - Output: 
+2025-04-14 12:14:42,242 - INFO - Template 3 processed in 4.12 seconds
+2025-04-14 12:14:42,244 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '"1Z, ?"' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: token recognition error at: '"^^4+), ottr:Triple(?PersonIRI, foot:8pUmxVAol, ?9+.-5+) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .\n' at line 7 column 98[ERROR] Syntax error: mismatched input '<EOF>' expecting '(' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa7cdehgu.stottr
+
+
+2025-04-14 12:14:42,245 - ERROR - Output: 
+2025-04-14 12:14:42,245 - ERROR - Template 3: foot:Footballer[ xsd:foot:clubHistory ?e ] :: {ottr:Triple(?PersonIRI, foot:"1Z, ?"foot:Footballer"^^4+), ottr:Triple(?PersonIRI, foot:8pUmxVAol, ?9+.-5+) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .
+
+2025-04-14 12:14:42,245 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '"1Z, ?"' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: token recognition error at: '"^^4+), ottr:Triple(?PersonIRI, foot:8pUmxVAol, ?9+.-5+) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .\n' at line 7 column 98[ERROR] Syntax error: mismatched input '<EOF>' expecting '(' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa7cdehgu.stottr
+
+
+2025-04-14 12:14:42,245 - ERROR - Output: 
+2025-04-14 12:14:45,497 - INFO - Template 4 processed in 3.25 seconds
+2025-04-14 12:14:45,498 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<O\@' at line 7 column 27[ERROR] Syntax error: token recognition error at: '~' at line 7 column 35[ERROR] Syntax error: token recognition error at: '&' at line 7 column 37[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?' at line 7 column 26[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 293[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 298
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp492svrq2.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:6,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp492svrq2.stottr
+
+
+2025-04-14 12:14:45,499 - ERROR - Output: 
+2025-04-14 12:14:45,499 - ERROR - Template 4: foot:Footballer[ ottr:IRI ?<O\@HsQP~-&_W)kf, ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, ottr:IRI ?currentClub, List<ottr:IRI> ?clubHistory, xsd:date ?birthday, xsd:decimal ?marketValue, xsd:string ?position, xsd:string ?countryName ] :: {ottr:Triple(?PersonIRI, foot:6, ?"I")} .
+
+2025-04-14 12:14:45,499 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<O\@' at line 7 column 27[ERROR] Syntax error: token recognition error at: '~' at line 7 column 35[ERROR] Syntax error: token recognition error at: '&' at line 7 column 37[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?' at line 7 column 26[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 293[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 298
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp492svrq2.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:6,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp492svrq2.stottr
+
+
+2025-04-14 12:14:45,499 - ERROR - Output: 
+2025-04-14 12:14:48,910 - INFO - Template 7 processed in 3.41 seconds
+2025-04-14 12:14:48,911 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '", ?true), ottr:Triple(?personIRI, foot:B, ?true)} .\n' at line 7 column 134[ERROR] Syntax error: extraneous input '<EOF>' expecting {',', ')'} at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq2mwn2gl.stottr
+
+
+2025-04-14 12:14:48,911 - ERROR - Output: 
+2025-04-14 12:14:48,911 - ERROR - Template 7: foot:Footballer[ xsd:string ?m ] :: {ottr:Triple(?PersonIRI, foot:j, ?false) o-rdf:Type(?personIRI, ?A), ottr:Triple(?personIRI, foot:", ?true), ottr:Triple(?personIRI, foot:B, ?true)} .
+
+2025-04-14 12:14:48,911 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '", ?true), ottr:Triple(?personIRI, foot:B, ?true)} .\n' at line 7 column 134[ERROR] Syntax error: extraneous input '<EOF>' expecting {',', ')'} at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq2mwn2gl.stottr
+
+
+2025-04-14 12:14:48,911 - ERROR - Output: 
+2025-04-14 12:14:52,396 - INFO - Template 8 processed in 3.48 seconds
+2025-04-14 12:14:52,397 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\:' at line 7 column 93[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,List<xsd:string>?clubHistory]{' at line 7 column 96[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 136[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 184[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 241
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+
+2025-04-14 12:14:52,397 - ERROR - Output: 
+2025-04-14 12:14:52,398 - ERROR - Template 8: foot:Footballer[ ottr:IRI ?personIRI, xsd:string ?firstName, List<xsd:string> ?clubHistory ] \: {o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory)} .
+2025-04-14 12:14:52,398 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\:' at line 7 column 93[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,List<xsd:string>?clubHistory]{' at line 7 column 96[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 136[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 184[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 241
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0a68f8h6.stottr
+
+
+2025-04-14 12:14:52,398 - ERROR - Output: 

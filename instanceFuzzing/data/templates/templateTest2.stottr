@@ -1,0 +1,8 @@
+
+@prefix ex: <http://example.org#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ex:Test[ ottr:IRI ?a, List<ottr:IRI> ?b, xsd:decimal ?c ] :: {
+  ottr:Triple(?a, ex:b, ?b),
+  ottr:Triple(?a, ex:c, ?c)
+}.

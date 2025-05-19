@@ -1,0 +1,2324 @@
+2025-05-16 12:28:38,303 - INFO - Prosesserer batch: templates14.stottr
+2025-05-16 12:28:38,305 - INFO - Lutra output: 
+2025-05-16 12:28:38,305 - INFO - Lutra feil: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 8 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 86[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 136[ERROR] Syntax error: token recognition error at: '+)' at line 9 column 98[ERROR] Syntax error: token recognition error at: '+ ' at line 18 column 41[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[xsd:Name?E=?z' at line 9 column 25[ERROR] Syntax error: extraneous input '+.7' expecting {',', ')'} at line 9 column 95[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:duration?p]zipMin' at line 11 column 37[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 57[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 70[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 94[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 117[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 12 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 80[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 130[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 13 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 13 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 13 column 126[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 14 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 14 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 15 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 15 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 16 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 16 column 139[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 17 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 17 column 129[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?LUB<xsd:long>' at line 18 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 18 column 90[ERROR] Syntax error: extraneous input '}' expecting '.' at line 18 column 114[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 19 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 19 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 19 column 125[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[xsd:gYearMonth?g,?!rdfs:Resource?Z]ottr:IRI' at line 21 column 52[ERROR] Syntax error: mismatched input '::' expecting '.' at line 21 column 63[ERROR] Syntax error: extraneous input '}' expecting '.' at line 21 column 89[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 22 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 22 column 82[ERROR] Syntax error: extraneous input '}' expecting '.' at line 22 column 132[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 23 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 23 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 23 column 128[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 24 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 24 column 87[ERROR] Syntax error: extraneous input '}' expecting '.' at line 24 column 137[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 25 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 25 column 80[ERROR] Syntax error: extraneous input '}' expecting '.' at line 25 column 130[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 26 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 26 column 83[ERROR] Syntax error: extraneous input '}' expecting '.' at line 26 column 133[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 27 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 27 column 125[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:positiveInteger' at line 28 column 15[ERROR] Syntax error: extraneous input '}' expecting '.' at line 28 column 107[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 30 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 30 column 138[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!rdf:HTML?G]zipMax' at line 31 column 33[ERROR] Syntax error: mismatched input '::' expecting '.' at line 31 column 53[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 95[ERROR] Syntax error: extraneous input '}' expecting '.' at line 31 column 136[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 32 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 32 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 32 column 139[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 33 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 33 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 33 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 34 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 34 column 100[ERROR] Syntax error: extraneous input '}' expecting '.' at line 34 column 150[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 35 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 35 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 35 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 36 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 36 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 36 column 128[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 37 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 37 column 127[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[xsd:token?r,!xsd:gMonth?h]ottr:IRI' at line 38 column 43[ERROR] Syntax error: mismatched input '::' expecting '.' at line 38 column 54[ERROR] Syntax error: extraneous input '}' expecting '.' at line 38 column 98[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 39 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 39 column 81[ERROR] Syntax error: extraneous input '}' expecting '.' at line 39 column 131[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:yearMonthDuration' at line 41 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 115[ERROR] Syntax error: extraneous input '}' expecting '.' at line 41 column 137[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 42 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 42 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 42 column 128[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 43 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 43 column 82[ERROR] Syntax error: extraneous input '}' expecting '.' at line 43 column 132[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 44 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 44 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 44 column 134[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 45 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 45 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 45 column 128[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 46 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 46 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 46 column 126[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 47 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 83[ERROR] Syntax error: extraneous input '}' expecting '.' at line 47 column 133[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 48 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 48 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 48 column 127[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!t-pnd:Punned-Class-ObjectProperty?d,?xsd:Name' at line 49 column 55[ERROR] Syntax error: mismatched input '::' expecting '.' at line 49 column 85[ERROR] Syntax error: mismatched input ',' expecting '.' at line 49 column 111[ERROR] Syntax error: extraneous input '}' expecting '.' at line 49 column 134[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 52 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 52 column 86[ERROR] Syntax error: extraneous input '}' expecting '.' at line 52 column 136[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 53 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 53 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 53 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 54 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 54 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 54 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 55 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 55 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 55 column 126[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 56 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 56 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 56 column 127[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 57 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 57 column 83[ERROR] Syntax error: extraneous input '}' expecting '.' at line 57 column 133[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 58 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 58 column 83[ERROR] Syntax error: extraneous input '}' expecting '.' at line 58 column 133[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?owl:AnnotationProperty' at line 59 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 59 column 108[ERROR] Syntax error: extraneous input '}' expecting '.' at line 59 column 131[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:normalizedString' at line 62 column 15[ERROR] Syntax error: mismatched input '::' expecting '.' at line 62 column 63[ERROR] Syntax error: extraneous input '}' expecting '.' at line 62 column 106[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 63 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 63 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 63 column 138[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 64 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 64 column 80[ERROR] Syntax error: extraneous input '}' expecting '.' at line 64 column 130[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 65 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 65 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 65 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 66 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 66 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 66 column 139[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 67 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 67 column 82[ERROR] Syntax error: extraneous input '}' expecting '.' at line 67 column 132[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 68 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 68 column 81[ERROR] Syntax error: extraneous input '}' expecting '.' at line 68 column 131[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[xsd:Name?W,?ottr:IRI' at line 71 column 30[ERROR] Syntax error: extraneous input '}' expecting '.' at line 71 column 99[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!t-pnd:Punned-Class-ObjectProperty?y,xsd:positiveInteger?g,?xsd:double' at line 72 column 80[ERROR] Syntax error: mismatched input '::' expecting '.' at line 72 column 112[ERROR] Syntax error: extraneous input '}' expecting '.' at line 72 column 156[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 73 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 73 column 83[ERROR] Syntax error: extraneous input '}' expecting '.' at line 73 column 133[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 74 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 74 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 74 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 75 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 75 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 75 column 128[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 76 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 76 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 76 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 77 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 77 column 87[ERROR] Syntax error: extraneous input '}' expecting '.' at line 77 column 137[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 78 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 78 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 78 column 139[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:base64Binary?Kg=?y' at line 80 column 42[ERROR] Syntax error: extraneous input '}' expecting '.' at line 80 column 75[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!owl:real?H,?owl:rational' at line 81 column 31[ERROR] Syntax error: mismatched input '::' expecting '.' at line 81 column 65[ERROR] Syntax error: mismatched input ',' expecting '.' at line 81 column 109[ERROR] Syntax error: extraneous input '}' expecting '.' at line 81 column 132[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 82 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 82 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 82 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 83 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 83 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 83 column 138[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 84 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 84 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 84 column 126[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 85 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 85 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 85 column 139[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 86 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 86 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 86 column 127[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 87 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 87 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 87 column 139[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!NEList<xsd:long>?MI=?qNQ' at line 88 column 42[ERROR] Syntax error: mismatched input '::' expecting '.' at line 88 column 60[ERROR] Syntax error: extraneous input '}' expecting '.' at line 88 column 87[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 89 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 89 column 82[ERROR] Syntax error: extraneous input '}' expecting '.' at line 89 column 132[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[xsd:nonNegativeInteger?z,?xsd:gDay' at line 91 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 91 column 81[ERROR] Syntax error: extraneous input '}' expecting '.' at line 91 column 122[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 92 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 92 column 81[ERROR] Syntax error: extraneous input '}' expecting '.' at line 92 column 131[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 93 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 93 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 93 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 94 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 94 column 79[ERROR] Syntax error: extraneous input '}' expecting '.' at line 94 column 129[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 95 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 95 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 95 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 96 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 96 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 96 column 138[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 97 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 97 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 97 column 127[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 99 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 99 column 87[ERROR] Syntax error: extraneous input '}' expecting '.' at line 99 column 137[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:dateTime' at line 101 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 101 column 48[ERROR] Syntax error: mismatched input '::' expecting '.' at line 101 column 70[ERROR] Syntax error: mismatched input ',' expecting '.' at line 101 column 114[ERROR] Syntax error: extraneous input '}' expecting '.' at line 101 column 155[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 102 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 102 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 102 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 103 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 103 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 103 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 104 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 104 column 75[ERROR] Syntax error: extraneous input '}' expecting '.' at line 104 column 125[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 105 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 105 column 83[ERROR] Syntax error: extraneous input '}' expecting '.' at line 105 column 133[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 106 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 106 column 80[ERROR] Syntax error: extraneous input '}' expecting '.' at line 106 column 130[ERROR] Syntax error: extraneous input '[' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 107 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 107 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 107 column 128
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?v,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?y,?H). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?A,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?Q,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?wH,true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?bJ,"9324-16-75"^^x. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?e,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?C,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?q,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?MI,foot:Footballe. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?La,?i). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?g,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?j,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?i,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?q,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?k,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?m,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?DkOU,?a). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?m,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?G,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?vF,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?m,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?r,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 100 column 29
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?x,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?w,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+
+2025-05-16 12:28:38,308 - INFO - Lutra processing time: 5.82 seconds
+2025-05-16 12:28:38,308 - ERROR - Lutra crashed with exit code 1
+2025-05-16 12:45:12,762 - INFO - Prosesserer batch: templates14.stottr
+2025-05-16 12:45:12,764 - INFO - Lutra output: 
+2025-05-16 12:45:12,764 - INFO - Lutra feil: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 69 column 58[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:int?V,?xsd:unsignedByte' at line 8 column 37[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 99[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,NEList<xsd:string>?ballType::' at line 9 column 58[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 94[ERROR] Syntax error: extraneous input '}' expecting '.' at line 9 column 144[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!xsd:time?U]zipMax' at line 11 column 26[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 46[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 67[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 94[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 135[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:gMonthDay?ballType::' at line 17 column 53[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 17 column 139[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:dateTimeStamp?ballType::' at line 19 column 57[ERROR] Syntax error: mismatched input ',' expecting '.' at line 19 column 93[ERROR] Syntax error: extraneous input '}' expecting '.' at line 19 column 143[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:unsignedLong?ZhI=?kC' at line 21 column 44[ERROR] Syntax error: mismatched input '::' expecting '.' at line 21 column 96[ERROR] Syntax error: extraneous input '}' expecting '.' at line 21 column 121[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:float?ballType::' at line 23 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 23 column 85[ERROR] Syntax error: extraneous input '}' expecting '.' at line 23 column 135[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:dayTimeDuration?ballType::' at line 24 column 59[ERROR] Syntax error: mismatched input ',' expecting '.' at line 24 column 95[ERROR] Syntax error: extraneous input '}' expecting '.' at line 24 column 145[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:base64Binary?ballType::' at line 27 column 56[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 92[ERROR] Syntax error: extraneous input '}' expecting '.' at line 27 column 142[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:gYearMonth' at line 28 column 15[ERROR] Syntax error: extraneous input '}' expecting '.' at line 28 column 104[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,NEList<xsd:integer>?ballType::' at line 29 column 59[ERROR] Syntax error: mismatched input ',' expecting '.' at line 29 column 95[ERROR] Syntax error: extraneous input '}' expecting '.' at line 29 column 145[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!xsd:nonPositiveInteger?V]ottr:IRI' at line 33 column 41[ERROR] Syntax error: mismatched input ',' expecting '.' at line 33 column 59[ERROR] Syntax error: mismatched input '::' expecting '.' at line 33 column 81[ERROR] Syntax error: mismatched input ',' expecting '.' at line 33 column 107[ERROR] Syntax error: extraneous input '}' expecting '.' at line 33 column 130[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:NCName?ballType::' at line 35 column 50[ERROR] Syntax error: mismatched input ',' expecting '.' at line 35 column 86[ERROR] Syntax error: extraneous input '}' expecting '.' at line 35 column 136[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,owl:ObjectProperty?ballType::' at line 36 column 58[ERROR] Syntax error: mismatched input ',' expecting '.' at line 36 column 94[ERROR] Syntax error: extraneous input '}' expecting '.' at line 36 column 144[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:time?ballType::' at line 37 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 37 column 134[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:normalizedString?s,?owl:AnnotationProperty' at line 39 column 50[ERROR] Syntax error: extraneous input '}' expecting '.' at line 39 column 103[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:anyURI?ballType::' at line 40 column 50[ERROR] Syntax error: mismatched input ',' expecting '.' at line 40 column 86[ERROR] Syntax error: extraneous input '}' expecting '.' at line 40 column 136[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:duration?l=?M' at line 42 column 37[ERROR] Syntax error: mismatched input ',' expecting '.' at line 42 column 62[ERROR] Syntax error: mismatched input '::' expecting '.' at line 42 column 104[ERROR] Syntax error: extraneous input '}' expecting '.' at line 42 column 128[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:unsignedByte?ballType::' at line 45 column 56[ERROR] Syntax error: mismatched input ',' expecting '.' at line 45 column 92[ERROR] Syntax error: extraneous input '}' expecting '.' at line 45 column 142[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,List<xsd:negativeInteger>?ballType::' at line 49 column 65[ERROR] Syntax error: mismatched input ',' expecting '.' at line 49 column 101[ERROR] Syntax error: extraneous input '}' expecting '.' at line 49 column 151[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!owl:NamedIndividual?R,xsd:gMonthDay?L,?xsd:unsignedByte' at line 51 column 68[ERROR] Syntax error: extraneous input '}' expecting '.' at line 51 column 132[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!xsd:date?e]zipMax' at line 53 column 27[ERROR] Syntax error: mismatched input '::' expecting '.' at line 53 column 47[ERROR] Syntax error: mismatched input ',' expecting '.' at line 53 column 71[ERROR] Syntax error: mismatched input ',' expecting '.' at line 53 column 94[ERROR] Syntax error: extraneous input '}' expecting '.' at line 53 column 117[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,owl:rational?ballType::' at line 56 column 52[ERROR] Syntax error: mismatched input ',' expecting '.' at line 56 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 56 column 138[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:gYear?ballType::' at line 57 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 57 column 85[ERROR] Syntax error: extraneous input '}' expecting '.' at line 57 column 135[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:date?ballType::' at line 58 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 58 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 58 column 134[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:language?q,xsd:gMonthDay?K]ottr:IRI' at line 61 column 56[ERROR] Syntax error: mismatched input '::' expecting '.' at line 61 column 67[ERROR] Syntax error: extraneous input '}' expecting '.' at line 61 column 111[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:time?ballType::' at line 64 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 64 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 64 column 134[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:string?ballType::' at line 65 column 50[ERROR] Syntax error: mismatched input ',' expecting '.' at line 65 column 86[ERROR] Syntax error: extraneous input '}' expecting '.' at line 65 column 136[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:short?ballType::' at line 67 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 67 column 85[ERROR] Syntax error: extraneous input '}' expecting '.' at line 67 column 135[ERROR] Syntax error: extraneous input '+.8' expecting {',', ')'} at line 69 column 55[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:gMonthDay?ballType::' at line 70 column 53[ERROR] Syntax error: mismatched input ',' expecting '.' at line 70 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 70 column 139[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:NCName' at line 71 column 15[ERROR] Syntax error: mismatched input '::' expecting '.' at line 71 column 62[ERROR] Syntax error: mismatched input ',' expecting '.' at line 71 column 104[ERROR] Syntax error: mismatched input ',' expecting '.' at line 71 column 127[ERROR] Syntax error: extraneous input '}' expecting '.' at line 71 column 150[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:unsignedLong?ballType::' at line 73 column 56[ERROR] Syntax error: mismatched input ',' expecting '.' at line 73 column 92[ERROR] Syntax error: extraneous input '}' expecting '.' at line 73 column 142[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:positiveInteger?ballType::' at line 75 column 59[ERROR] Syntax error: mismatched input ',' expecting '.' at line 75 column 95[ERROR] Syntax error: extraneous input '}' expecting '.' at line 75 column 145[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:language?ballType::' at line 80 column 52[ERROR] Syntax error: mismatched input ',' expecting '.' at line 80 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 80 column 138[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?owl:NamedIndividual' at line 81 column 15[ERROR] Syntax error: mismatched input ',' expecting '.' at line 81 column 82[ERROR] Syntax error: mismatched input ',' expecting '.' at line 81 column 123[ERROR] Syntax error: extraneous input '}' expecting '.' at line 81 column 146[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!rdfs:Literal?y,!rdf:XMLLiteral?L]zipMin' at line 82 column 51[ERROR] Syntax error: mismatched input ',' expecting '.' at line 82 column 71[ERROR] Syntax error: mismatched input '::' expecting '.' at line 82 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 82 column 110[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:byte?ballType::' at line 86 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 86 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 86 column 134[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!owl:rational?Z]ottr:IRI' at line 88 column 30[ERROR] Syntax error: mismatched input ',' expecting '.' at line 88 column 41[ERROR] Syntax error: mismatched input '::' expecting '.' at line 88 column 63[ERROR] Syntax error: mismatched input ',' expecting '.' at line 88 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 88 column 130[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:token?ballType::' at line 90 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 90 column 85[ERROR] Syntax error: extraneous input '}' expecting '.' at line 90 column 135[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:int' at line 91 column 15[ERROR] Syntax error: mismatched input ',' expecting '.' at line 91 column 71[ERROR] Syntax error: extraneous input '}' expecting '.' at line 91 column 94[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:yearMonthDuration?S,xsd:anyURI?J,?xsd:nonNegativeInteger' at line 92 column 66[ERROR] Syntax error: mismatched input '::' expecting '.' at line 92 column 111[ERROR] Syntax error: mismatched input ',' expecting '.' at line 92 column 137[ERROR] Syntax error: mismatched input ',' expecting '.' at line 92 column 160[ERROR] Syntax error: extraneous input '}' expecting '.' at line 92 column 183[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,ottr:IRI?ballType::' at line 94 column 48[ERROR] Syntax error: mismatched input ',' expecting '.' at line 94 column 84[ERROR] Syntax error: extraneous input '}' expecting '.' at line 94 column 134[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:nonPositiveInteger?ballType::' at line 96 column 62[ERROR] Syntax error: mismatched input ',' expecting '.' at line 96 column 98[ERROR] Syntax error: extraneous input '}' expecting '.' at line 96 column 148[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,List<xsd:dayTimeDuration>?ballType::' at line 98 column 65[ERROR] Syntax error: mismatched input ',' expecting '.' at line 98 column 101[ERROR] Syntax error: extraneous input '}' expecting '.' at line 98 column 151[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:language' at line 99 column 15[ERROR] Syntax error: extraneous input '}' expecting '.' at line 99 column 92[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:short' at line 102 column 22[ERROR] Syntax error: extraneous input '}' expecting '.' at line 102 column 78[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:positiveInteger?D]zipMin' at line 104 column 44[ERROR] Syntax error: mismatched input '::' expecting '.' at line 104 column 64[ERROR] Syntax error: mismatched input ',' expecting '.' at line 104 column 90[ERROR] Syntax error: extraneous input '}' expecting '.' at line 104 column 113[ERROR] Syntax error: no viable alternative at input 'foot:Ball[ottr:IRI?ballIRI,xsd:gYear?ballType::' at line 106 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 106 column 85[ERROR] Syntax error: extraneous input '}' expecting '.' at line 106 column 135
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?E,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 10 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Zk,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?W,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:XMLLiteral' at line 12 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 14 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 15 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?V,?tm). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?Hf,foot:Footballe. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(++none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?y,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?s,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?aV,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 41 column 11
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|foot:Footballer(true,++?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?W,?E). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 44 column 137
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 47 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?o,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?l,?f). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Q,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?K,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?f,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 62 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 66 column 142
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?H,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?r,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?O,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 76 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 77 column 150
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?G,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?I,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?X,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 83 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?W,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?n,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 89 column 44
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 89 column 142
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?R,?a). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?k,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Q,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?w,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?O,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,?wO). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:XMLLiteral' at line 100 column 138
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?nu,"1~"). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?d,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?e,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 105 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?ballIRI,foot:Ball). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?ballIRI,foot:ball. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+
+2025-05-16 12:45:12,766 - INFO - Lutra processing time: 6.82 seconds
+2025-05-16 12:45:12,766 - ERROR - Lutra crashed with exit code 1
+2025-05-16 12:49:34,329 - INFO - Prosesserer batch: templates14.stottr
+2025-05-16 12:49:34,331 - INFO - Lutra output: 
+2025-05-16 12:49:34,331 - INFO - Lutra feil: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 31 column 101[ERROR] Syntax error: token recognition error at: '+)' at line 91 column 107[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!xsd:NMTOKEN?x,?xsd:gDay' at line 11 column 33[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 64[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 85[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 127[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[owl:ObjectProperty?Q]ottr:IRI' at line 20 column 35[ERROR] Syntax error: mismatched input '::' expecting '.' at line 20 column 46[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 70[ERROR] Syntax error: extraneous input '}' expecting '.' at line 20 column 111[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!xsd:anyURI?E,!xsd:nonNegativeInteger?a]ottr:IRI' at line 29 column 58[ERROR] Syntax error: mismatched input ',' expecting '.' at line 29 column 69[ERROR] Syntax error: mismatched input '::' expecting '.' at line 29 column 90[ERROR] Syntax error: mismatched input ',' expecting '.' at line 29 column 132[ERROR] Syntax error: extraneous input '}' expecting '.' at line 29 column 155[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:string' at line 31 column 22[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 31 column 104[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:double?S,?xsd:dateTimeStamp' at line 39 column 40[ERROR] Syntax error: mismatched input '::' expecting '.' at line 39 column 80[ERROR] Syntax error: mismatched input ',' expecting '.' at line 39 column 104[ERROR] Syntax error: extraneous input '}' expecting '.' at line 39 column 145[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!xsd:time?S]zipMin' at line 48 column 26[ERROR] Syntax error: mismatched input '::' expecting '.' at line 48 column 46[ERROR] Syntax error: extraneous input '}' expecting '.' at line 48 column 71[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:duration?l,?xsd:token' at line 51 column 42[ERROR] Syntax error: mismatched input ',' expecting '.' at line 51 column 99[ERROR] Syntax error: mismatched input ',' expecting '.' at line 51 column 122[ERROR] Syntax error: extraneous input '}' expecting '.' at line 51 column 163[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!xsd:unsignedLong?I,?xsd:byte' at line 58 column 38[ERROR] Syntax error: mismatched input ',' expecting '.' at line 58 column 74[ERROR] Syntax error: extraneous input '}' expecting '.' at line 58 column 115[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!rdf:XMLLiteral?g]ottr:IRI' at line 61 column 33[ERROR] Syntax error: mismatched input '::' expecting '.' at line 61 column 44[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 70[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 111[ERROR] Syntax error: extraneous input '}' expecting '.' at line 61 column 134[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:gMonth?E,?xsd:nonPositiveInteger' at line 63 column 38[ERROR] Syntax error: mismatched input ',' expecting '.' at line 63 column 83[ERROR] Syntax error: mismatched input '::' expecting '.' at line 63 column 105[ERROR] Syntax error: mismatched input ',' expecting '.' at line 63 column 149[ERROR] Syntax error: extraneous input '}' expecting '.' at line 63 column 172[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?xsd:byte' at line 68 column 15[ERROR] Syntax error: mismatched input ',' expecting '.' at line 68 column 53[ERROR] Syntax error: mismatched input '::' expecting '.' at line 68 column 74[ERROR] Syntax error: extraneous input '}' expecting '.' at line 68 column 100[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?LUB<xsd:long>' at line 79 column 15[ERROR] Syntax error: mismatched input ',' expecting '.' at line 79 column 69[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 79 column 103[ERROR] Syntax error: mismatched input '::' expecting '.' at line 79 column 105[ERROR] Syntax error: extraneous input '}' expecting '.' at line 79 column 131[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:Bot?Q,?xsd:token' at line 91 column 36[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 91 column 83[ERROR] Syntax error: mismatched input '::' expecting '.' at line 91 column 85[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 91 column 110[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:nonNegativeInteger?z,?rdf:HTML' at line 98 column 51[ERROR] Syntax error: mismatched input '::' expecting '.' at line 98 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 98 column 104[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!xsd:int?fu=?wm' at line 101 column 27[ERROR] Syntax error: mismatched input ',' expecting '.' at line 101 column 78[ERROR] Syntax error: mismatched input ',' expecting '.' at line 101 column 101[ERROR] Syntax error: extraneous input '}' expecting '.' at line 101 column 142
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?Q,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 14 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 16 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 19 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?G,?Y). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?x,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 27 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 28 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?b,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Q,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?x,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 32 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 33 column 141
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?I,?v). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?E,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 41 column 19
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 42 column 148
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 43 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:rational' at line 46 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?WZ,?O). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?h,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?J,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?H,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:XMLLiteral' at line 53 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Y,?Q). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?y,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 60 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?L,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?b,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?n,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?V,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?X,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 65 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|foot:Footballer(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?X,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 70 column 143
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 71 column 51
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:rational' at line 71 column 31
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|foot:Footballer(++?z). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Footballer(none,). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?H,"*Z"). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 84 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|foot:Footballer(++none,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?k,-8}<missing ')'>. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 95 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:IRI(none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?rV,?tOs). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 100 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?C,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?h,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?X,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 103 column 141
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 104 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 104 column 137
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 105 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://ns.ottr.xyz/0.4/IRI
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+
+2025-05-16 12:49:34,332 - INFO - Lutra processing time: 6.03 seconds
+2025-05-16 12:49:34,333 - ERROR - Lutra crashed with exit code 1
+2025-05-16 13:21:03,307 - INFO - Prosesserer batch: templates14.stottr
+2025-05-16 13:21:03,319 - INFO - Lutra output: 
+2025-05-16 13:21:03,319 - INFO - Lutra feil: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 30 column 145[ERROR] Syntax error: token recognition error at: '+)' at line 103 column 121[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?List<xsd:boolean>' at line 10 column 17[ERROR] Syntax error: extraneous input '}' expecting '.' at line 10 column 86[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?o,!xsd:nonPositiveInteger?i,?!xsd:date?L]zipMin' at line 11 column 77[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 98[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 140[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 163[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:normalizedString?r,xsd:integer?R]zipMax' at line 20 column 62[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 83[ERROR] Syntax error: mismatched input '::' expecting '.' at line 20 column 97[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 141[ERROR] Syntax error: extraneous input '}' expecting '.' at line 20 column 164[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:dateTime' at line 22 column 22[ERROR] Syntax error: extraneous input '}' expecting '.' at line 22 column 71[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?!xsd:normalizedString?q,!xsd:duration?y]zipMax' at line 30 column 59[ERROR] Syntax error: mismatched input '::' expecting '.' at line 30 column 80[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 124[ERROR] Syntax error: extraneous input '+.2' expecting {',', ')'} at line 30 column 142[ERROR] Syntax error: no viable alternative at input 'foot:Ball[xsd:dateTimeStamp?m,?xsd:hexBinary' at line 31 column 39[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 100[ERROR] Syntax error: extraneous input '}' expecting '.' at line 31 column 123[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:double' at line 38 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 38 column 107[ERROR] Syntax error: extraneous input '}' expecting '.' at line 38 column 130[ERROR] Syntax error: no viable alternative at input 'foot:Ball[!xsd:dateTime?g]foot:Ball' at line 42 column 31[ERROR] Syntax error: mismatched input '::' expecting '.' at line 42 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 42 column 67[ERROR] Syntax error: extraneous input '}' expecting '.' at line 42 column 108[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:boolean?p,?!xsd:string?E]zipMin' at line 50 column 53[ERROR] Syntax error: mismatched input ',' expecting '.' at line 50 column 74[ERROR] Syntax error: mismatched input '::' expecting '.' at line 50 column 96[ERROR] Syntax error: mismatched input ',' expecting '.' at line 50 column 140[ERROR] Syntax error: extraneous input '}' expecting '.' at line 50 column 163[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?owl:Class' at line 52 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 52 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 52 column 99[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:negativeInteger?E,xsd:positiveInteger?S,?rdf:HTML' at line 61 column 73[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 105[ERROR] Syntax error: mismatched input '::' expecting '.' at line 61 column 119[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 145[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 168[ERROR] Syntax error: extraneous input '}' expecting '.' at line 61 column 191[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:negativeInteger?v,?xsd:NCName' at line 68 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 68 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 68 column 130[ERROR] Syntax error: no viable alternative at input 'foot:Ball[xsd:gYear?Q,!xsd:token?O]cross' at line 71 column 43[ERROR] Syntax error: mismatched input '::' expecting '.' at line 71 column 63[ERROR] Syntax error: mismatched input ',' expecting '.' at line 71 column 105[ERROR] Syntax error: mismatched input ',' expecting '.' at line 71 column 128[ERROR] Syntax error: extraneous input '}' expecting '.' at line 71 column 151[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:gDay?f,?xsd:anyURI' at line 81 column 36[ERROR] Syntax error: mismatched input '::' expecting '.' at line 81 column 70[ERROR] Syntax error: extraneous input '}' expecting '.' at line 81 column 97[ERROR] Syntax error: no viable alternative at input 'foot:Ball[rdfs:Resource?m]foot:Ball' at line 89 column 31[ERROR] Syntax error: mismatched input '::' expecting '.' at line 89 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 89 column 69[ERROR] Syntax error: extraneous input '}' expecting '.' at line 89 column 110[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:unsignedShort?R,?xsd:gYearMonth' at line 91 column 46[ERROR] Syntax error: mismatched input ',' expecting '.' at line 91 column 108[ERROR] Syntax error: extraneous input '}' expecting '.' at line 91 column 131[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?xsd:normalizedString' at line 99 column 16[ERROR] Syntax error: mismatched input ',' expecting '.' at line 99 column 68[ERROR] Syntax error: mismatched input '::' expecting '.' at line 99 column 82[ERROR] Syntax error: mismatched input ',' expecting '.' at line 99 column 106[ERROR] Syntax error: extraneous input '}' expecting '.' at line 99 column 129[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:gYearMonth?HFOVL=?Sk' at line 103 column 44[ERROR] Syntax error: mismatched input '::' expecting '.' at line 103 column 76[ERROR] Syntax error: extraneous input '+.3' expecting {',', ')'} at line 103 column 118
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?WsvbU,foot:Footbal. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?V,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?k,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 12 column 151
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 12 column 40
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 15 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 16 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 17 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?W,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?I,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?bQ,?ow). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'rdf' in 'rdf:XMLLiteral' at line 25 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 26 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 29 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?Y,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?t,4+.2}<missing '). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?s,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?a,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?v,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?B,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?s,?U). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?z,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 47 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 48 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?H,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?V,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?R,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?b,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 58 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 60 column 44
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?y,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?o,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 64 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 65 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?c,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?p,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: cross|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?j,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?a,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?X,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?e,false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 84 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?c,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?Y,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?w,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?k,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 94 column 29
+Location(s):
+- Template with IRI 'http://example.org/football#Ball'
+- Signature with IRI 'http://example.org/football#Ball'
+- File ./data/templates/templates14.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 98 column 153
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?I,?r). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?f,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: zipMax|foot:Ball(++?j). This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?oBC,foot:Football. This parser accepts signatures, base templates and templates.
+Location(s):
+- File ./data/templates/templates14.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball
+
+
+2025-05-16 13:21:03,337 - INFO - Lutra processing time: 7.63 seconds
+2025-05-16 13:21:03,338 - ERROR - Lutra crashed with exit code 1

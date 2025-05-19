@@ -1,0 +1,59 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:foundedYear  ""^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:teams        _:b1 .
+
+_:b1    rdf:rest   _:b2 ;
+        rdf:first  rdf:nil .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b0    foot:topTeams  _:b3 .
+
+_:b4    rdf:rest   rdf:nil ;
+        rdf:first  _:b5 .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b7    rdf:rest   _:b4 ;
+        rdf:first  _:b8 .
+
+_:b5    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b3    rdf:rest   _:b7 ;
+        rdf:first  rdf:nil .
+
+_:b8    rdf:rest   _:b6 ;
+        rdf:first  rdf:nil .
+
+_:b9    foot:foundedYear  "+cO"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:teams        _:b10 .
+
+_:b10   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b9    foot:topTeams  _:b11 .
+
+_:b12   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b13   rdf:rest   _:b12 ;
+        rdf:first  "H[gy,(o)" .
+
+_:b11   rdf:rest   rdf:nil ;
+        rdf:first  _:b13 .

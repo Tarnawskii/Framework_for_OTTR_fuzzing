@@ -1,0 +1,1006 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+edge:Footballer290 [ ! xsd:boolean ?gVw  ] :: { foaf:Footballer279 ( none, false ), foot:Footballer270 ( true ) } .
+foaf:Footballer779 [ ? xsd:string ?h7B , * xsd:integer ?S9u  ] :: { schema:Footballer599 ( none, true ) } .
+edge:Footballer814 [  List<http://edgecase.org/hs> ?O2L = <http://example.org/Kv> ] :: { schema:Footballer195 ( ?x6l ) } .
+foot:Footballer97 [  Listxsd:string ?W3v = 0 ] :: { schema:Footballer992 ( "N" ) } .
+edge:Footballer617 [ * ottr:IRI ?z1p  ] :: { foaf:Footballer595 ( true ) } .
+foaf:Footballer781 [ ! ottr:IRI ?b5P  ] :: { foaf:Footballer607 ( none ), schema:Footballer154 ( none ), edge:Footballer681 ( true ), foot:Footballer420 ( none ) } .
+foaf:Footballer502 [ * xsd:string ?Z4N , * ottr:IRI ?C8H , ! xsd:boolean ?U0D  ] :: { edge:Footballer925 ( true, false ) } .
+edge:Footballer579 [ ? List<http://edgecase.org/^> ?R3q , * xsd:boolean ?c2y  ] :: { schema:Footballer564 ( true ) } .
+foot:Footballer778 [ ? List<http://example.org/H> ?Fnr = 0 ] :: { foot:Footballer678 ( false, false ), foaf:Footballer60 ( true ) } .
+foot:Footballer731 [ ? xsd:integer ?IEK , ? xsd:string ?AGk  ] :: { foaf:Footballer473 ( none ) } .
+edge:Footballer359 [ * xsd:string ?qUy , ! ottr:IRI ?c4A  ] :: { schema:Footballer709 ( false ) } .
+foot:Footballer762 [  xsd:boolean ?T6h  ] :: { foaf:Footballer631 ( none, true ), foaf:Footballer832 ( true ), edge:Footballer615 ( true ) } .
+foaf:Footballer838 [ ? List<http://example.org/A> ?O2X = <http://edgecase.org/c$> ] :: { schema:Footballer538 ( "t", ?L1o ) } .
+foaf:Footballer230 [ ! Listxsd:string ?r3t , ! xsd:integer ?z0S  ] :: { schema:Footballer468 ( false ), edge:Footballer806 ( false ) } .
+foot:Footballer629 [ ? xsd:string ?H9a , ! xsd:integer ?v7I  ] :: { edge:Footballer849 ( true, none ) } .
+edge:Footballer624 [ * xsd:string ?YxM ,  xsd:integer ?n5w  ] :: { schema:Footballer533 ( 8 ), foaf:Footballer988 ( false ) } .
+foaf:Footballer466 [  List<http://edgecase.org/o> ?NZD = 0 ] :: { foaf:Footballer517 ( none, ?pks, ?u3F, true ) } .
+schema:Footballer151 [ * xsd:boolean ?b8Q , * xsd:integer ?eBj , ! ottr:IRI ?iCP  ] :: { foot:Footballer816 ( none ) } .
+edge:Footballer114 [ ? ottr:IRI ?JgV  ] :: { edge:Footballer844 ( false ), foaf:Footballer134 ( false ), foot:Footballer238 ( none ) } .
+foot:Footballer979 [ ? List<http://example.org/v> ?d3K  ] :: { edge:Footballer758 ( ?l9R ) } .
+edge:Footballer610 [ ! ottr:IRI ?U0Y , * xsd:string ?aFm  ] :: { foot:Footballer406 ( true ), foaf:Footballer878 ( false ) } .
+schema:Footballer646 [ ? xsd:integer ?D8d ,  xsd:boolean ?J3s  ] :: { foaf:Footballer58 ( none ), foot:Footballer221 ( none ), edge:Footballer929 ( true ) } .
+edge:Footballer6 [ ? xsd:string ?j7f , ? xsd:boolean ?o4X  ] :: { foot:Footballer417 ( false ), schema:Footballer859 ( false ), schema:Footballer629 ( true ) } .
+foaf:Footballer909 [  Listxsd:string ?M5t = "X" ] :: { schema:Footballer575 ( <http://edgecase.org/fA>, ?g1v ) } .
+foaf:Footballer775 [  List<http://example.org/O> ?i6E = -98 ] :: { edge:Footballer468 ( 2 ) } .
+schema:Footballer633 [ ? ottr:IRI ?cxV  ] :: { edge:Footballer487 ( true ), edge:Footballer434 ( none ), edge:Footballer160 ( none ) } .
+edge:Footballer279 [ ! xsd:boolean ?p9n ,  xsd:integer ?HKB , ! xsd:string ?OLe  ] :: { schema:Footballer931 ( false ) } .
+schema:Footballer102 [  xsd:integer ?zuh ,  ottr:IRI ?Q2P  ] :: { schema:Footballer504 ( false ), edge:Footballer880 ( none ), edge:Footballer708 ( none ) } .
+schema:Footballer533 [ ! xsd:integer ?rGZ ,  ottr:IRI ?S5b , ! xsd:string ?y5W  ] :: { foot:Footballer418 ( true ), foot:Footballer498 ( false ) } .
+foot:Footballer393 [ * xsd:integer ?C6k ,  ottr:IRI ?wqN ,  xsd:boolean ?ARl  ] :: { schema:Footballer369 ( none ), schema:Footballer569 ( false ) } .
+foaf:Footballer676 [ ? xsd:boolean ?hwP = false ] :: { foot:Footballer122 ( 0, ?U1N ), edge:Footballer358 ( <http://example.org/}> ) } .
+foaf:Footballer391 [ ! Listxsd:string ?v9Z ,  xsd:integer ?R0n = none, * xsd:string ?X3B  ] :: { schema:Footballer362 ( true ) } .
+foaf:Footballer105 [ ? ottr:IRI ?F8u  ] :: { foot:Footballer598 ( true ), schema:Footballer359 ( false ) } .
+schema:Footballer568 [ ? ottr:IRI ?j5T , ! xsd:integer ?b6C  ] :: { schema:Footballer303 ( true ) } .
+foot:Footballer420 [ * xsd:string ?M2y  ] :: { foot:Footballer748 ( false ), edge:Footballer2 ( true ), edge:Footballer788 ( none ) } .
+edge:Footballer818 [ ? xsd:integer ?Y7V , * xsd:string ?m4o  ] :: { schema:Footballer700 ( false, true ) } .
+schema:Footballer688 [  List<http://edgecase.org/3F> ?x3a = true ] :: { foaf:Footballer740 ( true ), foaf:Footballer97 ( true ) } .
+foot:Footballer233 [ * xsd:string ?e8A ,  ottr:IRI ?tpG , * xsd:string ?W3L , ! xsd:boolean ?d3l  ] :: { edge:Footballer687 ( none, none ) } .
+foaf:Footballer505 [ ? xsd:boolean ?IzO  ] :: { foot:Footballer226 ( false ), edge:Footballer989 ( true ), schema:Footballer375 ( none ) } .
+foaf:Footballer469 [ ? List<http://edgecase.org/!> ?Q0i , * xsd:string ?qEJ  ] :: { foot:Footballer371 ( true ), foaf:Footballer248 ( false ) } .
+schema:Footballer626 [  xsd:integer ?q3G , * xsd:boolean ?lKM  ] :: { foot:Footballer289 ( none ), foaf:Footballer814 ( true ) } .
+edge:Footballer257 [ ! ottr:IRI ?b2P  ] :: { schema:Footballer154 ( false ), foot:Footballer991 ( true, false ), edge:Footballer694 ( none ), foot:Footballer735 ( true ) } .
+edge:Footballer893 [ ? List<http://example.org/(> ?D1a = "Zu" ] :: { edge:Footballer97 ( false, false ), schema:Footballer486 ( true ) } .
+foot:Footballer521 [ ? xsd:string ?J6B = <http://edgecase.org/o> ] :: { foot:Footballer144 ( ?A5W, 0, ?N0d, ?n8o, ?S4X ) } .
+edge:Footballer549 [  Listxsd:string ?I0L = -7 ] :: { foot:Footballer723 ( ?v9C, ?Rzx ) } .
+schema:Footballer545 [ ? List<http://edgecase.org/[I5> ?gfs = 00 ] :: { foot:Footballer895 ( ?TFi ) } .
+schema:Footballer187 [ * xsd:integer ?O2r = "n" ] :: { foaf:Footballer510 ( true ), foot:Footballer59 ( false ) } .
+foaf:Footballer423 [ ? xsd:string ?ewH , ! xsd:string ?U4E , * ottr:IRI ?h2u ,  xsd:integer ?j8m  ] :: { schema:Footballer199 ( false ) } .
+foaf:Footballer901 [ ? List<http://example.org/:i^> ?cZQ = "/=" ] :: { schema:Footballer632 ( ?pyt ) } .
+edge:Footballer354 [ ? xsd:string ?k4V , * xsd:integer ?qeY  ] :: { foaf:Footballer90 ( none ), edge:Footballer598 ( true ) } .
+schema:Footballer680 [ * xsd:integer ?y3u ,  xsd:boolean ?fvB  ] :: { foaf:Footballer689 ( false, none ) } .
+foot:Footballer665 [ ? xsd:string ?X1Y  ] :: { edge:Footballer868 ( true ), foot:Footballer697 ( false ) } .
+foot:Footballer553 [ ? xsd:boolean ?N2m , ! ottr:IRI ?J6Q  ] :: { schema:Footballer421 ( true ), edge:Footballer285 ( false ) } .
+edge:Footballer710 [ * xsd:string ?F5r  ] :: { schema:Footballer42 ( false ), foaf:Footballer637 ( false ), foaf:Footballer507 ( true ), schema:Footballer653 ( none ) } .
+edge:Footballer82 [ ! Listxsd:string ?e8H = <http://example.org/G%>, ! List<http://edgecase.org/r> ?E4d = 09 ] :: { schema:Footballer197 ( ?h7W ) } .
+schema:Footballer962 [ ! xsd:integer ?c0o ,  xsd:boolean ?Z5s , ! xsd:string ?aiS  ] :: { schema:Footballer809 ( false, false, false ) } .
+foot:Footballer712 [ ? List<http://edgecase.org/:u)FBR> ?U3j = 0 ] :: { edge:Footballer272 ( ".", ?OTk, ?M1z ) } .
+schema:Footballer162 [ * xsd:integer ?CKb  ] :: { schema:Footballer190 ( true ), schema:Footballer885 ( none ), foaf:Footballer946 ( true ) } .
+edge:Footballer434 [ ! List<http://edgecase.org/m> ?wDp  ] :: { foaf:Footballer500 ( ?RxL ), schema:Footballer463 ( true ) } .
+foot:Footballer774 [  xsd:string ?qIn  ] :: { schema:Footballer621 ( false, none ) } .
+foot:Footballer219 [  xsd:string ?Y8J , ? xsd:boolean ?GOh  ] :: { schema:Footballer207 ( false ) } .
+foaf:Footballer760 [ ! ottr:IRI ?z6Q , * xsd:boolean ?N3i ,  xsd:integer ?V5o  ] :: { edge:Footballer419 ( none, false ), foaf:Footballer768 ( false ), schema:Footballer920 ( true ) } .
+edge:Footballer389 [  List<http://example.org/*> ?T1u = true, * ottr:IRI ?I7E = true ] :: { schema:Footballer40 ( ?H9P ) } .
+foot:Footballer193 [  Listxsd:string ?g0k = 4 ] :: { foaf:Footballer543 ( "8R" ) } .
+foaf:Footballer340 [  xsd:boolean ?cfB , ! xsd:boolean ?r2b  ] :: { foot:Footballer300 ( false, true ) } .
+foot:Footballer711 [ * List<http://edgecase.org/(> ?L0A  ] :: { foot:Footballer742 ( none, true ), foot:Footballer183 ( none ) } .
+schema:Footballer830 [ * xsd:string ?l5C , * xsd:integer ?K7D  ] :: { edge:Footballer5 ( false ), edge:Footballer751 ( false ) } .
+foaf:Footballer577 [ ? xsd:string ?yMt ,  ottr:IRI ?d4F  ] :: { foaf:Footballer254 ( <http://edgecase.org/&> ) } .
+edge:Footballer906 [  ottr:IRI ?p5U , * xsd:boolean ?x4e  ] :: { foot:Footballer968 ( ?j9m, false ) } .
+foot:Footballer992 [ ! xsd:boolean ?a6W , ? xsd:integer ?sZn  ] :: { schema:Footballer129 ( true ), foot:Footballer2 ( true ) } .
+foaf:Footballer833 [ ? ottr:IRI ?SFM , ! xsd:boolean ?X0u  ] :: { edge:Footballer466 ( none ), schema:Footballer64 ( false ) } .
+foot:Footballer464 [  xsd:integer ?t3Y , * xsd:string ?d5Q , * xsd:string ?N6l  ] :: { foot:Footballer751 ( true ), schema:Footballer523 ( false ), schema:Footballer888 ( false ) } .
+foaf:Footballer772 [ * List<http://example.org/^> ?e4z  ] :: { foaf:Footballer848 ( none ), schema:Footballer308 ( none ), edge:Footballer23 ( none ) } .
+schema:Footballer53 [ ? xsd:string ?E2i  ] :: { edge:Footballer930 ( none, true, false ) } .
+edge:Footballer677 [  ottr:IRI ?f8J , ! xsd:boolean ?s9D  ] :: { foaf:Footballer288 ( false ), edge:Footballer262 ( none, true ), schema:Footballer252 ( true ), foot:Footballer89 ( none ) } .
+edge:Footballer669 [  ottr:IRI ?Z1x ,  xsd:integer ?y7k  ] :: { foaf:Footballer596 ( false ) } .
+foot:Footballer900 [ ? xsd:string ?K5B  ] :: { edge:Footballer741 ( ?rqo, false ) } .
+schema:Footballer904 [ * xsd:integer ?nRG  ] :: { foaf:Footballer698 ( none, true ), foaf:Footballer230 ( false ), schema:Footballer108 ( false ) } .
+edge:Footballer553 [ ? ottr:IRI ?OPI , ! xsd:string ?j1m  ] :: { foot:Footballer345 ( none ), edge:Footballer467 ( true ) } .
+foot:Footballer923 [ ? xsd:boolean ?c9C , ! xsd:boolean ?ALU  ] :: { edge:Footballer185 ( true ) } .
+schema:Footballer596 [ ! xsd:integer ?U0J ,  ottr:IRI ?LIE  ] :: { foot:Footballer174 ( none, false ) } .
+foaf:Footballer822 [ ? xsd:boolean ?C5K , * xsd:string ?o4z  ] :: { edge:Footballer213 ( true ), foaf:Footballer895 ( true ) } .
+foot:Footballer19 [ ! List<http://example.org/L> ?i2e = <http://edgecase.org/T> ] :: { edge:Footballer992 ( ?s3n ), schema:Footballer137 ( false ) } .
+edge:Footballer384 [ * xsd:string ?b8u  ] :: { edge:Footballer543 ( false, true, true ), foaf:Footballer143 ( none, none ) } .
+foot:Footballer282 [ ? xsd:string ?y9B ,  xsd:string ?j1a  ] :: { edge:Footballer967 ( false ) } .
+foaf:Footballer929 [ ! Listxsd:string ?Q6k , ? xsd:string ?c7W , * ottr:IRI ?V8f  ] :: { foot:Footballer25 ( "yE|" ) } .
+schema:Footballer361 [ ! xsd:integer ?Z8R  ] :: { foaf:Footballer233 ( false ), edge:Footballer377 ( true ) } .
+foaf:Footballer866 [  xsd:string ?pHM  ] :: { foaf:Footballer291 ( true ), foot:Footballer256 ( true ), schema:Footballer834 ( true ), foaf:Footballer77 ( false ) } .
+foaf:Footballer500 [ ! xsd:string ?Yvq , ! xsd:integer ?X9S  ] :: { foaf:Footballer777 ( true ) } .
+schema:Footballer837 [  List<http://edgecase.org/c8+> ?tGP = 0 ] :: { edge:Footballer722 ( 4 ) } .
+schema:Footballer950 [ ? ottr:IRI ?a1b  ] :: { edge:Footballer861 ( true ), foot:Footballer158 ( none ) } .
+schema:Footballer290 [ ! xsd:boolean ?yvR , * xsd:string ?i0c  ] :: { foaf:Footballer531 ( false, true, false ) } .
+edge:Footballer137 [  xsd:integer ?V2u , ? ottr:IRI ?k7A ,  xsd:boolean ?N9S , ? xsd:integer ?w3Q  ] :: { edge:Footballer411 ( ?o5m ) } .
+foot:Footballer462 [ * xsd:boolean ?X6H , * ottr:IRI ?J4G  ] :: { schema:Footballer463 ( false ) } .
+foaf:Footballer297 [ * xsd:string ?s8e , ? xsd:boolean ?p9z  ] :: { edge:Footballer998 ( none, false ) } .
+foot:Footballer219 [ * xsd:integer ?E0M , ? xsd:string ?YZF  ] :: { schema:Footballer691 ( true, true ) } .
+schema:Footballer68 [ ! Listxsd:string ?D5n = 0 ] :: { edge:Footballer184 ( <http://example.org/vR<>, "B9" ) } .
+foot:Footballer76 [  List<http://edgecase.org/c> ?t3f ,  xsd:boolean ?j6I , ? xsd:string ?l6P  ] :: { edge:Footballer617 ( none ) } .
+schema:Footballer128 [ * ottr:IRI ?r4d ,  xsd:integer ?W3C , * ottr:IRI ?gKT  ] :: { foaf:Footballer88 ( false, none ) } .
+foaf:Footballer844 [ ! xsd:integer ?LOh = none ] :: { schema:Footballer251 ( none, ?Bqx ) } .
+schema:Footballer372 [ * xsd:boolean ?VUa , ? ottr:IRI ?B5f  ] :: { edge:Footballer793 ( none ), foot:Footballer473 ( true, false ) } .
+foaf:Footballer5 [  xsd:integer ?o8l , ! xsd:string ?z2n  ] :: { schema:Footballer535 ( false ), schema:Footballer188 ( true ) } .
+foot:Footballer746 [ * xsd:string ?N6q = none, * xsd:boolean ?R9e  ] :: { schema:Footballer932 ( none, false ) } .
+foaf:Footballer568 [ * Listxsd:string ?P3O = 0 ] :: { edge:Footballer911 ( ?t0H, <http://edgecase.org/)e>, "i" ) } .
+foot:Footballer500 [ * ottr:IRI ?h7X  ] :: { edge:Footballer567 ( false ), foot:Footballer507 ( true ) } .
+foot:Footballer555 [ ! xsd:boolean ?Z4j ,  xsd:string ?L0y  ] :: { foot:Footballer508 ( ?v1d ) } .
+edge:Footballer319 [  xsd:string ?s4Q , ? xsd:boolean ?WDA , ? ottr:IRI ?kxg  ] :: { foot:Footballer389 ( false, true, false ), foaf:Footballer908 ( true ) } .
+edge:Footballer429 [  xsd:string ?K5C , * xsd:integer ?Fci  ] :: { edge:Footballer597 ( none ), edge:Footballer160 ( none ), schema:Footballer470 ( true ) } .
+edge:Footballer460 [ * xsd:integer ?EIS , ? xsd:integer ?T0m  ] :: { foot:Footballer13 ( ?r2M ) } .
+foot:Footballer122 [  List<http://example.org/n> ?wYJ = -27 ] :: { schema:Footballer501 ( ?pub ) } .
+schema:Footballer981 [ ! xsd:boolean ?u2U  ] :: { edge:Footballer509 ( none ), foaf:Footballer773 ( ?ZiK, <http://example.org/n;>, false, 0 ) } .
+foot:Footballer943 [ ? xsd:string ?f0e ,  ottr:IRI ?m7N  ] :: { foaf:Footballer821 ( true ) } .
+schema:Footballer178 [ * Listxsd:string ?g5r = 39 ] :: { foaf:Footballer165 ( "K" ) } .
+foot:Footballer586 [ * List<http://example.org/)$> ?F6G = <http://edgecase.org/r> ] :: { schema:Footballer31 ( ?C8J ) } .
+edge:Footballer160 [  xsd:boolean ?v1H , ? xsd:integer ?l4d  ] :: { foot:Footballer508 ( ?D4n ), foot:Footballer64 ( true ), schema:Footballer254 ( true ), schema:Footballer257 ( true ), schema:Footballer999 ( true ) } .
+foot:Footballer511 [ ! xsd:integer ?hps = none, ? xsd:boolean ?t9q  ] :: { edge:Footballer44 ( false, none, true ) } .
+edge:Footballer49 [ ? xsd:string ?z3X ,  xsd:boolean ?SMR  ] :: { foaf:Footballer567 ( true, true ) } .
+foot:Footballer317 [ ? ottr:IRI ?B6I  ] :: { edge:Footballer633 ( true ), schema:Footballer48 ( false, true ) } .
+edge:Footballer604 [  ottr:IRI ?w3x ,  ottr:IRI ?c4E , * ottr:IRI ?b1k  ] :: { foot:Footballer447 ( ?TAa ) } .
+schema:Footballer955 [ ! xsd:boolean ?PYO , * xsd:integer ?VyW ,  xsd:string ?o9L , ? xsd:boolean ?rUt , ? ottr:IRI ?jQf  ] :: { schema:Footballer227 ( false ) } .
+edge:Footballer982 [ * Listxsd:string ?E4d ,  xsd:integer ?SQi  ] :: { schema:Footballer968 ( true ) } .
+foaf:Footballer296 [ ! xsd:boolean ?h9U  ] :: { foot:Footballer555 ( none ), schema:Footballer162 ( false ), edge:Footballer686 ( none ) } .
+edge:Footballer137 [ ? xsd:string ?t5x = none, ! ottr:IRI ?y6B  ] :: { schema:Footballer757 ( true, true ), edge:Footballer782 ( true ) } .
+schema:Footballer474 [ * List<http://example.org/L> ?u1m = 0 ] :: { foaf:Footballer267 ( ?I0z, <http://edgecase.org/8Z> ) } .
+foaf:Footballer818 [ ! xsd:boolean ?c2g , ? xsd:string ?D8l  ] :: { foaf:Footballer906 ( false, true ), schema:Footballer729 ( true ) } .
+foaf:Footballer568 [ * List<http://example.org/4o(> ?w7b = 30 ] :: { schema:Footballer86 ( "W", ?f7Z ) } .
+foaf:Footballer624 [ ? List<http://example.org/v> ?XvA  ] :: { foaf:Footballer20 ( false, false ), schema:Footballer638 ( none ) } .
+schema:Footballer220 [ ! List<http://example.org/g> ?j9M  ] :: { edge:Footballer551 ( false, none ), edge:Footballer975 ( true ) } .
+foaf:Footballer142 [ * List<http://example.org/!> ?q9e = -057 ] :: { foot:Footballer558 ( ?R0L ), edge:Footballer832 ( true, none ), schema:Footballer156 ( true ) } .
+edge:Footballer504 [ * xsd:boolean ?F2a ,  xsd:integer ?n0J , * xsd:string ?V3Y  ] :: { foaf:Footballer931 ( ?WpH ) } .
+foot:Footballer31 [ ! xsd:boolean ?V4a ,  xsd:string ?xsf  ] :: { edge:Footballer774 ( none ), foaf:Footballer336 ( false ) } .
+foot:Footballer153 [ * xsd:integer ?K3T , ? xsd:integer ?Z7P , ? ottr:IRI ?r9u  ] :: { schema:Footballer564 ( true, false ), edge:Footballer993 ( true, true ) } .
+foaf:Footballer449 [ ! xsd:integer ?O2c , ! xsd:boolean ?q1p  ] :: { schema:Footballer468 ( ?Y6R ) } .
+schema:Footballer43 [ ! Listxsd:string ?h8z ,  xsd:integer ?J0W  ] :: { schema:Footballer282 ( "4(" ) } .
+foot:Footballer84 [ ! xsd:string ?E5C  ] :: { edge:Footballer707 ( false ), foot:Footballer830 ( none ) } .
+foot:Footballer458 [  ottr:IRI ?QHg , * xsd:boolean ?nyi , * ottr:IRI ?e2b  ] :: { foaf:Footballer787 ( -7 ) } .
+schema:Footballer295 [ ? xsd:string ?L0l = false,  ottr:IRI ?m2j , ! ottr:IRI ?k2X  ] :: { schema:Footballer106 ( false, true ) } .
+schema:Footballer665 [  ottr:IRI ?o2d  ] :: { foot:Footballer311 ( none, false ), edge:Footballer53 ( false ) } .
+schema:Footballer551 [ * ottr:IRI ?F7M  ] :: { foot:Footballer206 ( true ), schema:Footballer988 ( none ), edge:Footballer475 ( true ), schema:Footballer802 ( none ) } .
+edge:Footballer671 [ ? xsd:string ?U1N  ] :: { foaf:Footballer971 ( none ), edge:Footballer989 ( false ), foaf:Footballer533 ( true ), schema:Footballer300 ( true ) } .
+edge:Footballer59 [  xsd:string ?w4M , ! xsd:integer ?vpF  ] :: { foaf:Footballer298 ( none, true ), schema:Footballer388 ( false ) } .
+foot:Footballer757 [ ? xsd:boolean ?S0g , * ottr:IRI ?q3P , * xsd:boolean ?t2U  ] :: { edge:Footballer284 ( ?C6e, false ) } .
+foaf:Footballer261 [  xsd:boolean ?s9A  ] :: { foaf:Footballer190 ( true ), foaf:Footballer771 ( none ), edge:Footballer935 ( none ), foaf:Footballer61 ( true ) } .
+schema:Footballer368 [ ! List<http://example.org/M> ?Y7n = 5 ] :: { schema:Footballer613 ( <http://edgecase.org/:>>, "y)" ) } .
+foot:Footballer534 [ ! Listxsd:string ?b8H = -999 ] :: { schema:Footballer420 ( ?Q1h ) } .
+schema:Footballer537 [ * xsd:integer ?mof ,  ottr:IRI ?Z9K  ] :: { foaf:Footballer962 ( true ), schema:Footballer784 ( none ), foaf:Footballer329 ( false ) } .
+foaf:Footballer986 [ * ottr:IRI ?u6B , * ottr:IRI ?TiE  ] :: { schema:Footballer808 ( ?VzL, none, none ) } .
+foot:Footballer948 [  List<http://edgecase.org/v> ?a8G = false ] :: { foaf:Footballer764 ( true ), schema:Footballer938 ( false ), edge:Footballer7 ( none ) } .
+edge:Footballer110 [ ? xsd:integer ?l6O , ! xsd:integer ?jIc , * xsd:string ?RJX  ] :: { foot:Footballer437 ( true ), foaf:Footballer413 ( false ) } .
+foot:Footballer384 [ ! xsd:boolean ?DWr ,  ottr:IRI ?d5k  ] :: { schema:Footballer66 ( false ), schema:Footballer260 ( true ) } .
+schema:Footballer318 [  xsd:boolean ?S2s  ] :: { edge:Footballer143 ( ?kKw, false ), foaf:Footballer104 ( none ) } .
+schema:Footballer872 [ ? ottr:IRI ?b8T = 0, ! xsd:string ?i4a  ] :: { foot:Footballer959 ( true ), foaf:Footballer31 ( <http://edgecase.org/O>, true ) } .
+edge:Footballer496 [ * xsd:integer ?m0A = false, ! ottr:IRI ?E1D ,  xsd:integer ?j5C  ] :: { edge:Footballer519 ( false ), foaf:Footballer169 ( false ) } .
+foot:Footballer852 [ ? xsd:integer ?r9h  ] :: { schema:Footballer846 ( false ), schema:Footballer236 ( none ), foaf:Footballer500 ( true ) } .
+edge:Footballer507 [ * ottr:IRI ?U3x  ] :: { foot:Footballer502 ( false, false ), foaf:Footballer784 ( true, none ) } .
+foaf:Footballer255 [ ! xsd:boolean ?M7u = true, ! xsd:string ?Y6F  ] :: { foot:Footballer248 ( none ) } .
+foot:Footballer578 [  List<http://example.org/?> ?tQL = -58 ] :: { schema:Footballer27 ( ";@Xc#G" ) } .
+foaf:Footballer924 [ ? xsd:integer ?Bqg  ] :: { schema:Footballer655 ( none, true ) } .
+foaf:Footballer967 [ ? Listxsd:string ?f7p = true ] :: { schema:Footballer903 ( none ), edge:Footballer201 ( true ), foot:Footballer779 ( false ) } .
+foot:Footballer666 [ ? xsd:boolean ?e6P ,  ottr:IRI ?H9N  ] :: { edge:Footballer10 ( true ), edge:Footballer204 ( false, true ) } .
+foaf:Footballer695 [ ! xsd:string ?V2x = false ] :: { schema:Footballer948 ( -7, ?qXO ) } .
+foot:Footballer620 [  xsd:integer ?a1J , * ottr:IRI ?w5A  ] :: { edge:Footballer744 ( true ), edge:Footballer857 ( none ) } .
+schema:Footballer814 [  xsd:boolean ?E0r = none, ? xsd:string ?k6t  ] :: { schema:Footballer556 ( <http://edgecase.org/Q> ) } .
+schema:Footballer203 [ ! Listxsd:string ?L8P ,  xsd:integer ?I4p , ? xsd:integer ?G3y , ? xsd:string ?R9K  ] :: { schema:Footballer449 ( none ) } .
+foaf:Footballer31 [ * ottr:IRI ?jiQ , ? xsd:boolean ?bzl  ] :: { schema:Footballer383 ( true ), schema:Footballer157 ( false ), foot:Footballer802 ( none ) } .
+edge:Footballer900 [ ! List<http://example.org/)&> ?WeY = 0 ] :: { edge:Footballer606 ( ?H7S, "pkX", ?U7Z ) } .
+edge:Footballer654 [ ! List<http://example.org/7> ?ugN  ] :: { edge:Footballer179 ( true ), foaf:Footballer81 ( false ), foot:Footballer562 ( false ) } .
+foot:Footballer155 [ ? xsd:integer ?h4c  ] :: { foaf:Footballer347 ( false, none ) } .
+foot:Footballer998 [ * xsd:string ?M2D , ? xsd:integer ?m1f , * xsd:boolean ?snC  ] :: { foot:Footballer929 ( false, true ), schema:Footballer111 ( true ) } .
+foot:Footballer564 [ ? xsd:boolean ?vTd , ! xsd:string ?BoF  ] :: { foaf:Footballer635 ( false, true ) } .
+foaf:Footballer103 [ * xsd:boolean ?L2m  ] :: { foot:Footballer193 ( ?daN, "*" ) } .
+edge:Footballer632 [ ! xsd:integer ?i8D , ? ottr:IRI ?J3B  ] :: { schema:Footballer889 ( none ), edge:Footballer92 ( true ), schema:Footballer553 ( none ), foaf:Footballer743 ( false ) } .
+foot:Footballer340 [  List<http://edgecase.org/vt> ?t5s = true,  xsd:string ?j9Y , ? ottr:IRI ?O1C  ] :: { schema:Footballer51 ( none ), schema:Footballer446 ( false ) } .
+edge:Footballer361 [ * xsd:integer ?u0E , ? xsd:boolean ?b4W  ] :: { edge:Footballer312 ( false ), foaf:Footballer209 ( true ), foot:Footballer215 ( none ) } .
+edge:Footballer849 [ ! ottr:IRI ?K6l = true ] :: { foot:Footballer457 ( false ), foot:Footballer16 ( true ), foot:Footballer290 ( false ) } .
+foot:Footballer919 [ * xsd:string ?o7H ,  xsd:string ?k9e  ] :: { foot:Footballer912 ( false, none ), schema:Footballer749 ( true ) } .
+foaf:Footballer441 [ ? xsd:integer ?GXA , ! ottr:IRI ?fFZ  ] :: { edge:Footballer360 ( none ), schema:Footballer838 ( false ), foaf:Footballer270 ( none ), foot:Footballer624 ( true ) } .
+foot:Footballer876 [ ? xsd:integer ?UhI , ? ottr:IRI ?yzp , * ottr:IRI ?T2q  ] :: { foot:Footballer316 ( false ) } .
+foot:Footballer9 [ ? Listxsd:string ?vPx = <http://example.org/I> ] :: { edge:Footballer420 ( 78 ) } .
+edge:Footballer218 [ * xsd:integer ?Sgr  ] :: { schema:Footballer960 ( true, true ) } .
+schema:Footballer164 [ ! List<http://edgecase.org/K> ?R3t  ] :: { edge:Footballer216 ( 0 ) } .
+foot:Footballer405 [  ottr:IRI ?sOm , ? xsd:string ?Z5P  ] :: { foaf:Footballer584 ( none, true ), schema:Footballer566 ( false ), foot:Footballer154 ( true ) } .
+foaf:Footballer642 [ * xsd:boolean ?G7V  ] :: { edge:Footballer167 ( true, true ), foot:Footballer741 ( none ) } .
+foot:Footballer528 [ * xsd:integer ?u2n = false ] :: { foaf:Footballer804 ( false ), foot:Footballer96 ( false ), schema:Footballer81 ( none ) } .
+foot:Footballer103 [ ? xsd:boolean ?e6Q ,  xsd:integer ?i4y  ] :: { edge:Footballer402 ( false, false ), foaf:Footballer56 ( true ), edge:Footballer464 ( false ) } .
+edge:Footballer110 [ ? Listxsd:string ?w0r = <http://example.org/]/> ] :: { foaf:Footballer875 ( ?d8o ) } .
+foaf:Footballer740 [ * List<http://example.org/Q> ?F9k  ] :: { schema:Footballer394 ( false, false ), foot:Footballer844 ( false ), schema:Footballer280 ( none ) } .
+schema:Footballer86 [  xsd:integer ?I1M , * xsd:string ?Y4K  ] :: { foaf:Footballer956 ( none ), schema:Footballer670 ( false ) } .
+foaf:Footballer894 [ * xsd:boolean ?h6z ,  xsd:integer ?C1X , ! ottr:IRI ?bAE  ] :: { schema:Footballer821 ( none ), foot:Footballer833 ( none ), foaf:Footballer563 ( false ) } .
+schema:Footballer467 [ ? List<http://edgecase.org/W> ?c2f = false ] :: { schema:Footballer259 ( none ), foaf:Footballer493 ( true ), schema:Footballer744 ( false ), edge:Footballer745 ( false ) } .
+foot:Footballer75 [  xsd:integer ?v1N  ] :: { schema:Footballer780 ( none, true ), edge:Footballer496 ( false ) } .
+schema:Footballer96 [ ! List<http://edgecase.org/C> ?Y7d , * xsd:boolean ?J9g  ] :: { foaf:Footballer300 ( ?iCI ) } .
+edge:Footballer69 [ ? Listxsd:string ?l6b = <http://example.org/H[> ] :: { foaf:Footballer767 ( 0 ) } .
+edge:Footballer901 [  xsd:string ?G8e ,  ottr:IRI ?y3W = true ] :: { foaf:Footballer593 ( true, false ) } .
+foaf:Footballer616 [  List<http://edgecase.org/,pl> ?A2E = "c" ] :: { foot:Footballer151 ( ?k5c ) } .
+edge:Footballer884 [  xsd:boolean ?w0X , ? xsd:string ?n4P , ? xsd:string ?a1h  ] :: { foot:Footballer222 ( none ), edge:Footballer680 ( false ), foot:Footballer668 ( false ) } .
+schema:Footballer390 [ ? xsd:boolean ?j5D  ] :: { foot:Footballer993 ( true ), schema:Footballer731 ( none, true ), edge:Footballer219 ( false ) } .
+foaf:Footballer604 [ ? ottr:IRI ?xSu , * xsd:string ?H3U  ] :: { edge:Footballer875 ( false ), schema:Footballer977 ( true ) } .
+schema:Footballer812 [  xsd:integer ?M5q = 0 ] :: { schema:Footballer144 ( none ), schema:Footballer282 ( false ), foaf:Footballer270 ( false ) } .
+edge:Footballer783 [ ! ottr:IRI ?ptz , ! ottr:IRI ?o0R ,  ottr:IRI ?F6K  ] :: { foot:Footballer900 ( false ), schema:Footballer436 ( none ) } .
+foot:Footballer660 [ * xsd:string ?PhK ,  xsd:integer ?L4f  ] :: { edge:Footballer285 ( false, true ) } .
+foaf:Footballer510 [ ? ottr:IRI ?F6x  ] :: { schema:Footballer117 ( none ), foaf:Footballer588 ( true ) } .
+foot:Footballer303 [ ! xsd:boolean ?O0V , ? xsd:integer ?E5Z  ] :: { foot:Footballer278 ( none ), schema:Footballer221 ( none ) } .
+foot:Footballer541 [ * List<http://example.org/}0> ?r9Y = -82 ] :: { schema:Footballer395 ( ?b7R ) } .
+edge:Footballer211 [ ! ottr:IRI ?T1p ,  xsd:boolean ?W3g , ? ottr:IRI ?m1d  ] :: { schema:Footballer75 ( "N" ), schema:Footballer854 ( false ) } .
+schema:Footballer542 [ ? xsd:boolean ?u2G = true ] :: { schema:Footballer551 ( false, true ) } .
+schema:Footballer364 [ * xsd:boolean ?iSa , * xsd:integer ?MNv  ] :: { edge:Footballer757 ( true ), foot:Footballer422 ( none ) } .
+edge:Footballer743 [ * Listxsd:string ?Jjc = 000, * List<http://example.org/rZ]$pv2X> ?w8C = 0 ] :: { schema:Footballer446 ( <http://edgecase.org/|> ) } .
+foot:Footballer300 [ ! List<http://example.org/?> ?n1U = "zs" ] :: { edge:Footballer922 ( true ) } .
+edge:Footballer320 [ * xsd:string ?eHI = true ] :: { foot:Footballer770 ( false, none ) } .
+foot:Footballer991 [  xsd:boolean ?e2d = "D" ] :: { edge:Footballer832 ( false ), schema:Footballer947 ( <http://edgecase.org/4=9t[3>, ?YFO ) } .
+foaf:Footballer538 [ ! xsd:string ?X3I , ? xsd:integer ?W4D  ] :: { foaf:Footballer245 ( true ), foot:Footballer445 ( none ) } .
+foaf:Footballer22 [ * ottr:IRI ?l1G = false ] :: { edge:Footballer237 ( true ), edge:Footballer768 ( false ), schema:Footballer247 ( none ) } .
+foaf:Footballer447 [ ! xsd:boolean ?E0s ,  xsd:string ?p9N  ] :: { foaf:Footballer49 ( true ), schema:Footballer511 ( true ), foaf:Footballer170 ( true ), foaf:Footballer915 ( false ) } .
+edge:Footballer116 [ ! Listxsd:string ?a6C = 75 ] :: { edge:Footballer492 ( ?A8g, ?K3B, ?V0M ) } .
+edge:Footballer173 [ ! xsd:integer ?xUm ,  ottr:IRI ?ibR , * xsd:string ?S1k  ] :: { edge:Footballer854 ( none, true ) } .
+edge:Footballer479 [  xsd:string ?T8n , * ottr:IRI ?q2o  ] :: { schema:Footballer501 ( ?v3z ) } .
+schema:Footballer655 [  xsd:integer ?L9J  ] :: { schema:Footballer892 ( false, none ), schema:Footballer233 ( none ), schema:Footballer941 ( none, false ) } .
+foaf:Footballer289 [  List<http://example.org/>> ?rjy = -6028 ] :: { edge:Footballer522 ( ?HPu ), foot:Footballer30 ( ?hwZ ) } .
+foot:Footballer585 [  List<http://example.org/7> ?fct = 0 ] :: { schema:Footballer60 ( ?m1Q ) } .
+schema:Footballer453 [ ? xsd:integer ?r4v = true ] :: { foaf:Footballer661 ( <http://example.org/$_> ) } .
+edge:Footballer505 [  ottr:IRI ?J8M , * xsd:string ?f3z , ! xsd:boolean ?xSa  ] :: { edge:Footballer38 ( false ), edge:Footballer353 ( none ), foot:Footballer305 ( none ) } .
+edge:Footballer142 [ * xsd:string ?P7N  ] :: { schema:Footballer180 ( none, false ), schema:Footballer94 ( true ), foaf:Footballer46 ( true ) } .
+edge:Footballer52 [ * List<http://edgecase.org/&> ?u9i = "]" ] :: { schema:Footballer890 ( ?A6H ), foot:Footballer822 ( -12 ) } .
+foaf:Footballer502 [ * Listxsd:string ?C2s = 59 ] :: { edge:Footballer712 ( ?p0l ) } .
+schema:Footballer308 [ ? List<http://example.org/gE^> ?EqU = 0 ] :: { edge:Footballer798 ( ?j0o ) } .
+edge:Footballer968 [ ? xsd:string ?bkB , ! ottr:IRI ?h4c = none ] :: { edge:Footballer622 ( true ), schema:Footballer573 ( none ), schema:Footballer174 ( true ) } .
+foaf:Footballer352 [ ? List<http://edgecase.org/M> ?Q0g  ] :: { foaf:Footballer473 ( false ), foot:Footballer513 ( true ) } .
+foaf:Footballer483 [ ? ottr:IRI ?WIT = true, ? xsd:boolean ?Y2X , ! xsd:string ?F4L  ] :: { edge:Footballer826 ( true ), edge:Footballer812 ( none ) } .
+edge:Footballer400 [  List<http://example.org/2> ?deK  ] :: { schema:Footballer857 ( false ), schema:Footballer702 ( true ) } .
+foaf:Footballer798 [ ? xsd:string ?GqN  ] :: { schema:Footballer215 ( ?w4n, 2 ) } .
+foot:Footballer874 [ ! ottr:IRI ?V6E ,  xsd:boolean ?K5k , * xsd:integer ?B3e  ] :: { edge:Footballer475 ( true, true, false ), edge:Footballer815 ( none ) } .
+foot:Footballer986 [ * List<http://example.org/&> ?m7F = false ] :: { edge:Footballer121 ( false ) } .
+foot:Footballer345 [  ottr:IRI ?t0g , * xsd:string ?a9b  ] :: { foaf:Footballer931 ( none ), foaf:Footballer288 ( none ) } .
+schema:Footballer899 [ * Listxsd:string ?T8D = <http://edgecase.org/kgH> ] :: { foot:Footballer520 ( "7p", ?W1Q, ?x9o, ?H5U ) } .
+schema:Footballer474 [  List<http://edgecase.org/$L=N> ?LZc = -30 ] :: { foaf:Footballer407 ( ?vfY ) } .
+foot:Footballer147 [ ? xsd:boolean ?drh = false ] :: { edge:Footballer479 ( true ), schema:Footballer984 ( none ) } .
+foot:Footballer661 [ ? List<http://example.org/D> ?Alz = 0 ] :: { edge:Footballer73 ( ?PsS ) } .
+schema:Footballer664 [  xsd:boolean ?RMp  ] :: { foot:Footballer227 ( false ) } .
+foot:Footballer875 [  List<http://edgecase.org/xq> ?uyj = "?_" ] :: { edge:Footballer892 ( ?XJC ) } .
+edge:Footballer580 [ * ottr:IRI ?VOX  ] :: { foaf:Footballer448 ( none ), foot:Footballer681 ( false ) } .
+schema:Footballer910 [  xsd:integer ?u4n , ! xsd:string ?C7p , ? xsd:boolean ?y6M  ] :: { edge:Footballer98 ( true ), schema:Footballer846 ( false ), foaf:Footballer933 ( false ) } .
+foaf:Footballer724 [ ! xsd:integer ?a1s ,  ottr:IRI ?j8m , ! xsd:integer ?l9h  ] :: { foot:Footballer995 ( false ) } .
+schema:Footballer35 [ ? xsd:boolean ?t2K ,  xsd:string ?e3B , * xsd:boolean ?I0F  ] :: { edge:Footballer558 ( true ), schema:Footballer941 ( none ), foaf:Footballer617 ( true ) } .
+foot:Footballer134 [ ! xsd:integer ?H5E , ? xsd:string ?k6b , ! xsd:string ?iwQ  ] :: { schema:Footballer808 ( true ), schema:Footballer693 ( true ) } .
+schema:Footballer702 [ ! List<http://example.org/%b|$> ?v4o = "By" ] :: { schema:Footballer732 ( <http://edgecase.org/=X),_H&rD1>, ?f5J ) } .
+schema:Footballer882 [  ottr:IRI ?L8T  ] :: { edge:Footballer852 ( none ), schema:Footballer24 ( none ) } .
+foaf:Footballer62 [ * ottr:IRI ?ZUz ,  xsd:string ?PYS  ] :: { edge:Footballer393 ( false, false ) } .
+foaf:Footballer32 [ ! xsd:boolean ?gdA  ] :: { foot:Footballer329 ( none, true ) } .
+edge:Footballer998 [ * ottr:IRI ?cDW  ] :: { foot:Footballer491 ( true ), edge:Footballer83 ( true ), edge:Footballer636 ( none ) } .
+foot:Footballer118 [ * xsd:boolean ?L8G ,  xsd:string ?pXl  ] :: { edge:Footballer109 ( true ), schema:Footballer333 ( false ) } .
+foaf:Footballer534 [ ! ottr:IRI ?f9K  ] :: { foot:Footballer933 ( none, false ), foaf:Footballer361 ( true, none ) } .
+foot:Footballer311 [ ? xsd:integer ?x6k ,  xsd:integer ?d1V , * xsd:boolean ?W0F  ] :: { foot:Footballer437 ( false, true ) } .
+foaf:Footballer359 [  ottr:IRI ?m3J  ] :: { edge:Footballer709 ( true ), edge:Footballer901 ( none ), edge:Footballer486 ( none ) } .
+foot:Footballer523 [ ! ottr:IRI ?Q7D  ] :: { foot:Footballer917 ( ?z2e, true ) } .
+schema:Footballer571 [ ! xsd:string ?U5N  ] :: { schema:Footballer969 ( true, false ), schema:Footballer421 ( true ), schema:Footballer943 ( true ) } .
+schema:Footballer155 [ ? ottr:IRI ?B6b , ? ottr:IRI ?g4Y , ? xsd:boolean ?a9u  ] :: { foot:Footballer28 ( true, none, none ) } .
+edge:Footballer529 [ ? xsd:integer ?qCc  ] :: { schema:Footballer324 ( none, true, none ), foaf:Footballer141 ( none ), foaf:Footballer626 ( false ) } .
+foaf:Footballer999 [ * xsd:integer ?M0S ,  xsd:integer ?ZrO , ? xsd:integer ?vAs  ] :: { schema:Footballer365 ( none ), schema:Footballer935 ( false ), foaf:Footballer104 ( none ) } .
+foot:Footballer750 [ ! List<http://edgecase.org/fdm> ?iIP = <http://example.org/7-> ] :: { schema:Footballer341 ( "k" ) } .
+foaf:Footballer888 [  xsd:integer ?S5K  ] :: { schema:Footballer54 ( true ), edge:Footballer11 ( none, false ) } .
+foot:Footballer151 [ * xsd:string ?tRs , ! xsd:boolean ?p9Q , ? ottr:IRI ?C7v  ] :: { foaf:Footballer936 ( none ), schema:Footballer175 ( none ), schema:Footballer931 ( none ) } .
+foot:Footballer58 [ * Listxsd:string ?O4M = <http://edgecase.org/0> ] :: { foaf:Footballer277 ( ?i2c ) } .
+edge:Footballer466 [ ! xsd:boolean ?Y1z  ] :: { foot:Footballer728 ( false ) } .
+schema:Footballer37 [ * xsd:string ?W8o = true,  xsd:integer ?r0d ,  ottr:IRI ?V3u , ! xsd:integer ?j6e  ] :: { schema:Footballer877 ( "3pX" ) } .
+edge:Footballer514 [ ! ottr:IRI ?E7a , ! xsd:boolean ?hkm  ] :: { foot:Footballer834 ( none ), schema:Footballer614 ( true ) } .
+edge:Footballer323 [  ottr:IRI ?D3l , ? xsd:string ?x5N ,  xsd:string ?LPH  ] :: { foaf:Footballer956 ( none ) } .
+schema:Footballer745 [ * List<http://example.org/G> ?XIy = 0 ] :: { schema:Footballer191 ( 6 ) } .
+schema:Footballer113 [ * ottr:IRI ?BZG , ! xsd:boolean ?Jgb , ! xsd:integer ?FfT  ] :: { edge:Footballer542 ( none ), foot:Footballer824 ( none ), foaf:Footballer369 ( false ) } .
+schema:Footballer94 [ ! xsd:integer ?Awq  ] :: { foaf:Footballer879 ( true ) } .
+edge:Footballer424 [ ? ottr:IRI ?a4w ,  xsd:integer ?KgC  ] :: { foaf:Footballer309 ( true, false ), foot:Footballer90 ( none ) } .
+schema:Footballer382 [ ! Listxsd:string ?q2d , * xsd:boolean ?l5A  ] :: { foot:Footballer116 ( ?G8R, true, none ) } .
+foot:Footballer244 [ ! xsd:string ?O6e = none ] :: { foot:Footballer63 ( none ), foot:Footballer605 ( true ) } .
+edge:Footballer589 [ ? List<http://example.org/O> ?h3r = "J" ] :: { schema:Footballer121 ( <http://edgecase.org/[_> ) } .
+schema:Footballer594 [ ? xsd:boolean ?B7u  ] :: { foaf:Footballer593 ( false, none, none ) } .
+foot:Footballer376 [ ! ottr:IRI ?E0X ,  xsd:integer ?f9Z  ] :: { foaf:Footballer288 ( none ), edge:Footballer404 ( true ) } .
+edge:Footballer343 [ * xsd:boolean ?b1t ,  ottr:IRI ?y2F  ] :: { foaf:Footballer399 ( false ), edge:Footballer805 ( true, true ) } .
+edge:Footballer451 [ * List<http://example.org/*V> ?iQL = 0 ] :: { foot:Footballer255 ( 24 ) } .
+schema:Footballer7 [ * xsd:string ?S1W , * xsd:string ?N5V  ] :: { foot:Footballer411 ( none, true ), schema:Footballer717 ( true ) } .
+edge:Footballer794 [ ? ottr:IRI ?H0M , ! xsd:integer ?I9x , ? xsd:integer ?oJk  ] :: { foot:Footballer67 ( false ) } .
+foaf:Footballer594 [  xsd:integer ?hjp , * xsd:string ?N3E  ] :: { edge:Footballer406 ( true ), foot:Footballer315 ( none ) } .
+edge:Footballer352 [ ! ottr:IRI ?R4J = "%u" ] :: { schema:Footballer173 ( ?Q2m, false ) } .
+edge:Footballer549 [ ? Listxsd:string ?V0M = <http://example.org/:P> ] :: { foaf:Footballer11 ( -96 ) } .
+schema:Footballer270 [ ? xsd:boolean ?S5P = 0,  xsd:integer ?U8i , * xsd:string ?D7o  ] :: { foot:Footballer548 ( ?k1F ) } .
+edge:Footballer28 [ * xsd:integer ?Y2K , ! xsd:string ?d7C  ] :: { edge:Footballer172 ( true ), schema:Footballer701 ( none ) } .
+edge:Footballer183 [ ! xsd:string ?IxW , * xsd:string ?G6A  ] :: { edge:Footballer243 ( true ) } .
+schema:Footballer27 [  xsd:integer ?s7w , * ottr:IRI ?Z0z  ] :: { foaf:Footballer153 ( true ), edge:Footballer946 ( none ), foot:Footballer197 ( true ) } .
+edge:Footballer991 [ ? ottr:IRI ?y8f , ! xsd:boolean ?t2c  ] :: { foot:Footballer182 ( none ), edge:Footballer185 ( none ) } .
+foot:Footballer447 [ * List<http://edgecase.org/i> ?nLe = 6177 ] :: { edge:Footballer437 ( ?HqT ) } .
+edge:Footballer72 [  List<http://edgecase.org/y> ?a1B  ] :: { edge:Footballer271 ( none, none ) } .
+foot:Footballer292 [ ? xsd:boolean ?L3l , * xsd:integer ?suG  ] :: { schema:Footballer676 ( false ), edge:Footballer634 ( none ) } .
+foaf:Footballer296 [  xsd:string ?m5Z , ! ottr:IRI ?P9N  ] :: { foaf:Footballer221 ( true, false ), foot:Footballer393 ( true ), foot:Footballer506 ( false ), foaf:Footballer273 ( true ) } .
+edge:Footballer368 [  ottr:IRI ?j8q , ? xsd:integer ?H2v  ] :: { foot:Footballer139 ( true ), foot:Footballer744 ( false ), schema:Footballer133 ( true ) } .
+schema:Footballer132 [  Listxsd:string ?U7X = "NR" ] :: { schema:Footballer377 ( <http://edgecase.org/]>, ?R4E ) } .
+foaf:Footballer961 [  xsd:integer ?F6Q  ] :: { edge:Footballer343 ( false, false ), schema:Footballer604 ( true ) } .
+edge:Footballer566 [ * ottr:IRI ?K1d , * xsd:boolean ?D0w  ] :: { foot:Footballer524 ( true ), edge:Footballer237 ( none ), foaf:Footballer241 ( none ) } .
+foot:Footballer890 [  xsd:boolean ?eOo = true ] :: { edge:Footballer943 ( false, true ), edge:Footballer523 ( true ), schema:Footballer103 ( false ) } .
+edge:Footballer150 [ ! xsd:boolean ?ByS ,  xsd:string ?J9g  ] :: { foaf:Footballer73 ( true ), foaf:Footballer244 ( true ), schema:Footballer126 ( none ) } .
+foaf:Footballer867 [ ? ottr:IRI ?z1x , * xsd:integer ?i8c , ! xsd:string ?W5Y  ] :: { edge:Footballer301 ( false ) } .
+foot:Footballer81 [ ! xsd:boolean ?hAM  ] :: { edge:Footballer651 ( none ), edge:Footballer696 ( true, true ) } .
+schema:Footballer853 [ ! xsd:boolean ?Y4o  ] :: { edge:Footballer321 ( ?liA ), foaf:Footballer970 ( none, true, false ) } .
+foot:Footballer372 [ * Listxsd:string ?g5a ,  xsd:string ?c7m  ] :: { edge:Footballer236 ( none, none ) } .
+schema:Footballer712 [ ? xsd:integer ?O8N = <http://edgecase.org/B> ] :: { edge:Footballer369 ( true, false, false ) } .
+foot:Footballer504 [ ? List<http://example.org/8> ?s0j = "h-" ] :: { schema:Footballer907 ( 0, ?B3b ), schema:Footballer628 ( ?Z9q ) } .
+foot:Footballer233 [ ? ottr:IRI ?y6Q  ] :: { edge:Footballer801 ( true ), edge:Footballer935 ( none ) } .
+foaf:Footballer177 [ ! List<http://example.org/N> ?V2I = -71 ] :: { schema:Footballer222 ( ?d1h ) } .
+foot:Footballer915 [ * ottr:IRI ?r2E ,  ottr:IRI ?z2w ,  xsd:string ?PfX  ] :: { schema:Footballer930 ( false, true ), foaf:Footballer892 ( true ) } .
+edge:Footballer500 [ ? ottr:IRI ?kLU  ] :: { foot:Footballer204 ( none, true ), foaf:Footballer383 ( true ) } .
+edge:Footballer929 [ ! xsd:boolean ?e6F , ! xsd:boolean ?M0p  ] :: { foot:Footballer572 ( false ), schema:Footballer129 ( true ) } .
+foaf:Footballer971 [ * xsd:boolean ?ntu  ] :: { foot:Footballer518 ( none ), foaf:Footballer317 ( false ), foaf:Footballer902 ( true ) } .
+schema:Footballer42 [  xsd:integer ?X0U , ! ottr:IRI ?z5G  ] :: { edge:Footballer24 ( <http://example.org/5>, ?WmV ) } .
+foot:Footballer56 [ ? Listxsd:string ?a4x = true ] :: { foaf:Footballer215 ( false ), foaf:Footballer538 ( none ), foaf:Footballer60 ( none ), foaf:Footballer766 ( none ) } .
+schema:Footballer310 [ * xsd:boolean ?j6F = "U9" ] :: { schema:Footballer668 ( 0 ) } .
+foot:Footballer498 [ ? xsd:string ?p9c  ] :: { edge:Footballer593 ( ?d8r, true, false ) } .
+foaf:Footballer814 [ ? List<http://edgecase.org//LGoO> ?E7s = -12 ] :: { edge:Footballer286 ( ?N3g ) } .
+foaf:Footballer400 [ * ottr:IRI ?k0o , ? xsd:string ?Qyb  ] :: { foaf:Footballer13 ( true, false ) } .
+edge:Footballer595 [  ottr:IRI ?v6Y , * xsd:string ?JfS , ? xsd:boolean ?CwI  ] :: { edge:Footballer613 ( true ), edge:Footballer926 ( none ) } .
+foaf:Footballer26 [ ? ottr:IRI ?q4B ,  xsd:string ?hOl  ] :: { foaf:Footballer912 ( none ) } .
+foot:Footballer670 [ * xsd:integer ?ZAi , * xsd:integer ?u4P  ] :: { schema:Footballer339 ( false ), foot:Footballer298 ( true ) } .
+foot:Footballer879 [  xsd:integer ?T8H , * xsd:string ?R1M  ] :: { edge:Footballer831 ( false ), schema:Footballer399 ( true ), foaf:Footballer326 ( true ) } .
+schema:Footballer43 [ ! xsd:integer ?O1m ,  xsd:string ?Nsg  ] :: { foot:Footballer623 ( true ) } .
+edge:Footballer707 [ ? ottr:IRI ?R2f = none ] :: { foaf:Footballer66 ( false ), schema:Footballer184 ( false ), foot:Footballer356 ( true ) } .
+foaf:Footballer5 [ * xsd:boolean ?K8j , * xsd:boolean ?V5E  ] :: { schema:Footballer912 ( none ), schema:Footballer202 ( none ), foaf:Footballer10 ( false ) } .
+edge:Footballer987 [ * ottr:IRI ?G0e , ! ottr:IRI ?T3b , * xsd:string ?H7P , ? ottr:IRI ?n4l  ] :: { foot:Footballer779 ( none ) } .
+schema:Footballer933 [  Listxsd:string ?I9o = "j" ] :: { edge:Footballer350 ( ?Z6W, -8 ) } .
+schema:Footballer55 [ ? xsd:boolean ?qip , * List<http://edgecase.org/h> ?dwa = true ] :: { foaf:Footballer84 ( ?h0F, <http://example.org/w> ) } .
+schema:Footballer106 [ ! xsd:boolean ?vJD ,  xsd:string ?B6X , ! xsd:boolean ?QLM  ] :: { schema:Footballer780 ( none ) } .
+foot:Footballer477 [ * xsd:boolean ?A2x  ] :: { schema:Footballer369 ( false ), foot:Footballer926 ( false ) } .
+foaf:Footballer517 [ ? xsd:boolean ?Y7z  ] :: { foot:Footballer283 ( none ) } .
+schema:Footballer179 [  xsd:boolean ?rky  ] :: { schema:Footballer446 ( none ), foot:Footballer352 ( true ), edge:Footballer272 ( false ) } .
+schema:Footballer250 [ * xsd:integer ?q2T  ] :: { foot:Footballer181 ( none, false ) } .
+foot:Footballer864 [ ! ottr:IRI ?Bkv ,  xsd:boolean ?x1L  ] :: { edge:Footballer962 ( true ), foaf:Footballer319 ( none, true ) } .
+edge:Footballer32 [ ? xsd:string ?o3i , ? xsd:boolean ?Z5M  ] :: { foaf:Footballer788 ( ?W9y ) } .
+schema:Footballer606 [ ? ottr:IRI ?d7a = true ] :: { schema:Footballer731 ( true ), foot:Footballer857 ( false ), foot:Footballer271 ( false ) } .
+foaf:Footballer382 [ ! xsd:integer ?G4D , * xsd:string ?f8n  ] :: { schema:Footballer39 ( false ), foot:Footballer9 ( none ) } .
+edge:Footballer402 [  xsd:boolean ?I6c  ] :: { foaf:Footballer988 ( true ), foot:Footballer959 ( none ), schema:Footballer898 ( none ) } .
+foot:Footballer314 [ * Listxsd:string ?U0h  ] :: { foot:Footballer316 ( true ), foaf:Footballer210 ( true ), foaf:Footballer831 ( none ) } .
+foot:Footballer464 [  xsd:string ?ujV ,  xsd:integer ?Xpl ,  xsd:boolean ?K5g  ] :: { edge:Footballer764 ( false ), foaf:Footballer97 ( none ), foot:Footballer237 ( true ) } .
+schema:Footballer149 [ ? xsd:boolean ?Rsz  ] :: { edge:Footballer977 ( none, false, true ) } .
+foot:Footballer899 [ ? List<http://example.org/_t> ?tCH = "-|6" ] :: { edge:Footballer290 ( 6, <http://edgecase.org/L> ) } .
+schema:Footballer936 [  List<http://edgecase.org/AQ> ?B4h , ? xsd:boolean ?jvK = 6 ] :: { foaf:Footballer239 ( ?I9b, "W" ) } .
+foot:Footballer663 [ * xsd:integer ?R3p  ] :: { foaf:Footballer159 ( false ), edge:Footballer987 ( true ) } .
+edge:Footballer636 [ ! xsd:string ?a1C , * ottr:IRI ?s0L  ] :: { foot:Footballer185 ( none ) } .
+schema:Footballer385 [ * xsd:string ?c8X , ? xsd:boolean ?m7u  ] :: { foaf:Footballer473 ( false, false, true ) } .
+schema:Footballer161 [ ! xsd:integer ?r2z , ! ottr:IRI ?A5G  ] :: { edge:Footballer86 ( <http://example.org/O>, false ) } .
+schema:Footballer468 [ * xsd:string ?Oqy ,  xsd:string ?tDW  ] :: { edge:Footballer522 ( false ), foaf:Footballer904 ( true ) } .
+edge:Footballer881 [ ! xsd:boolean ?wYF  ] :: { schema:Footballer843 ( true, false, true ) } .
+schema:Footballer487 [ ! xsd:string ?V6f ,  xsd:boolean ?x5k ,  xsd:string ?Q9P  ] :: { edge:Footballer238 ( false, none ), edge:Footballer444 ( none ) } .
+foot:Footballer391 [ ? xsd:string ?U4e ,  xsd:boolean ?glH  ] :: { schema:Footballer907 ( false ), foot:Footballer918 ( true ) } .
+schema:Footballer117 [ ! Listxsd:string ?ZnS = none ] :: { schema:Footballer168 ( false, none ), schema:Footballer781 ( none ) } .
+foaf:Footballer682 [ ? xsd:string ?QJh , * xsd:boolean ?V1k  ] :: { foot:Footballer18 ( false ), schema:Footballer668 ( true ) } .
+edge:Footballer856 [  xsd:integer ?b3m  ] :: { schema:Footballer769 ( none, true, true ) } .
+edge:Footballer615 [ ! ottr:IRI ?d9L , ? xsd:string ?c5P ,  xsd:integer ?y8j  ] :: { foaf:Footballer168 ( true ), foot:Footballer520 ( false ), foot:Footballer266 ( none ) } .
+schema:Footballer562 [  xsd:boolean ?G4I , ? xsd:integer ?z6N  ] :: { foot:Footballer801 ( none ), foaf:Footballer892 ( none ) } .
+edge:Footballer934 [  xsd:integer ?C7s  ] :: { edge:Footballer86 ( none ), schema:Footballer416 ( false ) } .
+edge:Footballer795 [ ! xsd:integer ?f2p , ? xsd:string ?F0l  ] :: { edge:Footballer77 ( false, none, true ), schema:Footballer41 ( none ), foot:Footballer461 ( false ) } .
+edge:Footballer19 [  List<http://edgecase.org/W'TP> ?o1g = <http://example.org/L> ] :: { foaf:Footballer106 ( ?H8B, -0 ) } .
+schema:Footballer337 [ ! xsd:boolean ?UXW ,  xsd:string ?eKw  ] :: { schema:Footballer896 ( none, none ), schema:Footballer448 ( false, none ) } .
+schema:Footballer235 [ ! ottr:IRI ?n1A  ] :: { schema:Footballer669 ( true, false ), edge:Footballer772 ( none ) } .
+edge:Footballer189 [  ottr:IRI ?tEu ,  ottr:IRI ?v1r ,  ottr:IRI ?Y1O  ] :: { schema:Footballer415 ( none ), foaf:Footballer629 ( none ) } .
+edge:Footballer612 [ ? xsd:boolean ?hZb , * xsd:integer ?C1P  ] :: { foaf:Footballer987 ( true ) } .
+foot:Footballer200 [  Listxsd:string ?p8X  ] :: { schema:Footballer182 ( none, false ), edge:Footballer640 ( none ), foot:Footballer368 ( none ) } .
+schema:Footballer214 [ * ottr:IRI ?u7T = "J", ! xsd:string ?e4x ,  xsd:string ?y6L  ] :: { schema:Footballer564 ( true ) } .
+edge:Footballer153 [ ? List<http://edgecase.org/3> ?r0J = 0 ] :: { edge:Footballer25 ( false, true ), schema:Footballer696 ( none ) } .
+schema:Footballer961 [ * xsd:string ?o3A  ] :: { foot:Footballer902 ( false ), foot:Footballer358 ( none ) } .
+foot:Footballer629 [ ? List<http://example.org/l> ?W9N , * xsd:integer ?H5a , ! xsd:integer ?V2m  ] :: { schema:Footballer661 ( false ) } .
+schema:Footballer122 [ * List<http://example.org/=> ?MiB = <http://edgecase.org/j> ] :: { edge:Footballer103 ( ?n1O ), schema:Footballer925 ( true, true ) } .
+foot:Footballer492 [ ! xsd:string ?k9f = none ] :: { schema:Footballer450 ( false ), edge:Footballer694 ( false ), foot:Footballer166 ( true ) } .
+foaf:Footballer405 [ ? List<http://edgecase.org/75> ?EIq = -3 ] :: { edge:Footballer471 ( ?zYw ) } .
+foaf:Footballer625 [ ! xsd:string ?SFU , ? xsd:boolean ?c5l  ] :: { foaf:Footballer875 ( false, true, none ) } .
+foaf:Footballer763 [ ! ottr:IRI ?Wle  ] :: { schema:Footballer575 ( none ), foot:Footballer616 ( false, none, true ) } .
+schema:Footballer188 [  xsd:integer ?q2i , ? xsd:boolean ?L6T  ] :: { edge:Footballer961 ( true ) } .
+foot:Footballer695 [ ? xsd:string ?w0o , * xsd:integer ?h3R  ] :: { foaf:Footballer293 ( false ), foaf:Footballer67 ( false, none ) } .
+foot:Footballer17 [ ? xsd:boolean ?O7p ,  xsd:integer ?a9y  ] :: { foot:Footballer963 ( true, none ) } .
+edge:Footballer33 [ ? List<http://example.org/,O> ?m5k = <http://edgecase.org/w> ] :: { edge:Footballer176 ( ?J8V ) } .
+schema:Footballer28 [  xsd:string ?H1M , * xsd:integer ?b4C  ] :: { foot:Footballer288 ( true ) } .
+foaf:Footballer262 [  ottr:IRI ?F7x  ] :: { foot:Footballer256 ( true, false ) } .
+schema:Footballer989 [ ! xsd:integer ?Udr = true ] :: { foaf:Footballer213 ( false ), foaf:Footballer3 ( false ) } .
+foaf:Footballer366 [ * ottr:IRI ?Bgu , ? ottr:IRI ?Sfn  ] :: { edge:Footballer182 ( true ), schema:Footballer628 ( false ) } .
+foaf:Footballer202 [  xsd:boolean ?jZD = true, * Listxsd:string ?X1v , ? xsd:boolean ?t7G  ] :: { foot:Footballer802 ( "[" ) } .
+schema:Footballer270 [  xsd:integer ?b7T  ] :: { foot:Footballer550 ( none ), foaf:Footballer208 ( true ) } .
+edge:Footballer67 [ ? xsd:boolean ?uij , ! ottr:IRI ?a6h  ] :: { foaf:Footballer910 ( false, true, none ) } .
+foot:Footballer784 [ * xsd:integer ?Z8U ,  xsd:string ?W3S ,  xsd:string ?w0K  ] :: { foaf:Footballer390 ( true ) } .
+foot:Footballer179 [ ! ottr:IRI ?R4e  ] :: { schema:Footballer331 ( none ), schema:Footballer266 ( true ) } .
+edge:Footballer441 [ ? List<http://example.org/Y> ?J1E = ";&lo4" ] :: { foaf:Footballer484 ( <http://edgecase.org/N>, ?N5L ) } .
+schema:Footballer468 [  Listxsd:string ?A2M , ! xsd:string ?s9V  ] :: { edge:Footballer629 ( true, none ), schema:Footballer425 ( false ) } .
+edge:Footballer827 [ ? xsd:string ?nqf ,  xsd:boolean ?c1I  ] :: { schema:Footballer894 ( none ), edge:Footballer641 ( none, false, none ) } .
+schema:Footballer201 [ ! List<http://edgecase.org/C#> ?p9k = 0 ] :: { foaf:Footballer277 ( -5 ) } .
+edge:Footballer960 [ * List<http://example.org/'> ?g9F = 052 ] :: { schema:Footballer801 ( ?OBt, ?yXQ, ?l1D, ?dYm ) } .
+schema:Footballer449 [ ! xsd:integer ?PGx , ? xsd:string ?H1o  ] :: { foaf:Footballer956 ( false ) } .
+foot:Footballer519 [ ? ottr:IRI ?JdQ  ] :: { edge:Footballer691 ( true, false ) } .
+foaf:Footballer264 [ ! xsd:string ?W6v ,  xsd:boolean ?z8R  ] :: { foot:Footballer328 ( none ), schema:Footballer749 ( false, none ) } .
+schema:Footballer544 [ ! xsd:integer ?A7k , * xsd:integer ?G0K  ] :: { foot:Footballer686 ( true ) } .
+foaf:Footballer895 [ ? xsd:string ?P4t  ] :: { edge:Footballer241 ( false ), edge:Footballer923 ( true ), foot:Footballer554 ( none ) } .
+schema:Footballer607 [ ! ottr:IRI ?F3I  ] :: { edge:Footballer45 ( true, none ), foot:Footballer362 ( false ), foaf:Footballer725 ( true ) } .
+foaf:Footballer631 [  List<http://example.org/qs> ?e5s = <http://edgecase.org/*> ] :: { foaf:Footballer319 ( ?l9U ) } .
+edge:Footballer637 [  xsd:string ?h2y , ! xsd:string ?a1j  ] :: { foot:Footballer956 ( false, true ) } .
+schema:Footballer306 [ * xsd:integer ?bTc , * xsd:integer ?SNf  ] :: { foaf:Footballer182 ( true ), foaf:Footballer259 ( false ), foaf:Footballer258 ( false ), foot:Footballer463 ( false ) } .
+foot:Footballer774 [ ! xsd:string ?gYM , ? ottr:IRI ?qmo  ] :: { schema:Footballer512 ( true ), schema:Footballer84 ( false ), foaf:Footballer750 ( none ) } .
+foaf:Footballer697 [ * xsd:boolean ?ZDp  ] :: { edge:Footballer713 ( true ), schema:Footballer850 ( false ), foot:Footballer117 ( true ), schema:Footballer380 ( none ), foaf:Footballer235 ( none ) } .
+edge:Footballer855 [ * xsd:string ?jPU , ! xsd:boolean ?w8V  ] :: { foaf:Footballer376 ( true, none ) } .
+foot:Footballer99 [  ottr:IRI ?L7o , ? xsd:integer ?h0E  ] :: { schema:Footballer277 ( none ), foaf:Footballer642 ( false ) } .
+edge:Footballer838 [ * xsd:integer ?M6J  ] :: { foot:Footballer106 ( false, none ), foot:Footballer481 ( none ), edge:Footballer396 ( false ), schema:Footballer173 ( none ) } .
+foot:Footballer39 [  xsd:string ?e5X = <http://example.org/b> ] :: { schema:Footballer90 ( false ), foot:Footballer757 ( true ) } .
+schema:Footballer5 [ ! xsd:integer ?N2T  ] :: { foot:Footballer576 ( ?t1v, none, false ), schema:Footballer832 ( false ) } .
+foaf:Footballer204 [ ! xsd:string ?K3y  ] :: { schema:Footballer1 ( true, false ), foaf:Footballer597 ( true ) } .
+schema:Footballer16 [ ! Listxsd:string ?W9q = "MB" ] :: { edge:Footballer551 ( 4, ?D7d, ?C4k ) } .
+foot:Footballer628 [ * xsd:boolean ?fax = true, ! xsd:boolean ?z0m ,  xsd:boolean ?Q4l  ] :: { foot:Footballer147 ( ?R0s ) } .
+foaf:Footballer426 [ ! xsd:string ?gOI  ] :: { schema:Footballer581 ( false ), foaf:Footballer80 ( false ) } .
+foaf:Footballer262 [ * ottr:IRI ?u7i , ? ottr:IRI ?rHF  ] :: { foot:Footballer304 ( false ), foaf:Footballer416 ( true ), foot:Footballer605 ( true ) } .
+edge:Footballer225 [ * xsd:integer ?v5s , ? xsd:string ?rWz  ] :: { foaf:Footballer879 ( true ), foot:Footballer497 ( none ) } .
+schema:Footballer985 [ ! Listxsd:string ?C6f = false,  xsd:boolean ?G4q  ] :: { schema:Footballer948 ( true, true ) } .
+edge:Footballer611 [ ! List<http://edgecase.org/?> ?u0m = false, * ottr:IRI ?n7i , * xsd:boolean ?K8M  ] :: { schema:Footballer377 ( false ) } .
+edge:Footballer549 [ ? xsd:string ?S9R , ? ottr:IRI ?F3O  ] :: { edge:Footballer843 ( true ) } .
+foot:Footballer37 [  ottr:IRI ?l2I  ] :: { foaf:Footballer323 ( none ), schema:Footballer742 ( true ), edge:Footballer15 ( false ) } .
+schema:Footballer147 [  xsd:integer ?k1X , ? xsd:string ?j3g  ] :: { foaf:Footballer464 ( true ), schema:Footballer288 ( false ) } .
+edge:Footballer745 [ * ottr:IRI ?N1c , * ottr:IRI ?oeY  ] :: { edge:Footballer337 ( none, none ) } .
+edge:Footballer1000 [ ? List<http://example.org/6{S> ?B8b = 06 ] :: { edge:Footballer748 ( ?D2U ) } .
+edge:Footballer567 [ ! List<http://example.org/ThW> ?t6V = 0 ] :: { schema:Footballer193 ( "_", <http://example.org/x>, ?ypH, ?E4Q ) } .
+schema:Footballer475 [  xsd:string ?LJw ,  ottr:IRI ?d3x , ? xsd:boolean ?hAa  ] :: { foot:Footballer361 ( none ), schema:Footballer683 ( none ) } .
+foaf:Footballer504 [  xsd:string ?cKD , ! ottr:IRI ?u8s  ] :: { schema:Footballer298 ( false ) } .
+edge:Footballer554 [ * xsd:integer ?V3f , ? xsd:boolean ?U6P  ] :: { foot:Footballer313 ( none ), schema:Footballer426 ( true ), edge:Footballer21 ( false ) } .
+schema:Footballer213 [  xsd:boolean ?Z4a ,  xsd:string ?z7y  ] :: { foot:Footballer131 ( true, true ) } .
+foaf:Footballer707 [  xsd:string ?o9H ,  xsd:boolean ?j1k  ] :: { foaf:Footballer883 ( true ), foaf:Footballer938 ( true ) } .
+schema:Footballer351 [ ? xsd:string ?d0x , ! xsd:boolean ?A2O  ] :: { foaf:Footballer878 ( true ), foot:Footballer710 ( true, true ) } .
+edge:Footballer16 [ ? xsd:integer ?n5q = false ] :: { foot:Footballer337 ( false, false ), foaf:Footballer215 ( false ) } .
+edge:Footballer195 [ ? xsd:boolean ?hGQ  ] :: { foot:Footballer254 ( true ), schema:Footballer670 ( none ) } .
+schema:Footballer760 [ * Listxsd:string ?BNS = "^" ] :: { foaf:Footballer719 ( ?FMR ) } .
+edge:Footballer764 [  xsd:string ?b6X , ? ottr:IRI ?mLe , ? xsd:integer ?t2v  ] :: { foaf:Footballer669 ( <http://edgecase.org/Q> ), foaf:Footballer939 ( true ) } .
+foaf:Footballer528 [ * xsd:boolean ?E4p , ? xsd:string ?WYr  ] :: { schema:Footballer681 ( none ), schema:Footballer458 ( false ) } .
+foot:Footballer291 [ * xsd:boolean ?mkQ ,  ottr:IRI ?E8N = true ] :: { edge:Footballer211 ( none ), foaf:Footballer10 ( false ) } .
+schema:Footballer113 [ ? xsd:integer ?D0n , ! xsd:boolean ?j4P , ? xsd:string ?v9a , * xsd:boolean ?O1I  ] :: { foot:Footballer124 ( true ), foaf:Footballer960 ( true ) } .
+edge:Footballer107 [ * ottr:IRI ?T2Y , ! ottr:IRI ?o7H ,  xsd:string ?x5b  ] :: { schema:Footballer250 ( true ) } .
+schema:Footballer391 [ ! xsd:boolean ?r3d  ] :: { foot:Footballer282 ( true ), foaf:Footballer406 ( true ), foaf:Footballer22 ( false ) } .
+foot:Footballer939 [ * xsd:integer ?X6B  ] :: { foaf:Footballer374 ( false, true ), schema:Footballer414 ( none ) } .
+foot:Footballer640 [ ! ottr:IRI ?CVw , ? xsd:integer ?Slc  ] :: { foot:Footballer418 ( ?qpg ) } .
+schema:Footballer570 [ * ottr:IRI ?f9e , ! xsd:integer ?zJK  ] :: { foaf:Footballer594 ( false ), foaf:Footballer358 ( false ) } .
+foaf:Footballer504 [  ottr:IRI ?y1Z  ] :: { schema:Footballer359 ( none, true ), edge:Footballer703 ( none ) } .
+foot:Footballer958 [ ? xsd:boolean ?u3F , ! xsd:string ?MAR ,  xsd:boolean ?sUt , * xsd:string ?LiG  ] :: { schema:Footballer961 ( <http://example.org/p> ) } .
+foot:Footballer66 [  xsd:boolean ?hHy , ! xsd:integer ?W1h  ] :: { foaf:Footballer324 ( 0 ) } .
+edge:Footballer97 [ ? xsd:integer ?Ckn , ! xsd:boolean ?Y3a  ] :: { foot:Footballer324 ( true ) } .
+schema:Footballer440 [  ottr:IRI ?M2L , * xsd:string ?z5F  ] :: { foaf:Footballer982 ( none ), foaf:Footballer285 ( false ) } .
+foaf:Footballer690 [  ottr:IRI ?o6U , * xsd:boolean ?c0W  ] :: { foaf:Footballer708 ( none, true ) } .
+schema:Footballer21 [ ! ottr:IRI ?P7y  ] :: { edge:Footballer639 ( true ), foaf:Footballer658 ( true ), foaf:Footballer77 ( true ) } .
+schema:Footballer714 [ ! ottr:IRI ?f8V , ? xsd:integer ?K1O  ] :: { foaf:Footballer951 ( true ), edge:Footballer634 ( true ) } .
+edge:Footballer340 [ ! List<http://edgecase.org/,> ?x9H = <http://example.org//}-> ] :: { schema:Footballer551 ( ?t4m ) } .
+foot:Footballer599 [ * xsd:boolean ?seE , ? xsd:integer ?gQp , ! ottr:IRI ?XRi  ] :: { edge:Footballer367 ( "Q" ) } .
+foot:Footballer259 [ ? xsd:string ?v3N ,  xsd:string ?ljq  ] :: { edge:Footballer437 ( none ), edge:Footballer376 ( none ) } .
+foot:Footballer154 [ ! xsd:boolean ?JTS = none ] :: { schema:Footballer524 ( none ), foaf:Footballer19 ( true ) } .
+foaf:Footballer5 [ ! xsd:integer ?I8A , ? xsd:boolean ?Z5b  ] :: { edge:Footballer299 ( false ), foot:Footballer558 ( false ) } .
+foaf:Footballer877 [ * ottr:IRI ?p9X , ! xsd:boolean ?lQM  ] :: { schema:Footballer18 ( none ), foot:Footballer855 ( true ) } .
+edge:Footballer371 [  xsd:integer ?s7u  ] :: { schema:Footballer629 ( false ), foaf:Footballer975 ( true, false ) } .
+schema:Footballer32 [ ! List<http://edgecase.org/>> ?q5B , ? xsd:string ?o8J  ] :: { foot:Footballer304 ( none ), foaf:Footballer470 ( false ) } .
+foaf:Footballer370 [ * xsd:string ?N2I ,  xsd:string ?S4E , ! xsd:string ?h3t , ? xsd:boolean ?i6m  ] :: { schema:Footballer19 ( false ), foaf:Footballer343 ( false ), schema:Footballer314 ( false ) } .
+foaf:Footballer21 [ * xsd:boolean ?b0d = true ] :: { foot:Footballer574 ( true ), foot:Footballer942 ( true ), foaf:Footballer283 ( true ) } .
+foot:Footballer823 [ ? xsd:string ?x1Z , ! xsd:boolean ?T8w  ] :: { foot:Footballer53 ( false ), edge:Footballer626 ( true ), edge:Footballer220 ( false ) } .
+foaf:Footballer717 [  xsd:string ?K8k  ] :: { foot:Footballer576 ( none, false, none ) } .
+edge:Footballer105 [ * xsd:string ?VeA = false,  xsd:string ?aYf  ] :: { foot:Footballer777 ( none ), foaf:Footballer974 ( false ), foot:Footballer694 ( none ) } .
+edge:Footballer570 [ * xsd:integer ?FRW , ! xsd:boolean ?ryn  ] :: { edge:Footballer562 ( false, none, false ) } .
+foot:Footballer130 [ ! xsd:integer ?HjP ,  xsd:boolean ?v8G , * xsd:string ?cLg  ] :: { schema:Footballer449 ( none ) } .
+schema:Footballer132 [  xsd:integer ?jEp , * ottr:IRI ?T4d  ] :: { foaf:Footballer400 ( false, none ) } .
+foot:Footballer802 [ ? xsd:boolean ?N0G  ] :: { edge:Footballer709 ( true ), foaf:Footballer555 ( true ), foot:Footballer769 ( true ) } .
+foaf:Footballer704 [ ! xsd:string ?V9m , * Listxsd:string ?C3R  ] :: { schema:Footballer413 ( ?g2w ) } .
+edge:Footballer722 [ ! xsd:string ?J6K , ! xsd:string ?F1Q , ? ottr:IRI ?h7y  ] :: { foaf:Footballer72 ( false, false, none ) } .
+edge:Footballer230 [ * List<http://edgecase.org/'2> ?b5i = 0 ] :: { schema:Footballer662 ( "%" ) } .
+foaf:Footballer983 [ * ottr:IRI ?P8r , ? xsd:integer ?M0B  ] :: { foaf:Footballer9 ( true ), foot:Footballer12 ( true ) } .
+edge:Footballer886 [ ? xsd:string ?OHX ,  xsd:boolean ?s7l , * xsd:boolean ?ADY  ] :: { foot:Footballer760 ( false, true ) } .
+edge:Footballer205 [ ! xsd:string ?n1v  ] :: { foot:Footballer289 ( false, none ), schema:Footballer370 ( false ) } .
+foaf:Footballer829 [  List<http://example.org/D> ?xaf  ] :: { schema:Footballer145 ( true ), schema:Footballer295 ( true ) } .
+schema:Footballer380 [ ? ottr:IRI ?zet  ] :: { edge:Footballer830 ( false ), edge:Footballer497 ( false ), edge:Footballer54 ( true ), foaf:Footballer522 ( true ) } .
+schema:Footballer677 [ ? xsd:boolean ?YFo , ! xsd:integer ?V2D = true ] :: { edge:Footballer658 ( ?B9q, false ) } .
+foaf:Footballer251 [  xsd:string ?j3G  ] :: { schema:Footballer181 ( true ), foot:Footballer468 ( none ) } .
+foot:Footballer406 [ * ottr:IRI ?n8t ,  ottr:IRI ?J1b = true ] :: { foaf:Footballer519 ( 65 ) } .
+schema:Footballer314 [ ? ottr:IRI ?O4g = <http://edgecase.org/'> ] :: { foot:Footballer599 ( true, false ), foaf:Footballer339 ( none ), schema:Footballer88 ( true ) } .
+foaf:Footballer183 [ ! xsd:string ?m0k , * xsd:string ?e7y  ] :: { foaf:Footballer508 ( none ), schema:Footballer22 ( none ) } .
+schema:Footballer758 [ ? Listxsd:string ?R4a  ] :: { edge:Footballer506 ( none, false ), foot:Footballer289 ( false ), edge:Footballer861 ( true ) } .
+foaf:Footballer923 [ ! xsd:boolean ?p5i ,  ottr:IRI ?Zwl  ] :: { foot:Footballer169 ( true ) } .
+foaf:Footballer208 [  List<http://example.org/U> ?SMU = none ] :: { foaf:Footballer44 ( none ), foot:Footballer439 ( false ) } .
+foaf:Footballer707 [ ? ottr:IRI ?N9E ,  ottr:IRI ?C3A  ] :: { foot:Footballer590 ( false, false ) } .
+foaf:Footballer525 [  xsd:boolean ?zcu  ] :: { foot:Footballer945 ( none, none, true ), schema:Footballer89 ( true ) } .
+schema:Footballer317 [ ! ottr:IRI ?pEK , ? xsd:boolean ?g6R  ] :: { foot:Footballer56 ( false ), edge:Footballer277 ( true, none ) } .
+edge:Footballer220 [  Listxsd:string ?F9d , * xsd:string ?S5I , ! xsd:integer ?a0P  ] :: { foaf:Footballer510 ( ?s4G, true, false, none ) } .
+edge:Footballer503 [ ! ottr:IRI ?M1i , ? ottr:IRI ?N8k  ] :: { foot:Footballer314 ( none ), edge:Footballer191 ( none ), foaf:Footballer196 ( none ) } .
+foot:Footballer358 [ ! xsd:string ?V7H = false, ? ottr:IRI ?n3r , * xsd:integer ?Y2x , ! xsd:boolean ?JTb  ] :: { foaf:Footballer211 ( 0 ) } .
+edge:Footballer392 [  ottr:IRI ?DUO , ? xsd:boolean ?o1q , * xsd:boolean ?f0j  ] :: { schema:Footballer709 ( false ) } .
+schema:Footballer106 [ ! xsd:integer ?Z9m , * xsd:boolean ?L4e  ] :: { edge:Footballer369 ( true, true ) } .
+edge:Footballer352 [ ! ottr:IRI ?B0h = "5" ] :: { schema:Footballer889 ( false, none ), edge:Footballer595 ( false ) } .
+schema:Footballer979 [ * xsd:string ?WwA  ] :: { foot:Footballer140 ( true ), foot:Footballer701 ( none, false ), schema:Footballer442 ( false ) } .
+foot:Footballer618 [  List<http://edgecase.org/S> ?tlX  ] :: { foaf:Footballer923 ( true ) } .
+schema:Footballer323 [ ! List<http://example.org/C> ?y6u = <http://edgecase.org/l> ] :: { schema:Footballer267 ( false ), foot:Footballer791 ( false, none ), foot:Footballer276 ( false ) } .
+foot:Footballer90 [  xsd:string ?y8i , ? xsd:integer ?pJg  ] :: { schema:Footballer98 ( true ), edge:Footballer565 ( none ) } .
+foaf:Footballer144 [ ! ottr:IRI ?n9E  ] :: { edge:Footballer935 ( false ), foaf:Footballer636 ( none ), schema:Footballer186 ( none ) } .
+schema:Footballer31 [ * xsd:boolean ?q6t = <http://example.org/dt> ] :: { schema:Footballer785 ( ?I5B, "Y(" ) } .
+foaf:Footballer377 [  List<http://edgecase.org/+> ?A4f = none ] :: { foaf:Footballer952 ( none ), schema:Footballer556 ( none ), foot:Footballer47 ( true ) } .
+edge:Footballer597 [ ? xsd:integer ?M7H , ! xsd:string ?c1D  ] :: { foot:Footballer220 ( false ), edge:Footballer391 ( false ) } .
+foaf:Footballer437 [  xsd:string ?N2k  ] :: { foaf:Footballer807 ( false, none ), foot:Footballer367 ( none ), foot:Footballer822 ( none ) } .
+schema:Footballer414 [  xsd:string ?j0K , ? xsd:boolean ?T3Y  ] :: { edge:Footballer430 ( true ), schema:Footballer28 ( none ) } .
+schema:Footballer997 [  Listxsd:string ?G3a = true ] :: { schema:Footballer738 ( true ), schema:Footballer335 ( false ) } .
+foot:Footballer55 [ ! xsd:string ?h0x ,  xsd:boolean ?Pzl , ? xsd:integer ?Q0W , ! ottr:IRI ?F7w  ] :: { schema:Footballer184 ( false ) } .
+foaf:Footballer531 [  List<http://example.org/m> ?edv = 6 ] :: { edge:Footballer136 ( -49 ) } .
+foot:Footballer562 [ * xsd:integer ?QzS  ] :: { schema:Footballer976 ( "Q", ?n9R ) } .
+edge:Footballer652 [ ! ottr:IRI ?G0Y ,  xsd:string ?L2s  ] :: { foaf:Footballer810 ( true ), foaf:Footballer165 ( false ) } .
+edge:Footballer82 [ ? xsd:boolean ?I4P  ] :: { foaf:Footballer61 ( none, none ) } .
+edge:Footballer889 [ * xsd:integer ?q5a = none ] :: { schema:Footballer453 ( false, true, false ) } .
+foot:Footballer853 [ * xsd:boolean ?h1v ,  xsd:boolean ?l3f  ] :: { schema:Footballer304 ( false ), foot:Footballer809 ( true ) } .
+schema:Footballer738 [ ? ottr:IRI ?d6N , * xsd:boolean ?O8g , ! xsd:integer ?T7r  ] :: { schema:Footballer343 ( true, false ) } .
+foot:Footballer366 [ ! ottr:IRI ?p6w  ] :: { schema:Footballer599 ( false, false ) } .
+foot:Footballer322 [ * xsd:boolean ?J0X  ] :: { schema:Footballer931 ( false ), edge:Footballer411 ( true, false ) } .
+foot:Footballer44 [ ! xsd:string ?C9j , ? xsd:boolean ?b1E  ] :: { foot:Footballer277 ( true, true ) } .
+foot:Footballer983 [ * xsd:string ?x5o , ! ottr:IRI ?Uum  ] :: { foaf:Footballer265 ( true ), edge:Footballer579 ( false ) } .
+schema:Footballer743 [ ! ottr:IRI ?RZT = false, ? xsd:string ?t0A  ] :: { foaf:Footballer487 ( none, true ) } .
+edge:Footballer678 [ * xsd:integer ?G8m  ] :: { foaf:Footballer186 ( false, true ), foot:Footballer426 ( none ) } .
+edge:Footballer216 [  List<http://edgecase.org/XI> ?o3H = <http://example.org/j> ] :: { foaf:Footballer935 ( ?g2W, 0, false, false ), schema:Footballer672 ( none ), foaf:Footballer739 ( none, true ) } .
+foaf:Footballer541 [ * xsd:integer ?X1F ,  xsd:boolean ?l7i  ] :: { foaf:Footballer48 ( "!", true ), foot:Footballer268 ( true ), schema:Footballer166 ( true ) } .
+foot:Footballer59 [ * xsd:boolean ?p4k  ] :: { foot:Footballer844 ( true, false ), foaf:Footballer946 ( none ) } .
+foot:Footballer229 [ * Listxsd:string ?P6M = 5 ] :: { schema:Footballer547 ( ?q9Y ) } .
+schema:Footballer651 [ ! xsd:boolean ?j1I ,  ottr:IRI ?s8C  ] :: { edge:Footballer785 ( true ) } .
+foaf:Footballer174 [  ottr:IRI ?w9h , ? xsd:integer ?L8c  ] :: { foot:Footballer636 ( false ) } .
+foaf:Footballer762 [ ! List<http://example.org/&r> ?Dzn = -265060 ] :: { foaf:Footballer860 ( ?UON, ?b0y, ?VEv ) } .
+schema:Footballer900 [ ! List<http://edgecase.org/{> ?eBu = false ] :: { foaf:Footballer206 ( ?f4x ), foot:Footballer98 ( false ) } .
+foot:Footballer107 [ * xsd:string ?V5m = none ] :: { edge:Footballer710 ( false ) } .
+foaf:Footballer7 [ ! xsd:boolean ?gOh , ? xsd:integer ?R7s ,  ottr:IRI ?E9j  ] :: { schema:Footballer296 ( true, true ), edge:Footballer762 ( false ), edge:Footballer495 ( true ) } .
+foaf:Footballer961 [ ? xsd:integer ?v2t = true, * xsd:boolean ?C8T  ] :: { foot:Footballer677 ( none ), foot:Footballer894 ( true ), foaf:Footballer519 ( true ) } .
+edge:Footballer191 [ * xsd:string ?B0S  ] :: { foaf:Footballer220 ( true, none ), foot:Footballer456 ( true ), foot:Footballer474 ( none ), foaf:Footballer353 ( true ) } .
+schema:Footballer292 [ ? List<http://example.org/e> ?L1d  ] :: { foaf:Footballer992 ( true ), edge:Footballer656 ( true ), foot:Footballer383 ( true ) } .
+foaf:Footballer409 [  ottr:IRI ?f3p , ? xsd:string ?P6z  ] :: { edge:Footballer498 ( false ), foot:Footballer399 ( false ) } .
+foot:Footballer497 [ ! xsd:integer ?H4G ,  ottr:IRI ?ixM , ! xsd:string ?ZnI  ] :: { foot:Footballer612 ( none ), schema:Footballer637 ( none ) } .
+schema:Footballer636 [ * xsd:integer ?qec  ] :: { schema:Footballer135 ( false, false ), foot:Footballer84 ( true ) } .
+edge:Footballer279 [ ? xsd:string ?a7J , * xsd:boolean ?Fur  ] :: { schema:Footballer805 ( false, none, false ), schema:Footballer425 ( none ) } .
+edge:Footballer134 [ ! xsd:string ?U8D , * xsd:integer ?byY  ] :: { schema:Footballer19 ( true ), foot:Footballer21 ( none ) } .
+foot:Footballer12 [ ! xsd:integer ?JIs , * xsd:string ?G0i  ] :: { edge:Footballer962 ( false ), foaf:Footballer83 ( true, none ) } .
+schema:Footballer622 [  xsd:boolean ?U9B  ] :: { foaf:Footballer715 ( false, none, false, false ) } .
+edge:Footballer460 [ * xsd:boolean ?S6b , ? ottr:IRI ?k2l  ] :: { edge:Footballer624 ( false, none, false ) } .
+schema:Footballer103 [ * List<http://edgecase.org/n> ?f5W = "=MA," ] :: { schema:Footballer72 ( <http://example.org/a>, ?v3n, 0 ) } .
+foaf:Footballer332 [ ! ottr:IRI ?N1P  ] :: { foaf:Footballer903 ( ?T7Q ), foot:Footballer629 ( none ) } .
+foaf:Footballer340 [ * ottr:IRI ?y8w  ] :: { foot:Footballer741 ( true ), edge:Footballer884 ( true ) } .
+schema:Footballer797 [  ottr:IRI ?X4g  ] :: { foaf:Footballer807 ( none ) } .
+foot:Footballer346 [ ? xsd:string ?H6h , ! ottr:IRI ?acC  ] :: { edge:Footballer388 ( none, false ), foaf:Footballer942 ( true ) } .
+foot:Footballer526 [ ! xsd:string ?u0Y  ] :: { edge:Footballer199 ( none ), foot:Footballer694 ( false ) } .
+edge:Footballer763 [ ? xsd:integer ?R7t , ? xsd:boolean ?xDM , ? ottr:IRI ?z3E  ] :: { schema:Footballer953 ( true ) } .
+foot:Footballer845 [ ! List<http://example.org/E> ?dQD  ] :: { schema:Footballer652 ( true, ?M5t ) } .
+edge:Footballer909 [ ? xsd:boolean ?i3k = none, * ottr:IRI ?R8U  ] :: { foaf:Footballer44 ( true ), schema:Footballer314 ( false ) } .
+schema:Footballer544 [ * xsd:string ?X9T ,  xsd:integer ?O4I  ] :: { edge:Footballer917 ( false ), edge:Footballer810 ( none ) } .
+foot:Footballer859 [  Listxsd:string ?b6m = <http://edgecase.org/q@A> ] :: { edge:Footballer527 ( 2, ",x", ?Y1p ) } .
+foaf:Footballer30 [ * List<http://edgecase.org/&{> ?L6u = -87405 ] :: { schema:Footballer661 ( ?e0G ) } .
+schema:Footballer278 [  xsd:integer ?K1z , * xsd:boolean ?lFj  ] :: { foaf:Footballer293 ( false ), foaf:Footballer332 ( none ) } .
+foaf:Footballer686 [ ? List<http://edgecase.org/s> ?anS  ] :: { foot:Footballer162 ( ?A0B ), schema:Footballer259 ( false ) } .
+foaf:Footballer289 [ * xsd:integer ?Vov  ] :: { foot:Footballer540 ( true, true ), edge:Footballer303 ( false, none ) } .
+schema:Footballer631 [ * xsd:integer ?Z0W , ? xsd:string ?fNc , * xsd:string ?J3h  ] :: { schema:Footballer575 ( true ), schema:Footballer469 ( none ), edge:Footballer382 ( false ) } .
+edge:Footballer816 [ ? List<http://example.org/^> ?yHq = 0 ] :: { foot:Footballer205 ( ?gCw ), edge:Footballer10 ( ?rPE, ?sxA ) } .
+schema:Footballer669 [ ? xsd:string ?s6i , ! ottr:IRI ?RNu  ] :: { edge:Footballer144 ( none, true ), foaf:Footballer163 ( false ) } .
+foot:Footballer398 [  xsd:integer ?M0m = false ] :: { schema:Footballer794 ( true, true ), schema:Footballer121 ( false ), schema:Footballer274 ( none ) } .
+edge:Footballer585 [  xsd:boolean ?d3X , * List<http://edgecase.org/V> ?f5x = true ] :: { edge:Footballer747 ( ?H7T ) } .
+edge:Footballer917 [ * Listxsd:string ?p4V = "^l" ] :: { edge:Footballer448 ( 0 ) } .
+edge:Footballer942 [ * ottr:IRI ?q9l , * ottr:IRI ?w2Y  ] :: { foot:Footballer343 ( true ), edge:Footballer185 ( true ), foot:Footballer86 ( none ) } .
+foot:Footballer600 [ ? xsd:string ?Z1k  ] :: { edge:Footballer797 ( true, none, none ) } .
+foaf:Footballer251 [  xsd:string ?K8J = false, ! ottr:IRI ?hoz  ] :: { schema:Footballer30 ( false ), foaf:Footballer965 ( none ), edge:Footballer822 ( false ) } .
+foaf:Footballer545 [ ? List<http://edgecase.org/}OUs> ?nBr = -93 ] :: { edge:Footballer939 ( <http://example.org/0> ) } .
+edge:Footballer693 [ * ottr:IRI ?S7Q , ? xsd:string ?F9A  ] :: { schema:Footballer35 ( false, false ) } .
+foot:Footballer135 [ ? List<http://example.org/i> ?L0P = false ] :: { edge:Footballer58 ( false ), edge:Footballer495 ( true ), schema:Footballer981 ( false ), foaf:Footballer515 ( none ) } .
+schema:Footballer812 [ * xsd:integer ?Q7n ,  xsd:string ?JYF  ] :: { edge:Footballer545 ( false ), foaf:Footballer176 ( true ) } .
+foot:Footballer861 [ ! xsd:boolean ?m3G , ? ottr:IRI ?M1R , ? ottr:IRI ?l4X  ] :: { edge:Footballer906 ( none ) } .
+foaf:Footballer99 [ ? xsd:boolean ?U5s , * xsd:string ?S0u  ] :: { foaf:Footballer731 ( false ), foot:Footballer442 ( none ) } .
+schema:Footballer859 [  ottr:IRI ?w2f ,  xsd:integer ?a6d  ] :: { schema:Footballer622 ( false ), edge:Footballer63 ( false, true ) } .
+schema:Footballer113 [ ? List<http://example.org/D> ?O1V = 0, ? xsd:integer ?b8v  ] :: { foaf:Footballer500 ( ?k9c ) } .
+edge:Footballer191 [  Listxsd:string ?z7y = "Jufx" ] :: { foaf:Footballer539 ( <http://edgecase.org/s&>, ?W8Z, ?rqj ) } .
+schema:Footballer921 [ * List<http://edgecase.org/v> ?egA , * xsd:boolean ?INh , ? xsd:integer ?L3x  ] :: { foaf:Footballer104 ( none ) } .
+foaf:Footballer987 [ ? xsd:boolean ?tHK , * xsd:integer ?iCD  ] :: { foaf:Footballer676 ( false ) } .
+foot:Footballer548 [ ! ottr:IRI ?ToP , ? xsd:boolean ?EBp , ! xsd:boolean ?twY  ] :: { foaf:Footballer804 ( true ), edge:Footballer323 ( none ), foaf:Footballer730 ( true ) } .
+schema:Footballer900 [ ! xsd:boolean ?yaj  ] :: { schema:Footballer420 ( false ), edge:Footballer758 ( true ) } .
+schema:Footballer682 [ * xsd:boolean ?gBp  ] :: { foaf:Footballer70 ( true, true ), edge:Footballer73 ( none, false ) } .
+foaf:Footballer761 [ ! xsd:string ?X2h ,  xsd:integer ?f4D , ? ottr:IRI ?y8V  ] :: { foot:Footballer116 ( false ), foaf:Footballer530 ( true ) } .
+foot:Footballer90 [  xsd:string ?A1w  ] :: { foot:Footballer800 ( ?v6l ) } .
+edge:Footballer218 [  xsd:string ?G5d = false ] :: { schema:Footballer215 ( false ), edge:Footballer596 ( none ), foot:Footballer400 ( true ) } .
+edge:Footballer114 [ ! xsd:string ?i9N  ] :: { edge:Footballer858 ( true ), foaf:Footballer508 ( none ) } .
+foot:Footballer353 [ ! xsd:integer ?Z3t ,  xsd:boolean ?Y7H  ] :: { foot:Footballer577 ( none ), foot:Footballer339 ( none, none ) } .
+schema:Footballer420 [  xsd:integer ?C0m  ] :: { edge:Footballer972 ( true ), schema:Footballer299 ( none ) } .
+foot:Footballer686 [ ? Listxsd:string ?J2U  ] :: { foaf:Footballer123 ( none, none ), schema:Footballer654 ( none ) } .
+foaf:Footballer729 [ ! ottr:IRI ?c1r  ] :: { edge:Footballer527 ( false ), schema:Footballer469 ( true ) } .
+edge:Footballer797 [ * ottr:IRI ?Ixj , ? xsd:string ?FSP  ] :: { foaf:Footballer827 ( false, none ), edge:Footballer513 ( true ) } .
+foaf:Footballer845 [ ! ottr:IRI ?F3S , ? xsd:boolean ?Rfk  ] :: { foot:Footballer58 ( false ), edge:Footballer199 ( none ) } .
+schema:Footballer246 [  xsd:integer ?Y4D  ] :: { foot:Footballer633 ( true, true ), foaf:Footballer247 ( none ), schema:Footballer619 ( false ) } .
+edge:Footballer308 [  xsd:string ?v9z = false, ! ottr:IRI ?W6I , * ottr:IRI ?y2U  ] :: { foaf:Footballer882 ( ?o0t, true, none ) } .
+foot:Footballer590 [  xsd:boolean ?w7H ,  xsd:integer ?x5a  ] :: { foaf:Footballer626 ( false ), foaf:Footballer556 ( false ) } .
+edge:Footballer100 [  xsd:integer ?u1A , ? xsd:boolean ?M8K , * xsd:integer ?lPd , * xsd:string ?cGE  ] :: { edge:Footballer944 ( false ) } .
+edge:Footballer829 [ * xsd:integer ?e6N , ? xsd:integer ?Ogm  ] :: { edge:Footballer787 ( none ), schema:Footballer156 ( true ) } .
+foaf:Footballer874 [ * ottr:IRI ?JjQ , ? ottr:IRI ?h1V , ! xsd:integer ?qbs  ] :: { edge:Footballer97 ( false ), foaf:Footballer721 ( true ), schema:Footballer379 ( true ) } .
+foot:Footballer623 [ ? ottr:IRI ?p8T  ] :: { foot:Footballer938 ( none, false ), foaf:Footballer973 ( none ) } .
+edge:Footballer697 [  xsd:string ?Z9n , ! xsd:string ?i5X  ] :: { foaf:Footballer106 ( true, none ) } .
+foaf:Footballer444 [ ! xsd:string ?r7C , ? xsd:integer ?LBB  ] :: { foot:Footballer849 ( false ), edge:Footballer642 ( true ), schema:Footballer208 ( none ) } .
+edge:Footballer255 [ ? Listxsd:string ?fCu = true ] :: { foaf:Footballer830 ( false, none ), schema:Footballer508 ( false, none ) } .
+foot:Footballer194 [ ! xsd:integer ?J9v , * ottr:IRI ?o1y  ] :: { foot:Footballer251 ( none ), edge:Footballer242 ( none ) } .
+foaf:Footballer541 [  xsd:string ?Y0h , ? xsd:boolean ?E3s  ] :: { foaf:Footballer263 ( true ), foaf:Footballer947 ( none ), schema:Footballer663 ( true ), foaf:Footballer780 ( false ) } .
+edge:Footballer411 [ * xsd:string ?t8c , ! xsd:string ?G6L ,  xsd:integer ?q4r  ] :: { foaf:Footballer695 ( none ), schema:Footballer596 ( true ) } .
+foaf:Footballer870 [ ! ottr:IRI ?U5K , ! xsd:integer ?R2V , ? ottr:IRI ?P7k  ] :: { foot:Footballer1 ( none ), foot:Footballer655 ( false ) } .
+edge:Footballer455 [ ? List<http://example.org/2L> ?ZHj = "y" ] :: { foot:Footballer168 ( ?D4i ), edge:Footballer404 ( 46 ) } .
+foot:Footballer125 [  List<http://edgecase.org/r> ?FXz = <http://edgecase.org/9> ] :: { foot:Footballer999 ( none, none ), schema:Footballer732 ( false ) } .
+schema:Footballer499 [ ? xsd:string ?p5e , * xsd:boolean ?Owd , ? xsd:boolean ?Iba  ] :: { foot:Footballer587 ( true ), foot:Footballer420 ( none ), schema:Footballer250 ( none ) } .
+foaf:Footballer384 [ * xsd:integer ?nlA ,  xsd:string ?QWT , ! xsd:boolean ?N0g  ] :: { edge:Footballer59 ( none ), edge:Footballer712 ( false ) } .
+edge:Footballer435 [  ottr:IRI ?M2S , * ottr:IRI ?lMO  ] :: { edge:Footballer91 ( ?Bmx ) } .
+foaf:Footballer710 [ * ottr:IRI ?YTC  ] :: { edge:Footballer398 ( <http://example.org/8W> ) } .
+foot:Footballer993 [ ! xsd:boolean ?D7R ,  xsd:integer ?m5p  ] :: { schema:Footballer463 ( ?i4e, true, none ), schema:Footballer223 ( false ), foaf:Footballer968 ( true ), edge:Footballer70 ( true ) } .
+foot:Footballer694 [ ? xsd:string ?U9v ,  ottr:IRI ?y6G  ] :: { schema:Footballer850 ( true, none ), foot:Footballer431 ( none ), foot:Footballer209 ( true ) } .
+edge:Footballer39 [ ? Listxsd:string ?F2k = false, ? ottr:IRI ?S8A , ? xsd:integer ?f3Z  ] :: { schema:Footballer912 ( none ) } .
+foot:Footballer311 [ * List<http://edgecase.org/>M]> ?d0n = -71 ] :: { foaf:Footballer578 ( "!" ) } .
+schema:Footballer933 [ ! xsd:string ?agK  ] :: { edge:Footballer451 ( false, true ), edge:Footballer740 ( none ) } .
+foaf:Footballer358 [ ? xsd:string ?lcX = true ] :: { foaf:Footballer706 ( none ), edge:Footballer856 ( none ), foot:Footballer103 ( true ) } .
+edge:Footballer72 [ ? xsd:boolean ?WMx ,  xsd:boolean ?Q5I  ] :: { schema:Footballer989 ( true ), edge:Footballer932 ( false ) } .
+schema:Footballer927 [ * List<http://edgecase.org/i> ?O0w = 0 ] :: { schema:Footballer638 ( none ), foot:Footballer200 ( none ), foot:Footballer165 ( true ), edge:Footballer997 ( none ) } .
+edge:Footballer44 [  xsd:string ?H3N = none ] :: { edge:Footballer813 ( ?P8t ), edge:Footballer324 ( false, false ) } .
+foaf:Footballer699 [ ? xsd:integer ?J0H = 0 ] :: { foot:Footballer503 ( false ), schema:Footballer214 ( none, true ) } .
+edge:Footballer718 [ * xsd:string ?UFD , ! xsd:boolean ?n5o  ] :: { foaf:Footballer820 ( true ), foot:Footballer57 ( none ), edge:Footballer589 ( true ) } .
+foaf:Footballer625 [  ottr:IRI ?S1s ,  ottr:IRI ?h6k  ] :: { schema:Footballer676 ( true ), edge:Footballer389 ( false ), foot:Footballer828 ( false ) } .
+edge:Footballer904 [ ? ottr:IRI ?g3W  ] :: { foaf:Footballer329 ( true ), edge:Footballer332 ( true ), foot:Footballer316 ( false ) } .
+foaf:Footballer934 [ * ottr:IRI ?x9O , * ottr:IRI ?z8c  ] :: { schema:Footballer86 ( true, false ), foaf:Footballer997 ( none ), foaf:Footballer815 ( false ) } .
+foot:Footballer199 [ ! ottr:IRI ?m2Y = none,  xsd:string ?G7i , * xsd:boolean ?P4d  ] :: { foaf:Footballer568 ( none, none ), schema:Footballer791 ( none ) } .
+foaf:Footballer844 [ ? xsd:integer ?T7E , ? ottr:IRI ?reZ  ] :: { edge:Footballer322 ( none, false ) } .
+edge:Footballer477 [ * xsd:boolean ?a0L , ? xsd:boolean ?MvR  ] :: { edge:Footballer48 ( ?tjN ) } .
+schema:Footballer25 [ ! Listxsd:string ?l2K = <http://edgecase.org/5I> ] :: { foaf:Footballer612 ( "|" ) } .
+foot:Footballer635 [ * xsd:string ?w1C  ] :: { schema:Footballer851 ( true ), foot:Footballer17 ( true ), edge:Footballer9 ( false ) } .
+foot:Footballer19 [ * xsd:string ?QhU , ! xsd:integer ?Y4P  ] :: { foaf:Footballer22 ( false ), edge:Footballer747 ( none ) } .
+schema:Footballer604 [  Listxsd:string ?G2Z = true ] :: { edge:Footballer736 ( false, false ) } .
+schema:Footballer703 [ ? xsd:boolean ?I3v ,  ottr:IRI ?K7f  ] :: { foaf:Footballer971 ( false, none ) } .
+schema:Footballer820 [ ! ottr:IRI ?B0t  ] :: { foaf:Footballer699 ( false ) } .
+schema:Footballer247 [  ottr:IRI ?u5n , ? ottr:IRI ?m9y , ? xsd:boolean ?J6g , ? xsd:string ?j8O  ] :: { schema:Footballer906 ( none ) } .
+schema:Footballer645 [  xsd:integer ?i1d  ] :: { schema:Footballer990 ( false ), foot:Footballer589 ( none ) } .
+foot:Footballer285 [  List<http://example.org/&f> ?S7k = -5 ] :: { edge:Footballer594 ( false ), edge:Footballer680 ( true ) } .
+foot:Footballer156 [ * ottr:IRI ?xRM , * xsd:boolean ?E2e = none ] :: { foaf:Footballer134 ( ?qDs, none ) } .
+foot:Footballer355 [ * List<http://edgecase.org/-> ?A9z = <http://edgecase.org/9> ] :: { edge:Footballer881 ( ?a6L, ?X4o, ?H1N ), foot:Footballer940 ( "D", ?bFl ) } .
+foot:Footballer631 [ ? List<http://example.org/0> ?pWw = 2, ! ottr:IRI ?VdC , ? ottr:IRI ?bgy  ] :: { foaf:Footballer634 ( ?rTc, none ) } .
+foaf:Footballer950 [ ? List<http://edgecase.org//> ?o4R  ] :: { schema:Footballer617 ( true, none ), edge:Footballer196 ( false ) } .
+foot:Footballer885 [  xsd:string ?Ksf , ! xsd:boolean ?O8g , * ottr:IRI ?a3B  ] :: { edge:Footballer73 ( false ), foot:Footballer381 ( false ) } .
+foot:Footballer584 [ ? xsd:integer ?p5k  ] :: { foaf:Footballer819 ( none ), edge:Footballer569 ( false ) } .
+foot:Footballer716 [  xsd:integer ?T9Q , ! ottr:IRI ?A6G  ] :: { schema:Footballer994 ( false ) } .
+edge:Footballer367 [ ! Listxsd:string ?J1b = <http://example.org/'|> ] :: { foot:Footballer362 ( ?E7H ) } .
+foaf:Footballer506 [ * ottr:IRI ?m2V  ] :: { foot:Footballer778 ( none ), foot:Footballer48 ( true ), schema:Footballer550 ( false ), foot:Footballer760 ( false ) } .
+edge:Footballer303 [ ? List<http://edgecase.org/d> ?N0D = -5 ] :: { foaf:Footballer152 ( "9", ?X5h, none, none ) } .
+edge:Footballer993 [ * xsd:boolean ?qyx , ? xsd:boolean ?YWc  ] :: { foot:Footballer175 ( true ), edge:Footballer559 ( false ), edge:Footballer6 ( false ) } .
+foaf:Footballer268 [ ? xsd:integer ?MIL , ! xsd:boolean ?tvF , ! xsd:boolean ?l0r  ] :: { edge:Footballer567 ( ?w3e ) } .
+foot:Footballer173 [ ! List<http://example.org/B> ?u5z = true ] :: { schema:Footballer726 ( ?Z0n ) } .
+foot:Footballer209 [ ! Listxsd:string ?xgi  ] :: { edge:Footballer505 ( ?s5D, false ) } .
+foaf:Footballer152 [  ottr:IRI ?q8b , ? xsd:boolean ?e4E  ] :: { schema:Footballer60 ( none, none ), schema:Footballer285 ( true ) } .
+edge:Footballer83 [ * xsd:integer ?v7K  ] :: { schema:Footballer222 ( true, none ) } .
+schema:Footballer431 [ * xsd:string ?Y9j = 23 ] :: { foot:Footballer573 ( "4Y" ) } .
+foot:Footballer89 [  xsd:integer ?P0c ,  xsd:boolean ?J6G ,  ottr:IRI ?R1h  ] :: { schema:Footballer243 ( false ) } .
+foot:Footballer173 [ ? xsd:string ?X0V ,  xsd:integer ?Q4l ,  ottr:IRI ?yCN  ] :: { foot:Footballer6 ( none ) } .
+schema:Footballer65 [ ! ottr:IRI ?H4u , * xsd:boolean ?zSk  ] :: { foot:Footballer364 ( none, none ), foot:Footballer395 ( true ) } .
+foot:Footballer968 [ * List<http://edgecase.org/.> ?n4O = -91 ] :: { foot:Footballer71 ( <http://example.org/(J> ) } .
+edge:Footballer558 [  ottr:IRI ?mIa ,  ottr:IRI ?WrU , ? xsd:string ?MZf  ] :: { foaf:Footballer150 ( false, none, true ) } .
+edge:Footballer627 [  xsd:boolean ?F6t  ] :: { foot:Footballer704 ( true, none ), schema:Footballer369 ( none ), foaf:Footballer944 ( true ), foot:Footballer458 ( true ), foaf:Footballer64 ( true ) } .
+foot:Footballer394 [ * xsd:integer ?q3r , ? ottr:IRI ?Y6T = none ] :: { schema:Footballer336 ( ?VWK, 0 ) } .
+foaf:Footballer33 [  xsd:boolean ?w8e  ] :: { edge:Footballer90 ( false, false ), edge:Footballer75 ( true ), foaf:Footballer717 ( false ) } .
+foaf:Footballer534 [ ! xsd:string ?s1M = <http://example.org/F> ] :: { edge:Footballer697 ( <http://edgecase.org/]#)> ), foot:Footballer844 ( "1" ) } .
+foaf:Footballer501 [  xsd:integer ?Q5I , ! ottr:IRI ?t0p  ] :: { edge:Footballer399 ( ?D7y ) } .
+schema:Footballer513 [ ! List<http://edgecase.org/^> ?N4u = true ] :: { edge:Footballer731 ( ?X2j, ?d9Z, true ) } .
+edge:Footballer403 [  xsd:string ?k1C  ] :: { foot:Footballer335 ( none ) } .
+schema:Footballer654 [  Listxsd:string ?JEP  ] :: { edge:Footballer602 ( none ), edge:Footballer373 ( none ), foot:Footballer1000 ( none ), schema:Footballer467 ( true ) } .
+schema:Footballer471 [ * List<http://edgecase.org/q5c> ?mfi = false ] :: { edge:Footballer952 ( false ), schema:Footballer493 ( none ) } .
+edge:Footballer89 [ ? List<http://edgecase.org/l[> ?g3o = 0 ] :: { foaf:Footballer757 ( ?A6b, true, ?O5c ) } .
+foot:Footballer498 [ ? xsd:integer ?HGR  ] :: { foaf:Footballer935 ( false ), foot:Footballer707 ( false ) } .
+schema:Footballer528 [ * xsd:integer ?JXC , ? xsd:string ?E7l  ] :: { foaf:Footballer992 ( true ), edge:Footballer827 ( false ) } .
+foot:Footballer158 [ ! ottr:IRI ?m2H ,  xsd:boolean ?y3v  ] :: { foot:Footballer957 ( none ), foaf:Footballer391 ( none ) } .
+edge:Footballer663 [ * xsd:boolean ?U6e  ] :: { schema:Footballer625 ( false, none, false ), foot:Footballer899 ( none ) } .
+schema:Footballer448 [ * xsd:string ?g8W , ? ottr:IRI ?a0b  ] :: { foaf:Footballer390 ( false, false ) } .
+edge:Footballer136 [  xsd:integer ?z4o  ] :: { foot:Footballer606 ( false ), schema:Footballer643 ( true, true ) } .
+foot:Footballer193 [ ! Listxsd:string ?Q1V = <http://example.org/f> ] :: { foaf:Footballer492 ( "sK", ?p5q, 0 ) } .
+foaf:Footballer100 [  xsd:boolean ?L9P , * ottr:IRI ?F9K , ! xsd:boolean ?IMS  ] :: { schema:Footballer507 ( true ), foaf:Footballer449 ( true ), edge:Footballer47 ( none ) } .
+schema:Footballer124 [ * xsd:boolean ?R4j , ? ottr:IRI ?x2N , * xsd:boolean ?d6A  ] :: { foaf:Footballer153 ( true ), edge:Footballer707 ( true ) } .
+foaf:Footballer309 [  xsd:string ?fOk ,  xsd:integer ?G9n  ] :: { foaf:Footballer250 ( none, none ), edge:Footballer14 ( true ), edge:Footballer825 ( true ) } .
+foaf:Footballer491 [ * xsd:integer ?B6Z  ] :: { foaf:Footballer283 ( true, true ), schema:Footballer383 ( true ), foot:Footballer451 ( false ) } .
+foaf:Footballer142 [ * ottr:IRI ?R5w , ! xsd:string ?xma  ] :: { foot:Footballer766 ( true ) } .
+schema:Footballer244 [ ? xsd:boolean ?y6M  ] :: { edge:Footballer515 ( none ), edge:Footballer685 ( false ) } .
+foot:Footballer600 [  xsd:integer ?D3f , ! xsd:integer ?Z4p  ] :: { foot:Footballer893 ( none ), schema:Footballer991 ( true ), edge:Footballer513 ( false ) } .
+foot:Footballer412 [  Listxsd:string ?c0s = "V" ] :: { foaf:Footballer907 ( ?l8b, <http://edgecase.org/G)>, 0 ) } .
+edge:Footballer337 [ ! xsd:boolean ?N2g ,  xsd:boolean ?W1u , * xsd:boolean ?T9i  ] :: { schema:Footballer884 ( none, none ) } .
+foaf:Footballer149 [  List<http://example.org/$> ?V7G = -8 ] :: { schema:Footballer970 ( ?E2k ) } .
+foot:Footballer360 [ ! xsd:integer ?rtj , * ottr:IRI ?SeI  ] :: { foot:Footballer200 ( false ), schema:Footballer778 ( true ) } .
+foot:Footballer439 [ * xsd:string ?v0n , ? xsd:integer ?L0K ,  xsd:string ?FJC  ] :: { foaf:Footballer693 ( none ), foot:Footballer957 ( false ), edge:Footballer390 ( false ), edge:Footballer504 ( false ) } .
+schema:Footballer449 [ ! List<http://edgecase.org/E> ?OqU  ] :: { foot:Footballer908 ( false, none ) } .
+schema:Footballer497 [  ottr:IRI ?XYo , ! xsd:boolean ?zBP  ] :: { schema:Footballer714 ( none ), foaf:Footballer948 ( true ) } .
+foaf:Footballer499 [  ottr:IRI ?mIL , ? xsd:string ?F0G  ] :: { edge:Footballer990 ( none, true ) } .
+foot:Footballer401 [ ! xsd:boolean ?b8d , ! ottr:IRI ?z2E , * xsd:integer ?t3y  ] :: { schema:Footballer607 ( false ), foot:Footballer717 ( true ) } .
+foot:Footballer72 [ ? xsd:string ?A1r  ] :: { foot:Footballer225 ( false ), schema:Footballer157 ( true ), foaf:Footballer691 ( false ) } .
+edge:Footballer734 [ ! Listxsd:string ?e9k  ] :: { foot:Footballer531 ( none, none ), edge:Footballer151 ( none ) } .
+foaf:Footballer889 [ * List<http://edgecase.org/*> ?x5n = -7 ] :: { edge:Footballer130 ( ?M6R ) } .
+edge:Footballer914 [ ! xsd:boolean ?f4O  ] :: { schema:Footballer206 ( true ), edge:Footballer347 ( true, false ) } .
+foot:Footballer714 [ ? xsd:boolean ?TqC , * xsd:boolean ?KZj  ] :: { foaf:Footballer567 ( true ), schema:Footballer447 ( true ), schema:Footballer262 ( none ) } .
+foot:Footballer331 [ ? xsd:string ?PQw , ! xsd:integer ?v7h  ] :: { foaf:Footballer359 ( false ) } .
+foot:Footballer167 [  xsd:integer ?X1g , ! xsd:integer ?S1D  ] :: { schema:Footballer303 ( none ), schema:Footballer97 ( true ), foot:Footballer742 ( none ) } .
+edge:Footballer587 [ ! xsd:integer ?W7s  ] :: { edge:Footballer790 ( true, false ), edge:Footballer235 ( true ) } .
+schema:Footballer169 [ ! xsd:integer ?Lwk , ? ottr:IRI ?Z4u  ] :: { foot:Footballer484 ( none, true ) } .
+edge:Footballer285 [  xsd:boolean ?X5r  ] :: { foaf:Footballer886 ( false, true ), schema:Footballer936 ( true ) } .
+schema:Footballer81 [ * xsd:string ?A2V  ] :: { foot:Footballer500 ( true ), schema:Footballer60 ( true ), foot:Footballer645 ( false ) } .
+foaf:Footballer717 [  xsd:string ?R9D  ] :: { foaf:Footballer30 ( true, none ), schema:Footballer412 ( false ), schema:Footballer541 ( none ) } .
+schema:Footballer220 [  xsd:integer ?v0W ,  xsd:string ?s3d , ! xsd:boolean ?G6y , ! xsd:integer ?z8a  ] :: { foot:Footballer497 ( true ), schema:Footballer12 ( none ) } .
+edge:Footballer805 [ ? xsd:boolean ?C1B , ! ottr:IRI ?M7o  ] :: { foaf:Footballer598 ( true ) } .
+edge:Footballer957 [ * xsd:boolean ?hFT , ? xsd:boolean ?e5H  ] :: { schema:Footballer465 ( false ), foaf:Footballer731 ( none ), schema:Footballer71 ( false ) } .
+foaf:Footballer698 [ * xsd:string ?SQK , ? xsd:string ?j9J  ] :: { foaf:Footballer515 ( false ), foaf:Footballer656 ( none ) } .
+edge:Footballer346 [ ! xsd:integer ?t5x  ] :: { foaf:Footballer386 ( none ) } .
+foaf:Footballer388 [  xsd:boolean ?mgp  ] :: { schema:Footballer775 ( true ), schema:Footballer217 ( false ) } .
+schema:Footballer164 [  xsd:integer ?r7c = "s" ] :: { foaf:Footballer801 ( ?Ngn ) } .
+edge:Footballer99 [ * xsd:string ?A1z , ? xsd:boolean ?p6x  ] :: { foot:Footballer977 ( true, false ), foot:Footballer368 ( none ) } .
+foot:Footballer774 [ ! List<http://example.org/kr>> ?v3a = 0 ] :: { schema:Footballer459 ( <http://edgecase.org/;8> ) } .
+edge:Footballer122 [ ? xsd:string ?F8d , ? ottr:IRI ?H4e  ] :: { foaf:Footballer427 ( true ) } .
+edge:Footballer172 [  Listxsd:string ?i0J = -29 ] :: { schema:Footballer620 ( ?G5C ) } .
+edge:Footballer998 [  ottr:IRI ?QsU  ] :: { foot:Footballer31 ( ?Tyh ), schema:Footballer708 ( false ) } .
+foot:Footballer926 [ ! List<http://edgecase.org/%$> ?X1u = 0 ] :: { edge:Footballer463 ( ?mYK, ?ZlV ) } .
+foot:Footballer652 [  xsd:integer ?L3b , ! xsd:boolean ?IwM , ! ottr:IRI ?ESj ,  ottr:IRI ?Oqf  ] :: { schema:Footballer785 ( false, true ) } .
+foaf:Footballer32 [ * List<http://edgecase.org/:> ?R5P = false, * xsd:string ?tBo  ] :: { foaf:Footballer341 ( ?DWk, true, none ) } .
+foot:Footballer727 [ ? ottr:IRI ?bqy , ! xsd:string ?SQc  ] :: { foot:Footballer952 ( true ), edge:Footballer895 ( none ) } .
+edge:Footballer186 [ ? List<http://edgecase.org/!Ay+xE> ?O0R = <http://example.org/N> ] :: { foot:Footballer805 ( ?eAS ) } .
+schema:Footballer784 [  xsd:integer ?I8X , * xsd:boolean ?f4M , ! xsd:string ?u1r  ] :: { foaf:Footballer558 ( false ), foot:Footballer264 ( none ) } .
+schema:Footballer710 [ ? ottr:IRI ?F2L = 0, ? Listxsd:string ?v6d = -97, * Listxsd:string ?l3D = 35 ] :: { schema:Footballer915 ( "v", true ) } .
+edge:Footballer547 [  List<http://example.org/Gu> ?tgb = false ] :: { foaf:Footballer746 ( none ), schema:Footballer738 ( true ), foaf:Footballer871 ( true ) } .
+edge:Footballer941 [ ! xsd:boolean ?i3s = "e" ] :: { foot:Footballer582 ( false ), foot:Footballer499 ( true ) } .
+schema:Footballer282 [  xsd:string ?y6T , ? ottr:IRI ?n4j  ] :: { edge:Footballer624 ( true ), schema:Footballer502 ( none, true ) } .
+foaf:Footballer42 [ ! ottr:IRI ?YaG = "h" ] :: { foaf:Footballer969 ( true, true ), foot:Footballer51 ( true ) } .
+foot:Footballer97 [ ? xsd:boolean ?P4h = true ] :: { foaf:Footballer661 ( none ) } .
+foaf:Footballer8 [  xsd:string ?J4w , ? xsd:integer ?qpo ,  xsd:string ?mNU ,  xsd:boolean ?KEH  ] :: { edge:Footballer721 ( false ), foaf:Footballer161 ( false ) } .
+edge:Footballer635 [ ? xsd:string ?WVc  ] :: { foaf:Footballer128 ( true ), schema:Footballer11 ( none ) } .
+schema:Footballer391 [ * xsd:boolean ?FCr  ] :: { foaf:Footballer94 ( true, false ), edge:Footballer540 ( none ) } .
+foot:Footballer896 [ ! xsd:integer ?i4b ,  ottr:IRI ?N9B = "'" ] :: { foot:Footballer88 ( ?V7M ) } .
+edge:Footballer82 [ ? List<http://edgecase.org/}p> ?k6z = <http://example.org/E+> ] :: { foaf:Footballer330 ( 0, ?g3d ) } .
+foot:Footballer903 [ * Listxsd:string ?s8n = false ] :: { schema:Footballer316 ( true, false ), edge:Footballer60 ( false ), schema:Footballer33 ( true ) } .
+schema:Footballer908 [ ? xsd:string ?P1K  ] :: { schema:Footballer855 ( false, none ), foaf:Footballer968 ( none ) } .
+foaf:Footballer541 [ * xsd:boolean ?Q5m , * xsd:string ?T0I  ] :: { foaf:Footballer867 ( none ), edge:Footballer862 ( false ), edge:Footballer81 ( none ) } .
+foaf:Footballer326 [  xsd:string ?S2f  ] :: { foot:Footballer803 ( none ), edge:Footballer543 ( true ), foaf:Footballer506 ( false ) } .
+schema:Footballer845 [ * xsd:boolean ?pYE , ? xsd:string ?t0q = true ] :: { schema:Footballer556 ( true ), foaf:Footballer73 ( false ) } .
+foot:Footballer559 [  xsd:integer ?ZuG ,  xsd:boolean ?h8l , * xsd:string ?Jcj  ] :: { foaf:Footballer890 ( false ) } .
+edge:Footballer406 [ * xsd:string ?RwL , * xsd:string ?a1W  ] :: { foot:Footballer668 ( true ) } .
+foot:Footballer928 [  xsd:integer ?C8R , ? ottr:IRI ?Mju  ] :: { foaf:Footballer786 ( true, false ) } .
+schema:Footballer488 [ * xsd:string ?Q1p , ! xsd:boolean ?q0y  ] :: { edge:Footballer858 ( none ), foot:Footballer747 ( false ) } .
+edge:Footballer768 [ ? xsd:string ?L3r , ! xsd:integer ?D4g , * ottr:IRI ?c2W  ] :: { schema:Footballer272 ( false ), schema:Footballer593 ( true ), foot:Footballer970 ( true ), foot:Footballer864 ( none ) } .
+foaf:Footballer694 [ ! ottr:IRI ?J7l  ] :: { foaf:Footballer960 ( none ), edge:Footballer861 ( none ), schema:Footballer660 ( true ) } .
+foot:Footballer83 [ * ottr:IRI ?O9P , ? xsd:string ?s5e ,  xsd:boolean ?K6f  ] :: { foaf:Footballer571 ( none, false, true ), edge:Footballer4 ( none ), foot:Footballer175 ( true ) } .
+foot:Footballer399 [ * xsd:boolean ?UNZ  ] :: { schema:Footballer581 ( none, false ), foot:Footballer965 ( false ), foot:Footballer519 ( false ) } .
+foot:Footballer222 [ ? Listxsd:string ?zod = "y%" ] :: { foaf:Footballer466 ( ?EvF ) } .
+foot:Footballer680 [ ? xsd:integer ?XBY ,  xsd:boolean ?t5A  ] :: { foot:Footballer448 ( true ), schema:Footballer378 ( none ), foaf:Footballer388 ( false ), edge:Footballer176 ( true ) } .
+foot:Footballer189 [ * xsd:boolean ?Inb = true, ? xsd:integer ?m8V  ] :: { foot:Footballer813 ( false ) } .
+schema:Footballer242 [ ? List<http://example.org/+> ?TGh = 11 ] :: { foaf:Footballer769 ( <http://edgecase.org/N72> ) } .
+foot:Footballer607 [ * List<http://example.org/lL> ?u9t = 0 ] :: { foaf:Footballer495 ( ?FAa ) } .
+schema:Footballer809 [  ottr:IRI ?z5U , ? xsd:boolean ?n2p , ! xsd:integer ?K1o  ] :: { edge:Footballer183 ( false, true, true ), foot:Footballer704 ( none ), edge:Footballer13 ( true ) } .
+schema:Footballer596 [ ! xsd:string ?w0J  ] :: { schema:Footballer64 ( none ), schema:Footballer571 ( true ), foaf:Footballer63 ( none ), schema:Footballer55 ( none ) } .
+foot:Footballer845 [ * xsd:boolean ?g4E  ] :: { foaf:Footballer52 ( false ), foaf:Footballer906 ( true ), foaf:Footballer89 ( false ) } .
+foaf:Footballer838 [  ottr:IRI ?S6Q ,  xsd:boolean ?R8x  ] :: { schema:Footballer775 ( true, none ) } .
+foot:Footballer675 [ ? xsd:boolean ?s7O , ? ottr:IRI ?Y3V  ] :: { schema:Footballer473 ( true, true ), foaf:Footballer12 ( true ) } .
+schema:Footballer591 [ ! Listxsd:string ?H3N = ">", ? xsd:integer ?Mjk  ] :: { foot:Footballer231 ( none ), schema:Footballer338 ( true ) } .
+edge:Footballer524 [ ! xsd:integer ?l7c , * xsd:boolean ?DvG  ] :: { foot:Footballer262 ( none ) } .
+foot:Footballer302 [ * List<http://edgecase.org/i> ?i7T  ] :: { schema:Footballer970 ( false ), edge:Footballer422 ( true ), foot:Footballer852 ( none ) } .
+foaf:Footballer981 [ * xsd:boolean ?rem = <http://example.org/M> ] :: { foot:Footballer19 ( false ), schema:Footballer985 ( true ), foaf:Footballer637 ( true ), foaf:Footballer254 ( none ) } .
+foaf:Footballer825 [  xsd:boolean ?vFP , ? ottr:IRI ?b8y  ] :: { edge:Footballer612 ( none ), foot:Footballer967 ( false ) } .
+schema:Footballer367 [ * xsd:integer ?z0G  ] :: { foot:Footballer876 ( false, true ), foot:Footballer547 ( true ), edge:Footballer819 ( none ), foot:Footballer128 ( true ) } .
+foot:Footballer691 [ ! Listxsd:string ?h3I = 0 ] :: { schema:Footballer892 ( <http://edgecase.org/ev>, ?g7c ) } .
+edge:Footballer24 [ * xsd:string ?u2q ,  xsd:boolean ?l1T  ] :: { schema:Footballer751 ( false, false, false ) } .
+schema:Footballer730 [ ? ottr:IRI ?t6d ,  xsd:integer ?S4N , ! xsd:string ?C9O  ] :: { foaf:Footballer318 ( true ), schema:Footballer330 ( false ), schema:Footballer498 ( false ) } .
+foot:Footballer191 [ ? xsd:boolean ?W1a , * xsd:boolean ?f5B  ] :: { schema:Footballer333 ( true, none, false ), schema:Footballer424 ( false ), foot:Footballer129 ( false ) } .
+schema:Footballer344 [  xsd:string ?LDK = "q" ] :: { foot:Footballer581 ( none, none, true ), foaf:Footballer248 ( true ) } .
+foot:Footballer165 [ ! ottr:IRI ?nZp , ? xsd:boolean ?k9E  ] :: { edge:Footballer216 ( false ), edge:Footballer341 ( false ) } .
+schema:Footballer947 [ ! List<http://example.org/&)> ?XsH = 82 ] :: { schema:Footballer682 ( ?wJU ) } .
+schema:Footballer127 [ ! xsd:boolean ?VYM  ] :: { edge:Footballer539 ( true ), edge:Footballer312 ( true ), foot:Footballer505 ( true ) } .
+schema:Footballer550 [  List<http://edgecase.org/>c> ?crm  ] :: { foaf:Footballer69 ( -12, ?i8O ) } .
+foot:Footballer398 [ ! xsd:boolean ?l0M , * ottr:IRI ?F9Z , ? xsd:string ?g3e  ] :: { edge:Footballer162 ( false ), edge:Footballer297 ( none, true ) } .
+foaf:Footballer108 [  ottr:IRI ?V4G , ! xsd:integer ?K7s  ] :: { foot:Footballer940 ( none ) } .
+edge:Footballer42 [ ? Listxsd:string ?x5k = <http://example.org/J> ] :: { foot:Footballer64 ( "y", ?R6S, ?D6U ) } .
+foaf:Footballer790 [ ? List<http://example.org/s> ?tQn = 10 ] :: { schema:Footballer506 ( ?N6H ) } .
+foaf:Footballer239 [ ! xsd:integer ?dEu  ] :: { foot:Footballer333 ( none, true ), schema:Footballer104 ( true ) } .
+schema:Footballer941 [ * xsd:string ?p2a , ? xsd:string ?jBC , ? xsd:string ?yPf , ! ottr:IRI ?v1b  ] :: { edge:Footballer340 ( true ), schema:Footballer799 ( false ) } .
+foaf:Footballer491 [ ! List<http://example.org/j> ?Y2o = 0 ] :: { foaf:Footballer742 ( ?h7I, ?w8W ) } .
+schema:Footballer100 [ * ottr:IRI ?JTX , * ottr:IRI ?LzA  ] :: { schema:Footballer52 ( true, false ) } .
+edge:Footballer198 [ * List<http://edgecase.org/g> ?q1B = "Q" ] :: { foot:Footballer908 ( ?AxM, ?PDD ), foot:Footballer408 ( none ) } .
+edge:Footballer43 [  xsd:string ?usy , ? ottr:IRI ?Z8S  ] :: { foaf:Footballer519 ( none ), schema:Footballer59 ( true ) } .
+foot:Footballer883 [ * List<http://edgecase.org/'> ?e2n = false ] :: { foaf:Footballer574 ( false, false ), foaf:Footballer891 ( true ) } .
+schema:Footballer304 [ ! xsd:boolean ?X7q = 0 ] :: { schema:Footballer959 ( false ), foot:Footballer363 ( none ), schema:Footballer589 ( true ) } .
+foot:Footballer583 [ * xsd:integer ?l0g = "A" ] :: { schema:Footballer16 ( true ), foot:Footballer552 ( none ), edge:Footballer454 ( false ) } .
+edge:Footballer871 [ ? xsd:integer ?b5F = false ] :: { edge:Footballer889 ( none ), foaf:Footballer225 ( none ), schema:Footballer351 ( true ) } .
+foaf:Footballer979 [ * xsd:integer ?D9m , ? xsd:string ?h3k , * ottr:IRI ?O4B  ] :: { foaf:Footballer136 ( true ), foaf:Footballer214 ( none ) } .
+schema:Footballer276 [  Listxsd:string ?a1A = <http://example.org/hH&#> ] :: { foot:Footballer537 ( ?U6T ) } .
+schema:Footballer570 [ * xsd:string ?MWP  ] :: { foaf:Footballer637 ( false ), foot:Footballer496 ( none ) } .
+schema:Footballer531 [  xsd:boolean ?f0R ,  xsd:string ?Y6r ,  xsd:boolean ?K5o  ] :: { edge:Footballer901 ( false ), foaf:Footballer545 ( none ) } .
+schema:Footballer422 [ ! ottr:IRI ?QCE ,  xsd:string ?t2z , ? ottr:IRI ?p1I  ] :: { schema:Footballer646 ( ?wvV ) } .
+foaf:Footballer12 [  xsd:string ?C2A  ] :: { edge:Footballer589 ( <http://example.org/dT> ) } .
+foot:Footballer45 [ ? xsd:integer ?YuR , * xsd:boolean ?m6Z  ] :: { foaf:Footballer147 ( none ), edge:Footballer175 ( true ), schema:Footballer633 ( false ) } .
+schema:Footballer794 [ ! Listxsd:string ?X8V = "S" ] :: { foaf:Footballer747 ( ?M1W, -05 ) } .
+edge:Footballer720 [ ? ottr:IRI ?b7h = 0 ] :: { foaf:Footballer919 ( none ), foot:Footballer492 ( none ), foaf:Footballer709 ( true ) } .
+edge:Footballer421 [ * List<http://edgecase.org/8> ?I9B , ? xsd:boolean ?s3y  ] :: { foaf:Footballer283 ( true ), foaf:Footballer698 ( false ) } .
+edge:Footballer321 [ ! xsd:integer ?x9i , ! xsd:string ?F9w , * xsd:string ?GrJ , * xsd:integer ?q9E  ] :: { edge:Footballer47 ( ?c4K ) } .
+foaf:Footballer489 [ * ottr:IRI ?d6O  ] :: { foot:Footballer786 ( false ), schema:Footballer14 ( false ) } .
+foaf:Footballer123 [ * xsd:integer ?n5e , ! xsd:boolean ?P5N  ] :: { schema:Footballer913 ( none ) } .
+foot:Footballer115 [ * xsd:string ?afQ  ] :: { foaf:Footballer657 ( true ), schema:Footballer866 ( true ), edge:Footballer231 ( false ), foaf:Footballer465 ( true ) } .
+edge:Footballer514 [ * xsd:integer ?L8z = none ] :: { foaf:Footballer257 ( none, false ), foot:Footballer236 ( true ), schema:Footballer107 ( false ) } .
+edge:Footballer927 [ ? ottr:IRI ?Gsg = false ] :: { schema:Footballer339 ( ?T1E ) } .
+foaf:Footballer505 [ * xsd:integer ?F0z , ! xsd:boolean ?j8A  ] :: { foaf:Footballer34 ( none ), foot:Footballer568 ( true ) } .
+foaf:Footballer637 [  List<http://example.org/cEFP> ?o4M = "s" ] :: { edge:Footballer212 ( <http://edgecase.org/5>, 0 ) } .
+edge:Footballer157 [ * xsd:string ?S6f = 9 ] :: { foot:Footballer264 ( ?R5p, ?H3U, true, none ), foot:Footballer870 ( ?N2k, ?d7h ) } .
+edge:Footballer68 [ * xsd:string ?C5Y  ] :: { foot:Footballer239 ( true, false ), foaf:Footballer292 ( none ), edge:Footballer881 ( true ) } .
+foot:Footballer114 [ ! xsd:boolean ?m7n , ! xsd:integer ?q8O  ] :: { schema:Footballer583 ( false, false, false ) } .
+foot:Footballer502 [ ? ottr:IRI ?eQD , ! xsd:string ?x0i  ] :: { edge:Footballer868 ( none ), foot:Footballer391 ( false ), foaf:Footballer724 ( true ) } .
+foot:Footballer161 [ ? xsd:string ?L8B  ] :: { foaf:Footballer444 ( none, false, false ), edge:Footballer786 ( true ) } .
+foaf:Footballer703 [ * xsd:string ?w3u = false ] :: { foot:Footballer563 ( true ), foaf:Footballer539 ( false ) } .
+foot:Footballer314 [ ! Listxsd:string ?y2b = none ] :: { foaf:Footballer783 ( false, none ), foaf:Footballer354 ( true ), schema:Footballer58 ( none ) } .
+foaf:Footballer727 [ ? xsd:integer ?Y8X  ] :: { foot:Footballer66 ( ?nUM, true ), edge:Footballer364 ( false ) } .
+schema:Footballer772 [ ! xsd:boolean ?I6d ,  xsd:string ?F4T , * ottr:IRI ?m2h  ] :: { edge:Footballer53 ( none ), schema:Footballer892 ( none ) } .
+schema:Footballer159 [ * ottr:IRI ?t5i = <http://edgecase.org/Z> ] :: { foot:Footballer403 ( true ), schema:Footballer778 ( false ), schema:Footballer536 ( true ) } .
+foot:Footballer425 [ ! xsd:string ?a0A = true ] :: { foot:Footballer530 ( true ), foot:Footballer264 ( true ) } .
+edge:Footballer430 [ * Listxsd:string ?G7O = 91 ] :: { schema:Footballer854 ( ?R3B, "Ky" ) } .
+foaf:Footballer345 [ ? xsd:string ?e5N , ! xsd:boolean ?D3Q  ] :: { edge:Footballer626 ( true ), foaf:Footballer502 ( false ), foot:Footballer254 ( false ) } .
+schema:Footballer757 [ * xsd:integer ?q7p , * xsd:boolean ?SwL  ] :: { edge:Footballer351 ( false ), schema:Footballer379 ( true ), schema:Footballer42 ( true ) } .
+schema:Footballer879 [  ottr:IRI ?oxJ  ] :: { foot:Footballer497 ( true ), foaf:Footballer312 ( true ) } .
+foaf:Footballer667 [  xsd:string ?g0r , ? ottr:IRI ?fEu  ] :: { foaf:Footballer503 ( ?Z8P, ?k9b, false ) } .
+edge:Footballer574 [ * ottr:IRI ?lvj ,  xsd:string ?zyW  ] :: { schema:Footballer858 ( none ), foot:Footballer788 ( true ), edge:Footballer902 ( false ) } .
+foot:Footballer133 [ * List<http://example.org/3> ?ZDn ,  xsd:string ?z1r  ] :: { schema:Footballer27 ( true ), edge:Footballer550 ( none ) } .
+foaf:Footballer595 [ ? xsd:integer ?w0O  ] :: { schema:Footballer584 ( false ), schema:Footballer808 ( true, false ) } .
+schema:Footballer553 [ ! Listxsd:string ?f8X = 3 ] :: { foaf:Footballer207 ( ?h9S ) } .
+foot:Footballer994 [ ? xsd:boolean ?s7N  ] :: { edge:Footballer193 ( true ), foaf:Footballer440 ( true, true ) } .
+foot:Footballer558 [  ottr:IRI ?T2b , * ottr:IRI ?B6g  ] :: { foot:Footballer351 ( true ), foot:Footballer165 ( none ), edge:Footballer804 ( true ), edge:Footballer94 ( none ) } .
+schema:Footballer852 [ ! ottr:IRI ?l4t , * ottr:IRI ?y5H  ] :: { foaf:Footballer709 ( false ), edge:Footballer389 ( none ), schema:Footballer755 ( true ) } .
+edge:Footballer657 [  List<http://edgecase.org/s> ?YUj = false ] :: { foot:Footballer310 ( true ) } .
+edge:Footballer520 [ ! List<http://edgecase.org/B> ?P2u = <http://example.org/H> ] :: { foaf:Footballer666 ( "C(" ) } .
+foaf:Footballer363 [  xsd:integer ?aKQ = none,  ottr:IRI ?iVk , ! xsd:boolean ?M2e ,  xsd:integer ?vJp  ] :: { foot:Footballer589 ( false ) } .
+schema:Footballer24 [ ? xsd:boolean ?Fcd , * xsd:string ?AqW  ] :: { edge:Footballer445 ( false ), foaf:Footballer672 ( false ), schema:Footballer358 ( none ) } .
+foot:Footballer365 [ ! xsd:integer ?I9v  ] :: { foaf:Footballer933 ( none ), schema:Footballer72 ( false ) } .
+edge:Footballer492 [ * xsd:boolean ?EdF , ? xsd:string ?J7K ,  ottr:IRI ?z2N  ] :: { foaf:Footballer906 ( true, none ) } .
+foaf:Footballer10 [ ? xsd:integer ?V5t  ] :: { edge:Footballer216 ( true ), schema:Footballer779 ( none ) } .
+foaf:Footballer776 [ ! ottr:IRI ?h0w  ] :: { schema:Footballer245 ( false ), schema:Footballer856 ( false ) } .
+schema:Footballer142 [ ! ottr:IRI ?f6S ,  xsd:boolean ?a1C , ! xsd:integer ?A3y , ? ottr:IRI ?c8B  ] :: { edge:Footballer90 ( none ) } .
+foaf:Footballer273 [ ? List<http://example.org/^> ?o4X  ] :: { schema:Footballer648 ( none ), foot:Footballer370 ( false ), foot:Footballer458 ( false ) } .
+edge:Footballer748 [  xsd:boolean ?kHm  ] :: { foot:Footballer609 ( ?T0p, true ) } .
+foaf:Footballer351 [ * xsd:boolean ?U9O , * xsd:integer ?R1u , ? xsd:boolean ?LYj  ] :: { edge:Footballer432 ( true ), foaf:Footballer580 ( none ) } .
+edge:Footballer42 [ * xsd:boolean ?g4G = false ] :: { schema:Footballer135 ( true ), foaf:Footballer476 ( false ), schema:Footballer166 ( none, true ) } .
+foaf:Footballer444 [ ! xsd:integer ?qMZ ,  xsd:boolean ?b6n  ] :: { edge:Footballer93 ( true ), schema:Footballer280 ( true ), foaf:Footballer860 ( false ) } .
+schema:Footballer227 [ * List<http://edgecase.org/=?> ?N3D  ] :: { foaf:Footballer179 ( false ) } .
+foot:Footballer883 [  xsd:boolean ?Q8x , ? ottr:IRI ?Moi  ] :: { edge:Footballer471 ( true ), foaf:Footballer313 ( none ) } .
+foot:Footballer825 [ ! xsd:string ?q7s ,  xsd:integer ?j2Y  ] :: { foot:Footballer8 ( true ), foaf:Footballer607 ( false ) } .
+schema:Footballer57 [ * ottr:IRI ?r9a  ] :: { foaf:Footballer977 ( none ) } .
+schema:Footballer106 [  ottr:IRI ?H6c , ! xsd:string ?h0g  ] :: { foaf:Footballer60 ( ?L5G, true ) } .
+edge:Footballer95 [ ! ottr:IRI ?W1I , ? xsd:string ?C4U , ! xsd:boolean ?Z3F , ? xsd:string ?P7E  ] :: { schema:Footballer933 ( true ) } .
+foaf:Footballer440 [ ? Listxsd:string ?mSR = <http://example.org/&> ] :: { foot:Footballer837 ( -8 ) } .
+foaf:Footballer804 [ ! ottr:IRI ?wvJ , ! xsd:boolean ?b1V , ! xsd:boolean ?Kpl  ] :: { foaf:Footballer778 ( true ), foot:Footballer64 ( true ) } .
+edge:Footballer989 [  xsd:integer ?kAd  ] :: { edge:Footballer130 ( true, true ) } .
+schema:Footballer765 [ ! List<http://example.org/4> ?uzB  ] :: { foaf:Footballer687 ( "A", false, true, true ) } .
+schema:Footballer74 [  xsd:string ?elx = 0 ] :: { edge:Footballer264 ( true, ?A5Y ) } .
+foaf:Footballer514 [ * xsd:boolean ?t2n , ? ottr:IRI ?u0V , ! xsd:integer ?F9W  ] :: { schema:Footballer94 ( false ), foot:Footballer820 ( none ) } .
+foot:Footballer432 [  ottr:IRI ?m6S , ! ottr:IRI ?E4j  ] :: { foot:Footballer224 ( <http://edgecase.org/->, none ) } .
+foaf:Footballer6 [  ottr:IRI ?L7D = "{}" ] :: { foaf:Footballer143 ( none ), foot:Footballer983 ( none ), edge:Footballer163 ( true ) } .
+foot:Footballer946 [ * Listxsd:string ?H3J = -1 ] :: { schema:Footballer575 ( ?c8P ) } .
+foaf:Footballer171 [  List<http://example.org/i> ?yZM , ! xsd:string ?K5C , ? ottr:IRI ?i7X  ] :: { foot:Footballer181 ( true ), edge:Footballer343 ( false ) } .
+foot:Footballer342 [ ! List<http://example.org/qD$x9|> ?dNR = 12 ] :: { foot:Footballer727 ( ?wkg ) } .
+foaf:Footballer491 [  List<http://example.org/W> ?a7h = "NZ;B" ] :: { foot:Footballer261 ( ?O6b, ?rzq ) } .
+edge:Footballer842 [ ? ottr:IRI ?pof  ] :: { foaf:Footballer15 ( true ), edge:Footballer985 ( true ) } .
+edge:Footballer311 [  xsd:integer ?IQB , ! xsd:string ?v2G , ! xsd:integer ?T7s  ] :: { edge:Footballer267 ( false ), foot:Footballer336 ( true ) } .
+schema:Footballer56 [ * xsd:integer ?u5Q , ? xsd:string ?MRW  ] :: { foot:Footballer862 ( false ), edge:Footballer985 ( true, none ) } .
+foaf:Footballer42 [ ! ottr:IRI ?Y8d  ] :: { schema:Footballer388 ( none ), foot:Footballer41 ( none ), foot:Footballer799 ( none ) } .
+foot:Footballer908 [  xsd:boolean ?L7A = -4 ] :: { edge:Footballer467 ( ?S3r, <http://example.org/,Iq>, "{s" ) } .
+schema:Footballer350 [  ottr:IRI ?b9w , ? xsd:string ?G0F  ] :: { schema:Footballer916 ( false, none ), schema:Footballer920 ( none ) } .
+schema:Footballer487 [  Listxsd:string ?O1n = 25 ] :: { foot:Footballer822 ( ?i6U, ?I5D ) } .
+edge:Footballer726 [ ! List<http://edgecase.org/6W> ?k7Z = 0 ] :: { edge:Footballer554 ( ?eyl ), foot:Footballer441 ( ?X6N, ?ohT ) } .
+schema:Footballer676 [ ? xsd:string ?j6x  ] :: { foot:Footballer190 ( ?HmC ), foaf:Footballer949 ( false ), foot:Footballer642 ( none ) } .
+foaf:Footballer476 [  ottr:IRI ?scf , ? ottr:IRI ?zav , ! xsd:boolean ?P8t  ] :: { schema:Footballer264 ( ?J2B, true ) } .
+foaf:Footballer994 [ ! List<http://edgecase.org/82A> ?qgV = "O" ] :: { foaf:Footballer721 ( false ), foaf:Footballer112 ( none ), foaf:Footballer710 ( none ), schema:Footballer600 ( none ) } .
+foaf:Footballer17 [  xsd:integer ?E0p  ] :: { foot:Footballer909 ( true, true ), schema:Footballer121 ( false ) } .
+foaf:Footballer758 [ * ottr:IRI ?X4F , ? xsd:integer ?hDN  ] :: { schema:Footballer786 ( none ) } .
+foot:Footballer247 [  xsd:boolean ?J5Z = false ] :: { edge:Footballer136 ( true, true, false ), schema:Footballer858 ( false ), edge:Footballer994 ( true ) } .
+edge:Footballer287 [ ! xsd:string ?b2C = false, * ottr:IRI ?e8S  ] :: { foaf:Footballer816 ( false, none ) } .
+foot:Footballer283 [ ? xsd:integer ?p6B ,  ottr:IRI ?a3E  ] :: { foaf:Footballer24 ( none, true ), foot:Footballer602 ( true ) } .
+schema:Footballer360 [  List<http://example.org/@> ?m1Q  ] :: { edge:Footballer745 ( none ), edge:Footballer227 ( true ), schema:Footballer780 ( true ) } .
+foaf:Footballer419 [ * Listxsd:string ?o9G = 0 ] :: { foot:Footballer657 ( ?K7A, "}ex", <http://edgecase.org/m> ) } .
+foot:Footballer483 [ ? xsd:boolean ?xHY = false, * ottr:IRI ?w0q  ] :: { schema:Footballer727 ( false ) } .
+schema:Footballer669 [  xsd:integer ?O0g ,  xsd:string ?lRt  ] :: { foaf:Footballer679 ( false ), foaf:Footballer777 ( false ), edge:Footballer174 ( none ) } .
+schema:Footballer611 [  List<http://edgecase.org/<> ?W8I , ! xsd:integer ?j5k  ] :: { foaf:Footballer674 ( true ), schema:Footballer944 ( none ), edge:Footballer276 ( none ) } .
+schema:Footballer349 [ ! List<http://edgecase.org/{o[> ?y6n = 4 ] :: { foaf:Footballer472 ( ?Mfs ) } .
+foot:Footballer102 [ ? xsd:string ?yTh , ! ottr:IRI ?E6g  ] :: { foaf:Footballer812 ( true ), schema:Footballer970 ( false ) } .
+edge:Footballer354 [  xsd:boolean ?o2c = none ] :: { edge:Footballer5 ( ?X0k, none ) } .
+schema:Footballer500 [ * xsd:boolean ?n8v , ! xsd:integer ?z9R  ] :: { foot:Footballer216 ( 0 ) } .
+edge:Footballer780 [ ! List<http://edgecase.org/R> ?A5j = "g)W" ] :: { foot:Footballer294 ( <http://example.org/*> ) } .
+edge:Footballer594 [ * ottr:IRI ?C7s  ] :: { foot:Footballer352 ( false, none ), foaf:Footballer725 ( none ), foot:Footballer619 ( none ) } .
+schema:Footballer781 [ * ottr:IRI ?i3Z ,  xsd:string ?F4m  ] :: { schema:Footballer232 ( ?x1H, false ) } .
+edge:Footballer785 [ ? xsd:string ?b8G , ! xsd:string ?ltP  ] :: { edge:Footballer449 ( false ), edge:Footballer481 ( true ) } .
+foaf:Footballer476 [ ? xsd:boolean ?r1S  ] :: { foot:Footballer531 ( none ), edge:Footballer595 ( false ), schema:Footballer600 ( true ) } .
+schema:Footballer724 [  xsd:boolean ?a1W  ] :: { schema:Footballer523 ( false ), schema:Footballer485 ( none ) } .
+schema:Footballer997 [ ? xsd:string ?DQO = false,  xsd:string ?LVp , ? ottr:IRI ?BKJ  ] :: { foot:Footballer18 ( none ), foaf:Footballer8 ( true ) } .
+schema:Footballer717 [ ? xsd:integer ?I9l , ! xsd:string ?xig  ] :: { foot:Footballer770 ( none, false ) } .
+edge:Footballer952 [ * xsd:boolean ?s8V ,  ottr:IRI ?E6j  ] :: { schema:Footballer369 ( true ), foaf:Footballer741 ( true ) } .
+foot:Footballer941 [  xsd:boolean ?G5B , ! xsd:integer ?U0Y , * xsd:boolean ?Q1t  ] :: { schema:Footballer641 ( true ) } .
+schema:Footballer266 [ ? ottr:IRI ?a2e  ] :: { foaf:Footballer183 ( true ), foot:Footballer84 ( none ) } .
+foot:Footballer992 [ ! xsd:string ?u4b  ] :: { foot:Footballer539 ( false ) } .
+foot:Footballer117 [ * List<http://edgecase.org/c> ?P3J = <http://example.org/_l> ] :: { schema:Footballer363 ( ?v7A, ";" ) } .
+foaf:Footballer399 [ ? ottr:IRI ?o6W  ] :: { schema:Footballer296 ( true ), edge:Footballer566 ( true ) } .
+foaf:Footballer892 [ ! xsd:string ?KwT  ] :: { foaf:Footballer226 ( none, true ), edge:Footballer255 ( none ), edge:Footballer843 ( true ) } .
+schema:Footballer661 [ ? Listxsd:string ?ndZ = 0 ] :: { foaf:Footballer996 ( 1 ) } .
+foaf:Footballer546 [  xsd:string ?f0X  ] :: { foot:Footballer749 ( none, false ), foot:Footballer716 ( true ) } .
+schema:Footballer468 [  xsd:integer ?Q5H , ! xsd:string ?h0J  ] :: { edge:Footballer919 ( none ), foot:Footballer171 ( ?MVD ) } .
+foot:Footballer374 [ ? xsd:boolean ?L2w = false, * ottr:IRI ?G6t  ] :: { schema:Footballer536 ( true, false ), foaf:Footballer104 ( false, false, true ) } .
+edge:Footballer502 [ ? List<http://edgecase.org/b> ?W9i = "PD" ] :: { schema:Footballer800 ( <http://example.org/&> ) } .
+schema:Footballer948 [  ottr:IRI ?T8Z , * ottr:IRI ?e7r  ] :: { foaf:Footballer785 ( true, false ), foaf:Footballer788 ( false ), foaf:Footballer989 ( false ) } .
+foot:Footballer183 [ ? ottr:IRI ?S1A , * xsd:string ?s4B  ] :: { edge:Footballer527 ( true ) } .
+foaf:Footballer433 [ * Listxsd:string ?U3I = 9 ] :: { foot:Footballer743 ( 0 ) } .
+foot:Footballer230 [ ! xsd:integer ?axo , ? xsd:integer ?Y9c  ] :: { edge:Footballer350 ( true ), foaf:Footballer840 ( true, false, none ) } .
+schema:Footballer723 [ ? List<http://example.org/@> ?p8X , * xsd:string ?j8u  ] :: { foaf:Footballer29 ( ?vqN, false ) } .
+schema:Footballer851 [  xsd:boolean ?l3g ,  xsd:integer ?mkR  ] :: { foot:Footballer356 ( none, true ), edge:Footballer645 ( none ), edge:Footballer670 ( true ) } .
+foot:Footballer475 [  xsd:integer ?bzf ,  xsd:boolean ?PEC  ] :: { foaf:Footballer765 ( none ), edge:Footballer85 ( none, false ) } .
+foot:Footballer411 [ * ottr:IRI ?EBG  ] :: { foaf:Footballer483 ( none ), schema:Footballer789 ( true, false ) } .
+edge:Footballer382 [  xsd:string ?P3M , ? xsd:integer ?d4g  ] :: { edge:Footballer13 ( true ), edge:Footballer96 ( true ), foot:Footballer984 ( false ) } .
+foaf:Footballer173 [ ! xsd:boolean ?b5r = true, * xsd:boolean ?m2f  ] :: { schema:Footballer139 ( none ), edge:Footballer67 ( none ), edge:Footballer79 ( none ) } .
+edge:Footballer2 [  xsd:string ?K1n  ] :: { foot:Footballer356 ( ?w0u ) } .
+schema:Footballer842 [  xsd:string ?Y6o ,  xsd:boolean ?A7L  ] :: { foot:Footballer702 ( false ), foot:Footballer881 ( none ), edge:Footballer186 ( true ) } .
+foaf:Footballer818 [ * xsd:integer ?l8q , ! xsd:integer ?j9S , * xsd:string ?k5v  ] :: { edge:Footballer603 ( true ), foaf:Footballer38 ( none ) } .
+edge:Footballer693 [  xsd:integer ?U7R , * xsd:boolean ?yXh ,  xsd:boolean ?s3O  ] :: { edge:Footballer815 ( true ) } .
+edge:Footballer473 [ * xsd:integer ?Qpt , ? xsd:string ?aNx  ] :: { edge:Footballer434 ( false, true ), foaf:Footballer872 ( none ), schema:Footballer639 ( true ) } .
+schema:Footballer258 [ * xsd:string ?D1Z ,  xsd:integer ?z1F  ] :: { foot:Footballer461 ( false ), foot:Footballer542 ( false ) } .
+edge:Footballer967 [  xsd:integer ?J4c ,  xsd:boolean ?iIH , * xsd:integer ?T3W  ] :: { schema:Footballer311 ( true, none, true, true ) } .
+foot:Footballer768 [ ! ottr:IRI ?h0c , * xsd:boolean ?QCl  ] :: { edge:Footballer892 ( false ), schema:Footballer44 ( true ) } .
+foot:Footballer113 [ ? xsd:integer ?X2j ,  xsd:string ?M1a  ] :: { foaf:Footballer6 ( none, false ), schema:Footballer673 ( true ) } .
+schema:Footballer320 [  Listxsd:string ?g8S = 0 ] :: { foot:Footballer707 ( ?K6I ), edge:Footballer893 ( "C" ) } .
+foaf:Footballer789 [ ? List<http://example.org/y> ?E4z = false ] :: { schema:Footballer419 ( true, false ) } .
+foaf:Footballer610 [  List<http://edgecase.org/w> ?A9s = -3 ] :: { foaf:Footballer926 ( <http://edgecase.org/ur#> ) } .
+schema:Footballer758 [  xsd:string ?W7d ,  ottr:IRI ?u2U  ] :: { foot:Footballer5 ( ?B5t, true, true ) } .
+foaf:Footballer763 [ * ottr:IRI ?ieo  ] :: { foot:Footballer678 ( none, none ), schema:Footballer41 ( true, true ) } .
+schema:Footballer109 [  xsd:boolean ?JOH , ! ottr:IRI ?bVp  ] :: { foot:Footballer867 ( false ), edge:Footballer795 ( false ), foaf:Footballer278 ( false ) } .
+foaf:Footballer229 [ ? xsd:boolean ?xyR  ] :: { schema:Footballer154 ( true, none ) } .
+foot:Footballer813 [ * xsd:integer ?P6w , ? xsd:string ?fTG  ] :: { schema:Footballer822 ( false ), schema:Footballer283 ( false ), foot:Footballer192 ( true ) } .
+edge:Footballer557 [ ! xsd:boolean ?q3y  ] :: { schema:Footballer511 ( true ), foaf:Footballer918 ( false ) } .
+edge:Footballer113 [ * ottr:IRI ?J5Z ,  xsd:integer ?fwg  ] :: { foot:Footballer681 ( none ) } .
+schema:Footballer847 [ ? xsd:string ?t9e  ] :: { foot:Footballer27 ( none ), foot:Footballer976 ( false ), foot:Footballer404 ( true ), edge:Footballer449 ( none ) } .
+schema:Footballer955 [  xsd:boolean ?h6r  ] :: { foaf:Footballer736 ( true, true ) } .
+foot:Footballer797 [ * xsd:integer ?B1v  ] :: { schema:Footballer177 ( true ), edge:Footballer611 ( true ) } .
+foot:Footballer402 [ ! xsd:integer ?j4I  ] :: { foot:Footballer385 ( none, none ) } .
+schema:Footballer686 [ * xsd:string ?b0D  ] :: { foaf:Footballer291 ( true ), schema:Footballer121 ( true ) } .
+foaf:Footballer908 [  Listxsd:string ?S7n = "R," ] :: { foot:Footballer162 ( ?O8H ) } .
+foot:Footballer238 [ * ottr:IRI ?u2L , * xsd:string ?K8C  ] :: { edge:Footballer618 ( none, false ), edge:Footballer518 ( none ), schema:Footballer346 ( true ) } .
+edge:Footballer612 [ * xsd:boolean ?Q7s , ? ottr:IRI ?YWd  ] :: { edge:Footballer154 ( 0, none, none, none ) } .
+foaf:Footballer342 [ * List<http://example.org/'!> ?S0s  ] :: { schema:Footballer318 ( <http://edgecase.org/:>, ?HVR ) } .
+edge:Footballer501 [  xsd:string ?j9m , ? ottr:IRI ?G8k  ] :: { foot:Footballer145 ( none ), foaf:Footballer218 ( false ), schema:Footballer432 ( true ) } .
+foaf:Footballer434 [ ! xsd:boolean ?W1K , * xsd:integer ?A5r  ] :: { schema:Footballer311 ( false, false ) } .
+foot:Footballer936 [ ! Listxsd:string ?x6e = "p" ] :: { edge:Footballer694 ( 0 ), schema:Footballer206 ( none ), edge:Footballer470 ( true ), foot:Footballer638 ( true ) } .
+schema:Footballer875 [ ! List<http://example.org/V> ?B0p = 73 ] :: { edge:Footballer932 ( ?l4J, ?c2n ) } .
+foot:Footballer440 [ * ottr:IRI ?ZdQ , ! ottr:IRI ?h0I , * ottr:IRI ?auY  ] :: { schema:Footballer241 ( ?UEy ) } .
+schema:Footballer737 [ * xsd:boolean ?LvN , ? xsd:boolean ?qgT  ] :: { schema:Footballer861 ( none ), foot:Footballer571 ( true ), foot:Footballer456 ( true ) } .
+foaf:Footballer901 [  List<http://example.org/L> ?b6D = -3 ] :: { foaf:Footballer367 ( ?t1M ) } .
+foot:Footballer216 [ * xsd:integer ?wXC  ] :: { foaf:Footballer580 ( false ), foaf:Footballer595 ( none ) } .
+edge:Footballer316 [  xsd:string ?O7z , ! xsd:string ?o3F  ] :: { foaf:Footballer676 ( false ), foot:Footballer49 ( none ) } .
+foaf:Footballer415 [ ? xsd:boolean ?X1y ,  xsd:integer ?kje  ] :: { foot:Footballer289 ( true ), schema:Footballer310 ( false ) } .
+edge:Footballer94 [ * xsd:string ?i0L = none, ! ottr:IRI ?g8S  ] :: { foot:Footballer269 ( false ), foaf:Footballer483 ( none ), foot:Footballer641 ( false ) } .
+foaf:Footballer656 [  ottr:IRI ?H3b , ! xsd:string ?p4A , ? ottr:IRI ?v6E  ] :: { foaf:Footballer971 ( false ), foaf:Footballer148 ( none ) } .
+foot:Footballer90 [  List<http://example.org/(> ?F2a = 0 ] :: { schema:Footballer658 ( none, none ), edge:Footballer257 ( true, false ) } .
+edge:Footballer732 [  Listxsd:string ?P7G = "ES" ] :: { foot:Footballer526 ( none, ?J5u, none, true ) } .
+edge:Footballer204 [ ! xsd:string ?R7O , ! ottr:IRI ?N9M  ] :: { foaf:Footballer193 ( false, false ), schema:Footballer395 ( true ) } .
+foaf:Footballer515 [ ? xsd:boolean ?TCm , ? ottr:IRI ?dDI , * xsd:boolean ?rQw  ] :: { edge:Footballer570 ( none ) } .
+foot:Footballer537 [ ? xsd:boolean ?Y4c  ] :: { edge:Footballer867 ( none ), schema:Footballer942 ( true ), foot:Footballer221 ( none ) } .
+foaf:Footballer518 [ ? List<http://example.org/M}.> ?x4V = -09 ] :: { foaf:Footballer898 ( <http://edgecase.org/je> ) } .
+edge:Footballer173 [ ? xsd:integer ?t0f , ? ottr:IRI ?l5Z  ] :: { schema:Footballer65 ( none ) } .
+schema:Footballer542 [  xsd:boolean ?XqJ , * xsd:string ?t9S  ] :: { foaf:Footballer227 ( false ), foot:Footballer886 ( none ) } .
+edge:Footballer895 [ ! xsd:boolean ?m5P , ? xsd:integer ?G4A ,  ottr:IRI ?o2l  ] :: { schema:Footballer916 ( false ), edge:Footballer471 ( true ) } .
+foaf:Footballer691 [ * List<http://example.org/#> ?b3O = <http://edgecase.org/|q> ] :: { foot:Footballer585 ( ?y8s, true ) } .
+foaf:Footballer865 [  ottr:IRI ?T1d ,  xsd:integer ?R6c , * xsd:string ?C7e  ] :: { schema:Footballer183 ( false ), edge:Footballer779 ( true ), foaf:Footballer93 ( none ) } .
+edge:Footballer200 [ * Listxsd:string ?Q2u = "-M:2t" ] :: { foot:Footballer453 ( 05 ) } .
+foaf:Footballer780 [ ? List<http://edgecase.org/,> ?p9I = none, ! ottr:IRI ?Fxk  ] :: { foot:Footballer365 ( true, false, false ) } .
+foaf:Footballer526 [ ! xsd:string ?Lgr , * xsd:boolean ?wnW  ] :: { schema:Footballer107 ( false ), foot:Footballer703 ( true ), foaf:Footballer474 ( true ) } .
+schema:Footballer363 [ ? List<http://edgecase.org/@> ?zjD = true ] :: { schema:Footballer237 ( none ), edge:Footballer525 ( false ), foaf:Footballer58 ( false ) } .
+foaf:Footballer344 [  xsd:string ?Uai ,  xsd:boolean ?E8f , ? ottr:IRI ?K2Y  ] :: { foot:Footballer992 ( ?M9Z, ?h3H ) } .
+schema:Footballer549 [  List<http://example.org/8U> ?B3V = -16 ] :: { edge:Footballer184 ( -46, 0 ), foaf:Footballer367 ( ?v9N ) } .
+foot:Footballer601 [ ! ottr:IRI ?Pyt , ? xsd:string ?K8n  ] :: { edge:Footballer60 ( true ) } .
+foaf:Footballer947 [  xsd:integer ?X3q , * xsd:boolean ?S6V  ] :: { schema:Footballer243 ( false, false ), schema:Footballer540 ( none ) } .
+foaf:Footballer500 [ ! Listxsd:string ?b1m = -5 ] :: { foot:Footballer937 ( ?M2Z, "xV" ) } .
+foot:Footballer884 [ * List<http://edgecase.org/UP> ?G0B = <http://example.org/q> ] :: { edge:Footballer906 ( true, none ) } .
+edge:Footballer851 [ * xsd:integer ?J7A  ] :: { foaf:Footballer783 ( true ), edge:Footballer77 ( false, true ) } .
+foaf:Footballer974 [  xsd:string ?c9p = none ] :: { foaf:Footballer33 ( false ), foaf:Footballer577 ( true ) } .
+edge:Footballer595 [ ? xsd:integer ?w0T = 0, ! xsd:string ?L4j  ] :: { edge:Footballer406 ( none ), foot:Footballer39 ( true ) } .
+edge:Footballer130 [ ? List<http://edgecase.org/Im3> ?hsf  ] :: { edge:Footballer437 ( true ), schema:Footballer229 ( false ), edge:Footballer395 ( true ), edge:Footballer26 ( true ) } .
+foot:Footballer297 [ ? List<http://edgecase.org/,o> ?I3x  ] :: { foot:Footballer304 ( true ) } .
+edge:Footballer679 [  xsd:integer ?lRO  ] :: { foot:Footballer669 ( true ), edge:Footballer334 ( true ), foot:Footballer785 ( true ) } .
+foot:Footballer476 [ ! xsd:integer ?grA , * ottr:IRI ?b0V  ] :: { edge:Footballer271 ( false ) } .
+schema:Footballer164 [ ! xsd:boolean ?Q8p , ? xsd:string ?d3a ,  xsd:boolean ?I4Z  ] :: { foaf:Footballer390 ( true ), schema:Footballer643 ( none ) } .
+schema:Footballer604 [  xsd:integer ?Y6k ,  xsd:boolean ?N1K  ] :: { schema:Footballer266 ( true ) } .
+foot:Footballer867 [  xsd:boolean ?B7J ,  ottr:IRI ?D5y  ] :: { foaf:Footballer407 ( false, false ) } .
+foaf:Footballer885 [ * xsd:integer ?q8o , * xsd:boolean ?X9x  ] :: { edge:Footballer35 ( ?H2l ) } .
+edge:Footballer546 [  xsd:integer ?RGE , ! xsd:string ?Wze  ] :: { schema:Footballer475 ( true ), schema:Footballer654 ( true ) } .
+foaf:Footballer321 [ * List<http://edgecase.org/Zs> ?v2C = 2 ] :: { foot:Footballer511 ( "L" ) } .
+foaf:Footballer293 [ * Listxsd:string ?u1L = <http://example.org/Ahy> ] :: { edge:Footballer351 ( ?wjf, ?UOs, ?n7h, ?TmS, ?FtM ) } .
+foot:Footballer718 [ ! List<http://example.org/z4> ?iPQ = 0 ] :: { schema:Footballer556 ( ?cgP ), schema:Footballer423 ( -09 ) } .
+foot:Footballer316 [ ! xsd:boolean ?p5n ,  ottr:IRI ?ELQ  ] :: { foaf:Footballer273 ( none ), edge:Footballer346 ( none ), foaf:Footballer409 ( false ) } .
+schema:Footballer436 [ * Listxsd:string ?h9l , ! xsd:integer ?xfY  ] :: { foot:Footballer937 ( false, none ) } .
+foaf:Footballer872 [ ? ottr:IRI ?B0d ,  xsd:boolean ?e2H  ] :: { edge:Footballer554 ( true ), schema:Footballer639 ( none ), foot:Footballer835 ( false ) } .
+foot:Footballer472 [ * xsd:string ?Q5M  ] :: { schema:Footballer816 ( none ), edge:Footballer304 ( false ) } .
+schema:Footballer281 [  List<http://example.org/T> ?V6n = false ] :: { foot:Footballer86 ( false ), foot:Footballer716 ( false ), schema:Footballer519 ( true ) } .
+schema:Footballer645 [ ! xsd:string ?v4N  ] :: { foot:Footballer729 ( ?D1s, false, true, none ) } .
+foot:Footballer276 [ ? List<http://edgecase.org/_0> ?O3i = <http://edgecase.org/{> ] :: { foot:Footballer905 ( none, none ), foot:Footballer658 ( none ), schema:Footballer699 ( false ) } .
+foot:Footballer380 [ * List<http://edgecase.org/S?> ?P8j = 0 ] :: { foot:Footballer369 ( -7, "9", ?R0X ) } .
+schema:Footballer757 [ ? xsd:integer ?G8U  ] :: { foot:Footballer160 ( false ), foot:Footballer345 ( none ), foaf:Footballer87 ( none ), foaf:Footballer795 ( true ) } .
+foot:Footballer368 [ ! List<http://example.org/N> ?m0T = 402 ] :: { schema:Footballer651 ( ?W9A ) } .
+foaf:Footballer205 [  xsd:string ?Sgy , ! xsd:boolean ?J2K ,  xsd:boolean ?ztZ  ] :: { schema:Footballer410 ( true ), edge:Footballer977 ( false ) } .
+foot:Footballer443 [  ottr:IRI ?EJL  ] :: { edge:Footballer527 ( true ), foaf:Footballer297 ( false, none ) } .
+foaf:Footballer495 [ ? Listxsd:string ?y7b = "&2O", * List<http://edgecase.org/up5|> ?z1X = <http://example.org/V> ] :: { schema:Footballer357 ( ?c4V ) } .
+foaf:Footballer290 [ ! xsd:boolean ?t2S ,  xsd:string ?Q9N  ] :: { foot:Footballer571 ( false ), foot:Footballer183 ( false ), foaf:Footballer90 ( none ), foaf:Footballer369 ( false ) } .
+schema:Footballer205 [ * xsd:integer ?l8T = 60 ] :: { schema:Footballer306 ( ?M5p, 0 ) } .
+foaf:Footballer44 [ ? List<http://edgecase.org/4hQ> ?eDF = -006719 ] :: { foaf:Footballer265 ( ?u3C ) } .
+foot:Footballer974 [ ? List<http://edgecase.org/J=B> ?i9g = "}" ] :: { foot:Footballer945 ( ?R0s ) } .
+schema:Footballer260 [ ? xsd:string ?okf  ] :: { foaf:Footballer557 ( true ), foot:Footballer824 ( none ) } .
+edge:Footballer570 [ ! xsd:string ?P1d  ] :: { foot:Footballer562 ( false, none ) } .
+foaf:Footballer848 [ ? List<http://edgecase.org/{> ?B9U = false ] :: { edge:Footballer85 ( none ), foot:Footballer706 ( true ) } .
+foot:Footballer223 [ ! xsd:string ?A0h  ] :: { foot:Footballer245 ( false, none ), foaf:Footballer972 ( true ) } .

@@ -1,0 +1,283 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "Argentina" ;
+        foaf:birthDate    "1994-16-07"^^xsd:date ;
+        foot:clubHistory  _:b1 .
+
+_:b1    rdf:rest   rdf:nil ;
+        rdf:first  _:b2 .
+
+_:b0    foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        foot:currentClub  _:b3 ;
+        foaf:familyName   "Ã˜stergaard" .
+
+_:b4    foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b5 .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  _:b7 .
+
+_:b8    rdf:rest   _:b6 ;
+        rdf:first  _:b9 .
+
+_:b10   rdf:rest   _:b8 ;
+        rdf:first  _:b11 .
+
+_:b5    rdf:rest   _:b10 ;
+        rdf:first  _:b12 .
+
+_:b4    foot:fifaCode  "EGY" .
+
+_:b13   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b14 .
+
+_:b15   rdf:rest   rdf:nil ;
+        rdf:first  _:b16 .
+
+_:b17   rdf:rest   _:b15 ;
+        rdf:first  _:b18 .
+
+_:b14   rdf:rest   _:b17 ;
+        rdf:first  _:b19 .
+
+_:b13   foot:continent  "South America" ;
+        foot:leagues    _:b20 .
+
+_:b20   rdf:rest   rdf:nil ;
+        rdf:first  _:b21 .
+
+_:b13   foot:fifaCode  "FRA" .
+
+_:b22   foot:country      "Egypt" ;
+        foaf:birthDate    "1995-5-13"^^xsd:date ;
+        foot:clubHistory  _:b23 .
+
+_:b23   rdf:rest   rdf:nil ;
+        rdf:first  "Za" .
+
+_:b22   foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        foot:currentClub  _:b24 ;
+        foaf:familyName   "O'Neil" .
+
+_:b25   foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:teams        _:b26 .
+
+_:b27   rdf:rest   rdf:nil ;
+        rdf:first  _:b28 .
+
+_:b26   rdf:rest   _:b27 ;
+        rdf:first  _:b29 .
+
+_:b25   foot:topTeams  _:b30 .
+
+_:b31   rdf:rest   rdf:nil ;
+        rdf:first  "hv" .
+
+_:b32   rdf:rest   _:b31 ;
+        rdf:first  _:b33 .
+
+_:b30   rdf:rest   _:b32 ;
+        rdf:first  _:b34 .
+
+_:b35   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b36 .
+
+_:b37   rdf:rest   rdf:nil ;
+        rdf:first  _:b38 .
+
+_:b39   rdf:rest   _:b40 ;
+        rdf:first  _:b41 .
+
+_:b40   rdf:rest   _:b37 ;
+        rdf:first  _:b42 .
+
+_:b36   rdf:rest   _:b39 ;
+        rdf:first  _:b43 .
+
+_:b35   foot:fifaCode  "POR" .
+
+_:b44   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b45 .
+
+_:b46   rdf:rest   rdf:nil ;
+        rdf:first  _:b47 .
+
+_:b48   rdf:rest   _:b46 ;
+        rdf:first  _:b49 .
+
+_:b50   rdf:rest   _:b48 ;
+        rdf:first  _:b51 .
+
+_:b45   rdf:rest   _:b50 ;
+        rdf:first  _:b52 .
+
+_:b44   foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b53   foot:country      "France" ;
+        foaf:birthDate    "2024-7-24"^^xsd:date ;
+        foot:clubHistory  _:b54 .
+
+_:b54   rdf:rest   rdf:nil ;
+        rdf:first  _:b55 .
+
+_:b53   foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        foot:currentClub  _:b56 ;
+        foaf:familyName   "Mbappe" .
+
+_:b57   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "ARG" .
+
+_:b58   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b59 .
+
+_:b60   rdf:rest   _:b61 ;
+        rdf:first  _:b62 .
+
+_:b61   rdf:rest   rdf:nil ;
+        rdf:first  _:b63 .
+
+_:b59   rdf:rest   _:b60 ;
+        rdf:first  _:b64 .
+
+_:b58   foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b65   foot:country      "France" ;
+        foaf:birthDate    "2028-2-28"^^xsd:date ;
+        foot:clubHistory  _:b66 .
+
+_:b66   rdf:rest   rdf:nil ;
+        rdf:first  _:b67 .
+
+_:b65   foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Amadou" ;
+        foot:position     "Midfielder" ;
+        foot:currentClub  _:b68 ;
+        foaf:familyName   "" .
+
+_:b69   foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:teams        _:b70 .
+
+_:b71   rdf:rest   rdf:nil ;
+        rdf:first  "fF" .
+
+_:b72   rdf:rest   rdf:nil ;
+        rdf:first  _:b71 .
+
+_:b70   rdf:rest   _:b72 ;
+        rdf:first  "dx" .
+
+_:b69   foot:topTeams  _:b73 .
+
+_:b73   rdf:rest   _:b74 ;
+        rdf:first  _:b75 .
+
+_:b76   rdf:rest   rdf:nil ;
+        rdf:first  "Zw" .
+
+_:b74   rdf:rest   _:b76 ;
+        rdf:first  _:b77 .
+
+_:b78   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b79 .
+
+_:b79   rdf:rest   _:b80 ;
+        rdf:first  _:b81 .
+
+_:b82   rdf:rest   rdf:nil ;
+        rdf:first  _:b83 .
+
+_:b80   rdf:rest   _:b84 ;
+        rdf:first  _:b85 .
+
+_:b84   rdf:rest   _:b82 ;
+        rdf:first  _:b86 .
+
+_:b78   foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b87   foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:teams        _:b88 .
+
+_:b88   rdf:rest   rdf:nil ;
+        rdf:first  "lD" .
+
+_:b87   foot:topTeams  _:b89 .
+
+_:b90   rdf:rest   _:b91 ;
+        rdf:first  _:b92 .
+
+_:b93   rdf:rest   _:b90 ;
+        rdf:first  _:b94 .
+
+_:b91   rdf:rest   rdf:nil ;
+        rdf:first  _:b95 .
+
+_:b89   rdf:rest   _:b93 ;
+        rdf:first  _:b96 .
+
+_:b97   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b98 .
+
+_:b99   rdf:rest   _:b100 ;
+        rdf:first  _:b101 .
+
+_:b100  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b98   rdf:rest   _:b99 ;
+        rdf:first  _:b102 .
+
+_:b97   foot:fifaCode  "POR" .
+
+_:b103  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "ARG" .

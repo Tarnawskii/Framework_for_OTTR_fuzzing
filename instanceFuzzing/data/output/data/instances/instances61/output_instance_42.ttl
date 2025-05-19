@@ -1,0 +1,31 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "Egypt" ;
+        foaf:birthDate    "2000-06-14"^^xsd:date ;
+        foot:marketValue  100100100100100100100100100 ;
+        foot:clubHistory  _:b1 .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  "Arsenal FC" .
+
+_:b3    rdf:rest   _:b2 ;
+        rdf:first  "FC Porto" .
+
+_:b4    rdf:rest   _:b3 ;
+        rdf:first  "FC Barcelona" .
+
+_:b1    rdf:rest   _:b4 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b0    rdf:type         foot:Footballer ;
+        foot:position    "Defender" ;
+        foaf:name        "Lionel" ;
+        foaf:familyName  "Núñez" .

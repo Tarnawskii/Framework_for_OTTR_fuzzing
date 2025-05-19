@@ -1,0 +1,1853 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "Portugal" ;
+        foaf:birthDate    "2024-3-19"^^xsd:date ;
+        foot:clubHistory  _:b1 .
+
+_:b1    rdf:rest   rdf:nil ;
+        rdf:first  "rc" .
+
+_:b0    foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Barcelona" .
+
+_:b2    foaf:name           "!zg" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "POR" .
+
+_:b3    foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b4 .
+
+_:b5    rdf:rest   _:b6 ;
+        rdf:first  _:b7 .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  "iZ" .
+
+_:b8    rdf:rest   _:b5 ;
+        rdf:first  _:b9 .
+
+_:b4    rdf:rest   _:b10 ;
+        rdf:first  _:b11 .
+
+_:b10   rdf:rest   _:b8 ;
+        rdf:first  _:b12 .
+
+_:b3    foot:teams  _:b13 .
+
+_:b13   rdf:rest   rdf:nil ;
+        rdf:first  "IS" .
+
+_:b14   foot:country      "Egypt" ;
+        foaf:birthDate    "2020-5-28"^^xsd:date ;
+        foot:clubHistory  _:b15 .
+
+_:b15   rdf:rest   rdf:nil ;
+        rdf:first  "VP" .
+
+_:b14   foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Manchester United" .
+
+_:b16   foot:country      "Argentina" ;
+        foaf:birthDate    "1996-18-25"^^xsd:date ;
+        foot:clubHistory  _:b17 .
+
+_:b17   rdf:rest   rdf:nil ;
+        rdf:first  "sm" .
+
+_:b16   foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Barcelona" .
+
+_:b18   foot:country      "England" ;
+        foaf:birthDate    "1990-18-27"^^xsd:date ;
+        foot:clubHistory  _:b19 .
+
+_:b19   rdf:rest   rdf:nil ;
+        rdf:first  "lb" .
+
+_:b18   foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Liverpool" .
+
+_:b20   foot:country      "Egypt" ;
+        foaf:birthDate    "2025-11-17"^^xsd:date ;
+        foot:clubHistory  _:b21 .
+
+_:b21   rdf:rest   rdf:nil ;
+        rdf:first  "uj" .
+
+_:b20   foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b22   foaf:name           "*" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "FRA" .
+
+_:b23   foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b24 .
+
+_:b24   rdf:rest   rdf:nil ;
+        rdf:first  _:b25 .
+
+_:b23   foot:teams  _:b26 .
+
+_:b26   rdf:rest   rdf:nil ;
+        rdf:first  "" .
+
+_:b27   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b28 .
+
+_:b29   rdf:rest   rdf:nil ;
+        rdf:first  _:b30 .
+
+_:b31   rdf:rest   _:b29 ;
+        rdf:first  _:b32 .
+
+_:b28   rdf:rest   _:b31 ;
+        rdf:first  _:b33 .
+
+_:b27   foot:continent  "~yZ" ;
+        foot:leagues    _:b34 .
+
+_:b34   rdf:rest   rdf:nil ;
+        rdf:first  "^pl" .
+
+_:b27   foot:fifaCode  "ARG" .
+
+_:b35   foot:country      "France" ;
+        foaf:birthDate    "1993-18-14"^^xsd:date ;
+        foot:clubHistory  _:b36 .
+
+_:b36   rdf:rest   rdf:nil ;
+        rdf:first  _:b37 .
+
+_:b35   foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b38   foot:country      "Portugal" ;
+        foaf:birthDate    "1999-2-19"^^xsd:date ;
+        foot:clubHistory  _:b39 .
+
+_:b39   rdf:rest   rdf:nil ;
+        rdf:first  _:b40 .
+
+_:b38   foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Liverpool" .
+
+_:b41   foot:country      "England" ;
+        foaf:birthDate    "1996-6-28"^^xsd:date ;
+        foot:clubHistory  _:b42 .
+
+_:b42   rdf:rest   rdf:nil ;
+        rdf:first  "HX" .
+
+_:b41   foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Manchester United" .
+
+_:b43   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b44 .
+
+_:b45   rdf:rest   _:b46 ;
+        rdf:first  _:b47 .
+
+_:b46   rdf:rest   rdf:nil ;
+        rdf:first  _:b48 .
+
+_:b44   rdf:rest   _:b49 ;
+        rdf:first  _:b50 .
+
+_:b49   rdf:rest   _:b45 ;
+        rdf:first  _:b51 .
+
+_:b43   foot:fifaCode  "ENG" .
+
+_:b52   foot:country      "Egypt" ;
+        foaf:birthDate    "2024-16-19"^^xsd:date ;
+        foot:clubHistory  _:b53 .
+
+_:b53   rdf:rest   rdf:nil ;
+        rdf:first  "la" .
+
+_:b52   foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b54   foot:country      "Argentina" ;
+        foaf:birthDate    "1993-14-01"^^xsd:date ;
+        foot:clubHistory  _:b55 .
+
+_:b55   rdf:rest   rdf:nil ;
+        rdf:first  _:b56 .
+
+_:b54   foot:marketValue  150000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Barcelona" .
+
+_:b57   foot:country      "Argentina" ;
+        foaf:birthDate    "2024-2-05"^^xsd:date ;
+        foot:clubHistory  _:b58 .
+
+_:b58   rdf:rest   rdf:nil ;
+        rdf:first  "rg" .
+
+_:b57   foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Liverpool" .
+
+_:b59   foaf:name           "_" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "FRA" .
+
+_:b60   foot:country      "France" ;
+        foaf:birthDate    "1996-12-00"^^xsd:date ;
+        foot:clubHistory  _:b61 .
+
+_:b61   rdf:rest   rdf:nil ;
+        rdf:first  _:b62 .
+
+_:b60   foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Juventus" .
+
+_:b63   foot:country      "Portugal" ;
+        foaf:birthDate    "1996-15-03"^^xsd:date ;
+        foot:clubHistory  _:b64 .
+
+_:b64   rdf:rest   rdf:nil ;
+        rdf:first  "oM" .
+
+_:b63   foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Liverpool" .
+
+_:b65   foot:country      "France" ;
+        foaf:birthDate    "2023-19-05"^^xsd:date ;
+        foot:clubHistory  _:b66 .
+
+_:b66   rdf:rest   rdf:nil ;
+        rdf:first  _:b67 .
+
+_:b65   foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b68   foot:country      "France" ;
+        foaf:birthDate    "1993-6-09"^^xsd:date ;
+        foot:clubHistory  _:b69 .
+
+_:b69   rdf:rest   rdf:nil ;
+        rdf:first  _:b70 .
+
+_:b68   foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Barcelona" .
+
+_:b71   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b72 .
+
+_:b73   rdf:rest   rdf:nil ;
+        rdf:first  _:b74 .
+
+_:b75   rdf:rest   _:b76 ;
+        rdf:first  _:b77 .
+
+_:b72   rdf:rest   _:b75 ;
+        rdf:first  _:b78 .
+
+_:b76   rdf:rest   _:b73 ;
+        rdf:first  _:b79 .
+
+_:b71   foot:fifaCode  "ARG" .
+
+_:b80   foot:country      "Egypt" ;
+        foaf:birthDate    "2026-15-20"^^xsd:date ;
+        foot:clubHistory  _:b81 .
+
+_:b81   rdf:rest   rdf:nil ;
+        rdf:first  "Ar" .
+
+_:b80   foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Barcelona" .
+
+_:b82   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b83 .
+
+_:b84   rdf:rest   rdf:nil ;
+        rdf:first  _:b85 .
+
+_:b86   rdf:rest   _:b84 ;
+        rdf:first  _:b87 .
+
+_:b88   rdf:rest   _:b86 ;
+        rdf:first  _:b89 .
+
+_:b83   rdf:rest   _:b88 ;
+        rdf:first  _:b90 .
+
+_:b82   foot:fifaCode  "FRA" .
+
+_:b91   foot:country      "Egypt" ;
+        foaf:birthDate    "1999-3-10"^^xsd:date ;
+        foot:clubHistory  _:b92 .
+
+_:b92   rdf:rest   rdf:nil ;
+        rdf:first  "Vo" .
+
+_:b91   foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Barcelona" .
+
+_:b93   foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b94 .
+
+_:b94   rdf:rest   rdf:nil ;
+        rdf:first  "tC" .
+
+_:b95   foot:country      "Portugal" ;
+        foaf:birthDate    "2024-10-14"^^xsd:date ;
+        foot:clubHistory  _:b96 .
+
+_:b96   rdf:rest   rdf:nil ;
+        rdf:first  _:b97 .
+
+_:b95   foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Juventus" .
+
+_:b98   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "ARG" .
+
+_:b99   foot:country      "Argentina" ;
+        foaf:birthDate    "2024-9-15"^^xsd:date ;
+        foot:clubHistory  _:b100 .
+
+_:b100  rdf:rest   rdf:nil ;
+        rdf:first  _:b101 .
+
+_:b99   foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Manchester United" .
+
+_:b102  foot:country      "Portugal" ;
+        foaf:birthDate    "1999-15-19"^^xsd:date ;
+        foot:clubHistory  _:b103 .
+
+_:b103  rdf:rest   rdf:nil ;
+        rdf:first  "Eh" .
+
+_:b102  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Liverpool" .
+
+_:b104  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b105 .
+
+_:b105  rdf:rest   rdf:nil ;
+        rdf:first  _:b106 .
+
+_:b104  foot:fifaCode  "EGY" .
+
+_:b107  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b108 .
+
+_:b109  rdf:rest   _:b110 ;
+        rdf:first  _:b111 .
+
+_:b108  rdf:rest   _:b112 ;
+        rdf:first  _:b113 .
+
+_:b112  rdf:rest   _:b109 ;
+        rdf:first  _:b114 .
+
+_:b110  rdf:rest   rdf:nil ;
+        rdf:first  "}" .
+
+_:b107  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b115  foot:country      "France" ;
+        foaf:birthDate    "1998-18-27"^^xsd:date ;
+        foot:clubHistory  _:b116 .
+
+_:b116  rdf:rest   rdf:nil ;
+        rdf:first  "Nb" .
+
+_:b115  foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Manchester United" .
+
+_:b117  foot:country      "Argentina" ;
+        foaf:birthDate    "2020-2-17"^^xsd:date ;
+        foot:clubHistory  _:b118 .
+
+_:b118  rdf:rest   rdf:nil ;
+        rdf:first  "bE" .
+
+_:b117  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Barcelona" .
+
+_:b119  foot:country      "Egypt" ;
+        foaf:birthDate    "2028-15-07"^^xsd:date ;
+        foot:clubHistory  _:b120 .
+
+_:b120  rdf:rest   rdf:nil ;
+        rdf:first  _:b121 .
+
+_:b119  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Liverpool" .
+
+_:b122  foot:country      "Portugal" ;
+        foaf:birthDate    "2026-8-29"^^xsd:date ;
+        foot:clubHistory  _:b123 .
+
+_:b123  rdf:rest   rdf:nil ;
+        rdf:first  _:b124 .
+
+_:b122  foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Juventus" .
+
+_:b125  foot:country      "Argentina" ;
+        foaf:birthDate    "1990-6-10"^^xsd:date ;
+        foot:clubHistory  _:b126 .
+
+_:b126  rdf:rest   rdf:nil ;
+        rdf:first  "Ae" .
+
+_:b125  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Juventus" .
+
+_:b127  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b128 .
+
+_:b129  rdf:rest   _:b130 ;
+        rdf:first  _:b131 .
+
+_:b132  rdf:rest   rdf:nil ;
+        rdf:first  _:b133 .
+
+_:b128  rdf:rest   _:b129 ;
+        rdf:first  _:b134 .
+
+_:b130  rdf:rest   _:b132 ;
+        rdf:first  _:b135 .
+
+_:b127  foot:fifaCode  "POR" .
+
+_:b136  foot:country      "Argentina" ;
+        foaf:birthDate    "1993-9-21"^^xsd:date ;
+        foot:clubHistory  _:b137 .
+
+_:b137  rdf:rest   rdf:nil ;
+        rdf:first  _:b138 .
+
+_:b136  foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Barcelona" .
+
+_:b139  foot:country      "England" ;
+        foaf:birthDate    "2028-6-28"^^xsd:date ;
+        foot:clubHistory  _:b140 .
+
+_:b140  rdf:rest   rdf:nil ;
+        rdf:first  _:b141 .
+
+_:b139  foot:marketValue  150000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Juventus" .
+
+_:b142  foot:country      "Portugal" ;
+        foaf:birthDate    "2025-15-00"^^xsd:date ;
+        foot:clubHistory  _:b143 .
+
+_:b143  rdf:rest   rdf:nil ;
+        rdf:first  _:b144 .
+
+_:b142  foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Manchester United" .
+
+_:b145  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b146 .
+
+_:b147  rdf:rest   rdf:nil ;
+        rdf:first  _:b148 .
+
+_:b146  rdf:rest   _:b149 ;
+        rdf:first  _:b150 .
+
+_:b149  rdf:rest   _:b151 ;
+        rdf:first  _:b152 .
+
+_:b151  rdf:rest   _:b147 ;
+        rdf:first  _:b153 .
+
+_:b145  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b154  foot:country      "Portugal" ;
+        foaf:birthDate    "2023-13-29"^^xsd:date ;
+        foot:clubHistory  _:b155 .
+
+_:b155  rdf:rest   rdf:nil ;
+        rdf:first  _:b156 .
+
+_:b154  foot:marketValue  150000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Barcelona" .
+
+_:b157  foot:country      "France" ;
+        foaf:birthDate    "2026-10-16"^^xsd:date ;
+        foot:clubHistory  _:b158 .
+
+_:b158  rdf:rest   rdf:nil ;
+        rdf:first  "tj" .
+
+_:b157  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Barcelona" .
+
+_:b159  foot:country      "" ;
+        foot:stadiumName  "_" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Paris Saint-Germain" .
+
+_:b160  foot:country      "Argentina" ;
+        foaf:birthDate    "2028-1-27"^^xsd:date ;
+        foot:clubHistory  _:b161 .
+
+_:b161  rdf:rest   rdf:nil ;
+        rdf:first  _:b162 .
+
+_:b160  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b163  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b164 .
+
+_:b164  rdf:rest   _:b165 ;
+        rdf:first  _:b166 .
+
+_:b167  rdf:rest   rdf:nil ;
+        rdf:first  _:b168 .
+
+_:b169  rdf:rest   _:b167 ;
+        rdf:first  _:b170 .
+
+_:b165  rdf:rest   _:b169 ;
+        rdf:first  _:b171 .
+
+_:b163  foot:teams  _:b172 .
+
+_:b173  rdf:rest   rdf:nil ;
+        rdf:first  _:b174 .
+
+_:b175  rdf:rest   rdf:nil ;
+        rdf:first  _:b173 .
+
+_:b172  rdf:rest   _:b175 ;
+        rdf:first  "CB" .
+
+_:b176  foot:country      "Egypt" ;
+        foaf:birthDate    "1999-3-07"^^xsd:date ;
+        foot:clubHistory  _:b177 .
+
+_:b177  rdf:rest   rdf:nil ;
+        rdf:first  "vc" .
+
+_:b176  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b178  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b179 .
+
+_:b179  rdf:rest   _:b180 ;
+        rdf:first  _:b181 .
+
+_:b182  rdf:rest   rdf:nil ;
+        rdf:first  _:b183 .
+
+_:b180  rdf:rest   _:b184 ;
+        rdf:first  _:b185 .
+
+_:b184  rdf:rest   _:b182 ;
+        rdf:first  _:b186 .
+
+_:b178  foot:continent  "Africa" ;
+        foot:leagues    _:b187 .
+
+_:b187  rdf:rest   rdf:nil ;
+        rdf:first  "" .
+
+_:b178  foot:fifaCode  "EGY" .
+
+_:b188  foot:country      "France" ;
+        foaf:birthDate    "2027-12-00"^^xsd:date ;
+        foot:clubHistory  _:b189 .
+
+_:b189  rdf:rest   rdf:nil ;
+        rdf:first  _:b190 .
+
+_:b188  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Juventus" .
+
+_:b191  foot:country      "Argentina" ;
+        foaf:birthDate    "1997-17-26"^^xsd:date ;
+        foot:clubHistory  _:b192 .
+
+_:b192  rdf:rest   rdf:nil ;
+        rdf:first  _:b193 .
+
+_:b191  foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Manchester United" .
+
+_:b194  foot:country      "Portugal" ;
+        foaf:birthDate    "1993-19-14"^^xsd:date ;
+        foot:clubHistory  _:b195 .
+
+_:b195  rdf:rest   rdf:nil ;
+        rdf:first  _:b196 .
+
+_:b194  foot:marketValue  150000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Liverpool" .
+
+_:b197  foot:country      "France" ;
+        foaf:birthDate    "1998-8-00"^^xsd:date ;
+        foot:clubHistory  _:b198 .
+
+_:b198  rdf:rest   rdf:nil ;
+        rdf:first  "DF" .
+
+_:b197  foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Juventus" .
+
+_:b199  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b200 .
+
+_:b201  rdf:rest   rdf:nil ;
+        rdf:first  _:b202 .
+
+_:b203  rdf:rest   _:b201 ;
+        rdf:first  _:b204 .
+
+_:b200  rdf:rest   _:b203 ;
+        rdf:first  _:b205 .
+
+_:b199  foot:continent  "South America" ;
+        foot:leagues    _:b206 .
+
+_:b206  rdf:rest   rdf:nil ;
+        rdf:first  _:b207 .
+
+_:b199  foot:fifaCode  "ENG" .
+
+_:b208  foot:country      "England" ;
+        foaf:birthDate    "2027-18-04"^^xsd:date ;
+        foot:clubHistory  _:b209 .
+
+_:b209  rdf:rest   rdf:nil ;
+        rdf:first  "JY" .
+
+_:b208  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Liverpool" .
+
+_:b210  foot:country      "England" ;
+        foaf:birthDate    "2020-8-06"^^xsd:date ;
+        foot:clubHistory  _:b211 .
+
+_:b211  rdf:rest   rdf:nil ;
+        rdf:first  _:b212 .
+
+_:b210  foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Manchester United" .
+
+_:b213  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b214 .
+
+_:b215  rdf:rest   _:b216 ;
+        rdf:first  _:b217 .
+
+_:b214  rdf:rest   _:b218 ;
+        rdf:first  _:b219 .
+
+_:b218  rdf:rest   _:b215 ;
+        rdf:first  _:b220 .
+
+_:b216  rdf:rest   rdf:nil ;
+        rdf:first  _:b221 .
+
+_:b213  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "" .
+
+_:b222  foot:country      "Portugal" ;
+        foaf:birthDate    "1993-11-23"^^xsd:date ;
+        foot:clubHistory  _:b223 .
+
+_:b223  rdf:rest   rdf:nil ;
+        rdf:first  "Im" .
+
+_:b222  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b224  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b225 .
+
+_:b226  rdf:rest   rdf:nil ;
+        rdf:first  _:b227 .
+
+_:b228  rdf:rest   _:b226 ;
+        rdf:first  _:b229 .
+
+_:b225  rdf:rest   _:b230 ;
+        rdf:first  _:b231 .
+
+_:b230  rdf:rest   _:b228 ;
+        rdf:first  _:b232 .
+
+_:b224  foot:fifaCode  "EGY" .
+
+_:b233  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "ARG" .
+
+_:b234  foot:country      "Argentina" ;
+        foaf:birthDate    "1996-8-19"^^xsd:date ;
+        foot:clubHistory  _:b235 .
+
+_:b235  rdf:rest   rdf:nil ;
+        rdf:first  _:b236 .
+
+_:b234  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b237  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b238 .
+
+_:b239  rdf:rest   rdf:nil ;
+        rdf:first  "<PX" .
+
+_:b238  rdf:rest   _:b239 ;
+        rdf:first  _:b240 .
+
+_:b237  foot:fifaCode  "EGY" .
+
+_:b241  foot:country      "Egypt" ;
+        foaf:birthDate    "1999-17-09"^^xsd:date ;
+        foot:clubHistory  _:b242 .
+
+_:b242  rdf:rest   rdf:nil ;
+        rdf:first  _:b243 .
+
+_:b241  foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Juventus" .
+
+_:b244  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b245 .
+
+_:b246  rdf:rest   rdf:nil ;
+        rdf:first  _:b247 .
+
+_:b245  rdf:rest   _:b248 ;
+        rdf:first  _:b249 .
+
+_:b248  rdf:rest   _:b246 ;
+        rdf:first  _:b250 .
+
+_:b244  foot:fifaCode  "EGY" .
+
+_:b251  foot:country      "England" ;
+        foaf:birthDate    "2029-13-02"^^xsd:date ;
+        foot:clubHistory  _:b252 .
+
+_:b252  rdf:rest   rdf:nil ;
+        rdf:first  _:b253 .
+
+_:b251  foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b254  foot:country      "Egypt" ;
+        foaf:birthDate    "2020-9-23"^^xsd:date ;
+        foot:clubHistory  _:b255 .
+
+_:b255  rdf:rest   rdf:nil ;
+        rdf:first  _:b256 .
+
+_:b254  foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Juventus" .
+
+_:b257  foot:country      "Egypt" ;
+        foaf:birthDate    "1999-9-02"^^xsd:date ;
+        foot:clubHistory  _:b258 .
+
+_:b258  rdf:rest   rdf:nil ;
+        rdf:first  "Mt" .
+
+_:b257  foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Manchester United" .
+
+_:b259  foaf:name           "=IO" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b260 .
+
+_:b261  rdf:rest   _:b262 ;
+        rdf:first  _:b263 .
+
+_:b262  rdf:rest   rdf:nil ;
+        rdf:first  _:b264 .
+
+_:b260  rdf:rest   _:b261 ;
+        rdf:first  _:b265 .
+
+_:b259  foot:continent  "" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b266  foot:country      "France" ;
+        foaf:birthDate    "1996-12-26"^^xsd:date ;
+        foot:clubHistory  _:b267 .
+
+_:b267  rdf:rest   rdf:nil ;
+        rdf:first  _:b268 .
+
+_:b266  foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Manchester United" .
+
+_:b269  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b270 .
+
+_:b271  rdf:rest   rdf:nil ;
+        rdf:first  _:b272 .
+
+_:b273  rdf:rest   _:b271 ;
+        rdf:first  _:b274 .
+
+_:b270  rdf:rest   _:b275 ;
+        rdf:first  _:b276 .
+
+_:b275  rdf:rest   _:b273 ;
+        rdf:first  _:b277 .
+
+_:b269  foot:fifaCode  "EGY" .
+
+_:b278  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b279 .
+
+_:b279  rdf:rest   _:b280 ;
+        rdf:first  _:b281 .
+
+_:b282  rdf:rest   _:b283 ;
+        rdf:first  _:b284 .
+
+_:b283  rdf:rest   rdf:nil ;
+        rdf:first  _:b285 .
+
+_:b280  rdf:rest   _:b282 ;
+        rdf:first  _:b286 .
+
+_:b278  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b287  foot:country      "Egypt" ;
+        foaf:birthDate    "1997-16-01"^^xsd:date ;
+        foot:clubHistory  _:b288 .
+
+_:b288  rdf:rest   rdf:nil ;
+        rdf:first  _:b289 .
+
+_:b287  foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Juventus" .
+
+_:b290  foot:country      "Egypt" ;
+        foaf:birthDate    "1993-10-19"^^xsd:date ;
+        foot:clubHistory  _:b291 .
+
+_:b291  rdf:rest   rdf:nil ;
+        rdf:first  _:b292 .
+
+_:b290  foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b293  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b294 .
+
+_:b295  rdf:rest   _:b296 ;
+        rdf:first  _:b297 .
+
+_:b298  rdf:rest   _:b295 ;
+        rdf:first  _:b299 .
+
+_:b294  rdf:rest   _:b298 ;
+        rdf:first  _:b300 .
+
+_:b296  rdf:rest   rdf:nil ;
+        rdf:first  _:b301 .
+
+_:b293  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b302  foot:country      "England" ;
+        foaf:birthDate    "1990-5-12"^^xsd:date ;
+        foot:clubHistory  _:b303 .
+
+_:b303  rdf:rest   rdf:nil ;
+        rdf:first  "wC" .
+
+_:b302  foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Liverpool" .
+
+_:b304  foot:country      "France" ;
+        foaf:birthDate    "2023-6-11"^^xsd:date ;
+        foot:clubHistory  _:b305 .
+
+_:b305  rdf:rest   rdf:nil ;
+        rdf:first  _:b306 .
+
+_:b304  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Juventus" .
+
+_:b307  foot:country      "France" ;
+        foaf:birthDate    "2029-15-09"^^xsd:date ;
+        foot:clubHistory  _:b308 .
+
+_:b308  rdf:rest   rdf:nil ;
+        rdf:first  _:b309 .
+
+_:b307  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Liverpool" .
+
+_:b310  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b311 .
+
+_:b312  rdf:rest   _:b313 ;
+        rdf:first  _:b314 .
+
+_:b311  rdf:rest   _:b312 ;
+        rdf:first  _:b315 .
+
+_:b313  rdf:rest   _:b316 ;
+        rdf:first  _:b317 .
+
+_:b316  rdf:rest   rdf:nil ;
+        rdf:first  _:b318 .
+
+_:b310  foot:fifaCode  "ARG" .
+
+_:b319  foot:country      "Portugal" ;
+        foaf:birthDate    "2023-4-20"^^xsd:date ;
+        foot:clubHistory  _:b320 .
+
+_:b320  rdf:rest   rdf:nil ;
+        rdf:first  "wd" .
+
+_:b319  foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Liverpool" .
+
+_:b321  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "(" ;
+        foot:leagues        _:b322 .
+
+_:b322  rdf:rest   rdf:nil ;
+        rdf:first  " " .
+
+_:b321  foot:fifaCode  "" .
+
+_:b323  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b324 .
+
+_:b324  rdf:rest   _:b325 ;
+        rdf:first  "fJ" .
+
+_:b326  rdf:rest   rdf:nil ;
+        rdf:first  "qD" .
+
+_:b327  rdf:rest   _:b326 ;
+        rdf:first  "ap" .
+
+_:b325  rdf:rest   _:b327 ;
+        rdf:first  "iL" .
+
+_:b323  foot:teams  _:b328 .
+
+_:b329  rdf:rest   rdf:nil ;
+        rdf:first  _:b330 .
+
+_:b330  rdf:rest   rdf:nil ;
+        rdf:first  _:b331 .
+
+_:b328  rdf:rest   _:b329 ;
+        rdf:first  "sw" .
+
+_:b332  foot:country      "Argentina" ;
+        foaf:birthDate    "2025-2-24"^^xsd:date ;
+        foot:clubHistory  _:b333 .
+
+_:b333  rdf:rest   rdf:nil ;
+        rdf:first  "yb" .
+
+_:b332  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Barcelona" .
+
+_:b334  foot:country      "Argentina" ;
+        foaf:birthDate    "1997-6-04"^^xsd:date ;
+        foot:clubHistory  _:b335 .
+
+_:b335  rdf:rest   rdf:nil ;
+        rdf:first  "yx" .
+
+_:b334  foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Barcelona" .
+
+_:b336  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b337 .
+
+_:b337  rdf:rest   rdf:nil ;
+        rdf:first  ")" .
+
+_:b336  foot:continent  "South America" ;
+        foot:leagues    "/" ;
+        foot:fifaCode   "ENG" .
+
+_:b338  foot:country      "Argentina" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b339  foot:country      "Portugal" ;
+        foaf:birthDate    "1997-19-26"^^xsd:date ;
+        foot:clubHistory  _:b340 .
+
+_:b340  rdf:rest   rdf:nil ;
+        rdf:first  "Uy" .
+
+_:b339  foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Juventus" .
+
+_:b341  foot:country      "Egypt" ;
+        foaf:birthDate    "1996-19-11"^^xsd:date ;
+        foot:clubHistory  _:b342 .
+
+_:b342  rdf:rest   rdf:nil ;
+        rdf:first  _:b343 .
+
+_:b341  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b344  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b345 .
+
+_:b346  rdf:rest   rdf:nil ;
+        rdf:first  _:b347 .
+
+_:b348  rdf:rest   _:b346 ;
+        rdf:first  _:b349 .
+
+_:b345  rdf:rest   _:b350 ;
+        rdf:first  _:b351 .
+
+_:b350  rdf:rest   _:b348 ;
+        rdf:first  _:b352 .
+
+_:b344  foot:teams  _:b353 .
+
+_:b353  rdf:rest   rdf:nil ;
+        rdf:first  "q" .
+
+_:b354  foot:country      "Egypt" ;
+        foaf:birthDate    "2026-0-11"^^xsd:date ;
+        foot:clubHistory  _:b355 .
+
+_:b355  rdf:rest   rdf:nil ;
+        rdf:first  "kL" .
+
+_:b354  foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Juventus" .
+
+_:b356  foot:country      "Argentina" ;
+        foaf:birthDate    "1996-15-16"^^xsd:date ;
+        foot:clubHistory  _:b357 .
+
+_:b357  rdf:rest   rdf:nil ;
+        rdf:first  "yt" .
+
+_:b356  foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Juventus" .
+
+_:b358  foaf:name           "<" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "POR" .
+
+_:b359  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b360 .
+
+_:b361  rdf:rest   rdf:nil ;
+        rdf:first  _:b362 .
+
+_:b363  rdf:rest   _:b361 ;
+        rdf:first  _:b364 .
+
+_:b360  rdf:rest   _:b363 ;
+        rdf:first  _:b365 .
+
+_:b359  foot:continent  "South America" ;
+        foot:leagues    _:b366 .
+
+_:b367  rdf:rest   rdf:nil ;
+        rdf:first  _:b368 .
+
+_:b366  rdf:rest   _:b369 ;
+        rdf:first  _:b370 .
+
+_:b369  rdf:rest   _:b367 ;
+        rdf:first  _:b371 .
+
+_:b359  foot:fifaCode  "FRA" .
+
+_:b372  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b373 .
+
+_:b374  rdf:rest   rdf:nil ;
+        rdf:first  _:b375 .
+
+_:b373  rdf:rest   _:b374 ;
+        rdf:first  _:b376 .
+
+_:b372  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b377  foot:country      "Portugal" ;
+        foaf:birthDate    "2020-7-01"^^xsd:date ;
+        foot:clubHistory  _:b378 .
+
+_:b378  rdf:rest   rdf:nil ;
+        rdf:first  _:b379 .
+
+_:b377  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Barcelona" .
+
+_:b380  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b381 .
+
+_:b381  rdf:rest   _:b382 ;
+        rdf:first  _:b383 .
+
+_:b384  rdf:rest   _:b385 ;
+        rdf:first  _:b386 .
+
+_:b382  rdf:rest   _:b384 ;
+        rdf:first  _:b387 .
+
+_:b385  rdf:rest   rdf:nil ;
+        rdf:first  _:b388 .
+
+_:b380  foot:continent  "North America" ;
+        foot:leagues    _:b389 .
+
+_:b389  rdf:rest   rdf:nil ;
+        rdf:first  _:b390 .
+
+_:b380  foot:fifaCode  "FRA" .
+
+_:b391  foot:country      "France" ;
+        foaf:birthDate    "1997-2-26"^^xsd:date ;
+        foot:clubHistory  _:b392 .
+
+_:b392  rdf:rest   rdf:nil ;
+        rdf:first  "Ym" .
+
+_:b391  foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Liverpool" .
+
+_:b393  foot:country      "Portugal" ;
+        foaf:birthDate    "2025-9-27"^^xsd:date ;
+        foot:clubHistory  _:b394 .
+
+_:b394  rdf:rest   rdf:nil ;
+        rdf:first  "sx" .
+
+_:b393  foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b395  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "&" ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b396 .
+
+_:b396  rdf:rest   rdf:nil ;
+        rdf:first  _:b397 .
+
+_:b398  foot:country      "Argentina" ;
+        foaf:birthDate    "2024-16-25"^^xsd:date ;
+        foot:clubHistory  _:b399 .
+
+_:b399  rdf:rest   rdf:nil ;
+        rdf:first  _:b400 .
+
+_:b398  foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Barcelona" .
+
+_:b401  foot:country      "France" ;
+        foaf:birthDate    "2026-1-19"^^xsd:date ;
+        foot:clubHistory  _:b402 .
+
+_:b402  rdf:rest   rdf:nil ;
+        rdf:first  _:b403 .
+
+_:b401  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Juventus" .
+
+_:b404  foot:country      "Egypt" ;
+        foaf:birthDate    "2028-0-15"^^xsd:date ;
+        foot:clubHistory  _:b405 .
+
+_:b405  rdf:rest   rdf:nil ;
+        rdf:first  _:b406 .
+
+_:b404  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Juventus" .
+
+_:b407  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b408 .
+
+_:b409  rdf:rest   _:b410 ;
+        rdf:first  _:b411 .
+
+_:b408  rdf:rest   _:b412 ;
+        rdf:first  _:b413 .
+
+_:b410  rdf:rest   rdf:nil ;
+        rdf:first  _:b414 .
+
+_:b412  rdf:rest   _:b409 ;
+        rdf:first  _:b415 .
+
+_:b407  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b416  foot:country      "Portugal" ;
+        foaf:birthDate    "2027-11-15"^^xsd:date ;
+        foot:clubHistory  _:b417 .
+
+_:b417  rdf:rest   rdf:nil ;
+        rdf:first  "xy" .
+
+_:b416  foot:marketValue  150000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Liverpool" .
+
+_:b418  foot:country      "France" ;
+        foaf:birthDate    "1997-9-21"^^xsd:date ;
+        foot:clubHistory  _:b419 .
+
+_:b419  rdf:rest   rdf:nil ;
+        rdf:first  "Nn" .
+
+_:b418  foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Messi" ;
+        foot:currentClub  "Juventus" .
+
+_:b420  foot:country      "France" ;
+        foaf:birthDate    "1998-0-02"^^xsd:date ;
+        foot:clubHistory  _:b421 .
+
+_:b421  rdf:rest   rdf:nil ;
+        rdf:first  "AJ" .
+
+_:b420  foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Liverpool" .
+
+_:b422  foot:country      "France" ;
+        foaf:birthDate    "1993-0-07"^^xsd:date ;
+        foot:clubHistory  _:b423 .
+
+_:b423  rdf:rest   rdf:nil ;
+        rdf:first  _:b424 .
+
+_:b422  foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Juventus" .
+
+_:b425  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b426 .
+
+_:b427  rdf:rest   _:b428 ;
+        rdf:first  _:b429 .
+
+_:b428  rdf:rest   rdf:nil ;
+        rdf:first  "Lk" .
+
+_:b426  rdf:rest   _:b430 ;
+        rdf:first  _:b431 .
+
+_:b430  rdf:rest   _:b427 ;
+        rdf:first  _:b432 .
+
+_:b425  foot:teams  _:b433 .
+
+_:b433  rdf:rest   rdf:nil ;
+        rdf:first  "\"\"\",\"MS\"\", (\"yd\")))  \r\nfoot:Country(\"\\\"\"[\"arXv,\"Argentina\",TN,BI,(FU,Wa,ZP,RT),(_:wEm,_:rTD))  \r\nfoot:Country(\"$\"=HZrm,j{n,\"Asia\",\"EGY\",(C\"v,\"$xm\"),()) \"|\".\r\nfoot:Country(@\" \"ezmS,\"Portugal\",\"North America\",\"ENG\",(),(Hg)) \"?\"\r\nfoot:Country('\"#\"OnOA,\"Egypt\",\"_La\",\"POR\",(),(_:jME,_:AXr,_:yvF)) \"*\"\r\nfoot:Country( \".\"bIYN,\"Egypt\",\"Africa\",\"\";\"Hq\",(_:KEZ,_:wKy,_:poH,_:plH),(q~P,jp)) .\r\nfoot:Country(\"(\"\"{\"UCIt,\"Portugal\",\"Europe\",\"ARG\",(),(cV,cs,vO,iX))  \r\nfoot:League(_:pIm,\"La Liga\",\"2018\"^^xsd:gYear,(\"Jt\",\"\"#CN\"\",\"P\"&\"S, \"gM\"\"),(\"wxq\", (>\"}\"DAZO, _:ofn))) ?\"<\"\r\nfoot:Country(_:VTc,\"Portugal\",\"Asia\",\"POR\",(ak,RG,hl,Lj),())  \r\nfoot:Footballer(_:zsE, \"Mohamed\",\"Fernandes\",\"2024-18-13\"^^xsd:date,\"Paris Saint-Germain\",(\"WF\"),150000000,\"Forward\",\"Argentina\") .\r\nfoot:Club(\":\"\"UiuY,yb,\"\"*\"Br\"^^xsd:gYear,\"Allianz Stadium\",\"Egypt\")  \r\nfoot:Country(\"`\"'KeRH,\"England\",dT,aF,(dv,XQ),(_:ZSB,_:XHM)) _\r\nfoot:Country(_:sYo,lk,\"Africa\",\"FRA\",(%\"-\"CcJr),()) \"=\"\r\nfoot:Country(\" \"|FgVJ,\"France\",\"Europe\",\"ENG\",(),(_:fyG,_:DIn,_:DPw,_:Upp))  \r\nfoot:Country(_:zPh,\"Portugal\",\"South America\",\"ARG\",(vK,b[N,Si),()) .\r\nfoot:Country(_:uYB,\"Egypt\",\"+kd\",\"\"'\"vi\",(_:BFo,_:KqT,tv),()) \"[\"\r\nfoot:Country(\"/\"-MStS,\"France\",\"North America\",\"EGY\",(),(BA,mL,GD,dZ)) {\r\nfoot:Footballer(_:kqX, \"Mohamed\",\"Messi\",\"2024-5-04\"^^xsd:date,\"Manchester United\",(_:VeS),100000000,\"Forward\",\"Portugal\") .\r\nfoot:Club(\"#\";vtPs,dE,\"2016\"^^xsd:gYear,\"Parc des Princes\",\"\"~\"zG\")  \r\nfoot:League(>,IoCH,LY,\"_ch\"^^xsd:gYear,(),(\"xg\")) -\")\"=\r\nfoot:Country(_:flj,\"Argentina\",\"Europe\",\"FRA\",(MD,iT,Wa,Jy),()) .\r\nfoot:Country(_:bmU,\"France\",\"Africa\",Qw,(_:Aun,_:prO,RK),()) .\r\nfoot:Country(_:FnN,Ze,\"\".\"BS\",\"POR\",(),(_:gZW,_:gNK,_:Xjy)) \"+\"\r\nfoot:Country(_:hSRa,\"England\",\"Asia\",\"ARG\",(_:JkX,_:pel,_:HUZ,pH),())  \r\nfoot:Country(\"|\"\"&\"wQAq,\"Egypt\",\"South America\",\"ENG\",(),())  \r\nfoot:Country(\"*\"[dZTH,\"England\",L$t,\"EGY\",(_:FGC,_:Oia),(_:auU,Zd)) .\"-\"\r\nfoot:Country(_:zrF,\"France\",\"North America\",\"FRA\",(Bf,Zk),(lu,Sq,SE))  \r\nfoot:League(@\"&\"wuGC,Yx,t\"%\"s^^xsd:gYear,(_:oka,_:WXI,_:LVc,\"SJ\"),(_:KBi, _:rzO)) .\r\nfoot:Country(_:Uel,Ap,nD,\"POR\",(_:fRv,_:dyg),(_:NPM,_:ZTb,Em))  \r\nfoot:Club(\\\";\"HqQj,\"Liverpool\",\"2018\"^^xsd:gYear,\"Camp Nou\",\"Egypt\") ~\")\"\r\nfoot:Footballer(_:iIF, \"Bruno\",\"Ronaldo\",\"1996-12-09\"^^xsd:date,\"Barcelona\",(\"gh\"),100000000,\"Forward\",\"Portugal\")  \r\nfoot:Country(|+VYmj,\"Argentina\",\"North America\",\"{Eg\",(),(_:WkD,_:oMT)) \"!\":\r\nfoot:Country(\"=\"\",\"ZnmJ,I\"\\\"s,\"South America\",\"ARG\",(),()) \"?\"\r\nfoot:Country(\".\"_Zvpo,\"England\",\"Asia\",\"EGY\",(),(_:Cju,_:Bom,\"|\"}qmky)) #\r\nfoot:Country((\"[\"ghTA,\"France\",\"Europe\",\"ENG\",(),(ht,WP,Ev,QE))  \r\nfoot:Country(_:OfB,\"Egypt\",\"Africa\",\"FRA\",(),(XN,Eb,tC)) ?\"+\"\r\nfoot:Country(_:BpO,EU,KK,YY,(rJ,qK,cx),(_:GBn,Uk))  \r\nfoot:Club(\"$\"\"(\"ylhI,RS,\"2015\"^^xsd:gYear,cO,\"Egypt\") &\r\nfoot:Footballer(_:gjD, \"Cristiano\",\"Mbappe\",\"2028-14-00\"^^xsd:date,\"Liverpool\",(_:FPs),150000000,\"Midfielder\",\"England\")  \r\nfoot:Country(_:vZH,\"Portugal\",\"South America\",\"POR\",(_:Ltd,_:Mfe),(Nr,ak,zm,oC)) .\r\nfoot:League()-xQYA,\"Bundesliga\",\"2019\"^^xsd:gYear,(_:BGw,_:KTJ,\"pV\"),(\"W(u\", (\"qU\"))) .\r\nfoot:Country(_:cxQ,Zh,iX,\"\"}\"po\",(_:Fqn,_:TUh,_:cTY,_:XvC),(_:Enb,Ln)) \"\\\"\r\nfoot:Country(_:dri,\"Argentina\",\"Asia\",\"FRA\",(),(Vz,UV,ik)) \"<\".\r\nfoot:Country(_:gLD,\"France\",\"Africa\",\"EGY\",(rz,fZ,mW,Tz),(\"\">\"Xv\")) \"+\"\r\nfoot:Country(|}Iwaf,gP,\"North America\",\"ARG\",(),(_:Wwl,_:qZq)) `=\r\nfoot:Country(\"_\"\" \"pJdH,\"Egypt\",T\"*\"p,uK6t,(_:KzN),()) .\r\nfoot:Country(_:cWtL,\"Argentina\",\"Europe\",T#i,(),()) .\r\nfoot:Club(_:AHa,KY_pj,g9uQ^^xsd:gYear,\"Old Trafford\",\"Egypt\") {\"|\"\"(\"\r\nfoot:Country(\":\"*wrRt,Ui,Oo,q\"/\"D,(),()) .\r\nfoot:League(:%clGB,\"Premier League\",\"2015\"^^xsd:gYear,(_:LsV,\"CN\"),(_:XJn, _:dyM))  \r\nfoot:Footballer(_:SWe, \"Lionel\",\"Salah\",\"2020-7-08\"^^xsd:date,\"Paris Saint-Germain\",(\"TP\"),150000000,\"Midfielder\",\"England\") .\r\nfoot:Country(_:ZFE,\"Portugal\",\"North America\",\"POR\",(),(b\")\"k,xv)) \"\\\"\r\nfoot:Country(!\"{\"eHIz,\"Argentina\",\"Asia\",\"FRA\",(_:Uug,bV),(_:fmh)) .\r\nfoot:Country(.-fJDi,nF,\"Europe\",\"ARG\",(),())  \r\nfoot:Country(@\"`\"LbfO,r\"+\"i,\"?fF\",\"EGY\",(_:GdT,_:lkU,nL),(\"\"<\"zq\")) .\r\nfoot:Country(;\"@\"jEod,\"France\",\"Africa\",\"ENG\",(_:oZT,_:ESz,_:czW),()) .\r\nfoot:Country(>+LvnV,\"`JC\",bc,hI,(),(_:epd,_:GuM,_:AaR)) '\r\nfoot:Country(_:JHh,\"France\",\"Europe\",a?N,(),(_:TyK,_:oOE,_:XjR,gt)) \"+\"\r\nfoot:Club(/(zpYQ,PD,vA^^xsd:gYear,MC,er) .\r\nfoot:League(\")\"\"*\"nZbI,\"Bundesliga\",\"2016\"^^xsd:gYear,(_:duS,_:Uql,\"FW\"),(\"wc\"))  \r\nfoot:Footballer(_:xmG, \"Lionel\",\"Messi\",\"1998-8-17\"^^xsd:date,\"Manchester United\",(_:Vfs),150000000,\"Goalkeeper\",\"Argentina\")  \r\nfoot:Country(\"/\"{BAoi,\"England\",\"North America\",\"ARG\",(_:kLa),(_:UlU,_:qAH,_:prQ,_:AIb)) %\r\nfoot:Country(\" \"&LRSj,\"Portugal\",\"\"{\"bN\",\"POR\",(Jy,jg,pj),(NI,Da,Dt)) \">\"\r\nfoot:Country(@=IFhs,RO,\"Africa\",\"FRA\",(_:VoL,_:rpP,NE),(_:Sat,_:XBc,_:yyw))  \r\nfoot:Country(\",\"\"\"" .
+
+_:b434  foot:country      "England" ;
+        foaf:birthDate    "2023-12-19"^^xsd:date ;
+        foot:clubHistory  _:b435 .
+
+_:b435  rdf:rest   rdf:nil ;
+        rdf:first  _:b436 .
+
+_:b434  foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Liverpool" .
+
+_:b437  foot:country      "Portugal" ;
+        foaf:birthDate    "1995-6-24"^^xsd:date ;
+        foot:clubHistory  _:b438 .
+
+_:b438  rdf:rest   rdf:nil ;
+        rdf:first  "nM" .
+
+_:b437  foot:marketValue  100000000 ;
+        foaf:name         "Bruno" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Barcelona" .
+
+_:b439  foot:foundedYear  "?WE"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b440 .
+
+_:b441  rdf:rest   _:b442 ;
+        rdf:first  _:b443 .
+
+_:b440  rdf:rest   _:b441 ;
+        rdf:first  _:b444 .
+
+_:b442  rdf:rest   _:b445 ;
+        rdf:first  _:b446 .
+
+_:b445  rdf:rest   rdf:nil ;
+        rdf:first  _:b190 .
+
+_:b439  foot:teams  _:b447 .
+
+_:b447  rdf:rest   rdf:nil ;
+        rdf:first  _:b448 .
+
+_:b449  foot:country      "Egypt" ;
+        foaf:birthDate    "1996-0-03"^^xsd:date ;
+        foot:clubHistory  _:b450 .
+
+_:b450  rdf:rest   rdf:nil ;
+        rdf:first  "QF" .
+
+_:b449  foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b451  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b452 .
+
+_:b453  rdf:rest   _:b454 ;
+        rdf:first  _:b455 .
+
+_:b454  rdf:rest   rdf:nil ;
+        rdf:first  _:b456 .
+
+_:b452  rdf:rest   _:b457 ;
+        rdf:first  _:b458 .
+
+_:b457  rdf:rest   _:b453 ;
+        rdf:first  _:b459 .
+
+_:b451  foot:fifaCode  "ENG" .
+
+_:b460  foot:country      "Portugal" ;
+        foaf:birthDate    "1997-12-25"^^xsd:date ;
+        foot:clubHistory  _:b461 .
+
+_:b461  rdf:rest   rdf:nil ;
+        rdf:first  "cr" .
+
+_:b460  foot:marketValue  150000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Barcelona" .
+
+_:b462  foot:country      "Portugal" ;
+        foaf:birthDate    "1995-18-24"^^xsd:date ;
+        foot:clubHistory  _:b463 .
+
+_:b463  rdf:rest   rdf:nil ;
+        rdf:first  _:b464 .
+
+_:b462  foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Salah" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b465  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b466 .
+
+_:b467  rdf:rest   _:b468 ;
+        rdf:first  _:b469 .
+
+_:b470  rdf:rest   _:b467 ;
+        rdf:first  _:b471 .
+
+_:b466  rdf:rest   _:b470 ;
+        rdf:first  _:b472 .
+
+_:b468  rdf:rest   rdf:nil ;
+        rdf:first  _:b473 .
+
+_:b465  foot:fifaCode  "EGY" .
+
+_:b474  foaf:name           "~" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "ARG" .
+
+_:b475  foot:country      "France" ;
+        foaf:birthDate    "1996-5-12"^^xsd:date ;
+        foot:clubHistory  _:b476 .
+
+_:b476  rdf:rest   rdf:nil ;
+        rdf:first  "NO" .
+
+_:b475  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Ronaldo" ;
+        foot:currentClub  "Juventus" .
+
+_:b477  foot:country      "France" ;
+        foaf:birthDate    "2025-11-06"^^xsd:date ;
+        foot:clubHistory  _:b478 .
+
+_:b478  rdf:rest   rdf:nil ;
+        rdf:first  _:b479 .
+
+_:b477  foot:marketValue  150000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Juventus" .
+
+_:b480  foot:country      "Egypt" ;
+        foaf:birthDate    "1998-8-26"^^xsd:date ;
+        foot:clubHistory  _:b481 .
+
+_:b481  rdf:rest   rdf:nil ;
+        rdf:first  "CY" .
+
+_:b480  foot:marketValue  100000000 ;
+        foaf:name         "Mohamed" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b482  foot:country      "France" ;
+        foaf:birthDate    "2027-8-19"^^xsd:date ;
+        foot:clubHistory  _:b483 .
+
+_:b483  rdf:rest   rdf:nil ;
+        rdf:first  _:b484 .
+
+_:b482  foot:marketValue  150000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Forward" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Paris Saint-Germain" .
+
+_:b485  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b486 .
+
+_:b486  rdf:rest   _:b487 ;
+        rdf:first  _:b488 .
+
+_:b487  rdf:rest   rdf:nil ;
+        rdf:first  _:b489 .
+
+_:b485  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b490  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b491 .
+
+_:b491  rdf:rest   rdf:nil ;
+        rdf:first  _:b492 .
+
+_:b490  foot:continent  "" ;
+        foot:leagues    _:b493 .
+
+_:b493  rdf:rest   rdf:nil ;
+        rdf:first  "#" .
+
+_:b490  foot:fifaCode  "EGY" .

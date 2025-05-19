@@ -1,0 +1,200 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+foot:Player2  foot:country  "string2" ;
+        foaf:birthDate    "2023-01-01"^^xsd:date ;
+        foot:clubHistory  _:b0 .
+
+_:b1    rdf:rest   rdf:nil ;
+        rdf:first  "string1" .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  _:b3 .
+
+_:b4    rdf:rest   rdf:nil ;
+        rdf:first  _:b5 .
+
+_:b6    rdf:rest   _:b7 ;
+        rdf:first  "string3" .
+
+_:b8    rdf:rest   _:b9 ;
+        rdf:first  _:b10 .
+
+_:b11   rdf:rest   rdf:nil ;
+        rdf:first  _:b12 .
+
+_:b13   rdf:rest   rdf:nil ;
+        rdf:first  _:b14 .
+
+_:b5    rdf:rest   _:b15 ;
+        rdf:first  "string4" .
+
+_:b16   rdf:rest   rdf:nil ;
+        rdf:first  "string4" .
+
+_:b3    rdf:rest   _:b17 ;
+        rdf:first  "string1" .
+
+_:b18   rdf:rest   rdf:nil ;
+        rdf:first  _:b19 .
+
+_:b20   rdf:rest   _:b21 ;
+        rdf:first  _:b22 .
+
+_:b9    rdf:rest   _:b18 ;
+        rdf:first  _:b23 .
+
+_:b24   rdf:rest   _:b25 ;
+        rdf:first  "string5" .
+
+_:b23   rdf:rest   _:b26 ;
+        rdf:first  "string2" .
+
+_:b27   rdf:rest   _:b28 ;
+        rdf:first  "string2" .
+
+_:b29   rdf:rest   rdf:nil ;
+        rdf:first  _:b30 .
+
+_:b31   rdf:rest   _:b32 ;
+        rdf:first  _:b33 .
+
+_:b30   rdf:rest   rdf:nil ;
+        rdf:first  "string4" .
+
+_:b34   rdf:rest   _:b11 ;
+        rdf:first  "string2" .
+
+_:b35   rdf:rest   rdf:nil ;
+        rdf:first  _:b36 .
+
+_:b37   rdf:rest   rdf:nil ;
+        rdf:first  _:b38 .
+
+_:b10   rdf:rest   _:b37 ;
+        rdf:first  "string2" .
+
+_:b19   rdf:rest   _:b39 ;
+        rdf:first  "string3" .
+
+_:b40   rdf:rest   rdf:nil ;
+        rdf:first  _:b41 .
+
+_:b42   rdf:rest   rdf:nil ;
+        rdf:first  "string1" .
+
+_:b33   rdf:rest   _:b43 ;
+        rdf:first  "string2" .
+
+_:b28   rdf:rest   rdf:nil ;
+        rdf:first  _:b44 .
+
+_:b45   rdf:rest   _:b46 ;
+        rdf:first  "string2" .
+
+_:b21   rdf:rest   _:b31 ;
+        rdf:first  _:b47 .
+
+_:b48   rdf:rest   rdf:nil ;
+        rdf:first  "string1" .
+
+_:b22   rdf:rest   _:b2 ;
+        rdf:first  "string4" .
+
+_:b38   rdf:rest   _:b13 ;
+        rdf:first  "string5" .
+
+_:b49   rdf:rest   _:b4 ;
+        rdf:first  "string1" .
+
+_:b36   rdf:rest   rdf:nil ;
+        rdf:first  "string2" .
+
+_:b12   rdf:rest   _:b29 ;
+        rdf:first  "string5" .
+
+_:b0    rdf:rest   _:b50 ;
+        rdf:first  _:b49 .
+
+_:b51   rdf:rest   rdf:nil ;
+        rdf:first  _:b52 .
+
+_:b26   rdf:rest   rdf:nil ;
+        rdf:first  _:b45 .
+
+_:b41   rdf:rest   _:b35 ;
+        rdf:first  "string2" .
+
+_:b14   rdf:rest   rdf:nil ;
+        rdf:first  "string4" .
+
+_:b47   rdf:rest   _:b53 ;
+        rdf:first  "string3" .
+
+_:b32   rdf:rest   _:b8 ;
+        rdf:first  _:b54 .
+
+_:b46   rdf:rest   rdf:nil ;
+        rdf:first  _:b16 .
+
+_:b39   rdf:rest   rdf:nil ;
+        rdf:first  _:b6 .
+
+_:b55   rdf:rest   _:b51 ;
+        rdf:first  "string3" .
+
+_:b56   rdf:rest   rdf:nil ;
+        rdf:first  _:b57 .
+
+_:b7    rdf:rest   rdf:nil ;
+        rdf:first  _:b58 .
+
+_:b15   rdf:rest   rdf:nil ;
+        rdf:first  _:b1 .
+
+_:b50   rdf:rest   _:b59 ;
+        rdf:first  _:b34 .
+
+_:b17   rdf:rest   rdf:nil ;
+        rdf:first  _:b42 .
+
+_:b57   rdf:rest   rdf:nil ;
+        rdf:first  "string2" .
+
+_:b53   rdf:rest   rdf:nil ;
+        rdf:first  _:b55 .
+
+_:b43   rdf:rest   rdf:nil ;
+        rdf:first  _:b24 .
+
+_:b52   rdf:rest   rdf:nil ;
+        rdf:first  "string3" .
+
+_:b54   rdf:rest   _:b40 ;
+        rdf:first  "string2" .
+
+_:b59   rdf:rest   _:b20 ;
+        rdf:first  _:b27 .
+
+_:b25   rdf:rest   rdf:nil ;
+        rdf:first  _:b48 .
+
+_:b58   rdf:rest   rdf:nil ;
+        rdf:first  "string1" .
+
+_:b44   rdf:rest   _:b56 ;
+        rdf:first  "string1" .
+
+foot:Player2  foot:marketValue  3 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "string1" ;
+        foot:position     "string3" ;
+        foot:currentClub  _:b60 ;
+        foaf:familyName   "string4" .

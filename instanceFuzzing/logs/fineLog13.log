@@ -1,0 +1,6 @@
+2025-04-09 21:53:49,572 - ERROR - Instance foot:Club(_D,klwer,"2018"^^xsd:gYear("Camp Nou",_:france)"_"%)
+
+2025-04-09 21:53:49,572 - ERROR - Instance 7 failed: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-04-09 21:53:49,573 - ERROR - Fatal error at instance 7: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+

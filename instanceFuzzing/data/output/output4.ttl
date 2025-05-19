@@ -1,0 +1,7816 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1 .
+
+_:b2    rdf:rest   _:b3 ;
+        rdf:first  "mz" .
+
+_:b3    rdf:rest   _:b4 ;
+        rdf:first  "wT" .
+
+_:b4    rdf:rest   rdf:nil ;
+        rdf:first  "nt" .
+
+_:b1    rdf:rest   _:b2 ;
+        rdf:first  "Gn" .
+
+_:b0    foot:teams  _:b5 .
+
+_:b5    rdf:rest   _:b6 ;
+        rdf:first  _:b7 .
+
+_:b8    rdf:rest   rdf:nil ;
+        rdf:first  _:b9 .
+
+_:b6    rdf:rest   _:b8 ;
+        rdf:first  _:b10 .
+
+_:b11   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b12 .
+
+_:b13   rdf:rest   _:b14 ;
+        rdf:first  _:b15 .
+
+_:b14   rdf:rest   rdf:nil ;
+        rdf:first  _:b16 .
+
+_:b17   rdf:rest   _:b13 ;
+        rdf:first  _:b18 .
+
+_:b12   rdf:rest   _:b17 ;
+        rdf:first  _:b19 .
+
+_:b11   foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b20   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b21 .
+
+_:b22   rdf:rest   _:b23 ;
+        rdf:first  _:b24 .
+
+_:b25   rdf:rest   rdf:nil ;
+        rdf:first  _:b26 .
+
+_:b23   rdf:rest   _:b25 ;
+        rdf:first  _:b27 .
+
+_:b21   rdf:rest   _:b22 ;
+        rdf:first  _:b28 .
+
+_:b20   foot:fifaCode  "FRA" .
+
+_:b29   foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b30 .
+
+_:b30   rdf:rest   _:b31 ;
+        rdf:first  _:b32 .
+
+_:b31   rdf:rest   _:b33 ;
+        rdf:first  _:b34 .
+
+_:b33   rdf:rest   rdf:nil ;
+        rdf:first  _:b35 .
+
+_:b29   foot:teams  _:b36 .
+
+_:b37   rdf:rest   rdf:nil ;
+        rdf:first  "YO" .
+
+_:b38   rdf:rest   _:b39 ;
+        rdf:first  _:b40 .
+
+_:b36   rdf:rest   _:b38 ;
+        rdf:first  _:b41 .
+
+_:b39   rdf:rest   _:b37 ;
+        rdf:first  _:b42 .
+
+_:b43   foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b44 .
+
+_:b44   rdf:rest   rdf:nil ;
+        rdf:first  "\"\"\"^\"GZ\"\",\"vW\",\"Vv\",\"Jl\")) .\r\nfoot:League(\",\"\"!\"FhPZ,\"Bundesliga\",\"2017\"^^xsd:gYear,(),())  \r\nfoot:Country(\"<\"\"}\"zRCt,JO,\"Europe\",\" \"a\"/\",(_:pVu,_:Sqg,ol),(_:KXx)) .\r\nfoot:League(\">\"\"%\"bPFH,wT,\"2018\"^^xsd:gYear,(\";\"\"'\"UWcM),(\"sQ\")) \"*\"\r\nfoot:Club(\"@\"\":\"IZAr,\"Liverpool\",\"\\\"GkfE5i^^xsd:gYear,\"Camp Nou\",\"England\")  \r\nfoot:Footballer(\"|\"\"^\"eYBD, \"Bruno\",\"Mbappe\",\"197-16-11\"^^xsd:date,\"Barcelona\",\"250000000\",\"\"_\"nv\",\"Argentina\")  \r\nfoot:Country(\"!\"\"$\"mLNh,\"Egypt\",\"South America\",\"POR\",(),(yd))  \r\nfoot:League(\"-\"\"+\"ojZy,\"Ligue 1\",\"2017\"^^xsd:gYear,(\"AM\",\"ou\",\"Zu\",\"mh\"),()) \"\"\"" .
+
+_:b45   foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b46 .
+
+_:b46   rdf:rest   rdf:nil ;
+        rdf:first  "\"\"\"/\"gr\"\",\"fp\"),(_:eGZ,_:vsF,_:lNY,_:tVT))  \r\nfoot:Country(_:LbH,\"Egypt\",\"South America\",\"POR\",(),(_:hwC,_:iRx,_:ndE,_:Xcu)) .\r\nfoot:Footballer(\"}\"\"[\"kMjB, \"(\"DQ,\"Ronaldo\",\"204-11-06\"^^xsd:date,\"Juventus\",\"150000000\",\"\"*\"KJ\",Sz) \"^\"\r\nfoot:Club(\"\\\"\" \"aOWy,\"Barcelona\",P930Lm48527Aq^^xsd:gYear,\"Allianz Stadium\",\"France\") \"@\"\r\nfoot:Country(\"%\"\"~\"xkcl,\"Portugal\",\"Africa\",\"FRA\",(Uy,jd),(_:jRU,_:uMH,RG)) .\r\nfoot:League(_:iQq,\"Premier League\",\"2015\"^^xsd:gYear,(\"KI\",\"AE\",\"ZG\"),(\"ie\",\"Id\",\"IV\",\"Jy\")) \"$\"\r\nfoot:Country(_:jnF,\"Argentina\",\"North America\",\"ARG\",(),(Yh,tK,vz,ll))  \r\nfoot:Country(\")\"\".\"dmIg,\"\";\"Km\",df,BX,(),(_:PCC,\"\"=\"fK\")) \"|\"\r\nfoot:League(\"!\"\"<\"TPqV,\"Bundesliga\",\"2016\"^^xsd:gYear,(\"Qp\",\"lM\",\"\"\"" .
+
+_:b45   foot:teams  "Sl" .
+
+_:b47   foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b48 .
+
+_:b48   rdf:rest   _:b49 ;
+        rdf:first  _:b50 .
+
+_:b49   rdf:rest   _:b51 ;
+        rdf:first  _:b52 .
+
+_:b53   rdf:rest   rdf:nil ;
+        rdf:first  _:b54 .
+
+_:b51   rdf:rest   _:b53 ;
+        rdf:first  "'" .
+
+_:b47   foot:teams  _:b55 .
+
+_:b55   rdf:rest   rdf:nil ;
+        rdf:first  "?" .
+
+_:b56   foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "." ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b57 .
+
+_:b58   rdf:rest   _:b59 ;
+        rdf:first  _:b60 .
+
+_:b59   rdf:rest   rdf:nil ;
+        rdf:first  _:b61 .
+
+_:b57   rdf:rest   _:b58 ;
+        rdf:first  _:b62 .
+
+_:b56   foot:teams  _:b63 .
+
+_:b64   rdf:rest   rdf:nil ;
+        rdf:first  _:b65 .
+
+_:b63   rdf:rest   _:b64 ;
+        rdf:first  _:b66 .
+
+_:b67   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b68 .
+
+_:b69   rdf:rest   _:b70 ;
+        rdf:first  _:b71 .
+
+_:b70   rdf:rest   rdf:nil ;
+        rdf:first  _:b72 .
+
+_:b68   rdf:rest   _:b73 ;
+        rdf:first  _:b74 .
+
+_:b73   rdf:rest   _:b69 ;
+        rdf:first  _:b75 .
+
+_:b67   foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b76   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b77 .
+
+_:b77   rdf:rest   rdf:nil ;
+        rdf:first  _:b78 .
+
+_:b76   foot:continent  "Africa" ;
+        foot:leagues    _:b79 .
+
+_:b79   rdf:rest   rdf:nil ;
+        rdf:first  "{" .
+
+_:b76   foot:fifaCode  "POR" .
+
+_:b80   foot:country      ":" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Paris Saint-Germain" .
+
+_:b81   foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b82 .
+
+_:b82   rdf:rest   _:b83 ;
+        rdf:first  _:b84 .
+
+_:b83   rdf:rest   _:b85 ;
+        rdf:first  _:b86 .
+
+_:b85   rdf:rest   _:b87 ;
+        rdf:first  _:b88 .
+
+_:b87   rdf:rest   rdf:nil ;
+        rdf:first  _:b89 .
+
+_:b81   foot:teams  _:b90 .
+
+_:b90   rdf:rest   _:b91 ;
+        rdf:first  _:b92 .
+
+_:b93   rdf:rest   rdf:nil ;
+        rdf:first  _:b94 .
+
+_:b91   rdf:rest   _:b93 ;
+        rdf:first  _:b95 .
+
+_:b96   foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b97 .
+
+_:b98   rdf:rest   rdf:nil ;
+        rdf:first  _:b99 .
+
+_:b100  rdf:rest   _:b98 ;
+        rdf:first  _:b101 .
+
+_:b97   rdf:rest   _:b100 ;
+        rdf:first  _:b102 .
+
+_:b96   foot:fifaCode  "FRA" .
+
+_:b103  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b104 .
+
+_:b104  rdf:rest   _:b105 ;
+        rdf:first  _:b106 .
+
+_:b105  rdf:rest   _:b107 ;
+        rdf:first  _:b108 .
+
+_:b107  rdf:rest   rdf:nil ;
+        rdf:first  "qL" .
+
+_:b103  foot:teams  _:b109 .
+
+_:b109  rdf:rest   _:b110 ;
+        rdf:first  "Pe" .
+
+_:b111  rdf:rest   rdf:nil ;
+        rdf:first  "oc" .
+
+_:b112  rdf:rest   _:b111 ;
+        rdf:first  "Ot" .
+
+_:b110  rdf:rest   _:b112 ;
+        rdf:first  "rM" .
+
+_:b113  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b114 .
+
+_:b115  rdf:rest   _:b116 ;
+        rdf:first  _:b117 .
+
+_:b114  rdf:rest   _:b118 ;
+        rdf:first  _:b119 .
+
+_:b118  rdf:rest   _:b115 ;
+        rdf:first  _:b120 .
+
+_:b116  rdf:rest   rdf:nil ;
+        rdf:first  _:b121 .
+
+_:b113  foot:teams  _:b122 .
+
+_:b123  rdf:rest   rdf:nil ;
+        rdf:first  ":" .
+
+_:b122  rdf:rest   _:b124 ;
+        rdf:first  "Du" .
+
+_:b125  rdf:rest   _:b123 ;
+        rdf:first  "`" .
+
+_:b124  rdf:rest   _:b125 ;
+        rdf:first  "\"\"\"/\"FK\"\")) .\r\nfoot:League(_:dzU,\"Bundesliga\",\"2019\"^^xsd:gYear,(),(\";\"\"_\"haGN,\"\"\"" .
+
+_:b126  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b127 .
+
+_:b128  rdf:rest   _:b129 ;
+        rdf:first  _:b130 .
+
+_:b131  rdf:rest   rdf:nil ;
+        rdf:first  "JO" .
+
+_:b129  rdf:rest   _:b131 ;
+        rdf:first  _:b132 .
+
+_:b127  rdf:rest   _:b128 ;
+        rdf:first  _:b133 .
+
+_:b126  foot:teams  _:b134 .
+
+_:b135  rdf:rest   rdf:nil ;
+        rdf:first  "Qr" .
+
+_:b136  rdf:rest   _:b135 ;
+        rdf:first  "GZ" .
+
+_:b134  rdf:rest   _:b136 ;
+        rdf:first  "yi" .
+
+_:b137  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b138 .
+
+_:b138  rdf:rest   _:b139 ;
+        rdf:first  "gW" .
+
+_:b139  rdf:rest   _:b140 ;
+        rdf:first  "Pe" .
+
+_:b141  rdf:rest   rdf:nil ;
+        rdf:first  "Uk" .
+
+_:b140  rdf:rest   _:b141 ;
+        rdf:first  "tH" .
+
+_:b137  foot:teams  _:b142 .
+
+_:b143  rdf:rest   _:b144 ;
+        rdf:first  _:b145 .
+
+_:b144  rdf:rest   rdf:nil ;
+        rdf:first  "," .
+
+_:b142  rdf:rest   _:b143 ;
+        rdf:first  _:b146 .
+
+_:b147  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b148 .
+
+_:b149  rdf:rest   _:b150 ;
+        rdf:first  _:b151 .
+
+_:b148  rdf:rest   _:b152 ;
+        rdf:first  _:b153 .
+
+_:b150  rdf:rest   rdf:nil ;
+        rdf:first  _:b154 .
+
+_:b152  rdf:rest   _:b149 ;
+        rdf:first  _:b155 .
+
+_:b147  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b156  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b157 .
+
+_:b157  rdf:rest   _:b158 ;
+        rdf:first  _:b159 .
+
+_:b160  rdf:rest   rdf:nil ;
+        rdf:first  "QE" .
+
+_:b158  rdf:rest   _:b160 ;
+        rdf:first  _:b161 .
+
+_:b156  foot:teams  _:b162 .
+
+_:b163  rdf:rest   rdf:nil ;
+        rdf:first  "Rp" .
+
+_:b162  rdf:rest   _:b164 ;
+        rdf:first  "ti" .
+
+_:b164  rdf:rest   _:b165 ;
+        rdf:first  "QU" .
+
+_:b165  rdf:rest   _:b163 ;
+        rdf:first  "vZ" .
+
+_:b166  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b167 .
+
+_:b167  rdf:rest   rdf:nil ;
+        rdf:first  "}" .
+
+_:b166  foot:teams  "xC" .
+
+_:b168  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "~" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b169 .
+
+_:b169  rdf:rest   rdf:nil ;
+        rdf:first  _:b170 .
+
+_:b168  foot:teams  _:b171 .
+
+_:b172  rdf:rest   _:b173 ;
+        rdf:first  _:b174 .
+
+_:b175  rdf:rest   rdf:nil ;
+        rdf:first  "FC" .
+
+_:b173  rdf:rest   _:b175 ;
+        rdf:first  _:b176 .
+
+_:b171  rdf:rest   _:b172 ;
+        rdf:first  _:b177 .
+
+_:b178  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b179 .
+
+_:b180  rdf:rest   _:b181 ;
+        rdf:first  _:b182 .
+
+_:b183  rdf:rest   _:b180 ;
+        rdf:first  _:b184 .
+
+_:b179  rdf:rest   _:b183 ;
+        rdf:first  _:b185 .
+
+_:b181  rdf:rest   rdf:nil ;
+        rdf:first  _:b186 .
+
+_:b178  foot:fifaCode  "ARG" .
+
+_:b187  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b188 .
+
+_:b188  rdf:rest   _:b189 ;
+        rdf:first  _:b190 .
+
+_:b191  rdf:rest   _:b192 ;
+        rdf:first  _:b193 .
+
+_:b192  rdf:rest   rdf:nil ;
+        rdf:first  "tY" .
+
+_:b189  rdf:rest   _:b191 ;
+        rdf:first  _:b194 .
+
+_:b187  foot:teams  _:b195 .
+
+_:b196  rdf:rest   _:b197 ;
+        rdf:first  _:b198 .
+
+_:b195  rdf:rest   _:b196 ;
+        rdf:first  _:b199 .
+
+_:b200  rdf:rest   rdf:nil ;
+        rdf:first  "De" .
+
+_:b197  rdf:rest   _:b200 ;
+        rdf:first  _:b201 .
+
+_:b202  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b203 .
+
+_:b204  rdf:rest   _:b205 ;
+        rdf:first  _:b206 .
+
+_:b205  rdf:rest   _:b207 ;
+        rdf:first  _:b208 .
+
+_:b203  rdf:rest   _:b204 ;
+        rdf:first  _:b209 .
+
+_:b207  rdf:rest   rdf:nil ;
+        rdf:first  "jR" .
+
+_:b202  foot:teams  _:b210 .
+
+_:b210  rdf:rest   rdf:nil ;
+        rdf:first  ":" .
+
+_:b211  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b212 .
+
+_:b212  rdf:rest   _:b213 ;
+        rdf:first  _:b214 .
+
+_:b215  rdf:rest   rdf:nil ;
+        rdf:first  "Hx" .
+
+_:b213  rdf:rest   _:b216 ;
+        rdf:first  _:b217 .
+
+_:b216  rdf:rest   _:b215 ;
+        rdf:first  _:b218 .
+
+_:b211  foot:teams  _:b219 .
+
+_:b219  rdf:rest   _:b220 ;
+        rdf:first  "Uv" .
+
+_:b220  rdf:rest   _:b221 ;
+        rdf:first  "LA" .
+
+_:b221  rdf:rest   rdf:nil ;
+        rdf:first  "OA" .
+
+_:b222  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b223 .
+
+_:b224  rdf:rest   rdf:nil ;
+        rdf:first  _:b225 .
+
+_:b223  rdf:rest   _:b224 ;
+        rdf:first  _:b226 .
+
+_:b222  foot:teams  _:b227 .
+
+_:b228  rdf:rest   _:b229 ;
+        rdf:first  "MD" .
+
+_:b227  rdf:rest   _:b228 ;
+        rdf:first  "dP" .
+
+_:b229  rdf:rest   _:b230 ;
+        rdf:first  "MZ" .
+
+_:b230  rdf:rest   rdf:nil ;
+        rdf:first  "rI" .
+
+_:b231  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b232 .
+
+_:b233  rdf:rest   rdf:nil ;
+        rdf:first  "Ih" .
+
+_:b234  rdf:rest   _:b233 ;
+        rdf:first  "Kt" .
+
+_:b232  rdf:rest   _:b234 ;
+        rdf:first  "xc" .
+
+_:b231  foot:teams  _:b235 .
+
+_:b236  rdf:rest   _:b237 ;
+        rdf:first  "cJ" .
+
+_:b238  rdf:rest   _:b236 ;
+        rdf:first  "FY" .
+
+_:b237  rdf:rest   rdf:nil ;
+        rdf:first  "Rw" .
+
+_:b235  rdf:rest   _:b238 ;
+        rdf:first  "Zo" .
+
+_:b239  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b240 .
+
+_:b241  rdf:rest   _:b242 ;
+        rdf:first  "sI" .
+
+_:b242  rdf:rest   rdf:nil ;
+        rdf:first  "eN" .
+
+_:b243  rdf:rest   _:b241 ;
+        rdf:first  "aU" .
+
+_:b240  rdf:rest   _:b243 ;
+        rdf:first  "FL" .
+
+_:b239  foot:teams  _:b244 .
+
+_:b244  rdf:rest   _:b245 ;
+        rdf:first  "zg" .
+
+_:b245  rdf:rest   _:b246 ;
+        rdf:first  "TK" .
+
+_:b246  rdf:rest   rdf:nil ;
+        rdf:first  "kx" .
+
+_:b247  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b248 .
+
+_:b249  rdf:rest   _:b250 ;
+        rdf:first  _:b251 .
+
+_:b252  rdf:rest   _:b249 ;
+        rdf:first  _:b253 .
+
+_:b248  rdf:rest   _:b252 ;
+        rdf:first  _:b254 .
+
+_:b250  rdf:rest   rdf:nil ;
+        rdf:first  _:b255 .
+
+_:b247  foot:teams  _:b256 .
+
+_:b256  rdf:rest   _:b257 ;
+        rdf:first  _:b258 .
+
+_:b257  rdf:rest   rdf:nil ;
+        rdf:first  "ZK" .
+
+_:b259  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b260 .
+
+_:b260  rdf:rest   _:b261 ;
+        rdf:first  _:b262 .
+
+_:b261  rdf:rest   _:b263 ;
+        rdf:first  _:b264 .
+
+_:b265  rdf:rest   rdf:nil ;
+        rdf:first  _:b266 .
+
+_:b263  rdf:rest   _:b265 ;
+        rdf:first  _:b267 .
+
+_:b259  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b268  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b269 .
+
+_:b269  rdf:rest   _:b270 ;
+        rdf:first  _:b271 .
+
+_:b270  rdf:rest   _:b272 ;
+        rdf:first  _:b273 .
+
+_:b272  rdf:rest   rdf:nil ;
+        rdf:first  "Kc" .
+
+_:b268  foot:teams  _:b274 .
+
+_:b274  rdf:rest   _:b275 ;
+        rdf:first  "el" .
+
+_:b276  rdf:rest   _:b277 ;
+        rdf:first  "np" .
+
+_:b275  rdf:rest   _:b276 ;
+        rdf:first  "FH" .
+
+_:b277  rdf:rest   rdf:nil ;
+        rdf:first  "kh" .
+
+_:b278  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b279 .
+
+_:b279  rdf:rest   _:b280 ;
+        rdf:first  _:b281 .
+
+_:b282  rdf:rest   _:b283 ;
+        rdf:first  _:b284 .
+
+_:b280  rdf:rest   _:b282 ;
+        rdf:first  _:b285 .
+
+_:b283  rdf:rest   rdf:nil ;
+        rdf:first  _:b286 .
+
+_:b278  foot:fifaCode  "EGY" .
+
+_:b287  foot:country      "Argentina" ;
+        foot:stadiumName  "}" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "." .
+
+_:b288  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b289 .
+
+_:b289  rdf:rest   _:b290 ;
+        rdf:first  "YO" .
+
+_:b290  rdf:rest   rdf:nil ;
+        rdf:first  "" .
+
+_:b291  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b292 .
+
+_:b293  rdf:rest   rdf:nil ;
+        rdf:first  _:b294 .
+
+_:b295  rdf:rest   _:b293 ;
+        rdf:first  _:b296 .
+
+_:b297  rdf:rest   _:b295 ;
+        rdf:first  _:b298 .
+
+_:b292  rdf:rest   _:b297 ;
+        rdf:first  _:b299 .
+
+_:b291  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b300  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b301 .
+
+_:b302  rdf:rest   rdf:nil ;
+        rdf:first  "rC" .
+
+_:b301  rdf:rest   _:b302 ;
+        rdf:first  "iV" .
+
+_:b300  foot:teams  _:b303 .
+
+_:b303  rdf:rest   _:b304 ;
+        rdf:first  "HF" .
+
+_:b305  rdf:rest   _:b306 ;
+        rdf:first  "oI" .
+
+_:b306  rdf:rest   rdf:nil ;
+        rdf:first  "mZ" .
+
+_:b304  rdf:rest   _:b305 ;
+        rdf:first  "pP" .
+
+_:b307  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b308 .
+
+_:b308  rdf:rest   _:b309 ;
+        rdf:first  "8gOHeQxrzaT" .
+
+_:b309  rdf:rest   rdf:nil ;
+        rdf:first  "\"\"\"[\"SYWl\"\"),()) \"_\"\r\nfoot:Country(\"!\"\"%\"vjLk,\"Portugal\",\"\"<\"NU\",\"ENG\",(\"\"\"" .
+
+_:b307  foot:teams  _:b310 .
+
+_:b311  rdf:rest   _:b312 ;
+        rdf:first  _:b313 .
+
+_:b310  rdf:rest   _:b311 ;
+        rdf:first  _:b314 .
+
+_:b312  rdf:rest   rdf:nil ;
+        rdf:first  "`" .
+
+_:b315  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b316 .
+
+_:b317  rdf:rest   _:b318 ;
+        rdf:first  _:b319 .
+
+_:b320  rdf:rest   _:b317 ;
+        rdf:first  _:b321 .
+
+_:b316  rdf:rest   _:b320 ;
+        rdf:first  _:b322 .
+
+_:b318  rdf:rest   rdf:nil ;
+        rdf:first  _:b323 .
+
+_:b315  foot:teams  _:b324 .
+
+_:b324  rdf:rest   _:b325 ;
+        rdf:first  "NH" .
+
+_:b325  rdf:rest   rdf:nil ;
+        rdf:first  "Pw" .
+
+_:b326  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b327 .
+
+_:b328  rdf:rest   rdf:nil ;
+        rdf:first  "Di" .
+
+_:b327  rdf:rest   _:b328 ;
+        rdf:first  _:b329 .
+
+_:b326  foot:teams  _:b330 .
+
+_:b330  rdf:rest   _:b331 ;
+        rdf:first  _:b332 .
+
+_:b333  rdf:rest   rdf:nil ;
+        rdf:first  _:b334 .
+
+_:b331  rdf:rest   _:b335 ;
+        rdf:first  _:b336 .
+
+_:b335  rdf:rest   _:b333 ;
+        rdf:first  _:b337 .
+
+_:b338  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b339 .
+
+_:b340  rdf:rest   rdf:nil ;
+        rdf:first  "ye" .
+
+_:b341  rdf:rest   _:b340 ;
+        rdf:first  _:b342 .
+
+_:b339  rdf:rest   _:b341 ;
+        rdf:first  _:b343 .
+
+_:b338  foot:teams  _:b344 .
+
+_:b345  rdf:rest   rdf:nil ;
+        rdf:first  "fk" .
+
+_:b344  rdf:rest   _:b346 ;
+        rdf:first  "yV" .
+
+_:b346  rdf:rest   _:b345 ;
+        rdf:first  "Wz" .
+
+_:b347  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b348 .
+
+_:b349  rdf:rest   rdf:nil ;
+        rdf:first  "xL" .
+
+_:b348  rdf:rest   _:b350 ;
+        rdf:first  "Zz" .
+
+_:b350  rdf:rest   _:b349 ;
+        rdf:first  "el" .
+
+_:b347  foot:teams  _:b351 .
+
+_:b352  rdf:rest   rdf:nil ;
+        rdf:first  "eC" .
+
+_:b353  rdf:rest   _:b352 ;
+        rdf:first  _:b354 .
+
+_:b355  rdf:rest   _:b353 ;
+        rdf:first  _:b356 .
+
+_:b351  rdf:rest   _:b355 ;
+        rdf:first  _:b357 .
+
+_:b358  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b359 .
+
+_:b360  rdf:rest   _:b361 ;
+        rdf:first  ";" .
+
+_:b361  rdf:rest   rdf:nil ;
+        rdf:first  "SX" .
+
+_:b359  rdf:rest   _:b362 ;
+        rdf:first  _:b363 .
+
+_:b362  rdf:rest   _:b360 ;
+        rdf:first  _:b364 .
+
+_:b358  foot:teams  rdf:nil .
+
+_:b365  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b366 .
+
+_:b367  rdf:rest   _:b368 ;
+        rdf:first  _:b369 .
+
+_:b368  rdf:rest   rdf:nil ;
+        rdf:first  "mX" .
+
+_:b366  rdf:rest   _:b367 ;
+        rdf:first  _:b370 .
+
+_:b365  foot:teams  _:b371 .
+
+_:b372  rdf:rest   rdf:nil ;
+        rdf:first  "KG" .
+
+_:b373  rdf:rest   _:b372 ;
+        rdf:first  "gv" .
+
+_:b371  rdf:rest   _:b373 ;
+        rdf:first  "ip" .
+
+_:b374  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b375 .
+
+_:b375  rdf:rest   _:b376 ;
+        rdf:first  _:b377 .
+
+_:b378  rdf:rest   rdf:nil ;
+        rdf:first  _:b379 .
+
+_:b380  rdf:rest   _:b378 ;
+        rdf:first  _:b381 .
+
+_:b376  rdf:rest   _:b380 ;
+        rdf:first  _:b382 .
+
+_:b374  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b383  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b384 .
+
+_:b384  rdf:rest   _:b385 ;
+        rdf:first  _:b386 .
+
+_:b387  rdf:rest   rdf:nil ;
+        rdf:first  _:b388 .
+
+_:b385  rdf:rest   _:b387 ;
+        rdf:first  _:b389 .
+
+_:b383  foot:teams  _:b390 .
+
+_:b391  rdf:rest   rdf:nil ;
+        rdf:first  _:b392 .
+
+_:b390  rdf:rest   _:b393 ;
+        rdf:first  _:b394 .
+
+_:b393  rdf:rest   _:b395 ;
+        rdf:first  _:b396 .
+
+_:b395  rdf:rest   _:b391 ;
+        rdf:first  _:b397 .
+
+_:b398  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b399 .
+
+_:b399  rdf:rest   _:b400 ;
+        rdf:first  _:b401 .
+
+_:b400  rdf:rest   _:b402 ;
+        rdf:first  _:b403 .
+
+_:b402  rdf:rest   rdf:nil ;
+        rdf:first  "Gb" .
+
+_:b398  foot:teams  _:b404 .
+
+_:b404  rdf:rest   _:b405 ;
+        rdf:first  _:b406 .
+
+_:b405  rdf:rest   rdf:nil ;
+        rdf:first  _:b407 .
+
+_:b408  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "[" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b409 .
+
+_:b410  rdf:rest   _:b411 ;
+        rdf:first  _:b412 .
+
+_:b409  rdf:rest   _:b410 ;
+        rdf:first  _:b413 .
+
+_:b411  rdf:rest   rdf:nil ;
+        rdf:first  "vg" .
+
+_:b408  foot:teams  _:b414 .
+
+_:b415  rdf:rest   _:b416 ;
+        rdf:first  "Hs" .
+
+_:b416  rdf:rest   rdf:nil ;
+        rdf:first  "Pt" .
+
+_:b414  rdf:rest   _:b415 ;
+        rdf:first  "Fm" .
+
+_:b417  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b418 .
+
+_:b419  rdf:rest   rdf:nil ;
+        rdf:first  "Ay" .
+
+_:b420  rdf:rest   _:b419 ;
+        rdf:first  "zo" .
+
+_:b421  rdf:rest   _:b420 ;
+        rdf:first  "dP" .
+
+_:b418  rdf:rest   _:b421 ;
+        rdf:first  "Gu" .
+
+_:b417  foot:teams  _:b422 .
+
+_:b422  rdf:rest   _:b423 ;
+        rdf:first  _:b424 .
+
+_:b423  rdf:rest   _:b425 ;
+        rdf:first  _:b426 .
+
+_:b427  rdf:rest   rdf:nil ;
+        rdf:first  "sZ" .
+
+_:b425  rdf:rest   _:b427 ;
+        rdf:first  _:b428 .
+
+_:b429  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b430 .
+
+_:b430  rdf:rest   _:b431 ;
+        rdf:first  _:b432 .
+
+_:b433  rdf:rest   rdf:nil ;
+        rdf:first  "\"\"\"\"-\"SWoF,_:TPX))  \r\nfoot:Footballer(_:xQN, \"Bruno\",\"Mbappe\",\"205-1-10\"^^xsd:date,zY,\"250000000\",\"Midfielder\",\"Egypt\") .\r\nfoot:Club(\")\"\"*\"swdm,\"(\"JG\"+\",uV^^xsd:gYear,\"Anfield\",ae) \"=\"\r\nfoot:League(\"_\"\"~\"RUBA,Ik,\"2017\"^^xsd:gYear,(),(\"Er\",\"Cb\",\"Oc\",\"lp\")) \"<\"\r\nfoot:Country(\"%\"\">\"jfLt,\"Argentina\",Kh,\"ENG\",(),()) .\r\nfoot:League(\"\\\"\"$\"nGGp,\"Serie A\",\"2018\"^^xsd:gYear,(),()) \"|\"\r\nfoot:Country(\"!\"\"}\"qiSr,\"England\",\"Europe\",Sn,(_:zWt,_:bCS,OJ),(_:vwB,_:jsv)) \",\"\r\nfoot:League(\"`\"\"{\"yUXd,\"Premier League\",\"2016\"^^xsd:gYear,(),(_:wLI,_:kdQ,\"dw\")) \"@\"\r\nfoot:League(_:hfP,\"Ligue 1\",\"2019\"^^xsd:gYear,(_:tsz),(_:NSL,_:dLo,_:QMs,\"\"\"" .
+
+_:b431  rdf:rest   _:b433 ;
+        rdf:first  _:b434 .
+
+_:b429  foot:fifaCode  "EGY" .
+
+_:b435  foaf:name           "" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b436 .
+
+_:b436  rdf:rest   _:b437 ;
+        rdf:first  _:b438 .
+
+_:b439  rdf:rest   _:b440 ;
+        rdf:first  _:b441 .
+
+_:b440  rdf:rest   rdf:nil ;
+        rdf:first  _:b442 .
+
+_:b437  rdf:rest   _:b439 ;
+        rdf:first  _:b443 .
+
+_:b435  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b444  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b445 .
+
+_:b446  rdf:rest   _:b447 ;
+        rdf:first  "ba" .
+
+_:b447  rdf:rest   rdf:nil ;
+        rdf:first  "oH" .
+
+_:b445  rdf:rest   _:b446 ;
+        rdf:first  "kw" .
+
+_:b444  foot:teams  _:b448 .
+
+_:b449  rdf:rest   rdf:nil ;
+        rdf:first  "DE" .
+
+_:b450  rdf:rest   _:b449 ;
+        rdf:first  _:b451 .
+
+_:b448  rdf:rest   _:b450 ;
+        rdf:first  _:b452 .
+
+_:b453  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b454 .
+
+_:b454  rdf:rest   rdf:nil ;
+        rdf:first  "{" .
+
+_:b453  foot:continent  "Asia" ;
+        foot:leagues    "" ;
+        foot:fifaCode   "ENG" .
+
+_:b455  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b456 .
+
+_:b457  rdf:rest   rdf:nil ;
+        rdf:first  "nF" .
+
+_:b456  rdf:rest   _:b458 ;
+        rdf:first  "zY" .
+
+_:b459  rdf:rest   _:b457 ;
+        rdf:first  "XG" .
+
+_:b458  rdf:rest   _:b459 ;
+        rdf:first  "oW" .
+
+_:b455  foot:teams  _:b460 .
+
+_:b461  rdf:rest   rdf:nil ;
+        rdf:first  _:b462 .
+
+_:b463  rdf:rest   _:b461 ;
+        rdf:first  _:b464 .
+
+_:b465  rdf:rest   _:b463 ;
+        rdf:first  _:b466 .
+
+_:b460  rdf:rest   _:b465 ;
+        rdf:first  _:b467 .
+
+_:b468  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b469 .
+
+_:b469  rdf:rest   _:b470 ;
+        rdf:first  _:b471 .
+
+_:b472  rdf:rest   _:b473 ;
+        rdf:first  _:b474 .
+
+_:b470  rdf:rest   _:b472 ;
+        rdf:first  _:b475 .
+
+_:b473  rdf:rest   rdf:nil ;
+        rdf:first  _:b476 .
+
+_:b468  foot:fifaCode  "ENG" .
+
+_:b477  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b478 .
+
+_:b479  rdf:rest   _:b480 ;
+        rdf:first  _:b481 .
+
+_:b480  rdf:rest   _:b482 ;
+        rdf:first  _:b483 .
+
+_:b482  rdf:rest   rdf:nil ;
+        rdf:first  _:b484 .
+
+_:b478  rdf:rest   _:b479 ;
+        rdf:first  _:b485 .
+
+_:b477  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b486  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b487 .
+
+_:b487  rdf:rest   _:b488 ;
+        rdf:first  "YX" .
+
+_:b488  rdf:rest   rdf:nil ;
+        rdf:first  "yJ" .
+
+_:b486  foot:teams  _:b489 .
+
+_:b490  rdf:rest   _:b491 ;
+        rdf:first  "nh" .
+
+_:b492  rdf:rest   _:b490 ;
+        rdf:first  "LW" .
+
+_:b491  rdf:rest   rdf:nil ;
+        rdf:first  "Db" .
+
+_:b489  rdf:rest   _:b492 ;
+        rdf:first  "BE" .
+
+_:b493  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b494 .
+
+_:b495  rdf:rest   rdf:nil ;
+        rdf:first  "tu" .
+
+_:b494  rdf:rest   _:b496 ;
+        rdf:first  _:b497 .
+
+_:b496  rdf:rest   _:b495 ;
+        rdf:first  _:b498 .
+
+_:b493  foot:teams  _:b499 .
+
+_:b500  rdf:rest   _:b501 ;
+        rdf:first  _:b502 .
+
+_:b503  rdf:rest   _:b500 ;
+        rdf:first  _:b504 .
+
+_:b499  rdf:rest   _:b503 ;
+        rdf:first  _:b505 .
+
+_:b501  rdf:rest   rdf:nil ;
+        rdf:first  _:b506 .
+
+_:b507  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b508 .
+
+_:b509  rdf:rest   rdf:nil ;
+        rdf:first  "Wn" .
+
+_:b508  rdf:rest   _:b510 ;
+        rdf:first  "xE" .
+
+_:b510  rdf:rest   _:b511 ;
+        rdf:first  "ew" .
+
+_:b511  rdf:rest   _:b509 ;
+        rdf:first  "OV" .
+
+_:b507  foot:teams  _:b512 .
+
+_:b513  rdf:rest   rdf:nil ;
+        rdf:first  "al" .
+
+_:b512  rdf:rest   _:b514 ;
+        rdf:first  "qh" .
+
+_:b514  rdf:rest   _:b513 ;
+        rdf:first  "JD" .
+
+_:b515  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b516 .
+
+_:b516  rdf:rest   _:b517 ;
+        rdf:first  _:b518 .
+
+_:b517  rdf:rest   _:b519 ;
+        rdf:first  _:b520 .
+
+_:b519  rdf:rest   _:b521 ;
+        rdf:first  _:b522 .
+
+_:b521  rdf:rest   rdf:nil ;
+        rdf:first  _:b523 .
+
+_:b515  foot:teams  _:b524 .
+
+_:b524  rdf:rest   rdf:nil ;
+        rdf:first  "5mo" .
+
+_:b525  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b526 .
+
+_:b527  rdf:rest   rdf:nil ;
+        rdf:first  "" .
+
+_:b528  rdf:rest   _:b527 ;
+        rdf:first  "Jl" .
+
+_:b529  rdf:rest   _:b528 ;
+        rdf:first  "SF" .
+
+_:b526  rdf:rest   _:b529 ;
+        rdf:first  "qK" .
+
+_:b530  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b531 .
+
+_:b532  rdf:rest   rdf:nil ;
+        rdf:first  _:b533 .
+
+_:b534  rdf:rest   _:b532 ;
+        rdf:first  _:b535 .
+
+_:b531  rdf:rest   _:b534 ;
+        rdf:first  _:b536 .
+
+_:b530  foot:continent  "@" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "!" .
+
+_:b537  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b538 .
+
+_:b538  rdf:rest   _:b539 ;
+        rdf:first  "JB" .
+
+_:b539  rdf:rest   _:b540 ;
+        rdf:first  "Im" .
+
+_:b541  rdf:rest   rdf:nil ;
+        rdf:first  "Ye" .
+
+_:b540  rdf:rest   _:b541 ;
+        rdf:first  "OR" .
+
+_:b537  foot:teams  _:b542 .
+
+_:b543  rdf:rest   _:b544 ;
+        rdf:first  _:b545 .
+
+_:b544  rdf:rest   rdf:nil ;
+        rdf:first  "hN" .
+
+_:b542  rdf:rest   _:b543 ;
+        rdf:first  _:b546 .
+
+_:b547  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b548 .
+
+_:b549  rdf:rest   _:b550 ;
+        rdf:first  _:b551 .
+
+_:b550  rdf:rest   rdf:nil ;
+        rdf:first  _:b552 .
+
+_:b553  rdf:rest   _:b549 ;
+        rdf:first  _:b554 .
+
+_:b548  rdf:rest   _:b553 ;
+        rdf:first  _:b555 .
+
+_:b547  foot:teams  _:b556 .
+
+_:b557  rdf:rest   rdf:nil ;
+        rdf:first  "ly" .
+
+_:b556  rdf:rest   _:b557 ;
+        rdf:first  "Ee" .
+
+_:b558  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b559 .
+
+_:b559  rdf:rest   _:b560 ;
+        rdf:first  _:b561 .
+
+_:b560  rdf:rest   rdf:nil ;
+        rdf:first  "qM" .
+
+_:b558  foot:teams  _:b562 .
+
+_:b562  rdf:rest   _:b563 ;
+        rdf:first  "fZ" .
+
+_:b564  rdf:rest   rdf:nil ;
+        rdf:first  "tv" .
+
+_:b565  rdf:rest   _:b564 ;
+        rdf:first  "xK" .
+
+_:b563  rdf:rest   _:b565 ;
+        rdf:first  "hF" .
+
+_:b566  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b567 .
+
+_:b568  rdf:rest   _:b569 ;
+        rdf:first  "Xy" .
+
+_:b569  rdf:rest   rdf:nil ;
+        rdf:first  "fQ" .
+
+_:b567  rdf:rest   _:b568 ;
+        rdf:first  "Zg" .
+
+_:b566  foot:teams  _:b570 .
+
+_:b571  rdf:rest   _:b572 ;
+        rdf:first  _:b573 .
+
+_:b570  rdf:rest   _:b574 ;
+        rdf:first  _:b575 .
+
+_:b574  rdf:rest   _:b571 ;
+        rdf:first  _:b576 .
+
+_:b572  rdf:rest   rdf:nil ;
+        rdf:first  "Wh" .
+
+_:b577  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "]" ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b578 .
+
+_:b579  rdf:rest   _:b580 ;
+        rdf:first  _:b581 .
+
+_:b578  rdf:rest   _:b579 ;
+        rdf:first  _:b582 .
+
+_:b583  rdf:rest   rdf:nil ;
+        rdf:first  _:b584 .
+
+_:b580  rdf:rest   _:b583 ;
+        rdf:first  _:b585 .
+
+_:b586  foot:country      "" ;
+        foot:stadiumName  " " ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b587  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b588 .
+
+_:b588  rdf:rest   _:b589 ;
+        rdf:first  _:b590 .
+
+_:b591  rdf:rest   rdf:nil ;
+        rdf:first  "vH" .
+
+_:b589  rdf:rest   _:b592 ;
+        rdf:first  _:b593 .
+
+_:b592  rdf:rest   _:b591 ;
+        rdf:first  _:b594 .
+
+_:b587  foot:teams  _:b595 .
+
+_:b595  rdf:rest   _:b596 ;
+        rdf:first  "CS" .
+
+_:b597  rdf:rest   rdf:nil ;
+        rdf:first  "Ue" .
+
+_:b596  rdf:rest   _:b597 ;
+        rdf:first  "YK" .
+
+_:b598  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b599 .
+
+_:b600  rdf:rest   rdf:nil ;
+        rdf:first  _:b601 .
+
+_:b599  rdf:rest   _:b602 ;
+        rdf:first  _:b603 .
+
+_:b602  rdf:rest   _:b604 ;
+        rdf:first  _:b605 .
+
+_:b604  rdf:rest   _:b600 ;
+        rdf:first  _:b606 .
+
+_:b598  foot:fifaCode  "ENG" .
+
+_:b607  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b608 .
+
+_:b608  rdf:rest   _:b609 ;
+        rdf:first  "rf" .
+
+_:b610  rdf:rest   rdf:nil ;
+        rdf:first  "xp" .
+
+_:b609  rdf:rest   _:b610 ;
+        rdf:first  "JM" .
+
+_:b607  foot:teams  _:b611 .
+
+_:b611  rdf:rest   _:b612 ;
+        rdf:first  _:b613 .
+
+_:b614  rdf:rest   rdf:nil ;
+        rdf:first  _:b615 .
+
+_:b612  rdf:rest   _:b614 ;
+        rdf:first  _:b616 .
+
+_:b617  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b618 .
+
+_:b619  rdf:rest   _:b620 ;
+        rdf:first  _:b621 .
+
+_:b622  rdf:rest   _:b619 ;
+        rdf:first  _:b623 .
+
+_:b620  rdf:rest   rdf:nil ;
+        rdf:first  _:b624 .
+
+_:b618  rdf:rest   _:b622 ;
+        rdf:first  _:b625 .
+
+_:b617  foot:teams  _:b626 .
+
+_:b627  rdf:rest   rdf:nil ;
+        rdf:first  "oS" .
+
+_:b628  rdf:rest   _:b627 ;
+        rdf:first  "GJ" .
+
+_:b626  rdf:rest   _:b628 ;
+        rdf:first  "kb" .
+
+_:b629  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b630 .
+
+_:b631  rdf:rest   rdf:nil ;
+        rdf:first  _:b632 .
+
+_:b630  rdf:rest   _:b633 ;
+        rdf:first  _:b634 .
+
+_:b635  rdf:rest   _:b631 ;
+        rdf:first  _:b636 .
+
+_:b633  rdf:rest   _:b635 ;
+        rdf:first  _:b637 .
+
+_:b629  foot:fifaCode  "EGY" .
+
+_:b638  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b639 .
+
+_:b640  rdf:rest   rdf:nil ;
+        rdf:first  "SR" .
+
+_:b639  rdf:rest   _:b641 ;
+        rdf:first  _:b642 .
+
+_:b641  rdf:rest   _:b640 ;
+        rdf:first  _:b643 .
+
+_:b638  foot:teams  _:b644 .
+
+_:b644  rdf:rest   rdf:nil ;
+        rdf:first  "." .
+
+_:b645  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b646 .
+
+_:b646  rdf:rest   _:b647 ;
+        rdf:first  _:b648 .
+
+_:b649  rdf:rest   _:b650 ;
+        rdf:first  _:b651 .
+
+_:b647  rdf:rest   _:b649 ;
+        rdf:first  _:b652 .
+
+_:b650  rdf:rest   rdf:nil ;
+        rdf:first  _:b653 .
+
+_:b645  foot:fifaCode  "ARG" .
+
+_:b654  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b655 .
+
+_:b655  rdf:rest   _:b656 ;
+        rdf:first  _:b657 .
+
+_:b656  rdf:rest   _:b658 ;
+        rdf:first  _:b659 .
+
+_:b658  rdf:rest   _:b660 ;
+        rdf:first  _:b661 .
+
+_:b660  rdf:rest   rdf:nil ;
+        rdf:first  "yw" .
+
+_:b654  foot:teams  _:b662 .
+
+_:b663  rdf:rest   _:b664 ;
+        rdf:first  "hE" .
+
+_:b662  rdf:rest   _:b665 ;
+        rdf:first  "CP" .
+
+_:b664  rdf:rest   rdf:nil ;
+        rdf:first  "Dz" .
+
+_:b665  rdf:rest   _:b663 ;
+        rdf:first  "lY" .
+
+_:b666  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b667 .
+
+_:b668  rdf:rest   _:b669 ;
+        rdf:first  _:b670 .
+
+_:b671  rdf:rest   rdf:nil ;
+        rdf:first  _:b672 .
+
+_:b669  rdf:rest   _:b671 ;
+        rdf:first  _:b673 .
+
+_:b667  rdf:rest   _:b668 ;
+        rdf:first  _:b674 .
+
+_:b666  foot:fifaCode  "POR" .
+
+_:b675  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b676 .
+
+_:b676  rdf:rest   _:b677 ;
+        rdf:first  _:b678 .
+
+_:b679  rdf:rest   rdf:nil ;
+        rdf:first  _:b680 .
+
+_:b681  rdf:rest   _:b679 ;
+        rdf:first  _:b682 .
+
+_:b677  rdf:rest   _:b681 ;
+        rdf:first  _:b683 .
+
+_:b675  foot:teams  _:b684 .
+
+_:b685  rdf:rest   _:b686 ;
+        rdf:first  _:b687 .
+
+_:b686  rdf:rest   rdf:nil ;
+        rdf:first  _:b688 .
+
+_:b684  rdf:rest   _:b685 ;
+        rdf:first  _:b689 .
+
+_:b690  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b691 .
+
+_:b691  rdf:rest   _:b692 ;
+        rdf:first  _:b693 .
+
+_:b694  rdf:rest   rdf:nil ;
+        rdf:first  _:b695 .
+
+_:b692  rdf:rest   _:b694 ;
+        rdf:first  _:b696 .
+
+_:b690  foot:continent  ">" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b697  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b698 .
+
+_:b698  rdf:rest   _:b699 ;
+        rdf:first  _:b700 .
+
+_:b699  rdf:rest   rdf:nil ;
+        rdf:first  _:b701 .
+
+_:b697  foot:continent  "South America" ;
+        foot:leagues    _:b702 .
+
+_:b703  rdf:rest   rdf:nil ;
+        rdf:first  _:b704 .
+
+_:b702  rdf:rest   _:b705 ;
+        rdf:first  _:b706 .
+
+_:b705  rdf:rest   _:b703 ;
+        rdf:first  _:b707 .
+
+_:b697  foot:fifaCode  "ARG" .
+
+_:b708  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b709 .
+
+_:b710  rdf:rest   _:b711 ;
+        rdf:first  _:b712 .
+
+_:b709  rdf:rest   _:b713 ;
+        rdf:first  _:b714 .
+
+_:b713  rdf:rest   _:b710 ;
+        rdf:first  _:b715 .
+
+_:b711  rdf:rest   rdf:nil ;
+        rdf:first  _:b716 .
+
+_:b708  foot:fifaCode  "POR" .
+
+_:b717  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b718 .
+
+_:b719  rdf:rest   _:b720 ;
+        rdf:first  _:b721 .
+
+_:b720  rdf:rest   _:b722 ;
+        rdf:first  _:b723 .
+
+_:b718  rdf:rest   _:b719 ;
+        rdf:first  _:b724 .
+
+_:b722  rdf:rest   rdf:nil ;
+        rdf:first  _:b725 .
+
+_:b717  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b726  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b727 .
+
+_:b727  rdf:rest   _:b728 ;
+        rdf:first  _:b729 .
+
+_:b728  rdf:rest   _:b730 ;
+        rdf:first  _:b731 .
+
+_:b730  rdf:rest   rdf:nil ;
+        rdf:first  _:b732 .
+
+_:b726  foot:teams  _:b733 .
+
+_:b734  rdf:rest   _:b735 ;
+        rdf:first  "yR" .
+
+_:b733  rdf:rest   _:b734 ;
+        rdf:first  "hO" .
+
+_:b735  rdf:rest   _:b736 ;
+        rdf:first  "Rv" .
+
+_:b736  rdf:rest   rdf:nil ;
+        rdf:first  "Wk" .
+
+_:b737  foot:country      "#" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Paris Saint-Germain" .
+
+_:b738  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b739 .
+
+_:b740  rdf:rest   rdf:nil ;
+        rdf:first  _:b741 .
+
+_:b739  rdf:rest   _:b740 ;
+        rdf:first  _:b742 .
+
+_:b738  foot:teams  _:b743 .
+
+_:b743  rdf:rest   _:b744 ;
+        rdf:first  "vL" .
+
+_:b745  rdf:rest   rdf:nil ;
+        rdf:first  "Tr" .
+
+_:b746  rdf:rest   _:b745 ;
+        rdf:first  "NS" .
+
+_:b744  rdf:rest   _:b746 ;
+        rdf:first  "ht" .
+
+_:b747  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b748 .
+
+_:b748  rdf:rest   _:b749 ;
+        rdf:first  _:b750 .
+
+_:b749  rdf:rest   _:b751 ;
+        rdf:first  _:b752 .
+
+_:b751  rdf:rest   _:b753 ;
+        rdf:first  _:b754 .
+
+_:b753  rdf:rest   rdf:nil ;
+        rdf:first  _:b755 .
+
+_:b747  foot:teams  _:b756 .
+
+_:b756  rdf:rest   _:b757 ;
+        rdf:first  _:b758 .
+
+_:b757  rdf:rest   rdf:nil ;
+        rdf:first  _:b759 .
+
+_:b760  foot:country      "France" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b761  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b762 .
+
+_:b763  rdf:rest   rdf:nil ;
+        rdf:first  "fT" .
+
+_:b764  rdf:rest   _:b765 ;
+        rdf:first  "CK" .
+
+_:b765  rdf:rest   _:b763 ;
+        rdf:first  "ym" .
+
+_:b762  rdf:rest   _:b764 ;
+        rdf:first  "eA" .
+
+_:b761  foot:teams  _:b766 .
+
+_:b766  rdf:rest   rdf:nil ;
+        rdf:first  "" .
+
+_:b767  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b768 .
+
+_:b769  rdf:rest   _:b770 ;
+        rdf:first  _:b771 .
+
+_:b768  rdf:rest   _:b772 ;
+        rdf:first  _:b773 .
+
+_:b770  rdf:rest   rdf:nil ;
+        rdf:first  _:b774 .
+
+_:b772  rdf:rest   _:b769 ;
+        rdf:first  _:b775 .
+
+_:b767  foot:continent  "North America" ;
+        foot:leagues    _:b776 .
+
+_:b776  rdf:rest   rdf:nil ;
+        rdf:first  ")" .
+
+_:b767  foot:fifaCode  "POR" .
+
+_:b777  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b778 .
+
+_:b778  rdf:rest   _:b779 ;
+        rdf:first  _:b780 .
+
+_:b779  rdf:rest   rdf:nil ;
+        rdf:first  " " .
+
+_:b777  foot:continent  "%" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b781  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b782 .
+
+_:b783  rdf:rest   rdf:nil ;
+        rdf:first  _:b784 .
+
+_:b785  rdf:rest   _:b786 ;
+        rdf:first  _:b787 .
+
+_:b782  rdf:rest   _:b785 ;
+        rdf:first  _:b788 .
+
+_:b786  rdf:rest   _:b783 ;
+        rdf:first  _:b789 .
+
+_:b781  foot:fifaCode  "POR" .
+
+_:b790  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b791 .
+
+_:b792  rdf:rest   _:b793 ;
+        rdf:first  _:b794 .
+
+_:b791  rdf:rest   _:b792 ;
+        rdf:first  _:b795 .
+
+_:b793  rdf:rest   _:b796 ;
+        rdf:first  _:b797 .
+
+_:b796  rdf:rest   rdf:nil ;
+        rdf:first  _:b798 .
+
+_:b790  foot:teams  _:b799 .
+
+_:b800  rdf:rest   rdf:nil ;
+        rdf:first  _:b801 .
+
+_:b799  rdf:rest   _:b802 ;
+        rdf:first  _:b803 .
+
+_:b802  rdf:rest   _:b800 ;
+        rdf:first  _:b804 .
+
+_:b805  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b806 .
+
+_:b806  rdf:rest   _:b807 ;
+        rdf:first  "Bn" .
+
+_:b808  rdf:rest   rdf:nil ;
+        rdf:first  "Hy" .
+
+_:b809  rdf:rest   _:b808 ;
+        rdf:first  "Zj" .
+
+_:b807  rdf:rest   _:b809 ;
+        rdf:first  "xk" .
+
+_:b805  foot:teams  _:b810 .
+
+_:b810  rdf:rest   _:b811 ;
+        rdf:first  _:b812 .
+
+_:b811  rdf:rest   _:b813 ;
+        rdf:first  _:b814 .
+
+_:b815  rdf:rest   rdf:nil ;
+        rdf:first  _:b816 .
+
+_:b813  rdf:rest   _:b815 ;
+        rdf:first  _:b817 .
+
+_:b818  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "^" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b819 .
+
+_:b820  rdf:rest   rdf:nil ;
+        rdf:first  "ck" .
+
+_:b819  rdf:rest   _:b820 ;
+        rdf:first  _:b821 .
+
+_:b818  foot:teams  _:b822 .
+
+_:b822  rdf:rest   _:b823 ;
+        rdf:first  _:b824 .
+
+_:b823  rdf:rest   rdf:nil ;
+        rdf:first  "Ka" .
+
+_:b825  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b826 .
+
+_:b827  rdf:rest   _:b828 ;
+        rdf:first  _:b829 .
+
+_:b830  rdf:rest   _:b827 ;
+        rdf:first  _:b831 .
+
+_:b826  rdf:rest   _:b830 ;
+        rdf:first  _:b832 .
+
+_:b828  rdf:rest   rdf:nil ;
+        rdf:first  _:b833 .
+
+_:b825  foot:teams  _:b834 .
+
+_:b835  rdf:rest   rdf:nil ;
+        rdf:first  "TR" .
+
+_:b834  rdf:rest   _:b836 ;
+        rdf:first  _:b837 .
+
+_:b836  rdf:rest   _:b835 ;
+        rdf:first  _:b838 .
+
+_:b839  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b840 .
+
+_:b841  rdf:rest   rdf:nil ;
+        rdf:first  "Bm" .
+
+_:b840  rdf:rest   _:b841 ;
+        rdf:first  "bf" .
+
+_:b839  foot:teams  _:b842 .
+
+_:b842  rdf:rest   _:b843 ;
+        rdf:first  _:b844 .
+
+_:b845  rdf:rest   rdf:nil ;
+        rdf:first  _:b846 .
+
+_:b843  rdf:rest   _:b845 ;
+        rdf:first  _:b847 .
+
+_:b848  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b849 .
+
+_:b850  rdf:rest   rdf:nil ;
+        rdf:first  _:b851 .
+
+_:b849  rdf:rest   _:b852 ;
+        rdf:first  _:b853 .
+
+_:b854  rdf:rest   _:b850 ;
+        rdf:first  _:b855 .
+
+_:b852  rdf:rest   _:b854 ;
+        rdf:first  _:b856 .
+
+_:b848  foot:fifaCode  "POR" .
+
+_:b857  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b858 .
+
+_:b859  rdf:rest   _:b860 ;
+        rdf:first  _:b861 .
+
+_:b860  rdf:rest   rdf:nil ;
+        rdf:first  "PR" .
+
+_:b858  rdf:rest   _:b859 ;
+        rdf:first  _:b862 .
+
+_:b857  foot:teams  _:b863 .
+
+_:b864  rdf:rest   rdf:nil ;
+        rdf:first  "tk" .
+
+_:b865  rdf:rest   _:b864 ;
+        rdf:first  _:b866 .
+
+_:b863  rdf:rest   _:b867 ;
+        rdf:first  _:b868 .
+
+_:b867  rdf:rest   _:b865 ;
+        rdf:first  _:b869 .
+
+_:b870  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b871 .
+
+_:b871  rdf:rest   _:b872 ;
+        rdf:first  _:b873 .
+
+_:b874  rdf:rest   rdf:nil ;
+        rdf:first  _:b875 .
+
+_:b872  rdf:rest   _:b874 ;
+        rdf:first  _:b876 .
+
+_:b870  foot:continent  "Asia" ;
+        foot:leagues    _:b877 .
+
+_:b878  rdf:rest   _:b879 ;
+        rdf:first  _:b880 .
+
+_:b881  rdf:rest   _:b878 ;
+        rdf:first  _:b882 .
+
+_:b877  rdf:rest   _:b881 ;
+        rdf:first  _:b883 .
+
+_:b879  rdf:rest   rdf:nil ;
+        rdf:first  _:b884 .
+
+_:b870  foot:fifaCode  "ENG" .
+
+_:b885  foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b886 .
+
+_:b887  rdf:rest   rdf:nil ;
+        rdf:first  _:b888 .
+
+_:b889  rdf:rest   _:b887 ;
+        rdf:first  _:b890 .
+
+_:b891  rdf:rest   _:b889 ;
+        rdf:first  _:b892 .
+
+_:b886  rdf:rest   _:b891 ;
+        rdf:first  _:b893 .
+
+_:b885  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b894  foot:country      "" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b895  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b896 .
+
+_:b897  rdf:rest   _:b898 ;
+        rdf:first  _:b899 .
+
+_:b898  rdf:rest   rdf:nil ;
+        rdf:first  _:b900 .
+
+_:b896  rdf:rest   _:b897 ;
+        rdf:first  _:b901 .
+
+_:b895  foot:continent  "Europe" ;
+        foot:leagues    _:b902 .
+
+_:b902  rdf:rest   _:b903 ;
+        rdf:first  _:b904 .
+
+_:b903  rdf:rest   rdf:nil ;
+        rdf:first  _:b905 .
+
+_:b895  foot:fifaCode  "EGY" .
+
+_:b906  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b907 .
+
+_:b908  rdf:rest   rdf:nil ;
+        rdf:first  "sO" .
+
+_:b909  rdf:rest   _:b910 ;
+        rdf:first  _:b911 .
+
+_:b907  rdf:rest   _:b909 ;
+        rdf:first  _:b912 .
+
+_:b910  rdf:rest   _:b908 ;
+        rdf:first  _:b913 .
+
+_:b906  foot:teams  _:b914 .
+
+_:b914  rdf:rest   _:b915 ;
+        rdf:first  _:b916 .
+
+_:b917  rdf:rest   rdf:nil ;
+        rdf:first  "GH" .
+
+_:b915  rdf:rest   _:b917 ;
+        rdf:first  _:b918 .
+
+_:b919  foot:country      "}" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b920  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b921 .
+
+_:b921  rdf:rest   rdf:nil ;
+        rdf:first  ";" .
+
+_:b920  foot:fifaCode  "" .
+
+_:b922  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b923 .
+
+_:b924  rdf:rest   rdf:nil ;
+        rdf:first  _:b925 .
+
+_:b923  rdf:rest   _:b926 ;
+        rdf:first  _:b927 .
+
+_:b928  rdf:rest   _:b924 ;
+        rdf:first  _:b929 .
+
+_:b926  rdf:rest   _:b928 ;
+        rdf:first  _:b930 .
+
+_:b922  foot:fifaCode  "EGY" .
+
+_:b931  foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b932 .
+
+_:b932  rdf:rest   _:b933 ;
+        rdf:first  _:b934 .
+
+_:b935  rdf:rest   rdf:nil ;
+        rdf:first  _:b936 .
+
+_:b937  rdf:rest   _:b935 ;
+        rdf:first  _:b938 .
+
+_:b933  rdf:rest   _:b937 ;
+        rdf:first  _:b939 .
+
+_:b931  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b940  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b941 .
+
+_:b942  rdf:rest   _:b943 ;
+        rdf:first  _:b944 .
+
+_:b941  rdf:rest   _:b942 ;
+        rdf:first  _:b945 .
+
+_:b946  rdf:rest   rdf:nil ;
+        rdf:first  "RM" .
+
+_:b943  rdf:rest   _:b946 ;
+        rdf:first  _:b947 .
+
+_:b940  foot:teams  _:b948 .
+
+_:b949  rdf:rest   _:b950 ;
+        rdf:first  _:b951 .
+
+_:b952  rdf:rest   rdf:nil ;
+        rdf:first  _:b953 .
+
+_:b950  rdf:rest   _:b952 ;
+        rdf:first  _:b954 .
+
+_:b948  rdf:rest   _:b949 ;
+        rdf:first  _:b955 .
+
+_:b956  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b957 .
+
+_:b958  rdf:rest   _:b959 ;
+        rdf:first  _:b960 .
+
+_:b959  rdf:rest   _:b961 ;
+        rdf:first  _:b962 .
+
+_:b957  rdf:rest   _:b958 ;
+        rdf:first  _:b963 .
+
+_:b961  rdf:rest   rdf:nil ;
+        rdf:first  _:b964 .
+
+_:b956  foot:fifaCode  "POR" .
+
+_:b965  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b966 .
+
+_:b967  rdf:rest   _:b968 ;
+        rdf:first  "lj" .
+
+_:b966  rdf:rest   _:b967 ;
+        rdf:first  "DE" .
+
+_:b968  rdf:rest   _:b969 ;
+        rdf:first  "jc" .
+
+_:b969  rdf:rest   rdf:nil ;
+        rdf:first  "jE" .
+
+_:b965  foot:teams  _:b970 .
+
+_:b970  rdf:rest   _:b971 ;
+        rdf:first  _:b972 .
+
+_:b973  rdf:rest   rdf:nil ;
+        rdf:first  _:b974 .
+
+_:b971  rdf:rest   _:b973 ;
+        rdf:first  _:b975 .
+
+_:b976  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b977 .
+
+_:b978  rdf:rest   _:b979 ;
+        rdf:first  _:b980 .
+
+_:b977  rdf:rest   _:b978 ;
+        rdf:first  _:b981 .
+
+_:b979  rdf:rest   _:b982 ;
+        rdf:first  _:b983 .
+
+_:b982  rdf:rest   rdf:nil ;
+        rdf:first  _:b984 .
+
+_:b976  foot:continent  "North America" ;
+        foot:leagues    _:b985 .
+
+_:b985  rdf:rest   _:b986 ;
+        rdf:first  _:b987 .
+
+_:b988  rdf:rest   rdf:nil ;
+        rdf:first  "!" .
+
+_:b989  rdf:rest   _:b988 ;
+        rdf:first  "$" .
+
+_:b986  rdf:rest   _:b989 ;
+        rdf:first  _:b990 .
+
+_:b976  foot:fifaCode  "ENG" .
+
+_:b991  foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b992 .
+
+_:b993  rdf:rest   _:b994 ;
+        rdf:first  _:b995 .
+
+_:b994  rdf:rest   rdf:nil ;
+        rdf:first  _:b996 .
+
+_:b992  rdf:rest   _:b997 ;
+        rdf:first  _:b998 .
+
+_:b997  rdf:rest   _:b993 ;
+        rdf:first  _:b999 .
+
+_:b991  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1000  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b1001 .
+
+_:b1002  rdf:rest  _:b1003 ;
+        rdf:first  _:b1004 .
+
+_:b1001  rdf:rest  _:b1005 ;
+        rdf:first  _:b1006 .
+
+_:b1005  rdf:rest  _:b1002 ;
+        rdf:first  _:b1007 .
+
+_:b1003  rdf:rest  rdf:nil ;
+        rdf:first  _:b1008 .
+
+_:b1000  foot:fifaCode  "FRA" .
+
+_:b1009  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "" .
+
+_:b1010  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1011 .
+
+_:b1012  rdf:rest  _:b1013 ;
+        rdf:first  "Gs" .
+
+_:b1011  rdf:rest  _:b1012 ;
+        rdf:first  "it" .
+
+_:b1013  rdf:rest  rdf:nil ;
+        rdf:first  "rF" .
+
+_:b1010  foot:teams  _:b1014 .
+
+_:b1015  rdf:rest  _:b1016 ;
+        rdf:first  _:b1017 .
+
+_:b1016  rdf:rest  rdf:nil ;
+        rdf:first  "uk" .
+
+_:b1014  rdf:rest  _:b1015 ;
+        rdf:first  _:b1018 .
+
+_:b1019  foot:country     "Portugal" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Manchester United" .
+
+_:b1020  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b1021 .
+
+_:b1022  rdf:rest  _:b1023 ;
+        rdf:first  _:b1024 .
+
+_:b1021  rdf:rest  _:b1025 ;
+        rdf:first  _:b1026 .
+
+_:b1025  rdf:rest  _:b1022 ;
+        rdf:first  _:b1027 .
+
+_:b1023  rdf:rest  rdf:nil ;
+        rdf:first  _:b1028 .
+
+_:b1020  foot:fifaCode  "ARG" .
+
+_:b1029  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1030 .
+
+_:b1031  rdf:rest  rdf:nil ;
+        rdf:first  _:b1032 .
+
+_:b1030  rdf:rest  _:b1033 ;
+        rdf:first  _:b1034 .
+
+_:b1035  rdf:rest  _:b1031 ;
+        rdf:first  _:b1036 .
+
+_:b1033  rdf:rest  _:b1035 ;
+        rdf:first  _:b1037 .
+
+_:b1029  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b1038  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1039 .
+
+_:b1040  rdf:rest  _:b1041 ;
+        rdf:first  _:b1042 .
+
+_:b1039  rdf:rest  _:b1043 ;
+        rdf:first  _:b1044 .
+
+_:b1041  rdf:rest  rdf:nil ;
+        rdf:first  _:b1045 .
+
+_:b1043  rdf:rest  _:b1040 ;
+        rdf:first  _:b1046 .
+
+_:b1038  foot:teams  _:b1047 .
+
+_:b1048  rdf:rest  _:b1049 ;
+        rdf:first  "kj" .
+
+_:b1049  rdf:rest  rdf:nil ;
+        rdf:first  "GN" .
+
+_:b1047  rdf:rest  _:b1048 ;
+        rdf:first  "jv" .
+
+_:b1050  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1051 .
+
+_:b1051  rdf:rest  _:b1052 ;
+        rdf:first  "Hp" .
+
+_:b1052  rdf:rest  rdf:nil ;
+        rdf:first  "MK" .
+
+_:b1050  foot:teams  _:b1053 .
+
+_:b1053  rdf:rest  _:b1054 ;
+        rdf:first  "VT" .
+
+_:b1055  rdf:rest  rdf:nil ;
+        rdf:first  "js" .
+
+_:b1056  rdf:rest  _:b1055 ;
+        rdf:first  "dy" .
+
+_:b1054  rdf:rest  _:b1056 ;
+        rdf:first  "zC" .
+
+_:b1057  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1058 .
+
+_:b1059  rdf:rest  _:b1060 ;
+        rdf:first  _:b1061 .
+
+_:b1058  rdf:rest  _:b1062 ;
+        rdf:first  _:b1063 .
+
+_:b1062  rdf:rest  _:b1059 ;
+        rdf:first  "|" .
+
+_:b1060  rdf:rest  rdf:nil ;
+        rdf:first  "lq" .
+
+_:b1057  foot:teams  rdf:nil .
+
+_:b1064  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1065 .
+
+_:b1066  rdf:rest  _:b1067 ;
+        rdf:first  _:b1068 .
+
+_:b1065  rdf:rest  _:b1069 ;
+        rdf:first  _:b1070 .
+
+_:b1067  rdf:rest  rdf:nil ;
+        rdf:first  _:b1071 .
+
+_:b1069  rdf:rest  _:b1066 ;
+        rdf:first  _:b1072 .
+
+_:b1064  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b1073  foaf:name          "" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "*" ;
+        foot:leagues        _:b1074 .
+
+_:b1074  rdf:rest  rdf:nil ;
+        rdf:first  _:b1075 .
+
+_:b1073  foot:fifaCode  "EGY" .
+
+_:b1076  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1077 .
+
+_:b1078  rdf:rest  _:b1079 ;
+        rdf:first  _:b1080 .
+
+_:b1077  rdf:rest  _:b1078 ;
+        rdf:first  _:b1081 .
+
+_:b1079  rdf:rest  _:b1082 ;
+        rdf:first  _:b1083 .
+
+_:b1082  rdf:rest  rdf:nil ;
+        rdf:first  "UF" .
+
+_:b1076  foot:teams  _:b1084 .
+
+_:b1084  rdf:rest  _:b1085 ;
+        rdf:first  "Mh" .
+
+_:b1085  rdf:rest  rdf:nil ;
+        rdf:first  "Vc" .
+
+_:b1086  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1087 .
+
+_:b1088  rdf:rest  rdf:nil ;
+        rdf:first  "qv" .
+
+_:b1089  rdf:rest  _:b1088 ;
+        rdf:first  "QK" .
+
+_:b1087  rdf:rest  _:b1089 ;
+        rdf:first  "Da" .
+
+_:b1086  foot:teams  _:b1090 .
+
+_:b1090  rdf:rest  _:b1091 ;
+        rdf:first  _:b1092 .
+
+_:b1093  rdf:rest  rdf:nil ;
+        rdf:first  "KN" .
+
+_:b1091  rdf:rest  _:b1093 ;
+        rdf:first  _:b1094 .
+
+_:b1095  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b1096 .
+
+_:b1097  rdf:rest  rdf:nil ;
+        rdf:first  _:b1098 .
+
+_:b1099  rdf:rest  _:b1100 ;
+        rdf:first  _:b1101 .
+
+_:b1100  rdf:rest  _:b1097 ;
+        rdf:first  _:b1102 .
+
+_:b1096  rdf:rest  _:b1099 ;
+        rdf:first  _:b1103 .
+
+_:b1095  foot:fifaCode  "FRA" .
+
+_:b1104  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1105 .
+
+_:b1106  rdf:rest  _:b1107 ;
+        rdf:first  _:b1108 .
+
+_:b1105  rdf:rest  _:b1106 ;
+        rdf:first  _:b1109 .
+
+_:b1107  rdf:rest  _:b1110 ;
+        rdf:first  _:b1111 .
+
+_:b1110  rdf:rest  rdf:nil ;
+        rdf:first  _:b1112 .
+
+_:b1104  foot:teams  _:b1113 .
+
+_:b1113  rdf:rest  _:b1114 ;
+        rdf:first  "tX" .
+
+_:b1115  rdf:rest  rdf:nil ;
+        rdf:first  "lp" .
+
+_:b1114  rdf:rest  _:b1115 ;
+        rdf:first  "PC" .
+
+_:b1116  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b1117 .
+
+_:b1117  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b1116  foot:fifaCode  "POR" .
+
+_:b1118  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1119 .
+
+_:b1120  rdf:rest  _:b1121 ;
+        rdf:first  _:b1122 .
+
+_:b1123  rdf:rest  _:b1120 ;
+        rdf:first  _:b1124 .
+
+_:b1121  rdf:rest  rdf:nil ;
+        rdf:first  _:b1125 .
+
+_:b1119  rdf:rest  _:b1123 ;
+        rdf:first  _:b1126 .
+
+_:b1118  foot:teams  rdf:nil .
+
+_:b1127  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "{" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1128 .
+
+_:b1129  rdf:rest  rdf:nil ;
+        rdf:first  "-" .
+
+_:b1130  rdf:rest  _:b1129 ;
+        rdf:first  _:b1131 .
+
+_:b1128  rdf:rest  _:b1130 ;
+        rdf:first  _:b1132 .
+
+_:b1127  foot:teams  _:b1133 .
+
+_:b1133  rdf:rest  _:b1134 ;
+        rdf:first  _:b1135 .
+
+_:b1136  rdf:rest  rdf:nil ;
+        rdf:first  _:b1137 .
+
+_:b1138  rdf:rest  _:b1136 ;
+        rdf:first  _:b1139 .
+
+_:b1134  rdf:rest  _:b1138 ;
+        rdf:first  _:b1140 .
+
+_:b1141  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1142 .
+
+_:b1143  rdf:rest  rdf:nil ;
+        rdf:first  _:b1144 .
+
+_:b1145  rdf:rest  _:b1143 ;
+        rdf:first  _:b1146 .
+
+_:b1147  rdf:rest  _:b1145 ;
+        rdf:first  _:b1148 .
+
+_:b1142  rdf:rest  _:b1147 ;
+        rdf:first  _:b1149 .
+
+_:b1141  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b1150  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1151 .
+
+_:b1151  rdf:rest  _:b1152 ;
+        rdf:first  _:b1153 .
+
+_:b1152  rdf:rest  rdf:nil ;
+        rdf:first  _:b1154 .
+
+_:b1150  foot:continent  "North America" ;
+        foot:leagues    _:b1155 .
+
+_:b1155  rdf:rest  _:b1156 ;
+        rdf:first  _:b1157 .
+
+_:b1156  rdf:rest  _:b1158 ;
+        rdf:first  _:b1159 .
+
+_:b1158  rdf:rest  _:b1160 ;
+        rdf:first  _:b1161 .
+
+_:b1160  rdf:rest  rdf:nil ;
+        rdf:first  _:b1162 .
+
+_:b1150  foot:fifaCode  "EGY" .
+
+_:b1163  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b1164 .
+
+_:b1165  rdf:rest  rdf:nil ;
+        rdf:first  _:b1166 .
+
+_:b1167  rdf:rest  _:b1165 ;
+        rdf:first  _:b1168 .
+
+_:b1169  rdf:rest  _:b1167 ;
+        rdf:first  _:b1170 .
+
+_:b1164  rdf:rest  _:b1169 ;
+        rdf:first  _:b1171 .
+
+_:b1163  foot:fifaCode  "FRA" .
+
+_:b1172  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1173 .
+
+_:b1174  rdf:rest  _:b1175 ;
+        rdf:first  _:b1176 .
+
+_:b1175  rdf:rest  rdf:nil ;
+        rdf:first  _:b1177 .
+
+_:b1173  rdf:rest  _:b1174 ;
+        rdf:first  _:b1178 .
+
+_:b1172  foot:teams  _:b1179 .
+
+_:b1179  rdf:rest  _:b1180 ;
+        rdf:first  "ZY" .
+
+_:b1181  rdf:rest  _:b1182 ;
+        rdf:first  "bx" .
+
+_:b1180  rdf:rest  _:b1181 ;
+        rdf:first  "Ef" .
+
+_:b1182  rdf:rest  rdf:nil ;
+        rdf:first  "Nc" .
+
+_:b1183  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1184 .
+
+_:b1184  rdf:rest  _:b1185 ;
+        rdf:first  _:b1186 .
+
+_:b1185  rdf:rest  rdf:nil ;
+        rdf:first  "Wu" .
+
+_:b1183  foot:teams  _:b1187 .
+
+_:b1187  rdf:rest  rdf:nil ;
+        rdf:first  "*" .
+
+_:b1188  foot:country     "Portugal" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "}" .
+
+_:b1189  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1190 .
+
+_:b1191  rdf:rest  rdf:nil ;
+        rdf:first  _:b1192 .
+
+_:b1190  rdf:rest  _:b1191 ;
+        rdf:first  _:b1193 .
+
+_:b1189  foot:continent  "North America" ;
+        foot:leagues    _:b1194 .
+
+_:b1195  rdf:rest  _:b1196 ;
+        rdf:first  _:b1197 .
+
+_:b1198  rdf:rest  rdf:nil ;
+        rdf:first  _:b1199 .
+
+_:b1194  rdf:rest  _:b1195 ;
+        rdf:first  _:b1200 .
+
+_:b1196  rdf:rest  _:b1198 ;
+        rdf:first  _:b1201 .
+
+_:b1189  foot:fifaCode  "ARG" .
+
+_:b1202  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1203 .
+
+_:b1203  rdf:rest  _:b1204 ;
+        rdf:first  _:b1205 .
+
+_:b1206  rdf:rest  rdf:nil ;
+        rdf:first  _:b1207 .
+
+_:b1208  rdf:rest  _:b1206 ;
+        rdf:first  _:b1209 .
+
+_:b1204  rdf:rest  _:b1208 ;
+        rdf:first  _:b1210 .
+
+_:b1202  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1211  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "" ;
+        foot:leagues        _:b1212 .
+
+_:b1212  rdf:rest  _:b1213 ;
+        rdf:first  _:b1214 .
+
+_:b1213  rdf:rest  _:b1215 ;
+        rdf:first  _:b1216 .
+
+_:b1217  rdf:rest  rdf:nil ;
+        rdf:first  _:b1218 .
+
+_:b1215  rdf:rest  _:b1217 ;
+        rdf:first  _:b1219 .
+
+_:b1211  foot:fifaCode  "}" .
+
+_:b1220  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1221 .
+
+_:b1222  rdf:rest  rdf:nil ;
+        rdf:first  _:b1223 .
+
+_:b1221  rdf:rest  _:b1222 ;
+        rdf:first  _:b1224 .
+
+_:b1220  foot:teams  _:b1225 .
+
+_:b1226  rdf:rest  rdf:nil ;
+        rdf:first  _:b1227 .
+
+_:b1225  rdf:rest  _:b1226 ;
+        rdf:first  _:b1228 .
+
+_:b1229  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b1230 .
+
+_:b1231  rdf:rest  _:b1232 ;
+        rdf:first  _:b1233 .
+
+_:b1230  rdf:rest  _:b1231 ;
+        rdf:first  _:b1234 .
+
+_:b1232  rdf:rest  _:b1235 ;
+        rdf:first  _:b1236 .
+
+_:b1235  rdf:rest  rdf:nil ;
+        rdf:first  _:b1237 .
+
+_:b1229  foot:fifaCode  "EGY" .
+
+_:b1238  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1239 .
+
+_:b1239  rdf:rest  _:b1240 ;
+        rdf:first  _:b1241 .
+
+_:b1240  rdf:rest  rdf:nil ;
+        rdf:first  "ZZ" .
+
+_:b1238  foot:teams  _:b1242 .
+
+_:b1243  rdf:rest  rdf:nil ;
+        rdf:first  "WU" .
+
+_:b1244  rdf:rest  _:b1245 ;
+        rdf:first  "GV" .
+
+_:b1245  rdf:rest  _:b1243 ;
+        rdf:first  "Qj" .
+
+_:b1242  rdf:rest  _:b1244 ;
+        rdf:first  "qc" .
+
+_:b1246  foot:country     "?" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b1247  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1248 .
+
+_:b1248  rdf:rest  _:b1249 ;
+        rdf:first  "gj" .
+
+_:b1250  rdf:rest  rdf:nil ;
+        rdf:first  "iV" .
+
+_:b1251  rdf:rest  _:b1250 ;
+        rdf:first  "Vd" .
+
+_:b1249  rdf:rest  _:b1251 ;
+        rdf:first  "pw" .
+
+_:b1247  foot:teams  _:b1252 .
+
+_:b1252  rdf:rest  _:b1253 ;
+        rdf:first  _:b1254 .
+
+_:b1253  rdf:rest  _:b1255 ;
+        rdf:first  _:b1256 .
+
+_:b1255  rdf:rest  rdf:nil ;
+        rdf:first  "iA" .
+
+_:b1257  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b1258 .
+
+_:b1259  rdf:rest  rdf:nil ;
+        rdf:first  _:b1260 .
+
+_:b1261  rdf:rest  _:b1259 ;
+        rdf:first  _:b1262 .
+
+_:b1258  rdf:rest  _:b1261 ;
+        rdf:first  _:b1263 .
+
+_:b1257  foot:fifaCode  "" .
+
+_:b1264  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1265 .
+
+_:b1266  rdf:rest  _:b1267 ;
+        rdf:first  _:b1268 .
+
+_:b1267  rdf:rest  rdf:nil ;
+        rdf:first  _:b1269 .
+
+_:b1270  rdf:rest  _:b1266 ;
+        rdf:first  _:b1271 .
+
+_:b1265  rdf:rest  _:b1270 ;
+        rdf:first  _:b1272 .
+
+_:b1264  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b1273  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1274 .
+
+_:b1275  rdf:rest  _:b1276 ;
+        rdf:first  "el" .
+
+_:b1277  rdf:rest  rdf:nil ;
+        rdf:first  "UO" .
+
+_:b1274  rdf:rest  _:b1275 ;
+        rdf:first  "cN" .
+
+_:b1276  rdf:rest  _:b1277 ;
+        rdf:first  "mV" .
+
+_:b1273  foot:teams  _:b1278 .
+
+_:b1279  rdf:rest  _:b1280 ;
+        rdf:first  _:b1281 .
+
+_:b1278  rdf:rest  _:b1282 ;
+        rdf:first  _:b1283 .
+
+_:b1282  rdf:rest  _:b1279 ;
+        rdf:first  _:b1284 .
+
+_:b1280  rdf:rest  rdf:nil ;
+        rdf:first  "hy" .
+
+_:b1285  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1286 .
+
+_:b1287  rdf:rest  _:b1288 ;
+        rdf:first  _:b1289 .
+
+_:b1286  rdf:rest  _:b1287 ;
+        rdf:first  _:b1290 .
+
+_:b1291  rdf:rest  rdf:nil ;
+        rdf:first  _:b1292 .
+
+_:b1288  rdf:rest  _:b1291 ;
+        rdf:first  _:b1293 .
+
+_:b1285  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b1294  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1295 .
+
+_:b1296  rdf:rest  _:b1297 ;
+        rdf:first  _:b1298 .
+
+_:b1299  rdf:rest  _:b1296 ;
+        rdf:first  _:b1300 .
+
+_:b1295  rdf:rest  _:b1299 ;
+        rdf:first  _:b1301 .
+
+_:b1297  rdf:rest  rdf:nil ;
+        rdf:first  _:b1302 .
+
+_:b1294  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1303  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1304 .
+
+_:b1304  rdf:rest  _:b1305 ;
+        rdf:first  "Sy" .
+
+_:b1305  rdf:rest  _:b1306 ;
+        rdf:first  "dP" .
+
+_:b1306  rdf:rest  rdf:nil ;
+        rdf:first  "rT" .
+
+_:b1303  foot:teams  _:b1307 .
+
+_:b1308  rdf:rest  _:b1309 ;
+        rdf:first  _:b1310 .
+
+_:b1309  rdf:rest  _:b1311 ;
+        rdf:first  _:b1312 .
+
+_:b1311  rdf:rest  rdf:nil ;
+        rdf:first  "Er" .
+
+_:b1307  rdf:rest  _:b1308 ;
+        rdf:first  _:b1313 .
+
+_:b1314  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1315 .
+
+_:b1315  rdf:rest  _:b1316 ;
+        rdf:first  _:b1317 .
+
+_:b1318  rdf:rest  _:b1319 ;
+        rdf:first  _:b1320 .
+
+_:b1319  rdf:rest  rdf:nil ;
+        rdf:first  "AT" .
+
+_:b1316  rdf:rest  _:b1318 ;
+        rdf:first  _:b1321 .
+
+_:b1314  foot:teams  rdf:nil .
+
+_:b1322  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1323 .
+
+_:b1324  rdf:rest  _:b1325 ;
+        rdf:first  _:b1326 .
+
+_:b1327  rdf:rest  _:b1324 ;
+        rdf:first  _:b1328 .
+
+_:b1325  rdf:rest  rdf:nil ;
+        rdf:first  _:b1329 .
+
+_:b1323  rdf:rest  _:b1327 ;
+        rdf:first  _:b1330 .
+
+_:b1322  foot:teams  _:b1331 .
+
+_:b1332  rdf:rest  rdf:nil ;
+        rdf:first  "kT" .
+
+_:b1333  rdf:rest  _:b1334 ;
+        rdf:first  "fW" .
+
+_:b1334  rdf:rest  _:b1332 ;
+        rdf:first  "RR" .
+
+_:b1331  rdf:rest  _:b1333 ;
+        rdf:first  "sI" .
+
+_:b1335  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1336 .
+
+_:b1336  rdf:rest  _:b1337 ;
+        rdf:first  _:b1338 .
+
+_:b1339  rdf:rest  _:b1340 ;
+        rdf:first  _:b1341 .
+
+_:b1340  rdf:rest  rdf:nil ;
+        rdf:first  _:b1342 .
+
+_:b1337  rdf:rest  _:b1339 ;
+        rdf:first  _:b1343 .
+
+_:b1335  foot:teams  _:b1344 .
+
+_:b1345  rdf:rest  rdf:nil ;
+        rdf:first  "aE" .
+
+_:b1346  rdf:rest  _:b1345 ;
+        rdf:first  _:b1347 .
+
+_:b1348  rdf:rest  _:b1346 ;
+        rdf:first  _:b1349 .
+
+_:b1344  rdf:rest  _:b1348 ;
+        rdf:first  _:b1350 .
+
+_:b1351  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1352 .
+
+_:b1353  rdf:rest  _:b1354 ;
+        rdf:first  _:b1355 .
+
+_:b1354  rdf:rest  rdf:nil ;
+        rdf:first  "yt" .
+
+_:b1352  rdf:rest  _:b1353 ;
+        rdf:first  _:b1356 .
+
+_:b1351  foot:teams  _:b1357 .
+
+_:b1358  rdf:rest  _:b1359 ;
+        rdf:first  _:b1360 .
+
+_:b1357  rdf:rest  _:b1358 ;
+        rdf:first  _:b1361 .
+
+_:b1359  rdf:rest  _:b1362 ;
+        rdf:first  _:b1363 .
+
+_:b1362  rdf:rest  rdf:nil ;
+        rdf:first  _:b1364 .
+
+_:b1365  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "]" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1366 .
+
+_:b1367  rdf:rest  _:b1368 ;
+        rdf:first  "Ts" .
+
+_:b1368  rdf:rest  rdf:nil ;
+        rdf:first  "Ai" .
+
+_:b1366  rdf:rest  _:b1367 ;
+        rdf:first  "Nr" .
+
+_:b1365  foot:teams  _:b1369 .
+
+_:b1370  rdf:rest  rdf:nil ;
+        rdf:first  _:b1371 .
+
+_:b1369  rdf:rest  _:b1370 ;
+        rdf:first  _:b1372 .
+
+_:b1373  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1374 .
+
+_:b1374  rdf:rest  _:b1375 ;
+        rdf:first  _:b1376 .
+
+_:b1375  rdf:rest  rdf:nil ;
+        rdf:first  "gj" .
+
+_:b1373  foot:teams  _:b1377 .
+
+_:b1378  rdf:rest  rdf:nil ;
+        rdf:first  "Ea" .
+
+_:b1379  rdf:rest  _:b1378 ;
+        rdf:first  _:b1380 .
+
+_:b1381  rdf:rest  _:b1379 ;
+        rdf:first  _:b1382 .
+
+_:b1377  rdf:rest  _:b1381 ;
+        rdf:first  _:b1383 .
+
+_:b1384  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1385 .
+
+_:b1386  rdf:rest  _:b1387 ;
+        rdf:first  _:b1388 .
+
+_:b1387  rdf:rest  _:b1389 ;
+        rdf:first  _:b1390 .
+
+_:b1385  rdf:rest  _:b1386 ;
+        rdf:first  _:b1391 .
+
+_:b1389  rdf:rest  rdf:nil ;
+        rdf:first  "QM" .
+
+_:b1384  foot:teams  _:b1392 .
+
+_:b1392  rdf:rest  _:b1393 ;
+        rdf:first  _:b1394 .
+
+_:b1393  rdf:rest  _:b1395 ;
+        rdf:first  _:b1396 .
+
+_:b1395  rdf:rest  rdf:nil ;
+        rdf:first  _:b485 .
+
+_:b1397  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1398 .
+
+_:b1398  rdf:rest  rdf:nil ;
+        rdf:first  ">" .
+
+_:b1397  foot:teams  "" .
+
+_:b1399  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b1400 .
+
+_:b1401  rdf:rest  _:b1402 ;
+        rdf:first  _:b1403 .
+
+_:b1404  rdf:rest  _:b1401 ;
+        rdf:first  _:b1405 .
+
+_:b1402  rdf:rest  rdf:nil ;
+        rdf:first  _:b1406 .
+
+_:b1400  rdf:rest  _:b1404 ;
+        rdf:first  _:b1407 .
+
+_:b1399  foot:fifaCode  "ARG" .
+
+_:b1408  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1409 .
+
+_:b1410  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b1409  rdf:rest  _:b1410 ;
+        rdf:first  _:b1411 .
+
+_:b1408  foot:continent  "Asia" ;
+        foot:leagues    _:b1412 .
+
+_:b1413  rdf:rest  rdf:nil ;
+        rdf:first  _:b1414 .
+
+_:b1412  rdf:rest  _:b1413 ;
+        rdf:first  _:b1415 .
+
+_:b1408  foot:fifaCode  "ENG" .
+
+_:b1416  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1417 .
+
+_:b1418  rdf:rest  _:b1419 ;
+        rdf:first  "OJ" .
+
+_:b1419  rdf:rest  _:b1420 ;
+        rdf:first  "iL" .
+
+_:b1417  rdf:rest  _:b1418 ;
+        rdf:first  "Yd" .
+
+_:b1420  rdf:rest  rdf:nil ;
+        rdf:first  "Xn" .
+
+_:b1416  foot:teams  _:b1421 .
+
+_:b1422  rdf:rest  _:b1423 ;
+        rdf:first  "lE" .
+
+_:b1421  rdf:rest  _:b1424 ;
+        rdf:first  "zi" .
+
+_:b1423  rdf:rest  rdf:nil ;
+        rdf:first  "Oe" .
+
+_:b1424  rdf:rest  _:b1422 ;
+        rdf:first  "Gv" .
+
+_:b1425  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1426 .
+
+_:b1427  rdf:rest  rdf:nil ;
+        rdf:first  "zv" .
+
+_:b1426  rdf:rest  _:b1427 ;
+        rdf:first  "Bx" .
+
+_:b1425  foot:teams  _:b1428 .
+
+_:b1429  rdf:rest  _:b1430 ;
+        rdf:first  _:b1431 .
+
+_:b1432  rdf:rest  rdf:nil ;
+        rdf:first  "HA" .
+
+_:b1428  rdf:rest  _:b1429 ;
+        rdf:first  _:b1433 .
+
+_:b1430  rdf:rest  _:b1432 ;
+        rdf:first  _:b1434 .
+
+_:b1435  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b1436 .
+
+_:b1437  rdf:rest  rdf:nil ;
+        rdf:first  _:b1438 .
+
+_:b1439  rdf:rest  _:b1437 ;
+        rdf:first  _:b1440 .
+
+_:b1441  rdf:rest  _:b1439 ;
+        rdf:first  _:b1442 .
+
+_:b1436  rdf:rest  _:b1441 ;
+        rdf:first  _:b1443 .
+
+_:b1435  foot:fifaCode  "POR" .
+
+_:b1444  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1445 .
+
+_:b1445  rdf:rest  _:b1446 ;
+        rdf:first  _:b1447 .
+
+_:b1446  rdf:rest  _:b1448 ;
+        rdf:first  _:b1449 .
+
+_:b1450  rdf:rest  rdf:nil ;
+        rdf:first  _:b1451 .
+
+_:b1448  rdf:rest  _:b1450 ;
+        rdf:first  _:b1452 .
+
+_:b1444  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b1453  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1454 .
+
+_:b1455  rdf:rest  _:b1456 ;
+        rdf:first  "Pa" .
+
+_:b1457  rdf:rest  rdf:nil ;
+        rdf:first  "rx" .
+
+_:b1454  rdf:rest  _:b1455 ;
+        rdf:first  "Wf" .
+
+_:b1456  rdf:rest  _:b1457 ;
+        rdf:first  "FO" .
+
+_:b1453  foot:teams  _:b1458 .
+
+_:b1459  rdf:rest  rdf:nil ;
+        rdf:first  "ZK" .
+
+_:b1460  rdf:rest  _:b1459 ;
+        rdf:first  "OU" .
+
+_:b1461  rdf:rest  _:b1460 ;
+        rdf:first  "MY" .
+
+_:b1458  rdf:rest  _:b1461 ;
+        rdf:first  "Hg" .
+
+_:b1462  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1463 .
+
+_:b1464  rdf:rest  rdf:nil ;
+        rdf:first  "Zf" .
+
+_:b1463  rdf:rest  _:b1464 ;
+        rdf:first  _:b1465 .
+
+_:b1462  foot:teams  _:b1466 .
+
+_:b1467  rdf:rest  rdf:nil ;
+        rdf:first  "jp" .
+
+_:b1466  rdf:rest  _:b1468 ;
+        rdf:first  "So" .
+
+_:b1468  rdf:rest  _:b1469 ;
+        rdf:first  "Xb" .
+
+_:b1469  rdf:rest  _:b1467 ;
+        rdf:first  "gV" .
+
+_:b1470  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1471 .
+
+_:b1471  rdf:rest  rdf:nil ;
+        rdf:first  "+" .
+
+_:b1470  foot:continent  "" ;
+        foot:leagues    "" ;
+        foot:fifaCode   "[" .
+
+_:b1472  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "" ;
+        foot:leagues        _:b1473 .
+
+_:b1474  rdf:rest  rdf:nil ;
+        rdf:first  _:b1475 .
+
+_:b1476  rdf:rest  _:b1477 ;
+        rdf:first  _:b1478 .
+
+_:b1477  rdf:rest  _:b1474 ;
+        rdf:first  _:b1479 .
+
+_:b1473  rdf:rest  _:b1476 ;
+        rdf:first  _:b1480 .
+
+_:b1472  foot:fifaCode  "*" .
+
+_:b1481  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1482 .
+
+_:b1483  rdf:rest  _:b1484 ;
+        rdf:first  _:b1485 .
+
+_:b1486  rdf:rest  rdf:nil ;
+        rdf:first  _:b1487 .
+
+_:b1484  rdf:rest  _:b1486 ;
+        rdf:first  _:b1488 .
+
+_:b1482  rdf:rest  _:b1483 ;
+        rdf:first  _:b1489 .
+
+_:b1481  foot:teams  _:b1490 .
+
+_:b1491  rdf:rest  rdf:nil ;
+        rdf:first  "hP" .
+
+_:b1490  rdf:rest  _:b1491 ;
+        rdf:first  "Eu" .
+
+_:b1492  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1493 .
+
+_:b1493  rdf:rest  _:b1494 ;
+        rdf:first  "Vt" .
+
+_:b1494  rdf:rest  _:b1495 ;
+        rdf:first  "ch" .
+
+_:b1495  rdf:rest  _:b1496 ;
+        rdf:first  "aK" .
+
+_:b1496  rdf:rest  rdf:nil ;
+        rdf:first  "Ti" .
+
+_:b1492  foot:teams  _:b1497 .
+
+_:b1498  rdf:rest  _:b1499 ;
+        rdf:first  _:b1500 .
+
+_:b1497  rdf:rest  _:b1498 ;
+        rdf:first  _:b1501 .
+
+_:b1499  rdf:rest  rdf:nil ;
+        rdf:first  "LU" .
+
+_:b1502  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b1503 .
+
+_:b1504  rdf:rest  _:b1505 ;
+        rdf:first  _:b1506 .
+
+_:b1503  rdf:rest  _:b1507 ;
+        rdf:first  _:b1508 .
+
+_:b1505  rdf:rest  rdf:nil ;
+        rdf:first  _:b1509 .
+
+_:b1507  rdf:rest  _:b1504 ;
+        rdf:first  _:b1510 .
+
+_:b1502  foot:fifaCode  "ARG" .
+
+_:b1511  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1512 .
+
+_:b1513  rdf:rest  rdf:nil ;
+        rdf:first  _:b1514 .
+
+_:b1512  rdf:rest  _:b1513 ;
+        rdf:first  _:b1515 .
+
+_:b1511  foot:teams  _:b1516 .
+
+_:b1516  rdf:rest  _:b1517 ;
+        rdf:first  _:b1518 .
+
+_:b1519  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b1517  rdf:rest  _:b1520 ;
+        rdf:first  _:b1521 .
+
+_:b1520  rdf:rest  _:b1519 ;
+        rdf:first  _:b1522 .
+
+_:b1523  foot:country     "Portugal" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b1524  foaf:name          "/" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1525 .
+
+_:b1526  rdf:rest  rdf:nil ;
+        rdf:first  _:b1527 .
+
+_:b1528  rdf:rest  _:b1526 ;
+        rdf:first  _:b1529 .
+
+_:b1525  rdf:rest  _:b1528 ;
+        rdf:first  _:b1530 .
+
+_:b1524  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b1531  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1532 .
+
+_:b1533  rdf:rest  rdf:nil ;
+        rdf:first  _:b1534 .
+
+_:b1535  rdf:rest  _:b1536 ;
+        rdf:first  _:b1537 .
+
+_:b1532  rdf:rest  _:b1535 ;
+        rdf:first  _:b1538 .
+
+_:b1536  rdf:rest  _:b1533 ;
+        rdf:first  _:b1539 .
+
+_:b1531  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1540  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b1541 .
+
+_:b1542  rdf:rest  _:b1543 ;
+        rdf:first  _:b1544 .
+
+_:b1541  rdf:rest  _:b1542 ;
+        rdf:first  _:b1545 .
+
+_:b1546  rdf:rest  rdf:nil ;
+        rdf:first  _:b1547 .
+
+_:b1543  rdf:rest  _:b1546 ;
+        rdf:first  _:b1548 .
+
+_:b1540  foot:fifaCode  "ARG" .
+
+_:b1549  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1550 .
+
+_:b1551  rdf:rest  rdf:nil ;
+        rdf:first  "DX" .
+
+_:b1552  rdf:rest  _:b1551 ;
+        rdf:first  "QV" .
+
+_:b1550  rdf:rest  _:b1553 ;
+        rdf:first  "eX" .
+
+_:b1553  rdf:rest  _:b1552 ;
+        rdf:first  "fA" .
+
+_:b1549  foot:teams  _:b1554 .
+
+_:b1555  rdf:rest  rdf:nil ;
+        rdf:first  _:b1556 .
+
+_:b1554  rdf:rest  _:b1555 ;
+        rdf:first  _:b1557 .
+
+_:b1558  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1559 .
+
+_:b1560  rdf:rest  rdf:nil ;
+        rdf:first  "ia" .
+
+_:b1559  rdf:rest  _:b1561 ;
+        rdf:first  "EE" .
+
+_:b1561  rdf:rest  _:b1562 ;
+        rdf:first  "ls" .
+
+_:b1562  rdf:rest  _:b1560 ;
+        rdf:first  "lC" .
+
+_:b1558  foot:teams  _:b1563 .
+
+_:b1564  rdf:rest  rdf:nil ;
+        rdf:first  _:b1565 .
+
+_:b1563  rdf:rest  _:b1566 ;
+        rdf:first  _:b1567 .
+
+_:b1566  rdf:rest  _:b1564 ;
+        rdf:first  _:b1568 .
+
+_:b1569  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1570 .
+
+_:b1570  rdf:rest  _:b1571 ;
+        rdf:first  "WX" .
+
+_:b1572  rdf:rest  rdf:nil ;
+        rdf:first  "Li" .
+
+_:b1571  rdf:rest  _:b1572 ;
+        rdf:first  "fE" .
+
+_:b1569  foot:teams  _:b1573 .
+
+_:b1574  rdf:rest  rdf:nil ;
+        rdf:first  "jD" .
+
+_:b1575  rdf:rest  _:b1574 ;
+        rdf:first  "Rq" .
+
+_:b1573  rdf:rest  _:b1576 ;
+        rdf:first  "QJ" .
+
+_:b1576  rdf:rest  _:b1575 ;
+        rdf:first  "TB" .
+
+_:b1577  foaf:name          "<" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1578 .
+
+_:b1578  rdf:rest  _:b1579 ;
+        rdf:first  _:b1580 .
+
+_:b1581  rdf:rest  rdf:nil ;
+        rdf:first  _:b1582 .
+
+_:b1579  rdf:rest  _:b1581 ;
+        rdf:first  _:b1583 .
+
+_:b1577  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1584  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1585 .
+
+_:b1586  rdf:rest  rdf:nil ;
+        rdf:first  _:b1587 .
+
+_:b1588  rdf:rest  _:b1586 ;
+        rdf:first  _:b1589 .
+
+_:b1590  rdf:rest  _:b1588 ;
+        rdf:first  _:b1591 .
+
+_:b1585  rdf:rest  _:b1590 ;
+        rdf:first  _:b1592 .
+
+_:b1584  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b1593  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1594 .
+
+_:b1594  rdf:rest  _:b1595 ;
+        rdf:first  _:b1596 .
+
+_:b1597  rdf:rest  _:b1598 ;
+        rdf:first  _:b1599 .
+
+_:b1595  rdf:rest  _:b1597 ;
+        rdf:first  _:b1600 .
+
+_:b1598  rdf:rest  rdf:nil ;
+        rdf:first  _:b1601 .
+
+_:b1593  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1602  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b1603 .
+
+_:b1604  rdf:rest  rdf:nil ;
+        rdf:first  _:b1605 .
+
+_:b1606  rdf:rest  _:b1607 ;
+        rdf:first  _:b1608 .
+
+_:b1603  rdf:rest  _:b1606 ;
+        rdf:first  _:b1609 .
+
+_:b1607  rdf:rest  _:b1604 ;
+        rdf:first  _:b1610 .
+
+_:b1602  foot:fifaCode  "EGY" .
+
+_:b1611  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b1612 .
+
+_:b1612  rdf:rest  _:b1613 ;
+        rdf:first  _:b1614 .
+
+_:b1613  rdf:rest  _:b1615 ;
+        rdf:first  _:b1616 .
+
+_:b1617  rdf:rest  rdf:nil ;
+        rdf:first  _:b1618 .
+
+_:b1615  rdf:rest  _:b1617 ;
+        rdf:first  _:b1619 .
+
+_:b1611  foot:fifaCode  "ARG" .
+
+_:b1620  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1621 .
+
+_:b1622  rdf:rest  rdf:nil ;
+        rdf:first  "fD" .
+
+_:b1623  rdf:rest  _:b1622 ;
+        rdf:first  _:b1624 .
+
+_:b1621  rdf:rest  _:b1623 ;
+        rdf:first  _:b1625 .
+
+_:b1620  foot:teams  _:b1626 .
+
+_:b1627  rdf:rest  _:b1628 ;
+        rdf:first  "xy" .
+
+_:b1628  rdf:rest  _:b1629 ;
+        rdf:first  "Wj" .
+
+_:b1629  rdf:rest  rdf:nil ;
+        rdf:first  "yq" .
+
+_:b1626  rdf:rest  _:b1627 ;
+        rdf:first  "lm" .
+
+_:b1630  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1631 .
+
+_:b1632  rdf:rest  _:b1633 ;
+        rdf:first  _:b1634 .
+
+_:b1635  rdf:rest  rdf:nil ;
+        rdf:first  _:b1636 .
+
+_:b1631  rdf:rest  _:b1632 ;
+        rdf:first  _:b1637 .
+
+_:b1633  rdf:rest  _:b1635 ;
+        rdf:first  _:b1638 .
+
+_:b1630  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b1639  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1640 .
+
+_:b1641  rdf:rest  rdf:nil ;
+        rdf:first  _:b1642 .
+
+_:b1643  rdf:rest  _:b1641 ;
+        rdf:first  _:b1644 .
+
+_:b1640  rdf:rest  _:b1643 ;
+        rdf:first  _:b1645 .
+
+_:b1639  foot:teams  _:b1646 .
+
+_:b1647  rdf:rest  _:b1648 ;
+        rdf:first  _:b1649 .
+
+_:b1648  rdf:rest  rdf:nil ;
+        rdf:first  _:b1650 .
+
+_:b1651  rdf:rest  _:b1647 ;
+        rdf:first  _:b1652 .
+
+_:b1646  rdf:rest  _:b1651 ;
+        rdf:first  _:b1653 .
+
+_:b1654  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1655 .
+
+_:b1655  rdf:rest  _:b1656 ;
+        rdf:first  "Vf" .
+
+_:b1657  rdf:rest  _:b1658 ;
+        rdf:first  "JK" .
+
+_:b1658  rdf:rest  rdf:nil ;
+        rdf:first  "tD" .
+
+_:b1656  rdf:rest  _:b1657 ;
+        rdf:first  "zt" .
+
+_:b1654  foot:teams  _:b1659 .
+
+_:b1660  rdf:rest  rdf:nil ;
+        rdf:first  "fk" .
+
+_:b1661  rdf:rest  _:b1660 ;
+        rdf:first  _:b1662 .
+
+_:b1659  rdf:rest  _:b1661 ;
+        rdf:first  _:b1663 .
+
+_:b1664  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b1665 .
+
+_:b1665  rdf:rest  _:b1666 ;
+        rdf:first  _:b1667 .
+
+_:b1668  rdf:rest  _:b1669 ;
+        rdf:first  _:b1670 .
+
+_:b1669  rdf:rest  rdf:nil ;
+        rdf:first  _:b1671 .
+
+_:b1666  rdf:rest  _:b1668 ;
+        rdf:first  _:b1672 .
+
+_:b1664  foot:fifaCode  "ARG" .
+
+_:b1673  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1674 .
+
+_:b1675  rdf:rest  rdf:nil ;
+        rdf:first  "Ds" .
+
+_:b1676  rdf:rest  _:b1677 ;
+        rdf:first  _:b1678 .
+
+_:b1677  rdf:rest  _:b1675 ;
+        rdf:first  _:b1679 .
+
+_:b1674  rdf:rest  _:b1676 ;
+        rdf:first  _:b1680 .
+
+_:b1673  foot:teams  _:b1681 .
+
+_:b1682  rdf:rest  rdf:nil ;
+        rdf:first  "zw" .
+
+_:b1683  rdf:rest  _:b1682 ;
+        rdf:first  "gX" .
+
+_:b1681  rdf:rest  _:b1683 ;
+        rdf:first  "kY" .
+
+_:b1684  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "/" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1685 .
+
+_:b1686  rdf:rest  rdf:nil ;
+        rdf:first  "pU" .
+
+_:b1685  rdf:rest  _:b1686 ;
+        rdf:first  _:b1687 .
+
+_:b1684  foot:teams  _:b1688 .
+
+_:b1688  rdf:rest  rdf:nil ;
+        rdf:first  "Jqc" .
+
+_:b1689  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1690 .
+
+_:b1691  rdf:rest  rdf:nil ;
+        rdf:first  _:b1692 .
+
+_:b1690  rdf:rest  _:b1691 ;
+        rdf:first  _:b1693 .
+
+_:b1689  foot:continent  "}" ;
+        foot:leagues    _:b1694 .
+
+_:b1695  rdf:rest  rdf:nil ;
+        rdf:first  _:b1696 .
+
+_:b1694  rdf:rest  _:b1695 ;
+        rdf:first  _:b1697 .
+
+_:b1689  foot:fifaCode  "EGY" .
+
+_:b1698  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1699 .
+
+_:b1699  rdf:rest  _:b1700 ;
+        rdf:first  _:b1701 .
+
+_:b1700  rdf:rest  _:b1702 ;
+        rdf:first  _:b1703 .
+
+_:b1702  rdf:rest  _:b1704 ;
+        rdf:first  _:b1705 .
+
+_:b1704  rdf:rest  rdf:nil ;
+        rdf:first  "ZU" .
+
+_:b1698  foot:teams  _:b1706 .
+
+_:b1706  rdf:rest  rdf:nil ;
+        rdf:first  "\"\"\"^\"qe\"\",\"MD\",\"Sa\",\"bN\")) \"*\"\r\nfoot:League(\"`\"\"?\"wpIv,\"Ligue 1\",\"2018\"^^xsd:gYear,(),()) \"_\"\r\nfoot:Country(\",\"\"\"" .
+
+_:b363  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1707 .
+
+_:b1707  rdf:rest  _:b1708 ;
+        rdf:first  _:b1709 .
+
+_:b1710  rdf:rest  rdf:nil ;
+        rdf:first  "za" .
+
+_:b1708  rdf:rest  _:b1711 ;
+        rdf:first  _:b1712 .
+
+_:b1711  rdf:rest  _:b1710 ;
+        rdf:first  _:b1713 .
+
+_:b363  foot:teams  _:b1714 .
+
+_:b1714  rdf:rest  _:b1715 ;
+        rdf:first  "mc" .
+
+_:b1715  rdf:rest  rdf:nil ;
+        rdf:first  "wk" .
+
+_:b1716  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1717 .
+
+_:b1718  rdf:rest  rdf:nil ;
+        rdf:first  _:b1719 .
+
+_:b1717  rdf:rest  _:b1720 ;
+        rdf:first  _:b1721 .
+
+_:b1720  rdf:rest  _:b1718 ;
+        rdf:first  _:b1722 .
+
+_:b1716  foot:continent  "]" ;
+        foot:leagues    _:b1723 .
+
+_:b1723  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b1716  foot:fifaCode  "ENG" .
+
+_:b1724  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1725 .
+
+_:b1726  rdf:rest  _:b1727 ;
+        rdf:first  _:b1728 .
+
+_:b1725  rdf:rest  _:b1726 ;
+        rdf:first  _:b1729 .
+
+_:b1727  rdf:rest  rdf:nil ;
+        rdf:first  _:b1730 .
+
+_:b1724  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b1731  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1732 .
+
+_:b1733  rdf:rest  _:b1734 ;
+        rdf:first  _:b1735 .
+
+_:b1736  rdf:rest  _:b1733 ;
+        rdf:first  _:b1737 .
+
+_:b1732  rdf:rest  _:b1736 ;
+        rdf:first  _:b1738 .
+
+_:b1734  rdf:rest  rdf:nil ;
+        rdf:first  "cU" .
+
+_:b1731  foot:teams  _:b1739 .
+
+_:b1740  rdf:rest  rdf:nil ;
+        rdf:first  _:b1741 .
+
+_:b1739  rdf:rest  _:b1740 ;
+        rdf:first  _:b1742 .
+
+_:b1743  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1744 .
+
+_:b1744  rdf:rest  _:b1745 ;
+        rdf:first  _:b1746 .
+
+_:b1745  rdf:rest  rdf:nil ;
+        rdf:first  "GN" .
+
+_:b1743  foot:teams  _:b1747 .
+
+_:b1748  rdf:rest  _:b1749 ;
+        rdf:first  "Su" .
+
+_:b1747  rdf:rest  _:b1748 ;
+        rdf:first  "cX" .
+
+_:b1750  rdf:rest  rdf:nil ;
+        rdf:first  "id" .
+
+_:b1749  rdf:rest  _:b1750 ;
+        rdf:first  "UO" .
+
+_:b1751  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1752 .
+
+_:b1753  rdf:rest  rdf:nil ;
+        rdf:first  _:b1754 .
+
+_:b1755  rdf:rest  _:b1753 ;
+        rdf:first  _:b1756 .
+
+_:b1752  rdf:rest  _:b1755 ;
+        rdf:first  _:b1757 .
+
+_:b1751  foot:continent  "Europe" ;
+        foot:leagues    _:b1758 .
+
+_:b1759  rdf:rest  _:b1760 ;
+        rdf:first  _:b1761 .
+
+_:b1760  rdf:rest  rdf:nil ;
+        rdf:first  _:b1762 .
+
+_:b1763  rdf:rest  _:b1759 ;
+        rdf:first  _:b1764 .
+
+_:b1758  rdf:rest  _:b1763 ;
+        rdf:first  _:b1765 .
+
+_:b1751  foot:fifaCode  "POR" .
+
+_:b1766  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1767 .
+
+_:b1767  rdf:rest  _:b1768 ;
+        rdf:first  _:b1769 .
+
+_:b1770  rdf:rest  _:b1771 ;
+        rdf:first  _:b1772 .
+
+_:b1771  rdf:rest  rdf:nil ;
+        rdf:first  _:b1773 .
+
+_:b1768  rdf:rest  _:b1770 ;
+        rdf:first  _:b1774 .
+
+_:b1766  foot:teams  _:b1775 .
+
+_:b1775  rdf:rest  _:b1776 ;
+        rdf:first  _:b1777 .
+
+_:b1776  rdf:rest  rdf:nil ;
+        rdf:first  "Vc" .
+
+_:b1778  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1779 .
+
+_:b1779  rdf:rest  _:b1780 ;
+        rdf:first  _:b1781 .
+
+_:b1780  rdf:rest  rdf:nil ;
+        rdf:first  _:b1782 .
+
+_:b1778  foot:teams  _:b1783 .
+
+_:b1784  rdf:rest  _:b1785 ;
+        rdf:first  _:b1786 .
+
+_:b1785  rdf:rest  rdf:nil ;
+        rdf:first  "lJ" .
+
+_:b1783  rdf:rest  _:b1784 ;
+        rdf:first  _:b1787 .
+
+_:b1788  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1789 .
+
+_:b1790  rdf:rest  _:b1791 ;
+        rdf:first  _:b1792 .
+
+_:b1789  rdf:rest  _:b1793 ;
+        rdf:first  _:b1794 .
+
+_:b1791  rdf:rest  rdf:nil ;
+        rdf:first  _:b1795 .
+
+_:b1793  rdf:rest  _:b1790 ;
+        rdf:first  _:b1796 .
+
+_:b1788  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ENG" .
+
+_:b1797  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1798 .
+
+_:b1799  rdf:rest  rdf:nil ;
+        rdf:first  "Sg" .
+
+_:b1800  rdf:rest  _:b1799 ;
+        rdf:first  _:b1801 .
+
+_:b1798  rdf:rest  _:b1802 ;
+        rdf:first  _:b1803 .
+
+_:b1802  rdf:rest  _:b1800 ;
+        rdf:first  _:b1804 .
+
+_:b1797  foot:teams  _:b1805 .
+
+_:b1806  rdf:rest  _:b1807 ;
+        rdf:first  _:b1808 .
+
+_:b1807  rdf:rest  _:b1809 ;
+        rdf:first  _:b1810 .
+
+_:b1809  rdf:rest  rdf:nil ;
+        rdf:first  _:b1811 .
+
+_:b1805  rdf:rest  _:b1806 ;
+        rdf:first  _:b1812 .
+
+_:b1813  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1814 .
+
+_:b1815  rdf:rest  _:b1816 ;
+        rdf:first  _:b1817 .
+
+_:b1814  rdf:rest  _:b1815 ;
+        rdf:first  _:b1818 .
+
+_:b1816  rdf:rest  _:b1819 ;
+        rdf:first  _:b1820 .
+
+_:b1819  rdf:rest  rdf:nil ;
+        rdf:first  _:b1821 .
+
+_:b1813  foot:teams  _:b1822 .
+
+_:b1823  rdf:rest  rdf:nil ;
+        rdf:first  _:b1824 .
+
+_:b1822  rdf:rest  _:b1825 ;
+        rdf:first  _:b1826 .
+
+_:b1827  rdf:rest  _:b1823 ;
+        rdf:first  _:b1828 .
+
+_:b1825  rdf:rest  _:b1827 ;
+        rdf:first  _:b1829 .
+
+_:b1830  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1831 .
+
+_:b1832  rdf:rest  _:b1833 ;
+        rdf:first  _:b1834 .
+
+_:b1835  rdf:rest  _:b1832 ;
+        rdf:first  _:b1836 .
+
+_:b1831  rdf:rest  _:b1835 ;
+        rdf:first  _:b1837 .
+
+_:b1833  rdf:rest  rdf:nil ;
+        rdf:first  _:b1838 .
+
+_:b1830  foot:teams  _:b1839 .
+
+_:b1839  rdf:rest  _:b1840 ;
+        rdf:first  _:b1841 .
+
+_:b1842  rdf:rest  rdf:nil ;
+        rdf:first  _:b1843 .
+
+_:b1840  rdf:rest  _:b1842 ;
+        rdf:first  _:b1844 .
+
+_:b1845  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1846 .
+
+_:b1847  rdf:rest  _:b1848 ;
+        rdf:first  _:b1849 .
+
+_:b1846  rdf:rest  _:b1847 ;
+        rdf:first  _:b1850 .
+
+_:b1848  rdf:rest  _:b1851 ;
+        rdf:first  "" .
+
+_:b1851  rdf:rest  rdf:nil ;
+        rdf:first  "J" .
+
+_:b1845  foot:teams  _:b1852 .
+
+_:b1852  rdf:rest  rdf:nil ;
+        rdf:first  _:b1853 .
+
+_:b1854  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1855 .
+
+_:b1856  rdf:rest  rdf:nil ;
+        rdf:first  _:b1857 .
+
+_:b1855  rdf:rest  _:b1858 ;
+        rdf:first  _:b1859 .
+
+_:b1860  rdf:rest  _:b1856 ;
+        rdf:first  _:b1861 .
+
+_:b1858  rdf:rest  _:b1860 ;
+        rdf:first  _:b1862 .
+
+_:b1854  foot:teams  _:b1863 .
+
+_:b1863  rdf:rest  _:b1864 ;
+        rdf:first  "Wh" .
+
+_:b1865  rdf:rest  rdf:nil ;
+        rdf:first  "Ry" .
+
+_:b1864  rdf:rest  _:b1865 ;
+        rdf:first  "lN" .
+
+_:b1866  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1867 .
+
+_:b1868  rdf:rest  rdf:nil ;
+        rdf:first  _:b1869 .
+
+_:b1867  rdf:rest  _:b1870 ;
+        rdf:first  _:b1871 .
+
+_:b1870  rdf:rest  _:b1872 ;
+        rdf:first  _:b1873 .
+
+_:b1872  rdf:rest  _:b1868 ;
+        rdf:first  _:b1874 .
+
+_:b1866  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b1875  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1876 .
+
+_:b1877  rdf:rest  _:b1878 ;
+        rdf:first  _:b1879 .
+
+_:b1878  rdf:rest  rdf:nil ;
+        rdf:first  "Wv" .
+
+_:b1876  rdf:rest  _:b1877 ;
+        rdf:first  _:b1880 .
+
+_:b1875  foot:teams  _:b1881 .
+
+_:b1882  rdf:rest  _:b1883 ;
+        rdf:first  _:b1884 .
+
+_:b1885  rdf:rest  rdf:nil ;
+        rdf:first  _:b1886 .
+
+_:b1883  rdf:rest  _:b1885 ;
+        rdf:first  _:b1887 .
+
+_:b1881  rdf:rest  _:b1882 ;
+        rdf:first  _:b1888 .
+
+_:b1889  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1890 .
+
+_:b1890  rdf:rest  rdf:nil ;
+        rdf:first  "Th" .
+
+_:b1889  foot:teams  _:b1891 .
+
+_:b1892  rdf:rest  _:b1893 ;
+        rdf:first  "\\\"" .
+
+_:b1893  rdf:rest  rdf:nil ;
+        rdf:first  "RN" .
+
+_:b1894  rdf:rest  _:b1892 ;
+        rdf:first  "?" .
+
+_:b1891  rdf:rest  _:b1894 ;
+        rdf:first  _:b1895 .
+
+_:b1896  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1897 .
+
+_:b1898  rdf:rest  _:b1899 ;
+        rdf:first  _:b1900 .
+
+_:b1899  rdf:rest  rdf:nil ;
+        rdf:first  _:b1901 .
+
+_:b1897  rdf:rest  _:b1898 ;
+        rdf:first  _:b1902 .
+
+_:b1896  foot:teams  _:b1903 .
+
+_:b1904  rdf:rest  _:b1905 ;
+        rdf:first  _:b1906 .
+
+_:b1903  rdf:rest  _:b1904 ;
+        rdf:first  _:b1907 .
+
+_:b1905  rdf:rest  _:b1908 ;
+        rdf:first  _:b1909 .
+
+_:b1908  rdf:rest  rdf:nil ;
+        rdf:first  "ex" .
+
+_:b1910  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b1911 .
+
+_:b1912  rdf:rest  rdf:nil ;
+        rdf:first  _:b1913 .
+
+_:b1914  rdf:rest  _:b1915 ;
+        rdf:first  _:b1916 .
+
+_:b1915  rdf:rest  _:b1912 ;
+        rdf:first  _:b1917 .
+
+_:b1911  rdf:rest  _:b1914 ;
+        rdf:first  _:b1918 .
+
+_:b1910  foot:fifaCode  "FRA" .
+
+_:b1919  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1920 .
+
+_:b1921  rdf:rest  rdf:nil ;
+        rdf:first  _:b1922 .
+
+_:b1920  rdf:rest  _:b1923 ;
+        rdf:first  _:b1924 .
+
+_:b1923  rdf:rest  _:b1921 ;
+        rdf:first  _:b1925 .
+
+_:b1919  foot:continent  "South America" ;
+        foot:leagues    _:b1926 .
+
+_:b1927  rdf:rest  _:b1928 ;
+        rdf:first  _:b1929 .
+
+_:b1930  rdf:rest  _:b1927 ;
+        rdf:first  _:b1931 .
+
+_:b1926  rdf:rest  _:b1930 ;
+        rdf:first  _:b1932 .
+
+_:b1928  rdf:rest  rdf:nil ;
+        rdf:first  _:b1933 .
+
+_:b1919  foot:fifaCode  "EGY" .
+
+_:b1934  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1935 .
+
+_:b1936  rdf:rest  _:b1937 ;
+        rdf:first  _:b1938 .
+
+_:b1937  rdf:rest  _:b1939 ;
+        rdf:first  _:b1940 .
+
+_:b1939  rdf:rest  rdf:nil ;
+        rdf:first  _:b1941 .
+
+_:b1935  rdf:rest  _:b1936 ;
+        rdf:first  _:b1942 .
+
+_:b1934  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "[" .
+
+_:b1943  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1944 .
+
+_:b1945  rdf:rest  rdf:nil ;
+        rdf:first  _:b1946 .
+
+_:b1947  rdf:rest  _:b1945 ;
+        rdf:first  _:b1948 .
+
+_:b1944  rdf:rest  _:b1949 ;
+        rdf:first  _:b1950 .
+
+_:b1949  rdf:rest  _:b1947 ;
+        rdf:first  _:b1951 .
+
+_:b1943  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b1952  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1953 .
+
+_:b1954  rdf:rest  rdf:nil ;
+        rdf:first  _:b1955 .
+
+_:b1956  rdf:rest  _:b1954 ;
+        rdf:first  _:b1957 .
+
+_:b1953  rdf:rest  _:b1956 ;
+        rdf:first  _:b1958 .
+
+_:b1952  foot:teams  _:b1959 .
+
+_:b1960  rdf:rest  _:b1961 ;
+        rdf:first  _:b1962 .
+
+_:b1961  rdf:rest  _:b1963 ;
+        rdf:first  _:b1964 .
+
+_:b1963  rdf:rest  rdf:nil ;
+        rdf:first  _:b1965 .
+
+_:b1959  rdf:rest  _:b1960 ;
+        rdf:first  _:b1966 .
+
+_:b1967  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1968 .
+
+_:b1969  rdf:rest  _:b1970 ;
+        rdf:first  _:b1971 .
+
+_:b1972  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b1968  rdf:rest  _:b1969 ;
+        rdf:first  _:b1973 .
+
+_:b1970  rdf:rest  _:b1972 ;
+        rdf:first  _:b1974 .
+
+_:b1967  foot:teams  rdf:nil .
+
+_:b1975  foot:country     "Egypt" ;
+        foot:stadiumName  "`" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Paris Saint-Germain" .
+
+_:b1976  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1977 .
+
+_:b1978  rdf:rest  rdf:nil ;
+        rdf:first  "Sq" .
+
+_:b1977  rdf:rest  _:b1978 ;
+        rdf:first  _:b1979 .
+
+_:b1976  foot:teams  _:b1980 .
+
+_:b1981  rdf:rest  _:b1982 ;
+        rdf:first  _:b1983 .
+
+_:b1984  rdf:rest  rdf:nil ;
+        rdf:first  "pn" .
+
+_:b1980  rdf:rest  _:b1981 ;
+        rdf:first  _:b1985 .
+
+_:b1982  rdf:rest  _:b1984 ;
+        rdf:first  _:b1986 .
+
+_:b1987  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         ":" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1988 .
+
+_:b1988  rdf:rest  _:b1989 ;
+        rdf:first  "qE" .
+
+_:b1989  rdf:rest  rdf:nil ;
+        rdf:first  "dI" .
+
+_:b1987  foot:teams  _:b1990 .
+
+_:b1990  rdf:rest  rdf:nil ;
+        rdf:first  "?" .
+
+_:b1991  foot:country     "" ;
+        foot:stadiumName  "}" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Liverpool" .
+
+_:b1992  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1993 .
+
+_:b1994  rdf:rest  _:b1995 ;
+        rdf:first  "oZ" .
+
+_:b1996  rdf:rest  rdf:nil ;
+        rdf:first  "Lj" .
+
+_:b1993  rdf:rest  _:b1994 ;
+        rdf:first  "JW" .
+
+_:b1995  rdf:rest  _:b1996 ;
+        rdf:first  "TZ" .
+
+_:b1992  foot:teams  rdf:nil .
+
+_:b1997  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1998 .
+
+_:b1999  rdf:rest  rdf:nil ;
+        rdf:first  _:b2000 .
+
+_:b1998  rdf:rest  _:b2001 ;
+        rdf:first  _:b2002 .
+
+_:b2001  rdf:rest  _:b2003 ;
+        rdf:first  _:b2004 .
+
+_:b2003  rdf:rest  _:b1999 ;
+        rdf:first  _:b2005 .
+
+_:b1997  foot:teams  _:b2006 .
+
+_:b2007  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2008  rdf:rest  _:b2007 ;
+        rdf:first  _:b2009 .
+
+_:b2006  rdf:rest  _:b2008 ;
+        rdf:first  _:b2010 .
+
+_:b2011  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2012 .
+
+_:b2013  rdf:rest  _:b2014 ;
+        rdf:first  _:b2015 .
+
+_:b2014  rdf:rest  rdf:nil ;
+        rdf:first  "vd" .
+
+_:b2012  rdf:rest  _:b2013 ;
+        rdf:first  _:b1976 .
+
+_:b2011  foot:teams  _:b2016 .
+
+_:b2016  rdf:rest  _:b2017 ;
+        rdf:first  _:b2018 .
+
+_:b2017  rdf:rest  _:b2019 ;
+        rdf:first  _:b2020 .
+
+_:b2019  rdf:rest  _:b2021 ;
+        rdf:first  _:b2022 .
+
+_:b2021  rdf:rest  rdf:nil ;
+        rdf:first  _:b2023 .
+
+_:b2024  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2025 .
+
+_:b2026  rdf:rest  rdf:nil ;
+        rdf:first  "dB" .
+
+_:b2025  rdf:rest  _:b2026 ;
+        rdf:first  _:b2027 .
+
+_:b2024  foot:teams  _:b2028 .
+
+_:b2029  rdf:rest  rdf:nil ;
+        rdf:first  _:b2030 .
+
+_:b2031  rdf:rest  _:b2032 ;
+        rdf:first  _:b2033 .
+
+_:b2028  rdf:rest  _:b2031 ;
+        rdf:first  _:b2034 .
+
+_:b2032  rdf:rest  _:b2029 ;
+        rdf:first  _:b2035 .
+
+_:b2036  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2037 .
+
+_:b2037  rdf:rest  _:b2038 ;
+        rdf:first  _:b2039 .
+
+_:b2040  rdf:rest  rdf:nil ;
+        rdf:first  "Xf" .
+
+_:b2041  rdf:rest  _:b2040 ;
+        rdf:first  _:b2042 .
+
+_:b2038  rdf:rest  _:b2041 ;
+        rdf:first  _:b2043 .
+
+_:b2036  foot:teams  _:b2044 .
+
+_:b2044  rdf:rest  _:b2045 ;
+        rdf:first  _:b2046 .
+
+_:b2047  rdf:rest  rdf:nil ;
+        rdf:first  "Rm" .
+
+_:b2045  rdf:rest  _:b2047 ;
+        rdf:first  _:b2048 .
+
+_:b2049  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2050 .
+
+_:b2051  rdf:rest  rdf:nil ;
+        rdf:first  _:b2052 .
+
+_:b2050  rdf:rest  _:b2053 ;
+        rdf:first  _:b2054 .
+
+_:b2055  rdf:rest  _:b2051 ;
+        rdf:first  _:b2056 .
+
+_:b2053  rdf:rest  _:b2055 ;
+        rdf:first  _:b2057 .
+
+_:b2049  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b2058  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2059 .
+
+_:b2060  rdf:rest  _:b2061 ;
+        rdf:first  _:b2062 .
+
+_:b2059  rdf:rest  _:b2063 ;
+        rdf:first  _:b2064 .
+
+_:b2063  rdf:rest  _:b2060 ;
+        rdf:first  _:b2065 .
+
+_:b2061  rdf:rest  rdf:nil ;
+        rdf:first  "aU" .
+
+_:b2058  foot:teams  _:b2066 .
+
+_:b2066  rdf:rest  _:b2067 ;
+        rdf:first  _:b2068 .
+
+_:b2069  rdf:rest  rdf:nil ;
+        rdf:first  _:b2070 .
+
+_:b2071  rdf:rest  _:b2069 ;
+        rdf:first  _:b2072 .
+
+_:b2067  rdf:rest  _:b2071 ;
+        rdf:first  _:b2073 .
+
+_:b2074  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2075 .
+
+_:b2076  rdf:rest  rdf:nil ;
+        rdf:first  "ru" .
+
+_:b2077  rdf:rest  _:b2076 ;
+        rdf:first  "eh" .
+
+_:b2075  rdf:rest  _:b2077 ;
+        rdf:first  "dO" .
+
+_:b2074  foot:teams  rdf:nil .
+
+_:b2078  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b2079 .
+
+_:b2080  rdf:rest  _:b2081 ;
+        rdf:first  _:b2082 .
+
+_:b2083  rdf:rest  _:b2080 ;
+        rdf:first  _:b2084 .
+
+_:b2079  rdf:rest  _:b2083 ;
+        rdf:first  _:b2085 .
+
+_:b2081  rdf:rest  rdf:nil ;
+        rdf:first  _:b2086 .
+
+_:b2078  foot:fifaCode  "ENG" .
+
+_:b2087  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2088 .
+
+_:b2089  rdf:rest  rdf:nil ;
+        rdf:first  "hi" .
+
+_:b2090  rdf:rest  _:b2091 ;
+        rdf:first  "nX" .
+
+_:b2088  rdf:rest  _:b2090 ;
+        rdf:first  "Zv" .
+
+_:b2091  rdf:rest  _:b2089 ;
+        rdf:first  "Dx" .
+
+_:b2087  foot:teams  _:b2092 .
+
+_:b2092  rdf:rest  _:b2093 ;
+        rdf:first  _:b2094 .
+
+_:b2093  rdf:rest  rdf:nil ;
+        rdf:first  "Xj" .
+
+_:b2095  foaf:name          ";" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2096 .
+
+_:b2097  rdf:rest  rdf:nil ;
+        rdf:first  "$" .
+
+_:b2096  rdf:rest  _:b2098 ;
+        rdf:first  _:b2099 .
+
+_:b2098  rdf:rest  _:b2097 ;
+        rdf:first  _:b2100 .
+
+_:b2095  foot:continent  "Africa" ;
+        foot:leagues    _:b2101 .
+
+_:b2101  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2095  foot:fifaCode  "FRA" .
+
+_:b2102  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b2103 .
+
+_:b2104  rdf:rest  rdf:nil ;
+        rdf:first  "$" .
+
+_:b2103  rdf:rest  _:b2104 ;
+        rdf:first  _:b2105 .
+
+_:b2102  foot:fifaCode  "EGY" .
+
+_:b2106  foot:country     "" ;
+        foot:stadiumName  "]" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "!" .
+
+_:b2107  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2108 .
+
+_:b2108  rdf:rest  rdf:nil ;
+        rdf:first  "@" .
+
+_:b2107  foot:continent  "North America" ;
+        foot:leagues    "" ;
+        foot:fifaCode   "ARG" .
+
+_:b2109  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2110 .
+
+_:b2111  rdf:rest  rdf:nil ;
+        rdf:first  _:b2112 .
+
+_:b2113  rdf:rest  _:b2114 ;
+        rdf:first  _:b2115 .
+
+_:b2114  rdf:rest  _:b2111 ;
+        rdf:first  _:b2116 .
+
+_:b2110  rdf:rest  _:b2113 ;
+        rdf:first  _:b2117 .
+
+_:b2109  foot:continent  "Africa" ;
+        foot:leagues    _:b2118 .
+
+_:b2118  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2109  foot:fifaCode  "ENG" .
+
+_:b2119  foaf:name          "~" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2120 .
+
+_:b2121  rdf:rest  rdf:nil ;
+        rdf:first  "$" .
+
+_:b2122  rdf:rest  _:b2121 ;
+        rdf:first  _:b2123 .
+
+_:b2120  rdf:rest  _:b2122 ;
+        rdf:first  _:b2124 .
+
+_:b2119  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b2125  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b2126 .
+
+_:b2127  rdf:rest  _:b2128 ;
+        rdf:first  _:b2129 .
+
+_:b2130  rdf:rest  rdf:nil ;
+        rdf:first  _:b2131 .
+
+_:b2126  rdf:rest  _:b2127 ;
+        rdf:first  _:b2132 .
+
+_:b2128  rdf:rest  _:b2130 ;
+        rdf:first  _:b2133 .
+
+_:b2125  foot:fifaCode  "ENG" .
+
+_:b2134  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b2135 .
+
+_:b2136  rdf:rest  _:b2137 ;
+        rdf:first  _:b2138 .
+
+_:b2139  rdf:rest  _:b2136 ;
+        rdf:first  _:b2140 .
+
+_:b2135  rdf:rest  _:b2139 ;
+        rdf:first  _:b2141 .
+
+_:b2137  rdf:rest  rdf:nil ;
+        rdf:first  _:b2142 .
+
+_:b2134  foot:fifaCode  "ARG" .
+
+_:b2143  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b2144 .
+
+_:b2145  rdf:rest  _:b2146 ;
+        rdf:first  _:b2147 .
+
+_:b2148  rdf:rest  rdf:nil ;
+        rdf:first  _:b2149 .
+
+_:b2144  rdf:rest  _:b2145 ;
+        rdf:first  _:b2150 .
+
+_:b2146  rdf:rest  _:b2148 ;
+        rdf:first  _:b2151 .
+
+_:b2143  foot:fifaCode  "POR" .
+
+_:b2152  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2153 .
+
+_:b2154  rdf:rest  _:b2155 ;
+        rdf:first  "Dd" .
+
+_:b2155  rdf:rest  rdf:nil ;
+        rdf:first  "PM" .
+
+_:b2156  rdf:rest  _:b2154 ;
+        rdf:first  "pR" .
+
+_:b2153  rdf:rest  _:b2156 ;
+        rdf:first  "Bz" .
+
+_:b2152  foot:teams  _:b2157 .
+
+_:b2157  rdf:rest  _:b2158 ;
+        rdf:first  _:b2159 .
+
+_:b2158  rdf:rest  _:b2160 ;
+        rdf:first  _:b2161 .
+
+_:b2162  rdf:rest  rdf:nil ;
+        rdf:first  _:b2163 .
+
+_:b2160  rdf:rest  _:b2162 ;
+        rdf:first  _:b2164 .
+
+_:b2165  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2166 .
+
+_:b2167  rdf:rest  _:b2168 ;
+        rdf:first  "pI" .
+
+_:b2166  rdf:rest  _:b2167 ;
+        rdf:first  "lm" .
+
+_:b2168  rdf:rest  rdf:nil ;
+        rdf:first  "IB" .
+
+_:b2165  foot:teams  _:b2169 .
+
+_:b2170  rdf:rest  _:b2171 ;
+        rdf:first  "zz" .
+
+_:b2169  rdf:rest  _:b2170 ;
+        rdf:first  "Pn" .
+
+_:b2171  rdf:rest  rdf:nil ;
+        rdf:first  "jD" .
+
+_:b2172  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2173 .
+
+_:b2173  rdf:rest  _:b2174 ;
+        rdf:first  _:b2175 .
+
+_:b2176  rdf:rest  _:b2177 ;
+        rdf:first  _:b2178 .
+
+_:b2177  rdf:rest  rdf:nil ;
+        rdf:first  _:b2179 .
+
+_:b2174  rdf:rest  _:b2176 ;
+        rdf:first  _:b2180 .
+
+_:b2172  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b2181  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2182 .
+
+_:b2183  rdf:rest  _:b2184 ;
+        rdf:first  "KY" .
+
+_:b2184  rdf:rest  rdf:nil ;
+        rdf:first  "IU" .
+
+_:b2182  rdf:rest  _:b2185 ;
+        rdf:first  "LJ" .
+
+_:b2185  rdf:rest  _:b2183 ;
+        rdf:first  "zw" .
+
+_:b2181  foot:teams  _:b2186 .
+
+_:b2187  rdf:rest  rdf:nil ;
+        rdf:first  "Do" .
+
+_:b2188  rdf:rest  _:b2187 ;
+        rdf:first  "YJ" .
+
+_:b2186  rdf:rest  _:b2188 ;
+        rdf:first  "Hd" .
+
+_:b2189  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b2190 .
+
+_:b2191  rdf:rest  _:b2192 ;
+        rdf:first  _:b2193 .
+
+_:b2190  rdf:rest  _:b2194 ;
+        rdf:first  _:b2195 .
+
+_:b2194  rdf:rest  _:b2191 ;
+        rdf:first  _:b2196 .
+
+_:b2192  rdf:rest  rdf:nil ;
+        rdf:first  _:b2197 .
+
+_:b2189  foot:fifaCode  "ARG" .
+
+_:b2198  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2199 .
+
+_:b2200  rdf:rest  _:b2201 ;
+        rdf:first  _:b2202 .
+
+_:b2203  rdf:rest  rdf:nil ;
+        rdf:first  _:b2204 .
+
+_:b2199  rdf:rest  _:b2200 ;
+        rdf:first  _:b2205 .
+
+_:b2201  rdf:rest  _:b2203 ;
+        rdf:first  _:b2206 .
+
+_:b2198  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b2207  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2208 .
+
+_:b2209  rdf:rest  rdf:nil ;
+        rdf:first  "JS" .
+
+_:b2208  rdf:rest  _:b2210 ;
+        rdf:first  _:b2211 .
+
+_:b2210  rdf:rest  _:b2209 ;
+        rdf:first  _:b2212 .
+
+_:b2207  foot:teams  _:b2213 .
+
+_:b2213  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2214  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b2215 .
+
+_:b2216  rdf:rest  rdf:nil ;
+        rdf:first  _:b2217 .
+
+_:b2218  rdf:rest  _:b2216 ;
+        rdf:first  _:b2219 .
+
+_:b2215  rdf:rest  _:b2220 ;
+        rdf:first  _:b2221 .
+
+_:b2220  rdf:rest  _:b2218 ;
+        rdf:first  _:b2222 .
+
+_:b2214  foot:fifaCode  "EGY" .
+
+_:b2223  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2224 .
+
+_:b2224  rdf:rest  _:b2225 ;
+        rdf:first  _:b2226 .
+
+_:b2225  rdf:rest  _:b2227 ;
+        rdf:first  _:b2228 .
+
+_:b2227  rdf:rest  _:b2229 ;
+        rdf:first  _:b2230 .
+
+_:b2229  rdf:rest  rdf:nil ;
+        rdf:first  _:b2231 .
+
+_:b2223  foot:teams  _:b2232 .
+
+_:b2232  rdf:rest  _:b2233 ;
+        rdf:first  _:b2234 .
+
+_:b2235  rdf:rest  rdf:nil ;
+        rdf:first  "mn" .
+
+_:b2233  rdf:rest  _:b2235 ;
+        rdf:first  _:b2236 .
+
+_:b2237  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b2238 .
+
+_:b2238  rdf:rest  _:b2239 ;
+        rdf:first  _:b2240 .
+
+_:b2241  rdf:rest  _:b2242 ;
+        rdf:first  _:b2243 .
+
+_:b2239  rdf:rest  _:b2241 ;
+        rdf:first  _:b2244 .
+
+_:b2242  rdf:rest  rdf:nil ;
+        rdf:first  _:b2245 .
+
+_:b2237  foot:fifaCode  "FRA" .
+
+_:b2246  foot:country     "Portugal" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b2247  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2248 .
+
+_:b2249  rdf:rest  rdf:nil ;
+        rdf:first  _:b2250 .
+
+_:b2251  rdf:rest  _:b2252 ;
+        rdf:first  _:b2253 .
+
+_:b2252  rdf:rest  _:b2249 ;
+        rdf:first  _:b2254 .
+
+_:b2248  rdf:rest  _:b2251 ;
+        rdf:first  _:b2255 .
+
+_:b2247  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b2256  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b2257 .
+
+_:b2258  rdf:rest  rdf:nil ;
+        rdf:first  _:b2259 .
+
+_:b2260  rdf:rest  _:b2258 ;
+        rdf:first  _:b2261 .
+
+_:b2262  rdf:rest  _:b2260 ;
+        rdf:first  _:b2263 .
+
+_:b2257  rdf:rest  _:b2262 ;
+        rdf:first  _:b2264 .
+
+_:b2256  foot:fifaCode  "FRA" .
+
+_:b2265  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2266 .
+
+_:b2267  rdf:rest  rdf:nil ;
+        rdf:first  _:b2268 .
+
+_:b2266  rdf:rest  _:b2269 ;
+        rdf:first  _:b2270 .
+
+_:b2269  rdf:rest  _:b2267 ;
+        rdf:first  _:b2271 .
+
+_:b2265  foot:teams  _:b2272 .
+
+_:b2272  rdf:rest  _:b2273 ;
+        rdf:first  "bc" .
+
+_:b2273  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2274  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2275 .
+
+_:b2276  rdf:rest  _:b2277 ;
+        rdf:first  _:b2278 .
+
+_:b2277  rdf:rest  rdf:nil ;
+        rdf:first  _:b2279 .
+
+_:b2275  rdf:rest  _:b2276 ;
+        rdf:first  _:b2280 .
+
+_:b2274  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b2281  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2282 .
+
+_:b2283  rdf:rest  _:b2284 ;
+        rdf:first  "fY" .
+
+_:b2282  rdf:rest  _:b2283 ;
+        rdf:first  "Vg" .
+
+_:b2284  rdf:rest  _:b2285 ;
+        rdf:first  "Nm" .
+
+_:b2285  rdf:rest  rdf:nil ;
+        rdf:first  "mG" .
+
+_:b2281  foot:teams  _:b2286 .
+
+_:b2287  rdf:rest  _:b2288 ;
+        rdf:first  "yE" .
+
+_:b2288  rdf:rest  _:b2289 ;
+        rdf:first  "rT" .
+
+_:b2286  rdf:rest  _:b2287 ;
+        rdf:first  "BK" .
+
+_:b2289  rdf:rest  rdf:nil ;
+        rdf:first  "nq" .
+
+_:b2290  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2291 .
+
+_:b2292  rdf:rest  _:b2293 ;
+        rdf:first  _:b2294 .
+
+_:b2293  rdf:rest  _:b2295 ;
+        rdf:first  _:b2296 .
+
+_:b2291  rdf:rest  _:b2292 ;
+        rdf:first  _:b2297 .
+
+_:b2295  rdf:rest  rdf:nil ;
+        rdf:first  _:b2298 .
+
+_:b2290  foot:teams  _:b2299 .
+
+_:b2300  rdf:rest  rdf:nil ;
+        rdf:first  "Uc" .
+
+_:b2301  rdf:rest  _:b2300 ;
+        rdf:first  _:b2302 .
+
+_:b2299  rdf:rest  _:b2301 ;
+        rdf:first  _:b2303 .
+
+_:b2304  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b2305 .
+
+_:b2306  rdf:rest  rdf:nil ;
+        rdf:first  _:b2307 .
+
+_:b2308  rdf:rest  _:b2306 ;
+        rdf:first  _:b2309 .
+
+_:b2310  rdf:rest  _:b2308 ;
+        rdf:first  _:b2311 .
+
+_:b2305  rdf:rest  _:b2310 ;
+        rdf:first  _:b2312 .
+
+_:b2304  foot:fifaCode  "EGY" .
+
+_:b2313  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2314 .
+
+_:b2314  rdf:rest  _:b2315 ;
+        rdf:first  "Oj" .
+
+_:b2316  rdf:rest  rdf:nil ;
+        rdf:first  "ZL" .
+
+_:b2317  rdf:rest  _:b2316 ;
+        rdf:first  "FR" .
+
+_:b2315  rdf:rest  _:b2317 ;
+        rdf:first  "Pa" .
+
+_:b2313  foot:teams  _:b2318 .
+
+_:b2319  rdf:rest  rdf:nil ;
+        rdf:first  _:b2320 .
+
+_:b2321  rdf:rest  _:b2319 ;
+        rdf:first  _:b2322 .
+
+_:b2318  rdf:rest  _:b2321 ;
+        rdf:first  _:b2323 .
+
+_:b2324  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2325 .
+
+_:b2326  rdf:rest  _:b2327 ;
+        rdf:first  _:b2328 .
+
+_:b2325  rdf:rest  _:b2326 ;
+        rdf:first  _:b2329 .
+
+_:b2327  rdf:rest  rdf:nil ;
+        rdf:first  _:b2330 .
+
+_:b2324  foot:teams  _:b2331 .
+
+_:b2331  rdf:rest  _:b2332 ;
+        rdf:first  _:b2333 .
+
+_:b2334  rdf:rest  _:b2335 ;
+        rdf:first  _:b2336 .
+
+_:b2332  rdf:rest  _:b2334 ;
+        rdf:first  _:b2337 .
+
+_:b2335  rdf:rest  rdf:nil ;
+        rdf:first  "Do" .
+
+_:b2338  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2339 .
+
+_:b2340  rdf:rest  rdf:nil ;
+        rdf:first  _:b2341 .
+
+_:b2342  rdf:rest  _:b2340 ;
+        rdf:first  _:b2343 .
+
+_:b2339  rdf:rest  _:b2342 ;
+        rdf:first  _:b2344 .
+
+_:b2338  foot:teams  _:b2345 .
+
+_:b2346  rdf:rest  rdf:nil ;
+        rdf:first  "ii" .
+
+_:b2347  rdf:rest  _:b2346 ;
+        rdf:first  _:b2348 .
+
+_:b2345  rdf:rest  _:b2347 ;
+        rdf:first  _:b2349 .
+
+_:b2350  foot:country     "(" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b2351  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2352 .
+
+_:b2353  rdf:rest  rdf:nil ;
+        rdf:first  _:b2354 .
+
+_:b2352  rdf:rest  _:b2353 ;
+        rdf:first  _:b2355 .
+
+_:b2351  foot:teams  _:b2356 .
+
+_:b2356  rdf:rest  _:b2357 ;
+        rdf:first  _:b2358 .
+
+_:b2359  rdf:rest  _:b2360 ;
+        rdf:first  _:b2361 .
+
+_:b2360  rdf:rest  rdf:nil ;
+        rdf:first  _:b2362 .
+
+_:b2357  rdf:rest  _:b2359 ;
+        rdf:first  _:b2363 .
+
+_:b2364  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2365 .
+
+_:b2366  rdf:rest  _:b2367 ;
+        rdf:first  "xe" .
+
+_:b2365  rdf:rest  _:b2366 ;
+        rdf:first  "sA" .
+
+_:b2367  rdf:rest  _:b2368 ;
+        rdf:first  "xB" .
+
+_:b2368  rdf:rest  rdf:nil ;
+        rdf:first  "rJ" .
+
+_:b2364  foot:teams  _:b2369 .
+
+_:b2370  rdf:rest  _:b2371 ;
+        rdf:first  _:b2372 .
+
+_:b2369  rdf:rest  _:b2373 ;
+        rdf:first  _:b2374 .
+
+_:b2371  rdf:rest  rdf:nil ;
+        rdf:first  "sd" .
+
+_:b2373  rdf:rest  _:b2370 ;
+        rdf:first  _:b2375 .
+
+_:b2376  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2377 .
+
+_:b2378  rdf:rest  rdf:nil ;
+        rdf:first  _:b1356 .
+
+_:b2377  rdf:rest  _:b2378 ;
+        rdf:first  _:b2379 .
+
+_:b2376  foot:continent  "South America" ;
+        foot:leagues    _:b2380 .
+
+_:b2380  rdf:rest  rdf:nil ;
+        rdf:first  "`" .
+
+_:b2376  foot:fifaCode  "EGY" .
+
+_:b2381  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2382 .
+
+_:b2382  rdf:rest  rdf:nil ;
+        rdf:first  "_" .
+
+_:b2381  foot:continent  "Europe" ;
+        foot:leagues    "`" ;
+        foot:fifaCode   "POR" .
+
+_:b2383  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2384 .
+
+_:b2385  rdf:rest  _:b2386 ;
+        rdf:first  _:b2387 .
+
+_:b2384  rdf:rest  _:b2385 ;
+        rdf:first  _:b2388 .
+
+_:b2386  rdf:rest  rdf:nil ;
+        rdf:first  _:b2389 .
+
+_:b2383  foot:teams  _:b2390 .
+
+_:b2391  rdf:rest  _:b2392 ;
+        rdf:first  _:b2393 .
+
+_:b2392  rdf:rest  rdf:nil ;
+        rdf:first  _:b2394 .
+
+_:b2390  rdf:rest  _:b2391 ;
+        rdf:first  _:b2395 .
+
+_:b2396  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2397 .
+
+_:b2397  rdf:rest  _:b2398 ;
+        rdf:first  "PY" .
+
+_:b2398  rdf:rest  _:b2399 ;
+        rdf:first  "dR" .
+
+_:b2400  rdf:rest  rdf:nil ;
+        rdf:first  "qy" .
+
+_:b2399  rdf:rest  _:b2400 ;
+        rdf:first  "ZT" .
+
+_:b2396  foot:teams  _:b2401 .
+
+_:b2401  rdf:rest  rdf:nil ;
+        rdf:first  _:b2402 .
+
+_:b2403  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2404 .
+
+_:b2405  rdf:rest  rdf:nil ;
+        rdf:first  _:b2406 .
+
+_:b2404  rdf:rest  _:b2405 ;
+        rdf:first  _:b2407 .
+
+_:b2403  foot:continent  "Africa" ;
+        foot:leagues    _:b2408 .
+
+_:b2409  rdf:rest  rdf:nil ;
+        rdf:first  _:b2410 .
+
+_:b2411  rdf:rest  _:b2409 ;
+        rdf:first  _:b2412 .
+
+_:b2408  rdf:rest  _:b2411 ;
+        rdf:first  _:b2413 .
+
+_:b2403  foot:fifaCode  "ENG" .
+
+_:b2414  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2415 .
+
+_:b2415  rdf:rest  _:b2416 ;
+        rdf:first  _:b2417 .
+
+_:b2416  rdf:rest  rdf:nil ;
+        rdf:first  "fB" .
+
+_:b2414  foot:teams  _:b2418 .
+
+_:b2419  rdf:rest  _:b2420 ;
+        rdf:first  _:b2421 .
+
+_:b2418  rdf:rest  _:b2419 ;
+        rdf:first  _:b2422 .
+
+_:b2420  rdf:rest  _:b2423 ;
+        rdf:first  _:b2424 .
+
+_:b2423  rdf:rest  rdf:nil ;
+        rdf:first  "yz" .
+
+_:b2425  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2426 .
+
+_:b2427  rdf:rest  rdf:nil ;
+        rdf:first  "ka" .
+
+_:b2426  rdf:rest  _:b2428 ;
+        rdf:first  "GS" .
+
+_:b2428  rdf:rest  _:b2427 ;
+        rdf:first  "Hm" .
+
+_:b2425  foot:teams  _:b2429 .
+
+_:b2429  rdf:rest  _:b2430 ;
+        rdf:first  _:b2431 .
+
+_:b2430  rdf:rest  rdf:nil ;
+        rdf:first  _:b2432 .
+
+_:b2433  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2434 .
+
+_:b2434  rdf:rest  _:b2435 ;
+        rdf:first  _:b2436 .
+
+_:b2437  rdf:rest  _:b2438 ;
+        rdf:first  _:b2439 .
+
+_:b2438  rdf:rest  rdf:nil ;
+        rdf:first  _:b2440 .
+
+_:b2435  rdf:rest  _:b2437 ;
+        rdf:first  _:b2441 .
+
+_:b2433  foot:continent  "North America" ;
+        foot:leagues    _:b2442 .
+
+_:b2442  rdf:rest  _:b2443 ;
+        rdf:first  _:b2444 .
+
+_:b2443  rdf:rest  rdf:nil ;
+        rdf:first  _:b2445 .
+
+_:b2433  foot:fifaCode  "ENG" .
+
+_:b2446  foot:country     "Argentina" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b2447  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "" ;
+        foot:leagues        _:b2448 .
+
+_:b2448  rdf:rest  rdf:nil ;
+        rdf:first  "~" .
+
+_:b2447  foot:fifaCode  "POR" .
+
+_:b2449  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2450 .
+
+_:b2451  rdf:rest  rdf:nil ;
+        rdf:first  _:b2452 .
+
+_:b2453  rdf:rest  _:b2451 ;
+        rdf:first  _:b2454 .
+
+_:b2455  rdf:rest  _:b2453 ;
+        rdf:first  "[" .
+
+_:b2450  rdf:rest  _:b2455 ;
+        rdf:first  _:b2456 .
+
+_:b2449  foot:teams  _:b2457 .
+
+_:b2457  rdf:rest  _:b2458 ;
+        rdf:first  "NO" .
+
+_:b2458  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2459  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2460 .
+
+_:b2461  rdf:rest  rdf:nil ;
+        rdf:first  _:b2462 .
+
+_:b2460  rdf:rest  _:b2461 ;
+        rdf:first  _:b2463 .
+
+_:b2459  foot:teams  _:b2464 .
+
+_:b2465  rdf:rest  rdf:nil ;
+        rdf:first  "UA" .
+
+_:b2466  rdf:rest  _:b2465 ;
+        rdf:first  "UK" .
+
+_:b2467  rdf:rest  _:b2466 ;
+        rdf:first  "EX" .
+
+_:b2464  rdf:rest  _:b2467 ;
+        rdf:first  "aB" .
+
+_:b2468  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2469 .
+
+_:b2470  rdf:rest  _:b2471 ;
+        rdf:first  _:b2472 .
+
+_:b2473  rdf:rest  _:b2470 ;
+        rdf:first  _:b2474 .
+
+_:b2469  rdf:rest  _:b2473 ;
+        rdf:first  _:b2475 .
+
+_:b2471  rdf:rest  rdf:nil ;
+        rdf:first  _:b2476 .
+
+_:b2468  foot:teams  _:b2477 .
+
+_:b2478  rdf:rest  rdf:nil ;
+        rdf:first  "DA" .
+
+_:b2479  rdf:rest  _:b2478 ;
+        rdf:first  "TZ" .
+
+_:b2477  rdf:rest  _:b2479 ;
+        rdf:first  "Zk" .
+
+_:b2480  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2481 .
+
+_:b2481  rdf:rest  _:b2482 ;
+        rdf:first  "VJ" .
+
+_:b2482  rdf:rest  rdf:nil ;
+        rdf:first  "eg" .
+
+_:b2480  foot:teams  _:b2483 .
+
+_:b2484  rdf:rest  _:b2485 ;
+        rdf:first  _:b2486 .
+
+_:b2487  rdf:rest  rdf:nil ;
+        rdf:first  "UP" .
+
+_:b2485  rdf:rest  _:b2487 ;
+        rdf:first  _:b2488 .
+
+_:b2483  rdf:rest  _:b2484 ;
+        rdf:first  _:b2489 .
+
+_:b2490  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2491 .
+
+_:b2492  rdf:rest  _:b2493 ;
+        rdf:first  _:b2494 .
+
+_:b2491  rdf:rest  _:b2492 ;
+        rdf:first  _:b2495 .
+
+_:b2493  rdf:rest  rdf:nil ;
+        rdf:first  "ao" .
+
+_:b2490  foot:teams  _:b2496 .
+
+_:b2496  rdf:rest  _:b2497 ;
+        rdf:first  _:b2498 .
+
+_:b2499  rdf:rest  rdf:nil ;
+        rdf:first  _:b2500 .
+
+_:b2497  rdf:rest  _:b2499 ;
+        rdf:first  _:b2501 .
+
+_:b2502  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2503 .
+
+_:b2503  rdf:rest  _:b2504 ;
+        rdf:first  _:b2505 .
+
+_:b2506  rdf:rest  rdf:nil ;
+        rdf:first  "tU" .
+
+_:b2504  rdf:rest  _:b2506 ;
+        rdf:first  _:b2507 .
+
+_:b2502  foot:teams  _:b2508 .
+
+_:b2509  rdf:rest  rdf:nil ;
+        rdf:first  "ir" .
+
+_:b2508  rdf:rest  _:b2510 ;
+        rdf:first  _:b2511 .
+
+_:b2510  rdf:rest  _:b2512 ;
+        rdf:first  _:b2513 .
+
+_:b2512  rdf:rest  _:b2509 ;
+        rdf:first  _:b2514 .
+
+_:b2515  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2516 .
+
+_:b2517  rdf:rest  _:b2518 ;
+        rdf:first  _:b2519 .
+
+_:b2518  rdf:rest  _:b2520 ;
+        rdf:first  _:b2521 .
+
+_:b2516  rdf:rest  _:b2517 ;
+        rdf:first  _:b2522 .
+
+_:b2520  rdf:rest  rdf:nil ;
+        rdf:first  _:b2523 .
+
+_:b2515  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b2524  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b2525 .
+
+_:b2526  rdf:rest  _:b2527 ;
+        rdf:first  _:b2528 .
+
+_:b2529  rdf:rest  _:b2526 ;
+        rdf:first  _:b2530 .
+
+_:b2527  rdf:rest  rdf:nil ;
+        rdf:first  _:b2531 .
+
+_:b2525  rdf:rest  _:b2529 ;
+        rdf:first  _:b2532 .
+
+_:b2524  foot:fifaCode  "EGY" .
+
+_:b2533  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2534 .
+
+_:b2535  rdf:rest  _:b2536 ;
+        rdf:first  _:b2537 .
+
+_:b2534  rdf:rest  _:b2535 ;
+        rdf:first  _:b2538 .
+
+_:b2539  rdf:rest  rdf:nil ;
+        rdf:first  _:b2540 .
+
+_:b2536  rdf:rest  _:b2539 ;
+        rdf:first  _:b2541 .
+
+_:b2533  foot:continent  "Europe" ;
+        foot:leagues    _:b2542 .
+
+_:b2542  rdf:rest  rdf:nil ;
+        rdf:first  _:b2543 .
+
+_:b2533  foot:fifaCode  "ENG" .
+
+_:b2544  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "" ;
+        foot:leagues        _:b2545 .
+
+_:b2545  rdf:rest  _:b2546 ;
+        rdf:first  _:b2547 .
+
+_:b2546  rdf:rest  _:b2548 ;
+        rdf:first  _:b2549 .
+
+_:b2548  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2544  foot:fifaCode  "EGY" .
+
+_:b2550  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2551 .
+
+_:b2551  rdf:rest  rdf:nil ;
+        rdf:first  ";" .
+
+_:b2550  foot:teams  "\"\"\"\\\"eE\"\"),(_:uVj,_:TSf,\"\"(\"G\"%\"\")) \",\"\r\nfoot:Country(_:Wgw,\"Portugal\",\"Asia\",\"ARG\",(_:Flc,_:zak,_:AOQ,_:hoU),(_:rYx,_:CNH,_:Dmn,_:ByK)) .\r\nfoot:Footballer(\"/\"\"$\"LWTz, \"Cristiano\",\"\"}\"Sx\",\"204-1-25\"^^xsd:date,\"Paris Saint-Germain\",\"300000000\",iG,\"England\") \"'\"\r\nfoot:Country(_:Gpj,\"\"{\"BZ\",zt,jD,(),(_:zme,_:xls,_:jqN,hk)) \"?\"\r\nfoot:League(\":\"\"*\"TfFV,Ng,\"2015\"^^xsd:gYear,(_:jif,_:XgS,_:sZk,\"zu\"),()) \"&\"\r\nfoot:League(\"^\"\"@\"uNoJ,\"Bundesliga\",\"2016\"^^xsd:gYear,(),(\"yM\")) \">\"\r\nfoot:Country(\"]\"\")\"OgpC,\"Argentina\",\"Europe\",\"EGY\",(_:TdQ),(_:dUX,rs))  \r\nfoot:Country(_:wKK,Qv,\"North America\",\"POR\",(_:Mlg,ys),(_:Spp,_:XDk,Ci)) .\r\nfoot:League(\" \"\"!\"WdmT,\"Premier League\",\"2017\"^^xsd:gYear,(),(_:sbW,_:MrD,_:JzX)) \"#\"\r\nfoot:Footballer(_:EOh, \"Bruno\",\"Mbappe\",\"199-1-08\"^^xsd:date,\"\">\"Io\",xf,\"Goalkeeper\",\"Argentina\")  \r\nfoot:League(\")\"\"(\"zDLl,\"\\\"5S\"@\",\"2016\"^^xsd:gYear,(),()) .\r\nfoot:Country(\"^\"\",\"ctQH,\"\"*\"XR\",GY,\"ENG\",(_:KTJ),(ru,pb,\"]\"Z\"!\",Bj)) \"%\"\r\nfoot:Club(\":\"\"~\"iFgV,mN,aWv^^xsd:gYear,\"\"'\"wU\",\"England\") \"_\"\r\nfoot:Country(\"=\"\"-\"nkAy,\"France\",\"Asia\",\"EGY\",(_:CqM,sd),(\"\"<\"eP\")) .\r\nfoot:League(\".\"\"&\"BdmZ,\"Ligue 1\",\"2017\"^^xsd:gYear,(\"\"`\"H\"|\"\",\"yr\"),(\" \"\"$\"QTJv,\"IY\")) \"\"\"" .
+
+_:b2552  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2553 .
+
+_:b2554  rdf:rest  rdf:nil ;
+        rdf:first  "hf" .
+
+_:b2555  rdf:rest  _:b2554 ;
+        rdf:first  "GO" .
+
+_:b2553  rdf:rest  _:b2555 ;
+        rdf:first  "Sw" .
+
+_:b2552  foot:teams  _:b2556 .
+
+_:b2557  rdf:rest  _:b2558 ;
+        rdf:first  "ZD" .
+
+_:b2556  rdf:rest  _:b2557 ;
+        rdf:first  "fQ" .
+
+_:b2558  rdf:rest  rdf:nil ;
+        rdf:first  "Ux" .
+
+_:b2559  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2560 .
+
+_:b2561  rdf:rest  _:b2562 ;
+        rdf:first  _:b2563 .
+
+_:b2560  rdf:rest  _:b2564 ;
+        rdf:first  _:b2565 .
+
+_:b2562  rdf:rest  rdf:nil ;
+        rdf:first  "pd" .
+
+_:b2564  rdf:rest  _:b2561 ;
+        rdf:first  _:b2566 .
+
+_:b2559  foot:teams  _:b2567 .
+
+_:b2567  rdf:rest  _:b2568 ;
+        rdf:first  _:b2569 .
+
+_:b2568  rdf:rest  rdf:nil ;
+        rdf:first  _:b2570 .
+
+_:b2571  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "/" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2572 .
+
+_:b2573  rdf:rest  _:b2574 ;
+        rdf:first  _:b2575 .
+
+_:b2574  rdf:rest  rdf:nil ;
+        rdf:first  _:b2576 .
+
+_:b2577  rdf:rest  _:b2573 ;
+        rdf:first  _:b2578 .
+
+_:b2572  rdf:rest  _:b2577 ;
+        rdf:first  _:b2579 .
+
+_:b2571  foot:teams  rdf:nil .
+
+_:b2580  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b2581 .
+
+_:b2582  rdf:rest  _:b2583 ;
+        rdf:first  _:b2584 .
+
+_:b2585  rdf:rest  _:b2582 ;
+        rdf:first  _:b2586 .
+
+_:b2583  rdf:rest  rdf:nil ;
+        rdf:first  _:b2587 .
+
+_:b2581  rdf:rest  _:b2585 ;
+        rdf:first  _:b2588 .
+
+_:b2580  foot:fifaCode  "EGY" .
+
+_:b2589  foot:country     "Argentina" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b2590  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b2591 .
+
+_:b2592  rdf:rest  rdf:nil ;
+        rdf:first  _:b2593 .
+
+_:b2591  rdf:rest  _:b2594 ;
+        rdf:first  _:b2595 .
+
+_:b2596  rdf:rest  _:b2592 ;
+        rdf:first  _:b2597 .
+
+_:b2594  rdf:rest  _:b2596 ;
+        rdf:first  _:b2598 .
+
+_:b2590  foot:fifaCode  "FRA" .
+
+_:b2599  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2600 .
+
+_:b2601  rdf:rest  rdf:nil ;
+        rdf:first  "Iq" .
+
+_:b2602  rdf:rest  _:b2601 ;
+        rdf:first  _:b2603 .
+
+_:b2600  rdf:rest  _:b2602 ;
+        rdf:first  _:b2604 .
+
+_:b2599  foot:teams  _:b2605 .
+
+_:b2606  rdf:rest  _:b2607 ;
+        rdf:first  _:b2608 .
+
+_:b2609  rdf:rest  rdf:nil ;
+        rdf:first  "cS" .
+
+_:b2607  rdf:rest  _:b2609 ;
+        rdf:first  _:b2610 .
+
+_:b2605  rdf:rest  _:b2606 ;
+        rdf:first  _:b2611 .
+
+_:b2612  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2613 .
+
+_:b2614  rdf:rest  rdf:nil ;
+        rdf:first  "Ma" .
+
+_:b2615  rdf:rest  _:b2614 ;
+        rdf:first  "vI" .
+
+_:b2616  rdf:rest  _:b2615 ;
+        rdf:first  "IO" .
+
+_:b2613  rdf:rest  _:b2616 ;
+        rdf:first  "yZ" .
+
+_:b2612  foot:teams  _:b2617 .
+
+_:b2617  rdf:rest  _:b2618 ;
+        rdf:first  _:b2619 .
+
+_:b2618  rdf:rest  rdf:nil ;
+        rdf:first  _:b2620 .
+
+_:b2621  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b2622 .
+
+_:b2623  rdf:rest  _:b2624 ;
+        rdf:first  _:b2625 .
+
+_:b2622  rdf:rest  _:b2626 ;
+        rdf:first  _:b2627 .
+
+_:b2624  rdf:rest  rdf:nil ;
+        rdf:first  _:b2628 .
+
+_:b2626  rdf:rest  _:b2623 ;
+        rdf:first  _:b2629 .
+
+_:b2621  foot:fifaCode  "FRA" .
+
+_:b2630  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2631 .
+
+_:b2632  rdf:rest  rdf:nil ;
+        rdf:first  "nF" .
+
+_:b2633  rdf:rest  _:b2632 ;
+        rdf:first  _:b2634 .
+
+_:b2635  rdf:rest  _:b2633 ;
+        rdf:first  _:b2636 .
+
+_:b2631  rdf:rest  _:b2635 ;
+        rdf:first  _:b2637 .
+
+_:b2630  foot:teams  _:b2638 .
+
+_:b2639  rdf:rest  _:b2640 ;
+        rdf:first  _:b2641 .
+
+_:b2638  rdf:rest  _:b2639 ;
+        rdf:first  _:b2642 .
+
+_:b2643  rdf:rest  rdf:nil ;
+        rdf:first  _:b2644 .
+
+_:b2640  rdf:rest  _:b2643 ;
+        rdf:first  _:b2645 .
+
+_:b2646  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "~" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2647 .
+
+_:b2647  rdf:rest  rdf:nil ;
+        rdf:first  _:b2648 .
+
+_:b2646  foot:teams  _:b2649 .
+
+_:b2649  rdf:rest  _:b2650 ;
+        rdf:first  _:b2651 .
+
+_:b2650  rdf:rest  _:b2652 ;
+        rdf:first  _:b2653 .
+
+_:b2652  rdf:rest  rdf:nil ;
+        rdf:first  _:b2654 .
+
+_:b2655  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2656 .
+
+_:b2656  rdf:rest  rdf:nil ;
+        rdf:first  "." .
+
+_:b2655  foot:teams  _:b2657 .
+
+_:b2658  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2659 .
+
+_:b2659  rdf:rest  _:b2660 ;
+        rdf:first  _:b2661 .
+
+_:b2662  rdf:rest  rdf:nil ;
+        rdf:first  "bt" .
+
+_:b2663  rdf:rest  _:b2662 ;
+        rdf:first  _:b2664 .
+
+_:b2660  rdf:rest  _:b2663 ;
+        rdf:first  _:b2665 .
+
+_:b2658  foot:teams  _:b2666 .
+
+_:b2667  rdf:rest  _:b2668 ;
+        rdf:first  _:b2669 .
+
+_:b2666  rdf:rest  _:b2670 ;
+        rdf:first  _:b2671 .
+
+_:b2670  rdf:rest  _:b2667 ;
+        rdf:first  _:b2672 .
+
+_:b2668  rdf:rest  rdf:nil ;
+        rdf:first  "Ex" .
+
+_:b2673  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2674 .
+
+_:b2675  rdf:rest  _:b2676 ;
+        rdf:first  _:b2677 .
+
+_:b2676  rdf:rest  rdf:nil ;
+        rdf:first  "yh" .
+
+_:b2678  rdf:rest  _:b2675 ;
+        rdf:first  _:b2679 .
+
+_:b2674  rdf:rest  _:b2678 ;
+        rdf:first  _:b2680 .
+
+_:b2673  foot:teams  _:b2681 .
+
+_:b2682  rdf:rest  _:b2683 ;
+        rdf:first  _:b2684 .
+
+_:b2681  rdf:rest  _:b2682 ;
+        rdf:first  _:b2685 .
+
+_:b2683  rdf:rest  rdf:nil ;
+        rdf:first  _:b2686 .
+
+_:b2687  foaf:name          "(" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b2688 .
+
+_:b2688  rdf:rest  _:b2689 ;
+        rdf:first  _:b2690 .
+
+_:b2691  rdf:rest  _:b2692 ;
+        rdf:first  _:b2693 .
+
+_:b2689  rdf:rest  _:b2691 ;
+        rdf:first  _:b2694 .
+
+_:b2692  rdf:rest  rdf:nil ;
+        rdf:first  _:b2695 .
+
+_:b2687  foot:fifaCode  "FRA" .
+
+_:b2696  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2697 .
+
+_:b2697  rdf:rest  _:b2698 ;
+        rdf:first  _:b2699 .
+
+_:b2698  rdf:rest  rdf:nil ;
+        rdf:first  "Mc" .
+
+_:b2696  foot:teams  _:b2700 .
+
+_:b2701  rdf:rest  _:b2702 ;
+        rdf:first  _:b2703 .
+
+_:b2700  rdf:rest  _:b2701 ;
+        rdf:first  _:b2704 .
+
+_:b2705  rdf:rest  rdf:nil ;
+        rdf:first  _:b2706 .
+
+_:b2702  rdf:rest  _:b2705 ;
+        rdf:first  _:b2707 .
+
+_:b2708  foot:country     "England" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Paris Saint-Germain" .
+
+_:b2709  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2710 .
+
+_:b2711  rdf:rest  _:b2712 ;
+        rdf:first  _:b2713 .
+
+_:b2714  rdf:rest  _:b2711 ;
+        rdf:first  _:b2715 .
+
+_:b2710  rdf:rest  _:b2714 ;
+        rdf:first  _:b2716 .
+
+_:b2712  rdf:rest  rdf:nil ;
+        rdf:first  _:b2717 .
+
+_:b2709  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b2718  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2719 .
+
+_:b2720  rdf:rest  _:b2721 ;
+        rdf:first  _:b2722 .
+
+_:b2721  rdf:rest  rdf:nil ;
+        rdf:first  "Jl" .
+
+_:b2719  rdf:rest  _:b2720 ;
+        rdf:first  _:b2723 .
+
+_:b2718  foot:teams  _:b2724 .
+
+_:b2724  rdf:rest  rdf:nil ;
+        rdf:first  "@" .
+
+_:b2725  foaf:name          "{" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2726 .
+
+_:b2726  rdf:rest  _:b2727 ;
+        rdf:first  _:b2728 .
+
+_:b2727  rdf:rest  rdf:nil ;
+        rdf:first  _:b2729 .
+
+_:b2725  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b2730  foot:country     "France" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "=" .
+
+_:b2731  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2732 .
+
+_:b2733  rdf:rest  _:b2734 ;
+        rdf:first  _:b2735 .
+
+_:b2736  rdf:rest  _:b2733 ;
+        rdf:first  _:b2737 .
+
+_:b2732  rdf:rest  _:b2736 ;
+        rdf:first  _:b2738 .
+
+_:b2734  rdf:rest  rdf:nil ;
+        rdf:first  _:b2739 .
+
+_:b2731  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b2740  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2741 .
+
+_:b2742  rdf:rest  _:b2743 ;
+        rdf:first  _:b2744 .
+
+_:b2745  rdf:rest  rdf:nil ;
+        rdf:first  _:b2746 .
+
+_:b2743  rdf:rest  _:b2745 ;
+        rdf:first  _:b2747 .
+
+_:b2741  rdf:rest  _:b2742 ;
+        rdf:first  _:b2748 .
+
+_:b2740  foot:teams  _:b2749 .
+
+_:b2750  rdf:rest  _:b2751 ;
+        rdf:first  "UQ" .
+
+_:b2749  rdf:rest  _:b2750 ;
+        rdf:first  "ch" .
+
+_:b2751  rdf:rest  rdf:nil ;
+        rdf:first  "xm" .
+
+_:b2752  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2753 .
+
+_:b2754  rdf:rest  _:b2755 ;
+        rdf:first  "KE" .
+
+_:b2753  rdf:rest  _:b2756 ;
+        rdf:first  "Nh" .
+
+_:b2756  rdf:rest  _:b2754 ;
+        rdf:first  "sG" .
+
+_:b2755  rdf:rest  rdf:nil ;
+        rdf:first  "in" .
+
+_:b2752  foot:teams  _:b2757 .
+
+_:b2757  rdf:rest  _:b2758 ;
+        rdf:first  _:b2759 .
+
+_:b2760  rdf:rest  rdf:nil ;
+        rdf:first  _:b2761 .
+
+_:b2758  rdf:rest  _:b2760 ;
+        rdf:first  _:b2762 .
+
+_:b2763  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b2764 .
+
+_:b2765  rdf:rest  rdf:nil ;
+        rdf:first  _:b2766 .
+
+_:b2767  rdf:rest  _:b2765 ;
+        rdf:first  _:b2768 .
+
+_:b2769  rdf:rest  _:b2767 ;
+        rdf:first  _:b2770 .
+
+_:b2764  rdf:rest  _:b2769 ;
+        rdf:first  _:b2771 .
+
+_:b2763  foot:fifaCode  "EGY" .
+
+_:b2772  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2773 .
+
+_:b2774  rdf:rest  _:b2775 ;
+        rdf:first  _:b2776 .
+
+_:b2773  rdf:rest  _:b2774 ;
+        rdf:first  _:b2777 .
+
+_:b2775  rdf:rest  _:b2778 ;
+        rdf:first  _:b2779 .
+
+_:b2778  rdf:rest  rdf:nil ;
+        rdf:first  _:b2780 .
+
+_:b2772  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b2781  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2782 .
+
+_:b2783  rdf:rest  rdf:nil ;
+        rdf:first  _:b2784 .
+
+_:b2782  rdf:rest  _:b2785 ;
+        rdf:first  _:b2786 .
+
+_:b2787  rdf:rest  _:b2783 ;
+        rdf:first  _:b2788 .
+
+_:b2785  rdf:rest  _:b2787 ;
+        rdf:first  _:b2789 .
+
+_:b2781  foot:teams  _:b2790 .
+
+_:b2790  rdf:rest  _:b2791 ;
+        rdf:first  "vj" .
+
+_:b2791  rdf:rest  _:b2792 ;
+        rdf:first  "Hc" .
+
+_:b2792  rdf:rest  rdf:nil ;
+        rdf:first  "mI" .
+
+_:b2793  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2794 .
+
+_:b2795  rdf:rest  rdf:nil ;
+        rdf:first  _:b2796 .
+
+_:b2797  rdf:rest  _:b2795 ;
+        rdf:first  _:b2798 .
+
+_:b2799  rdf:rest  _:b2797 ;
+        rdf:first  _:b2800 .
+
+_:b2794  rdf:rest  _:b2799 ;
+        rdf:first  _:b2801 .
+
+_:b2793  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b2802  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2803 .
+
+_:b2804  rdf:rest  rdf:nil ;
+        rdf:first  _:b2805 .
+
+_:b2806  rdf:rest  _:b2804 ;
+        rdf:first  _:b2807 .
+
+_:b2808  rdf:rest  _:b2806 ;
+        rdf:first  _:b2809 .
+
+_:b2803  rdf:rest  _:b2808 ;
+        rdf:first  _:b2810 .
+
+_:b2802  foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b2811  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2812 .
+
+_:b2813  rdf:rest  rdf:nil ;
+        rdf:first  "dn" .
+
+_:b2812  rdf:rest  _:b2813 ;
+        rdf:first  "lR" .
+
+_:b2811  foot:teams  _:b2814 .
+
+_:b2815  rdf:rest  rdf:nil ;
+        rdf:first  _:b2816 .
+
+_:b2814  rdf:rest  _:b2817 ;
+        rdf:first  _:b2818 .
+
+_:b2819  rdf:rest  _:b2815 ;
+        rdf:first  _:b1447 .
+
+_:b2817  rdf:rest  _:b2819 ;
+        rdf:first  _:b2820 .
+
+_:b2821  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2822 .
+
+_:b2823  rdf:rest  _:b2824 ;
+        rdf:first  _:b2825 .
+
+_:b2822  rdf:rest  _:b2826 ;
+        rdf:first  _:b2827 .
+
+_:b2826  rdf:rest  _:b2823 ;
+        rdf:first  _:b2828 .
+
+_:b2824  rdf:rest  rdf:nil ;
+        rdf:first  " " .
+
+_:b2821  foot:teams  _:b2829 .
+
+_:b2830  rdf:rest  rdf:nil ;
+        rdf:first  "mA" .
+
+_:b2831  rdf:rest  _:b2830 ;
+        rdf:first  "aT" .
+
+_:b2829  rdf:rest  _:b2832 ;
+        rdf:first  "VE" .
+
+_:b2832  rdf:rest  _:b2831 ;
+        rdf:first  "VE" .
+
+_:b2833  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2834 .
+
+_:b2834  rdf:rest  _:b2835 ;
+        rdf:first  "FH" .
+
+_:b2835  rdf:rest  rdf:nil ;
+        rdf:first  "VS" .
+
+_:b2833  foot:teams  _:b2836 .
+
+_:b2836  rdf:rest  _:b2837 ;
+        rdf:first  _:b2838 .
+
+_:b2837  rdf:rest  _:b2839 ;
+        rdf:first  _:b2840 .
+
+_:b2839  rdf:rest  _:b2841 ;
+        rdf:first  _:b2842 .
+
+_:b2841  rdf:rest  rdf:nil ;
+        rdf:first  _:b2843 .
+
+_:b2844  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2845 .
+
+_:b2845  rdf:rest  _:b2846 ;
+        rdf:first  _:b2847 .
+
+_:b2846  rdf:rest  rdf:nil ;
+        rdf:first  "id" .
+
+_:b2844  foot:teams  _:b2848 .
+
+_:b2849  rdf:rest  _:b2850 ;
+        rdf:first  _:b2851 .
+
+_:b2848  rdf:rest  _:b2852 ;
+        rdf:first  _:b2853 .
+
+_:b2852  rdf:rest  _:b2849 ;
+        rdf:first  _:b2854 .
+
+_:b2850  rdf:rest  rdf:nil ;
+        rdf:first  "Zn" .
+
+_:b2855  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b2856 .
+
+_:b2856  rdf:rest  _:b2857 ;
+        rdf:first  _:b2858 .
+
+_:b2859  rdf:rest  _:b2860 ;
+        rdf:first  _:b2861 .
+
+_:b2860  rdf:rest  rdf:nil ;
+        rdf:first  _:b2862 .
+
+_:b2857  rdf:rest  _:b2859 ;
+        rdf:first  _:b2863 .
+
+_:b2855  foot:fifaCode  "ARG" .
+
+_:b2864  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "+" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2865 .
+
+_:b2865  rdf:rest  rdf:nil ;
+        rdf:first  "[" .
+
+_:b2864  foot:teams  _:b2866 .
+
+_:b2867  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2868 .
+
+_:b2869  rdf:rest  _:b2870 ;
+        rdf:first  _:b2871 .
+
+_:b2872  rdf:rest  rdf:nil ;
+        rdf:first  _:b2873 .
+
+_:b2868  rdf:rest  _:b2869 ;
+        rdf:first  _:b2874 .
+
+_:b2870  rdf:rest  _:b2872 ;
+        rdf:first  _:b2875 .
+
+_:b2867  foot:continent  "Europe" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b2876  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "/" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2877 .
+
+_:b2878  rdf:rest  _:b2879 ;
+        rdf:first  _:b2880 .
+
+_:b2877  rdf:rest  _:b2878 ;
+        rdf:first  _:b2881 .
+
+_:b2879  rdf:rest  rdf:nil ;
+        rdf:first  "NU" .
+
+_:b2876  foot:teams  _:b2882 .
+
+_:b2883  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2882  rdf:rest  _:b2883 ;
+        rdf:first  _:b2884 .
+
+_:b2885  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b2886 .
+
+_:b2887  rdf:rest  rdf:nil ;
+        rdf:first  "" .
+
+_:b2888  rdf:rest  _:b2887 ;
+        rdf:first  _:b2889 .
+
+_:b2886  rdf:rest  _:b2888 ;
+        rdf:first  _:b2890 .
+
+_:b2885  foot:fifaCode  "ARG" .
+
+_:b2891  foot:foundedYear  "2016"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2892 .
+
+_:b2892  rdf:rest  _:b2893 ;
+        rdf:first  _:b2894 .
+
+_:b2893  rdf:rest  rdf:nil ;
+        rdf:first  _:b2895 .
+
+_:b2891  foot:teams  _:b2896 .
+
+_:b2897  rdf:rest  rdf:nil ;
+        rdf:first  _:b2348 .
+
+_:b2896  rdf:rest  _:b2898 ;
+        rdf:first  _:b2899 .
+
+_:b2900  rdf:rest  _:b2897 ;
+        rdf:first  _:b2901 .
+
+_:b2898  rdf:rest  _:b2900 ;
+        rdf:first  _:b2902 .
+
+_:b2903  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "}" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2904 .
+
+_:b2904  rdf:rest  rdf:nil ;
+        rdf:first  "#" .
+
+_:b2903  foot:teams  "li" .
+
+_:b2905  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2906 .
+
+_:b2907  rdf:rest  _:b2908 ;
+        rdf:first  _:b2909 .
+
+_:b2906  rdf:rest  _:b2907 ;
+        rdf:first  _:b2910 .
+
+_:b2908  rdf:rest  _:b2911 ;
+        rdf:first  _:b2912 .
+
+_:b2911  rdf:rest  rdf:nil ;
+        rdf:first  _:b2913 .
+
+_:b2905  foot:continent  "South America" ;
+        foot:leagues    _:b2914 .
+
+_:b2915  rdf:rest  rdf:nil ;
+        rdf:first  _:b2916 .
+
+_:b2914  rdf:rest  _:b2917 ;
+        rdf:first  _:b2918 .
+
+_:b2917  rdf:rest  _:b2915 ;
+        rdf:first  _:b2919 .
+
+_:b2905  foot:fifaCode  "ARG" .
+
+_:b2920  foaf:name          "}" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2921 .
+
+_:b2921  rdf:rest  _:b2922 ;
+        rdf:first  _:b2923 .
+
+_:b2924  rdf:rest  rdf:nil ;
+        rdf:first  _:b2925 .
+
+_:b2922  rdf:rest  _:b2926 ;
+        rdf:first  _:b2927 .
+
+_:b2926  rdf:rest  _:b2924 ;
+        rdf:first  _:b2928 .
+
+_:b2920  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b2929  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2930 .
+
+_:b2930  rdf:rest  _:b2931 ;
+        rdf:first  _:b2932 .
+
+_:b2931  rdf:rest  _:b2933 ;
+        rdf:first  _:b2934 .
+
+_:b2933  rdf:rest  rdf:nil ;
+        rdf:first  _:b2935 .
+
+_:b2929  foot:continent  "," ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b2936  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b2937 .
+
+_:b2938  rdf:rest  rdf:nil ;
+        rdf:first  _:b2939 .
+
+_:b2940  rdf:rest  _:b2941 ;
+        rdf:first  _:b2942 .
+
+_:b2937  rdf:rest  _:b2940 ;
+        rdf:first  _:b2943 .
+
+_:b2941  rdf:rest  _:b2938 ;
+        rdf:first  _:b2944 .
+
+_:b2936  foot:continent  "Africa" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "FRA" .
+
+_:b2945  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2946 .
+
+_:b2947  rdf:rest  rdf:nil ;
+        rdf:first  "xt" .
+
+_:b2946  rdf:rest  _:b2948 ;
+        rdf:first  _:b2949 .
+
+_:b2948  rdf:rest  _:b2947 ;
+        rdf:first  _:b2950 .
+
+_:b2945  foot:teams  _:b2951 .
+
+_:b2951  rdf:rest  _:b2952 ;
+        rdf:first  _:b2953 .
+
+_:b2952  rdf:rest  rdf:nil ;
+        rdf:first  "Dq" .
+
+_:b2954  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2955 .
+
+_:b2956  rdf:rest  rdf:nil ;
+        rdf:first  _:b2957 .
+
+_:b2955  rdf:rest  _:b2956 ;
+        rdf:first  _:b2958 .
+
+_:b2954  foot:teams  _:b2959 .
+
+_:b2959  rdf:rest  _:b2960 ;
+        rdf:first  _:b2961 .
+
+_:b2962  rdf:rest  rdf:nil ;
+        rdf:first  "NC" .
+
+_:b2963  rdf:rest  _:b2962 ;
+        rdf:first  _:b2964 .
+
+_:b2960  rdf:rest  _:b2963 ;
+        rdf:first  _:b2965 .
+
+_:b2966  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2967 .
+
+_:b2968  rdf:rest  _:b2969 ;
+        rdf:first  ";" .
+
+_:b2970  rdf:rest  rdf:nil ;
+        rdf:first  _:b2971 .
+
+_:b2969  rdf:rest  _:b2970 ;
+        rdf:first  _:b2972 .
+
+_:b2967  rdf:rest  _:b2968 ;
+        rdf:first  _:b2973 .
+
+_:b2966  foot:teams  _:b2974 .
+
+_:b2974  rdf:rest  rdf:nil ;
+        rdf:first  "\"\"\"[\"yg\"\")) \"`\"\r\nfoot:Country(\")\"\"\"" .
+
+_:b2975  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2976 .
+
+_:b2977  rdf:rest  _:b2978 ;
+        rdf:first  _:b2979 .
+
+_:b2978  rdf:rest  rdf:nil ;
+        rdf:first  _:b2980 .
+
+_:b2976  rdf:rest  _:b2977 ;
+        rdf:first  _:b2981 .
+
+_:b2975  foot:teams  _:b2982 .
+
+_:b2983  rdf:rest  rdf:nil ;
+        rdf:first  "Fu" .
+
+_:b2984  rdf:rest  _:b2985 ;
+        rdf:first  "Hm" .
+
+_:b2982  rdf:rest  _:b2984 ;
+        rdf:first  "iP" .
+
+_:b2985  rdf:rest  _:b2983 ;
+        rdf:first  "uh" .
+
+_:b2986  foaf:name          "+" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        "}" ;
+        foot:fifaCode       "ENG" .
+
+_:b2987  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2988 .
+
+_:b2989  rdf:rest  _:b2990 ;
+        rdf:first  _:b2991 .
+
+_:b2990  rdf:rest  rdf:nil ;
+        rdf:first  _:b2992 .
+
+_:b2988  rdf:rest  _:b2989 ;
+        rdf:first  _:b2993 .
+
+_:b2987  foot:teams  _:b2994 .
+
+_:b2994  rdf:rest  _:b2995 ;
+        rdf:first  _:b2996 .
+
+_:b2995  rdf:rest  rdf:nil ;
+        rdf:first  _:b2997 .
+
+_:b2998  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b2999 .
+
+_:b2999  rdf:rest  _:b3000 ;
+        rdf:first  _:b3001 .
+
+_:b3000  rdf:rest  _:b3002 ;
+        rdf:first  _:b3003 .
+
+_:b3004  rdf:rest  rdf:nil ;
+        rdf:first  "gY" .
+
+_:b3002  rdf:rest  _:b3004 ;
+        rdf:first  _:b3005 .
+
+_:b2998  foot:teams  _:b3006 .
+
+_:b3007  rdf:rest  rdf:nil ;
+        rdf:first  "Qn" .
+
+_:b3006  rdf:rest  _:b3008 ;
+        rdf:first  "QD" .
+
+_:b3008  rdf:rest  _:b3007 ;
+        rdf:first  "kc" .
+
+_:b3009  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3010 .
+
+_:b3011  rdf:rest  rdf:nil ;
+        rdf:first  _:b3012 .
+
+_:b3013  rdf:rest  _:b3011 ;
+        rdf:first  _:b3014 .
+
+_:b3010  rdf:rest  _:b3015 ;
+        rdf:first  _:b3016 .
+
+_:b3015  rdf:rest  _:b3013 ;
+        rdf:first  _:b3017 .
+
+_:b3009  foot:teams  rdf:nil .
+
+_:b3018  foot:country     "Portugal" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b3019  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b3020 .
+
+_:b3020  rdf:rest  _:b3021 ;
+        rdf:first  _:b3022 .
+
+_:b3021  rdf:rest  _:b3023 ;
+        rdf:first  _:b3024 .
+
+_:b3025  rdf:rest  rdf:nil ;
+        rdf:first  _:b3026 .
+
+_:b3023  rdf:rest  _:b3025 ;
+        rdf:first  _:b3027 .
+
+_:b3019  foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b3028  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3029 .
+
+_:b3030  rdf:rest  _:b3031 ;
+        rdf:first  _:b3032 .
+
+_:b3033  rdf:rest  rdf:nil ;
+        rdf:first  _:b3034 .
+
+_:b3031  rdf:rest  _:b3033 ;
+        rdf:first  _:b3035 .
+
+_:b3029  rdf:rest  _:b3030 ;
+        rdf:first  _:b3036 .
+
+_:b3028  foot:teams  _:b3037 .
+
+_:b3038  rdf:rest  rdf:nil ;
+        rdf:first  "pH" .
+
+_:b3037  rdf:rest  _:b3038 ;
+        rdf:first  _:b3039 .
+
+_:b3040  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b3041 .
+
+_:b3041  rdf:rest  _:b3042 ;
+        rdf:first  _:b3043 .
+
+_:b3042  rdf:rest  _:b3044 ;
+        rdf:first  _:b3045 .
+
+_:b3044  rdf:rest  rdf:nil ;
+        rdf:first  _:b3046 .
+
+_:b3040  foot:continent  "-" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "@" .
+
+_:b2441  foaf:name          "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b3047 .
+
+_:b3047  rdf:rest  rdf:nil ;
+        rdf:first  "#" .
+
+_:b2441  foot:continent  "" ;
+        foot:leagues    "'" ;
+        foot:fifaCode   "POR" .
+
+_:b3048  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b3049 .
+
+_:b3050  rdf:rest  rdf:nil ;
+        rdf:first  _:b3051 .
+
+_:b3052  rdf:rest  _:b3050 ;
+        rdf:first  _:b3053 .
+
+_:b3054  rdf:rest  _:b3052 ;
+        rdf:first  _:b3055 .
+
+_:b3049  rdf:rest  _:b3054 ;
+        rdf:first  _:b3056 .
+
+_:b3048  foot:continent  "Asia" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b3057  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3058 .
+
+_:b3058  rdf:rest  _:b3059 ;
+        rdf:first  _:b3060 .
+
+_:b3059  rdf:rest  rdf:nil ;
+        rdf:first  _:b3061 .
+
+_:b3057  foot:teams  _:b3062 .
+
+_:b3063  rdf:rest  _:b3064 ;
+        rdf:first  _:b3065 .
+
+_:b3064  rdf:rest  _:b3066 ;
+        rdf:first  _:b3067 .
+
+_:b3062  rdf:rest  _:b3063 ;
+        rdf:first  _:b3068 .
+
+_:b3066  rdf:rest  rdf:nil ;
+        rdf:first  "lJ" .
+
+_:b3069  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3070 .
+
+_:b3070  rdf:rest  _:b3071 ;
+        rdf:first  _:b3072 .
+
+_:b3073  rdf:rest  _:b3074 ;
+        rdf:first  _:b708 .
+
+_:b3074  rdf:rest  rdf:nil ;
+        rdf:first  "JQ" .
+
+_:b3071  rdf:rest  _:b3073 ;
+        rdf:first  _:b3075 .
+
+_:b3069  foot:teams  _:b3076 .
+
+_:b3077  rdf:rest  _:b3078 ;
+        rdf:first  "Ct" .
+
+_:b3076  rdf:rest  _:b3079 ;
+        rdf:first  "Ug" .
+
+_:b3079  rdf:rest  _:b3077 ;
+        rdf:first  "mN" .
+
+_:b3078  rdf:rest  rdf:nil ;
+        rdf:first  "oG" .
+
+_:b3080  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3081 .
+
+_:b3081  rdf:rest  _:b3082 ;
+        rdf:first  "Pw" .
+
+_:b3083  rdf:rest  _:b3084 ;
+        rdf:first  "rF" .
+
+_:b3084  rdf:rest  rdf:nil ;
+        rdf:first  "Tk" .
+
+_:b3082  rdf:rest  _:b3083 ;
+        rdf:first  "BT" .
+
+_:b3080  foot:teams  _:b3085 .
+
+_:b3085  rdf:rest  _:b3086 ;
+        rdf:first  _:b3087 .
+
+_:b3086  rdf:rest  _:b3088 ;
+        rdf:first  _:b3089 .
+
+_:b3090  rdf:rest  rdf:nil ;
+        rdf:first  _:b3091 .
+
+_:b3088  rdf:rest  _:b3090 ;
+        rdf:first  _:b3092 .
+
+_:b3093  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b3094 .
+
+_:b3094  rdf:rest  _:b3095 ;
+        rdf:first  _:b3096 .
+
+_:b3097  rdf:rest  rdf:nil ;
+        rdf:first  _:b3098 .
+
+_:b3099  rdf:rest  _:b3097 ;
+        rdf:first  _:b3100 .
+
+_:b3095  rdf:rest  _:b3099 ;
+        rdf:first  _:b3101 .
+
+_:b3093  foot:fifaCode  "FRA" .
+
+_:b3102  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b3103 .
+
+_:b3104  rdf:rest  _:b3105 ;
+        rdf:first  _:b3106 .
+
+_:b3107  rdf:rest  rdf:nil ;
+        rdf:first  _:b3108 .
+
+_:b3103  rdf:rest  _:b3104 ;
+        rdf:first  _:b3109 .
+
+_:b3105  rdf:rest  _:b3107 ;
+        rdf:first  _:b3110 .
+
+_:b3102  foot:fifaCode  "POR" .
+
+_:b3111  foot:foundedYear  "2017"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3112 .
+
+_:b3112  rdf:rest  _:b3113 ;
+        rdf:first  _:b3114 .
+
+_:b3115  rdf:rest  _:b3116 ;
+        rdf:first  _:b3117 .
+
+_:b3113  rdf:rest  _:b3115 ;
+        rdf:first  _:b3118 .
+
+_:b3116  rdf:rest  rdf:nil ;
+        rdf:first  "gI" .
+
+_:b3111  foot:teams  _:b3119 .
+
+_:b3119  rdf:rest  _:b3120 ;
+        rdf:first  "rj" .
+
+_:b3120  rdf:rest  rdf:nil ;
+        rdf:first  "lc" .
+
+_:b3121  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3122 .
+
+_:b3122  rdf:rest  rdf:nil ;
+        rdf:first  "." .
+
+_:b3121  foot:teams  _:b3123 .
+
+_:b3124  foaf:name          "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b3125 .
+
+_:b3125  rdf:rest  rdf:nil ;
+        rdf:first  "`" .
+
+_:b3124  foot:fifaCode  "POR" .
+
+_:b3126  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b3127 .
+
+_:b3128  rdf:rest  rdf:nil ;
+        rdf:first  _:b3129 .
+
+_:b3127  rdf:rest  _:b3128 ;
+        rdf:first  _:b3130 .
+
+_:b3126  foot:continent  "'" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "ARG" .
+
+_:b3131  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3132 .
+
+_:b3132  rdf:rest  _:b3133 ;
+        rdf:first  _:b3134 .
+
+_:b3135  rdf:rest  _:b3136 ;
+        rdf:first  _:b3137 .
+
+_:b3136  rdf:rest  rdf:nil ;
+        rdf:first  _:b3138 .
+
+_:b3133  rdf:rest  _:b3135 ;
+        rdf:first  _:b3139 .
+
+_:b3131  foot:teams  rdf:nil .
+
+_:b3140  foaf:name          "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b3141 .
+
+_:b3141  rdf:rest  _:b3142 ;
+        rdf:first  _:b3143 .
+
+_:b3144  rdf:rest  rdf:nil ;
+        rdf:first  _:b3145 .
+
+_:b3142  rdf:rest  _:b3146 ;
+        rdf:first  _:b3147 .
+
+_:b3146  rdf:rest  _:b3144 ;
+        rdf:first  _:b3148 .
+
+_:b3140  foot:fifaCode  "ENG" .
+
+_:b3149  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "La Liga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3150 .
+
+_:b3151  rdf:rest  rdf:nil ;
+        rdf:first  _:b3152 .
+
+_:b3150  rdf:rest  _:b3151 ;
+        rdf:first  _:b3153 .
+
+_:b3149  foot:teams  _:b3154 .
+
+_:b3155  rdf:rest  _:b3156 ;
+        rdf:first  "xv" .
+
+_:b3156  rdf:rest  rdf:nil ;
+        rdf:first  "Id" .
+
+_:b3154  rdf:rest  _:b3157 ;
+        rdf:first  "Ug" .
+
+_:b3157  rdf:rest  _:b3155 ;
+        rdf:first  "PP" .
+
+_:b3158  foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Bundesliga" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3159 .
+
+_:b3160  rdf:rest  _:b3161 ;
+        rdf:first  _:b3162 .
+
+_:b3163  rdf:rest  rdf:nil ;
+        rdf:first  "lx" .
+
+_:b3161  rdf:rest  _:b3163 ;
+        rdf:first  _:b3164 .
+
+_:b3159  rdf:rest  _:b3160 ;
+        rdf:first  _:b3165 .
+
+_:b3158  foot:teams  _:b3166 .
+
+_:b3167  rdf:rest  rdf:nil ;
+        rdf:first  "jc" .
+
+_:b3166  rdf:rest  _:b3168 ;
+        rdf:first  _:b3169 .
+
+_:b3168  rdf:rest  _:b3167 ;
+        rdf:first  _:b3170 .
+
+_:b3171  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3172 .
+
+_:b3173  rdf:rest  _:b3174 ;
+        rdf:first  _:b3175 .
+
+_:b3172  rdf:rest  _:b3176 ;
+        rdf:first  _:b3177 .
+
+_:b3174  rdf:rest  rdf:nil ;
+        rdf:first  _:b3178 .
+
+_:b3176  rdf:rest  _:b3173 ;
+        rdf:first  _:b3179 .
+
+_:b3171  foot:teams  _:b3180 .
+
+_:b3180  rdf:rest  _:b3181 ;
+        rdf:first  _:b3182 .
+
+_:b3181  rdf:rest  _:b3183 ;
+        rdf:first  _:b3184 .
+
+_:b3185  rdf:rest  rdf:nil ;
+        rdf:first  "gB" .
+
+_:b3183  rdf:rest  _:b3185 ;
+        rdf:first  _:b3186 .
+
+_:b3187  foot:country     "Egypt" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b3188  foot:foundedYear  "2019"^^xsd:gYear ;
+        foaf:name         "Premier League" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3189 .
+
+_:b3190  rdf:rest  rdf:nil ;
+        rdf:first  _:b3191 .
+
+_:b3189  rdf:rest  _:b3190 ;
+        rdf:first  _:b3192 .
+
+_:b3188  foot:teams  _:b3193 .
+
+_:b3194  rdf:rest  rdf:nil ;
+        rdf:first  _:b3195 .
+
+_:b3196  rdf:rest  _:b3194 ;
+        rdf:first  _:b3197 .
+
+_:b3198  rdf:rest  _:b3196 ;
+        rdf:first  _:b3199 .
+
+_:b3193  rdf:rest  _:b3198 ;
+        rdf:first  _:b3200 .
+
+_:b3201  foaf:name          "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b3202 .
+
+_:b3203  rdf:rest  rdf:nil ;
+        rdf:first  _:b3204 .
+
+_:b3202  rdf:rest  _:b3205 ;
+        rdf:first  _:b3206 .
+
+_:b3205  rdf:rest  _:b3207 ;
+        rdf:first  _:b3208 .
+
+_:b3207  rdf:rest  _:b3203 ;
+        rdf:first  _:b3209 .
+
+_:b3201  foot:fifaCode  "EGY" .
+
+_:b3210  foaf:name          "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b3211 .
+
+_:b3212  rdf:rest  _:b3213 ;
+        rdf:first  _:b3214 .
+
+_:b3211  rdf:rest  _:b3212 ;
+        rdf:first  _:b3215 .
+
+_:b3216  rdf:rest  rdf:nil ;
+        rdf:first  _:b3217 .
+
+_:b3213  rdf:rest  _:b3216 ;
+        rdf:first  _:b3218 .
+
+_:b3210  foot:continent  "Europe" ;
+        foot:leagues    _:b3219 .
+
+_:b3220  rdf:rest  rdf:nil ;
+        rdf:first  _:b3221 .
+
+_:b3219  rdf:rest  _:b3222 ;
+        rdf:first  _:b3223 .
+
+_:b3222  rdf:rest  _:b3220 ;
+        rdf:first  _:b3224 .
+
+_:b3210  foot:fifaCode  "ARG" .
+
+_:b3225  foot:foundedYear  "2018"^^xsd:gYear ;
+        foaf:name         "Ligue 1" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b3226 .
+
+_:b3227  rdf:rest  _:b3228 ;
+        rdf:first  _:b3229 .
+
+_:b3226  rdf:rest  _:b3227 ;
+        rdf:first  _:b3230 .
+
+_:b3228  rdf:rest  rdf:nil ;
+        rdf:first  "Jx" .
+
+_:b3225  foot:teams  _:b3231 .
+
+_:b3232  rdf:rest  _:b3233 ;
+        rdf:first  "Qk" .
+
+_:b3234  rdf:rest  rdf:nil ;
+        rdf:first  "Xm" .
+
+_:b3231  rdf:rest  _:b3232 ;
+        rdf:first  "dr" .
+
+_:b3233  rdf:rest  _:b3234 ;
+        rdf:first  "pi" .

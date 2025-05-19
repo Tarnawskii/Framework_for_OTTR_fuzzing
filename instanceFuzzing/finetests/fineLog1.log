@@ -1,0 +1,108 @@
+2025-04-09 18:43:56,778 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"),"Nou","_:Spain").
+
+2025-04-09 18:43:56,778 - ERROR - Instance 7 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:56,887 - ERROR - Instance foot:Club(_:abc,"Barca","2000"^^xsd:gYear,"Camp Nou",_:france).
+
+2025-04-09 18:43:56,887 - ERROR - Instance 8 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:56,993 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("Camp Nou"),_:france).
+
+2025-04-09 18:43:56,994 - ERROR - Instance 9 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,102 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear,("Camp Nou",_:france)"_"%
+
+2025-04-09 18:43:57,102 - ERROR - Instance 10 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,208 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+
+2025-04-09 18:43:57,208 - ERROR - Instance 11 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,327 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear,,("Camp Nou",_:france)"_"%
+
+2025-04-09 18:43:57,327 - ERROR - Instance 12 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,445 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear("Camp Nou",_:france))"_"%
+
+2025-04-09 18:43:57,445 - ERROR - Instance 13 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,551 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+
+2025-04-09 18:43:57,551 - ERROR - Instance 14 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,665 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear(),"Nou","_:Spain").
+
+2025-04-09 18:43:57,665 - ERROR - Instance 15 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,773 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("a","b","c"),"Nou","_:Spain").
+
+2025-04-09 18:43:57,773 - ERROR - Instance 16 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,892 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:invalid,"Nou","_:Spain").
+
+2025-04-09 18:43:57,892 - ERROR - Instance 17 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:57,998 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear(("nested","deep")),"Nou","_:Spain").
+
+2025-04-09 18:43:57,999 - ERROR - Instance 18 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,108 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("Camp Nou",_:france),"Nou","_:Spain").
+
+2025-04-09 18:43:58,108 - ERROR - Instance 19 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,218 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra")).
+
+2025-04-09 18:43:58,219 - ERROR - Instance 20 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,334 - ERROR - Instance foot:Club(_:abc,"Barca",,"2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+
+2025-04-09 18:43:58,334 - ERROR - Instance 21 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,445 - ERROR - Instance foot:Club(?\`cdBk,"U!E","2018"^^xsd:gYear,"Camp Nou",_:france).
+
+2025-04-09 18:43:58,445 - ERROR - Instance 22 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,555 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou,_:france).
+
+2025-04-09 18:43:58,555 - ERROR - Instance 23 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,663 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou",_:france%).
+
+2025-04-09 18:43:58,663 - ERROR - Instance 24 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,770 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"),"Nou","_:Spain").
+
+2025-04-09 18:43:58,770 - ERROR - Instance 25 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,877 - ERROR - Instance foot:Club(_:abc,"Barca","2018"^^xsd:gYear,"Nou","_:Spain").
+
+2025-04-09 18:43:58,877 - ERROR - Instance 26 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:58,990 - ERROR - Instance foot:Club(_:def,"Juve","2018"^^xsd:gYear("extra"),"Allianz","_:Italy").
+
+2025-04-09 18:43:58,990 - ERROR - Instance 27 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:59,100 - ERROR - Instance foot:Club(.?"="Z,"Barcelona","2016"^^xsd:gYear("_"+mr,"_:Egypt")")"@
+
+2025-04-09 18:43:59,100 - ERROR - Instance 28 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:59,204 - ERROR - Instance foot:Club(}^"oE\//knme","",f`U^^xsd:gYear("Camp Nou","_:England")"="%
+
+2025-04-09 18:43:59,204 - ERROR - Instance 29 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:59,308 - ERROR - Instance foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear("Camp Nou",_:france)"_"%
+
+2025-04-09 18:43:59,308 - ERROR - Instance 30 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:59,409 - ERROR - Instance foot:Club(_:abc,"Barca","2000"^^xsd:gYearky,"Camp Nou",_:france).
+
+2025-04-09 18:43:59,409 - ERROR - Instance 31 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:59,515 - ERROR - Instance foot:Club(_:abc,"Barca","2000"^^xsd:gYear(("Hello")),"Camp Nou",_:france).
+
+2025-04-09 18:43:59,516 - ERROR - Instance 32 failed: Error: Unable to access jarfile lutra.jar
+
+2025-04-09 18:43:59,626 - ERROR - Instance 
+
+2025-04-09 18:43:59,627 - ERROR - Instance 33 failed: Error: Unable to access jarfile lutra.jar
+

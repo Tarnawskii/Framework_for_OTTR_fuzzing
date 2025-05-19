@@ -1,0 +1,15 @@
+--- Summary ---
+Input rows (ISLa generated): 10
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 2
+
+Aggregated error counts (by type):
+Parsing stOTTR: 1
+Syntax error: 1
+Aggregated error counts (by exact message, actual errors):
+'[ERROR] Parsing stOTTR': 1
+'[ERROR] Syntax error: extraneous input '"foot:League("' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 7 column 0': 1
+
+Non-critical messages (not starting with '[ERROR]'):
+'Location(s):': 1
+'- File instances2.stottr': 1

@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer [ ! xsd:string ?PRr , ? xsd:integer ?YCo  ] :: { foot:Club ( none, none ), foot:League ( none, none ) } .
+foot:Country [  ottr:IRI ?dVy = "g" ] :: { foot:Footballer ( none, ?qWN ), foot:Footballer ( none ), foot:League ( none ), foot:Club ( none, none, none ) } .
+foot:League [ ! ottr:IRI ?ahk ,  xsd:string ?KUc  ] :: { foot:Club ( none, none ), foot:Country ( none ) } .
+foot:League [ ! xsd:integer ?LAI , ? xsd:string ?lHD  ] :: { foot:Footballer ( none, none ), foot:League ( none ) } .
+foot:Footballer [ ! List"jB" ?weZ = 81 ] :: { foot:League ( 7 ), foot:Footballer ( ?iXv ) } .
+foot:Footballer [ ! Listnone ?zMt , ! xsd:integer ?nbu  ] :: { foot:Country ( none ), foot:League ( none ), foot:Footballer ( none ) } .
+foot:League [ ! ottr:IRI ?Efs , ? ottr:IRI ?TJO  ] :: { foot:League ( none ), foot:Country ( none ), foot:Club ( none ) } .
+foot:Club [ ! xsd:integer ?xGS = none, ! xsd:integer ?rmW  ] :: { foot:Country ( ?pFQ ) } .
+foot:Club [ ! ottr:IRI ?ljB , ? Listnone ?aHs = none ] :: { foot:Footballer ( none ), foot:Club ( none ), foot:Country ( none ) } .
+foot:Footballer [  xsd:integer ?MVW  ] :: { foot:League ( none, none ), foot:Club ( none ), foot:Footballer ( none ) } .

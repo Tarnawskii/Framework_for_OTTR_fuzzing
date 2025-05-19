@@ -1,0 +1,7 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer[ottr:IRI ?personIRI,xsd:string ?firstName,  xsd:string ?lastName,   xsd:date ?dateOfBirth,  !? xsd:string ?currentClub, !? List<ottr:IRI> ?clubHistory,  xsd:integer ?marketValue, xsd:string ?position, xsd:string ?country] :: { o-rdf:Type(?personIRI, foot:Footballer),  ottr:Triple(?personIRI, foaf:name, ?firstName),  ottr:Triple(?personIRI, foaf:familyName, ?lastName),  ottr:Triple(?personIRI, foaf:birthDate, ?dateOfBirth),  ottr:Triple(?personIRI, foot:currentClub, ?currentClub),  ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory),  ottr:Triple(?personIRI, foot:marketValue, ?marketValue),  ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:country, ?country)}.

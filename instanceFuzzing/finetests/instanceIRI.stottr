@@ -1,0 +1,34 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear("Camp Nou",_:france))"_"%
+foot:Club(_D,"2018"^^xsd:gYear("Camp Nou",_:france)"_"%)
+foot:Club(_D,"2018"^^xsd:gYear("Camp Nou",_:france))
+foot:Club(_D,U!E,"2018"^^xsd:gYeary,("Camp Nou",_:france)"_"%)
+foot:Club(_:abc,"Barca","2000"^^xsd:gYear,"Camp Nou",_:france).
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear,("Camp Nou"),_:france).
+foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear,("Camp Nou",_:france)"_"%
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear,,("Camp Nou",_:france)"_"%
+foot:Club(?\`cdBk,U!E,"2018"^^xsd:gYear("Camp Nou",_:france))"_"%
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear(),"Nou","_:Spain").
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("a","b","c"),"Nou","_:Spain").
+foot:Club(_:abc,"Barca","2018"^^xsd:invalid,"Nou","_:Spain").
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear(("nested","deep")),"Nou","_:Spain").
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("Camp Nou",_:france),"Nou","_:Spain").
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra")).
+foot:Club(_:abc,"Barca",,"2018"^^xsd:gYear("extra"),"Nou","_:Spain").
+foot:Club(?\`cdBk,"U!E","2018"^^xsd:gYear,"Camp Nou",_:france).
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou,_:france).
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear("extra"),"Nou",_:france%).
+foot:Club(_:abc,"Barca","2018"^^xsd:gYear,"Nou","_:Spain").
+foot:Club(_:def,"Juve","2018"^^xsd:gYear("extra"),"Allianz","_:Italy").
+foot:Club(_:Z,"Barcelona","2016"^^xsd:gYear("_"+mr,"_:Egypt")")"@
+foot:Club(}^"oE\//knme","",f`U^^xsd:gYear("Camp Nou","_:England")"="%
+foot:Club(_:abc,"Barca","2000"^^xsd:gYearky,"Camp Nou",_:france).
+foot:Club(_:abc,"Barca","2000"^^xsd:gYear(("Hello")),"Camp Nou",_:france).
+

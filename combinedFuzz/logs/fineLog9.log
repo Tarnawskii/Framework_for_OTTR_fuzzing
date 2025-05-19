@@ -1,0 +1,879 @@
+2025-05-11 23:16:20,848 - INFO - Template 1 processed in 3.55 seconds
+2025-05-11 23:16:20,848 - ERROR - Template 1: foot:Template1 [ ?ottr:IRI ?v ]  :: { ottr:Triple(?E, foot:Footballer, _:b2) , o-rdf:Type(?y, ?IQ) } .
+2025-05-11 23:16:20,849 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Template1[?ottr:IRI' at line 8 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 77[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 99
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbps_a8dd.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?E,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbps_a8dd.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?y,?IQ). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpbps_a8dd.stottr
+
+
+2025-05-11 23:16:20,851 - ERROR - Stdout: 
+2025-05-11 23:16:25,009 - INFO - Template 2 processed in 4.16 seconds
+2025-05-11 23:16:25,010 - ERROR - Template 2: foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+2025-05-11 23:16:25,010 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 102[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 105[ERROR] Syntax error: mismatched input ')' expecting '.' at line 35 column 107[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 40 column 104[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 89[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 92[ERROR] Syntax error: mismatched input ')' expecting '.' at line 59 column 94[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 90[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 93[ERROR] Syntax error: mismatched input ')' expecting '.' at line 78 column 95[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 98 column 104
+Location(s):
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank532 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Van der Waals"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1968-11-01"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, blank533 : LUB<rdfs:Resource>, (((()(id: 212), "Benfica"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 214))(id: 216))(id: 218))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank538 : LUB<rdfs:Resource>, "Cristiano"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Brontë"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1974-04-16"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 366), "Olympique Lyonnais"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 368))(id: 370))(id: 372))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank558 : LUB<rdfs:Resource>, "Amadou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Al-Hassan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1988-10-13"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 554), "AC Milan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 556))(id: 558))(id: 560))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank577 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Mbappe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1963-05-19"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 736), "Vålerenga"@no : rdfs:Literal)(id: 738))(id: 740))(id: 742))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank599 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Björk"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1978-12-09"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 1032), "Olympique de Marseille"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 1034))(id: 1036))(id: 1038))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+
+2025-05-11 23:16:25,010 - ERROR - Stdout: 
+2025-05-11 23:16:28,561 - INFO - Template 3 processed in 3.55 seconds
+2025-05-11 23:16:28,561 - ERROR - Template 3: ottr:IRI [ LUB<xsd:decimal> ?A , !LUB<owl:DatatypeProperty> ?l ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?e, foot:Footballer, foot:Template1) } .
+2025-05-11 23:16:28,561 - ERROR - Error: [ERROR] The instance is marked with the list expander zipMax, but no arguments are marked for list expansion.
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File C:\Users\adria\AppData\Local\Temp\tmp9ggwf8gf.stottr
+
+[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 8 column 38
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File C:\Users\adria\AppData\Local\Temp\tmp9ggwf8gf.stottr
+
+
+2025-05-11 23:16:28,561 - ERROR - Stdout: 
+2025-05-11 23:16:32,215 - INFO - Template 4 processed in 3.65 seconds
+2025-05-11 23:16:32,215 - ERROR - Template 4: foot:Footballer [ ?!xsd:integer ?R ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?C, _:b1) , ottr:Triple(?X, foot:Template1, none) } .
+2025-05-11 23:16:32,215 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:integer?R]@@invalid' at line 8 column 40[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 61[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 87[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 127
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp640x_r5e.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp640x_r5e.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?C,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp640x_r5e.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?X,foot:Template1,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp640x_r5e.stottr
+
+
+2025-05-11 23:16:32,216 - ERROR - Stdout: 
+2025-05-11 23:16:36,487 - INFO - Template 5 processed in 4.27 seconds
+2025-05-11 23:16:36,487 - ERROR - Template 5: foot:Template1 [ ??xsd:boolean ?g ] @@ zipMin | ottr:IRI() , ottr:IRI() :: { o-rdf:Type(?z, _:b2) , o-rdf:Type(?F, none) , o-rdf:Type(?c, _:b2) } .
+2025-05-11 23:16:36,487 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Template1[??xsd:boolean' at line 8 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 59[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 72[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 98[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 121[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 144
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa0ryi6jz.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa0ryi6jz.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa0ryi6jz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa0ryi6jz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?F,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa0ryi6jz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?c,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpa0ryi6jz.stottr
+
+
+2025-05-11 23:16:36,487 - ERROR - Stdout: 
+2025-05-11 23:16:40,507 - INFO - Template 6 processed in 4.02 seconds
+2025-05-11 23:16:40,508 - ERROR - Template 6: ottr:IRI [ ?!?owl:Class ?B ] @@ zipMax | ottr:IRI() @@ cross | ottr:IRI(none , ) :: { o-rdf:Type(?q, _:b1) , o-rdf:Type(?V, none) , o-rdf:Type(?m, _:b2) } .
+2025-05-11 23:16:40,508 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!?owl:Class' at line 8 column 17[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 52[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 79[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 81[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 107[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 130[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 153
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxojr859l.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxojr859l.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(none,). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxojr859l.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?q,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxojr859l.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?V,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxojr859l.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?m,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxojr859l.stottr
+
+
+2025-05-11 23:16:40,508 - ERROR - Stdout: 
+2025-05-11 23:16:44,567 - INFO - Template 7 processed in 4.06 seconds
+2025-05-11 23:16:44,567 - ERROR - Template 7: ottr:IRI [ ?!List<LUB<owl:ObjectProperty>> ?w = ?p ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?O, _:b1) , o-rdf:Type(?t, none) , o-rdf:Type(?s, _:b1) } .
+2025-05-11 23:16:44,567 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!List<LUB<owl:ObjectProperty>>?w=?p' at line 8 column 48[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 77[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 103[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 126[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 149
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps06r5yid.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps06r5yid.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?O,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps06r5yid.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?t,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps06r5yid.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?s,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps06r5yid.stottr
+
+
+2025-05-11 23:16:44,567 - ERROR - Stdout: 
+2025-05-11 23:16:48,278 - INFO - Template 8 processed in 3.71 seconds
+2025-05-11 23:16:48,278 - ERROR - Template 8: ottr:IRI [ rdfs:Resource ?T ] @@ cross | ottr:IRI() , ottr:IRI() :: { o-rdf:Type(?r, _:b1) , o-rdf:Type(?M, _:b2) } .
+2025-05-11 23:16:48,278 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[rdfs:Resource?T]@@cross|ottr:IRI(),ottr:IRI' at line 8 column 54[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 52[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 65[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 91[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 114
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp40grpj97.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp40grpj97.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp40grpj97.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?r,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp40grpj97.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp40grpj97.stottr
+
+
+2025-05-11 23:16:48,278 - ERROR - Stdout: 
+2025-05-11 23:16:52,148 - INFO - Template 9 processed in 3.87 seconds
+2025-05-11 23:16:52,148 - ERROR - Template 9: ottr:IRI [ !xsd:date ?Z ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?n, foot:Footballer, _:b2) , ottr:Triple(?d, foot:Template1, _:b2) , o-rdf:Type(?N, _:b1) } .
+2025-05-11 23:16:52,148 - ERROR - Error: [ERROR] The instance is marked with the list expander zipMax, but no arguments are marked for list expansion.
+Location(s):
+- Template with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File C:\Users\adria\AppData\Local\Temp\tmp8b3wz76d.stottr
+
+
+2025-05-11 23:16:52,148 - ERROR - Stdout: 
+2025-05-11 23:16:56,027 - INFO - Template 10 processed in 3.88 seconds
+2025-05-11 23:16:56,028 - ERROR - Template 10: ottr:IRI [ ?rdfs:Datatype ?G ] @@ zipMin | ottr:IRI() :: { ottr:Triple(?W, foot:Template1, _:b2) , o-rdf:Type(?P, _:b1) , o-rdf:Type(?K, _:b2) } .
+2025-05-11 23:16:56,028 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?rdfs:Datatype' at line 8 column 16[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 54[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 97[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 120[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 143
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7n_zrows.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7n_zrows.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?W,foot:Template1,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7n_zrows.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?P,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7n_zrows.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?K,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7n_zrows.stottr
+
+
+2025-05-11 23:16:56,028 - ERROR - Stdout: 
+2025-05-11 23:17:01,499 - INFO - Template 11 processed in 5.47 seconds
+2025-05-11 23:17:01,499 - ERROR - Template 11: foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+2025-05-11 23:17:01,499 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 102[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 105[ERROR] Syntax error: mismatched input ')' expecting '.' at line 35 column 107[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 40 column 104[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 89[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 92[ERROR] Syntax error: mismatched input ')' expecting '.' at line 59 column 94[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 90[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 93[ERROR] Syntax error: mismatched input ')' expecting '.' at line 78 column 95[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 98 column 104
+Location(s):
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank532 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Van der Waals"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1968-11-01"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, blank533 : LUB<rdfs:Resource>, (((()(id: 212), "Benfica"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 214))(id: 216))(id: 218))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank538 : LUB<rdfs:Resource>, "Cristiano"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Brontë"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1974-04-16"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 366), "Olympique Lyonnais"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 368))(id: 370))(id: 372))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank558 : LUB<rdfs:Resource>, "Amadou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Al-Hassan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1988-10-13"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 554), "AC Milan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 556))(id: 558))(id: 560))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank577 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Mbappe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1963-05-19"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 736), "Vålerenga"@no : rdfs:Literal)(id: 738))(id: 740))(id: 742))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank599 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Björk"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1978-12-09"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 1032), "Olympique de Marseille"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 1034))(id: 1036))(id: 1038))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+
+2025-05-11 23:17:01,499 - ERROR - Stdout: 
+2025-05-11 23:17:05,547 - INFO - Template 12 processed in 4.05 seconds
+2025-05-11 23:17:05,547 - ERROR - Template 12: ottr:IRI [ LUB<owl:AnnotationProperty> ?J ] @@ invalid | ottr:IRI() @@ cross | ottr:IRI() :: { ottr:Triple(?X, foot:Template1, ?j) } .
+2025-05-11 23:17:05,547 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[LUB<owl:AnnotationProperty>?J]@@invalid' at line 8 column 47[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 68[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 90[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 131
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9uz1oeg3.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9uz1oeg3.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9uz1oeg3.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?X,foot:Template1,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9uz1oeg3.stottr
+
+
+2025-05-11 23:17:05,547 - ERROR - Stdout: 
+2025-05-11 23:17:09,254 - INFO - Template 13 processed in 3.70 seconds
+2025-05-11 23:17:09,255 - ERROR - Template 13: foot:Footballer [ ??owl:NamedIndividual ?b , ?!LUB<xsd:integer> ?A ]  :: { o-rdf:Type(?q, _:b2) , o-rdf:Type(?v, _:b1) , o-rdf:Type(?f, _:b1) , o-rdf:Type(?s, none) } .
+2025-05-11 23:17:09,255 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[??owl:NamedIndividual' at line 8 column 23[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 96[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 119[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 142[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 165
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptpdc_en5.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?q,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptpdc_en5.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?v,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptpdc_en5.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?f,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptpdc_en5.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?s,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptpdc_en5.stottr
+
+
+2025-05-11 23:17:09,255 - ERROR - Stdout: 
+2025-05-11 23:17:13,211 - INFO - Template 14 processed in 3.95 seconds
+2025-05-11 23:17:13,211 - ERROR - Template 14: foot:Template1 [ !owl:Class ?H , ?!?xsd:boolean ?x ] @@ zipMin | foot:Template1(none) :: { o-rdf:Type(?Wi, -1+) } .
+2025-05-11 23:17:13,212 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 109[ERROR] Syntax error: no viable alternative at input 'foot:Template1[!owl:Class?H,?!?xsd:boolean' at line 8 column 39[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 86[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 8 column 112
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpowqn6qio.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Template1(none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpowqn6qio.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Wi,-1}<missing ')'. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpowqn6qio.stottr
+
+
+2025-05-11 23:17:13,212 - ERROR - Stdout: 
+2025-05-11 23:17:16,818 - INFO - Template 15 processed in 3.60 seconds
+2025-05-11 23:17:16,818 - ERROR - Template 15: foot:Template1 [ ?xsd:string ?K = none , !ottr:IRI ?y ] @@ ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?Q, _:b2) } .
+2025-05-11 23:17:16,818 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Template1[?xsd:string' at line 8 column 21[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 70[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 92[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 118
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz2rj9u7g.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz2rj9u7g.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz2rj9u7g.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Q,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpz2rj9u7g.stottr
+
+
+2025-05-11 23:17:16,818 - ERROR - Stdout: 
+2025-05-11 23:17:20,411 - INFO - Template 16 processed in 3.59 seconds
+2025-05-11 23:17:20,412 - ERROR - Template 16: foot:Template1 [ List<NEList<LUB<rdfs:Resource>>> ?C = ?mkY ] @@ ottr:IRI(++ ?R , ++ (false)) , zipMin | foot:Template1(++ "0759-62-36"^^xsd:date , ++ foot:Template1 , ++ _:b2 , ) :: { o-rdf:Type(?nL, 4+.8+) } .
+2025-05-11 23:17:20,412 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 205[ERROR] Syntax error: no viable alternative at input 'foot:Template1[List<NEList<LUB<rdfs:Resource>>>?C=?mkY' at line 8 column 55[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 94[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 178[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 180[ERROR] Syntax error: extraneous input '+.8' expecting {',', ')'} at line 8 column 202
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb2bnb_5b.stottr
+
+[INFO] Ignoring instance: ottr:IRI(++?R,++(false)). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb2bnb_5b.stottr
+
+[INFO] Ignoring instance: zipMin|foot:Template1(++"0759-. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb2bnb_5b.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?nL,4+.8}<missing '. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb2bnb_5b.stottr
+
+
+2025-05-11 23:17:20,412 - ERROR - Stdout: 
+2025-05-11 23:17:24,117 - INFO - Template 17 processed in 3.70 seconds
+2025-05-11 23:17:24,118 - ERROR - Template 17: foot:Footballer [ ?!?owl:DatatypeProperty ?E , ?!xsd:date ?U ] @@ ottr:IRI() @@ cross | ottr:IRI() :: { o-rdf:Type(?r, "x") , o-rdf:Type(?z, _:b1) , o-rdf:Type(?t, none) } .
+2025-05-11 23:17:24,118 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!?owl:DatatypeProperty' at line 8 column 24[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 77[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 99[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 124[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 147[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 170
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9bhei974.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9bhei974.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9bhei974.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?r,"x"). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9bhei974.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9bhei974.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?t,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9bhei974.stottr
+
+
+2025-05-11 23:17:24,118 - ERROR - Stdout: 
+2025-05-11 23:17:27,841 - INFO - Template 18 processed in 3.72 seconds
+2025-05-11 23:17:27,841 - ERROR - Template 18: foot:Footballer [ ?owl:ObjectProperty ?I = _:b2 ] @@ ottr:IRI() :: { o-rdf:Type(?o, _:b2) , o-rdf:Type(?G, _:b2) } .
+2025-05-11 23:17:27,841 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?owl:ObjectProperty' at line 8 column 22[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 64[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 90[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6qp37424.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6qp37424.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?o,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6qp37424.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?G,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6qp37424.stottr
+
+
+2025-05-11 23:17:27,841 - ERROR - Stdout: 
+2025-05-11 23:17:31,616 - INFO - Template 19 processed in 3.77 seconds
+2025-05-11 23:17:31,616 - ERROR - Template 19: ottr:IRI [ ?!t-pnd:Punned-Class-ObjectProperty ?F ] @@ invalid | ottr:IRI() , cross | ottr:IRI() :: { ottr:Triple(?h, foot:Template1, _:b2) } .
+2025-05-11 23:17:31,616 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!t-pnd:Punned-Class-ObjectProperty?F]@@invalid' at line 8 column 55[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 76[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 97[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 140
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiit53uej.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiit53uej.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiit53uej.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?h,foot:Template1,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiit53uej.stottr
+
+
+2025-05-11 23:17:31,616 - ERROR - Stdout: 
+2025-05-11 23:17:35,455 - INFO - Template 20 processed in 3.84 seconds
+2025-05-11 23:17:35,455 - ERROR - Template 20: ottr:IRI [ ?!LUB<rdfs:Datatype> ?d , ?!?LUB<ottr:Bot> ?Z ] @@ invalid | ottr:IRI() , ottr:IRI() :: { ottr:Triple(?D, foot:Footballer, "9<") } .
+2025-05-11 23:17:35,455 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!LUB<rdfs:Datatype>?d,?!?LUB<ottr:Bot>' at line 8 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 83[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 96[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 140
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxwzsuo4g.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxwzsuo4g.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxwzsuo4g.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?D,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxwzsuo4g.stottr
+
+
+2025-05-11 23:17:35,455 - ERROR - Stdout: 
+2025-05-11 23:17:40,388 - INFO - Template 21 processed in 4.93 seconds
+2025-05-11 23:17:40,388 - ERROR - Template 21: foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+2025-05-11 23:17:40,388 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 102[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 105[ERROR] Syntax error: mismatched input ')' expecting '.' at line 35 column 107[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 40 column 104[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 89[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 92[ERROR] Syntax error: mismatched input ')' expecting '.' at line 59 column 94[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 90[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 93[ERROR] Syntax error: mismatched input ')' expecting '.' at line 78 column 95[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 98 column 104
+Location(s):
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank532 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Van der Waals"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1968-11-01"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, blank533 : LUB<rdfs:Resource>, (((()(id: 212), "Benfica"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 214))(id: 216))(id: 218))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank538 : LUB<rdfs:Resource>, "Cristiano"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Brontë"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1974-04-16"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 366), "Olympique Lyonnais"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 368))(id: 370))(id: 372))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank558 : LUB<rdfs:Resource>, "Amadou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Al-Hassan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1988-10-13"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 554), "AC Milan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 556))(id: 558))(id: 560))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank577 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Mbappe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1963-05-19"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 736), "Vålerenga"@no : rdfs:Literal)(id: 738))(id: 740))(id: 742))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank599 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Björk"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1978-12-09"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 1032), "Olympique de Marseille"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 1034))(id: 1036))(id: 1038))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+
+2025-05-11 23:17:40,388 - ERROR - Stdout: 
+2025-05-11 23:17:43,879 - INFO - Template 22 processed in 3.49 seconds
+2025-05-11 23:17:43,879 - ERROR - Template 22: foot:Template1 [ ?!?List<LUB<owl:AnnotationProperty>> ?UE = false ]  :: { ottr:Triple(?WLT, foot:Footballer, ?B) } .
+2025-05-11 23:17:43,879 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<LUB<' at line 8 column 24[ERROR] Syntax error: no viable alternative at input 'foot:Template1[?!?Listowl:AnnotationProperty' at line 8 column 29[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwubp2v7r.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?WLT,foot:Football. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwubp2v7r.stottr
+
+
+2025-05-11 23:17:43,880 - ERROR - Stdout: 
+2025-05-11 23:17:47,485 - INFO - Template 23 processed in 3.60 seconds
+2025-05-11 23:17:47,485 - ERROR - Template 23: ottr:IRI [ ?!LUB<ottr:IRI> ?n , ??rdfs:Resource ?Z , ?owl:ObjectProperty ?a ] @@ cross | foot:Footballer() :: { o-rdf:Type(?h, -9+) , o-rdf:Type(?g, none) , o-rdf:Type(?D, _:b1) , o-rdf:Type(?k, _:b2) } .
+2025-05-11 23:17:47,485 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 129[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!LUB<ottr:IRI>?n,??rdfs:Resource' at line 8 column 38[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 107[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 8 column 144[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 155[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 178[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 201
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwahtawi9.stottr
+
+[INFO] Ignoring instance: cross|foot:Footballer(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwahtawi9.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?h,-9,o-rdf:Type(?g. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwahtawi9.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?D,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwahtawi9.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?k,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwahtawi9.stottr
+
+
+2025-05-11 23:17:47,485 - ERROR - Stdout: 
+2025-05-11 23:17:51,073 - INFO - Template 24 processed in 3.59 seconds
+2025-05-11 23:17:51,073 - ERROR - Template 24: ottr:IRI [ !LUB<ottr:Bot> ?e , LUB<rdfs:Datatype> ?P ] @@ ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?z, _:b1) } .
+2025-05-11 23:17:51,074 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!LUB<ottr:Bot>?e,LUB<rdfs:Datatype>?P]@@ottr:IRI(),zipMax' at line 8 column 71[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 69[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 91[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 117
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5tzzti30.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5tzzti30.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5tzzti30.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5tzzti30.stottr
+
+
+2025-05-11 23:17:51,074 - ERROR - Stdout: 
+2025-05-11 23:17:54,680 - INFO - Template 25 processed in 3.60 seconds
+2025-05-11 23:17:54,680 - ERROR - Template 25: foot:Template1 [ !LUB<xsd:integer> ?m ] @@ zipMin | ottr:IRI() @@ invalid | ottr:IRI() :: { o-rdf:Type(?S, foot:Footballer) , ottr:Triple(?V, foot:Footballer, _:b1) } .
+2025-05-11 23:17:54,680 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Template1[!LUB<xsd:integer>?m]@@zipMin|ottr:IRI()@@invalid' at line 8 column 66[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 63[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 87[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 124[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 165
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpov5ewlvy.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpov5ewlvy.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpov5ewlvy.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?S,foot:Footballer). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpov5ewlvy.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?V,foot:Footballer. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpov5ewlvy.stottr
+
+
+2025-05-11 23:17:54,680 - ERROR - Stdout: 
+2025-05-11 23:17:58,829 - INFO - Template 26 processed in 4.15 seconds
+2025-05-11 23:17:58,830 - ERROR - Template 26: foot:Footballer [ ?!?owl:DatatypeProperty ?l , ?!?t-pnd:Punned-Class-ObjectProperty ?s , !xsd:decimal ?r ] @@ cross | ottr:IRI() @@ zipMax | ottr:IRI() :: { ottr:Triple(?i, foot:Template1, _:b2) } .
+2025-05-11 23:17:58,830 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!?owl:DatatypeProperty' at line 8 column 24[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 129[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 152[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 195
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq4tmoxg8.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq4tmoxg8.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq4tmoxg8.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?i,foot:Template1,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq4tmoxg8.stottr
+
+
+2025-05-11 23:17:58,830 - ERROR - Stdout: 
+2025-05-11 23:18:02,527 - INFO - Template 27 processed in 3.69 seconds
+2025-05-11 23:18:02,527 - ERROR - Template 27: ottr:IRI [ !LUB<xsd:boolean> ?I , ?!?LUB<xsd:string> ?A ] @@ invalid | ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?b, _:b2) , o-rdf:Type(?J, _:b2) } .
+2025-05-11 23:18:02,527 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!LUB<xsd:boolean>?I,?!?LUB<xsd:string>' at line 8 column 40[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 82[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 104[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 130[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 153
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0zulmkbc.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0zulmkbc.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0zulmkbc.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?b,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0zulmkbc.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?J,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0zulmkbc.stottr
+
+
+2025-05-11 23:18:02,527 - ERROR - Stdout: 
+2025-05-11 23:18:06,031 - INFO - Template 28 processed in 3.50 seconds
+2025-05-11 23:18:06,031 - ERROR - Template 28: foot:Footballer [ ?LUB<xsd:date> ?C ] @@ zipMin | ottr:IRI() @@ foot:Template1() :: { o-rdf:Type(?M, 2+.4+) } .
+2025-05-11 23:18:06,031 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 105[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?LUB<xsd:date>' at line 8 column 22[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 61[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 81[ERROR] Syntax error: extraneous input '+.4' expecting {',', ')'} at line 8 column 102
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkrxu956q.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkrxu956q.stottr
+
+[INFO] Ignoring instance: foot:Template1(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkrxu956q.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,2+.4}<missing '). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkrxu956q.stottr
+
+
+2025-05-11 23:18:06,031 - ERROR - Stdout: 
+2025-05-11 23:18:09,634 - INFO - Template 29 processed in 3.60 seconds
+2025-05-11 23:18:09,635 - ERROR - Template 29: foot:Template1 [ ?!?LUB<owl:Class> ?j ] @@ foot:Footballer(++ "3657-08-17"^^xsd:date) :: { ottr:Triple(?GH, foot:Template1, "o") } .
+2025-05-11 23:18:09,635 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Template1[?!?LUB<owl:Class>' at line 8 column 23[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 86[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 129
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb8d8b0tc.stottr
+
+[INFO] Ignoring instance: foot:Footballer(++"3657-08-17". This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb8d8b0tc.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?GH,foot:Template1. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb8d8b0tc.stottr
+
+
+2025-05-11 23:18:09,635 - ERROR - Stdout: 
+2025-05-11 23:18:13,135 - INFO - Template 30 processed in 3.50 seconds
+2025-05-11 23:18:13,135 - ERROR - Template 30: ottr:IRI [ ?!LUB<owl:NamedIndividual> ?N , xsd:string ?p , ??LUB<xsd:boolean> ?v ] @@ invalid | ottr:IRI() @@ cross | ottr:IRI() :: { o-rdf:Type(?u, none) } .
+2025-05-11 23:18:13,135 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!LUB<owl:NamedIndividual>?N,xsd:string?p,??LUB<xsd:boolean>' at line 8 column 64[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 107[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 129[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 155
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphsbp_5ed.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphsbp_5ed.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphsbp_5ed.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?u,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphsbp_5ed.stottr
+
+
+2025-05-11 23:18:13,135 - ERROR - Stdout: 
+2025-05-11 23:18:17,426 - INFO - Template 31 processed in 4.29 seconds
+2025-05-11 23:18:17,427 - ERROR - Template 31: foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+2025-05-11 23:18:17,427 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 102[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 35 column 105[ERROR] Syntax error: mismatched input ')' expecting '.' at line 35 column 107[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 40 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 40 column 104[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 89[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 59 column 92[ERROR] Syntax error: mismatched input ')' expecting '.' at line 59 column 94[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 90[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 78 column 93[ERROR] Syntax error: mismatched input ')' expecting '.' at line 78 column 95[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 99[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 98 column 102[ERROR] Syntax error: mismatched input ')' expecting '.' at line 98 column 104
+Location(s):
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank532 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Van der Waals"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1968-11-01"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, blank533 : LUB<rdfs:Resource>, (((()(id: 212), "Benfica"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 214))(id: 216))(id: 218))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank538 : LUB<rdfs:Resource>, "Cristiano"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Brontë"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1974-04-16"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 366), "Olympique Lyonnais"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 368))(id: 370))(id: 372))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank558 : LUB<rdfs:Resource>, "Amadou"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Al-Hassan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1988-10-13"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 554), "AC Milan"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 556))(id: 558))(id: 560))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank577 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Mbappe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1963-05-19"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 736), "Vålerenga"@no : rdfs:Literal)(id: 738))(id: 740))(id: 742))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank599 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Björk"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1978-12-09"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, (((()(id: 1032), "Olympique de Marseille"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 1034))(id: 1036))(id: 1038))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File ./data/instances/instances10.stottr
+
+
+2025-05-11 23:18:17,427 - ERROR - Stdout: 
+2025-05-11 23:18:21,053 - INFO - Template 32 processed in 3.62 seconds
+2025-05-11 23:18:21,053 - ERROR - Template 32: foot:Footballer [ LUB<owl:AnnotationProperty> ?k , ?rdfs:Resource ?t ]  :: { ottr:Triple(?U, foot:Template1, _:b1) , o-rdf:Type(?i, _:b2) } .
+2025-05-11 23:18:21,053 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[LUB<owl:AnnotationProperty>?k,?rdfs:Resource' at line 8 column 56[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 115[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 138
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5bq3mpyl.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?U,foot:Template1,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5bq3mpyl.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?i,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5bq3mpyl.stottr
+
+
+2025-05-11 23:18:21,054 - ERROR - Stdout: 
+2025-05-11 23:18:24,663 - INFO - Template 33 processed in 3.61 seconds
+2025-05-11 23:18:24,664 - ERROR - Template 33: ottr:IRI [ ?!?NEList<LUB<owl:Class>> ?g = ?I ] @@ zipMax | ottr:IRI(++ "5427-38-61"^^xsd:date) :: { o-rdf:Type(?q, ?pl) , o-rdf:Type(?v, none) } .
+2025-05-11 23:18:24,664 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<LUB<' at line 8 column 20[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!?NEListowl:Class' at line 8 column 25[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 95[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 120[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 143
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpw4h_gcuz.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(++"5427-38-61". This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpw4h_gcuz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?q,?pl). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpw4h_gcuz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?v,none). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpw4h_gcuz.stottr
+
+
+2025-05-11 23:18:24,664 - ERROR - Stdout: 
+2025-05-11 23:18:28,169 - INFO - Template 34 processed in 3.50 seconds
+2025-05-11 23:18:28,170 - ERROR - Template 34: ottr:IRI [ !xsd:integer ?J ] @@ zipMin | ottr:IRI() @@ invalid | ottr:IRI() :: { o-rdf:Type(?C, _:b2) , o-rdf:Type(?K, _:b2) , o-rdf:Type(?D, _:b1) } .
+2025-05-11 23:18:28,170 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[!xsd:integer?J]@@zipMin|ottr:IRI()@@invalid' at line 8 column 55[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 52[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 76[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 102[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 125[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 148
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppuu2o23c.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppuu2o23c.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppuu2o23c.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?C,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppuu2o23c.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?K,_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppuu2o23c.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?D,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppuu2o23c.stottr
+
+
+2025-05-11 23:18:28,170 - ERROR - Stdout: 
+2025-05-11 23:18:33,105 - INFO - Template 35 processed in 4.93 seconds
+2025-05-11 23:18:33,105 - ERROR - Template 35: ottr:IRI [ ?!xsd:string ?A ]  :: { ottr:Triple(?Q, foot:Footballer, _:b2) , ottr:Triple(?f, foot:Template1, _:b2) , o-rdf:Type(?P, _:b2) } .
+2025-05-11 23:18:33,105 - ERROR - Error: [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/IRI. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[FATAL] Illegal char <:> at index 4: http://example.org/football#Footballer
+
+2025-05-11 23:18:33,105 - ERROR - Stdout: 
+2025-05-11 23:18:36,621 - INFO - Template 36 processed in 3.51 seconds
+2025-05-11 23:18:36,621 - ERROR - Template 36: foot:Template1 [ ??LUB<xsd:decimal> ?c ] @@ cross | foot:Template1(_:b2) , foot:Template1(++ _:b1 , ) :: { o-rdf:Type(?z, -9+.0+) } .
+2025-05-11 23:18:36,621 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 127[ERROR] Syntax error: no viable alternative at input 'foot:Template1[??LUB<xsd:decimal>' at line 8 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 73[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 100[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 102[ERROR] Syntax error: extraneous input '+.0' expecting {',', ')'} at line 8 column 124
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp224t5b_p.stottr
+
+[INFO] Ignoring instance: cross|foot:Template1(_:b2). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp224t5b_p.stottr
+
+[INFO] Ignoring instance: foot:Template1(++_:b1,). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp224t5b_p.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?z,-9+.0}<missing '. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp224t5b_p.stottr
+
+
+2025-05-11 23:18:36,621 - ERROR - Stdout: 
+2025-05-11 23:18:40,217 - INFO - Template 37 processed in 3.59 seconds
+2025-05-11 23:18:40,218 - ERROR - Template 37: ottr:IRI [ LUB<ottr:IRI> ?j , ?!?LUB<owl:DatatypeProperty> ?L ] @@ ottr:IRI() :: { o-rdf:Type(?r, foot:Footballer) } .
+2025-05-11 23:18:40,218 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[LUB<ottr:IRI>?j,?!?LUB<owl:DatatypeProperty>' at line 8 column 36[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 78[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 115
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmgwda2sj.stottr
+
+[INFO] Ignoring instance: ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmgwda2sj.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?r,foot:Footballer). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmgwda2sj.stottr
+
+
+2025-05-11 23:18:40,218 - ERROR - Stdout: 
+2025-05-11 23:18:43,724 - INFO - Template 38 processed in 3.50 seconds
+2025-05-11 23:18:43,724 - ERROR - Template 38: foot:Template1 [ ?!?xsd:boolean ?M , ?!?xsd:date ?x ] @@ zipMax | ottr:IRI() , zipMin | ottr:IRI() :: { o-rdf:Type(?Rb, true) } .
+2025-05-11 23:18:43,724 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Template1[?!?xsd:boolean' at line 8 column 23[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 77[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 99[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 126
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprceo1wz7.stottr
+
+[INFO] Ignoring instance: zipMax|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprceo1wz7.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprceo1wz7.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?Rb,true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprceo1wz7.stottr
+
+
+2025-05-11 23:18:43,724 - ERROR - Stdout: 
+2025-05-11 23:18:47,340 - INFO - Template 39 processed in 3.61 seconds
+2025-05-11 23:18:47,340 - ERROR - Template 39: ottr:IRI [ ?!?t-pnd:Punned-Class-ObjectProperty ?Z , ottr:Bot ?V ] @@ cross | ottr:IRI() :: { o-rdf:Type(?e, "`t") , o-rdf:Type(?G, _:b1) , o-rdf:Type(?o, _:b1) } .
+2025-05-11 23:18:47,340 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:IRI[?!?t-pnd:Punned-Class-ObjectProperty' at line 8 column 19[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 89[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 115[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 138[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 161
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfv59cr45.stottr
+
+[INFO] Ignoring instance: cross|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfv59cr45.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?e,"`t"). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfv59cr45.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?G,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfv59cr45.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?o,_:b1). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfv59cr45.stottr
+
+
+2025-05-11 23:18:47,340 - ERROR - Stdout: 

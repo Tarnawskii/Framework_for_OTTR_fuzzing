@@ -1,0 +1,95 @@
+2025-05-11 23:08:17,890 - INFO - Template 1 processed in 3.37 seconds
+2025-05-11 23:08:17,891 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 105[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?LUB<xsd:date>' at line 8 column 22[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 61[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 81[ERROR] Syntax error: extraneous input '+.4' expecting {',', ')'} at line 8 column 102
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+[INFO] Ignoring instance: foot:Template1(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,2+.4}<missing '). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+
+2025-05-11 23:08:17,892 - ERROR - Output: 
+2025-05-11 23:08:17,892 - ERROR - Template 1: foot:Footballer [ ?LUB<xsd:date> ?C ] @@ zipMin | ottr:IRI() @@ foot:Template1() :: { o-rdf:Type(?M, 2+.4+) } .
+
+2025-05-11 23:08:17,892 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 105[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?LUB<xsd:date>' at line 8 column 22[ERROR] Syntax error: mismatched input '@@' expecting '.' at line 8 column 61[ERROR] Syntax error: mismatched input '::' expecting '.' at line 8 column 81[ERROR] Syntax error: extraneous input '+.4' expecting {',', ')'} at line 8 column 102
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+[INFO] Ignoring instance: zipMin|ottr:IRI(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+[INFO] Ignoring instance: foot:Template1(). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?M,2+.4}<missing '). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgf85n68o.stottr
+
+
+2025-05-11 23:08:17,892 - ERROR - Output: 
+2025-05-11 23:08:21,181 - INFO - Template 2 processed in 3.28 seconds
+2025-05-11 23:08:21,181 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 9 in instance: http://example.org/football#Footballer(blank505 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Defender"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible blank node argument. Blank node blank505 : LUB<rdfs:Resource> given to non-blank parameter ?!?A : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp231d_i46.stottr
+
+
+2025-05-11 23:08:21,182 - ERROR - Output: 
+2025-05-11 23:08:21,182 - ERROR - Template 2: foot:Footballer [ ?!xsd:string ?A ]  :: { ottr:Triple(?Q, foot:Footballer, _:b2) , ottr:Triple(?f, foot:Template1, _:b2) , o-rdf:Type(?P, _:b2) } .
+
+2025-05-11 23:08:21,182 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?A : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 9 in instance: http://example.org/football#Footballer(blank505 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Defender"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible blank node argument. Blank node blank505 : LUB<rdfs:Resource> given to non-blank parameter ?!?A : xsd:string
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp231d_i46.stottr
+
+
+2025-05-11 23:08:21,182 - ERROR - Output: 
+2025-05-11 23:08:24,557 - INFO - Template 3 processed in 3.37 seconds
+2025-05-11 23:08:27,939 - INFO - Template 4 processed in 3.38 seconds
+2025-05-11 23:08:27,940 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?K : rdfs:Datatype (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?K : rdfs:Datatype (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 9 in instance: http://example.org/football#Footballer(blank506 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Defender"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible blank node argument. Blank node blank506 : LUB<rdfs:Resource> given to non-blank parameter !?K : rdfs:Datatype
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpfiytoggb.stottr
+
+
+2025-05-11 23:08:27,940 - ERROR - Output: 
+2025-05-11 23:08:27,940 - ERROR - Template 4: foot:Footballer [ !rdfs:Datatype ?K ]  :: { o-rdf:Type(?r, _:b2) , ottr:Triple(?Z, foot:Footballer, _:b1) , o-rdf:Type(?q, _:b2) } .
+2025-05-11 23:08:27,940 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?K : rdfs:Datatype (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?K : rdfs:Datatype (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 9 in instance: http://example.org/football#Footballer(blank506 : LUB<rdfs:Resource>, "Lionel"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Messi"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "1987-06-24"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Paris Saint-Germain"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14), "80000000.00"^^http://www.w3.org/2001/XMLSchema#decimal : xsd:decimal, "Defender"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible blank node argument. Blank node blank506 : LUB<rdfs:Resource> given to non-blank parameter !?K : rdfs:Datatype
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpfiytoggb.stottr
+
+
+2025-05-11 23:08:27,940 - ERROR - Output: 

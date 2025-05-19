@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Club("kR\//dnMu","Manchester United","2019"^^xsd:gYear,"Old Trafford",z(N)  
+foot:League(_:Xie,"",""^^xsd:gYear,((l),((B),(j)),((A))),((b),(L))) "#"
+foot:Country("YJSmPf",a,"North America"@en,"ARG",(p),("Wrong","Wrong",(This is invalid))) .
+foot:Footballer(*"~"/-qFZU
+foot:League(_:xsV,"Serie A","+cO"^^xsd:gYear,(("H[gy,(o)",(t))),((D))) ?"="
+foot:Club({"!"vGrh,"",00^^xsd:gYear,T]K,"Portugal") "?""."<&"^" ^
+foot:Country(++"86W520CI""@""{"":"
+foot:Country(E,"Argentina","","",(C,a,Q),(w,z,Q,(This is invalid))) !"]"
+foot:Footballer(#\" ""dczK,""'"","47151E971314HL4L2tDE","Messi","1951-5-12"^^xsd:date,%>FWJaC,("uUDB"),100000000,"Striker"@us,""-""+";"_""}"9khuDv") ,@}";"
+foot:Footballer(:"*"eIok,"Amadou",""""$"")"=)"[".~qyZ",""""^^xsd:date,ZN7YJ,("""%"cQ7N"",("j"&""|"hHL")),a a a a a a a a a a a a a a a a a a a,2l_|3yR,"Egypt") "/""("'

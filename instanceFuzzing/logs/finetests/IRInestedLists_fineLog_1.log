@@ -1,0 +1,906 @@
+2025-05-14 15:39:06,711 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:39:06,712 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 10 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpzxrsgcdd.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpzxrsgcdd.stottr
+
+
+2025-05-14 15:39:11,651 - ERROR - Instance 
+
+2025-05-14 15:39:11,651 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptzf96abx.stottr
+
+
+2025-05-14 15:39:16,075 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalidchar)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:39:16,075 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptwahi70u.stottr
+
+
+2025-05-14 15:39:20,145 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:f),10,_:Forward,"Argentina") .
+
+2025-05-14 15:39:20,145 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 9 column 104
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpms4zlelo.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14), "10"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer, blank503 : LUB<rdfs:Resource>, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpms4zlelo.stottr
+
+
+2025-05-14 15:39:24,103 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:f,"club")),10,_:Forward,"Argentina") .
+
+2025-05-14 15:39:24,103 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9h5lozyd.stottr
+
+
+2025-05-14 15:39:28,540 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(((((_:f))))),10,_:Forward,"Argentina") .
+
+2025-05-14 15:39:28,540 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp3si6b62b.stottr
+
+
+2025-05-14 15:39:32,151 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(()),10,_:Forward,"Argentina") .
+
+2025-05-14 15:39:32,151 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgo3yu74g.stottr
+
+
+2025-05-14 15:41:05,253 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:41:05,255 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 10 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpy5j_29fv.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpy5j_29fv.stottr
+
+
+2025-05-14 15:41:08,991 - ERROR - Instance 
+
+2025-05-14 15:41:08,991 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9iaps0s8.stottr
+
+
+2025-05-14 15:41:12,719 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 15:41:12,720 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_3ha5ris.stottr
+
+
+2025-05-14 15:41:16,221 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:41:16,221 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptmhpccdg.stottr
+
+
+2025-05-14 15:42:37,217 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:42:37,218 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 10 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpu4ff22ar.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpu4ff22ar.stottr
+
+
+2025-05-14 15:42:40,619 - ERROR - Instance 
+
+2025-05-14 15:42:40,619 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpro1d4dl6.stottr
+
+
+2025-05-14 15:42:44,340 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 15:42:44,340 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjlld_e01.stottr
+
+
+2025-05-14 15:42:48,131 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:42:48,132 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgnn_4m55.stottr
+
+
+2025-05-14 15:42:51,567 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(17-05-1999),10,_:Forward,"Argentina") .
+
+2025-05-14 15:42:51,567 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: extraneous input '17-05-1999' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 72
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpejimbep4.stottr
+
+
+2025-05-14 15:44:51,010 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:44:51,011 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 9 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpnpd2r72h.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpnpd2r72h.stottr
+
+
+2025-05-14 15:44:54,520 - ERROR - Instance 
+
+2025-05-14 15:44:54,520 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpm7ed13qr.stottr
+
+
+2025-05-14 15:44:58,116 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 15:44:58,116 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5xzv53rz.stottr
+
+
+2025-05-14 15:45:01,893 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:45:01,893 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpf0jtc3l5.stottr
+
+
+2025-05-14 15:45:05,479 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(17-05-1999),10,_:Forward,"Argentina") .
+
+2025-05-14 15:45:05,479 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: extraneous input '17-05-1999' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 72
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9521_6pg.stottr
+
+
+2025-05-14 15:45:09,384 - ERROR - Instance 
+
+2025-05-14 15:45:09,384 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpuex0g6ve.stottr
+
+
+2025-05-14 15:45:13,208 - ERROR - Instance 
+
+2025-05-14 15:45:13,208 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp62alnlc2.stottr
+
+
+2025-05-14 15:49:52,206 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:49:52,207 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 9 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdwvtaqy3.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdwvtaqy3.stottr
+
+
+2025-05-14 15:49:55,584 - ERROR - Instance 
+
+2025-05-14 15:49:55,584 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwo_upi_q.stottr
+
+
+2025-05-14 15:49:59,143 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 15:49:59,143 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps9vl0osw.stottr
+
+
+2025-05-14 15:50:02,803 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:50:02,803 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpuvs8xbup.stottr
+
+
+2025-05-14 15:50:06,490 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+
+2025-05-14 15:50:06,491 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpqlrsxgkh.stottr
+
+
+2025-05-14 15:51:13,867 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:51:13,869 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 9 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpuogy_e4a.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpuogy_e4a.stottr
+
+
+2025-05-14 15:51:19,562 - ERROR - Instance 
+
+2025-05-14 15:51:19,562 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpzo_o02m5.stottr
+
+
+2025-05-14 15:51:24,357 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 15:51:24,358 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppwdjo7br.stottr
+
+
+2025-05-14 15:51:28,160 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 15:51:28,160 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7zmx3vrk.stottr
+
+
+2025-05-14 15:51:32,054 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+
+2025-05-14 15:51:32,055 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpydn4rzb7.stottr
+
+
+2025-05-14 15:51:36,021 - ERROR - Instance 
+
+2025-05-14 15:51:36,021 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptf2htwto.stottr
+
+
+2025-05-14 16:24:34,471 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:24:34,473 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 9 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphr3oxvvm.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmphr3oxvvm.stottr
+
+
+2025-05-14 16:24:38,154 - ERROR - Instance 
+
+2025-05-14 16:24:38,154 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7vdqfxy.stottr
+
+
+2025-05-14 16:24:41,554 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 16:24:41,554 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_w46cx8i.stottr
+
+
+2025-05-14 16:24:45,145 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:24:45,145 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpo2b69rmd.stottr
+
+
+2025-05-14 16:24:49,226 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+
+2025-05-14 16:24:49,226 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpc_io7knw.stottr
+
+
+2025-05-14 16:24:53,249 - ERROR - Instance 
+
+2025-05-14 16:24:53,249 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpev7ir4li.stottr
+
+
+2025-05-14 16:25:00,770 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalid#char)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:00,771 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: mismatched input '<EOF>' expecting {',', ')'} at line 9 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp4pm9s_k.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14))(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp4pm9s_k.stottr
+
+
+2025-05-14 16:25:04,170 - ERROR - Instance 
+
+2025-05-14 16:25:04,170 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjwsbazrm.stottr
+
+
+2025-05-14 16:25:08,064 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("This is a String"),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:08,064 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmyds_qbb.stottr
+
+
+2025-05-14 16:25:11,888 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:11,888 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8bt5xldi.stottr
+
+
+2025-05-14 16:25:15,547 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:15,547 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpg0e1zxs1.stottr
+
+
+2025-05-14 16:25:19,451 - ERROR - Instance 
+
+2025-05-14 16:25:19,451 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp67q2n2aq.stottr
+
+
+2025-05-14 16:25:23,707 - ERROR - Instance 
+
+2025-05-14 16:25:23,708 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqaocsdz6.stottr
+
+
+2025-05-14 16:25:27,661 - ERROR - Instance 
+
+2025-05-14 16:25:27,661 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9_onw9gl.stottr
+
+
+2025-05-14 16:25:32,461 - ERROR - Instance 
+
+2025-05-14 16:25:32,461 - ERROR - Instance 15 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpur7nfub6.stottr
+
+
+2025-05-14 16:25:37,351 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:invalidchar)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:37,352 - ERROR - Instance 16 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9j8mrin0.stottr
+
+
+2025-05-14 16:25:42,456 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:f),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:42,456 - ERROR - Instance 17 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 8 column 104
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpe376oyte.stottr
+
+[ERROR] Wrong number of arguments. Expected 9 arguments, but found 6 in instance: http://example.org/football#Footballer(blank501 : LUB<rdfs:Resource>, "John"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Doe"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "2024-12-12"^^http://www.w3.org/2001/XMLSchema#date : xsd:date, ottr:none : ottr:Bot, ((blank502 : LUB<rdfs:Resource>)(id: 14), "10"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer, blank503 : LUB<rdfs:Resource>, "Argentina"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 16))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpe376oyte.stottr
+
+
+2025-05-14 16:25:48,755 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((_:f,"club")),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:48,755 - ERROR - Instance 18 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpzhrvk3jt.stottr
+
+
+2025-05-14 16:25:53,597 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(((((_:f))))),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:53,597 - ERROR - Instance 19 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmprtu6mgc7.stottr
+
+
+2025-05-14 16:25:59,560 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(()),10,_:Forward,"Argentina") .
+
+2025-05-14 16:25:59,561 - ERROR - Instance 20 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpd9t6p6ui.stottr
+
+
+2025-05-14 16:36:03,736 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,(_:i),10,_:Forward,"Argentina") .
+
+2025-05-14 16:36:03,737 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpt1govtx0.stottr
+
+[WARNING] Empty file: UTF-8
+
+
+2025-05-14 16:36:07,660 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:36:07,660 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpele1ky5d.stottr
+
+[WARNING] Empty file: UTF-8
+
+
+2025-05-14 16:36:11,687 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+2025-05-14 16:36:11,688 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgjew_oyw.stottr
+
+[WARNING] Empty file: UTF-8
+
+
+2025-05-14 16:36:21,133 - ERROR - Instance foot:Footballer(_:OJp,"John","Døe","2024-12-12"^^xsd:date,none,(_:i),10,_:Forward,"Argentina") .
+
+2025-05-14 16:36:21,134 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp3q18wuse.stottr
+
+[WARNING] Empty file: UTF-8
+
+
+2025-05-14 16:36:25,358 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:36:25,358 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4cycgo3x.stottr
+
+[WARNING] Empty file: UTF-8
+
+
+2025-05-14 16:36:29,365 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+2025-05-14 16:36:29,365 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpueez0zpx.stottr
+
+[WARNING] Empty file: UTF-8
+
+
+2025-05-14 16:36:58,582 - ERROR - Instance foot:Footballer(_:OJp,"John","Døe","2024-12-12"^^xsd:date,none,(_:i),10,_:Forward,"Argentina") .
+
+2025-05-14 16:36:58,582 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpnnylr5xq.stottr
+
+
+2025-05-14 16:37:02,243 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:37:02,243 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpyzf9owy9.stottr
+
+
+2025-05-14 16:37:06,311 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+2025-05-14 16:37:06,311 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7ywamo14.stottr
+
+
+2025-05-14 16:38:15,428 - ERROR - Instance foot:Footballer(_:OJp,"John","Døe","2024-12-12"^^xsd:date,none,(_:i),10,_:Forward,"Argentina") .
+
+2025-05-14 16:38:15,428 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwfwljtyw.stottr
+
+
+2025-05-14 16:38:19,357 - ERROR - Instance foot:Footballer(_:OJp,"John","Østergaard","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+
+2025-05-14 16:38:19,357 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmps4f578_u.stottr
+
+
+2025-05-14 16:38:23,079 - ERROR - Instance foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .
+2025-05-14 16:38:23,079 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+[ERROR] Invalid literal value. The value '17-05-1999' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1hlblj5w.stottr
+
+

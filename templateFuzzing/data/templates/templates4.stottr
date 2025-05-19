@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foaf:Footballer8 [  xsd:string ?z3l , ! xsd:date ?sQt  ] :: { schema:Footballer7 ( none ), foot:Footballer2 ( true ) } .
+foaf:Footballer10 [ ? ottr:IRI ?g2A , * xsd:boolean ?K6c  ] :: { foaf:Footballer6 ( 0, ?v0E ) } .
+foot:Footballer9 [  xsd:integer ?M9n = false, ! xsd:string ?q5h  ] :: { foot:Footballer4 ( false ), foot:Footballer5 ( none ), foaf:Footballer3 ( false ) } .
+foaf:Footballer1 [ ? xsd:string ?x7O , ? xsd:boolean ?f1Z , ? xsd:boolean ?W8L  ] :: { foaf:Footballer10 ( true ), schema:Footballer2 ( none ) } .
+schema:Footballer7 [ ! List<xsd:string> ?H4S = "4" ] :: { foot:Footballer10 ( <http://example.org/N$P>, ?y6e ) } .
+foaf:Footballer4 [ ? xsd:boolean ?b3B ,  ottr:IRI ?CPd  ] :: { schema:Footballer3 ( false, false, none ) } .
+schema:Footballer10 [ ! ottr:IRI ?p1k , * xsd:string ?auR  ] :: { foot:Footballer9 ( none ), foaf:Footballer4 ( none ), foaf:Footballer2 ( false ) } .
+foaf:Footballer1 [ ? xsd:string ?jmI , * ottr:IRI ?XFG , ? xsd:integer ?UTY , * xsd:boolean ?NwJ  ] :: { foaf:Footballer9 ( false ), foot:Footballer2 ( true ) } .
+schema:Footballer3 [  xsd:string ?D3V , ? xsd:integer ?oir  ] :: { foot:Footballer9 ( false ), foot:Footballer9 ( true ), foot:Footballer8 ( false ) } .
+foaf:Footballer8 [ ? List<<http://edgecase.org/h&O>> ?M7X = -36 ] :: { foaf:Footballer2 ( -78, 2 ) } .

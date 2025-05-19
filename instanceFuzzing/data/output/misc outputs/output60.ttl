@@ -1,0 +1,4425 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "Portugal" ;
+        foaf:birthDate    "1999-12-12"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BrontÃ«" .
+
+_:b1    foot:country      "England" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b2 .
+
+_:b3    foot:teams        _:b4 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b8 ;
+        foaf:name         "Premier League" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b9 .
+
+_:b11   foot:country      "Argentina" ;
+        foaf:birthDate    "2001-05-03"^^xsd:date ;
+        foot:clubHistory  _:b12 .
+
+_:b12   rdf:rest   _:b13 ;
+        rdf:first  "Juventus FC" .
+
+_:b13   rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b11   foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ronaldo" .
+
+_:b14   foot:country      "France" ;
+        foaf:birthDate    "1965-08-01"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Van der Waals" .
+
+_:b15   foot:country      "Portugal" ;
+        foaf:birthDate    "1978-07-16"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b16   foot:country      "Argentina" ;
+        foaf:birthDate    "1950-04-06"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  823477332 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "D'Artagnan" .
+
+_:b17   foot:country      "France" ;
+        foaf:birthDate    "2013-02-09"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b18   foot:country      "France" ;
+        foaf:birthDate    "1989-12-05"^^xsd:date ;
+        foot:clubHistory  _:b19 .
+
+_:b19   rdf:rest   _:b20 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b20   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b18   foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "O'Neil" ;
+        foot:currentClub  _:b5 .
+
+_:b21   foot:country      "Portugal" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b7 .
+
+_:b22   foot:country      "England" ;
+        foaf:birthDate    "2018-10-11"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mc'Donald" .
+
+_:b23   foot:teams        _:b9 ;
+        foot:teams        _:b2 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b2 ;
+        foaf:name         "Ligue 1" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b5 .
+
+_:b24   foot:country      "Argentina" ;
+        foaf:birthDate    "1954-01-06"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  950732672 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b25   foot:country      "France" ;
+        foaf:birthDate    "1985-02-09"^^xsd:date ;
+        foot:clubHistory  _:b26 .
+
+_:b27   rdf:rest   _:b28 ;
+        rdf:first  rdf:nil .
+
+_:b29   rdf:rest   rdf:nil ;
+        rdf:first  _:b30 .
+
+_:b31   rdf:rest   _:b32 ;
+        rdf:first  rdf:nil .
+
+_:b33   rdf:rest   rdf:nil ;
+        rdf:first  _:b34 .
+
+_:b35   rdf:rest   _:b36 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b37   rdf:rest   rdf:nil ;
+        rdf:first  _:b38 .
+
+_:b39   rdf:rest   rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b40   rdf:rest   rdf:nil ;
+        rdf:first  _:b41 .
+
+_:b42   rdf:rest   rdf:nil ;
+        rdf:first  _:b43 .
+
+_:b44   rdf:rest   rdf:nil ;
+        rdf:first  _:b45 .
+
+_:b36   rdf:rest   rdf:nil ;
+        rdf:first  _:b46 .
+
+_:b47   rdf:rest   _:b37 ;
+        rdf:first  "FC Porto" .
+
+_:b48   rdf:rest   rdf:nil ;
+        rdf:first  _:b49 .
+
+_:b50   rdf:rest   _:b51 ;
+        rdf:first  _:b52 .
+
+_:b53   rdf:rest   _:b54 ;
+        rdf:first  rdf:nil .
+
+_:b55   rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b56   rdf:rest   rdf:nil ;
+        rdf:first  _:b57 .
+
+_:b58   rdf:rest   _:b59 ;
+        rdf:first  "Manchester United" .
+
+_:b60   rdf:rest   rdf:nil ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b61   rdf:rest   _:b56 ;
+        rdf:first  rdf:nil .
+
+_:b62   rdf:rest   _:b63 ;
+        rdf:first  rdf:nil .
+
+_:b64   rdf:rest   _:b65 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b66   rdf:rest   rdf:nil ;
+        rdf:first  _:b67 .
+
+_:b68   rdf:rest   _:b69 ;
+        rdf:first  rdf:nil .
+
+_:b63   rdf:rest   rdf:nil ;
+        rdf:first  _:b70 .
+
+_:b71   rdf:rest   _:b72 ;
+        rdf:first  _:b73 .
+
+_:b74   rdf:rest   rdf:nil ;
+        rdf:first  _:b75 .
+
+_:b52   rdf:rest   _:b76 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b77   rdf:rest   _:b44 ;
+        rdf:first  rdf:nil .
+
+_:b46   rdf:rest   _:b78 ;
+        rdf:first  rdf:nil .
+
+_:b79   rdf:rest   rdf:nil ;
+        rdf:first  _:b55 .
+
+_:b80   rdf:rest   _:b71 ;
+        rdf:first  _:b81 .
+
+_:b82   rdf:rest   _:b83 ;
+        rdf:first  _:b84 .
+
+_:b85   rdf:rest   _:b86 ;
+        rdf:first  "Arsenal FC" .
+
+_:b70   rdf:rest   _:b87 ;
+        rdf:first  rdf:nil .
+
+_:b88   rdf:rest   _:b89 ;
+        rdf:first  "Valencia CF" .
+
+_:b90   rdf:rest   _:b66 ;
+        rdf:first  rdf:nil .
+
+_:b28   rdf:rest   rdf:nil ;
+        rdf:first  _:b91 .
+
+_:b69   rdf:rest   rdf:nil ;
+        rdf:first  _:b92 .
+
+_:b93   rdf:rest   rdf:nil ;
+        rdf:first  _:b94 .
+
+_:b95   rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b96   rdf:rest   _:b79 ;
+        rdf:first  rdf:nil .
+
+_:b30   rdf:rest   _:b97 ;
+        rdf:first  rdf:nil .
+
+_:b98   rdf:rest   _:b99 ;
+        rdf:first  _:b100 .
+
+_:b101  rdf:rest   rdf:nil ;
+        rdf:first  _:b90 .
+
+_:b67   rdf:rest   rdf:nil ;
+        rdf:first  "Arsenal FC" .
+
+_:b51   rdf:rest   _:b80 ;
+        rdf:first  _:b102 .
+
+_:b103  rdf:rest   _:b104 ;
+        rdf:first  _:b35 .
+
+_:b105  rdf:rest   rdf:nil ;
+        rdf:first  _:b106 .
+
+_:b107  rdf:rest   _:b108 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b109  rdf:rest   rdf:nil ;
+        rdf:first  _:b77 .
+
+_:b110  rdf:rest   rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b111  rdf:rest   rdf:nil ;
+        rdf:first  _:b68 .
+
+_:b112  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b78   rdf:rest   rdf:nil ;
+        rdf:first  _:b96 .
+
+_:b113  rdf:rest   _:b114 ;
+        rdf:first  rdf:nil .
+
+_:b115  rdf:rest   rdf:nil ;
+        rdf:first  _:b116 .
+
+_:b117  rdf:rest   _:b98 ;
+        rdf:first  _:b118 .
+
+_:b119  rdf:rest   rdf:nil ;
+        rdf:first  _:b39 .
+
+_:b120  rdf:rest   rdf:nil ;
+        rdf:first  _:b121 .
+
+_:b122  rdf:rest   _:b40 ;
+        rdf:first  rdf:nil .
+
+_:b34   rdf:rest   _:b123 ;
+        rdf:first  rdf:nil .
+
+_:b124  rdf:rest   _:b29 ;
+        rdf:first  "FC Barcelona" .
+
+_:b116  rdf:rest   rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b41   rdf:rest   _:b125 ;
+        rdf:first  rdf:nil .
+
+_:b83   rdf:rest   _:b126 ;
+        rdf:first  _:b107 .
+
+_:b108  rdf:rest   rdf:nil ;
+        rdf:first  _:b127 .
+
+_:b128  rdf:rest   rdf:nil ;
+        rdf:first  _:b122 .
+
+_:b129  rdf:rest   rdf:nil ;
+        rdf:first  _:b130 .
+
+_:b131  rdf:rest   _:b132 ;
+        rdf:first  rdf:nil .
+
+_:b133  rdf:rest   _:b82 ;
+        rdf:first  _:b134 .
+
+_:b65   rdf:rest   rdf:nil ;
+        rdf:first  _:b135 .
+
+_:b87   rdf:rest   rdf:nil ;
+        rdf:first  _:b136 .
+
+_:b104  rdf:rest   _:b137 ;
+        rdf:first  _:b58 .
+
+_:b54   rdf:rest   rdf:nil ;
+        rdf:first  _:b131 .
+
+_:b138  rdf:rest   _:b74 ;
+        rdf:first  rdf:nil .
+
+_:b72   rdf:rest   rdf:nil ;
+        rdf:first  _:b64 .
+
+_:b137  rdf:rest   _:b50 ;
+        rdf:first  _:b88 .
+
+_:b134  rdf:rest   _:b139 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b140  rdf:rest   _:b112 ;
+        rdf:first  "AS Roma" .
+
+_:b38   rdf:rest   _:b141 ;
+        rdf:first  rdf:nil .
+
+_:b86   rdf:rest   rdf:nil ;
+        rdf:first  _:b142 .
+
+_:b106  rdf:rest   _:b93 ;
+        rdf:first  rdf:nil .
+
+_:b73   rdf:rest   _:b143 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b114  rdf:rest   rdf:nil ;
+        rdf:first  _:b144 .
+
+_:b126  rdf:rest   _:b103 ;
+        rdf:first  _:b47 .
+
+_:b43   rdf:rest   _:b145 ;
+        rdf:first  rdf:nil .
+
+_:b102  rdf:rest   _:b128 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b75   rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b97   rdf:rest   rdf:nil ;
+        rdf:first  _:b138 .
+
+_:b32   rdf:rest   rdf:nil ;
+        rdf:first  _:b60 .
+
+_:b145  rdf:rest   rdf:nil ;
+        rdf:first  _:b146 .
+
+_:b130  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b139  rdf:rest   rdf:nil ;
+        rdf:first  _:b147 .
+
+_:b148  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b146  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b89   rdf:rest   rdf:nil ;
+        rdf:first  _:b53 .
+
+_:b45   rdf:rest   _:b119 ;
+        rdf:first  rdf:nil .
+
+_:b136  rdf:rest   rdf:nil ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b149  rdf:rest   _:b101 ;
+        rdf:first  rdf:nil .
+
+_:b150  rdf:rest   rdf:nil ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b151  rdf:rest   _:b133 ;
+        rdf:first  _:b124 .
+
+_:b152  rdf:rest   rdf:nil ;
+        rdf:first  _:b61 .
+
+_:b91   rdf:rest   _:b129 ;
+        rdf:first  rdf:nil .
+
+_:b153  rdf:rest   rdf:nil ;
+        rdf:first  _:b140 .
+
+_:b143  rdf:rest   rdf:nil ;
+        rdf:first  _:b62 .
+
+_:b125  rdf:rest   rdf:nil ;
+        rdf:first  _:b95 .
+
+_:b26   rdf:rest   _:b153 ;
+        rdf:first  _:b117 .
+
+_:b121  rdf:rest   rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b81   rdf:rest   _:b109 ;
+        rdf:first  "Benfica" .
+
+_:b154  rdf:rest   rdf:nil ;
+        rdf:first  _:b155 .
+
+_:b127  rdf:rest   _:b111 ;
+        rdf:first  rdf:nil .
+
+_:b156  rdf:rest   rdf:nil ;
+        rdf:first  _:b27 .
+
+_:b49   rdf:rest   _:b115 ;
+        rdf:first  rdf:nil .
+
+_:b135  rdf:rest   _:b105 ;
+        rdf:first  rdf:nil .
+
+_:b57   rdf:rest   _:b157 ;
+        rdf:first  rdf:nil .
+
+_:b92   rdf:rest   rdf:nil ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b141  rdf:rest   rdf:nil ;
+        rdf:first  _:b31 .
+
+_:b157  rdf:rest   rdf:nil ;
+        rdf:first  _:b148 .
+
+_:b123  rdf:rest   rdf:nil ;
+        rdf:first  _:b150 .
+
+_:b118  rdf:rest   _:b152 ;
+        rdf:first  "FC Barcelona" .
+
+_:b142  rdf:rest   _:b48 ;
+        rdf:first  rdf:nil .
+
+_:b94   rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b132  rdf:rest   rdf:nil ;
+        rdf:first  _:b110 .
+
+_:b99   rdf:rest   _:b151 ;
+        rdf:first  _:b85 .
+
+_:b76   rdf:rest   rdf:nil ;
+        rdf:first  _:b113 .
+
+_:b100  rdf:rest   _:b156 ;
+        rdf:first  "Manchester United" .
+
+_:b147  rdf:rest   _:b42 ;
+        rdf:first  rdf:nil .
+
+_:b59   rdf:rest   rdf:nil ;
+        rdf:first  _:b149 .
+
+_:b155  rdf:rest   _:b33 ;
+        rdf:first  rdf:nil .
+
+_:b84   rdf:rest   _:b154 ;
+        rdf:first  "Real Madrid" .
+
+_:b144  rdf:rest   _:b120 ;
+        rdf:first  rdf:nil .
+
+_:b25   foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Van der Waals" ;
+        foot:currentClub  _:b6 .
+
+_:b158  foot:country      "Egypt" ;
+        foaf:birthDate    "1971-07-08"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BjÃ¶rk" .
+
+_:b159  foot:country      "Egypt" ;
+        foaf:birthDate    "1992-05-03"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "O'Connor" .
+
+_:b160  foot:country      "Argentina" ;
+        foaf:birthDate    "1969-12-04"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  956387608 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "RenÃ©e" .
+
+_:b161  foot:country      "England" ;
+        foaf:birthDate    "1970-12-01"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mbappe" .
+
+_:b162  foot:country      "Portugal" ;
+        foaf:birthDate    "1951-10-01"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  805647923 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ronaldo" .
+
+_:b163  foaf:name         "Serie A" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b10 .
+
+_:b164  foot:country      "Egypt" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b6 .
+
+_:b165  foot:country      "England" ;
+        foaf:birthDate    "2015-03-18"^^xsd:date ;
+        foot:clubHistory  _:b166 .
+
+_:b166  rdf:rest   _:b167 ;
+        rdf:first  "AC Milan" .
+
+_:b168  rdf:rest   _:b169 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b167  rdf:rest   _:b168 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b169  rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b165  foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b170  foot:country      "France" ;
+        foaf:birthDate    "1979-07-04"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mbappe" .
+
+_:b171  foot:country      "Argentina" ;
+        foaf:birthDate    "1986-08-09"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BjÃ¶rk" ;
+        foot:currentClub  _:b4 .
+
+_:b172  foot:country      "Portugal" ;
+        foaf:birthDate    "1990-06-02"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Fernandes" .
+
+_:b173  foot:country      "Argentina" ;
+        foaf:birthDate    "1960-04-05"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "O'Neil" .
+
+_:b174  foot:country      "France" ;
+        foaf:birthDate    "2020-12-08"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "NÃºÃ±ez" .
+
+_:b175  foot:country      "Egypt" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b2 .
+
+_:b176  foaf:name       "England" ;
+        rdf:type        foot:Country ;
+        foot:continent  "North America" ;
+        foot:fifaCode   "POR" .
+
+_:b177  foot:country      "Portugal" ;
+        foaf:birthDate    "2014-08-17"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b178  foot:teams        _:b8 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b5 ;
+        foot:teams        _:b2 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b9 ;
+        foaf:name         "Ligue 1" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b179  foot:country      "Argentina" ;
+        foaf:birthDate    "1978-10-03"^^xsd:date ;
+        foot:clubHistory  _:b180 .
+
+_:b181  rdf:rest   rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b182  rdf:rest   _:b183 ;
+        rdf:first  "AC Milan" .
+
+_:b183  rdf:rest   _:b181 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b180  rdf:rest   _:b182 ;
+        rdf:first  "FC Porto" .
+
+_:b179  foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mbappe" ;
+        foot:currentClub  _:b8 .
+
+_:b184  foot:country      "France" ;
+        foaf:birthDate    "1969-06-09"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Van der Waals" ;
+        foot:currentClub  _:b9 .
+
+_:b185  foot:country      "Portugal" ;
+        foaf:birthDate    "1995-07-12"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Fernandes" .
+
+_:b186  foot:country      "France" ;
+        foaf:birthDate    "1950-02-01"^^xsd:date ;
+        foot:clubHistory  _:b187 .
+
+_:b188  rdf:rest   _:b189 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b190  rdf:rest   _:b191 ;
+        rdf:first  rdf:nil .
+
+_:b187  rdf:rest   _:b192 ;
+        rdf:first  rdf:nil .
+
+_:b192  rdf:rest   rdf:nil ;
+        rdf:first  _:b193 .
+
+_:b194  rdf:rest   _:b195 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b191  rdf:rest   _:b188 ;
+        rdf:first  rdf:nil .
+
+_:b193  rdf:rest   _:b196 ;
+        rdf:first  rdf:nil .
+
+_:b189  rdf:rest   _:b194 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b195  rdf:rest   rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b196  rdf:rest   _:b190 ;
+        rdf:first  rdf:nil .
+
+_:b186  foot:marketValue  435839616 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "D'Artagnan" ;
+        foot:currentClub  _:b2 .
+
+_:b197  foot:country      "Portugal" ;
+        foaf:birthDate    "2020-04-05"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BrontÃ«" ;
+        foot:currentClub  _:b10 .
+
+_:b198  foot:country      "France" ;
+        foaf:birthDate    "1989-06-01"^^xsd:date ;
+        foot:clubHistory  _:b199 .
+
+_:b200  rdf:rest   _:b201 ;
+        rdf:first  rdf:nil .
+
+_:b202  rdf:rest   _:b203 ;
+        rdf:first  rdf:nil .
+
+_:b204  rdf:rest   _:b205 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b206  rdf:rest   _:b207 ;
+        rdf:first  _:b208 .
+
+_:b209  rdf:rest   _:b210 ;
+        rdf:first  rdf:nil .
+
+_:b211  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b212  rdf:rest   rdf:nil ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b213  rdf:rest   _:b214 ;
+        rdf:first  rdf:nil .
+
+_:b215  rdf:rest   _:b216 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b217  rdf:rest   _:b218 ;
+        rdf:first  rdf:nil .
+
+_:b219  rdf:rest   _:b220 ;
+        rdf:first  rdf:nil .
+
+_:b221  rdf:rest   _:b222 ;
+        rdf:first  rdf:nil .
+
+_:b223  rdf:rest   _:b224 ;
+        rdf:first  rdf:nil .
+
+_:b225  rdf:rest   _:b226 ;
+        rdf:first  "Real Madrid" .
+
+_:b227  rdf:rest   _:b228 ;
+        rdf:first  rdf:nil .
+
+_:b229  rdf:rest   _:b230 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b231  rdf:rest   _:b221 ;
+        rdf:first  rdf:nil .
+
+_:b232  rdf:rest   _:b225 ;
+        rdf:first  "Inter Milan" .
+
+_:b207  rdf:rest   _:b233 ;
+        rdf:first  _:b200 .
+
+_:b222  rdf:rest   _:b234 ;
+        rdf:first  rdf:nil .
+
+_:b233  rdf:rest   rdf:nil ;
+        rdf:first  _:b223 .
+
+_:b235  rdf:rest   _:b236 ;
+        rdf:first  "Manchester United" .
+
+_:b218  rdf:rest   _:b237 ;
+        rdf:first  rdf:nil .
+
+_:b238  rdf:rest   _:b239 ;
+        rdf:first  rdf:nil .
+
+_:b240  rdf:rest   rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b228  rdf:rest   _:b202 ;
+        rdf:first  rdf:nil .
+
+_:b214  rdf:rest   _:b229 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b199  rdf:rest   _:b241 ;
+        rdf:first  _:b231 .
+
+_:b203  rdf:rest   _:b206 ;
+        rdf:first  _:b238 .
+
+_:b242  rdf:rest   _:b235 ;
+        rdf:first  rdf:nil .
+
+_:b239  rdf:rest   _:b243 ;
+        rdf:first  rdf:nil .
+
+_:b244  rdf:rest   rdf:nil ;
+        rdf:first  _:b217 .
+
+_:b245  rdf:rest   _:b204 ;
+        rdf:first  "Real Madrid" .
+
+_:b230  rdf:rest   _:b240 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b216  rdf:rest   _:b246 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b210  rdf:rest   _:b245 ;
+        rdf:first  "FC Barcelona" .
+
+_:b247  rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b248  rdf:rest   _:b219 ;
+        rdf:first  rdf:nil .
+
+_:b246  rdf:rest   _:b211 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b205  rdf:rest   rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b243  rdf:rest   _:b249 ;
+        rdf:first  rdf:nil .
+
+_:b224  rdf:rest   _:b250 ;
+        rdf:first  rdf:nil .
+
+_:b251  rdf:rest   _:b213 ;
+        rdf:first  rdf:nil .
+
+_:b241  rdf:rest   rdf:nil ;
+        rdf:first  _:b244 .
+
+_:b236  rdf:rest   _:b252 ;
+        rdf:first  "Arsenal FC" .
+
+_:b208  rdf:rest   _:b248 ;
+        rdf:first  rdf:nil .
+
+_:b220  rdf:rest   _:b215 ;
+        rdf:first  rdf:nil .
+
+_:b237  rdf:rest   _:b242 ;
+        rdf:first  rdf:nil .
+
+_:b226  rdf:rest   _:b212 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b253  rdf:rest   _:b227 ;
+        rdf:first  rdf:nil .
+
+_:b201  rdf:rest   _:b251 ;
+        rdf:first  rdf:nil .
+
+_:b249  rdf:rest   _:b232 ;
+        rdf:first  rdf:nil .
+
+_:b252  rdf:rest   _:b247 ;
+        rdf:first  "Real Madrid" .
+
+_:b250  rdf:rest   _:b209 ;
+        rdf:first  rdf:nil .
+
+_:b234  rdf:rest   _:b253 ;
+        rdf:first  rdf:nil .
+
+_:b198  foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Messi" .
+
+_:b254  foot:country      "Argentina" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b10 .
+
+_:b255  foaf:name       "Egypt" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b256 ;
+        foot:leagues    _:b257 ;
+        foot:leagues    _:b258 ;
+        foot:continent  "South America" ;
+        foot:fifaCode   "ARG" .
+
+_:b259  foot:teams        _:b8 ;
+        foot:teams        _:b7 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b9 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b2 ;
+        foot:teams        _:b7 ;
+        foaf:name         "Serie A" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b7 .
+
+_:b260  foot:country      "England" ;
+        foaf:birthDate    "2011-02-04"^^xsd:date ;
+        foot:clubHistory  _:b261 .
+
+_:b262  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b261  rdf:rest   _:b262 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b260  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mbappe" .
+
+_:b263  foot:country      "France" ;
+        foaf:birthDate    "1950-12-14"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b264  foot:country      "Portugal" ;
+        foaf:birthDate    "1966-08-05"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "D'Artagnan" .
+
+_:b265  foot:country      "Argentina" ;
+        foaf:birthDate    "1985-09-12"^^xsd:date ;
+        foot:clubHistory  _:b266 .
+
+_:b266  rdf:rest   _:b267 ;
+        rdf:first  "Manchester United" .
+
+_:b268  rdf:rest   rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b269  rdf:rest   _:b268 ;
+        rdf:first  "FC Barcelona" .
+
+_:b267  rdf:rest   _:b269 ;
+        rdf:first  "Real Madrid" .
+
+_:b265  foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã˜stergaard" ;
+        foot:currentClub  _:b4 .
+
+_:b270  foot:country      "England" ;
+        foaf:birthDate    "1991-03-07"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  897387800 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "RenÃ©e" .
+
+_:b271  foot:country      "Egypt" ;
+        foaf:birthDate    "2003-06-01"^^xsd:date ;
+        foot:clubHistory  _:b272 .
+
+_:b272  rdf:rest   _:b273 ;
+        rdf:first  _:b274 .
+
+_:b275  rdf:rest   _:b276 ;
+        rdf:first  _:b277 .
+
+_:b278  rdf:rest   _:b279 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b280  rdf:rest   _:b281 ;
+        rdf:first  rdf:nil .
+
+_:b282  rdf:rest   rdf:nil ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b283  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b284  rdf:rest   _:b285 ;
+        rdf:first  rdf:nil .
+
+_:b286  rdf:rest   _:b287 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b288  rdf:rest   _:b289 ;
+        rdf:first  rdf:nil .
+
+_:b290  rdf:rest   _:b291 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b292  rdf:rest   _:b293 ;
+        rdf:first  "Juventus FC" .
+
+_:b294  rdf:rest   _:b295 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b274  rdf:rest   _:b296 ;
+        rdf:first  rdf:nil .
+
+_:b297  rdf:rest   _:b298 ;
+        rdf:first  rdf:nil .
+
+_:b299  rdf:rest   _:b300 ;
+        rdf:first  rdf:nil .
+
+_:b301  rdf:rest   _:b302 ;
+        rdf:first  "Benfica" .
+
+_:b273  rdf:rest   rdf:nil ;
+        rdf:first  _:b303 .
+
+_:b304  rdf:rest   _:b305 ;
+        rdf:first  rdf:nil .
+
+_:b306  rdf:rest   _:b280 ;
+        rdf:first  rdf:nil .
+
+_:b307  rdf:rest   _:b308 ;
+        rdf:first  rdf:nil .
+
+_:b308  rdf:rest   _:b309 ;
+        rdf:first  "Real Madrid" .
+
+_:b303  rdf:rest   rdf:nil ;
+        rdf:first  _:b294 .
+
+_:b310  rdf:rest   _:b311 ;
+        rdf:first  rdf:nil .
+
+_:b295  rdf:rest   _:b312 ;
+        rdf:first  "Manchester United" .
+
+_:b281  rdf:rest   _:b313 ;
+        rdf:first  rdf:nil .
+
+_:b314  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b315  rdf:rest   _:b301 ;
+        rdf:first  "FC Porto" .
+
+_:b316  rdf:rest   _:b292 ;
+        rdf:first  "AS Roma" .
+
+_:b317  rdf:rest   _:b318 ;
+        rdf:first  rdf:nil .
+
+_:b319  rdf:rest   _:b320 ;
+        rdf:first  _:b321 .
+
+_:b311  rdf:rest   _:b307 ;
+        rdf:first  rdf:nil .
+
+_:b289  rdf:rest   _:b304 ;
+        rdf:first  rdf:nil .
+
+_:b322  rdf:rest   _:b323 ;
+        rdf:first  "Inter Milan" .
+
+_:b324  rdf:rest   _:b314 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b312  rdf:rest   _:b325 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b302  rdf:rest   _:b326 ;
+        rdf:first  "Arsenal FC" .
+
+_:b327  rdf:rest   _:b290 ;
+        rdf:first  "Real Madrid" .
+
+_:b321  rdf:rest   _:b310 ;
+        rdf:first  rdf:nil .
+
+_:b328  rdf:rest   _:b282 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b323  rdf:rest   _:b283 ;
+        rdf:first  "FC Barcelona" .
+
+_:b318  rdf:rest   _:b284 ;
+        rdf:first  rdf:nil .
+
+_:b293  rdf:rest   _:b327 ;
+        rdf:first  "Inter Milan" .
+
+_:b329  rdf:rest   _:b330 ;
+        rdf:first  "FC Porto" .
+
+_:b277  rdf:rest   _:b288 ;
+        rdf:first  rdf:nil .
+
+_:b296  rdf:rest   _:b331 ;
+        rdf:first  rdf:nil .
+
+_:b330  rdf:rest   _:b286 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b287  rdf:rest   rdf:nil ;
+        rdf:first  "Atletico Madrid" .
+
+_:b331  rdf:rest   _:b297 ;
+        rdf:first  rdf:nil .
+
+_:b320  rdf:rest   _:b275 ;
+        rdf:first  _:b306 .
+
+_:b332  rdf:rest   _:b319 ;
+        rdf:first  rdf:nil .
+
+_:b285  rdf:rest   _:b329 ;
+        rdf:first  rdf:nil .
+
+_:b276  rdf:rest   rdf:nil ;
+        rdf:first  _:b317 .
+
+_:b325  rdf:rest   _:b316 ;
+        rdf:first  "AC Milan" .
+
+_:b279  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b309  rdf:rest   _:b324 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b305  rdf:rest   _:b322 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b333  rdf:rest   _:b278 ;
+        rdf:first  "FC Porto" .
+
+_:b298  rdf:rest   _:b299 ;
+        rdf:first  rdf:nil .
+
+_:b300  rdf:rest   _:b332 ;
+        rdf:first  rdf:nil .
+
+_:b291  rdf:rest   _:b315 ;
+        rdf:first  "Valencia CF" .
+
+_:b326  rdf:rest   _:b328 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b313  rdf:rest   _:b334 ;
+        rdf:first  rdf:nil .
+
+_:b334  rdf:rest   _:b333 ;
+        rdf:first  "Arsenal FC" .
+
+_:b271  foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mc'Donald" ;
+        foot:currentClub  _:b7 .
+
+_:b335  foot:country      "France" ;
+        foaf:birthDate    "1970-02-18"^^xsd:date ;
+        foot:clubHistory  _:b336 .
+
+_:b337  rdf:rest   _:b338 ;
+        rdf:first  "AC Milan" .
+
+_:b339  rdf:rest   _:b340 ;
+        rdf:first  "Benfica" .
+
+_:b341  rdf:rest   _:b342 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b343  rdf:rest   _:b344 ;
+        rdf:first  "FC Porto" .
+
+_:b345  rdf:rest   _:b346 ;
+        rdf:first  "FC Barcelona" .
+
+_:b347  rdf:rest   _:b348 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b349  rdf:rest   _:b350 ;
+        rdf:first  "Arsenal FC" .
+
+_:b351  rdf:rest   _:b352 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b346  rdf:rest   _:b353 ;
+        rdf:first  "Valencia CF" .
+
+_:b342  rdf:rest   _:b354 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b355  rdf:rest   _:b356 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b357  rdf:rest   _:b358 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b359  rdf:rest   _:b360 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b361  rdf:rest   _:b362 ;
+        rdf:first  "Juventus FC" .
+
+_:b354  rdf:rest   _:b339 ;
+        rdf:first  "AC Milan" .
+
+_:b363  rdf:rest   _:b364 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b365  rdf:rest   _:b366 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b358  rdf:rest   _:b367 ;
+        rdf:first  "Arsenal FC" .
+
+_:b348  rdf:rest   _:b368 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b356  rdf:rest   _:b337 ;
+        rdf:first  "FC Porto" .
+
+_:b369  rdf:rest   _:b370 ;
+        rdf:first  "Inter Milan" .
+
+_:b371  rdf:rest   _:b372 ;
+        rdf:first  "Manchester United" .
+
+_:b336  rdf:rest   _:b373 ;
+        rdf:first  _:b374 .
+
+_:b360  rdf:rest   _:b375 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b376  rdf:rest   _:b377 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b373  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b378  rdf:rest   _:b379 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b368  rdf:rest   _:b361 ;
+        rdf:first  "Valencia CF" .
+
+_:b353  rdf:rest   _:b369 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b344  rdf:rest   _:b380 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b381  rdf:rest   _:b382 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b383  rdf:rest   _:b349 ;
+        rdf:first  "Valencia CF" .
+
+_:b372  rdf:rest   _:b384 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b379  rdf:rest   _:b376 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b385  rdf:rest   _:b386 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b366  rdf:rest   _:b381 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b387  rdf:rest   _:b388 ;
+        rdf:first  "Manchester United" .
+
+_:b382  rdf:rest   _:b357 ;
+        rdf:first  "Juventus FC" .
+
+_:b389  rdf:rest   _:b390 ;
+        rdf:first  "AS Roma" .
+
+_:b377  rdf:rest   _:b391 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b391  rdf:rest   _:b371 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b364  rdf:rest   _:b389 ;
+        rdf:first  "Valencia CF" .
+
+_:b392  rdf:rest   _:b378 ;
+        rdf:first  "Real Madrid" .
+
+_:b393  rdf:rest   _:b387 ;
+        rdf:first  "AS Roma" .
+
+_:b350  rdf:rest   _:b394 ;
+        rdf:first  "Real Madrid" .
+
+_:b388  rdf:rest   _:b395 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b386  rdf:rest   _:b383 ;
+        rdf:first  "Manchester United" .
+
+_:b362  rdf:rest   _:b385 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b374  rdf:rest   _:b347 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b396  rdf:rest   _:b397 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b384  rdf:rest   _:b359 ;
+        rdf:first  "Real Madrid" .
+
+_:b398  rdf:rest   _:b393 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b338  rdf:rest   _:b399 ;
+        rdf:first  "AS Roma" .
+
+_:b394  rdf:rest   _:b345 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b352  rdf:rest   _:b392 ;
+        rdf:first  "Arsenal FC" .
+
+_:b390  rdf:rest   _:b400 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b340  rdf:rest   _:b401 ;
+        rdf:first  "AS Roma" .
+
+_:b367  rdf:rest   _:b341 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b380  rdf:rest   _:b363 ;
+        rdf:first  "Inter Milan" .
+
+_:b400  rdf:rest   _:b396 ;
+        rdf:first  "FC Barcelona" .
+
+_:b395  rdf:rest   _:b355 ;
+        rdf:first  "Juventus FC" .
+
+_:b401  rdf:rest   _:b351 ;
+        rdf:first  "Valencia CF" .
+
+_:b397  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b399  rdf:rest   _:b365 ;
+        rdf:first  "Valencia CF" .
+
+_:b375  rdf:rest   _:b343 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b370  rdf:rest   _:b398 ;
+        rdf:first  "AC Milan" .
+
+_:b335  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Van der Waals" .
+
+_:b402  foaf:name         "Serie A" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b10 .
+
+_:b403  foot:country      "Argentina" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b9 .
+
+_:b404  foot:country      "Portugal" ;
+        foaf:birthDate    "2021-11-15"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  639827041 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Al-Hassan" .
+
+_:b405  foot:country      "England" ;
+        foaf:birthDate    "1960-09-05"^^xsd:date ;
+        foot:clubHistory  _:b406 .
+
+_:b407  rdf:rest   _:b408 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b409  rdf:rest   _:b410 ;
+        rdf:first  rdf:nil .
+
+_:b411  rdf:rest   _:b412 ;
+        rdf:first  rdf:nil .
+
+_:b406  rdf:rest   _:b413 ;
+        rdf:first  rdf:nil .
+
+_:b412  rdf:rest   _:b409 ;
+        rdf:first  rdf:nil .
+
+_:b414  rdf:rest   rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b410  rdf:rest   _:b415 ;
+        rdf:first  rdf:nil .
+
+_:b408  rdf:rest   _:b414 ;
+        rdf:first  "FC Barcelona" .
+
+_:b413  rdf:rest   rdf:nil ;
+        rdf:first  _:b411 .
+
+_:b415  rdf:rest   _:b407 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b405  foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Fernandes" .
+
+_:b416  foot:country      "Portugal" ;
+        foaf:birthDate    "1975-08-02"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  834495877 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "RenÃ©e" ;
+        foot:currentClub  _:b6 .
+
+_:b417  foot:country      "England" ;
+        foaf:birthDate    "1992-06-01"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b418  foot:country      "France" ;
+        foaf:birthDate    "2002-10-07"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "HÃ¥kon" .
+
+_:b419  foot:country      "Argentina" ;
+        foaf:birthDate    "1954-12-18"^^xsd:date ;
+        foot:clubHistory  _:b420 .
+
+_:b421  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b420  rdf:rest   _:b421 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b419  foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Van der Waals" .
+
+_:b422  foot:country      "Portugal" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b5 .
+
+_:b423  foot:country      "England" ;
+        foaf:birthDate    "1985-11-09"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  702863941 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "MÃ¼ller" .
+
+_:b424  foot:teams        _:b7 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b8 ;
+        foot:teams        _:b2 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b6 ;
+        foot:teams        _:b9 ;
+        foaf:name         "Serie A" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b6 .
+
+_:b425  foot:country      "Egypt" ;
+        foaf:birthDate    "2007-04-13"^^xsd:date ;
+        foot:clubHistory  _:b426 .
+
+_:b427  rdf:rest   _:b428 ;
+        rdf:first  rdf:nil .
+
+_:b429  rdf:rest   rdf:nil ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b430  rdf:rest   _:b427 ;
+        rdf:first  rdf:nil .
+
+_:b428  rdf:rest   _:b431 ;
+        rdf:first  "FC Porto" .
+
+_:b432  rdf:rest   _:b433 ;
+        rdf:first  rdf:nil .
+
+_:b431  rdf:rest   _:b434 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b433  rdf:rest   _:b430 ;
+        rdf:first  rdf:nil .
+
+_:b426  rdf:rest   _:b435 ;
+        rdf:first  rdf:nil .
+
+_:b434  rdf:rest   _:b429 ;
+        rdf:first  "Arsenal FC" .
+
+_:b435  rdf:rest   rdf:nil ;
+        rdf:first  _:b432 .
+
+_:b425  foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BrontÃ«" .
+
+_:b436  foot:country      "France" ;
+        foaf:birthDate    "1991-05-08"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ronaldo" .
+
+_:b437  foot:country      "Egypt" ;
+        foaf:birthDate    "1951-02-07"^^xsd:date ;
+        foot:clubHistory  _:b438 .
+
+_:b439  rdf:rest   rdf:nil ;
+        rdf:first  _:b440 .
+
+_:b440  rdf:rest   _:b441 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b438  rdf:rest   _:b439 ;
+        rdf:first  "FC Barcelona"@ru .
+
+_:b441  rdf:rest   rdf:nil ;
+        rdf:first  "Ajax Amsterdam"@el .
+
+_:b437  foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã‡elik" ;
+        foot:currentClub  _:b6 .
+
+_:b442  foot:country      "England" ;
+        foaf:birthDate    "1969-01-03"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BjÃ¶rk" .
+
+_:b443  foot:country      "Argentina" ;
+        foaf:birthDate    "1971-06-01"^^xsd:date ;
+        foot:clubHistory  _:b444 .
+
+_:b445  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b446  rdf:rest   _:b447 ;
+        rdf:first  rdf:nil .
+
+_:b448  rdf:rest   _:b449 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b450  rdf:rest   _:b451 ;
+        rdf:first  rdf:nil .
+
+_:b452  rdf:rest   _:b453 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b454  rdf:rest   rdf:nil ;
+        rdf:first  _:b455 .
+
+_:b456  rdf:rest   _:b457 ;
+        rdf:first  _:b458 .
+
+_:b459  rdf:rest   _:b460 ;
+        rdf:first  _:b461 .
+
+_:b462  rdf:rest   rdf:nil ;
+        rdf:first  _:b463 .
+
+_:b449  rdf:rest   _:b464 ;
+        rdf:first  "Real Madrid" .
+
+_:b465  rdf:rest   _:b466 ;
+        rdf:first  rdf:nil .
+
+_:b453  rdf:rest   rdf:nil ;
+        rdf:first  _:b467 .
+
+_:b468  rdf:rest   rdf:nil ;
+        rdf:first  _:b469 .
+
+_:b470  rdf:rest   _:b471 ;
+        rdf:first  rdf:nil .
+
+_:b451  rdf:rest   _:b448 ;
+        rdf:first  "Real Madrid" .
+
+_:b472  rdf:rest   _:b473 ;
+        rdf:first  "AC Milan" .
+
+_:b474  rdf:rest   _:b475 ;
+        rdf:first  "Valencia CF" .
+
+_:b476  rdf:rest   rdf:nil ;
+        rdf:first  _:b477 .
+
+_:b478  rdf:rest   _:b479 ;
+        rdf:first  _:b480 .
+
+_:b481  rdf:rest   _:b482 ;
+        rdf:first  rdf:nil .
+
+_:b483  rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b480  rdf:rest   _:b484 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b485  rdf:rest   _:b486 ;
+        rdf:first  rdf:nil .
+
+_:b487  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b488  rdf:rest   _:b489 ;
+        rdf:first  "Benfica" .
+
+_:b466  rdf:rest   _:b490 ;
+        rdf:first  rdf:nil .
+
+_:b491  rdf:rest   _:b492 ;
+        rdf:first  rdf:nil .
+
+_:b493  rdf:rest   _:b494 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b495  rdf:rest   rdf:nil ;
+        rdf:first  _:b496 .
+
+_:b497  rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b498  rdf:rest   _:b499 ;
+        rdf:first  rdf:nil .
+
+_:b477  rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b500  rdf:rest   _:b493 ;
+        rdf:first  rdf:nil .
+
+_:b501  rdf:rest   _:b502 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b503  rdf:rest   rdf:nil ;
+        rdf:first  _:b445 .
+
+_:b504  rdf:rest   rdf:nil ;
+        rdf:first  _:b505 .
+
+_:b506  rdf:rest   _:b507 ;
+        rdf:first  rdf:nil .
+
+_:b505  rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b464  rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b508  rdf:rest   _:b509 ;
+        rdf:first  _:b510 .
+
+_:b511  rdf:rest   _:b512 ;
+        rdf:first  rdf:nil .
+
+_:b513  rdf:rest   rdf:nil ;
+        rdf:first  _:b514 .
+
+_:b515  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b516  rdf:rest   _:b517 ;
+        rdf:first  rdf:nil .
+
+_:b490  rdf:rest   _:b472 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b509  rdf:rest   rdf:nil ;
+        rdf:first  _:b518 .
+
+_:b460  rdf:rest   rdf:nil ;
+        rdf:first  _:b519 .
+
+_:b520  rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b521  rdf:rest   _:b478 ;
+        rdf:first  _:b522 .
+
+_:b523  rdf:rest   _:b524 ;
+        rdf:first  rdf:nil .
+
+_:b525  rdf:rest   _:b504 ;
+        rdf:first  rdf:nil .
+
+_:b514  rdf:rest   _:b526 ;
+        rdf:first  rdf:nil .
+
+_:b507  rdf:rest   _:b527 ;
+        rdf:first  rdf:nil .
+
+_:b463  rdf:rest   _:b476 ;
+        rdf:first  rdf:nil .
+
+_:b528  rdf:rest   _:b483 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b522  rdf:rest   _:b529 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b510  rdf:rest   _:b530 ;
+        rdf:first  "Juventus FC" .
+
+_:b484  rdf:rest   rdf:nil ;
+        rdf:first  _:b525 .
+
+_:b527  rdf:rest   _:b531 ;
+        rdf:first  _:b532 .
+
+_:b532  rdf:rest   _:b533 ;
+        rdf:first  rdf:nil .
+
+_:b492  rdf:rest   _:b506 ;
+        rdf:first  rdf:nil .
+
+_:b524  rdf:rest   _:b474 ;
+        rdf:first  rdf:nil .
+
+_:b457  rdf:rest   _:b521 ;
+        rdf:first  _:b534 .
+
+_:b518  rdf:rest   _:b462 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b471  rdf:rest   _:b523 ;
+        rdf:first  rdf:nil .
+
+_:b535  rdf:rest   rdf:nil ;
+        rdf:first  _:b520 .
+
+_:b536  rdf:rest   _:b495 ;
+        rdf:first  rdf:nil .
+
+_:b475  rdf:rest   _:b501 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b496  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b517  rdf:rest   _:b491 ;
+        rdf:first  rdf:nil .
+
+_:b537  rdf:rest   rdf:nil ;
+        rdf:first  "Atletico Madrid" .
+
+_:b473  rdf:rest   _:b515 ;
+        rdf:first  "AS Roma" .
+
+_:b533  rdf:rest   _:b465 ;
+        rdf:first  rdf:nil .
+
+_:b455  rdf:rest   _:b535 ;
+        rdf:first  rdf:nil .
+
+_:b526  rdf:rest   rdf:nil ;
+        rdf:first  _:b497 .
+
+_:b502  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b486  rdf:rest   rdf:nil ;
+        rdf:first  _:b537 .
+
+_:b494  rdf:rest   _:b528 ;
+        rdf:first  "Arsenal FC" .
+
+_:b489  rdf:rest   rdf:nil ;
+        rdf:first  _:b481 .
+
+_:b529  rdf:rest   rdf:nil ;
+        rdf:first  _:b536 .
+
+_:b482  rdf:rest   rdf:nil ;
+        rdf:first  _:b487 .
+
+_:b467  rdf:rest   _:b503 ;
+        rdf:first  rdf:nil .
+
+_:b499  rdf:rest   _:b516 ;
+        rdf:first  rdf:nil .
+
+_:b538  rdf:rest   _:b508 ;
+        rdf:first  _:b452 .
+
+_:b479  rdf:rest   _:b538 ;
+        rdf:first  _:b488 .
+
+_:b458  rdf:rest   _:b513 ;
+        rdf:first  "Manchester United" .
+
+_:b531  rdf:rest   _:b459 ;
+        rdf:first  _:b470 .
+
+_:b530  rdf:rest   rdf:nil ;
+        rdf:first  _:b485 .
+
+_:b469  rdf:rest   rdf:nil ;
+        rdf:first  _:b456 .
+
+_:b447  rdf:rest   _:b500 ;
+        rdf:first  rdf:nil .
+
+_:b519  rdf:rest   _:b511 ;
+        rdf:first  rdf:nil .
+
+_:b534  rdf:rest   _:b454 ;
+        rdf:first  "Manchester United" .
+
+_:b512  rdf:rest   _:b450 ;
+        rdf:first  rdf:nil .
+
+_:b461  rdf:rest   _:b446 ;
+        rdf:first  rdf:nil .
+
+_:b444  rdf:rest   _:b468 ;
+        rdf:first  _:b498 .
+
+_:b443  foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "D'Artagnan" .
+
+_:b539  foot:country      "Portugal" ;
+        foaf:birthDate    "2025-02-14"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b540  foot:country      "France" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b9 .
+
+_:b541  foot:country      "Egypt" ;
+        foaf:birthDate    "2005-12-12"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "HÃ¥kon" .
+
+_:b542  foaf:name         "Premier League" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b10 .
+
+_:b543  foot:country      "England" ;
+        foaf:birthDate    "1956-03-05"^^xsd:date ;
+        foot:clubHistory  _:b544 .
+
+_:b544  rdf:rest   _:b545 ;
+        rdf:first  _:b546 .
+
+_:b547  rdf:rest   _:b548 ;
+        rdf:first  rdf:nil .
+
+_:b549  rdf:rest   _:b550 ;
+        rdf:first  rdf:nil .
+
+_:b551  rdf:rest   _:b552 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b553  rdf:rest   _:b554 ;
+        rdf:first  "FC Barcelona" .
+
+_:b555  rdf:rest   _:b556 ;
+        rdf:first  rdf:nil .
+
+_:b546  rdf:rest   _:b547 ;
+        rdf:first  rdf:nil .
+
+_:b557  rdf:rest   _:b558 ;
+        rdf:first  rdf:nil .
+
+_:b550  rdf:rest   _:b557 ;
+        rdf:first  rdf:nil .
+
+_:b559  rdf:rest   _:b560 ;
+        rdf:first  rdf:nil .
+
+_:b561  rdf:rest   _:b562 ;
+        rdf:first  "AS Roma" .
+
+_:b563  rdf:rest   _:b564 ;
+        rdf:first  _:b555 .
+
+_:b565  rdf:rest   _:b566 ;
+        rdf:first  "FC Porto" .
+
+_:b567  rdf:rest   _:b568 ;
+        rdf:first  rdf:nil .
+
+_:b554  rdf:rest   rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b558  rdf:rest   _:b569 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b570  rdf:rest   _:b549 ;
+        rdf:first  rdf:nil .
+
+_:b571  rdf:rest   _:b567 ;
+        rdf:first  rdf:nil .
+
+_:b572  rdf:rest   _:b573 ;
+        rdf:first  rdf:nil .
+
+_:b574  rdf:rest   rdf:nil ;
+        rdf:first  _:b575 .
+
+_:b576  rdf:rest   _:b559 ;
+        rdf:first  rdf:nil .
+
+_:b564  rdf:rest   _:b574 ;
+        rdf:first  _:b570 .
+
+_:b577  rdf:rest   _:b578 ;
+        rdf:first  rdf:nil .
+
+_:b556  rdf:rest   _:b572 ;
+        rdf:first  rdf:nil .
+
+_:b545  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b579  rdf:rest   _:b580 ;
+        rdf:first  rdf:nil .
+
+_:b548  rdf:rest   _:b579 ;
+        rdf:first  rdf:nil .
+
+_:b581  rdf:rest   _:b551 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b582  rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b552  rdf:rest   _:b582 ;
+        rdf:first  "Real Madrid" .
+
+_:b583  rdf:rest   _:b565 ;
+        rdf:first  "Inter Milan" .
+
+_:b569  rdf:rest   _:b553 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b575  rdf:rest   _:b584 ;
+        rdf:first  rdf:nil .
+
+_:b585  rdf:rest   _:b571 ;
+        rdf:first  rdf:nil .
+
+_:b568  rdf:rest   _:b563 ;
+        rdf:first  _:b576 .
+
+_:b560  rdf:rest   _:b586 ;
+        rdf:first  rdf:nil .
+
+_:b580  rdf:rest   _:b585 ;
+        rdf:first  rdf:nil .
+
+_:b566  rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b587  rdf:rest   _:b561 ;
+        rdf:first  "Valencia CF" .
+
+_:b562  rdf:rest   _:b588 ;
+        rdf:first  "Manchester United" .
+
+_:b573  rdf:rest   _:b589 ;
+        rdf:first  rdf:nil .
+
+_:b586  rdf:rest   _:b587 ;
+        rdf:first  rdf:nil .
+
+_:b584  rdf:rest   _:b577 ;
+        rdf:first  rdf:nil .
+
+_:b589  rdf:rest   _:b583 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b588  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b578  rdf:rest   _:b581 ;
+        rdf:first  rdf:nil .
+
+_:b543  foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "D'Artagnan" .
+
+_:b590  foot:country      "Argentina" ;
+        foaf:birthDate    "1970-01-09"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Messi" .
+
+_:b591  foot:country      "Argentina" ;
+        foaf:birthDate    "1993-04-18"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mbappe" .
+
+_:b592  foot:country      "Egypt" ;
+        foaf:birthDate    "1969-06-07"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã˜stergaard" .
+
+_:b593  foot:country      "Egypt" ;
+        foaf:birthDate    "1984-08-11"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  271631340 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mc'Donald" ;
+        foot:currentClub  _:b9 .
+
+_:b594  foot:country      "France" ;
+        foaf:birthDate    "2015-02-15"^^xsd:date ;
+        foot:clubHistory  _:b595 .
+
+_:b596  rdf:rest   _:b597 ;
+        rdf:first  rdf:nil .
+
+_:b598  rdf:rest   rdf:nil ;
+        rdf:first  _:b599 .
+
+_:b600  rdf:rest   _:b601 ;
+        rdf:first  rdf:nil .
+
+_:b602  rdf:rest   _:b603 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b604  rdf:rest   _:b605 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b606  rdf:rest   _:b607 ;
+        rdf:first  rdf:nil .
+
+_:b608  rdf:rest   _:b609 ;
+        rdf:first  _:b610 .
+
+_:b611  rdf:rest   _:b606 ;
+        rdf:first  rdf:nil .
+
+_:b612  rdf:rest   _:b613 ;
+        rdf:first  _:b614 .
+
+_:b615  rdf:rest   _:b616 ;
+        rdf:first  rdf:nil .
+
+_:b617  rdf:rest   rdf:nil ;
+        rdf:first  _:b618 .
+
+_:b619  rdf:rest   _:b620 ;
+        rdf:first  rdf:nil .
+
+_:b621  rdf:rest   rdf:nil ;
+        rdf:first  _:b622 .
+
+_:b601  rdf:rest   rdf:nil ;
+        rdf:first  _:b623 .
+
+_:b624  rdf:rest   _:b625 ;
+        rdf:first  rdf:nil .
+
+_:b626  rdf:rest   rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b627  rdf:rest   _:b628 ;
+        rdf:first  rdf:nil .
+
+_:b629  rdf:rest   _:b630 ;
+        rdf:first  rdf:nil .
+
+_:b631  rdf:rest   _:b632 ;
+        rdf:first  _:b604 .
+
+_:b633  rdf:rest   _:b634 ;
+        rdf:first  rdf:nil .
+
+_:b635  rdf:rest   _:b636 ;
+        rdf:first  "Manchester United" .
+
+_:b599  rdf:rest   rdf:nil ;
+        rdf:first  _:b608 .
+
+_:b637  rdf:rest   _:b638 ;
+        rdf:first  rdf:nil .
+
+_:b639  rdf:rest   _:b640 ;
+        rdf:first  rdf:nil .
+
+_:b641  rdf:rest   _:b642 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b643  rdf:rest   _:b644 ;
+        rdf:first  "Benfica" .
+
+_:b645  rdf:rest   _:b646 ;
+        rdf:first  rdf:nil .
+
+_:b647  rdf:rest   rdf:nil ;
+        rdf:first  _:b648 .
+
+_:b649  rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b650  rdf:rest   rdf:nil ;
+        rdf:first  _:b651 .
+
+_:b640  rdf:rest   _:b596 ;
+        rdf:first  rdf:nil .
+
+_:b652  rdf:rest   _:b653 ;
+        rdf:first  _:b654 .
+
+_:b655  rdf:rest   _:b656 ;
+        rdf:first  "Arsenal FC" .
+
+_:b657  rdf:rest   _:b619 ;
+        rdf:first  rdf:nil .
+
+_:b658  rdf:rest   _:b659 ;
+        rdf:first  _:b611 .
+
+_:b618  rdf:rest   _:b647 ;
+        rdf:first  "FC Porto" .
+
+_:b651  rdf:rest   _:b660 ;
+        rdf:first  rdf:nil .
+
+_:b661  rdf:rest   _:b662 ;
+        rdf:first  "Inter Milan" .
+
+_:b663  rdf:rest   rdf:nil ;
+        rdf:first  _:b664 .
+
+_:b653  rdf:rest   rdf:nil ;
+        rdf:first  _:b645 .
+
+_:b665  rdf:rest   _:b666 ;
+        rdf:first  "AC Milan" .
+
+_:b644  rdf:rest   rdf:nil ;
+        rdf:first  _:b633 .
+
+_:b667  rdf:rest   _:b668 ;
+        rdf:first  rdf:nil .
+
+_:b616  rdf:rest   rdf:nil ;
+        rdf:first  _:b626 .
+
+_:b669  rdf:rest   _:b663 ;
+        rdf:first  _:b670 .
+
+_:b610  rdf:rest   _:b671 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b595  rdf:rest   _:b598 ;
+        rdf:first  _:b652 .
+
+_:b672  rdf:rest   _:b624 ;
+        rdf:first  rdf:nil .
+
+_:b622  rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b654  rdf:rest   _:b639 ;
+        rdf:first  rdf:nil .
+
+_:b638  rdf:rest   rdf:nil ;
+        rdf:first  _:b673 .
+
+_:b636  rdf:rest   _:b674 ;
+        rdf:first  "Real Madrid" .
+
+_:b605  rdf:rest   rdf:nil ;
+        rdf:first  _:b637 .
+
+_:b614  rdf:rest   _:b675 ;
+        rdf:first  "Benfica" .
+
+_:b659  rdf:rest   _:b669 ;
+        rdf:first  _:b667 .
+
+_:b664  rdf:rest   _:b657 ;
+        rdf:first  rdf:nil .
+
+_:b634  rdf:rest   rdf:nil ;
+        rdf:first  _:b676 .
+
+_:b677  rdf:rest   _:b658 ;
+        rdf:first  rdf:nil .
+
+_:b678  rdf:rest   _:b627 ;
+        rdf:first  rdf:nil .
+
+_:b679  rdf:rest   _:b680 ;
+        rdf:first  "Valencia CF" .
+
+_:b680  rdf:rest   _:b661 ;
+        rdf:first  "AC Milan" .
+
+_:b666  rdf:rest   rdf:nil ;
+        rdf:first  _:b629 .
+
+_:b676  rdf:rest   rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b681  rdf:rest   _:b677 ;
+        rdf:first  rdf:nil .
+
+_:b682  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b683  rdf:rest   _:b684 ;
+        rdf:first  rdf:nil .
+
+_:b685  rdf:rest   rdf:nil ;
+        rdf:first  _:b683 .
+
+_:b686  rdf:rest   _:b685 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b656  rdf:rest   _:b687 ;
+        rdf:first  "Inter Milan" .
+
+_:b597  rdf:rest   _:b655 ;
+        rdf:first  "Juventus FC" .
+
+_:b688  rdf:rest   _:b678 ;
+        rdf:first  rdf:nil .
+
+_:b689  rdf:rest   _:b690 ;
+        rdf:first  rdf:nil .
+
+_:b660  rdf:rest   rdf:nil ;
+        rdf:first  _:b691 .
+
+_:b692  rdf:rest   _:b635 ;
+        rdf:first  rdf:nil .
+
+_:b620  rdf:rest   _:b693 ;
+        rdf:first  rdf:nil .
+
+_:b694  rdf:rest   _:b617 ;
+        rdf:first  _:b686 .
+
+_:b691  rdf:rest   rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b609  rdf:rest   _:b631 ;
+        rdf:first  _:b643 .
+
+_:b642  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b693  rdf:rest   _:b602 ;
+        rdf:first  "FC Porto" .
+
+_:b695  rdf:rest   _:b672 ;
+        rdf:first  rdf:nil .
+
+_:b674  rdf:rest   _:b682 ;
+        rdf:first  "AS Roma" .
+
+_:b630  rdf:rest   rdf:nil ;
+        rdf:first  _:b696 .
+
+_:b675  rdf:rest   rdf:nil ;
+        rdf:first  _:b600 .
+
+_:b670  rdf:rest   _:b695 ;
+        rdf:first  rdf:nil .
+
+_:b668  rdf:rest   _:b689 ;
+        rdf:first  rdf:nil .
+
+_:b632  rdf:rest   _:b612 ;
+        rdf:first  _:b697 .
+
+_:b662  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b623  rdf:rest   rdf:nil ;
+        rdf:first  "Arsenal FC" .
+
+_:b671  rdf:rest   rdf:nil ;
+        rdf:first  _:b615 .
+
+_:b698  rdf:rest   _:b641 ;
+        rdf:first  "Real Madrid" .
+
+_:b699  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b673  rdf:rest   rdf:nil ;
+        rdf:first  "Real Madrid" .
+
+_:b613  rdf:rest   _:b694 ;
+        rdf:first  _:b665 .
+
+_:b603  rdf:rest   _:b649 ;
+        rdf:first  "Manchester United" .
+
+_:b684  rdf:rest   rdf:nil ;
+        rdf:first  _:b699 .
+
+_:b628  rdf:rest   _:b681 ;
+        rdf:first  rdf:nil .
+
+_:b625  rdf:rest   _:b698 ;
+        rdf:first  "AS Roma" .
+
+_:b648  rdf:rest   _:b621 ;
+        rdf:first  rdf:nil .
+
+_:b690  rdf:rest   _:b679 ;
+        rdf:first  rdf:nil .
+
+_:b646  rdf:rest   _:b688 ;
+        rdf:first  rdf:nil .
+
+_:b687  rdf:rest   rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b607  rdf:rest   _:b692 ;
+        rdf:first  rdf:nil .
+
+_:b697  rdf:rest   _:b650 ;
+        rdf:first  "FC Barcelona" .
+
+_:b696  rdf:rest   rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b594  foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BjÃ¶rk" ;
+        foot:currentClub  _:b9 .
+
+_:b700  foaf:name       "Egypt" ;
+        rdf:type        foot:Country ;
+        foot:leagues    _:b701 ;
+        foot:leagues    _:b702 ;
+        foot:leagues    _:b703 ;
+        foot:continent  "Europe" ;
+        foot:fifaCode   "ENG" .
+
+_:b704  foot:country      "France" ;
+        foaf:birthDate    "2005-12-13"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Mbappe" .
+
+_:b705  foot:country      "Argentina" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b2 .
+
+_:b706  foot:teams        _:b9 ;
+        foot:teams        _:b10 ;
+        foot:teams        _:b4 ;
+        foot:teams        _:b2 ;
+        foaf:name         "Bundesliga" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b10 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b6 .
+
+_:b707  foot:country      "Portugal" ;
+        foaf:birthDate    "1950-04-02"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b708  foot:country      "England" ;
+        foaf:birthDate    "1977-05-16"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "O'Connor" .
+
+_:b709  foot:country      "Egypt" ;
+        foaf:birthDate    "1998-03-07"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  290993416 ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "O'Neil" .
+
+_:b710  foot:country      "Egypt" ;
+        foaf:birthDate    "1982-08-09"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ronaldo" .
+
+_:b711  foot:country      "Egypt" ;
+        foaf:birthDate    "2019-01-06"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Ã‡elik" .
+
+_:b712  foot:country      "England" ;
+        foaf:birthDate    "1966-10-04"^^xsd:date ;
+        foot:clubHistory  _:b713 .
+
+_:b714  rdf:rest   _:b715 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b716  rdf:rest   _:b717 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b718  rdf:rest   _:b714 ;
+        rdf:first  "FC Barcelona" .
+
+_:b719  rdf:rest   _:b720 ;
+        rdf:first  "Valencia CF" .
+
+_:b717  rdf:rest   _:b719 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b721  rdf:rest   _:b722 ;
+        rdf:first  "Manchester United" .
+
+_:b723  rdf:rest   _:b718 ;
+        rdf:first  "Juventus FC" .
+
+_:b724  rdf:rest   _:b725 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b725  rdf:rest   _:b721 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b720  rdf:rest   _:b726 ;
+        rdf:first  "Benfica" .
+
+_:b727  rdf:rest   _:b723 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b728  rdf:rest   _:b727 ;
+        rdf:first  "FC Porto" .
+
+_:b726  rdf:rest   _:b729 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b715  rdf:rest   _:b716 ;
+        rdf:first  "Arsenal FC" .
+
+_:b730  rdf:rest   rdf:nil ;
+        rdf:first  _:b724 .
+
+_:b713  rdf:rest   _:b730 ;
+        rdf:first  rdf:nil .
+
+_:b729  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b722  rdf:rest   _:b728 ;
+        rdf:first  "AS Roma" .
+
+_:b712  foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "HÃ¥kon" ;
+        foot:currentClub  _:b9 .
+
+_:b731  foot:country      "Argentina" ;
+        foaf:birthDate    "1964-12-05"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  012756839 ;
+        foaf:name         "Lionel" ;
+        foot:position     "Forward" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "MÃ¼ller" .
+
+_:b732  foot:country      "England" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b10 .
+
+_:b733  foaf:name         "Serie A" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b9 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b8 ;
+        foot:topTeams     _:b2 .
+
+_:b734  foot:country      "Egypt" ;
+        foaf:birthDate    "2000-01-13"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "NÃºÃ±ez" .
+
+_:b735  foot:country      "Portugal" ;
+        foaf:birthDate    "1988-03-07"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Defender" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Fernandes" .
+
+_:b736  foot:country      "France" ;
+        foaf:birthDate    "1977-08-04"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100100100100100100 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Midfielder" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "PÃ©rez" .
+
+_:b737  foot:country      "England" ;
+        foaf:birthDate    "1956-06-02"^^xsd:date ;
+        foot:clubHistory  _:b738 .
+
+_:b738  rdf:rest   _:b739 ;
+        rdf:first  "Tottenham Hotspur"@fr .
+
+_:b740  rdf:rest   rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b741  rdf:rest   _:b740 ;
+        rdf:first  "Inter Milan" .
+
+_:b739  rdf:rest   _:b741 ;
+        rdf:first  "AS Roma" .
+
+_:b737  foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "D'Artagnan" .
+
+_:b742  foot:country      "England" ;
+        foaf:birthDate    "2010-11-09"^^xsd:date ;
+        foot:clubHistory  _:b743 .
+
+_:b744  rdf:rest   rdf:nil ;
+        rdf:first  _:b745 .
+
+_:b746  rdf:rest   _:b747 ;
+        rdf:first  rdf:nil .
+
+_:b748  rdf:rest   rdf:nil ;
+        rdf:first  _:b749 .
+
+_:b750  rdf:rest   _:b751 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b752  rdf:rest   _:b753 ;
+        rdf:first  rdf:nil .
+
+_:b754  rdf:rest   rdf:nil ;
+        rdf:first  _:b755 .
+
+_:b756  rdf:rest   _:b757 ;
+        rdf:first  rdf:nil .
+
+_:b758  rdf:rest   rdf:nil ;
+        rdf:first  _:b759 .
+
+_:b760  rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b761  rdf:rest   _:b762 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b763  rdf:rest   rdf:nil ;
+        rdf:first  _:b764 .
+
+_:b765  rdf:rest   _:b766 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b767  rdf:rest   _:b768 ;
+        rdf:first  rdf:nil .
+
+_:b769  rdf:rest   rdf:nil ;
+        rdf:first  _:b770 .
+
+_:b771  rdf:rest   _:b772 ;
+        rdf:first  "Inter Milan" .
+
+_:b773  rdf:rest   rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b774  rdf:rest   rdf:nil ;
+        rdf:first  "Real Madrid" .
+
+_:b775  rdf:rest   _:b776 ;
+        rdf:first  _:b777 .
+
+_:b778  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b779  rdf:rest   rdf:nil ;
+        rdf:first  _:b780 .
+
+_:b781  rdf:rest   _:b782 ;
+        rdf:first  rdf:nil .
+
+_:b783  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b784  rdf:rest   _:b785 ;
+        rdf:first  _:b786 .
+
+_:b787  rdf:rest   _:b788 ;
+        rdf:first  _:b789 .
+
+_:b780  rdf:rest   _:b790 ;
+        rdf:first  rdf:nil .
+
+_:b791  rdf:rest   _:b792 ;
+        rdf:first  rdf:nil .
+
+_:b793  rdf:rest   _:b794 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b795  rdf:rest   _:b796 ;
+        rdf:first  _:b797 .
+
+_:b798  rdf:rest   rdf:nil ;
+        rdf:first  _:b799 .
+
+_:b800  rdf:rest   _:b801 ;
+        rdf:first  rdf:nil .
+
+_:b802  rdf:rest   rdf:nil ;
+        rdf:first  "Real Madrid" .
+
+_:b803  rdf:rest   rdf:nil ;
+        rdf:first  _:b804 .
+
+_:b805  rdf:rest   rdf:nil ;
+        rdf:first  _:b806 .
+
+_:b807  rdf:rest   rdf:nil ;
+        rdf:first  _:b808 .
+
+_:b809  rdf:rest   _:b810 ;
+        rdf:first  rdf:nil .
+
+_:b811  rdf:rest   _:b812 ;
+        rdf:first  "AS Roma" .
+
+_:b813  rdf:rest   rdf:nil ;
+        rdf:first  _:b814 .
+
+_:b815  rdf:rest   rdf:nil ;
+        rdf:first  _:b816 .
+
+_:b817  rdf:rest   rdf:nil ;
+        rdf:first  _:b818 .
+
+_:b819  rdf:rest   _:b820 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b821  rdf:rest   rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b822  rdf:rest   _:b813 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b823  rdf:rest   _:b824 ;
+        rdf:first  rdf:nil .
+
+_:b825  rdf:rest   _:b826 ;
+        rdf:first  "Arsenal FC" .
+
+_:b827  rdf:rest   _:b828 ;
+        rdf:first  _:b829 .
+
+_:b830  rdf:rest   rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b831  rdf:rest   _:b832 ;
+        rdf:first  _:b833 .
+
+_:b834  rdf:rest   _:b835 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b836  rdf:rest   _:b817 ;
+        rdf:first  rdf:nil .
+
+_:b837  rdf:rest   rdf:nil ;
+        rdf:first  _:b838 .
+
+_:b839  rdf:rest   rdf:nil ;
+        rdf:first  _:b781 .
+
+_:b799  rdf:rest   _:b840 ;
+        rdf:first  rdf:nil .
+
+_:b841  rdf:rest   rdf:nil ;
+        rdf:first  _:b842 .
+
+_:b843  rdf:rest   rdf:nil ;
+        rdf:first  _:b844 .
+
+_:b816  rdf:rest   rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b845  rdf:rest   _:b846 ;
+        rdf:first  _:b847 .
+
+_:b848  rdf:rest   rdf:nil ;
+        rdf:first  _:b849 .
+
+_:b850  rdf:rest   _:b851 ;
+        rdf:first  rdf:nil .
+
+_:b851  rdf:rest   rdf:nil ;
+        rdf:first  _:b852 .
+
+_:b853  rdf:rest   _:b854 ;
+        rdf:first  "AS Roma" .
+
+_:b818  rdf:rest   _:b855 ;
+        rdf:first  rdf:nil .
+
+_:b856  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b857  rdf:rest   _:b858 ;
+        rdf:first  rdf:nil .
+
+_:b859  rdf:rest   rdf:nil ;
+        rdf:first  "Manchester United" .
+
+_:b860  rdf:rest   rdf:nil ;
+        rdf:first  _:b861 .
+
+_:b862  rdf:rest   rdf:nil ;
+        rdf:first  _:b863 .
+
+_:b864  rdf:rest   rdf:nil ;
+        rdf:first  _:b865 .
+
+_:b866  rdf:rest   _:b867 ;
+        rdf:first  rdf:nil .
+
+_:b868  rdf:rest   rdf:nil ;
+        rdf:first  _:b869 .
+
+_:b870  rdf:rest   _:b871 ;
+        rdf:first  rdf:nil .
+
+_:b745  rdf:rest   rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b872  rdf:rest   rdf:nil ;
+        rdf:first  _:b873 .
+
+_:b874  rdf:rest   rdf:nil ;
+        rdf:first  _:b875 .
+
+_:b876  rdf:rest   rdf:nil ;
+        rdf:first  _:b877 .
+
+_:b878  rdf:rest   rdf:nil ;
+        rdf:first  "Manchester United" .
+
+_:b879  rdf:rest   _:b880 ;
+        rdf:first  _:b881 .
+
+_:b882  rdf:rest   rdf:nil ;
+        rdf:first  _:b883 .
+
+_:b884  rdf:rest   _:b885 ;
+        rdf:first  rdf:nil .
+
+_:b828  rdf:rest   _:b886 ;
+        rdf:first  _:b887 .
+
+_:b888  rdf:rest   rdf:nil ;
+        rdf:first  _:b889 .
+
+_:b890  rdf:rest   rdf:nil ;
+        rdf:first  _:b891 .
+
+_:b814  rdf:rest   _:b892 ;
+        rdf:first  rdf:nil .
+
+_:b893  rdf:rest   rdf:nil ;
+        rdf:first  _:b894 .
+
+_:b895  rdf:rest   _:b896 ;
+        rdf:first  rdf:nil .
+
+_:b897  rdf:rest   _:b775 ;
+        rdf:first  _:b811 .
+
+_:b898  rdf:rest   _:b899 ;
+        rdf:first  rdf:nil .
+
+_:b900  rdf:rest   _:b827 ;
+        rdf:first  _:b901 .
+
+_:b902  rdf:rest   _:b903 ;
+        rdf:first  _:b819 .
+
+_:b896  rdf:rest   rdf:nil ;
+        rdf:first  _:b904 .
+
+_:b905  rdf:rest   rdf:nil ;
+        rdf:first  _:b906 .
+
+_:b907  rdf:rest   _:b908 ;
+        rdf:first  rdf:nil .
+
+_:b909  rdf:rest   rdf:nil ;
+        rdf:first  _:b767 .
+
+_:b910  rdf:rest   _:b911 ;
+        rdf:first  rdf:nil .
+
+_:b912  rdf:rest   rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b826  rdf:rest   rdf:nil ;
+        rdf:first  _:b913 .
+
+_:b914  rdf:rest   rdf:nil ;
+        rdf:first  _:b850 .
+
+_:b915  rdf:rest   rdf:nil ;
+        rdf:first  _:b916 .
+
+_:b917  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b918  rdf:rest   _:b919 ;
+        rdf:first  rdf:nil .
+
+_:b920  rdf:rest   rdf:nil ;
+        rdf:first  _:b921 .
+
+_:b922  rdf:rest   rdf:nil ;
+        rdf:first  _:b910 .
+
+_:b923  rdf:rest   _:b862 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b924  rdf:rest   _:b925 ;
+        rdf:first  _:b926 .
+
+_:b927  rdf:rest   _:b928 ;
+        rdf:first  _:b929 .
+
+_:b930  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b931  rdf:rest   rdf:nil ;
+        rdf:first  "Manchester United" .
+
+_:b932  rdf:rest   rdf:nil ;
+        rdf:first  _:b933 .
+
+_:b934  rdf:rest   rdf:nil ;
+        rdf:first  _:b878 .
+
+_:b913  rdf:rest   _:b935 ;
+        rdf:first  rdf:nil .
+
+_:b936  rdf:rest   _:b937 ;
+        rdf:first  _:b938 .
+
+_:b939  rdf:rest   _:b864 ;
+        rdf:first  rdf:nil .
+
+_:b858  rdf:rest   rdf:nil ;
+        rdf:first  _:b940 .
+
+_:b941  rdf:rest   rdf:nil ;
+        rdf:first  _:b942 .
+
+_:b943  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b944  rdf:rest   _:b945 ;
+        rdf:first  rdf:nil .
+
+_:b946  rdf:rest   _:b947 ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b948  rdf:rest   _:b949 ;
+        rdf:first  rdf:nil .
+
+_:b950  rdf:rest   _:b837 ;
+        rdf:first  rdf:nil .
+
+_:b951  rdf:rest   rdf:nil ;
+        rdf:first  _:b952 .
+
+_:b953  rdf:rest   _:b954 ;
+        rdf:first  "Valencia CF" .
+
+_:b955  rdf:rest   _:b934 ;
+        rdf:first  rdf:nil .
+
+_:b956  rdf:rest   rdf:nil ;
+        rdf:first  _:b957 .
+
+_:b958  rdf:rest   rdf:nil ;
+        rdf:first  _:b959 .
+
+_:b842  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b960  rdf:rest   _:b961 ;
+        rdf:first  _:b962 .
+
+_:b804  rdf:rest   _:b963 ;
+        rdf:first  rdf:nil .
+
+_:b964  rdf:rest   rdf:nil ;
+        rdf:first  _:b965 .
+
+_:b966  rdf:rest   _:b967 ;
+        rdf:first  _:b968 .
+
+_:b969  rdf:rest   _:b970 ;
+        rdf:first  rdf:nil .
+
+_:b935  rdf:rest   rdf:nil ;
+        rdf:first  _:b971 .
+
+_:b972  rdf:rest   _:b973 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b757  rdf:rest   rdf:nil ;
+        rdf:first  _:b974 .
+
+_:b975  rdf:rest   _:b976 ;
+        rdf:first  _:b977 .
+
+_:b978  rdf:rest   _:b779 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b979  rdf:rest   rdf:nil ;
+        rdf:first  _:b895 .
+
+_:b980  rdf:rest   _:b981 ;
+        rdf:first  rdf:nil .
+
+_:b982  rdf:rest   rdf:nil ;
+        rdf:first  "FC Porto" .
+
+_:b894  rdf:rest   _:b807 ;
+        rdf:first  rdf:nil .
+
+_:b983  rdf:rest   _:b984 ;
+        rdf:first  _:b761 .
+
+_:b903  rdf:rest   _:b897 ;
+        rdf:first  _:b985 .
+
+_:b986  rdf:rest   _:b987 ;
+        rdf:first  rdf:nil .
+
+_:b988  rdf:rest   rdf:nil ;
+        rdf:first  _:b989 .
+
+_:b990  rdf:rest   _:b860 ;
+        rdf:first  rdf:nil .
+
+_:b991  rdf:rest   rdf:nil ;
+        rdf:first  _:b823 .
+
+_:b904  rdf:rest   _:b992 ;
+        rdf:first  rdf:nil .
+
+_:b993  rdf:rest   _:b839 ;
+        rdf:first  rdf:nil .
+
+_:b994  rdf:rest   rdf:nil ;
+        rdf:first  _:b995 .
+
+_:b996  rdf:rest   rdf:nil ;
+        rdf:first  _:b997 .
+
+_:b998  rdf:rest   rdf:nil ;
+        rdf:first  _:b999 .
+
+_:b1000  rdf:rest  rdf:nil ;
+        rdf:first  _:b1001 .
+
+_:b1002  rdf:rest  rdf:nil ;
+        rdf:first  _:b980 .
+
+_:b1003  rdf:rest  _:b1004 ;
+        rdf:first  rdf:nil .
+
+_:b1005  rdf:rest  rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b1006  rdf:rest  rdf:nil ;
+        rdf:first  _:b1007 .
+
+_:b829  rdf:rest   _:b1008 ;
+        rdf:first  "AC Milan" .
+
+_:b871  rdf:rest   rdf:nil ;
+        rdf:first  _:b1009 .
+
+_:b751  rdf:rest   rdf:nil ;
+        rdf:first  _:b1010 .
+
+_:b1011  rdf:rest  _:b1012 ;
+        rdf:first  rdf:nil .
+
+_:b1013  rdf:rest  rdf:nil ;
+        rdf:first  _:b1014 .
+
+_:b1015  rdf:rest  _:b1016 ;
+        rdf:first  rdf:nil .
+
+_:b1017  rdf:rest  rdf:nil ;
+        rdf:first  _:b955 .
+
+_:b1018  rdf:rest  rdf:nil ;
+        rdf:first  _:b809 .
+
+_:b1019  rdf:rest  rdf:nil ;
+        rdf:first  _:b993 .
+
+_:b1020  rdf:rest  rdf:nil ;
+        rdf:first  _:b1021 .
+
+_:b899  rdf:rest   rdf:nil ;
+        rdf:first  _:b1022 .
+
+_:b788  rdf:rest   _:b1023 ;
+        rdf:first  _:b1024 .
+
+_:b1025  rdf:rest  _:b1026 ;
+        rdf:first  rdf:nil .
+
+_:b820  rdf:rest   rdf:nil ;
+        rdf:first  _:b1027 .
+
+_:b1028  rdf:rest  _:b1029 ;
+        rdf:first  _:b793 .
+
+_:b1030  rdf:rest  _:b1031 ;
+        rdf:first  rdf:nil .
+
+_:b1032  rdf:rest  _:b1033 ;
+        rdf:first  "Juventus FC" .
+
+_:b1034  rdf:rest  _:b834 ;
+        rdf:first  rdf:nil .
+
+_:b1035  rdf:rest  rdf:nil ;
+        rdf:first  _:b907 .
+
+_:b846  rdf:rest   _:b1036 ;
+        rdf:first  _:b1037 .
+
+_:b1038  rdf:rest  _:b1039 ;
+        rdf:first  "FC Porto" .
+
+_:b1040  rdf:rest  rdf:nil ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b1041  rdf:rest  rdf:nil ;
+        rdf:first  _:b986 .
+
+_:b1042  rdf:rest  _:b1043 ;
+        rdf:first  rdf:nil .
+
+_:b1044  rdf:rest  _:b1045 ;
+        rdf:first  rdf:nil .
+
+_:b968  rdf:rest   _:b1046 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b1047  rdf:rest  rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b1048  rdf:rest  _:b1049 ;
+        rdf:first  _:b1050 .
+
+_:b1022  rdf:rest  _:b1051 ;
+        rdf:first  rdf:nil .
+
+_:b1052  rdf:rest  rdf:nil ;
+        rdf:first  _:b1053 .
+
+_:b1054  rdf:rest  rdf:nil ;
+        rdf:first  _:b1055 .
+
+_:b1056  rdf:rest  rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b1057  rdf:rest  rdf:nil ;
+        rdf:first  _:b1058 .
+
+_:b891  rdf:rest   _:b1059 ;
+        rdf:first  rdf:nil .
+
+_:b1060  rdf:rest  _:b900 ;
+        rdf:first  _:b1061 .
+
+_:b855  rdf:rest   rdf:nil ;
+        rdf:first  _:b1056 .
+
+_:b1062  rdf:rest  _:b975 ;
+        rdf:first  _:b1063 .
+
+_:b1064  rdf:rest  _:b1065 ;
+        rdf:first  "Real Madrid" .
+
+_:b832  rdf:rest   _:b1066 ;
+        rdf:first  _:b1067 .
+
+_:b1068  rdf:rest  _:b905 ;
+        rdf:first  rdf:nil .
+
+_:b921  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b1069  rdf:rest  _:b1070 ;
+        rdf:first  rdf:nil .
+
+_:b749  rdf:rest   _:b1071 ;
+        rdf:first  rdf:nil .
+
+_:b974  rdf:rest   rdf:nil ;
+        rdf:first  "Arsenal FC" .
+
+_:b1072  rdf:rest  _:b1073 ;
+        rdf:first  "Benfica" .
+
+_:b959  rdf:rest   _:b1074 ;
+        rdf:first  rdf:nil .
+
+_:b1075  rdf:rest  _:b769 ;
+        rdf:first  rdf:nil .
+
+_:b911  rdf:rest   rdf:nil ;
+        rdf:first  _:b990 .
+
+_:b1076  rdf:rest  _:b1077 ;
+        rdf:first  rdf:nil .
+
+_:b1078  rdf:rest  _:b1079 ;
+        rdf:first  rdf:nil .
+
+_:b1080  rdf:rest  rdf:nil ;
+        rdf:first  _:b1081 .
+
+_:b1082  rdf:rest  rdf:nil ;
+        rdf:first  _:b1083 .
+
+_:b1084  rdf:rest  _:b1085 ;
+        rdf:first  _:b1086 .
+
+_:b759  rdf:rest   _:b1087 ;
+        rdf:first  rdf:nil .
+
+_:b1088  rdf:rest  rdf:nil ;
+        rdf:first  _:b1089 .
+
+_:b1090  rdf:rest  rdf:nil ;
+        rdf:first  _:b802 .
+
+_:b1091  rdf:rest  rdf:nil ;
+        rdf:first  _:b898 .
+
+_:b873  rdf:rest   _:b744 ;
+        rdf:first  rdf:nil .
+
+_:b965  rdf:rest   _:b888 ;
+        rdf:first  rdf:nil .
+
+_:b1092  rdf:rest  rdf:nil ;
+        rdf:first  _:b1093 .
+
+_:b1094  rdf:rest  rdf:nil ;
+        rdf:first  _:b1015 .
+
+_:b1095  rdf:rest  _:b1096 ;
+        rdf:first  rdf:nil .
+
+_:b747  rdf:rest   rdf:nil ;
+        rdf:first  _:b1097 .
+
+_:b938  rdf:rest   _:b1098 ;
+        rdf:first  "AS Roma" .
+
+_:b945  rdf:rest   rdf:nil ;
+        rdf:first  _:b1099 .
+
+_:b885  rdf:rest   rdf:nil ;
+        rdf:first  _:b1100 .
+
+_:b1101  rdf:rest  _:b1102 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b786  rdf:rest   _:b876 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b806  rdf:rest   _:b848 ;
+        rdf:first  rdf:nil .
+
+_:b1059  rdf:rest  rdf:nil ;
+        rdf:first  _:b856 .
+
+_:b1079  rdf:rest  rdf:nil ;
+        rdf:first  _:b1025 .
+
+_:b1103  rdf:rest  rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b1104  rdf:rest  _:b951 ;
+        rdf:first  rdf:nil .
+
+_:b1105  rdf:rest  _:b1084 ;
+        rdf:first  _:b1106 .
+
+_:b1107  rdf:rest  rdf:nil ;
+        rdf:first  "Benfica" .
+
+_:b1108  rdf:rest  rdf:nil ;
+        rdf:first  _:b1109 .
+
+_:b1110  rdf:rest  rdf:nil ;
+        rdf:first  _:b912 .
+
+_:b877  rdf:rest   _:b748 ;
+        rdf:first  rdf:nil .
+
+_:b1111  rdf:rest  rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b1112  rdf:rest  _:b1113 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b925  rdf:rest   _:b1114 ;
+        rdf:first  _:b1115 .
+
+_:b1036  rdf:rest  _:b966 ;
+        rdf:first  _:b1116 .
+
+_:b1117  rdf:rest  _:b1094 ;
+        rdf:first  "Real Madrid" .
+
+_:b1118  rdf:rest  rdf:nil ;
+        rdf:first  _:b1119 .
+
+_:b933  rdf:rest   _:b1120 ;
+        rdf:first  rdf:nil .
+
+_:b1121  rdf:rest  rdf:nil ;
+        rdf:first  _:b1122 .
+
+_:b1123  rdf:rest  rdf:nil ;
+        rdf:first  _:b1124 .
+
+_:b1125  rdf:rest  _:b1126 ;
+        rdf:first  rdf:nil .
+
+_:b1127  rdf:rest  _:b1128 ;
+        rdf:first  _:b750 .
+
+_:b1129  rdf:rest  _:b1130 ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b1049  rdf:rest  _:b1131 ;
+        rdf:first  _:b1132 .
+
+_:b1133  rdf:rest  _:b1134 ;
+        rdf:first  rdf:nil .
+
+_:b1135  rdf:rest  rdf:nil ;
+        rdf:first  _:b1136 .
+
+_:b992  rdf:rest   rdf:nil ;
+        rdf:first  _:b1137 .
+
+_:b1138  rdf:rest  rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b1139  rdf:rest  _:b1140 ;
+        rdf:first  _:b1141 .
+
+_:b1067  rdf:rest  _:b1142 ;
+        rdf:first  "Juventus FC" .
+
+_:b1143  rdf:rest  _:b1144 ;
+        rdf:first  rdf:nil .
+
+_:b954  rdf:rest   rdf:nil ;
+        rdf:first  _:b1011 .
+
+_:b1024  rdf:rest  _:b1145 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b847  rdf:rest   _:b1146 ;
+        rdf:first  "Atletico Madrid" .
+
+_:b1147  rdf:rest  rdf:nil ;
+        rdf:first  _:b773 .
+
+_:b1148  rdf:rest  rdf:nil ;
+        rdf:first  _:b765 .
+
+_:b1149  rdf:rest  rdf:nil ;
+        rdf:first  _:b1150 .
+
+_:b1151  rdf:rest  rdf:nil ;
+        rdf:first  _:b1152 .
+
+_:b906  rdf:rest   _:b1153 ;
+        rdf:first  rdf:nil .
+
+_:b1154  rdf:rest  _:b1155 ;
+        rdf:first  rdf:nil .
+
+_:b1083  rdf:rest  rdf:nil ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b1097  rdf:rest  rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b947  rdf:rest   rdf:nil ;
+        rdf:first  _:b1156 .
+
+_:b1157  rdf:rest  _:b1158 ;
+        rdf:first  rdf:nil .
+
+_:b1106  rdf:rest  _:b1121 ;
+        rdf:first  "AC Milan" .
+
+_:b977  rdf:rest   _:b1159 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b1160  rdf:rest  _:b1161 ;
+        rdf:first  _:b1162 .
+
+_:b883  rdf:rest   _:b1057 ;
+        rdf:first  rdf:nil .
+
+_:b1163  rdf:rest  _:b979 ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b1164  rdf:rest  _:b1165 ;
+        rdf:first  rdf:nil .
+
+_:b764  rdf:rest   _:b1088 ;
+        rdf:first  rdf:nil .
+
+_:b1128  rdf:rest  _:b1139 ;
+        rdf:first  _:b1166 .
+
+_:b1065  rdf:rest  rdf:nil ;
+        rdf:first  _:b1167 .
+
+_:b1168  rdf:rest  _:b1020 ;
+        rdf:first  rdf:nil .
+
+_:b1046  rdf:rest  rdf:nil ;
+        rdf:first  _:b1169 .
+
+_:b1170  rdf:rest  _:b841 ;
+        rdf:first  rdf:nil .
+
+_:b1027  rdf:rest  _:b1171 ;
+        rdf:first  rdf:nil .
+
+_:b1162  rdf:rest  _:b1108 ;
+        rdf:first  "Valencia CF" .
+
+_:b1096  rdf:rest  rdf:nil ;
+        rdf:first  _:b830 .
+
+_:b1116  rdf:rest  _:b915 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b1172  rdf:rest  _:b1118 ;
+        rdf:first  rdf:nil .
+
+_:b1173  rdf:rest  _:b1174 ;
+        rdf:first  rdf:nil .
+
+_:b889  rdf:rest   rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b1175  rdf:rest  rdf:nil ;
+        rdf:first  _:b1172 .
+
+_:b1176  rdf:rest  _:b758 ;
+        rdf:first  rdf:nil .
+
+_:b1177  rdf:rest  rdf:nil ;
+        rdf:first  _:b1104 .
+
+_:b1178  rdf:rest  rdf:nil ;
+        rdf:first  _:b1143 .
+
+_:b1161  rdf:rest  _:b787 ;
+        rdf:first  _:b1038 .
+
+_:b865  rdf:rest   rdf:nil ;
+        rdf:first  "FC Porto" .
+
+_:b1179  rdf:rest  rdf:nil ;
+        rdf:first  _:b1180 .
+
+_:b1058  rdf:rest  rdf:nil ;
+        rdf:first  "Inter Milan" .
+
+_:b1153  rdf:rest  rdf:nil ;
+        rdf:first  _:b931 .
+
+_:b794  rdf:rest   rdf:nil ;
+        rdf:first  _:b791 .
+
+_:b1181  rdf:rest  _:b1006 ;
+        rdf:first  rdf:nil .
+
+_:b1182  rdf:rest  rdf:nil ;
+        rdf:first  _:b948 .
+
+_:b962  rdf:rest   _:b874 ;
+        rdf:first  "AC Milan" .
+
+_:b1183  rdf:rest  _:b1184 ;
+        rdf:first  _:b853 .
+
+_:b1185  rdf:rest  _:b1110 ;
+        rdf:first  rdf:nil .
+
+_:b1156  rdf:rest  _:b932 ;
+        rdf:first  rdf:nil .
+
+_:b808  rdf:rest   rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b1114  rdf:rest  _:b1028 ;
+        rdf:first  _:b953 .
+
+_:b892  rdf:rest   rdf:nil ;
+        rdf:first  _:b756 .
+
+_:b1186  rdf:rest  rdf:nil ;
+        rdf:first  _:b1187 .
+
+_:b867  rdf:rest   rdf:nil ;
+        rdf:first  _:b1133 .
+
+_:b1188  rdf:rest  _:b1123 ;
+        rdf:first  "Manchester United" .
+
+_:b901  rdf:rest   _:b1080 ;
+        rdf:first  "Manchester United" .
+
+_:b1158  rdf:rest  rdf:nil ;
+        rdf:first  _:b1189 .
+
+_:b1087  rdf:rest  rdf:nil ;
+        rdf:first  _:b1190 .
+
+_:b997  rdf:rest   _:b1002 ;
+        rdf:first  rdf:nil .
+
+_:b1191  rdf:rest  _:b941 ;
+        rdf:first  "FC Barcelona" .
+
+_:b949  rdf:rest   rdf:nil ;
+        rdf:first  _:b930 .
+
+_:b989  rdf:rest   _:b1192 ;
+        rdf:first  rdf:nil .
+
+_:b1193  rdf:rest  rdf:nil ;
+        rdf:first  "AC Milan" .
+
+_:b1194  rdf:rest  rdf:nil ;
+        rdf:first  _:b1195 .
+
+_:b1130  rdf:rest  rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b1070  rdf:rest  rdf:nil ;
+        rdf:first  _:b1047 .
+
+_:b1196  rdf:rest  _:b1197 ;
+        rdf:first  rdf:nil .
+
+_:b1198  rdf:rest  rdf:nil ;
+        rdf:first  _:b1199 .
+
+_:b1077  rdf:rest  rdf:nil ;
+        rdf:first  _:b859 .
+
+_:b755  rdf:rest   _:b1175 ;
+        rdf:first  rdf:nil .
+
+_:b1140  rdf:rest  _:b1183 ;
+        rdf:first  _:b1117 .
+
+_:b1142  rdf:rest  rdf:nil ;
+        rdf:first  _:b1173 .
+
+_:b743  rdf:rest   _:b1135 ;
+        rdf:first  _:b1200 .
+
+_:b919  rdf:rest   rdf:nil ;
+        rdf:first  _:b1201 .
+
+_:b1202  rdf:rest  rdf:nil ;
+        rdf:first  _:b1103 .
+
+_:b1100  rdf:rest  rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b886  rdf:rest   _:b831 ;
+        rdf:first  _:b1072 .
+
+_:b1016  rdf:rest  rdf:nil ;
+        rdf:first  _:b1203 .
+
+_:b777  rdf:rest   _:b1204 ;
+        rdf:first  "AS Roma" .
+
+_:b1150  rdf:rest  rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b1159  rdf:rest  rdf:nil ;
+        rdf:first  _:b1205 .
+
+_:b1206  rdf:rest  _:b1018 ;
+        rdf:first  rdf:nil .
+
+_:b1137  rdf:rest  rdf:nil ;
+        rdf:first  "Manchester United" .
+
+_:b1207  rdf:rest  rdf:nil ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b1132  rdf:rest  _:b1177 ;
+        rdf:first  "Manchester United" .
+
+_:b1012  rdf:rest  rdf:nil ;
+        rdf:first  _:b884 .
+
+_:b1007  rdf:rest  _:b1092 ;
+        rdf:first  rdf:nil .
+
+_:b1192  rdf:rest  rdf:nil ;
+        rdf:first  _:b1208 .
+
+_:b1131  rdf:rest  _:b1209 ;
+        rdf:first  _:b1210 .
+
+_:b875  rdf:rest   _:b1211 ;
+        rdf:first  rdf:nil .
+
+_:b861  rdf:rest   rdf:nil ;
+        rdf:first  "Manchester United" .
+
+_:b1212  rdf:rest  _:b1213 ;
+        rdf:first  rdf:nil .
+
+_:b1180  rdf:rest  _:b1214 ;
+        rdf:first  rdf:nil .
+
+_:b1014  rdf:rest  rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b1215  rdf:rest  rdf:nil ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b766  rdf:rest   rdf:nil ;
+        rdf:first  _:b752 .
+
+_:b753  rdf:rest   rdf:nil ;
+        rdf:first  _:b918 .
+
+_:b1216  rdf:rest  rdf:nil ;
+        rdf:first  _:b870 .
+
+_:b887  rdf:rest   _:b1041 ;
+        rdf:first  "Juventus FC" .
+
+_:b1190  rdf:rest  rdf:nil ;
+        rdf:first  "FC Schalke 04" .
+
+_:b1217  rdf:rest  rdf:nil ;
+        rdf:first  _:b836 .
+
+_:b1174  rdf:rest  rdf:nil ;
+        rdf:first  _:b1218 .
+
+_:b1141  rdf:rest  _:b1186 ;
+        rdf:first  "FC Barcelona" .
+
+_:b1136  rdf:rest  rdf:nil ;
+        rdf:first  _:b1219 .
+
+_:b790  rdf:rest   rdf:nil ;
+        rdf:first  _:b1157 .
+
+_:b762  rdf:rest   rdf:nil ;
+        rdf:first  _:b1220 .
+
+_:b1063  rdf:rest  _:b803 ;
+        rdf:first  "FC Porto" .
+
+_:b928  rdf:rest   _:b1062 ;
+        rdf:first  _:b923 .
+
+_:b849  rdf:rest   rdf:nil ;
+        rdf:first  "Olympique de Marseille" .
+
+_:b838  rdf:rest   rdf:nil ;
+        rdf:first  "Atletico Madrid" .
+
+_:b1099  rdf:rest  rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b1208  rdf:rest  _:b815 ;
+        rdf:first  rdf:nil .
+
+_:b1214  rdf:rest  rdf:nil ;
+        rdf:first  _:b1076 .
+
+_:b880  rdf:rest   _:b845 ;
+        rdf:first  _:b1221 .
+
+_:b952  rdf:rest   _:b1149 ;
+        rdf:first  rdf:nil .
+
+_:b1169  rdf:rest  _:b1054 ;
+        rdf:first  rdf:nil .
+
+_:b1081  rdf:rest  _:b1017 ;
+        rdf:first  rdf:nil .
+
+_:b810  rdf:rest   rdf:nil ;
+        rdf:first  _:b1222 .
+
+_:b1223  rdf:rest  _:b1019 ;
+        rdf:first  "AC Milan" .
+
+_:b1051  rdf:rest  rdf:nil ;
+        rdf:first  _:b1215 .
+
+_:b981  rdf:rest   rdf:nil ;
+        rdf:first  _:b943 .
+
+_:b1201  rdf:rest  rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b1009  rdf:rest  _:b1082 ;
+        rdf:first  rdf:nil .
+
+_:b970  rdf:rest   rdf:nil ;
+        rdf:first  _:b982 .
+
+_:b963  rdf:rest   rdf:nil ;
+        rdf:first  _:b969 .
+
+_:b1195  rdf:rest  rdf:nil ;
+        rdf:first  "Atletico Madrid" .
+
+_:b1224  rdf:rest  _:b909 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b1045  rdf:rest  rdf:nil ;
+        rdf:first  _:b1225 .
+
+_:b1204  rdf:rest  rdf:nil ;
+        rdf:first  _:b1075 .
+
+_:b971  rdf:rest   _:b1226 ;
+        rdf:first  rdf:nil .
+
+_:b840  rdf:rest   rdf:nil ;
+        rdf:first  _:b821 .
+
+_:b908  rdf:rest   rdf:nil ;
+        rdf:first  _:b1227 .
+
+_:b1102  rdf:rest  rdf:nil ;
+        rdf:first  _:b1228 .
+
+_:b1029  rdf:rest  _:b1229 ;
+        rdf:first  _:b1230 .
+
+_:b782  rdf:rest   rdf:nil ;
+        rdf:first  _:b1005 .
+
+_:b1231  rdf:rest  rdf:nil ;
+        rdf:first  _:b1040 .
+
+_:b1219  rdf:rest  _:b1154 ;
+        rdf:first  rdf:nil .
+
+_:b1232  rdf:rest  rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b1233  rdf:rest  _:b998 ;
+        rdf:first  rdf:nil .
+
+_:b1209  rdf:rest  _:b1127 ;
+        rdf:first  _:b972 .
+
+_:b937  rdf:rest   _:b1160 ;
+        rdf:first  _:b1234 .
+
+_:b1235  rdf:rest  _:b956 ;
+        rdf:first  rdf:nil .
+
+_:b1221  rdf:rest  _:b763 ;
+        rdf:first  "Arsenal FC" .
+
+_:b957  rdf:rest   _:b1202 ;
+        rdf:first  rdf:nil .
+
+_:b916  rdf:rest   _:b805 ;
+        rdf:first  rdf:nil .
+
+_:b1236  rdf:rest  rdf:nil ;
+        rdf:first  _:b1185 .
+
+_:b1237  rdf:rest  rdf:nil ;
+        rdf:first  _:b1170 .
+
+_:b1227  rdf:rest  _:b1147 ;
+        rdf:first  rdf:nil .
+
+_:b1226  rdf:rest  rdf:nil ;
+        rdf:first  _:b783 .
+
+_:b1187  rdf:rest  _:b1178 ;
+        rdf:first  rdf:nil .
+
+_:b1089  rdf:rest  _:b1238 ;
+        rdf:first  rdf:nil .
+
+_:b1239  rdf:rest  _:b1240 ;
+        rdf:first  "FC Barcelona" .
+
+_:b973  rdf:rest   rdf:nil ;
+        rdf:first  _:b1068 .
+
+_:b1122  rdf:rest  _:b1241 ;
+        rdf:first  rdf:nil .
+
+_:b863  rdf:rest   _:b868 ;
+        rdf:first  rdf:nil .
+
+_:b1120  rdf:rest  rdf:nil ;
+        rdf:first  _:b1207 .
+
+_:b929  rdf:rest   _:b1091 ;
+        rdf:first  "Arsenal FC" .
+
+_:b1222  rdf:rest  rdf:nil ;
+        rdf:first  "Real Madrid" .
+
+_:b1167  rdf:rest  _:b882 ;
+        rdf:first  rdf:nil .
+
+_:b1010  rdf:rest  _:b1242 ;
+        rdf:first  rdf:nil .
+
+_:b1243  rdf:rest  rdf:nil ;
+        rdf:first  _:b760 .
+
+_:b1242  rdf:rest  rdf:nil ;
+        rdf:first  _:b1244 .
+
+_:b1220  rdf:rest  _:b1052 ;
+        rdf:first  rdf:nil .
+
+_:b1113  rdf:rest  rdf:nil ;
+        rdf:first  _:b1181 .
+
+_:b1152  rdf:rest  rdf:nil ;
+        rdf:first  "Arsenal FC" .
+
+_:b1213  rdf:rest  rdf:nil ;
+        rdf:first  _:b944 .
+
+_:b1021  rdf:rest  _:b1000 ;
+        rdf:first  rdf:nil .
+
+_:b1037  rdf:rest  _:b1245 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b1246  rdf:rest  _:b1179 ;
+        rdf:first  "FC Porto" .
+
+_:b1001  rdf:rest  rdf:nil ;
+        rdf:first  "Valencia CF" .
+
+_:b1115  rdf:rest  _:b1217 ;
+        rdf:first  "FC Schalke 04" .
+
+_:b1085  rdf:rest  _:b924 ;
+        rdf:first  _:b1239 .
+
+_:b796  rdf:rest   _:b902 ;
+        rdf:first  _:b1032 .
+
+_:b926  rdf:rest   _:b922 ;
+        rdf:first  "AS Roma" .
+
+_:b812  rdf:rest   rdf:nil ;
+        rdf:first  _:b866 .
+
+_:b1247  rdf:rest  rdf:nil ;
+        rdf:first  _:b1030 .
+
+_:b869  rdf:rest   _:b1243 ;
+        rdf:first  rdf:nil .
+
+_:b1145  rdf:rest  rdf:nil ;
+        rdf:first  _:b800 .
+
+_:b1229  rdf:rest  _:b784 ;
+        rdf:first  _:b771 .
+
+_:b1248  rdf:rest  rdf:nil ;
+        rdf:first  _:b1176 .
+
+_:b1249  rdf:rest  _:b927 ;
+        rdf:first  _:b1064 .
+
+_:b1074  rdf:rest  rdf:nil ;
+        rdf:first  _:b1095 .
+
+_:b1008  rdf:rest  rdf:nil ;
+        rdf:first  _:b1250 .
+
+_:b1050  rdf:rest  _:b1251 ;
+        rdf:first  "Juventus FC" .
+
+_:b1252  rdf:rest  rdf:nil ;
+        rdf:first  _:b1253 .
+
+_:b1225  rdf:rest  rdf:nil ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b1134  rdf:rest  rdf:nil ;
+        rdf:first  _:b1138 .
+
+_:b1241  rdf:rest  rdf:nil ;
+        rdf:first  _:b1125 .
+
+_:b776  rdf:rest   _:b1060 ;
+        rdf:first  _:b946 .
+
+_:b768  rdf:rest   rdf:nil ;
+        rdf:first  _:b950 .
+
+_:b792  rdf:rest   rdf:nil ;
+        rdf:first  _:b1164 .
+
+_:b1205  rdf:rest  _:b1237 ;
+        rdf:first  rdf:nil .
+
+_:b995  rdf:rest   rdf:nil ;
+        rdf:first  "Juventus FC" .
+
+_:b881  rdf:rest   _:b1252 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b1004  rdf:rest  rdf:nil ;
+        rdf:first  _:b939 .
+
+_:b1245  rdf:rest  rdf:nil ;
+        rdf:first  _:b1212 .
+
+_:b1093  rdf:rest  rdf:nil ;
+        rdf:first  "AS Roma" .
+
+_:b1238  rdf:rest  rdf:nil ;
+        rdf:first  _:b1193 .
+
+_:b1033  rdf:rest  rdf:nil ;
+        rdf:first  _:b1168 .
+
+_:b1189  rdf:rest  rdf:nil ;
+        rdf:first  "Olympique Lyonnais" .
+
+_:b1254  rdf:rest  rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b967  rdf:rest   _:b1255 ;
+        rdf:first  _:b1191 .
+
+_:b987  rdf:rest   rdf:nil ;
+        rdf:first  _:b1044 .
+
+_:b940  rdf:rest   rdf:nil ;
+        rdf:first  "Arsenal FC" .
+
+_:b1031  rdf:rest  rdf:nil ;
+        rdf:first  _:b1232 .
+
+_:b1061  rdf:rest  _:b958 ;
+        rdf:first  "Juventus FC" .
+
+_:b1023  rdf:rest  _:b1105 ;
+        rdf:first  _:b1101 .
+
+_:b770  rdf:rest   _:b1090 ;
+        rdf:first  rdf:nil .
+
+_:b999  rdf:rest   rdf:nil ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b1228  rdf:rest  _:b1247 ;
+        rdf:first  rdf:nil .
+
+_:b1251  rdf:rest  rdf:nil ;
+        rdf:first  _:b1042 .
+
+_:b844  rdf:rest   _:b1194 ;
+        rdf:first  rdf:nil .
+
+_:b1200  rdf:rest  _:b983 ;
+        rdf:first  _:b1246 .
+
+_:b1255  rdf:rest  _:b1048 ;
+        rdf:first  _:b1188 .
+
+_:b1039  rdf:rest  rdf:nil ;
+        rdf:first  _:b1256 .
+
+_:b985  rdf:rest   _:b1035 ;
+        rdf:first  "Benfica" .
+
+_:b1166  rdf:rest  _:b1248 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b1257  rdf:rest  rdf:nil ;
+        rdf:first  _:b746 .
+
+_:b1244  rdf:rest  _:b920 ;
+        rdf:first  rdf:nil .
+
+_:b1258  rdf:rest  _:b964 ;
+        rdf:first  rdf:nil .
+
+_:b1109  rdf:rest  _:b890 ;
+        rdf:first  rdf:nil .
+
+_:b1240  rdf:rest  rdf:nil ;
+        rdf:first  _:b1003 .
+
+_:b789  rdf:rest   _:b1259 ;
+        rdf:first  "FC Barcelona" .
+
+_:b1026  rdf:rest  rdf:nil ;
+        rdf:first  _:b1107 .
+
+_:b961  rdf:rest   _:b936 ;
+        rdf:first  _:b1223 .
+
+_:b1073  rdf:rest  rdf:nil ;
+        rdf:first  _:b1258 .
+
+_:b1199  rdf:rest  rdf:nil ;
+        rdf:first  "Tottenham Hotspur" .
+
+_:b1071  rdf:rest  rdf:nil ;
+        rdf:first  _:b778 .
+
+_:b1256  rdf:rest  _:b843 ;
+        rdf:first  rdf:nil .
+
+_:b824  rdf:rest   rdf:nil ;
+        rdf:first  _:b857 .
+
+_:b1211  rdf:rest  rdf:nil ;
+        rdf:first  _:b1069 .
+
+_:b772  rdf:rest   rdf:nil ;
+        rdf:first  _:b1206 .
+
+_:b1250  rdf:rest  _:b1236 ;
+        rdf:first  rdf:nil .
+
+_:b1043  rdf:rest  rdf:nil ;
+        rdf:first  _:b1260 .
+
+_:b1218  rdf:rest  _:b1013 ;
+        rdf:first  rdf:nil .
+
+_:b976  rdf:rest   _:b960 ;
+        rdf:first  _:b1163 .
+
+_:b1261  rdf:rest  _:b1257 ;
+        rdf:first  rdf:nil .
+
+_:b1262  rdf:rest  _:b1182 ;
+        rdf:first  rdf:nil .
+
+_:b833  rdf:rest   _:b988 ;
+        rdf:first  "AS Roma" .
+
+_:b984  rdf:rest   _:b879 ;
+        rdf:first  _:b1224 .
+
+_:b1259  rdf:rest  rdf:nil ;
+        rdf:first  _:b1262 .
+
+_:b1055  rdf:rest  _:b1231 ;
+        rdf:first  rdf:nil .
+
+_:b1253  rdf:rest  _:b893 ;
+        rdf:first  rdf:nil .
+
+_:b1210  rdf:rest  _:b1216 ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b797  rdf:rest   _:b996 ;
+        rdf:first  "VÃ¥lerenga"@no .
+
+_:b1144  rdf:rest  rdf:nil ;
+        rdf:first  _:b1254 .
+
+_:b1263  rdf:rest  _:b872 ;
+        rdf:first  rdf:nil .
+
+_:b1119  rdf:rest  rdf:nil ;
+        rdf:first  "Atletico Madrid" .
+
+_:b1066  rdf:rest  _:b1264 ;
+        rdf:first  _:b825 .
+
+_:b1184  rdf:rest  _:b795 ;
+        rdf:first  _:b1112 .
+
+_:b852  rdf:rest   rdf:nil ;
+        rdf:first  "FC Barcelona" .
+
+_:b1126  rdf:rest  rdf:nil ;
+        rdf:first  _:b774 .
+
+_:b1165  rdf:rest  rdf:nil ;
+        rdf:first  _:b917 .
+
+_:b835  rdf:rest   _:b1129 ;
+        rdf:first  "Ajax Amsterdam" .
+
+_:b1146  rdf:rest  rdf:nil ;
+        rdf:first  _:b1235 .
+
+_:b801  rdf:rest   rdf:nil ;
+        rdf:first  _:b1196 .
+
+_:b1171  rdf:rest  rdf:nil ;
+        rdf:first  _:b1233 .
+
+_:b854  rdf:rest   rdf:nil ;
+        rdf:first  _:b1263 .
+
+_:b1260  rdf:rest  _:b1198 ;
+        rdf:first  rdf:nil .
+
+_:b1203  rdf:rest  _:b1151 ;
+        rdf:first  rdf:nil .
+
+_:b1086  rdf:rest  _:b991 ;
+        rdf:first  "Benfica" .
+
+_:b1197  rdf:rest  rdf:nil ;
+        rdf:first  _:b1111 .
+
+_:b1124  rdf:rest  _:b798 ;
+        rdf:first  rdf:nil .
+
+_:b1264  rdf:rest  _:b1249 ;
+        rdf:first  _:b822 .
+
+_:b942  rdf:rest   _:b914 ;
+        rdf:first  rdf:nil .
+
+_:b785  rdf:rest   _:b1148 ;
+        rdf:first  _:b978 .
+
+_:b1234  rdf:rest  _:b1265 ;
+        rdf:first  "Arsenal FC" .
+
+_:b1155  rdf:rest  _:b1034 ;
+        rdf:first  rdf:nil .
+
+_:b1230  rdf:rest  _:b754 ;
+        rdf:first  "Borussia Dortmund" .
+
+_:b1265  rdf:rest  rdf:nil ;
+        rdf:first  _:b1078 .
+
+_:b1098  rdf:rest  rdf:nil ;
+        rdf:first  _:b1261 .
+
+_:b1053  rdf:rest  _:b994 ;
+        rdf:first  rdf:nil .
+
+_:b742  foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "Al-Hassan" ;
+        foot:currentClub  _:b10 .
+
+_:b1266  foot:country     "Portugal" ;
+        foaf:birthDate    "1998-07-01"^^xsd:date ;
+        foot:clubHistory  _:b1267 .
+
+_:b1268  rdf:rest  rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b1267  rdf:rest  _:b1268 ;
+        rdf:first  "Arsenal FC"@da .
+
+_:b1266  foot:marketValue  100000000 ;
+        foaf:name         "Amadou" ;
+        foot:position     "Striker"@en ;
+        rdf:type          foot:Footballer ;
+        foaf:familyName   "BrontÃ«" .

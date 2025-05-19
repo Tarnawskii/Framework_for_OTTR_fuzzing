@@ -1,0 +1,107 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+foot:Template1 [ ?ottr:IRI ?v ]  :: { ottr:Triple(?E, foot:Footballer, _:b2) , o-rdf:Type(?y, ?IQ) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+ottr:IRI [ LUB<xsd:decimal> ?A , !LUB<owl:DatatypeProperty> ?l ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?e, foot:Footballer, foot:Template1) } .
+foot:Footballer [ ?!xsd:integer ?R ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?C, _:b1) , ottr:Triple(?X, foot:Template1, none) } .
+foot:Template1 [ ??xsd:boolean ?g ] @@ zipMin | ottr:IRI() , ottr:IRI() :: { o-rdf:Type(?z, _:b2) , o-rdf:Type(?F, none) , o-rdf:Type(?c, _:b2) } .
+ottr:IRI [ ?!?owl:Class ?B ] @@ zipMax | ottr:IRI() @@ cross | ottr:IRI(none , ) :: { o-rdf:Type(?q, _:b1) , o-rdf:Type(?V, none) , o-rdf:Type(?m, _:b2) } .
+ottr:IRI [ ?!List<LUB<owl:ObjectProperty>> ?w = ?p ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?O, _:b1) , o-rdf:Type(?t, none) , o-rdf:Type(?s, _:b1) } .
+ottr:IRI [ rdfs:Resource ?T ] @@ cross | ottr:IRI() , ottr:IRI() :: { o-rdf:Type(?r, _:b1) , o-rdf:Type(?M, _:b2) } .
+ottr:IRI [ !xsd:date ?Z ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?n, foot:Footballer, _:b2) , ottr:Triple(?d, foot:Template1, _:b2) , o-rdf:Type(?N, _:b1) } .
+ottr:IRI [ ?rdfs:Datatype ?G ] @@ zipMin | ottr:IRI() :: { ottr:Triple(?W, foot:Template1, _:b2) , o-rdf:Type(?P, _:b1) , o-rdf:Type(?K, _:b2) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+ottr:IRI [ LUB<owl:AnnotationProperty> ?J ] @@ invalid | ottr:IRI() @@ cross | ottr:IRI() :: { ottr:Triple(?X, foot:Template1, ?j) } .
+foot:Footballer [ ??owl:NamedIndividual ?b , ?!LUB<xsd:integer> ?A ]  :: { o-rdf:Type(?q, _:b2) , o-rdf:Type(?v, _:b1) , o-rdf:Type(?f, _:b1) , o-rdf:Type(?s, none) } .
+foot:Template1 [ !owl:Class ?H , ?!?xsd:boolean ?x ] @@ zipMin | foot:Template1(none) :: { o-rdf:Type(?Wi, -1+) } .
+foot:Template1 [ ?xsd:string ?K = none , !ottr:IRI ?y ] @@ ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?Q, _:b2) } .
+foot:Template1 [ List<NEList<LUB<rdfs:Resource>>> ?C = ?mkY ] @@ ottr:IRI(++ ?R , ++ (false)) , zipMin | foot:Template1(++ "0759-62-36"^^xsd:date , ++ foot:Template1 , ++ _:b2 , ) :: { o-rdf:Type(?nL, 4+.8+) } .
+foot:Footballer [ ?!?owl:DatatypeProperty ?E , ?!xsd:date ?U ] @@ ottr:IRI() @@ cross | ottr:IRI() :: { o-rdf:Type(?r, "x") , o-rdf:Type(?z, _:b1) , o-rdf:Type(?t, none) } .
+foot:Footballer [ ?owl:ObjectProperty ?I = _:b2 ] @@ ottr:IRI() :: { o-rdf:Type(?o, _:b2) , o-rdf:Type(?G, _:b2) } .
+ottr:IRI [ ?!t-pnd:Punned-Class-ObjectProperty ?F ] @@ invalid | ottr:IRI() , cross | ottr:IRI() :: { ottr:Triple(?h, foot:Template1, _:b2) } .
+ottr:IRI [ ?!LUB<rdfs:Datatype> ?d , ?!?LUB<ottr:Bot> ?Z ] @@ invalid | ottr:IRI() , ottr:IRI() :: { ottr:Triple(?D, foot:Footballer, "9<") } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Template1 [ ?!?List<LUB<owl:AnnotationProperty>> ?UE = false ]  :: { ottr:Triple(?WLT, foot:Footballer, ?B) } .
+ottr:IRI [ ?!LUB<ottr:IRI> ?n , ??rdfs:Resource ?Z , ?owl:ObjectProperty ?a ] @@ cross | foot:Footballer() :: { o-rdf:Type(?h, -9+) , o-rdf:Type(?g, none) , o-rdf:Type(?D, _:b1) , o-rdf:Type(?k, _:b2) } .
+ottr:IRI [ !LUB<ottr:Bot> ?e , LUB<rdfs:Datatype> ?P ] @@ ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?z, _:b1) } .
+foot:Template1 [ !LUB<xsd:integer> ?m ] @@ zipMin | ottr:IRI() @@ invalid | ottr:IRI() :: { o-rdf:Type(?S, foot:Footballer) , ottr:Triple(?V, foot:Footballer, _:b1) } .
+foot:Footballer [ ?!?owl:DatatypeProperty ?l , ?!?t-pnd:Punned-Class-ObjectProperty ?s , !xsd:decimal ?r ] @@ cross | ottr:IRI() @@ zipMax | ottr:IRI() :: { ottr:Triple(?i, foot:Template1, _:b2) } .
+ottr:IRI [ !LUB<xsd:boolean> ?I , ?!?LUB<xsd:string> ?A ] @@ invalid | ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?b, _:b2) , o-rdf:Type(?J, _:b2) } .
+foot:Footballer [ ?LUB<xsd:date> ?C ] @@ zipMin | ottr:IRI() @@ foot:Template1() :: { o-rdf:Type(?M, 2+.4+) } .
+foot:Template1 [ ?!?LUB<owl:Class> ?j ] @@ foot:Footballer(++ "3657-08-17"^^xsd:date) :: { ottr:Triple(?GH, foot:Template1, "o") } .
+ottr:IRI [ ?!LUB<owl:NamedIndividual> ?N , xsd:string ?p , ??LUB<xsd:boolean> ?v ] @@ invalid | ottr:IRI() @@ cross | ottr:IRI() :: { o-rdf:Type(?u, none) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Footballer [ LUB<owl:AnnotationProperty> ?k , ?rdfs:Resource ?t ]  :: { ottr:Triple(?U, foot:Template1, _:b1) , o-rdf:Type(?i, _:b2) } .
+ottr:IRI [ ?!?NEList<LUB<owl:Class>> ?g = ?I ] @@ zipMax | ottr:IRI(++ "5427-38-61"^^xsd:date) :: { o-rdf:Type(?q, ?pl) , o-rdf:Type(?v, none) } .
+ottr:IRI [ !xsd:integer ?J ] @@ zipMin | ottr:IRI() @@ invalid | ottr:IRI() :: { o-rdf:Type(?C, _:b2) , o-rdf:Type(?K, _:b2) , o-rdf:Type(?D, _:b1) } .
+ottr:IRI [ ?!xsd:string ?A ]  :: { ottr:Triple(?Q, foot:Footballer, _:b2) , ottr:Triple(?f, foot:Template1, _:b2) , o-rdf:Type(?P, _:b2) } .
+foot:Template1 [ ??LUB<xsd:decimal> ?c ] @@ cross | foot:Template1(_:b2) , foot:Template1(++ _:b1 , ) :: { o-rdf:Type(?z, -9+.0+) } .
+ottr:IRI [ LUB<ottr:IRI> ?j , ?!?LUB<owl:DatatypeProperty> ?L ] @@ ottr:IRI() :: { o-rdf:Type(?r, foot:Footballer) } .
+foot:Template1 [ ?!?xsd:boolean ?M , ?!?xsd:date ?x ] @@ zipMax | ottr:IRI() , zipMin | ottr:IRI() :: { o-rdf:Type(?Rb, true) } .
+ottr:IRI [ ?!?t-pnd:Punned-Class-ObjectProperty ?Z , ottr:Bot ?V ] @@ cross | ottr:IRI() :: { o-rdf:Type(?e, "`t") , o-rdf:Type(?G, _:b1) , o-rdf:Type(?o, _:b1) } .
+ottr:IRI [ ?rdfs:Datatype ?E ] @@ ottr:IRI() @@ ottr:IRI() :: { o-rdf:Type(?O, 1+) , o-rdf:Type(?h, _:b2) , o-rdf:Type(?s, _:b2) } .
+ottr:IRI [ !List<NEList<LUB<owl:NamedIndividual>>> ?iV ]  :: { o-rdf:Type(?vz, ?u) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Footballer [ ??t-pnd:Punned-Class-ObjectProperty ?m , ?!?rdfs:Resource ?d ]  :: { ottr:Triple(?e, foot:Template1, _:b2) , o-rdf:Type(?w, _:b1) , o-rdf:Type(?N, none) } .
+ottr:IRI [ ?!xsd:decimal ?T , ?LUB<ottr:Bot> ?h ] @@ invalid | ottr:IRI() @@ zipMin | ottr:IRI() :: { ottr:Triple(?n, foot:Template1, _:b1) } .
+ottr:IRI [ owl:Class ?x , !LUB<owl:AnnotationProperty> ?y ] @@ zipMax | ottr:IRI(none , ) , cross | ottr:IRI() :: { o-rdf:Type(?k, _:b2) } .
+ottr:IRI [ ??LUB<owl:ObjectProperty> ?a , ??xsd:string ?j ] @@ ottr:IRI() :: { o-rdf:Type(?R, _:b2) , o-rdf:Type(?C, none) , o-rdf:Type(?S, none) } .
+ottr:IRI [ !LUB<owl:DatatypeProperty> ?J , ?!?ottr:IRI ?Q ] @@ zipMin | ottr:IRI() :: { o-rdf:Type(?L, _:b2) , o-rdf:Type(?D, _:b2) , o-rdf:Type(?U, none) } .
+foot:Footballer [ xsd:date ?o , ??LUB<xsd:boolean> ?P ] @@ zipMin | ottr:IRI() :: { ottr:Triple(?O, foot:Footballer, "2431-65-79"^^xsd:date) , o-rdf:Type(?M, _:b1) } .
+foot:Template1 [ !rdfs:Datatype ?K ]  :: { o-rdf:Type(?r, _:b2) , ottr:Triple(?Z, foot:Footballer, _:b1) , o-rdf:Type(?q, _:b2) } .
+foot:Footballer [ LUB<xsd:integer> ?Y ] @@ ottr:IRI() @@ ottr:IRI(++ none) :: { o-rdf:Type(?t, _:b1) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Template1 [ ??owl:NamedIndividual ?R , LUB<owl:AnnotationProperty> ?e ]  :: { ottr:Triple(?l, foot:Footballer, _:b1) , o-rdf:Type(?G, _:b2) } .
+ottr:IRI [ ?!owl:ObjectProperty ?f , ?owl:Class ?I ]  :: { ottr:Triple(?n, foot:Template1, none) } .
+foot:Footballer [ !xsd:decimal ?E , ?!?xsd:integer ?o ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?N, _:b1) } .
+foot:Footballer [ ?!List<owl:DatatypeProperty> ?ur = ?aY ] @@ zipMax | ottr:IRI() , zipMin | ottr:IRI() :: { o-rdf:Type(?X, ?QL) } .
+ottr:IRI [ rdfs:Resource ?J , ?LUB<ottr:IRI> ?T , ??LUB<xsd:boolean> ?C ] @@ cross | ottr:IRI() @@ ottr:IRI() :: { o-rdf:Type(?Kj, true) } .
+ottr:IRI [ ?ottr:Bot ?Z , !LUB<rdfs:Datatype> ?F ]  :: { ottr:Triple(?v, foot:Footballer, _:b2) } .
+foot:Footballer [ !LUB<xsd:date> ?A ] @@ invalid | ottr:IRI() :: { ottr:Triple(?w, foot:Template1, _:b2) , ottr:Triple(?i, foot:Template1, none) , o-rdf:Type(?H, none) } .
+foot:Footballer [ ?!LUB<t-pnd:Punned-Class-ObjectProperty> ?V , !xsd:string ?z ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?s, foot:Template1, _:b1) } .
+foot:Template1 [ LUB<rdfs:Datatype> ?c , ?owl:DatatypeProperty ?P ] @@ invalid | ottr:IRI() :: { ottr:Triple(?h, foot:Footballer, _:b2) , o-rdf:Type(?q, _:b2) , o-rdf:Type(?p, _:b2) } .
+ottr:IRI [ ?!?ottr:Bot ?FX ]  :: { o-rdf:Type(?C, _:b2) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Template1 [ ??LUB<owl:DatatypeProperty> ?p , ?xsd:integer ?o ] @@ cross | ottr:IRI() :: { ottr:Triple(?V, foot:Footballer, ?g) , o-rdf:Type(?A, none) } .
+ottr:IRI [ ?!NEList<LUB<xsd:boolean>> ?kt ] @@ ottr:IRI() , zipMin | ottr:IRI() :: { o-rdf:Type(?S, _:b1) } .
+ottr:IRI [ LUB<ottr:IRI> ?sO = _:b1 ] @@ zipMax | ottr:IRI() @@ invalid | ottr:IRI() :: { o-rdf:Type(?x, true) } .
+ottr:IRI [ !LUB<owl:Class> ?R ] @@ zipMin | ottr:IRI() :: { ottr:Triple(?I, foot:Template1, _:b1) } .
+foot:Template1 [ !xsd:string ?q ]  :: { o-rdf:Type(?W, none) , o-rdf:Type(?r, _:b1) } .
+foot:Template1 [ !xsd:decimal ?h ] @@ zipMin | ottr:IRI() @@ zipMax | ottr:IRI() :: { o-rdf:Type(?c, "3527-96-10"^^xsd:date) } .
+ottr:IRI [ ?!?t-pnd:Punned-Class-ObjectProperty ?z , ??LUB<owl:NamedIndividual> ?D ] @@ zipMin | ottr:IRI() :: { ottr:Triple(?i, foot:Template1, _:b2) , o-rdf:Type(?w, _:b1) , o-rdf:Type(?T, none) } .
+ottr:IRI [ ?LUB<rdfs:Resource> ?d , ??rdfs:Datatype ?U ]  :: { o-rdf:Type(?eN, _:b1) , o-rdf:Type(?a, none) , o-rdf:Type(?b, _:b2) , o-rdf:Type(?L, _:b1) } .
+foot:Template1 [ !xsd:boolean ?W ] @@ invalid | ottr:IRI() , zipMin | ottr:IRI() :: { o-rdf:Type(?p, ?r) , ottr:Triple(?R, foot:Footballer, _:b1) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Footballer [ ??LUB<ottr:IRI> ?P , ?!?LUB<owl:Class> ?M , ?!rdfs:Datatype ?i ]  :: { o-rdf:Type(?l, "1295-04-78"^^xsd:date) } .
+foot:Footballer [ rdfs:Resource ?S ] @@ ottr:IRI() @@ zipMax | ottr:IRI() :: { ottr:Triple(?BU, foot:Footballer, none) } .
+ottr:IRI [ ?LUB<ottr:Bot> ?Q ] @@ cross | ottr:IRI() :: { ottr:Triple(?C, foot:Footballer, _:b2) , o-rdf:Type(?H, _:b2) } .
+ottr:IRI [ !LUB<owl:ObjectProperty> ?v = ?z ] @@ cross | ottr:IRI() @@ cross | ottr:IRI() :: { ottr:Triple(?E, foot:Footballer, _:b2) } .
+ottr:IRI [ ?xsd:integer ?o , List<owl:DatatypeProperty> ?q ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?u, none) } .
+foot:Template1 [ ?!t-pnd:Punned-Class-ObjectProperty ?t , ?!xsd:string ?A ]  :: { o-rdf:Type(?D, _:b1) , o-rdf:Type(?Y, none) , o-rdf:Type(?x, _:b1) } .
+ottr:IRI [ ?!?LUB<xsd:decimal> ?Z , ??xsd:date ?K ] @@ invalid | ottr:IRI() :: { o-rdf:Type(?j, 6+.3+) } .
+foot:Template1 [ ?owl:AnnotationProperty ?c ] @@ ottr:IRI() :: { o-rdf:Type(?X, _:b2) , ottr:Triple(?L, foot:Footballer, _:b2) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Footballer [ LUB<owl:AnnotationProperty> ?u = ?q , !xsd:decimal ?x ]  :: { o-rdf:Type(?FN, ?S) } .
+ottr:IRI [ ?!LUB<xsd:integer> ?R ] @@ invalid | ottr:IRI() :: { ottr:Triple(?m, foot:Template1, _:b2) , o-rdf:Type(?k, _:b1) , o-rdf:Type(?L, none) } .
+foot:Template1 [ ?!?xsd:boolean ?P , ?owl:NamedIndividual ?w ]  :: { ottr:Triple(?n, foot:Template1, _:b1) , o-rdf:Type(?G, foot:Footballer) } .
+foot:Footballer [ ??LUB<owl:ObjectProperty> ?W , ??owl:DatatypeProperty ?g , ?!?owl:Class ?c ] @@ cross | ottr:IRI() :: { o-rdf:Type(?C, none) } .
+ottr:IRI [ ?xsd:date ?z ] @@ zipMin | ottr:IRI() @@ ottr:IRI() :: { o-rdf:Type(?D, none) , ottr:Triple(?I, foot:Footballer, none) , o-rdf:Type(?H, _:b1) } .
+ottr:IRI [ ??LUB<t-pnd:Punned-Class-ObjectProperty> ?r , ??rdfs:Datatype ?X ] @@ zipMax | ottr:IRI() , invalid | ottr:IRI() :: { ottr:Triple(?p, foot:Template1, 8+.0+) } .
+ottr:IRI [ ?!?LUB<ottr:Bot> ?Z , ??LUB<rdfs:Resource> ?h ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?O, foot:Footballer, -3+) } .
+ottr:IRI [ ?!xsd:string ?s , LUB<ottr:IRI> ?J ] @@ zipMax | ottr:IRI() :: { o-rdf:Type(?K, "{") , o-rdf:Type(?Y, _:b2) , o-rdf:Type(?V, _:b2) } .
+foot:Footballer [ ?LUB<ottr:IRI> ?A ] @@ zipMin | ottr:IRI() , zipMax | ottr:IRI() :: { o-rdf:Type(?Q, _:b1) , o-rdf:Type(?e, _:b1) , o-rdf:Type(?d, _:b2) } .
+ottr:IRI [ ?!List<NEList<LUB<ottr:IRI>>> ?z ]  :: { o-rdf:Type(?cK, "1265-07-48"^^xsd:date) , ottr:Triple(?B, foot:Footballer, _:b1) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Template1 [ !LUB<owl:Class> ?l , owl:AnnotationProperty ?e ]  :: { ottr:Triple(?Y, foot:Footballer, none) , o-rdf:Type(?u, _:b2) } .
+foot:Footballer [ ??LUB<xsd:string> ?r ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?ZH, foot:Template1, ?wdab) } .
+foot:Template1 [ ?!?rdfs:Resource ?h = foot:Template1 ] @@ cross | ottr:IRI(-3+.3+ , ++ "8" , false) @@ zipMin | ottr:IRI(++ (?xif)) :: { ottr:Triple(?J, foot:Footballer, 9+) } .
+foot:Footballer [ ?owl:DatatypeProperty ?M ] @@ invalid | ottr:IRI() , ottr:IRI() :: { o-rdf:Type(?C, _:b2) } .
+foot:Footballer [ ?!?xsd:integer ?Q ] @@ zipMin | ottr:IRI() :: { ottr:Triple(?P, foot:Template1, none) , o-rdf:Type(?y, none) } .
+ottr:IRI [ !LUB<xsd:decimal> ?L , ?xsd:boolean ?U ] @@ ottr:IRI() :: { ottr:Triple(?O, foot:Footballer, _:b1) , o-rdf:Type(?v, _:b1) } .
+foot:Template1 [ owl:NamedIndividual ?n ] @@ zipMax | ottr:IRI() :: { ottr:Triple(?k, foot:Footballer, none) } .
+foot:Template1 [ !LUB<owl:ObjectProperty> ?j ] @@ ottr:IRI() :: { o-rdf:Type(?A, _:b1) , ottr:Triple(?D, foot:Template1, none) } .

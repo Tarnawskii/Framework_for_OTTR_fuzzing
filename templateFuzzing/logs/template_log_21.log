@@ -1,0 +1,44 @@
+2025-05-20 00:54:25,541 - INFO - Prosesserer batch: templates21.stottr
+2025-05-20 00:54:25,541 - INFO - Lutra output: 
+2025-05-20 00:54:25,542 - INFO - Lutra feil: [ERROR] Reading stOTTR file: './data/templates/templates21.stottr'.
+.\data\templates\templates21.stottr
+Location(s):
+- File ./data/templates/templates21.stottr
+
+
+2025-05-20 00:54:25,542 - INFO - Lutra processing time: 3.60 seconds
+2025-05-20 00:54:25,542 - ERROR - Lutra crashed with exit code 1
+2025-05-20 00:54:49,629 - INFO - Prosesserer batch: templates21.stottr
+2025-05-20 00:54:49,629 - INFO - Lutra output: 
+2025-05-20 00:54:49,629 - INFO - Lutra feil: [ERROR] Reading stOTTR file: './data/templates/templates21.stottr'.
+.\data\templates\templates21.stottr
+Location(s):
+- File ./data/templates/templates21.stottr
+
+
+2025-05-20 00:54:49,630 - INFO - Lutra processing time: 3.26 seconds
+2025-05-20 00:54:49,630 - ERROR - Lutra crashed with exit code 1
+2025-05-20 00:54:58,939 - INFO - Prosesserer batch: templates21.stottr
+2025-05-20 00:54:58,939 - INFO - Lutra output: 
+2025-05-20 00:54:58,939 - INFO - Lutra feil: [ERROR] Reading stOTTR file: './data/templates/templates21.stottr'.
+.\data\templates\templates21.stottr
+Location(s):
+- File ./data/templates/templates21.stottr
+
+
+2025-05-20 00:54:58,939 - INFO - Lutra processing time: 2.99 seconds
+2025-05-20 00:54:58,940 - ERROR - Lutra crashed with exit code 1
+2025-05-20 00:57:18,198 - INFO - Prosesserer batch: templates21.stottr
+2025-05-20 00:57:18,199 - INFO - Lutra output: 
+2025-05-20 00:57:18,199 - INFO - Lutra feil: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'unclosed' expecting {',', ')'} at line 7 column 41[ERROR] Syntax error: token recognition error at: '") , o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .\r' at line 7 column 49[ERROR] Syntax error: missing '(' at '[' at line 8 column 16[ERROR] Syntax error: mismatched input 'ottr:IRI' expecting {']', WS} at line 8 column 18[ERROR] Syntax error: missing '(' at '?personIRI' at line 8 column 27[ERROR] Syntax error: extraneous input '?firstName' expecting {',', ')'} at line 8 column 50[ERROR] Syntax error: extraneous input '?lastName' expecting {',', ')'} at line 8 column 73[ERROR] Syntax error: extraneous input '?birthday' expecting {',', ')'} at line 8 column 93[ERROR] Syntax error: extraneous input '?currentClub' expecting {',', ')'} at line 8 column 115[ERROR] Syntax error: extraneous input 'List<' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 129[ERROR] Syntax error: extraneous input '>' expecting {',', ')'} at line 8 column 144[ERROR] Syntax error: extraneous input '?marketValue' expecting {',', ')'} at line 8 column 172[ERROR] Syntax error: extraneous input '?countryName' expecting {',', ')'} at line 8 column 197[ERROR] Syntax error: missing '.' at 'foot:Footballer' at line 9 column 0[ERROR] Syntax error: extraneous input '?var' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 10 column 0[ERROR] Syntax error: mismatched input '::' expecting '.' at line 10 column 89[ERROR] Syntax error: mismatched input '.' expecting IRIREF at line 10 column 97[ERROR] Syntax error: token recognition error at: '<unclosedIRI, ' at line 11 column 50[ERROR] Syntax error: mismatched input '(' expecting '.' at line 11 column 68[ERROR] Syntax error: token recognition error at: '//' at line 12 column 1[ERROR] Syntax error: token recognition error at: '//' at line 12 column 277[ERROR] Syntax error: mismatched input 'ottr:Type' expecting {',', ')'} at line 13 column 31[ERROR] Syntax error: token recognition error at: '+.-' at line 13 column 42[ERROR] Syntax error: token recognition error at: '+)' at line 13 column 46[ERROR] Syntax error: missing IRIREF at 'ex:Invalid' at line 15 column 0[ERROR] Syntax error: extraneous input 'Space' expecting '(' at line 15 column 92[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 107[ERROR] Syntax error: mismatched input 'ex:Invalid' expecting {',', ')'} at line 16 column 60[ERROR] Syntax error: extraneous input ')' expecting '.' at line 16 column 117
+Location(s):
+- File ./data/templates/templates21.stottr
+
+[ERROR] Syntax error in base prefix declaration: unparsable base URI,  in 'BASE.' at line 10 column 92
+Location(s):
+- File ./data/templates/templates21.stottr
+
+
+2025-05-20 00:57:18,200 - INFO - Lutra processing time: 3.72 seconds
+2025-05-20 00:57:18,200 - ERROR - Lutra crashed with exit code 1

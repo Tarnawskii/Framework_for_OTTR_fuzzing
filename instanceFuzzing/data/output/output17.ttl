@@ -1,0 +1,138 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "France" ;
+        foaf:birthDate    "2010-12-25"^^xsd:date ;
+        foot:clubHistory  _:b1 .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  _:b3 .
+
+_:b3    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b4    rdf:rest   _:b5 ;
+        rdf:first  rdf:nil .
+
+_:b1    rdf:rest   _:b4 ;
+        rdf:first  rdf:nil .
+
+_:b5    rdf:rest   rdf:nil ;
+        rdf:first  _:b2 .
+
+_:b0    foot:marketValue  010 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "" ;
+        foot:position     "Defender" ;
+        foaf:familyName   "FiancÃ©e" .
+
+_:b6    foot:country      "" ;
+        foaf:birthDate    "9999-99-99"^^xsd:date ;
+        foot:clubHistory  _:b7 .
+
+_:b7    rdf:rest   _:b8 ;
+        rdf:first  rdf:nil .
+
+_:b8    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b6    foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "" ;
+        foot:position     "Midfielder" ;
+        foaf:familyName   "Al-Hassan" .
+
+_:b9    foot:country      "" ;
+        foaf:birthDate    "1954-11-19"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  010 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Midfielder" ;
+        foaf:familyName   "" .
+
+_:b10   foot:country      "Portugal" ;
+        foaf:birthDate    "2020-13-32"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  010 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "" ;
+        foot:position     "" ;
+        foaf:familyName   "" .
+
+_:b11   foot:country      "Egypt" ;
+        foaf:birthDate    "1998-2-13"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  547902461 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Amadou" ;
+        foot:position     "" ;
+        foaf:familyName   "" .
+
+_:b12   foot:country      "Portugal" ;
+        foaf:birthDate    "9999-99-99"^^xsd:date ;
+        foot:clubHistory  _:b13 .
+
+_:b14   rdf:rest   _:b15 ;
+        rdf:first  rdf:nil .
+
+_:b16   rdf:rest   rdf:nil ;
+        rdf:first  _:b17 .
+
+_:b13   rdf:rest   _:b18 ;
+        rdf:first  _:b19 .
+
+_:b19   rdf:rest   rdf:nil ;
+        rdf:first  _:b14 .
+
+_:b15   rdf:rest   _:b16 ;
+        rdf:first  rdf:nil .
+
+_:b18   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b17   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b12   foot:marketValue  10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "" ;
+        foot:position     "Midfielder" ;
+        foaf:familyName   "FiancÃ©e" .
+
+_:b20   foot:country      "" ;
+        foaf:birthDate    "1978-13-00"^^xsd:date ;
+        foot:clubHistory  _:b21 .
+
+_:b22   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b21   rdf:rest   _:b22 ;
+        rdf:first  rdf:nil .
+
+_:b20   foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "" ;
+        foot:position     "" ;
+        foaf:familyName   "BrontÃ«" .
+
+_:b23   foot:country      "" ;
+        foaf:birthDate    "9999-99-99"^^xsd:date ;
+        foot:clubHistory  _:b24 .
+
+_:b24   rdf:rest   _:b25 ;
+        rdf:first  rdf:nil .
+
+_:b26   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b25   rdf:rest   _:b27 ;
+        rdf:first  rdf:nil .
+

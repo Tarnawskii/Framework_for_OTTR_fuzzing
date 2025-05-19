@@ -1,0 +1,12 @@
+@prefix ex: <http://example.org#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ex:b ( _:f1caa0e5f1490473698837cf774494e67b4 _:f1caa0e5f1490473698837cf774494e67b5 ),
+        ( _:f1caa0e5f1490473698837cf774494e67b4 _:f1caa0e5f1490473698837cf774494e67b5 ) ;
+    ex:c 10.5 .
+

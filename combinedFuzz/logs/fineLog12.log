@@ -1,0 +1,200 @@
+2025-05-12 09:54:48,137 - INFO - Template 1 processed in 4.07 seconds
+2025-05-12 09:54:48,137 - WARNING - No valid output for template 1: ./data/output\instances11\output_template_1.ttl
+2025-05-12 09:54:51,751 - INFO - Template 2 processed in 3.61 seconds
+2025-05-12 09:54:51,751 - WARNING - No valid output for template 2: ./data/output\instances11\output_template_2.ttl
+2025-05-12 09:54:56,353 - INFO - Template 3 processed in 4.60 seconds
+2025-05-12 09:54:56,353 - WARNING - No valid output for template 3: ./data/output\instances11\output_template_3.ttl
+2025-05-12 09:54:59,838 - INFO - Template 4 processed in 3.48 seconds
+2025-05-12 09:54:59,839 - WARNING - No valid output for template 4: ./data/output\instances11\output_template_4.ttl
+2025-05-12 09:55:03,660 - INFO - Template 5 processed in 3.82 seconds
+2025-05-12 09:55:03,660 - WARNING - No valid output for template 5: ./data/output\instances11\output_template_5.ttl
+2025-05-12 09:55:07,059 - INFO - Template 6 processed in 3.40 seconds
+2025-05-12 09:55:07,059 - WARNING - No valid output for template 6: ./data/output\instances11\output_template_6.ttl
+2025-05-12 09:55:10,543 - INFO - Template 7 processed in 3.48 seconds
+2025-05-12 09:55:10,543 - WARNING - No valid output for template 7: ./data/output\instances11\output_template_7.ttl
+2025-05-12 09:55:13,904 - INFO - Template 8 processed in 3.36 seconds
+2025-05-12 09:55:13,904 - WARNING - No valid output for template 8: ./data/output\instances11\output_template_8.ttl
+2025-05-12 09:55:17,291 - INFO - Template 9 processed in 3.38 seconds
+2025-05-12 09:55:17,291 - WARNING - No valid output for template 9: ./data/output\instances11\output_template_9.ttl
+2025-05-12 09:55:20,661 - INFO - Template 10 processed in 3.37 seconds
+2025-05-12 09:55:20,661 - WARNING - No valid output for template 10: ./data/output\instances11\output_template_10.ttl
+2025-05-12 09:55:25,012 - INFO - Template 11 processed in 4.35 seconds
+2025-05-12 09:55:25,013 - WARNING - No valid output for template 11: ./data/output\instances11\output_template_11.ttl
+2025-05-12 09:55:28,615 - INFO - Template 12 processed in 3.60 seconds
+2025-05-12 09:55:28,615 - WARNING - No valid output for template 12: ./data/output\instances11\output_template_12.ttl
+2025-05-12 09:55:32,353 - INFO - Template 13 processed in 3.74 seconds
+2025-05-12 09:55:32,354 - WARNING - No valid output for template 13: ./data/output\instances11\output_template_13.ttl
+2025-05-12 09:55:35,745 - INFO - Template 14 processed in 3.39 seconds
+2025-05-12 09:55:35,745 - WARNING - No valid output for template 14: ./data/output\instances11\output_template_14.ttl
+2025-05-12 09:55:39,812 - INFO - Template 15 processed in 4.06 seconds
+2025-05-12 09:55:39,812 - WARNING - No valid output for template 15: ./data/output\instances11\output_template_15.ttl
+2025-05-12 09:55:43,435 - INFO - Template 16 processed in 3.62 seconds
+2025-05-12 09:55:43,435 - WARNING - No valid output for template 16: ./data/output\instances11\output_template_16.ttl
+2025-05-12 09:55:46,918 - INFO - Template 17 processed in 3.48 seconds
+2025-05-12 09:55:46,919 - WARNING - No valid output for template 17: ./data/output\instances11\output_template_17.ttl
+2025-05-12 09:55:50,604 - INFO - Template 18 processed in 3.68 seconds
+2025-05-12 09:55:50,604 - WARNING - No valid output for template 18: ./data/output\instances11\output_template_18.ttl
+2025-05-12 09:55:54,327 - INFO - Template 19 processed in 3.72 seconds
+2025-05-12 09:55:54,327 - WARNING - No valid output for template 19: ./data/output\instances11\output_template_19.ttl
+2025-05-12 09:55:57,744 - INFO - Template 20 processed in 3.41 seconds
+2025-05-12 09:55:57,744 - WARNING - No valid output for template 20: ./data/output\instances11\output_template_20.ttl
+2025-05-12 09:56:01,130 - INFO - Template 21 processed in 3.38 seconds
+2025-05-12 09:56:01,130 - WARNING - No valid output for template 21: ./data/output\instances11\output_template_21.ttl
+2025-05-12 09:56:05,728 - INFO - Template 22 processed in 4.60 seconds
+2025-05-12 09:56:05,728 - WARNING - No valid output for template 22: ./data/output\instances11\output_template_22.ttl
+2025-05-12 09:56:09,500 - INFO - Template 23 processed in 3.77 seconds
+2025-05-12 09:56:09,500 - WARNING - No valid output for template 23: ./data/output\instances11\output_template_23.ttl
+2025-05-12 09:56:13,478 - INFO - Template 24 processed in 3.97 seconds
+2025-05-12 09:56:13,479 - WARNING - No valid output for template 24: ./data/output\instances11\output_template_24.ttl
+2025-05-12 09:56:17,298 - INFO - Template 25 processed in 3.82 seconds
+2025-05-12 09:56:17,298 - WARNING - No valid output for template 25: ./data/output\instances11\output_template_25.ttl
+2025-05-12 09:56:21,357 - INFO - Template 26 processed in 4.06 seconds
+2025-05-12 09:56:21,357 - WARNING - No valid output for template 26: ./data/output\instances11\output_template_26.ttl
+2025-05-12 09:56:25,127 - INFO - Template 27 processed in 3.77 seconds
+2025-05-12 09:56:25,128 - WARNING - No valid output for template 27: ./data/output\instances11\output_template_27.ttl
+2025-05-12 09:56:29,298 - INFO - Template 28 processed in 4.17 seconds
+2025-05-12 09:56:29,299 - WARNING - No valid output for template 28: ./data/output\instances11\output_template_28.ttl
+2025-05-12 09:56:33,348 - INFO - Template 29 processed in 4.05 seconds
+2025-05-12 09:56:33,348 - WARNING - No valid output for template 29: ./data/output\instances11\output_template_29.ttl
+2025-05-12 09:56:38,414 - INFO - Template 30 processed in 5.06 seconds
+2025-05-12 09:56:38,414 - WARNING - No valid output for template 30: ./data/output\instances11\output_template_30.ttl
+2025-05-12 09:56:43,182 - INFO - Template 31 processed in 4.76 seconds
+2025-05-12 09:56:43,182 - WARNING - No valid output for template 31: ./data/output\instances11\output_template_31.ttl
+2025-05-12 09:56:47,301 - INFO - Template 32 processed in 4.12 seconds
+2025-05-12 09:56:47,301 - WARNING - No valid output for template 32: ./data/output\instances11\output_template_32.ttl
+2025-05-12 09:56:51,450 - INFO - Template 33 processed in 4.15 seconds
+2025-05-12 09:56:51,451 - WARNING - No valid output for template 33: ./data/output\instances11\output_template_33.ttl
+2025-05-12 09:56:56,404 - INFO - Template 34 processed in 4.95 seconds
+2025-05-12 09:56:56,405 - WARNING - No valid output for template 34: ./data/output\instances11\output_template_34.ttl
+2025-05-12 09:57:00,662 - INFO - Template 35 processed in 4.25 seconds
+2025-05-12 09:57:00,662 - WARNING - No valid output for template 35: ./data/output\instances11\output_template_35.ttl
+2025-05-12 09:57:05,046 - INFO - Template 36 processed in 4.38 seconds
+2025-05-12 09:57:05,046 - WARNING - No valid output for template 36: ./data/output\instances11\output_template_36.ttl
+2025-05-12 09:57:09,415 - INFO - Template 37 processed in 4.37 seconds
+2025-05-12 09:57:09,415 - WARNING - No valid output for template 37: ./data/output\instances11\output_template_37.ttl
+2025-05-12 09:57:13,589 - INFO - Template 38 processed in 4.17 seconds
+2025-05-12 09:57:13,589 - WARNING - No valid output for template 38: ./data/output\instances11\output_template_38.ttl
+2025-05-12 09:57:17,594 - INFO - Template 39 processed in 4.00 seconds
+2025-05-12 09:57:17,594 - WARNING - No valid output for template 39: ./data/output\instances11\output_template_39.ttl
+2025-05-12 09:57:21,541 - INFO - Template 40 processed in 3.95 seconds
+2025-05-12 09:57:21,542 - WARNING - No valid output for template 40: ./data/output\instances11\output_template_40.ttl
+2025-05-12 09:57:26,922 - INFO - Template 41 processed in 5.38 seconds
+2025-05-12 09:57:26,923 - WARNING - No valid output for template 41: ./data/output\instances11\output_template_41.ttl
+2025-05-12 09:57:30,838 - INFO - Template 42 processed in 3.91 seconds
+2025-05-12 09:57:30,838 - WARNING - No valid output for template 42: ./data/output\instances11\output_template_42.ttl
+2025-05-12 09:57:35,538 - INFO - Template 43 processed in 4.70 seconds
+2025-05-12 09:57:35,538 - WARNING - No valid output for template 43: ./data/output\instances11\output_template_43.ttl
+2025-05-12 09:57:39,566 - INFO - Template 44 processed in 4.03 seconds
+2025-05-12 09:57:39,566 - WARNING - No valid output for template 44: ./data/output\instances11\output_template_44.ttl
+2025-05-12 09:57:43,406 - INFO - Template 45 processed in 3.84 seconds
+2025-05-12 09:57:43,407 - WARNING - No valid output for template 45: ./data/output\instances11\output_template_45.ttl
+2025-05-12 09:57:47,811 - INFO - Template 46 processed in 4.40 seconds
+2025-05-12 09:57:47,812 - WARNING - No valid output for template 46: ./data/output\instances11\output_template_46.ttl
+2025-05-12 09:57:52,589 - INFO - Template 47 processed in 4.77 seconds
+2025-05-12 09:57:52,589 - WARNING - No valid output for template 47: ./data/output\instances11\output_template_47.ttl
+2025-05-12 09:57:56,953 - INFO - Template 48 processed in 4.36 seconds
+2025-05-12 09:57:56,953 - WARNING - No valid output for template 48: ./data/output\instances11\output_template_48.ttl
+2025-05-12 09:58:01,312 - INFO - Template 49 processed in 4.36 seconds
+2025-05-12 09:58:01,312 - WARNING - No valid output for template 49: ./data/output\instances11\output_template_49.ttl
+2025-05-12 09:58:05,738 - INFO - Template 50 processed in 4.42 seconds
+2025-05-12 09:58:05,738 - WARNING - No valid output for template 50: ./data/output\instances11\output_template_50.ttl
+2025-05-12 09:58:11,824 - INFO - Template 51 processed in 6.08 seconds
+2025-05-12 09:58:11,825 - WARNING - No valid output for template 51: ./data/output\instances11\output_template_51.ttl
+2025-05-12 09:58:16,314 - INFO - Template 52 processed in 4.49 seconds
+2025-05-12 09:58:16,314 - WARNING - No valid output for template 52: ./data/output\instances11\output_template_52.ttl
+2025-05-12 09:58:20,478 - INFO - Template 53 processed in 4.16 seconds
+2025-05-12 09:58:20,479 - WARNING - No valid output for template 53: ./data/output\instances11\output_template_53.ttl
+2025-05-12 09:58:24,657 - INFO - Template 54 processed in 4.18 seconds
+2025-05-12 09:58:24,657 - WARNING - No valid output for template 54: ./data/output\instances11\output_template_54.ttl
+2025-05-12 09:58:28,824 - INFO - Template 55 processed in 4.17 seconds
+2025-05-12 09:58:28,824 - WARNING - No valid output for template 55: ./data/output\instances11\output_template_55.ttl
+2025-05-12 09:58:33,086 - INFO - Template 56 processed in 4.26 seconds
+2025-05-12 09:58:33,086 - WARNING - No valid output for template 56: ./data/output\instances11\output_template_56.ttl
+2025-05-12 09:58:37,493 - INFO - Template 57 processed in 4.41 seconds
+2025-05-12 09:58:37,493 - WARNING - No valid output for template 57: ./data/output\instances11\output_template_57.ttl
+2025-05-12 09:58:41,533 - INFO - Template 58 processed in 4.04 seconds
+2025-05-12 09:58:41,533 - WARNING - No valid output for template 58: ./data/output\instances11\output_template_58.ttl
+2025-05-12 09:58:45,644 - INFO - Template 59 processed in 4.11 seconds
+2025-05-12 09:58:45,644 - WARNING - No valid output for template 59: ./data/output\instances11\output_template_59.ttl
+2025-05-12 09:58:49,712 - INFO - Template 60 processed in 4.07 seconds
+2025-05-12 09:58:49,712 - WARNING - No valid output for template 60: ./data/output\instances11\output_template_60.ttl
+2025-05-12 09:58:54,456 - INFO - Template 61 processed in 4.74 seconds
+2025-05-12 09:58:54,456 - WARNING - No valid output for template 61: ./data/output\instances11\output_template_61.ttl
+2025-05-12 09:58:58,637 - INFO - Template 62 processed in 4.18 seconds
+2025-05-12 09:58:58,637 - WARNING - No valid output for template 62: ./data/output\instances11\output_template_62.ttl
+2025-05-12 09:59:02,210 - INFO - Template 63 processed in 3.57 seconds
+2025-05-12 09:59:02,210 - WARNING - No valid output for template 63: ./data/output\instances11\output_template_63.ttl
+2025-05-12 09:59:05,766 - INFO - Template 64 processed in 3.55 seconds
+2025-05-12 09:59:05,766 - WARNING - No valid output for template 64: ./data/output\instances11\output_template_64.ttl
+2025-05-12 09:59:09,817 - INFO - Template 65 processed in 4.05 seconds
+2025-05-12 09:59:09,817 - WARNING - No valid output for template 65: ./data/output\instances11\output_template_65.ttl
+2025-05-12 09:59:13,553 - INFO - Template 66 processed in 3.73 seconds
+2025-05-12 09:59:13,553 - WARNING - No valid output for template 66: ./data/output\instances11\output_template_66.ttl
+2025-05-12 09:59:17,047 - INFO - Template 67 processed in 3.49 seconds
+2025-05-12 09:59:17,047 - WARNING - No valid output for template 67: ./data/output\instances11\output_template_67.ttl
+2025-05-12 09:59:21,313 - INFO - Template 68 processed in 4.26 seconds
+2025-05-12 09:59:21,313 - WARNING - No valid output for template 68: ./data/output\instances11\output_template_68.ttl
+2025-05-12 09:59:24,923 - INFO - Template 69 processed in 3.61 seconds
+2025-05-12 09:59:24,924 - WARNING - No valid output for template 69: ./data/output\instances11\output_template_69.ttl
+2025-05-12 09:59:28,773 - INFO - Template 70 processed in 3.85 seconds
+2025-05-12 09:59:28,773 - WARNING - No valid output for template 70: ./data/output\instances11\output_template_70.ttl
+2025-05-12 09:59:32,269 - INFO - Template 71 processed in 3.50 seconds
+2025-05-12 09:59:32,270 - WARNING - No valid output for template 71: ./data/output\instances11\output_template_71.ttl
+2025-05-12 09:59:36,886 - INFO - Template 72 processed in 4.61 seconds
+2025-05-12 09:59:36,887 - WARNING - No valid output for template 72: ./data/output\instances11\output_template_72.ttl
+2025-05-12 09:59:40,816 - INFO - Template 73 processed in 3.93 seconds
+2025-05-12 09:59:40,816 - WARNING - No valid output for template 73: ./data/output\instances11\output_template_73.ttl
+2025-05-12 09:59:45,792 - INFO - Template 74 processed in 4.97 seconds
+2025-05-12 09:59:45,792 - WARNING - No valid output for template 74: ./data/output\instances11\output_template_74.ttl
+2025-05-12 09:59:49,520 - INFO - Template 75 processed in 3.72 seconds
+2025-05-12 09:59:49,520 - WARNING - No valid output for template 75: ./data/output\instances11\output_template_75.ttl
+2025-05-12 09:59:53,034 - INFO - Template 76 processed in 3.51 seconds
+2025-05-12 09:59:53,034 - WARNING - No valid output for template 76: ./data/output\instances11\output_template_76.ttl
+2025-05-12 09:59:56,748 - INFO - Template 77 processed in 3.71 seconds
+2025-05-12 09:59:56,749 - WARNING - No valid output for template 77: ./data/output\instances11\output_template_77.ttl
+2025-05-12 10:00:00,237 - INFO - Template 78 processed in 3.49 seconds
+2025-05-12 10:00:00,237 - WARNING - No valid output for template 78: ./data/output\instances11\output_template_78.ttl
+2025-05-12 10:00:03,950 - INFO - Template 79 processed in 3.71 seconds
+2025-05-12 10:00:03,950 - WARNING - No valid output for template 79: ./data/output\instances11\output_template_79.ttl
+2025-05-12 10:00:07,657 - INFO - Template 80 processed in 3.70 seconds
+2025-05-12 10:00:07,657 - WARNING - No valid output for template 80: ./data/output\instances11\output_template_80.ttl
+2025-05-12 10:00:12,031 - INFO - Template 81 processed in 4.37 seconds
+2025-05-12 10:00:12,031 - WARNING - No valid output for template 81: ./data/output\instances11\output_template_81.ttl
+2025-05-12 10:00:16,144 - INFO - Template 82 processed in 4.11 seconds
+2025-05-12 10:00:16,144 - WARNING - No valid output for template 82: ./data/output\instances11\output_template_82.ttl
+2025-05-12 10:00:19,706 - INFO - Template 83 processed in 3.56 seconds
+2025-05-12 10:00:19,706 - WARNING - No valid output for template 83: ./data/output\instances11\output_template_83.ttl
+2025-05-12 10:00:23,896 - INFO - Template 84 processed in 4.19 seconds
+2025-05-12 10:00:23,896 - WARNING - No valid output for template 84: ./data/output\instances11\output_template_84.ttl
+2025-05-12 10:00:27,599 - INFO - Template 85 processed in 3.70 seconds
+2025-05-12 10:00:27,600 - WARNING - No valid output for template 85: ./data/output\instances11\output_template_85.ttl
+2025-05-12 10:00:31,640 - INFO - Template 86 processed in 4.04 seconds
+2025-05-12 10:00:31,641 - WARNING - No valid output for template 86: ./data/output\instances11\output_template_86.ttl
+2025-05-12 10:00:35,247 - INFO - Template 87 processed in 3.60 seconds
+2025-05-12 10:00:35,247 - WARNING - No valid output for template 87: ./data/output\instances11\output_template_87.ttl
+2025-05-12 10:00:38,742 - INFO - Template 88 processed in 3.49 seconds
+2025-05-12 10:00:38,742 - WARNING - No valid output for template 88: ./data/output\instances11\output_template_88.ttl
+2025-05-12 10:00:42,234 - INFO - Template 89 processed in 3.49 seconds
+2025-05-12 10:00:42,235 - WARNING - No valid output for template 89: ./data/output\instances11\output_template_89.ttl
+2025-05-12 10:00:47,387 - INFO - Template 90 processed in 5.15 seconds
+2025-05-12 10:00:47,388 - WARNING - No valid output for template 90: ./data/output\instances11\output_template_90.ttl
+2025-05-12 10:00:51,825 - INFO - Template 91 processed in 4.44 seconds
+2025-05-12 10:00:51,826 - WARNING - No valid output for template 91: ./data/output\instances11\output_template_91.ttl
+2025-05-12 10:00:56,770 - INFO - Template 92 processed in 4.94 seconds
+2025-05-12 10:00:56,770 - WARNING - No valid output for template 92: ./data/output\instances11\output_template_92.ttl
+2025-05-12 10:01:01,287 - INFO - Template 93 processed in 4.51 seconds
+2025-05-12 10:01:01,287 - WARNING - No valid output for template 93: ./data/output\instances11\output_template_93.ttl
+2025-05-12 10:01:06,701 - INFO - Template 94 processed in 5.41 seconds
+2025-05-12 10:01:06,701 - WARNING - No valid output for template 94: ./data/output\instances11\output_template_94.ttl
+2025-05-12 10:01:10,851 - INFO - Template 95 processed in 4.15 seconds
+2025-05-12 10:01:10,852 - WARNING - No valid output for template 95: ./data/output\instances11\output_template_95.ttl
+2025-05-12 10:01:14,456 - INFO - Template 96 processed in 3.60 seconds
+2025-05-12 10:01:14,456 - WARNING - No valid output for template 96: ./data/output\instances11\output_template_96.ttl
+2025-05-12 10:01:18,329 - INFO - Template 97 processed in 3.87 seconds
+2025-05-12 10:01:18,330 - WARNING - No valid output for template 97: ./data/output\instances11\output_template_97.ttl
+2025-05-12 10:01:22,508 - INFO - Template 98 processed in 4.18 seconds
+2025-05-12 10:01:22,509 - WARNING - No valid output for template 98: ./data/output\instances11\output_template_98.ttl
+2025-05-12 10:01:27,904 - INFO - Template 99 processed in 5.39 seconds
+2025-05-12 10:01:27,904 - WARNING - No valid output for template 99: ./data/output\instances11\output_template_99.ttl
+2025-05-12 10:01:31,656 - INFO - Template 100 processed in 3.75 seconds
+2025-05-12 10:01:31,657 - WARNING - No valid output for template 100: ./data/output\instances11\output_template_100.ttl

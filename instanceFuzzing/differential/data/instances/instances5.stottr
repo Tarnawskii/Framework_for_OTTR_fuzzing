@@ -1,0 +1,1006 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer(A,"Amadou"^^xsd:string,"Østergaard"^^xsd:string,""""^^xsd:date,f,(o),Millions^^xsd:integer,"Forward"^^xsd:string,"England"@en^^xsd:string)   
+foot:League(_:xne,""^^xsd:string,a a^^xsd:string,(((T),(p))), ((o),(W),((A)))) . 
+foot:Club(_:Hmk,"Paris Saint-Germain"@fr^^xsd:string,"2015"^^gYear, "Santiago Bernabéu"^^xsd:string, ""^^xsd:string) . 
+foot:Country(M,a^^xsd:string,"Africa"^^:xsd:string,"POR"^^xsd:string,(u,j6Z,J,ce,W,B,"")"VO")^^List<xsd:string>,()) @"/". 
+foot:Footballer(T,"Cristiano"^^xsd:string,"Ronaldo"^^xsd:string,""""^^xsd:date,S,(A),a^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string)   
+foot:Club(_:XPb,"Barcelona"^^xsd:string,"2019"^^gYear, "Santiago Bernabéu"^^xsd:string, 4fYJt^^xsd:string) . 
+foot:Footballer(_:Zqz,"","Mbappe","2020-13-32"^^xsd:date,none,(((p),(B),((N)))),Millions,"",a) 
+foot:Country("IJ\//CMNu","France"^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,(l,e"="V))   
+foot:Club(B,M8OJF,000^^xsd:gYear "Allianz Stadium",a) 
+foot:Footballer(_:IXt 
+foot:Footballer(C,""^^xsd:string,"Ronaldo"^^xsd:string,"0000-00-00"^^xsd:date,h,(a),1million^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(++(""'dl"",(($~wIGW))),(((_:Jzu,H,B),((a),((T))),((Q)))),6P"&">"["rN) 
+foot:Club(_:nFs,""^^xsd:string,0000^^gYear, "Camp Nou"^^xsd:string, a a a^^xsd:string)   
+foot:Footballer(y,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,x,(U),a^^xsd:integer,"Defender"^^xsd:string,"Argentina"^^xsd:string) . 
+foot:Footballer(e,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,D,(m),""^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string) . 
+foot:Country("sI\//dSMi",""^^xsd:string,"Africa"^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,(_:gEq,"Wrong")) . 
+foot:Footballer(B,"","","0000-00-00"^^xsd:date,none,("y"("c"),a,"Goalkeeper","") 
+foot:Footballer(w,""^^xsd:string,"Østergaard"^^xsd:string,"0000-00-00"^^xsd:date,T,(W),a^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Footballer(u,"Amadou"^^xsd:string,"D'Artagnan"^^xsd:string,"0000-00-00"^^xsd:date,L,(b),010^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(K,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,g,(m),1million^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string) . 
+foot:Country(_:coy,""^^xsd:string,""^^:xsd:string,"POR"^^xsd:string,(q,C,m)^^List<xsd:string>,())   
+foot:Country("Xe\//njvQ",a a^^xsd:string,VN^^:xsd:string,"POR"^^xsd:string,(y,qR,W)^^List<xsd:string>,("Wrong")) = 
+foot:Footballer(d,""^^xsd:string,""^^xsd:string,""""^^xsd:date,K,(M),a^^xsd:integer,"Forward"^^xsd:string,"Egypt"^^xsd:string)   
+foot:Country("XzUMkH",a^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,("Wrong",(This is invalid)))   
+foot:Country("jGNiWx",a^^xsd:string,"South America"^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(b,Z,"Wrong"))   
+foot:Country(p,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,("Wrong","Wrong",(This is invalid)))   
+foot:Footballer(H,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,B,(J),a^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string)   
+foot:League(_:huF,"Bundesliga"^^xsd:string,"?wT"^^xsd:string,(((G),(o))), ("t"@"Z",(I,j))) . 
+foot:League(_:ZeA,"Bundesliga"^^xsd:string,a^^xsd:string,(T), ((s),(u),((p)))) . 
+foot:Club(_:ULg,"Juventus"^^xsd:string,0^^gYear, "v23DhX"^^xsd:string, ""^^xsd:string) . 
+foot:Club("ukdwSf",Cm,"2019"^^xsd:gYear,,"","") 
+foot:Footballer(w,"Lionel"^^xsd:string,"Fernandes"^^xsd:string,""""^^xsd:date,H,(g),010^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(D,":KI"^^xsd:string,""^^xsd:string,("""#"Axj""), ((r),((t),(h),((g))))) . 
+foot:Club(_:hFP,"Liverpool"^^xsd:string,00000^^gYear, "zqD"^^xsd:string, "|KS"^^xsd:string)   
+foot:Club(_:xSe,MgjE^^xsd:string,00000^^gYear, "",4WczquHNlP""^^xsd:string, a a^^xsd:string) . 
+foot:Footballer(Z,""^^xsd:string,"Fiancée"^^xsd:string,""""^^xsd:date,T,(p),a^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string)   
+foot:League(_:MXc,"La Liga"^^xsd:string,"England"@en^^xsd:string,(((z)),((P),(H)),((B))), (("T(j",(" "=resI)))) . 
+foot:Footballer(L,"","Fiancée",""""^^xsd:date,none,(""\>Td"",((S,f))),a,"""xpU","England"@en) 
+foot:Club(_:LUR,"Barcelona","2019"^^xsd:gYear,,"Allianz Stadium",1taHSNAk) 
+foot:Footballer(J,""^^xsd:string,""^^xsd:string,""""^^xsd:date,X,(e),a^^xsd:integer,"Defender"^^xsd:string,"Argentina"^^xsd:string)   
+foot:League("dYgjFT",""^^xsd:string,""^^xsd:string,("""*"ul""), ("Dc",(s))) . 
+foot:Country(w,""^^xsd:string,"Europe"^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong",(This is invalid),"Wrong")) . 
+foot:Country(++"England"@en,_:tBJ 
+foot:League("Ue\//IhsS",""^^xsd:string,"Portugal"^^xsd:string,((j),(k)), ("P"#"O,"l'J"")) /"|"* 
+foot:Footballer(v,"","Mbappe","0000-00-00"^^xsd:invalidDatatype,y,(I),100000000,"Striker"@us,a) 
+foot:Club(_:Iwp,"Manchester United"^^xsd:string,"2017"^^gYear, "Camp Nou"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:Country(k,a^^xsd:string,""^^:xsd:string,"|nz"^^xsd:string,( )^^List<xsd:string>,(r,N,u,"Wrong")) . 
+foot:Country(r,3HuTbX^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(G,dy,l,hIVU,WAm)^^List<xsd:string>,(Jn,(This is invalid)))   
+foot:Footballer(s,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,S,(q),""^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string)   
+foot:Country(_:Sal,""^^xsd:string,""^^:xsd:string,""^^xsd:string,(x,B,th)^^List<xsd:string>,(g,P,(This is invalid))) "%" 
+foot:Footballer(T,"Amadou"^^xsd:string,"Fernandes"^^xsd:string,"9999-99-99"^^xsd:date,g,(z),a^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string) . 
+foot:Footballer("RunDKY" 
+foot:Country("|";ljHp,a a a^^xsd:string,"Asia"^^:xsd:string,"EGY"^^xsd:string,(m,JbQ)^^List<xsd:string>,((This is invalid))) . 
+foot:Country("" 
+foot:Country("SN\//HfZC",""^^xsd:string,pQ^^:xsd:string,""|"{tr"^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:Club(_:dsO,iVw6g,"2019"^^xsd:gYear,"","England"@en) 
+foot:Footballer(v,"Amadou"^^xsd:string,"Al-Hassan"^^xsd:string,"9999-99-99"^^xsd:date,a,(p),010^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Country(Y,aw^^xsd:string,"Asia"^^:xsd:string,V"["c^^xsd:string,(tg,kz,(E))^^List<xsd:string>,())   
+foot:Country(^/QDUe,""^^xsd:string,"Asia"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(v,u"?"L))   
+foot:Club(_:XEp,Kx^^xsd:string,"2019"^^gYear, """="1Pb""^^xsd:string, "/UD"^^xsd:string) . 
+foot:Club("In\//DFyi","="^"":"C8pNmoEa"^^xsd:string,0000^^gYear, "Allianz Arena"^^xsd:string, "England"@en^^xsd:string)   
+foot:Country("BjRAUv","Argentina"^^xsd:string,"South America"^^:xsd:string,"ARG"^^xsd:string,(Q)^^List<xsd:string>,()) "." 
+foot:Club("WX\//NKSp",""+""$"lg"^^xsd:string,"2017"^^gYear, "Cd"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:Country(h,"Egypt"^^xsd:string,""^^:xsd:string,""^^xsd:string,(O,r,s,U)^^List<xsd:string>,("Wrong",(This is invalid),"Wrong",(This is invalid))) . 
+foot:League(IR"."t,o0s]h) 
+foot:Country(b,a a a^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,(SX,DH,(T))^^List<xsd:string>,(U,W,f,"~eo"))   
+foot:Footballer(d,"","","0000-00-00"^^xsd:invalidDatatype,R,(V),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010,"","") 
+foot:Footballer(f,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,T,(W),a^^xsd:integer,"Defender"^^xsd:string,a^^xsd:string)   
+foot:League(S,"Serie A"^^xsd:string,nRo^^xsd:string,((_:tKy),(j,x)), ("""]"LYq2cd"")) . 
+foot:Footballer("SEXUoN" 
+foot:Country("NpVWbM",a^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,()) ")" 
+foot:Club(_:xiU,5ptHTvX^^xsd:string,""^^gYear, "Old Trafford"^^xsd:string, "Argentina"^^xsd:string)   
+foot:League(s,"Ligue 1"^^xsd:string,a a a^^xsd:string,(((a)),((D),(j))), (((V),(n),(((Q),(m)))))) . 
+foot:Footballer(u,""^^xsd:string,""^^xsd:string,""""^^xsd:date,W,(A),a^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Club(Q,50d#"!"jz^^xsd:string,"]WuI"^^gYear, "Allianz Arena"^^xsd:string, a^^xsd:string) . 
+foot:Footballer(m,""^^xsd:string,"O'Connor"^^xsd:string,"9999-99-99"^^xsd:date,W,(Y),Millions^^xsd:integer,"Defender"^^xsd:string,"England"@en^^xsd:string) . 
+foot:League(_:QjV,"Ligue 1"^^xsd:string,a a a a a a a a a^^xsd:string,(M), (("I/:J3uk"),((D),(((R),(P),((d))))))) ".""[" 
+foot:Country(_:DNZ,a^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(F,q)) . 
+foot:Footballer(s,"Lionel"^^xsd:string,"Messi"^^xsd:string,"2020-13-32"^^xsd:date,i,(g),a^^xsd:integer,"Midfielder"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Club("Xc\//Umwb","Juventus"^^xsd:string,00^^gYear, "Allianz Arena"^^xsd:string, ""^^xsd:string) . 
+foot:Country(_:xQa,""^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(g,j,(This is invalid))) . 
+foot:Club("/"%rBWM,"Liverpool",00^^xsd:gYear,,"","") 
+foot:Footballer(c,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,o,(s),a^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club(_:Myp,) 
+foot:League(h,""^^xsd:string,"Argentina"^^xsd:string,(((S),(P)),(m,x),(((k)))), ((t),((Q)))) >"+" 
+foot:Country(z,"Egypt"^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(C,s,X)) . 
+foot:Footballer("hvSXjD" 
+foot:Country(s,"France"^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,(cE,KS,wN,kB)^^List<xsd:string>,()) . 
+foot:Country(_:Kho,"Portugal"^^xsd:string,"Africa"^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,()) "," 
+foot:League(++(_:CEk),4sm\"{"V) 
+foot:Footballer(G,"Lionel"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,U,(f),010^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Club(_:ODT,"Paris Saint-Germain"@fr^^xsd:string,"2016"^^gYear, ""$l3pnH""^^xsd:string, a^^xsd:string) . 
+foot:Footballer(_:GaK 
+foot:Footballer( "!"""_"gMoL 
+foot:Footballer(V,"Amadou","","9999-99-99"^^xsd:invalidDatatype,g,(C),1million,"Goalkeeper","") 
+foot:Footballer(U,"Lionel"^^xsd:string,"Ronaldo"^^xsd:string,"9999-99-99"^^xsd:date,w,(Q),a^^xsd:integer,"Striker"@us^^xsd:string,"Egypt"^^xsd:string)   
+foot:League("ba\//PNfF","Ligue 1"^^xsd:string,"France"^^xsd:string,(p), ((W),(z)))   
+foot:Country(I"+"3Ya 
+foot:League(_:Yty,"La Liga"^^xsd:string,";cX"^^xsd:string,("M"="P"), (((n),(d),((U))))) . 
+foot:Country(C,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,(d,E)^^List<xsd:string>,(K,c,G,(This is invalid))) . 
+foot:Club(!)";"~hgEi,"(Xp"^^xsd:string,0000^^gYear, """ "A5Km""^^xsd:string, "England"@en^^xsd:string)   
+foot:Country(f,a a a^^xsd:string,"South America"^^:xsd:string,q.a^^xsd:string,(c,VA)^^List<xsd:string>,(l,C,s))   
+foot:Country(q,"France"^^xsd:string,""^^:xsd:string,""^^xsd:string,(a,m|k)^^List<xsd:string>,(I,t))   
+foot:Country(_:SEK,"Egypt"^^xsd:string,h"/"y^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:Club(_:XJG,WN!0q^^xsd:string,o;","O^^gYear, ""|hf""^^xsd:string, "Egypt"^^xsd:string)   
+foot:Club("GasNxm",""^^xsd:string,"2015"^^gYear, "o_q"^^xsd:string, ")jW"^^xsd:string) "@" 
+foot:Club(_:Lmw,""%"GXbK6AU","2016"^^xsd:gYear,,Jv,"England"@en) 
+foot:Footballer(_:CbE,"Cristiano","","9999-99-99"^^xsd:date,none,(((n),(P),((Q)))),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010,m")"T,"Argentina") 
+foot:Country(_:nFL,""^^xsd:string,fAMx^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(5zkrJ)) . 
+foot:League(_:kTo,HU^^xsd:string,")yg"^^xsd:string,((X)), ((N),(L))) . 
+foot:Country(G,""^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,((This is invalid),(This is invalid),"Wrong","Wrong")) |* 
+foot:Country(V,"Egypt"^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,(sr,OQ,(e))^^List<xsd:string>,()) . 
+foot:League(Q,hy^^xsd:string,"Argentina"^^xsd:string,("tb"), (((e),((K),((N),(o),((G)))))))   
+foot:Country(_:nhQ,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,(l,"Wrong")) "@"< 
+foot:League(_:IrS,"Ligue 1"^^xsd:string,O1VC^^xsd:string,(v), ((((H),(g)),(u)),(((L),(m))),(("X?K,"""$"Yh""")))) . 
+foot:Club(c,""^^xsd:string,"2015"^^gYear, "k>3faO"^^xsd:string, "Portugal"^^xsd:string)   
+foot:League(_:UHt,"Ligue 1"^^xsd:string,"Portugal"^^xsd:string,("["|dcpI), ((("w#M"),((b),((J),(V)),((N)))))) . 
+foot:Footballer("NU\//RhSq","")"ls","","9999-99-99"^^xsd:date,none,(((n),(V))),1million,"",a) 
+foot:Club(_:Noi,7px" "T,"2016"^^xsd:gYear "Anfield",a) 
+foot:Country("TVtnvp",a^^xsd:string,""^^:xsd:string,""^^xsd:string,(L)^^List<xsd:string>,()) . 
+foot:Club("Px\//ykmT",""^^xsd:string,"2019"^^gYear, "Allianz Arena"^^xsd:string, "France"^^xsd:string)   
+foot:Country(_:YeP,a^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,(w,",XR")^^List<xsd:string>,(-"+"xNtu,s,H,v))   
+foot:Footballer(r,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,X,(v),a^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string) . 
+foot:League("QxrdYB","Serie A"^^xsd:string,"Egypt"^^xsd:string,(C), (e)) . 
+foot:League(T,""^^xsd:string,a a a a^^xsd:string,((((o),(m,s),((F)))),((X),((W),((L),(z))))), ((A))) . 
+foot:Club(_:WNy,""^^xsd:string,"2016"^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) . 
+foot:Club("xGPFus",) 
+foot:Footballer(g,""^^xsd:string,"Van der Waals"^^xsd:string,"9999-99-99"^^xsd:date,d,(a),""^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Club(_:eJG,"Liverpool"^^xsd:string,M[A^^gYear, "Old Trafford"^^xsd:string, p>O^^xsd:string) ;":" 
+foot:Footballer(D,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,p,(e),""^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Club("BH\//OWzm","Liverpool"^^xsd:string,"2019"^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string) . 
+foot:Footballer(G,"","Mbappe","9999-99-99"^^xsd:invalidDatatype,X,(K),a,"","Argentina") 
+foot:Footballer(k,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,f,(U),1million^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:Club(^:% zkDv,"Juventus"^^xsd:string,00000^^gYear, "Camp Nou"^^xsd:string, "$T7V"^^xsd:string) " "":" 
+foot:Footballer(i,""^^xsd:string,"Çelik"^^xsd:string,"0000-00-00"^^xsd:date,H,(D),010^^xsd:integer,"Striker"@us^^xsd:string,a^^xsd:string) . 
+foot:Club(_:tgY,""$"~4bsiwGxA"^^xsd:string,">"="cR"^^gYear, "Camp Nou"^^xsd:string, a^^xsd:string)   
+foot:League(_:TDg,"Serie A"^^xsd:string,"Egypt"^^xsd:string,(("u t,(l)"),(((v),(n),(((o),(R)))))), (V)) . 
+foot:Footballer(l,"Cristiano"^^xsd:string,"Østergaard"^^xsd:string,"0000-00-00"^^xsd:date,a,(m),010^^xsd:integer,"Midfielder"^^xsd:string,""^^xsd:string) . 
+foot:Club(^"{""#"vwJo,"Paris Saint-Germain"@fr^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, a a a^^xsd:string) . 
+foot:Footballer(U,"Lionel"^^xsd:string,"Al-Hassan"^^xsd:string,""""^^xsd:date,D,(d),100000000^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string)   
+foot:Country(_:SGU,5wBNC^^xsd:string,"","IFeojgt"^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,((This is invalid))) . 
+foot:Club({"^"JfKn,"Paris Saint-Germain"@fr^^xsd:string,"2018"^^gYear, ""Uc""^^xsd:string, "Egypt"^^xsd:string) ^ 
+foot:Footballer(A,"Amadou"^^xsd:string,"Núñez"^^xsd:string,"9999-99-99"^^xsd:date,t,(q),a^^xsd:integer,""^^xsd:string,"Portugal"^^xsd:string)   
+foot:Country(_:kpP,"France"^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,())   
+foot:League(s,"Premier League"^^xsd:string,a a a^^xsd:string,("b"."A"), (((m),(B)),((e)),((R)))) ' 
+foot:Country(_:zIB,cC^^xsd:string,"Africa"^^:xsd:string,O"#"8q^^xsd:string,( )^^List<xsd:string>,(s_G))   
+foot:Footballer(t,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,f,(I),a^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:Country(I,""^^xsd:string,"Africa"^^:xsd:string,"EGY"^^xsd:string,(j,S,E)^^List<xsd:string>,())   
+foot:Footballer(B,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,j,(q),a^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Country(N,a^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,(XA,qs,HT,Un)^^List<xsd:string>,()) . 
+foot:Country(++a a a a a a a a a a a a a a a,"" 
+foot:League(_:Wsq,"Serie A"^^xsd:string,a^^xsd:string,((X),(b),((I))), (w)) . 
+foot:Country(t,"Portugal"^^xsd:string,""%"KL"^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,("Wrong",s*V))   
+foot:League(s,"Serie A"^^xsd:string,"France"^^xsd:string,(((g),(O)),(f)), (((X),(P),(((T)))))) "'" 
+foot:Club(_:EVR,) 
+foot:Club(_:GLH,d[-j^^xsd:string,"2019"^^gYear, "K7iRCFz"^^xsd:string, a a a^^xsd:string) "]" 
+foot:Footballer(H,""^^xsd:string,""^^xsd:string,""""^^xsd:date,q,(G),a^^xsd:integer,"Defender"^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club(_:iBg,EG*k^^xsd:string,"2015"^^gYear, "Santiago Bernabéu"^^xsd:string, a a a^^xsd:string) ";""." 
+foot:League(_:kRn,"{pB"^^xsd:string,"Argentina"^^xsd:string,(A), ("O.D,"gM"("b"",((Y))))   
+foot:Footballer(G,""^^xsd:string,""^^xsd:string,""""^^xsd:date,e,(f),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(y,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,l,(T),100000000^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(g,"Cristiano"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,p,(l),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Footballer(f,"Lionel","O'Connor","9999-99-99"^^xsd:invalidDatatype,E,(j),100000000,"Forward",a) 
+foot:Club(_:qtV,""^^xsd:string,"2017"^^gYear, "Allianz Arena"^^xsd:string, a^^xsd:string)   
+foot:League(B,"Ligue 1"^^xsd:string,"Argentina"^^xsd:string,(_:aeh,"wHCZsJ"), (Q)) /( 
+foot:Country(_:meH,""^^xsd:string,"Africa"^^:xsd:string,"EGY"^^xsd:string,(U)^^List<xsd:string>,()) "}""." 
+foot:Country(_:Pmh,"France"^^xsd:string,","{"5Qx"^^:xsd:string,"FRA"^^xsd:string,(ZD," XU",w|b,Mt)^^List<xsd:string>,()) ! 
+foot:Country(V,"Argentina"^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong",(This is invalid),"Wrong"))   
+foot:Country(e,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,(V)^^List<xsd:string>,(f,U,P)) ! 
+foot:Country(_:oKQa,a a a a a a^^xsd:string,"$kq"^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,(""^"6MlZ"))   
+foot:Footballer(T,""^^xsd:string,""^^xsd:string,""""^^xsd:date,A,(d),010^^xsd:integer,"Midfielder"^^xsd:string,"England"@en^^xsd:string)   
+foot:Footballer(v,""^^xsd:string,"Müller"^^xsd:string,""""^^xsd:date,G,(k),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:Country(Y,"Argentina"^^xsd:string,"Europe"^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,("Wrong",(This is invalid))) -" ""]" 
+foot:Country(_:IsM,""^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,(y,L,w,cx)^^List<xsd:string>,(m,P))   
+foot:Footballer(m,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,P,(b),100000000^^xsd:integer,"Forward"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Country(l,a^^xsd:string,"North America"@en^^:xsd:string,"EGY"^^xsd:string,(P,r,o)^^List<xsd:string>,((This is invalid),S=Z)) . 
+foot:Country(U,""^^xsd:string,""^^:xsd:string,"POR"^^xsd:string,(m,n,W)^^List<xsd:string>,(Q,B))   
+foot:Footballer(F,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,d,(H),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Club(_:eJY,"Barcelona",00^^xsd:gYear/"~"9i(MC,a a) 
+foot:League(_:XIq,"Serie A"^^xsd:string,a^^xsd:string,(((K),(y),(((T),(e)))),((k))), ((""";"PO"",((x),(l)))))   
+foot:League(++_:agF,"Cristiano",N""j2Md) 
+foot:Country(c,a a^^xsd:string,"Europe"^^:xsd:string,l")"L^^xsd:string,(v,a,b,g)^^List<xsd:string>,(u,x))   
+foot:Country("wi\//bAWK","Argentina"^^xsd:string,"Africa"^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,(_:qOg,S))   
+foot:League(_:uNK,"Ligue 1"^^xsd:string,"England"@en^^xsd:string,("z$f",((M))), (((l),(G),((V))),(a))) "*"|"|" 
+foot:Club("Hj\//Xkvm",zCb^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:Club(_:NJa,"Juventus"^^xsd:string,""^^gYear, "s="!""_"Mc"^^xsd:string, 3u:Dh^^xsd:string) . 
+foot:Footballer(U,""^^xsd:string,"Ronaldo"^^xsd:string,""""^^xsd:date,I,(u),010^^xsd:integer,"Goalkeeper"^^xsd:string,"Argentina"^^xsd:string)   
+foot:League(_:kxK,"Bundesliga"^^xsd:string,a a^^xsd:string,((((w),(S),(("J%W",(j))))),((M))), (+"["hgOz))   
+foot:Club("Du\//bKAO","Paris Saint-Germain"@fr,"2015"^^xsd:gYear,,"Parc des Princes","Egypt") 
+foot:Country(_:Uoy,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:League("YLgsIv","Serie A"^^xsd:string,""^^xsd:string,((w),(n)), ((b))) . 
+foot:Country(B,a^^xsd:string,""^^:xsd:string,a>1W^^xsd:string,( )^^List<xsd:string>,(V,N,k,(This is invalid))) "+" 
+foot:Country(D,"Argentina"^^xsd:string,"North America"@en^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong","Wrong")) . 
+foot:Footballer(x,"Amadou"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,f,(t),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:League(_:RBN,TA^^xsd:string,K.e^^xsd:string,(D,M), (b)) "." 
+foot:Footballer(L,"Amadou"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,l,(a),100000000^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string) . 
+foot:Footballer(A,"Amadou"^^xsd:string,"Núñez"^^xsd:string,"0000-00-00"^^xsd:date,o,(k),1million^^xsd:integer,"Defender"^^xsd:string,a^^xsd:string) . 
+foot:Country(k,"Portugal"^^xsd:string,"Asia"^^:xsd:string,""^^xsd:string,(jm,rx,Xd,Yl)^^List<xsd:string>,()) . 
+foot:Footballer(L,"Cristiano","",""""^^xsd:invalidDatatype,S,(b),010,"Forward",a) 
+foot:League(_:myD,"Bundesliga"^^xsd:string,"Portugal"^^xsd:string,((f)), ("7GPw",(((k,V)),((g),("b%X,(S)",(h))),((""#RL"",("r"&"u"))))))   
+foot:Footballer(T,""^^xsd:string,"O'Neil"^^xsd:string,"9999-99-99"^^xsd:date,O,(n),010^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string)   
+foot:Club(_:VWH,) 
+foot:Footballer(E,"Cristiano"^^xsd:string,"Mc'Donald"^^xsd:string,"0000-00-00"^^xsd:date,o,(r),a^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Club("gGchoI",""^^xsd:string,""^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) . 
+foot:Club(_:Ful,"Manchester United"^^xsd:string,"2018"^^gYear, ""$kb""^^xsd:string, P";"I^^xsd:string) ){ 
+foot:League(G,"Premier League"^^xsd:string,"","oI"^^xsd:string,((U),(_:WZH)), ((K),(a),(((y))))) . 
+foot:Footballer(v,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,y,(q),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Club(H,""^^xsd:string,zd"#"E^^gYear, "TA1Ols"^^xsd:string, "Egypt"^^xsd:string) . 
+foot:Country(_:MSQ,a^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,())   
+foot:Club(_:RBz,0lYF^^xsd:string,00^^gYear, "Allianz Arena"^^xsd:string, ""^^xsd:string) . 
+foot:Club("^"\cwid,jg^^xsd:string,00^^gYear, "GaZ"^^xsd:string, a^^xsd:string) . 
+foot:Country(k,a^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,(N,q,E,bx)^^List<xsd:string>,(m,R)) . 
+foot:League(_:DbJ,"Serie A"^^xsd:string,a^^xsd:string,((a)), ("fKOuXk")) "{" 
+foot:Footballer(a,""^^xsd:string,"Håkon"^^xsd:string,"9999-99-99"^^xsd:date,o,(u),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Footballer(_:NFx 
+foot:Club(_:Kfq,) 
+foot:Footballer(w,"(%Pu","Mbappe","9999-99-99"^^xsd:date,none,(Y),Millions,RO,"") 
+foot:Club(_:TuI,"'4pCPk"^^xsd:string,"2016"^^gYear, "Old Trafford"^^xsd:string, "Argentina"^^xsd:string)   
+foot:League(_:xCD,"La Liga"^^xsd:string,"Argentina"^^xsd:string,((Z),((V),(u),(((J),(o))))), (i)) "(" 
+foot:Footballer(D,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,T,(t),Millions^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(U,"Cristiano"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,f,(R),1million^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:League(b,"Bundesliga"^^xsd:string,uI^^xsd:string,((a),(L),((p))), ("[":RriK))   
+foot:Footballer(a,""^^xsd:string,""^^xsd:string,""""^^xsd:date,q,(Z),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,"Argentina"^^xsd:string) . 
+foot:Club(v,) 
+foot:Footballer(W,"Lionel"^^xsd:string,"Mbappe"^^xsd:string,""""^^xsd:date,u,(A),a^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Club(_:Mki,"Barcelona"^^xsd:string,000^^gYear, "L("|"m9nl"^^xsd:string, "France"^^xsd:string) "-" 
+foot:Country(++"2016" 
+foot:Footballer(A,""^^xsd:string,"Brontë"^^xsd:string,""""^^xsd:date,B,(P),100000000^^xsd:integer,""^^xsd:string,"Argentina"^^xsd:string) . 
+foot:Club(_:VYT,""^^xsd:string,0000^^gYear, "Old Trafford"^^xsd:string, "Argentina"^^xsd:string)  "#""?" 
+foot:League(_:rvx,uXt^^xsd:string,Z*U^^xsd:string,((I),((q)),((K))), (a))   
+foot:League((AI,""^"vS",x"*"-e),1nT:V) 
+foot:Footballer(K,""^^xsd:string,""^^xsd:string,""""^^xsd:date,F,(e),a^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:League(_:RMI,"Ligue 1"^^xsd:string,dp^^xsd:string,(f,c), ("L"_"y",((X),(t),((l)))))   
+foot:Country(M,a^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,(s,u,n,U)^^List<xsd:string>,())   
+foot:Country(t,""^^xsd:string,"Asia"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(A,d,"Wrong"))   
+foot:Footballer(p,"Amadou"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,b,(P),010^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Country(j,""^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,(b,q,A,y)^^List<xsd:string>,()) . 
+foot:Country(++"Ligue 1" 
+foot:Footballer(n,"Lionel"^^xsd:string,"Van der Waals"^^xsd:string,"2020-13-32"^^xsd:date,z,(G),a^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:League(_:xVz,""^^xsd:string,a a^^xsd:string,(D), ((((X),(A)),(S),(((y))))))   
+foot:Club("Qc\//bIOr","Manchester United"^^xsd:string,"2017"^^gYear, "sl"^^xsd:string, a^^xsd:string)   
+foot:Club("Zy\//iEUB","Paris Saint-Germain"@fr^^xsd:string,P"["j^^gYear, "Allianz Arena"^^xsd:string, T.W^^xsd:string) #, 
+foot:Club(_:IyX,) 
+foot:Footballer(R,"Lionel"^^xsd:string,"Renée"^^xsd:string,"9999-99-99"^^xsd:date,z,(I),Millions^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string)   
+foot:Footballer(I,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,v,(s),a^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string) . 
+foot:Footballer(e,""^^xsd:string,"Björk"^^xsd:string,"2020-13-32"^^xsd:date,r,(X),a^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Country("@"*enTv,a^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong")) . 
+foot:League(_:VSN,""^^xsd:string,"France"^^xsd:string,(""#"@"iL"",((D))), (z,Q)) ] 
+foot:Country(_:xJF,a a^^xsd:string,P_c^^:xsd:string,"POR"^^xsd:string,(uX,wB,GE,MI)^^List<xsd:string>,((This is invalid),(This is invalid),"Wrong",(This is invalid))) . 
+foot:Footballer(O,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,u,(c),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Footballer(_:XAM 
+foot:Club(_:iqI,) 
+foot:Footballer(f,""^^xsd:string,"Renée"^^xsd:string,"2020-13-32"^^xsd:date,I,(O),Millions^^xsd:integer,"Forward"^^xsd:string,"Portugal"^^xsd:string) . 
+foot:Country(Z,"Portugal"^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(t,d,"Wrong"))   
+foot:Country("" 
+foot:Footballer(c,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,l,(w),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(x,"Bundesliga"^^xsd:string,RoZ^^xsd:string,((K),(((E),(X))),((a))), ("6fy")) . 
+foot:Country(C,"Portugal"^^xsd:string,"South America"^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,(e,B,g,W)) . 
+foot:Footballer(i,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,s,(o),100000000^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Club("XdVFcr",""^^xsd:string,"2019"^^gYear, "Old Trafford"^^xsd:string, a^^xsd:string) , 
+foot:Country(++"LdutVn",?iXr 
+foot:Country(T,gMV^^xsd:string,"North America"@en^^:xsd:string,"FRA"^^xsd:string,(""$"aR",Ut,LK,cE)^^List<xsd:string>,(_:WIh,n,B)) . 
+foot:League(_:cbF,"Ligue 1"^^xsd:string,a a a a a a a a a a^^xsd:string,(""^"{"jv"",(_ ndXZ,S)), (("7kPR")))   
+foot:Footballer(P,""^^xsd:string,"D'Artagnan"^^xsd:string,"2020-13-32"^^xsd:date,z,(R),010^^xsd:integer,"Striker"@us^^xsd:string,a^^xsd:string)   
+foot:Country("_"%DEAS,"France"^^xsd:string,"North America"@en^^:xsd:string,"POR"^^xsd:string,(Rw,Nh)^^List<xsd:string>,()) . 
+foot:League(_:wzTb,""^^xsd:string,a^^xsd:string,((s),((C),((E),(r),((R))))), ("OmdjIu",x)) > 
+foot:Footballer(H,"Cristiano"^^xsd:string,"Messi"^^xsd:string,"9999-99-99"^^xsd:date,J,(z),Millions^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(i,"Cristiano"^^xsd:string,"O'Neil"^^xsd:string,"2020-13-32"^^xsd:date,m,(F),Millions^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Footballer(j,"","Núñez","1983-15-11"^^xsd:date,none,((h)),100000000,"",a) 
+foot:Footballer(G,"Amadou"^^xsd:string,"D'Artagnan"^^xsd:string,""""^^xsd:date,s,(w),a^^xsd:integer,""^^xsd:string,"Argentina"^^xsd:string) . 
+foot:Footballer(y,""^^xsd:string,"Núñez"^^xsd:string,"2020-13-32"^^xsd:date,v,(Q),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Striker"@us^^xsd:string,a^^xsd:string) . 
+foot:League("YbBFLT","Serie A"^^xsd:string,a^^xsd:string,(x), (("KU" "l")))   
+foot:Club(_:uET,"Liverpool","2018"^^xsd:gYear,"Old Trafford",YDb":""_"4l) 
+foot:League(N,w"]"T^^xsd:string,a^^xsd:string,((W),((x),(G))), ((I),(B),((m)))) _. 
+foot:Country(_:kON,"Argentina"^^xsd:string,"North America"@en^^:xsd:string,"EGY"^^xsd:string,(v,5jnPSl)^^List<xsd:string>,(E,I,x,d,z))   
+foot:Club(_:OHLc,"Manchester United"^^xsd:string,"2015"^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string)   
+foot:Footballer(s,"Cristiano"^^xsd:string,"Fiancée"^^xsd:string,""""^^xsd:date,p,(u),a^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Country(_:Kqv,""^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,(pM,do,BD,LA)^^List<xsd:string>,()) '"&" 
+foot:Footballer(a,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,V,(N),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Club("zoFNXh","Barcelona"^^xsd:string,"2017"^^gYear, "Camp Nou"^^xsd:string, 9b"~"t^^xsd:string) ; 
+foot:League(H,"La Liga"^^xsd:string,a a a^^xsd:string,(((K)),((B),(d)),((E))), ("I#N,(_:zgk)"))   
+foot:League(++"Camp Nou",n&I3UXQ) 
+foot:League("?"'sdjI,""^^xsd:string,"Portugal"^^xsd:string,((K),(E)), (J))   
+foot:League(|"{"lxfZ,"Serie A"^^xsd:string,""^^xsd:string,(Y), ((U),(h))) @ 
+foot:Club(_:SZk,"Juventus"^^xsd:string,"2016"^^gYear, "f4M$w"^^xsd:string, "Argentina"^^xsd:string)   
+foot:Footballer(F,""^^xsd:string,"Núñez"^^xsd:string,"2020-13-32"^^xsd:date,r,(X),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Striker"@us^^xsd:string,"Egypt"^^xsd:string)   
+foot:Footballer(n,"Amadou"^^xsd:string,"Østergaard"^^xsd:string,"9999-99-99"^^xsd:date,o,(g),010^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Club("zAvaBN","Manchester United"^^xsd:string,00^^gYear, "yt"^^xsd:string, "Argentina"^^xsd:string) . 
+foot:Country(S,""^^xsd:string,""^^:xsd:string,""^^xsd:string,(s,t,M)^^List<xsd:string>,()) . 
+foot:Club(c,Ul^^xsd:string,00000^^gYear, """="r0R""^^xsd:string, oC^^xsd:string) . 
+foot:Club("lgtLrB",""^^xsd:string,"2018"^^gYear, "Camp Nou"^^xsd:string, "France"^^xsd:string) . 
+foot:League((x,W,r,yf),09M"*"OU) 
+foot:Country("PWMDnQ",a a a^^xsd:string,"Asia"^^:xsd:string,"","aF"^^xsd:string,(S,Lq)^^List<xsd:string>,()) - 
+foot:Footballer(g,""^^xsd:string,""^^xsd:string,""""^^xsd:date,G,(a),a^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string)   
+foot:Footballer(M,"Cristiano"^^xsd:string,"Pérez"^^xsd:string,""""^^xsd:date,w,(S),""^^xsd:integer,"Striker"@us^^xsd:string,a^^xsd:string) . 
+foot:Footballer(S,""^^xsd:string,"O'Neil"^^xsd:string,"0000-00-00"^^xsd:date,s,(p),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Goalkeeper"^^xsd:string,"England"@en^^xsd:string) . 
+foot:League(_:Rjd,"Premier League"^^xsd:string,">:uc"^^xsd:string,(""*Px""), (O)) "]""~" 
+foot:Club([_byTe,"""ths"^^xsd:string,00^^gYear, "Santiago Bernabéu"^^xsd:string, a a a^^xsd:string)   
+foot:Club(_:oXO,"Liverpool"^^xsd:string,"2018"^^gYear, "Old Trafford"^^xsd:string, a a a a a a a^^xsd:string)   
+foot:League(I,""^^xsd:string,cn^^xsd:string,((O),((X)),(((E),(x)))), ((a),(C)))   
+foot:League(_:lio,"Ligue 1"^^xsd:string,"France"^^xsd:string,("4EFwg"), (W)) "," 
+foot:Footballer(n,""^^xsd:string,""^^xsd:string,""""^^xsd:date,g,(j),""^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(o,""^^xsd:string,"O'Connor"^^xsd:string,"2020-13-32"^^xsd:date,b,(Q),a^^xsd:integer,"Goalkeeper"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Footballer(A,"Amadou"^^xsd:string,"Østergaard"^^xsd:string,"2020-13-32"^^xsd:date,o,(e),100000000^^xsd:integer,"Midfielder"^^xsd:string,"France"^^xsd:string)   
+foot:Club(_:mZt,""^^xsd:string,"2015"^^gYear, "Old Trafford"^^xsd:string, 4PB^^xsd:string) . 
+foot:Club(_:LaK,7TSm^^xsd:string,000^^gYear, "Allianz Arena"^^xsd:string, a a^^xsd:string) "=" 
+foot:League(_:GEZ,""^^xsd:string,a^^xsd:string,((K),((V))), ((w),(((F)),(q),((L))))) < 
+foot:Footballer(A,"Cristiano"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,X,(q),010^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string)   
+foot:Country(v,""^^xsd:string,"Europe"^^:xsd:string,"POR"^^xsd:string,(JA,tG,qa,zb)^^List<xsd:string>,()) ( 
+foot:Club("%"""~"GjZd,"Paris Saint-Germain"@fr^^xsd:string,0^^gYear, "Allianz Arena"^^xsd:string, a a a^^xsd:string) . 
+foot:Club("LONtdE",) 
+foot:League("md\//SviI","Bundesliga"^^xsd:string,"France"^^xsd:string,((j),(B)), ((D))) . 
+foot:Footballer("qnRUPJ" 
+foot:Country(V,""^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,(I,H,N,L)^^List<xsd:string>,())   
+foot:League(_:QhzC,"La Liga"^^xsd:string,a^^xsd:string,((f),(((Y),(b)),(""-Pv""),(((q))))), ((I,e),(("oc"))))   
+foot:League("np\//dusQ","Bundesliga"^^xsd:string,"Egypt"^^xsd:string,(v), ((E,h)))   
+foot:League(a,"Premier League"^^xsd:string,a^^xsd:string,(((X),(d))), ((T),(n),((F)))) }^ 
+foot:Footballer(K,"Lionel","",""""^^xsd:invalidDatatype,T,(F),100000000,"",a) 
+foot:Club(_:aiT,"Manchester United"^^xsd:string,"2017"^^gYear, "6PfbgGIl"^^xsd:string, "France"^^xsd:string)   
+foot:Club("ZkmsdM","Juventus"^^xsd:string,""^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string) ^| 
+foot:League(P,""^^xsd:string,a a^^xsd:string,("""}"Vp"",(((A),(B)))), ((a),("s'h,(m)"),((M))))   
+foot:Footballer(v,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,F,(y),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Country(W,a a a^^xsd:string,"South America"^^:xsd:string,"}Op"^^xsd:string,(e,G)^^List<xsd:string>,(vP,"Wrong",I"|"L)) . 
+foot:League(_:bTm,"Ligue 1"^^xsd:string,a^^xsd:string,(("""^"Mr"")), ((V),(((k),(o)),(G)),((c))))   
+foot:League(++GL|"+""~"g,("u\w,(Q)",("Ma\//SKvx")),PNp;4r) 
+foot:Club(_:taN,9uHXG^^xsd:string,000^^gYear, ""}Ik""^^xsd:string, "France"^^xsd:string) . 
+foot:Club("$"+*"]"ndikO,) 
+foot:Club(_:FeK,rY^^xsd:string,00000^^gYear, """'"Vm""^^xsd:string, a a a a^^xsd:string) . 
+foot:Footballer(Y 
+foot:Footballer(u,"Amadou"^^xsd:string,"Fernandes"^^xsd:string,""""^^xsd:date,a,(d),a^^xsd:integer,""^^xsd:string,"Portugal"^^xsd:string) . 
+foot:Club(_:bNd,"Juventus","2018"^^xsd:gYear "Anfield",a) 
+foot:League(""[UqEX,""^^xsd:string,"Argentina"^^xsd:string,(R), ((k)))   
+foot:League("jUKRHa",""^^xsd:string,""^^xsd:string,(X), ((V))) . 
+foot:Country(_:fMz,""^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,(nl,ek)^^List<xsd:string>,(J,A,v,"Wrong")) . 
+foot:Country(y,a a a a a a^^xsd:string,"Europe"^^:xsd:string,DCf"?"8r^^xsd:string,(H,"";"+zB")^^List<xsd:string>,()) _ 
+foot:Club(_:Bgl,""^""#"WZhsE","2017"^^xsd:gYear,"Anfield",3Lx$edfA) 
+foot:Country(((""jL"",("n"$"h",("BT"))),((F)),((((_:fgQ,c)),((b))))) 
+foot:Footballer("XgoVcb" 
+foot:Country("/"+bBam,"Argentina"^^xsd:string,"South America"^^:xsd:string,"FRA"^^xsd:string,(F,n,OZ)^^List<xsd:string>,(V,u)) . 
+foot:Footballer(A,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,y,(t),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Country(_:yFm,a^^xsd:string,pU^^:xsd:string,"FRA"^^xsd:string,(Q,oa)^^List<xsd:string>,((This is invalid),"Wrong"))   
+foot:Country(++w 30Vz,"Ligue 1" 
+foot:Country(i,a^^xsd:string,""^^:xsd:string,""^^xsd:string,(u,j,lp)^^List<xsd:string>,())   
+foot:League(R,""^^xsd:string,""^^xsd:string,(((L),(e)),(a),(((M),(O)))), (Z)) . 
+foot:Footballer(C,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,F,(b),100000000^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string)   
+foot:League(Y,"Premier League"^^xsd:string,PI1G^^xsd:string,((((s),(H))),(t)), ((E)))   
+foot:Footballer(C,"","D'Artagnan","9999-99-99"^^xsd:invalidDatatype,P,(Z),a,"",a) 
+foot:Footballer(Y,""^^xsd:string,"D'Artagnan"^^xsd:string,"2020-13-32"^^xsd:date,M,(p),""^^xsd:integer,"Striker"@us^^xsd:string,"Argentina"^^xsd:string)   
+foot:League(J,0zZVR^^xsd:string,"Egypt"^^xsd:string,("nqtHO"), ((_:XES))) # 
+foot:League(_:nJh,""("Hq"^^xsd:string,a^^xsd:string,(((N),(S),(((g))))), ("tR\//uLVw",Z))   
+foot:Club(_:SMU,"Paris Saint-Germain"@fr^^xsd:string,000^^gYear, ""*","F9mCWf""^^xsd:string, "Argentina"^^xsd:string)   
+foot:Footballer(F,"","","0000-00-00"^^xsd:invalidDatatype,d,(O),a,"","") 
+foot:Country(_:GRx,HV^^xsd:string,""/"hP"^^:xsd:string,"ENG"^^xsd:string,(I,S,a,".Bu")^^List<xsd:string>,(g@N)) . 
+foot:Country(o,"Portugal"^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(E,Z,N,u)) . 
+foot:Country(f,"France"^^xsd:string,zd^^:xsd:string,""^^xsd:string,(":Ku",rP)^^List<xsd:string>,(w,B))   
+foot:Country("qt\//bEjM","Egypt"^^xsd:string,""^^:xsd:string,"POR"^^xsd:string,(gh)^^List<xsd:string>,(W,N))   
+foot:League(":""{"*gTJz,i\2AI) 
+foot:Club(_:ktR,"Barcelona"^^xsd:string,"2019"^^gYear, "1ZIOT_A"^^xsd:string, "France"^^xsd:string) " " 
+foot:Footballer(e,"Amadou"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,t,(H),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Country("Allianz Stadium" 
+foot:League(_:GmF,"Ligue 1"^^xsd:string,""|"kc"^^xsd:string,(=,gPjx,i), ((h),(o),((Z))))   
+foot:League(3POtbB,zhGIks"}"x) 
+foot:League(_:OAX,""^^xsd:string,"Argentina"^^xsd:string,(("RdyCug")), ((k),("bF",(s)))) . 
+foot:Footballer(c,""^^xsd:string,"Müller"^^xsd:string,"9999-99-99"^^xsd:date,V,(G),""^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:League("kv\//mCcR",""^^xsd:string,a^^xsd:string,(D), ((x))) { 
+foot:Country(_:IlW,a a^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong")) . 
+foot:Club("bO\//hCQd",tX<W^^xsd:string,00^^gYear, "Camp Nou"^^xsd:string, "England"@en^^xsd:string)   
+foot:Footballer(H,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,x,(e),1million^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string) . 
+foot:Club("tWPbHp","Liverpool"^^xsd:string,"2019"^^gYear, ""'VB""^^xsd:string, a^^xsd:string) . 
+foot:Footballer(Y 
+foot:Country(_:MQE,++010 
+foot:Club(_:JIK,) 
+foot:Club(_:SZH,"Juventus"^^xsd:string,00000^^gYear, "EY7rR"^^xsd:string, "France"^^xsd:string)   
+foot:League(w,"+Py"^^xsd:string,""^^xsd:string,("""&"uR""), ((((U),(j)),(b),((C))))) . 
+foot:Country(y,a^^xsd:string,""^^:xsd:string,""^^xsd:string,(Tm,iI)^^List<xsd:string>,((This is invalid),"Wrong","Wrong"))   
+foot:League(U,"Ligue 1"^^xsd:string,W=t^^xsd:string,((y),(a),(((K),(E)))), ("X"}"O")) . 
+foot:Footballer(X,"Lionel"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,g,(G),010^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Club(o,"Manchester United"^^xsd:string,"2017"^^gYear, "Old Trafford"^^xsd:string, A5Ic^^xsd:string)   
+foot:League("YyWfAO",""^^xsd:string,""^^xsd:string,((k),(c)), ((U),(r)))   
+foot:League((xy,e,S,Q,L),j"|"hg) 
+foot:Country(Q,"England"@en^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(R,c,E))   
+foot:Country("*"|dQSa,"Egypt"^^xsd:string,b+l^^:xsd:string,"FRA"^^xsd:string,(">Pc",Wt)^^List<xsd:string>,()) . 
+foot:Footballer(U,"Lionel"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,F,(M),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Forward"^^xsd:string,""^^xsd:string) . 
+foot:Club(_:PUE,) 
+foot:Footballer(P,"Amadou"^^xsd:string,"Van der Waals"^^xsd:string,"0000-00-00"^^xsd:date,y,(r),a^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(_:Hyp,"Serie A"^^xsd:string,"Egypt"^^xsd:string,((W),("}"*MvjX,e)), (m)) . 
+foot:Club(_:VLSI,) 
+foot:Footballer(S,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,Z,(h),a^^xsd:integer,"Striker"@us^^xsd:string,"France"^^xsd:string) . 
+foot:Country(_:QqZ,"Egypt"^^xsd:string,"Asia"^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,(p,Y,v,t,y(O))   
+foot:League("Ul\//RCxQ","Serie A"^^xsd:string,a^^xsd:string,(r), ((o),((f)))) . 
+foot:Club(_:Blj,of;")""]"8U^^xsd:string,"2016"^^gYear, "Allianz Arena"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:League(U,""^^xsd:string,"Portugal"^^xsd:string,((((S),((l),(a)),(((x),(I)))),(N,V))), ("D_j"))   
+foot:Country(_:bKO,"Egypt"^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,(Q,j,q,A,U)^^List<xsd:string>,()) \"("- 
+foot:Club(_:Spl,"Liverpool","2018"^^xsd:gYear,"Parc des Princes",a a a a) 
+foot:Footballer(I,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,P,(n),010^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:League(_:OGt,"La Liga"^^xsd:string,a a a a^^xsd:string,((S),((N),((b)),((U)))), ((r,s,C),(("e#j,(B)")))) . 
+foot:Footballer(_:PSI 
+foot:Club(_:Wqf,gs""""="2ZUj^^xsd:string,"2017"^^gYear, "Camp Nou"^^xsd:string, a^^xsd:string)   
+foot:Club(T,L"/")A4g^^xsd:string,"2015"^^gYear, """+"qvksr""^^xsd:string, a a a a a a a^^xsd:string) . 
+foot:League(++"Amadou",w8L"}"d) 
+foot:Footballer(I,"Amadou","Çelik","2020-13-32"^^xsd:invalidDatatype,c,(M),100000000,"Goalkeeper","") 
+foot:Footballer(i,"Cristiano"^^xsd:string,"Mc'Donald"^^xsd:string,"2020-13-32"^^xsd:date,x,(S),1million^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Country(_:gjX,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:League(Q,"%gD"^^xsd:string,"Portugal"^^xsd:string,("3i"!"A",((r))), (_:zYX))   
+foot:Footballer(E,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,f,(m),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:League(e,"Premier League"^^xsd:string,""^^xsd:string,((U),(T,O),((a))), ((v),(Z)))   
+foot:Country(v,a^^xsd:string,"Africa"^^:xsd:string,"FRA"^^xsd:string,(mb,Be,fn,Yc)^^List<xsd:string>,()) . 
+foot:Club(u,"."."w6NT"^^xsd:string,"2019"^^gYear, "Camp Nou"^^xsd:string, a^^xsd:string) # 
+foot:Country(_:lZY,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,(x,Q,d,OT)^^List<xsd:string>,(V,K,I,v)) . 
+foot:League(Q,""!"pS"^^xsd:string,""^^xsd:string,(((T),(Y)),((A),((d))),(((I),(U)))), ((""?Lj""))) . 
+foot:Footballer(G,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,y,(o),a^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string) . 
+foot:Club(_:ils,"Liverpool"^^xsd:string,00^^gYear, "A4FC"^^xsd:string, Y("'")z^^xsd:string) "}" 
+foot:League(_:iDU,""^^xsd:string,a a^^xsd:string,((s),(((o)),(Z),((h)))), (((l),(X))))   
+foot:Country(_:PRcg,z"("sG^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,(2ArUB," np",(q))^^List<xsd:string>,())   
+foot:League(_:ENFe,""^^xsd:string,""^^xsd:string,(%"-"rTpY), ("b&s,(h)"))   
+foot:Footballer(r,"Amadou"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,f,(x),Millions^^xsd:integer,"Midfielder"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Club(_:bFL,"Manchester United"^^xsd:string,0^^gYear, "Allianz Arena"^^xsd:string, 27rh"_""&"R^^xsd:string) ][ 
+foot:Country(""="ukIL,"Argentina"^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(W,"Wrong"))   
+foot:Footballer(r,""^^xsd:string,"Renée"^^xsd:string,""""^^xsd:date,Y,(l),Millions^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(R,""^^xsd:string,"Renée"^^xsd:string,"0000-00-00"^^xsd:date,U,(c),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:League("]".gobl,""^^xsd:string,"England"@en^^xsd:string,((f),(S)), (((D),(Q),((t)))))   
+foot:Club("lr\//CoPc",""^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, "France"^^xsd:string)   
+foot:Country(e,""^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(R,r)) "| 
+foot:Club("&"=koyj,"Manchester United"^^xsd:string,00^^gYear, "NF"^^xsd:string, "Argentina"^^xsd:string)   
+foot:Country(_:tHp,a^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,(Y,T)^^List<xsd:string>,()) . 
+foot:League(Ig,NS"["!"*"6sfr) 
+foot:Country(N,a^^xsd:string,""^^:xsd:string,""^^xsd:string,(f,d,e,kz)^^List<xsd:string>,()) . 
+foot:Club(""}"nDzu,dN^^xsd:string,tB^^gYear, "Old Trafford"^^xsd:string, "France"^^xsd:string)   
+foot:Footballer(l,""^^xsd:string,"Renée"^^xsd:string,"2020-13-32"^^xsd:date,o,(O),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:League(d,S7J^^xsd:string,a^^xsd:string,(_:KgD,p), (((t),(q),((u))),(((m)))))   
+foot:League("GK\//DSex",""^^xsd:string,a^^xsd:string,(X), ((p),(F)))   
+foot:Country(_:Pbc,""^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,("+yw"))   
+foot:Footballer(A,"Amadou","Ronaldo","2020-13-32"^^xsd:date,none,((P),(D)),958472631,"","") 
+foot:Footballer(R,"Cristiano"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,c,(C),a^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(_:GQj 
+foot:League(_:CKP,""^^xsd:string,""^^xsd:string,(S), (((I),(f),((w))),((p),(V)))) | 
+foot:League(++"Asia",""/""&"Wfl",e][3Ut) 
+foot:Country(b,"England"@en^^xsd:string,A*1I^^:xsd:string,NZ^^xsd:string,(hx)^^List<xsd:string>,(X,q,"Wrong"))   
+foot:Footballer(X,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,b,(m),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(j,"Amadou"^^xsd:string,"D'Artagnan"^^xsd:string,"0000-00-00"^^xsd:date,m,(d),1million^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string)   
+foot:League(++"2013-14-26",none,J;" "2SWxgzYyp) 
+foot:Footballer(F,"Cristiano"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,b,(X),Millions^^xsd:integer,""^^xsd:string,"Portugal"^^xsd:string) . 
+foot:Club("*"'^","lrIzS,"Juventus"^^xsd:string,0000^^gYear, "Old Trafford"^^xsd:string, "France"^^xsd:string) . 
+foot:Club(_:QnZ,H"#"~ij^^xsd:string,0000^^gYear, "0zu["&"G"^^xsd:string, "England"@en^^xsd:string) ( 
+foot:Footballer(i,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,P,(S),a^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Footballer(S,"Amadou"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,y,(L),a^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:Country(+{VGXe,"France"^^xsd:string,""^^:xsd:string,""_"Bm"^^xsd:string,( )^^List<xsd:string>,())   
+foot:Country("uO\//JnGD","France"^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,(Vl)^^List<xsd:string>,())   
+foot:League(_:qdx,""-"iY"^^xsd:string,"Argentina"^^xsd:string,((F),(k)), ((l),(T),((s))))   
+foot:Country(_:JwE,"France"^^xsd:string,"South America"^^:xsd:string,af^^xsd:string,(bR)^^List<xsd:string>,()) . 
+foot:League(_:lOo,2Umz^^xsd:string,a^^xsd:string,("b)?wM"), ((."("gWAI)))   
+foot:League(_:ZyN,"Ligue 1"^^xsd:string,lp^^xsd:string,((K),(o),((H))), (((O)),(((I),(m)))))   
+foot:Footballer(u,"Lionel"^^xsd:string,"D'Artagnan"^^xsd:string,"0000-00-00"^^xsd:date,f,(U),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Country(++(Q,R,o,z,vY),((((x),(X),(((a))))),((d),(E))) 
+foot:League(_:Nzw,"Ligue 1"^^xsd:string,"England"@en^^xsd:string,("""("FIU""), (((o),((S),(g)),(("Au,(d)"))),((O),((P)))))   
+foot:Club(_:faT,"]Rc"^^xsd:string,00^^gYear, "H4GJ"^^xsd:string, "Egypt"^^xsd:string)   
+foot:Country(_:GVF,""^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(4Nl,"Wrong",""]"PHjM"))   
+foot:Footballer(L,"Cristiano"^^xsd:string,"Brontë"^^xsd:string,""""^^xsd:date,k,(O),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Footballer(I,""^^xsd:string,"Østergaard"^^xsd:string,""""^^xsd:date,O,(o),""^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string)   
+foot:Footballer(z,"Amadou","",""""^^xsd:date,none,(((R),(e),((t)))),"","","Argentina") 
+foot:Club("xp\//PLMD",) 
+foot:League(_:pPA,""^^xsd:string,""^^xsd:string,((y),(O),((t))), ((r),(n)))   
+foot:Footballer(J,"","Østergaard","0000-00-00"^^xsd:invalidDatatype,v,(a),a,"Forward","Portugal") 
+foot:League("Zz\//UhkQ",N!I^^xsd:string,a^^xsd:string,(((b))), ((q),(R)))   
+foot:Footballer(R,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,O,(J),a^^xsd:integer,"Forward"^^xsd:string,""^^xsd:string)   
+foot:Footballer(K,"Lionel"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,T,(W),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Footballer("Tu\//ORvQ" 
+foot:Country(C,a a^^xsd:string,"Europe"^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(K,X,D,Y)) . 
+foot:Footballer(_:IdX 
+foot:Club(_:NtJ,"Liverpool"^^xsd:string,000^^gYear, "Camp Nou"^^xsd:string, "Egypt"^^xsd:string) . 
+foot:League(++"Mbappe","La Liga",8Uw"["EO) 
+foot:Country(D,""^^xsd:string,"Africa"^^:xsd:string,"ARG"^^xsd:string,(A,a,NF)^^List<xsd:string>,()) & 
+foot:League(++?QPX,5WU]/Gwir) 
+foot:Country(R,"England"@en^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,(B,O,SJ)^^List<xsd:string>,())   
+foot:Footballer(u,"","","2024-0-24"^^xsd:date,none,((E),(J)),K(P,"","Egypt") 
+foot:Country(++a,"POR" 
+foot:Club(_:kuW,"Juventus"^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, "Egypt"^^xsd:string) . 
+foot:League(_:SKu,"Premier League"^^xsd:string,""^^xsd:string,(v), ("QWMJEc",t)) "[" 
+foot:League(++0,v^";"_4Au) 
+foot:Footballer(o,"{Mp","","2015-17-23"^^xsd:date,none,((n),(v)),a,"Defender",a a a a) 
+foot:Country(_:RIk,a^^xsd:string,x"("h^^:xsd:string,"ENG"^^xsd:string,(mX,ag)^^List<xsd:string>,(F,b)) . 
+foot:Footballer(_:TAQ,"Amadou",k"/"R,""""^^xsd:date,none,(((L),(o)),((B))),a,g\G,a a) 
+foot:Club("XfL\//yWSa","Liverpool"^^xsd:string,"2017"^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string) . 
+foot:Club(z,"Liverpool"^^xsd:string,000^^gYear, "Allianz Arena"^^xsd:string, ""^^xsd:string)   
+foot:Footballer(q,"Cristiano"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,U,(I),1million^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string) . 
+foot:Footballer(c,""^^xsd:string,""^^xsd:string,""""^^xsd:date,j,(y),a^^xsd:integer,"Midfielder"^^xsd:string,""^^xsd:string) . 
+foot:Country(R,""^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,("Wrong",(This is invalid),(This is invalid)))   
+foot:Footballer(O 
+foot:Country(++"Europe" 
+foot:Footballer(B,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,W,(c),Millions^^xsd:integer,"Midfielder"^^xsd:string,a^^xsd:string) . 
+foot:League(_:kNo,B.P^^xsd:string,a a^^xsd:string,((S),((x),(A))), (""";"EZ"")) . 
+foot:League(r,Y,"A1pXhl) 
+foot:League(G,h"_"=r^^xsd:string,cZ^^xsd:string,((E)), ((a,f))) "" 
+foot:Footballer(n,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,A,(c),1million^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Footballer(t,""^^xsd:string,"Müller"^^xsd:string,"9999-99-99"^^xsd:date,b,(y),010^^xsd:integer,"Striker"@us^^xsd:string,"Argentina"^^xsd:string) . 
+foot:Club(_:INP,9cS";"g^^xsd:string,0^^gYear, "Santiago Bernabéu"^^xsd:string, ""^^xsd:string) ~ 
+foot:Footballer(_:Stp 
+foot:League("Midfielder",w8JQA"*"U) 
+foot:League("gU\//nGIF","Premier League"^^xsd:string,"Argentina"^^xsd:string,(c), ((E),(Z))) "#""$" 
+foot:League(_:UvY,"Bundesliga"^^xsd:string,a^^xsd:string,((q),(u)), ((((V),(Q)),(y),(("pC")))))   
+foot:Country(_:AkH,"Portugal"^^xsd:string,"Europe"^^:xsd:string,"FRA"^^xsd:string,(0Km,zUpX,GR."^"C)^^List<xsd:string>,("","~wy")) . 
+foot:Footballer("nuJPOB" 
+foot:Club(_:Uyo,"Liverpool"^^xsd:string,k1XWh^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) . 
+foot:League("YSztsL","Premier League"^^xsd:string,"Portugal"^^xsd:string,(y), ((d),(F),((V))))   
+foot:Country(p,a^^xsd:string,"North America"@en^^:xsd:string,y"("L^^xsd:string,( )^^List<xsd:string>,(S,l,g)) ( 
+foot:Club("NEFJMa","Paris Saint-Germain"@fr^^xsd:string,"2016"^^gYear, "Camp Nou"^^xsd:string, "Argentina"^^xsd:string) "*")_ 
+foot:League("KeRaiv",""^^xsd:string,"Egypt"^^xsd:string,((s),(r),((D))), ((b),(h)))   
+foot:League(j,r3KM^^xsd:string,"France"^^xsd:string,("c"~"n,(i)",(((p)))), (w,_:LEf))   
+foot:Club(W,"Liverpool"^^xsd:string,"2015"^^gYear, ""(9pkxh""^^xsd:string, "England"@en^^xsd:string) . 
+foot:Club("jG\//gqwb",""^^xsd:string,"2019"^^gYear, "Santiago Bernabéu"^^xsd:string, ""^^xsd:string) . 
+foot:Club(_:zeF,"&Oob7IT"^^xsd:string,gjv^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string)   
+foot:Country(f,"England"@en^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong","Wrong","Wrong")) . 
+foot:Country(j,""^^xsd:string,"South America"^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,(b,N,(This is invalid)))   
+foot:Club(_:egj,7G"'"V^^xsd:string,"2016"^^gYear, "".rnB""^^xsd:string, a^^xsd:string) . 
+foot:League(_:Vwx,":UA"^^xsd:string,a a^^xsd:string,(("""*"aI"",(q))), ((C)))   
+foot:Country(i,"Portugal"^^xsd:string,w"'"v^^:xsd:string,""^^xsd:string,(Q,q&S)^^List<xsd:string>,()) . 
+foot:League(++?XgZ,Hx="#"N,2G)e) 
+foot:Country(_:aIg,c]m^^xsd:string,"North America"@en^^:xsd:string,h"/"e^^xsd:string,(q,kV)^^List<xsd:string>,(J,x,"Wrong")) \ 
+foot:League(_:lmf,"Serie A"^^xsd:string,a a a a^^xsd:string,(""<UK""), (|"(""}"SQRP)) . 
+foot:Club("fmXOrv",""^^xsd:string,0^^gYear, "Camp Nou"^^xsd:string, "France"^^xsd:string) ~"]"^ 
+foot:Footballer(O,"Cristiano"^^xsd:string,"Ronaldo"^^xsd:string,"9999-99-99"^^xsd:date,l,(E),1million^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string)   
+foot:Club(_:IRT,2Fyl"%"z^^xsd:string,00^^gYear, "Camp Nou"^^xsd:string, a a a^^xsd:string) . 
+foot:Footballer("pUHNuv",Tm,"",""""^^xsd:date,none,(D),"",")OL",a a) 
+foot:League(b,"Premier League"^^xsd:string,""^^xsd:string,(((C)),("v"."K",(m))), ((((z),(W)),(n),(((P),(U))))))   
+foot:Footballer(%"*"KuHc,V"@""C,"Çelik",""""^^xsd:date,none,((e)),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010,"Midfielder",BR) 
+foot:Footballer(k,"Cristiano"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,i,(w),100000000^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string)   
+foot:Club("PU\//iEtn","Liverpool"^^xsd:string,"2015"^^gYear, "oC"^^xsd:string, I<"/"R^^xsd:string)   
+foot:Footballer(p,""^^xsd:string,"Björk"^^xsd:string,"9999-99-99"^^xsd:date,d,(f),a^^xsd:integer,"Forward"^^xsd:string,"England"@en^^xsd:string)   
+foot:Club(_:vCs,xu1FBj^^xsd:string,"2015"^^gYear, "Allianz Arena"^^xsd:string, a a a a a a a^^xsd:string) @| 
+foot:Footballer(p,""^^xsd:string,""^^xsd:string,""""^^xsd:date,t,(Q),010^^xsd:integer,"Forward"^^xsd:string,""^^xsd:string)   
+foot:Club(_:LRa,F")"M^^xsd:string,"2018"^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) [ 
+foot:League(_:VdE,lX^^xsd:string,Z!p^^xsd:string,(b,y), ((B))) "[" 
+foot:Club("va\//GXnS",) 
+foot:League(w,"Ligue 1"^^xsd:string,"Egypt"^^xsd:string,((E),(_:WaK,T)), ((((L),(e),(((t))))),((H))))   
+foot:Footballer(m,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,i,(z),Millions^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(++(B,T,ZUq,n[i),O7d"""~"N) 
+foot:Club("Ll\//Mjsi","Barcelona"^^xsd:string,00000^^gYear, "Camp Nou"^^xsd:string, "!HB"^^xsd:string)   
+foot:Country(e,""^^xsd:string,""^^:xsd:string,"" "kN"^^xsd:string,(c,X,F)^^List<xsd:string>,()) . 
+foot:Club("jP\//bTQD",) 
+foot:Footballer(C,""^^xsd:string,"Çelik"^^xsd:string,"9999-99-99"^^xsd:date,Y,(H),100000000^^xsd:integer,"Striker"@us^^xsd:string,a^^xsd:string)   
+foot:Club(P,""^^xsd:string,00^^gYear, "Allianz Arena"^^xsd:string, a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a^^xsd:string) "-" 
+foot:Footballer(V,"Cristiano"^^xsd:string,"Björk"^^xsd:string,"2020-13-32"^^xsd:date,m,(u),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string) . 
+foot:League("KahZUk","Serie A"^^xsd:string,"Portugal"^^xsd:string,(("vx")), (D)) "^" 
+foot:Club(_:piL,) 
+foot:Club(_:fNe,) 
+foot:Club(p,9F"]""^"JQ^^xsd:string,00000^^gYear, "Old Trafford"^^xsd:string, ABv^^xsd:string) * 
+foot:League(r,""^"Qh"^^xsd:string,""^^xsd:string,("".ko"",((i),(T),((l)))), (y)) . 
+foot:Country(V,">qM"^^xsd:string,"Asia"^^:xsd:string,be^^xsd:string,(T,H,g)^^List<xsd:string>,(_:Anz,X)) . 
+foot:Footballer(P,""^^xsd:string,"O'Connor"^^xsd:string,"9999-99-99"^^xsd:date,W,(g),100000000^^xsd:integer,""^^xsd:string,"Argentina"^^xsd:string) . 
+foot:League(++none,4Blkjb,g"}"YG) 
+foot:League(("kNroDC",Q),WT~y) 
+foot:League("yVoSBf",O"^"j^^xsd:string,""^^xsd:string,((D)), ((d),(G),((U)))) . 
+foot:League("QNKsFv",Hy^^xsd:string,""^^xsd:string,(r), ((D),((J)))) & 
+foot:Footballer(_:IQF,"","","2020-13-32"^^xsd:date,none,(T,y),a,"Forward",""."UW") 
+foot:League(T,""^^xsd:string,""^^xsd:string,(_:RIc), ("""("?"@"A7Xgk""))   
+foot:Country(_:YFW,"France"^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,(v,o,(This is invalid)))   
+foot:Footballer(d,""^^xsd:string,"Çelik"^^xsd:string,"9999-99-99"^^xsd:date,Y,(I),010^^xsd:integer,"Midfielder"^^xsd:string,""^^xsd:string) . 
+foot:League("awxVid",""^^xsd:string,"Argentina"^^xsd:string,(J), (E)) . 
+foot:Club(>&" ""^"cxVf,"Liverpool"^^xsd:string,00^^gYear, ""-.d8Hy""^^xsd:string, a^^xsd:string) . 
+foot:Footballer(_:ibw,"Cristiano","Fernandes","9999-99-99"^^xsd:date,none,(v),a,"Goalkeeper","") 
+foot:Club(_:Nlr,8e*Q^^xsd:string,00000^^gYear, "k""*"D"^^xsd:string, mo^^xsd:string) . 
+foot:Club(_:AEr,""^^xsd:string,"2019"^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) : 
+foot:Country(_:ybL,a^^xsd:string,""^^:xsd:string,""^^xsd:string,(Zd,sn,(A))^^List<xsd:string>,())   
+foot:League(l"~""]"y,++?TRC,baOxZ>7e) 
+foot:Country(Z,"Egypt"^^xsd:string,"Africa"^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(l,Q d))   
+foot:Country(T,""^^xsd:string,""^^:xsd:string,""^^xsd:string,(KI,Jh,lO,zy)^^List<xsd:string>,()) . 
+foot:Club("yh\//LgEQ","Manchester United"^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string)   
+foot:League(g,PeE^^xsd:string,"Portugal"^^xsd:string,(((h)),((D))), ((I),("W}H",(R)),((("Z";"z,(G)")))))   
+foot:Footballer(I,"Cristiano"^^xsd:string,"D'Artagnan"^^xsd:string,"9999-99-99"^^xsd:date,s,(Z),a^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(_:wRu,"Premier League"^^xsd:string,""^^xsd:string,((W,F),((t),((E)))), ((((S),(y)),((l)),(("""*"CI"")))))   
+foot:Footballer(e,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,X,(A),1million^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Country("EdZXYH",a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,())   
+foot:League(_:EdQ,"La Liga"^^xsd:string,a a a a a a a a^^xsd:string,(/":"zpUk), ((a,y),("Y,Z,""!Ix""")))   
+foot:Club("yD\//eMzx",""^^xsd:string,"2019"^^gYear, "Old Trafford"^^xsd:string, "Portugal"^^xsd:string)   
+foot:Club(\"?"YMSJ,""^^xsd:string,00000^^gYear, "UI"^^xsd:string, ""^^xsd:string) @+ 
+foot:Footballer(P,"Lionel"^^xsd:string,"Messi"^^xsd:string,""""^^xsd:date,C,(w),""^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Country("dtqPUW",""^^xsd:string,IG^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:Country(R,"Portugal"^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(i,K,j,I))   
+foot:Footballer(V,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,j,(v),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(V,"")"Gj","Brontë",""""^^xsd:date,none,((a),(E)),a,"","France") 
+foot:Country(_:sjn,"Egypt"^^xsd:string,"Asia"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(g,G,i,r))   
+foot:Country(_:OcF,"Portugal"^^xsd:string,""^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,()) {"*" 
+foot:Footballer(K,"","","9999-99-99"^^xsd:invalidDatatype,e,(n),a,"",a) 
+foot:Club(_:Hsc,"Paris Saint-Germain"@fr^^xsd:string,0000^^gYear, "Camp Nou"^^xsd:string, a^^xsd:string) . 
+foot:Footballer(z,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,v,(W),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string)   
+foot:Footballer(N,""^^xsd:string,"Müller"^^xsd:string,"0000-00-00"^^xsd:date,o,(m),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Club(D,""?"eT"^^xsd:string,"2017"^^gYear, ""^2PasltJ""^^xsd:string, a a a a a^^xsd:string)   
+foot:League(C,"Premier League"^^xsd:string,"Egypt"^^xsd:string,((a),(f),(((c)))), ("("+kMhw))   
+foot:Footballer(w,""^^xsd:string,""^^xsd:string,""""^^xsd:date,h,(F),""^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string)   
+foot:League(_:hNL,"Bundesliga"^^xsd:string,fn^^xsd:string,(e), (((R)),((a),(z))))   
+foot:Club(_:XtH,"Juventus"^^xsd:string,"2018"^^gYear, ""]"-""("zFsB""^^xsd:string, "|0CKo"^^xsd:string) . 
+foot:Footballer(n,"","O'Connor","2020-13-32"^^xsd:invalidDatatype,Q,(s),a,"","Egypt") 
+foot:League(++"","1954-2-25",7ZWO~"%"h) 
+foot:Footballer(S,"Lionel"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,d,(b),1million^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:Country(_:yOR,a^^xsd:string,"Africa"^^:xsd:string,"ENG"^^xsd:string,(J,T,h,Hq)^^List<xsd:string>,()) . 
+foot:Footballer(t,""^^xsd:string,"Çelik"^^xsd:string,"9999-99-99"^^xsd:date,g,(r),""^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(_:wQz,""^^xsd:string,"Argentina"^^xsd:string,(( "@"qIph)), (R,C)) . 
+foot:Club(""#"hBFi,"Manchester United","2016"^^xsd:gYear "Camp Nou",ce) 
+foot:Footballer(A,"","","9999-99-99"^^xsd:invalidDatatype,i,(j),100000000,"Goalkeeper",a) 
+foot:Club("XrozPf",""^^xsd:string,"2015"^^gYear, "Santiago Bernabéu"^^xsd:string, KT^^xsd:string) * 
+foot:Club("og\//wzJh",Ce5xEWX^^xsd:string,00^^gYear, "Allianz Arena"^^xsd:string, "Portugal"^^xsd:string)   
+foot:Footballer(N,""^^xsd:string,"Van der Waals"^^xsd:string,"0000-00-00"^^xsd:date,S,(f),a^^xsd:integer,"Defender"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:League(_:RaM,"Ligue 1"^^xsd:string,"";"zQ"^^xsd:string,("LWrHcG"), ((K),(O)))   
+foot:Country("Ap\//yHBm",a^^xsd:string,"Europe"^^:xsd:string,e-C^^xsd:string,(d,i)^^List<xsd:string>,())   
+foot:Footballer(g,"Amadou"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,l,(r),100000000^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(_:bYU,Sl,"Björk","9999-99-99"^^xsd:date,none,(z),Millions,"","France") 
+foot:Country(_:yZv,a a^^xsd:string,"Africa"^^:xsd:string,""'"tU"^^xsd:string,( )^^List<xsd:string>,("!JH","Wrong")) . 
+foot:Club(g,) 
+foot:Club(_:oYN,FD6n^^xsd:string,""^^gYear, "Camp Nou"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:Club(_.")"lzTI,) 
+foot:Club(_:OHe,"Liverpool"^^xsd:string,hR^^gYear, "s"?"7c"^^xsd:string, "@ES"^^xsd:string) )"_"- 
+foot:Footballer(q,"Cristiano","","2020-13-32"^^xsd:invalidDatatype,p,(N),Millions,"","Egypt") 
+foot:League(:\bFSz,""^^xsd:string,"Argentina"^^xsd:string,(_:BmH), ("t"]"q")) . 
+foot:League(M,"Ligue 1"^^xsd:string,""^^xsd:string,((d),((w),(N))), (((P),(H,D),(("""["eC"")))))   
+foot:League("ZHSXLi","La Liga"^^xsd:string,"Argentina"^^xsd:string,(Q), ((K)))   
+foot:Club(_:tSa,"Liverpool"^^xsd:string,""^^gYear, "Old Trafford"^^xsd:string, a^^xsd:string) . 
+foot:Country(L,a^^xsd:string,"Asia"^^:xsd:string,pU^^xsd:string,(V,T,F,m)^^List<xsd:string>,(j,e,G)) . 
+foot:Footballer(g,""^^xsd:string,"O'Neil"^^xsd:string,"9999-99-99"^^xsd:date,Y,(X),1million^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:League("MSQBDZ","La Liga"^^xsd:string,iv^^xsd:string,((u),(p),((N))), (_:jbs))   
+foot:Country(m,""^^xsd:string,"North America"@en^^:xsd:string,"ARG"^^xsd:string,(J,M,X,NB)^^List<xsd:string>,(U,C,(This is invalid))) . 
+foot:Footballer(F,""^^xsd:string,"Al-Hassan"^^xsd:string,"0000-00-00"^^xsd:date,w,(X),1million^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string) . 
+foot:Country(_:xnI,""^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,(B,Q,L,gT)^^List<xsd:string>,((This is invalid),(This is invalid),(This is invalid),"Wrong")) | 
+foot:Club(e,) 
+foot:Footballer(s,""^^xsd:string,"Núñez"^^xsd:string,"0000-00-00"^^xsd:date,Z,(J),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Club(_:bVI,"Barcelona"^^xsd:string,00^^gYear, "or"~"DRx"^^xsd:string, ";""|e1wPJ"^^xsd:string) . 
+foot:Footballer(q,"Cristiano"^^xsd:string,"D'Artagnan"^^xsd:string,"0000-00-00"^^xsd:date,s,(f),a^^xsd:integer,""^^xsd:string,"France"^^xsd:string)   
+foot:Club("["@~TIWO,) 
+foot:Footballer(U,""^^xsd:string,"Fiancée"^^xsd:string,"0000-00-00"^^xsd:date,n,(w),1million^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Country("ZI\//ikeo",sc^^xsd:string,h=X^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,("" "g6L"))   
+foot:Footballer(_:LHT 
+foot:Country(U,"Argentina"^^xsd:string,"South America"^^:xsd:string,"ARG"^^xsd:string,(e,u,EX)^^List<xsd:string>,())   
+foot:Club(_:Srw,VnY"/"e^^xsd:string,"2015"^^gYear, "Allianz Arena"^^xsd:string, I4hRTC^^xsd:string)   
+foot:Country(m,""^^xsd:string,"Europe"^^:xsd:string,"ARG"^^xsd:string,(q,z,D)^^List<xsd:string>,())   
+foot:Country(e,a^^xsd:string,"Africa"^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,((This is invalid),(This is invalid),"Wrong","Wrong")) . 
+foot:Country(J,""^^xsd:string,"Europe"^^:xsd:string,"ENG"^^xsd:string,("?uk",7WG)^^List<xsd:string>,(S"~"Ot,(This is invalid),PB,"_nA")) : 
+foot:Footballer(J,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,Y,(S),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Club(_:yON,"Juventus",""&"WgEi"^^xsd:gYear "Allianz Stadium","{H46z") 
+foot:League("GS\//hqvO","Serie A"^^xsd:string,""^^xsd:string,((F),(D)), ((e),((p))))   
+foot:Club("+"","-,qHMR,""^^xsd:string,00000^^gYear, "Allianz Arena"^^xsd:string, "Argentina"^^xsd:string) . 
+foot:Footballer(e,"Cristiano"^^xsd:string,""^^xsd:string,""""^^xsd:date,S,(y),a^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Footballer("vBmNWKA" 
+foot:Country(K,a^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,(y,M,t,HL)^^List<xsd:string>,(g)) . 
+foot:Footballer(u,""^^xsd:string,"Mbappe"^^xsd:string,"2020-13-32"^^xsd:date,L,(I),""^^xsd:integer,"Defender"^^xsd:string,a^^xsd:string) . 
+foot:Country(K,"Argentina"^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(L,O,j,(This is invalid))) . 
+foot:Country(s,""^^xsd:string,""^^:xsd:string,PD^^xsd:string,(B,E)^^List<xsd:string>,((This is invalid),"Wrong",(This is invalid),(This is invalid)))   
+foot:Club(_:lxq,"Juventus"^^xsd:string,00000^^gYear, "p%u"^^xsd:string, h""D9B^^xsd:string)   
+foot:Club(_:xmo,pB5D^^xsd:string,"2017"^^gYear, "Camp Nou"^^xsd:string, "France"^^xsd:string) >"|" 
+foot:Club(_:HZL,"Barcelona"^^xsd:string,00000^^gYear, "5fmM"^^xsd:string, a a^^xsd:string)   
+foot:Country(_:bhS,"England"@en^^xsd:string,""^^:xsd:string,F#d^^xsd:string,(aP)^^List<xsd:string>,(l"@"x,"Wrong"))   
+foot:Club("gFziua","Juventus"^^xsd:string,"2015"^^gYear, "R"$"mv"^^xsd:string, 3kXx^^xsd:string) \ 
+foot:Country(_:yxb,"England"@en^^xsd:string,""^^:xsd:string,""^^xsd:string,(hTJSPs,09g_r)^^List<xsd:string>,())   
+foot:Footballer(o,""^^xsd:string,"Ronaldo"^^xsd:string,""""^^xsd:date,Y,(T),a^^xsd:integer,"Striker"@us^^xsd:string,"England"@en^^xsd:string)   
+foot:Footballer(T,"Lionel"^^xsd:string,"Pérez"^^xsd:string,"0000-00-00"^^xsd:date,P,(G),1million^^xsd:integer,"Defender"^^xsd:string,"England"@en^^xsd:string)   
+foot:Country(b,a^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,( )^^List<xsd:string>,(H,a,A,t)) . 
+foot:Footballer(K,""^^xsd:string,"O'Connor"^^xsd:string,"0000-00-00"^^xsd:date,w,(r),Millions^^xsd:integer,"Goalkeeper"^^xsd:string,"Argentina"^^xsd:string)   
+foot:Club(_:xkJ,1E")"~/syS^^xsd:string,0^^gYear, "Camp Nou"^^xsd:string, "England"@en^^xsd:string)   
+foot:Club("ZTwFGq","Juventus","2017"^^xsd:gYear,"","Egypt") 
+foot:Club(s,) 
+foot:Country("ZVCdwL","Egypt"^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:Country(_:frV,"England"@en^^xsd:string,""^^:xsd:string,""^^xsd:string,(Rt,sC,HW,dT)^^List<xsd:string>,())   
+foot:Country(e,a a^^xsd:string,"Europe"^^:xsd:string,R~W^^xsd:string,("/","Nb")^^List<xsd:string>,(A,h,(This is invalid))) . 
+foot:Club(G,kFtu &6TKp^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, n")"cWH^^xsd:string)   
+foot:Club(_:VFE,"Manchester United"^^xsd:string,""^^gYear, "Allianz Arena"^^xsd:string, a a a a a a^^xsd:string)   
+foot:Footballer(_:hQe 
+foot:Club("CmajxD",""^^xsd:string,"2015"^^gYear, "Old Trafford"^^xsd:string, a^^xsd:string) "(" 
+foot:Club(":"~AJyf,"Paris Saint-Germain"@fr^^xsd:string,"2019"^^gYear, "jG"^^xsd:string, ""^^xsd:string) . 
+foot:Club("SfHLVO",""^^xsd:string,00000^^gYear, "w(","a"^^xsd:string, ""^^xsd:string) ] 
+foot:League(_:NBc,"Bundesliga"^^xsd:string,a^^xsd:string,((w),(Z),((h))), (g)) "{"!"*" 
+foot:League(++"Midfielder",c27ftJHD:O) 
+foot:Club(U,"Liverpool"^^xsd:string,""^^gYear, "Santiago Bernabéu"^^xsd:string, 0X[Ok^^xsd:string) . 
+foot:League(Y,n^g^^xsd:string,"England"@en^^xsd:string,("k";"C,(L)"), ((x),(t)))   
+foot:Club(_:Zxt,"+"|"|5aVs"^^xsd:string,"2019"^^gYear, "Allianz Arena"^^xsd:string, ""^^xsd:string)   
+foot:Club(;"&"Jnif,""^^xsd:string,"2018"^^gYear, "rc"^^xsd:string, a^^xsd:string) . 
+foot:League(r,"Bundesliga"^^xsd:string,"Egypt"^^xsd:string,((J),("m\E,(s)")), ((o))) &"!""*" 
+foot:Country(p,a^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,(k,C,Z,Oo)^^List<xsd:string>,())   
+foot:League("ASrFDs","Premier League"^^xsd:string,a^^xsd:string,((H),(h),((B))), ((a),(u))) . 
+foot:League(((((_:lLm,"Ie\//RYEqH",u))),(}"SDgi)),++"Amadou",s9C%","rAz) 
+foot:Country(k,a^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,((This is invalid),"Wrong",(This is invalid))) . 
+foot:Club(_:SjA,i5d^^xsd:string,c<"#""?"N^^gYear, "Allianz Arena"^^xsd:string, a a^^xsd:string) = 
+foot:League(@ kUmK,"Premier League"^^xsd:string,"Portugal"^^xsd:string,((X),((C))), ((J))) "@" 
+foot:Country(L,a^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,(B,a,H,(This is invalid)))   
+foot:Footballer("iN\//uxwK" 
+foot:League(_:mQD,""^^xsd:string,a^^xsd:string,((R),(q),((g))), ((t),(C))) < 
+foot:Footballer(_:DCl,"","Müller","2026-14-01"^^xsd:date,none,(A),a a,"Striker"@us,a) 
+foot:Club(_:Hwi,"\"="_oa5x"^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, a^^xsd:string) "^" 
+foot:Club(_:Pjg,""^^xsd:string,000^^gYear, "Old Trafford"^^xsd:string, "France"^^xsd:string) "$" 
+foot:Club("VPxaiR","Juventus"^^xsd:string,".LG"^^gYear, "O")"b"^^xsd:string, "France"^^xsd:string) . 
+foot:Country("FNBEWH",a^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,(Y,G,"Wrong"))   
+foot:Footballer(R,"Cristiano"^^xsd:string,"O'Connor"^^xsd:string,""""^^xsd:date,w,(A),010^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Club("Ss\//ykVU","Barcelona"^^xsd:string,"2016"^^gYear, "Allianz Arena"^^xsd:string, ""^^xsd:string) . 
+foot:Footballer(b,""^^xsd:string,"Håkon"^^xsd:string,"0000-00-00"^^xsd:date,a,(S),a^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string)   
+foot:Footballer(J,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(l),010^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Footballer(M,""^^xsd:string,"Mc'Donald"^^xsd:string,""""^^xsd:date,d,(b),a^^xsd:integer,"Midfielder"^^xsd:string,""^^xsd:string)   
+foot:Country(P,a^^xsd:string,"South America"^^:xsd:string,"ARG"^^xsd:string,( )^^List<xsd:string>,(h,O,Q,k))   
+foot:Country(++(_:YsS,.\"["zUwe),?qBJF 
+foot:Country(p,"Portugal"^^xsd:string,""^^:xsd:string,""^^xsd:string,(rN,MK,LE,cP)^^List<xsd:string>,()) . 
+foot:League("+fHkzXg",C"=",")"4x) 
+foot:League(:""VANz,"Ligue 1"^^xsd:string,"Portugal"^^xsd:string,(((S),((p),(G))),(w),(("y<M,"W]F""))), (k,n))   
+foot:Footballer(_:LHR,"Cristiano",kW0c,"ua"^^xsd:date,none,("}"}JXEi),Millions,"",a a a) 
+foot:Footballer(_:get 
+foot:Footballer(F,"Lionel"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,B,(q),010^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string) . 
+foot:League(_:Nlj,"La Liga"^^xsd:string,"England"@en^^xsd:string,("yuLrwB"), (((O),((R)),(((x),(E)))))) . 
+foot:Footballer(P,"Amadou"^^xsd:string,"O'Neil"^^xsd:string,"0000-00-00"^^xsd:date,G,(o),010^^xsd:integer,"Defender"^^xsd:string,a^^xsd:string) . 
+foot:Club(_:bWT,39L]Nk^^xsd:string,""^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) "^"";" 
+foot:Club(_:Pxy,""^^xsd:string,"2018"^^gYear, "g","j"^^xsd:string, 6aZW^^xsd:string) ";"> 
+foot:League(r,zE7c^^xsd:string,"England"@en^^xsd:string,(Y,_:HAy), ((V),("a\g"))) . 
+foot:Country(j,a_V^^xsd:string,"North America"@en^^:xsd:string,""$"Qo"^^xsd:string,(zH,Lb)^^List<xsd:string>,("Wrong",Ih)) . 
+foot:Footballer(A,"Lionel"^^xsd:string,"Ronaldo"^^xsd:string,"9999-99-99"^^xsd:date,q,(w),1million^^xsd:integer,""^^xsd:string,"France"^^xsd:string) . 
+foot:League(_:buT,"Ligue 1"^^xsd:string,""^^xsd:string,(((k,"LdNMKW"))), ((A,q),("h"("O",((f),(I),((m)))))) < 
+foot:Country(_:pcr,"France"^^xsd:string,"Europe"^^:xsd:string,"EGY"^^xsd:string,(wU,"<qt")^^List<xsd:string>,(e>P,""'"Il","Wrong"))   
+foot:Club(_:BbQ,"Manchester United",00^^xsd:gYear "Anfield",""zVOulr3L") 
+foot:League("vhuqYE","Premier League"^^xsd:string,""^^xsd:string,("J"["F,""'Tm"""), ((O),((C),(p),((o))))) . 
+foot:Club("?"\qIjE,""^^xsd:string,"2018"^^gYear, "Old Trafford"^^xsd:string, a^^xsd:string) . 
+foot:Footballer(W 
+foot:Club("xK\//tIMf","Barcelona"^^xsd:string,"2018"^^gYear, "Camp Nou"^^xsd:string, ""-"^*4nSmv"^^xsd:string) "'" 
+foot:League("XkDner","Serie A"^^xsd:string,"Egypt"^^xsd:string,("W"#"U"), ((T),((B),(P)))) . 
+foot:Footballer(M,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,q,(w),1million^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string) . 
+foot:Footballer(i,""^^xsd:string,"Al-Hassan"^^xsd:string,"9999-99-99"^^xsd:date,C,(V),100000000^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string) . 
+foot:League(_:Bog,""^^xsd:string,"England"@en^^xsd:string,((w),((k),(z))), ("OaUJir",V)) > 
+foot:Footballer(H,""^^xsd:string,"Brontë"^^xsd:string,"2020-13-32"^^xsd:date,t,(n),a^^xsd:integer,""^^xsd:string,"Egypt"^^xsd:string)   
+foot:Footballer(o,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,b,(d),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string)   
+foot:Club(_:pxB,"Paris Saint-Germain"@fr^^xsd:string,""?"rJcgjhHz"^^gYear, "8EvTWu"^^xsd:string, "Portugal"^^xsd:string) ;"#"* 
+foot:Footballer(T,"","",""""^^xsd:invalidDatatype,W,(X),010,"","") 
+foot:Footballer(d,""^^xsd:string,""^^xsd:string,""""^^xsd:date,I,(p),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Defender"^^xsd:string,a^^xsd:string) . 
+foot:League(c,""^^xsd:string,a^^xsd:string,(_:xeC,Y), (((a),(X),(((i),(h)))),("F.A")))   
+foot:Club(_:uPa,2hyq"*"F^^xsd:string,""^^gYear, "t>"("{TX"^^xsd:string, a^^xsd:string) ( 
+foot:Country(v,"England"@en^^xsd:string,""^^:xsd:string,""^^xsd:string,(x,P,T,w)^^List<xsd:string>,()) . 
+foot:Footballer(i,"Lionel"^^xsd:string,"Renée"^^xsd:string,""""^^xsd:date,M,(R),""^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Club(_:FNV,) 
+foot:Country(++((("2oEPJs"),((L),(("">]uv""),("U"'"I"),((_:VMg,a)))))) 
+foot:League("IRHzDM",kY^^xsd:string,"France"^^xsd:string,(((l)),(q)), ((P))) . 
+foot:Country(++"" 
+foot:Footballer(Z,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,X,(c),a^^xsd:integer,"Striker"@us^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club(_:beS,"Manchester United"^^xsd:string,"2015"^^gYear, "Allianz Arena"^^xsd:string, "./d6pz"^^xsd:string) "}" 
+foot:Country(T,lD^^xsd:string,""^^:xsd:string,"FRA"^^xsd:string,(d,fN)^^List<xsd:string>,(e,s,A,r)) #"&" 
+foot:Club(_:JoA,""^^xsd:string,0^^gYear, """"'""|"5RUEl""^^xsd:string, a a a^^xsd:string) + 
+foot:Club(F,) 
+foot:Footballer(w,"Lionel"^^xsd:string,"Fernandes"^^xsd:string,"2020-13-32"^^xsd:date,u,(X),""^^xsd:integer,""^^xsd:string,"Argentina"^^xsd:string) . 
+foot:League("tC\//aOME","Serie A"^^xsd:string,a a a a^^xsd:string,("p";"v"), (((u),(N)),((P)))) "&"- 
+foot:Footballer(i,""^^xsd:string,"Björk"^^xsd:string,"2020-13-32"^^xsd:date,L,(a),100000000^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:League(_:sOK,"Serie A"^^xsd:string,"Egypt"^^xsd:string,(;"."vePi), (("1dC"))) . 
+foot:Footballer(s,"Amadou"^^xsd:string,"Al-Hassan"^^xsd:string,"9999-99-99"^^xsd:date,q,(C),a^^xsd:integer,""^^xsd:string,"France"^^xsd:string) . 
+foot:Club(_:mAs,"Juventus"^^xsd:string,"2015"^^gYear, "Camp Nou"^^xsd:string, 7fCOuWv^^xsd:string) ;: 
+foot:Footballer(i,"Amadou"^^xsd:string,"Ronaldo"^^xsd:string,"9999-99-99"^^xsd:date,e,(W),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:League(_:aLI,"La Liga"^^xsd:string,""^^xsd:string,(b,z), ((r),((u),((X),(w))),(((F))))) . 
+foot:League(" "]CrVq,"La Liga"^^xsd:string,"Argentina"^^xsd:string,((S),(J)), (a)) . 
+foot:Footballer(w,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,q,(m),1million^^xsd:integer,"Midfielder"^^xsd:string,""^^xsd:string) . 
+foot:Country(T,""^^xsd:string,""^^:xsd:string,""^^xsd:string,(A,O,X)^^List<xsd:string>,("Wrong",(This is invalid),"Wrong"))   
+foot:League("Uk\//nbSg","La Liga"^^xsd:string,""^^xsd:string,(y), ((I),(E),((A)))) "%" 
+foot:Club(_:IGh,W","V3MoRlu^^xsd:string,"2017"^^gYear, "Allianz Arena"^^xsd:string, "England"@en^^xsd:string) . 
+foot:Footballer(W,""^^xsd:string,"O'Connor"^^xsd:string,"0000-00-00"^^xsd:date,S,(L),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:League("HsoLCQ","La Liga"^^xsd:string,a^^xsd:string,(D), ("K"]"v",(A))) # 
+foot:Footballer(K,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,E,(D),""^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(C,""^^xsd:string,"O'Neil"^^xsd:string,"9999-99-99"^^xsd:date,g,(m),a^^xsd:integer,"Midfielder"^^xsd:string,""^^xsd:string) . 
+foot:Club(_:dfQ,"Juventus","2017"^^xsd:gYear,"Allianz Stadium","") 
+foot:League(_:wQB,"La Liga"^^xsd:string,K"_"y^^xsd:string,((p)), ((M),((T),(H),((N))))) [ 
+foot:Country(_:TWy,"^mf"^^xsd:string,""^^:xsd:string,Ft^^xsd:string,( )^^List<xsd:string>,()) ":" 
+foot:Country(3eKlw 
+foot:Club(_:MVN,1b"^"B^^xsd:string,"2015"^^gYear, "dZ"^^xsd:string, a a^^xsd:string) <, 
+foot:League(W,"Ligue 1"^^xsd:string,a a^^xsd:string,(i), ((((p),(e)),(a),(((A),(M))))))   
+foot:League(_:HKM,"Premier League"^^xsd:string,a a^^xsd:string,((z),(C)), ((E),(B),((m))))   
+foot:Country(++?Hcn,"" 
+foot:Country(j,""^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,(n,f,q)^^List<xsd:string>,()) | 
+foot:Footballer(s,""^^xsd:string,"Mbappe"^^xsd:string,""""^^xsd:date,P,(m),100000000^^xsd:integer,"Goalkeeper"^^xsd:string,"Portugal"^^xsd:string) . 
+foot:Footballer(G,"Lionel"^^xsd:string,"Björk"^^xsd:string,"0000-00-00"^^xsd:date,w,(Z),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(G,""^^xsd:string,"Pérez"^^xsd:string,"2020-13-32"^^xsd:date,L,(i),Millions^^xsd:integer,"Midfielder"^^xsd:string,a^^xsd:string)   
+foot:League(L,""^^xsd:string,a^^xsd:string,(S), ("C"["r,(K)",((E),(k),((y))))) . 
+foot:Country(_:Lrh,a^^xsd:string,MR^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,()) '"#""(" 
+foot:Club(_:UAC,""^^xsd:string,""^^gYear, "Old Trafford"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:Footballer(V,"Lionel"^^xsd:string,""^^xsd:string,""""^^xsd:date,w,(j),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Country("oj\//ZzmU","Argentina"^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,()) &> 
+foot:Country(_:BqL,a^^xsd:string,"North America"@en^^:xsd:string,""]"oR"^^xsd:string,(AU,yj,(F))^^List<xsd:string>,(Q)) . 
+foot:Country(_:hcZ,"Egypt"^^xsd:string,"North America"@en^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,())   
+foot:Club(_:pVn,"Manchester United"^^xsd:string,""!"oZfwE9J"^^gYear, "Old Trafford"^^xsd:string, "Egypt"^^xsd:string) . 
+foot:Country(";"@luBI,"Egypt"^^xsd:string,"Asia"^^:xsd:string,"ARG"^^xsd:string,(V,Q)^^List<xsd:string>,()) . 
+foot:League(_:LNF,""^^xsd:string,Q^w^^xsd:string,((h),(n),((j))), (I))   
+foot:Country(_:pmq,"England"@en^^xsd:string,"North America"@en^^:xsd:string,fU^^xsd:string,( )^^List<xsd:string>,(a,g,X)) : 
+foot:Club("rh\//xKJM","Manchester United"^^xsd:string,0000^^gYear, "Camp Nou"^^xsd:string, L"~"n^^xsd:string)   
+foot:Country(o,Wj^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,(L,G2i)^^List<xsd:string>,("^vlTQz")) . 
+foot:Club("zGraAB",kn^^xsd:string,"2016"^^gYear, "Old Trafford"^^xsd:string, a^^xsd:string) . 
+foot:Country(_:sze,VN^^xsd:string,"$rQ"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(u"%"m))   
+foot:Footballer(q,"","Renée","9999-99-99"^^xsd:invalidDatatype,U,(j),a,"Striker"@us,"Egypt") 
+foot:Footballer(p,"","",""""^^xsd:invalidDatatype,h,(k),100000000,"","") 
+foot:Club("xQZbvo",) 
+foot:Club("LSCBef",) 
+foot:Country(t,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,("Wrong","Wrong",(This is invalid)))   
+foot:Footballer(M,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,F,(x),a^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string)   
+foot:Country(y,"Argentina"^^xsd:string,"Asia"^^:xsd:string,"FRA"^^xsd:string,(u,W,t,b)^^List<xsd:string>,()) . 
+foot:Club(P,""^^xsd:string,"2017"^^gYear, """%",Xr9b""^^xsd:string, "Portugal"^^xsd:string)   
+foot:Footballer(d,""^^xsd:string,"Fernandes"^^xsd:string,"0000-00-00"^^xsd:date,m,(k),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Midfielder"^^xsd:string,"England"@en^^xsd:string)   
+foot:Footballer(e,""^^xsd:string,"O'Connor"^^xsd:string,"2020-13-32"^^xsd:date,S,(u),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Forward"^^xsd:string,""^^xsd:string) . 
+foot:Club(K,"Liverpool"^^xsd:string,"2016"^^gYear, """'"q0Fw""^^xsd:string, a^^xsd:string)   
+foot:Country(h,"" "bC"^^xsd:string,ep^^:xsd:string,vF^^xsd:string,(Pl,Wj)^^List<xsd:string>,()) . 
+foot:Footballer("ko\//yvFl" 
+foot:Country(G,a^^xsd:string,"North America"@en^^:xsd:string,"EGY"^^xsd:string,( )^^List<xsd:string>,(p,L,b,m)) )"?" 
+foot:Club(_:DzG,";kHN",WX^^xsd:gYear,,"",n8ZE) 
+foot:Club(_:oRV,"Juventus"^^xsd:string,"2018"^^gYear, "Camp Nou"^^xsd:string, t",""#"l8r^^xsd:string) . 
+foot:Footballer(Y,"Cristiano"^^xsd:string,"D'Artagnan"^^xsd:string,"0000-00-00"^^xsd:date,S,(P),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Country("~")ftDA,""^^xsd:string,"Asia"^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:Club(_:boL,"Paris Saint-Germain"@fr^^xsd:string,0000^^gYear, "Allianz Arena"^^xsd:string, "England"@en^^xsd:string) . 
+foot:Country("ToBuxD","Egypt"^^xsd:string,""^^:xsd:string,"EGY"^^xsd:string,(I,g)^^List<xsd:string>,())   
+foot:League(_:Rav,""^^xsd:string,a a^^xsd:string,((y),(S)), ((E),(Z),(((I),(e)))))   
+foot:League(t,"Ligue 1"^^xsd:string,""^^xsd:string,("oPl",(_:JDU)), ((((T),(H),(((e))))),((A))))   
+foot:Footballer("uYGZcJ" 
+foot:Country(v,a^^xsd:string,""^^:xsd:string,V" ""@"M^^xsd:string,(Hl,"=oa")^^List<xsd:string>,()) . 
+foot:Club(E,"Manchester United"^^xsd:string,00^^gYear, """"}"|kj""^^xsd:string, 5D"/"zO^^xsd:string) . 
+foot:Footballer(H,""^^xsd:string,""^^xsd:string,""""^^xsd:date,G,(k),010^^xsd:integer,""^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club(_:wat,""^^xsd:string,00000^^gYear, "FZ6C"^^xsd:string, a a a^^xsd:string) "-""/" 
+foot:Footballer(r,"Amadou"^^xsd:string,"Mc'Donald"^^xsd:string,"9999-99-99"^^xsd:date,N,(B),a^^xsd:integer,"Midfielder"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Club("pf\//ZRDy","Liverpool"^^xsd:string,""^^gYear, "WX"^^xsd:string, B"["F^^xsd:string) . 
+foot:Footballer(_:Iyl 
+foot:Club("mZ\//HxTPb","Manchester United"^^xsd:string,"2016"^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) *"{" 
+foot:Country(++"Juventus" 
+foot:Country(++(_:Khr) 
+foot:Footballer(F,"Lionel"^^xsd:string,"Çelik"^^xsd:string,"9999-99-99"^^xsd:date,p,(O),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Forward"^^xsd:string,"France"^^xsd:string)   
+foot:Country(_:WyU,a^^xsd:string,"North America"@en^^:xsd:string,"POR"^^xsd:string,(lR)^^List<xsd:string>,("uLPqvI","Wrong"))   
+foot:Footballer(_:htZ 
+foot:Country("wS\//svpn",a a^^xsd:string,"Africa"^^:xsd:string,"EGY"^^xsd:string,(Lu,IQ,(a))^^List<xsd:string>,(y,"Wrong"))   
+foot:League(")")LbBA,"Bundesliga"^^xsd:string,a a a^^xsd:string,(M), ("oG"))   
+foot:League(_:uYig,"Ligue 1"^^xsd:string,a a^^xsd:string,((e)), ((H),(O),(((N),((J)))))) . 
+foot:Club(;{yDcq,"Juventus"^^xsd:string,00^^gYear, "Xn"^^xsd:string, "~E5Y"^^xsd:string) "*" 
+foot:Country(_:VfC,""^^xsd:string,""="WQ9K"^^:xsd:string,"ENG"^^xsd:string,( )^^List<xsd:string>,(s,I,c,e,o,X,p)) . 
+foot:League(Y,"_Dw"^^xsd:string,a"*"y^^xsd:string,(((M),(F))), ((Z),(c),((g)))) . 
+foot:Footballer(W,""^^xsd:string,"Mc'Donald"^^xsd:string,"9999-99-99"^^xsd:date,w,(f),1million^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Club("JrEMIk",""^^xsd:string,"2015"^^gYear, "Camp Nou"^^xsd:string, "Egypt"^^xsd:string) . 
+foot:Footballer(S,""^^xsd:string,"Björk"^^xsd:string,"9999-99-99"^^xsd:date,s,(r),""^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(_:SdD 
+foot:Club(#")"\kFKj,""^^xsd:string,6mw^^gYear, "Camp Nou"^^xsd:string, ""^^xsd:string) . 
+foot:Club("jJWMTwG",) 
+foot:Footballer(q,"Lionel"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,c,(l),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Goalkeeper"^^xsd:string,"Portugal"^^xsd:string) . 
+foot:League(_:iEO,aN^^xsd:string,"","Qs"^^xsd:string,(((R),(e),((W)))), (S)) . 
+foot:Club(G,""^^xsd:string,"2016"^^gYear, "Santiago Bernabéu"^^xsd:string, ""^^xsd:string)   
+foot:League(_:fMI,"Serie A"^^xsd:string,"England"@en^^xsd:string,("q"#").L",((("K\a,(z)"),(B),(((l)))),("";Te"",((R),(s))))), (("c0Gw"))) ")" 
+foot:Footballer(e,"Cristiano"^^xsd:string,"Núñez"^^xsd:string,"0000-00-00"^^xsd:date,M,(L),010^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:Footballer(j,""^^xsd:string,"O'Neil"^^xsd:string,"0000-00-00"^^xsd:date,E,(w),a^^xsd:integer,"Midfielder"^^xsd:string,"Portugal"^^xsd:string) . 
+foot:League(++00,r"="$ 7QZpxv) 
+foot:Footballer(h,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,T,(l),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Goalkeeper"^^xsd:string,""^^xsd:string) . 
+foot:League("Rb\//PLHV",""^^xsd:string,a a^^xsd:string,((D)), (o))   
+foot:Club(_:ZaP,"{qi"^^xsd:string,"2017"^^gYear, "N?bo"^^xsd:string, "England"@en^^xsd:string) "/" 
+foot:Country(H,a^^xsd:string,""^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,("Wrong",8wRrPn," "!"{GLVxoXD"))   
+foot:Club(i,OHj^^xsd:string,"2017"^^gYear, "2Xv"^^xsd:string, "Argentina"^^xsd:string)   
+foot:Club(_:Frd,":gD"^^xsd:string,"2015"^^gYear, "47LBKyloqPC"^^xsd:string, "Egypt"^^xsd:string) . 
+foot:Club(_:smp,U"."-QZ^^xsd:string,"2015"^^gYear, "I"="H"^^xsd:string, "France"^^xsd:string) . 
+foot:League(_:EMW,"Serie A"^^xsd:string,a a^^xsd:string,("pz\//eRuh"), ((J)))   
+foot:League("LwIucQ",""^^xsd:string,"England"@en^^xsd:string,(N), (G))   
+foot:Club("dp\//wrxI","Liverpool"^^xsd:string,00000^^gYear, "P0i"^^xsd:string, "England"@en^^xsd:string) -+ 
+foot:Footballer(_:iAX 
+foot:Club("PQpxOX",) 
+foot:League(_:IjT,"Ligue 1"^^xsd:string,""^^xsd:string,((F),((Y))), (((V),(i)),("""^"AQ""),((f))))   
+foot:League("ehFLKA",""^^xsd:string,""^^xsd:string,(M), ((Q),(q),((x)))) . 
+foot:Country(O,a^^xsd:string,"North America"@en^^:xsd:string,"FRA"^^xsd:string,(t,I,h,A)^^List<xsd:string>,(R,"Wrong")) . 
+foot:Footballer(o 
+foot:Club(u,""]"x1Azdp"^^xsd:string,"2015"^^gYear, "Allianz Arena"^^xsd:string, a a a a^^xsd:string) . 
+foot:Footballer(J,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,K,(F),""^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string) . 
+foot:Footballer(t 
+foot:Footballer(o,"Cristiano"^^xsd:string,"O'Connor"^^xsd:string,""""^^xsd:date,A,(R),a^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string)   
+foot:Country(4tmZ 
+foot:Club("XJcqij","Liverpool"^^xsd:string,"2018"^^gYear, "Santiago Bernabéu"^^xsd:string, "Argentina"^^xsd:string) "!" 
+foot:Footballer(z,""^^xsd:string,"O'Neil"^^xsd:string,"0000-00-00"^^xsd:date,E,(F),1million^^xsd:integer,""^^xsd:string,""^^xsd:string) . 
+foot:League(X,""_"Gc"^^xsd:string,a a^^xsd:string,((((U),(h)),((Z)),((d)))), ((W),(K)))   
+foot:Club(_:RgI,""^"+iSa"^^xsd:string,000^^gYear, "J{Z"^^xsd:string, a a a^^xsd:string) "=" 
+foot:Club("Au\//XSnH","Manchester United"^^xsd:string,"2015"^^gYear, "Old Trafford"^^xsd:string, a^^xsd:string) . 
+foot:Footballer(I,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,P,(h),a^^xsd:integer,"Forward"^^xsd:string,"Argentina"^^xsd:string)   
+foot:League("*"^EtAI,""^^xsd:string,x?Z^^xsd:string,(((i),((Y),(c),((P))))), (q))   
+foot:Footballer(L,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,E,(x),a^^xsd:integer,""^^xsd:string,"France"^^xsd:string) . 
+foot:League(++?LEl,K"+""&N0Xo) 
+foot:League("uO\//YZWF","La Liga"^^xsd:string,"Portugal"^^xsd:string,((w),(R),((D))), (""'gI"",((A))))   
+foot:Footballer(B,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,R,(b),a^^xsd:integer,""^^xsd:string,"France"^^xsd:string) . 
+foot:Club("wGBYlC","Manchester United","2017"^^xsd:gYear/"Allianz Stadium","France") 
+foot:Footballer(P,"Amadou"^^xsd:string,"Renée"^^xsd:string,"9999-99-99"^^xsd:date,o,(u),010^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Club(_:tXB,"Juventus"^^xsd:string,"2019"^^gYear, "1a[W"^^xsd:string, ""'"kTn"^^xsd:string)   
+foot:Country(00,++none 
+foot:League(_:ltG,me^^xsd:string,"France"^^xsd:string,("iJAwCj"), ("x"="g,(H)",(R)))   
+foot:Footballer(_:jOYa 
+foot:League((""\zK""),++iqA,s36Sx."!""@"t) 
+foot:Club("+"zIhb,""^^xsd:string,"2015"^^gYear, "V 0Q"^^xsd:string, ""^^xsd:string) . 
+foot:Club(_:OED,""^";62sgUvq"^^xsd:string,00^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) ?"+" 
+foot:Club(_:uNC,"Paris Saint-Germain"@fr^^xsd:string,e"}"A^^gYear, "K&T"^^xsd:string, "Portugal"^^xsd:string)   
+foot:Country("="'tkSO,"England"@en^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,(L,z)^^List<xsd:string>,((This is invalid),"Wrong","Wrong"))   
+foot:League("xt\//vWZa",""^^xsd:string,a^^xsd:string,(((O)),(F),(((S),(z)))), (((p)),(L)))   
+foot:League(_:lnQ,mD^^xsd:string,""^^xsd:string,("g"]"f,(s)"), (K)) . 
+foot:Country(_:wia,a^^xsd:string,""^^:xsd:string,t!x^^xsd:string,(Br,pu,(s))^^List<xsd:string>,())   
+foot:Footballer(U,"Amadou"^^xsd:string,"Çelik"^^xsd:string,"0000-00-00"^^xsd:date,E,(V),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,"Defender"^^xsd:string,""^^xsd:string)   
+foot:League(_:nNX,"Ligue 1"^^xsd:string,"Portugal"^^xsd:string,(("Qx"*"3w")), (("Vd\//ceLm"),((U),(D),((b))))) . 
+foot:Country(_:XoP,""^^xsd:string,"Africa"^^:xsd:string,"EGY"^^xsd:string,(L,F,e)^^List<xsd:string>,(O,Y,(This is invalid))) . 
+foot:Club(_:wIG,"Paris Saint-Germain"@fr^^xsd:string,"2019"^^gYear, "Santiago Bernabéu"^^xsd:string, a a a^^xsd:string)   
+foot:Club(_:GPn,"Liverpool",000^^xsd:gYear,,"","France") 
+foot:League(_:wuG,""^^xsd:string,WB^^xsd:string,(""":"Kc"",((i),((T),(q),((Q))))), ((n)))   
+foot:Club(_:Hkx,"Juventus"^^xsd:string,00^^gYear, "Camp Nou"^^xsd:string, "Egypt"^^xsd:string)   
+foot:Footballer(w,"Cristiano"^^xsd:string,"Björk"^^xsd:string,""""^^xsd:date,Q,(z),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Footballer(G,"","O'Neil","2020-13-32"^^xsd:invalidDatatype,b,(P),a,"","") 
+foot:League((#tcTE,"La Liga"^^xsd:string,"England"@en^^xsd:string,(Z), ((v),(f))) "!" 
+foot:Footballer(b,"Lionel"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,h,(E),a^^xsd:integer,""^^xsd:string,"Portugal"^^xsd:string) . 
+foot:Footballer(i,"Amadou"^^xsd:string,"Al-Hassan"^^xsd:string,""""^^xsd:date,Q,(m),1million^^xsd:integer,"Striker"@us^^xsd:string,a^^xsd:string)   
+foot:League(_:yxU,""^^xsd:string,"Portugal"^^xsd:string,((K),(N),((S))), (u)) . 
+foot:Country(o,a^^xsd:string,"Africa"^^:xsd:string,YA^^xsd:string,(O,j,zd)^^List<xsd:string>,(F,h,C,P)) ":" 
+foot:Country(F,a^^xsd:string,""^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(i,j,"Wrong")) . 
+foot:Footballer(D,""^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,Z,(I),010^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:Footballer(U,"Amadou"^^xsd:string,"Núñez"^^xsd:string,"0000-00-00"^^xsd:date,u,(W),a^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Club(_:KMz,"Juventus"^^xsd:string,"2019"^^gYear, "Old Trafford"^^xsd:string, a a a^^xsd:string) +":""]" 
+foot:Country(_:uWw,a^^xsd:string,""^^:xsd:string,"ENG"^^xsd:string,(q,nk)^^List<xsd:string>,(i,j,"Wrong")) . 
+foot:Country(_:Sju,"England"@en^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,(V,n,X,N,Ly)^^List<xsd:string>,())   
+foot:Footballer(_:kSl 
+foot:Country("thEGWa",a a^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,((This is invalid)))   
+foot:Country(t,""^^xsd:string,"Asia"^^:xsd:string,""^^xsd:string,(fM,dN,bQ,iR)^^List<xsd:string>,())   
+foot:League(z,"Bundesliga"^^xsd:string,"Portugal"^^xsd:string,(Q,y), (((r),(j),((a))),(f))) . 
+foot:League("="(ZgOF,""^^xsd:string,a^^xsd:string,(K), (Y))   
+foot:Footballer(b,"Cristiano"^^xsd:string,""^^xsd:string,"2020-13-32"^^xsd:date,u,(B),a^^xsd:integer,""^^xsd:string,"France"^^xsd:string) . 
+foot:Country(_:LIo,a^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(t,y)^^List<xsd:string>,(k,n))   
+foot:League(D,""^^xsd:string,"France"^^xsd:string,((("u[f,""{yi""")),("e";"I",(((v),((C),(q))),((o)))),(("lEt"))), (_:PFd)) . 
+foot:Club("Yf\//wGyS",""^^xsd:string,000^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string)   
+foot:Footballer(e,"Cristiano"^^xsd:string,""^^xsd:string,""""^^xsd:date,M,(d),a^^xsd:integer,""^^xsd:string,"Portugal"^^xsd:string) . 
+foot:Country(_:Uuj,""^^xsd:string,"North America"@en^^:xsd:string,"POR"^^xsd:string,(q,J,f)^^List<xsd:string>,(W,Q,(This is invalid)))   
+foot:Club("UAfKlP","Juventus"^^xsd:string,"2017"^^gYear, "Camp Nou"^^xsd:string, "|vC"^^xsd:string)   
+foot:Footballer(-)"@""!"GRvA 
+foot:Club(_:dEG,"Liverpool"^^xsd:string,n9w^^gYear, "Camp Nou"^^xsd:string, ""%""#"PUt"^^xsd:string) . 
+foot:Country(_:KyC,""^^xsd:string,""^^:xsd:string,UP^^xsd:string,(xL,Qs,(v))^^List<xsd:string>,(O,l,T,o))   
+foot:League(_:Jxg,""^^xsd:string,"Argentina"^^xsd:string,((U),(L),((S))), ((F),((P)))) . 
+foot:Club("kn\//hLcp","Juventus"^^xsd:string,""^^gYear, "Camp Nou"^^xsd:string, "Egypt"^^xsd:string) _ 
+foot:League(_:sEq,r{I^^xsd:string,a a^^xsd:string,(X), ((c),((x)))) "%" 
+foot:Footballer(C,""^^xsd:string,""^^xsd:string,""""^^xsd:date,b,(G),a^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Country(_:bwt,a^^xsd:string,""^^:xsd:string,""^^xsd:string,(T,R,V)^^List<xsd:string>,()) . 
+foot:Country(="["PtrO,"England"@en^^xsd:string,"*DR"^^:xsd:string,""^^xsd:string,(u,i,X)^^List<xsd:string>,())   
+foot:Country(x,a^^xsd:string,"Africa"^^:xsd:string,"ENG"^^xsd:string,("."&"aE")^^List<xsd:string>,(k,F)) { 
+foot:Footballer(F,"Amadou"^^xsd:string,"Fernandes"^^xsd:string,"2020-13-32"^^xsd:date,A,(V),Millions^^xsd:integer,"Defender"^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club('","-":"sgrt,"Juventus"^^xsd:string,00^^gYear, "Old Trafford"^^xsd:string, a a a a a^^xsd:string) . 
+foot:Club(_:gdC,"Liverpool"^^xsd:string,lHaA^^gYear, "GJe"^^xsd:string, F"{"4b^^xsd:string) . 
+foot:Club("_"bIAh,"Liverpool",0^^xsd:gYear,,"Anfield","England"@en) 
+foot:Club(_:gHm,8RaYid^^xsd:string,"2016"^^gYear, "Santiago Bernabéu"^^xsd:string, "@"!"eV"^^xsd:string)   
+foot:Country(_:ADw,a^^xsd:string,"Europe"^^:xsd:string,"=Fh"^^xsd:string,(yu,""-"Eq")^^List<xsd:string>,(e,U))   
+foot:Club("$"#ByWO,""^^xsd:string,0000^^gYear, "F:Q"^^xsd:string, a a^^xsd:string) . 
+foot:Country(k,""^^xsd:string,"Europe"^^:xsd:string,""^^xsd:string,(qT,yB,XA,Ni)^^List<xsd:string>,())   
+foot:League(_:Umq,""^^xsd:string,""^^xsd:string,((N)), ((w),((D),(G)),((K))))   
+foot:Footballer(r,"","Fernandes","0000-00-00"^^xsd:invalidDatatype,C,(F),Millions,"Forward","") 
+foot:League(++"Defender","France",D7KB;V) 
+foot:Footballer(D,"Amadou"^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,O,(w),a^^xsd:integer,""^^xsd:string,a^^xsd:string) . 
+foot:League(_:ETb,""^^xsd:string,""^^xsd:string,((v),(i),(((X),(F)))), (((S)),(N))) / 
+foot:Footballer(_:ABJ,"Cristiano","Østergaard","DP"^^xsd:date,none,((U),(t)),Y":"w,"","") 
+foot:League("ERIxHU","La Liga"^^xsd:string,a a^^xsd:string,((D),(N)), ("OF")) = 
+foot:Country(_:jKz,a^^xsd:string,"Europe"^^:xsd:string,"ARG"^^xsd:string,(Z,W,s,"@nA")^^List<xsd:string>,(L,o)) . 
+foot:Club(_]KoYW,"Manchester United"^^xsd:string,""^^gYear, "wZ"^^xsd:string, a a a^^xsd:string) ",""_" 
+foot:Club(_:Tlu,"Barcelona"^^xsd:string,"2018"^^gYear, "Old Trafford"^^xsd:string, "France"^^xsd:string) . 
+foot:Country(_:flx,""^^xsd:string,"Africa"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,())   
+foot:Club(_:VoJ,"Paris Saint-Germain"@fr^^xsd:string,"2018"^^gYear, "Camp Nou"^^xsd:string, 5lum+b^^xsd:string)   
+foot:Club("kd\//MHqL",""^^xsd:string,"2019"^^gYear, "xF"^^xsd:string, a^^xsd:string)   
+foot:Footballer(p,""^^xsd:string,"Al-Hassan"^^xsd:string,"2020-13-32"^^xsd:date,d,(H),1million^^xsd:integer,"Forward"^^xsd:string,a^^xsd:string) . 
+foot:Footballer("rmXicf" 
+foot:Country("qs\//MBhN","France"^^xsd:string,""^^:xsd:string,""^^xsd:string,(C,W,c,E)^^List<xsd:string>,())   
+foot:Footballer(z,"Amadou"^^xsd:string,""^^xsd:string,""""^^xsd:date,y,(U),1million^^xsd:integer,"Goalkeeper"^^xsd:string,a^^xsd:string)   
+foot:Club(_:Kwm,"",0000^^xsd:gYear,"Camp Nou",Ch3IyH) 
+foot:Club(_:fST,"Barcelona"^^xsd:string,"2015"^^gYear, "Santiago Bernabéu"^^xsd:string, "England"@en^^xsd:string)   
+foot:Club(o,".':6ZXHV"^^xsd:string,""^^gYear, """}"Sp""^^xsd:string, "Argentina"^^xsd:string) "@"% 
+foot:Club(L,""{""+"I0Nz"^^xsd:string,"2016"^^gYear, "Santiago Bernabéu"^^xsd:string, YexFCkadXQWstvuKrqJG^^xsd:string) . 
+foot:Club(_:Qac,""^^xsd:string,0^^gYear, "qX61hP"^^xsd:string, a^^xsd:string)   
+foot:Footballer(g,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,d,(t),a^^xsd:integer,"Striker"@us^^xsd:string,""^^xsd:string) . 
+foot:Footballer(s,""^^xsd:string,""^^xsd:string,"9999-99-99"^^xsd:date,p,(N),a^^xsd:integer,"Defender"^^xsd:string,"Egypt"^^xsd:string) . 
+foot:Country(b,a^^xsd:string,"North America"@en^^:xsd:string,"'eZ"^^xsd:string,(p,v,C,SI)^^List<xsd:string>,(_:tnG)) . 
+foot:League(vb,h7WnBemyDO}F) 
+foot:Club("KAfYaQ",RbF^^xsd:string,""^^gYear, "Allianz Arena"^^xsd:string, "Argentina"^^xsd:string) . 
+foot:Club(D,IE^^xsd:string,"2019"^^gYear, "t")"F"^^xsd:string, "France"^^xsd:string) "^"#{ 
+foot:Country(A,""^^xsd:string,"South America"^^:xsd:string,""^^xsd:string,(H)^^List<xsd:string>,(L,Y,G,"Wrong")) ^"#" 
+foot:Country(h,L"|"E^^xsd:string,2i=f^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,(j;w,"^uM"))   
+foot:League(U,vd^^xsd:string,"#bk"^^xsd:string,((((V),(Y)),(x),((C)))), ((I),(f)))   
+foot:League(_:StX,""^^xsd:string,""^^xsd:string,(v), ((u),((G),(c),((C)))))   
+foot:Country(p,a a a a a a a a a^^xsd:string,"Asia"^^:xsd:string,""^^xsd:string,( )^^List<xsd:string>,("%CYI","Wrong",(This is invalid),Rz))   
+foot:League(++?LnX,6ka")"Q) 
+foot:Country(_:DTm,a^^xsd:string,"Europe"^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(B,f,S,"Wrong")) "(":( 
+foot:League("CV\//Tdpg",""^^xsd:string,""^^xsd:string,((L),(U),((r))), ((Z)))   
+foot:League("SO\//iCso","Serie A"^^xsd:string,""^^xsd:string,(t), ((a,v)))   
+foot:Footballer(s,"Cristiano"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,i,(X),010^^xsd:integer,""^^xsd:string,"France"^^xsd:string) . 
+foot:Country("#"%NuLz,"Argentina"^^xsd:string,"Europe"^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,())   
+foot:Country(l,a^^xsd:string,""^^:xsd:string,"POR"^^xsd:string,( )^^List<xsd:string>,(p,L,"Wrong"))   
+foot:Country("]"^eAqE,"England"@en^^xsd:string,"Africa"^^:xsd:string,h%T^^xsd:string,( )^^List<xsd:string>,()) . 
+foot:Footballer(X,"Cristiano"^^xsd:string,"D'Artagnan"^^xsd:string,"0000-00-00"^^xsd:date,L,(P),a^^xsd:integer,"Midfielder"^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club(_:Xtb,"Manchester United"^^xsd:string,""^^gYear, "M>4Q"^^xsd:string, c"~"p^^xsd:string) . 
+foot:Country("1996-18-09",++( ) 
+foot:League(]"("dqcX,"Bundesliga"^^xsd:string,"England"@en^^xsd:string,("z4Prt"), ((_:JxB))) . 
+foot:Footballer(Y,"Amadou"^^xsd:string,"D'Artagnan"^^xsd:string,"9999-99-99"^^xsd:date,w,(N),10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010^^xsd:integer,""^^xsd:string,"Portugal"^^xsd:string)   
+foot:Club(_:evE,r'c^^xsd:string,"2015"^^gYear, "U"#"J"^^xsd:string, a a a a a^^xsd:string) . 
+foot:Footballer(}"-"xoEy,"Lionel","","2020-13-32"^^xsd:date,none,((M),(L)),a,"Goalkeeper",a) 
+foot:Club(_:ZRpv,""{"gO2s"^^xsd:string,000^^gYear, "Allianz Arena"^^xsd:string, a^^xsd:string) . 
+foot:Country(l,"France"^^xsd:string,"Asia"^^:xsd:string,"POR"^^xsd:string,(b,Q,w,a)^^List<xsd:string>,()) . 
+foot:League("'"{GWLz,"^Or"^^xsd:string,a^^xsd:string,((i),(n),((V))), (((X),(u)))) . 
+foot:Club(_:vGS,"("!"=i3wg"^^xsd:string,0^^gYear, "Camp Nou"^^xsd:string, "Portugal"^^xsd:string) . 
+foot:Footballer(J,"Lionel","O'Connor","1990-4-23"^^xsd:date,none,(O),1million,"Midfielder","France") 
+foot:League("AG\//EdWh",S)X^^xsd:string,"France"^^xsd:string,((q),((f),(z)),((H))), (_:akQ))   
+foot:Footballer(I,""^^xsd:string,""^^xsd:string,""""^^xsd:date,W,(o),1million^^xsd:integer,"Forward"^^xsd:string,"England"@en^^xsd:string) . 
+foot:Club(_:DNj,"Paris Saint-Germain"@fr^^xsd:string,"2015"^^gYear, "Allianz Arena"^^xsd:string, J4lO^^xsd:string)   
+foot:Country(_:HnS,a^^xsd:string,g&a^^:xsd:string,"ARG"^^xsd:string,(c,J,M,wI)^^List<xsd:string>,(x,C,r,"Wrong"))   
+foot:Country("RF\//CbAH",""^^xsd:string,"Asia"^^:xsd:string,"FRA"^^xsd:string,(Dkl,Qf)^^List<xsd:string>,(L,w,K)) > 
+foot:League(u,"La Liga"^^xsd:string,""/"go"^^xsd:string,("v>N,"X#F"",(((x)),((w)),((y)))), ((_:cYI),((t),(m)))) . 
+foot:Club(a,"Liverpool","2016"^^xsd:gYear "",a a a a a a a a a a a a a a) 
+foot:Club("EY\//wpeG",""^^xsd:string,0000^^gYear, "Fq0JR"^^xsd:string, ""|"%/dfryzg"^^xsd:string)   
+foot:Country(F,a^^xsd:string,"Asia"^^:xsd:string,"EGY"^^xsd:string,(xV,zq,(D))^^List<xsd:string>,("Wrong",(This is invalid))) , 
+foot:Country(I,"France"^^xsd:string,"Africa"^^:xsd:string,"EGY"^^xsd:string,(UG,Wa,(N))^^List<xsd:string>,()) . 
+foot:Footballer(i,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,C,(o),1million^^xsd:integer,""^^xsd:string,a^^xsd:string)   
+foot:Footballer(W,"Lionel"^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,b,(g),a^^xsd:integer,""^^xsd:string,""^^xsd:string)   
+foot:Club(_:CKj,"Juventus"^^xsd:string,3kyhOv^^gYear, "Santiago Bernabéu"^^xsd:string, ""^^xsd:string) . 
+foot:Footballer(T,""^^xsd:string,"Núñez"^^xsd:string,""""^^xsd:date,N,(Q),""^^xsd:integer,"Goalkeeper"^^xsd:string,"England"@en^^xsd:string)   
+foot:Club("bW\//ispB","Juventus"^^xsd:string,00^^gYear, "Old Trafford"^^xsd:string, m"=""'"r^^xsd:string) . 

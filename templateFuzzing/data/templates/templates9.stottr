@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer [  ] :: { { foot:Team (  ) }, foot:Footballer ( true, "W" ), foot:Team ( ?qKW, false ), foot:Player ( foot:Player ( <http://example.org/h0B>, -0, none ) ) } .
+foot:Team [ * ottr:IRI ?S6Z ,  ] :: { foot:Team ( false,  ), foot:Player (  ), foot:Footballer (  ) } .
+foot:Footballer [ ? xsd:integer ?g5j  ] :: { foot:Player ( ?Q9k ) } .
+foot:Team [ !+ xsd:date ?p0T = true, ? xsd:boolean ?v3h ,  ] :: { foot:Player (  ), foot:Player (  ), foot:Footballer (  ) } .
+foot:Team [ ! xsd:string ?c1N = 0 ] :: { foot:Team (  ), foot:Player (  ), foot:Player (  ) } .
+foot:Footballer [ * List<xsd:integer> ?f4L = -0 ] :: { foot:Team ( false ), foot:Footballer ( false,  ) } .
+foot:Player [ ! xsd:string ?U7m = true, * xsd:boolean ?B8H ,  ] :: { foot:Team (  ) } .
+foot:Team [ ++ xsd:integer ?e9b = 2 ] :: { foot:Footballer ( ?Y1F ) } .
+foot:Footballer [ * xsd:integer ?DXE = <http://case.org/f> ] :: { foot:Footballer ( ?s7I ), foot:Player ( ?M9V ), foot:Team ( ?PJx ), foot:Player ( ?n9d, ?t8R ), foot:Team ( ?zCw, ?oOy ) } .
+foot:Player [ ++ xsd:integer ?lGi = -50 ] :: { foot:Footballer ( ?aur,  ), foot:Player (  ), foot:Team (  ) } .

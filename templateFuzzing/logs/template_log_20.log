@@ -1,0 +1,20 @@
+2025-05-15 00:47:54,687 - INFO - Prosesserer batch: templates20.stottr
+2025-05-15 00:47:54,688 - INFO - Lutra output: 
+2025-05-15 00:47:54,688 - INFO - Lutra feil: [ERROR] Reading stOTTR file: './data/templates/templates20.stottr'.
+.\data\templates\templates20.stottr
+Location(s):
+- File ./data/templates/templates20.stottr
+
+
+2025-05-15 00:47:54,688 - INFO - Lutra processing time: 3.68 seconds
+2025-05-15 00:47:54,688 - ERROR - Lutra crashed with exit code 1
+2025-05-15 00:48:28,598 - INFO - Prosesserer batch: templates20.stottr
+2025-05-15 00:48:28,598 - INFO - Lutra output: 
+2025-05-15 00:48:28,598 - INFO - Lutra feil: [ERROR] Reading stOTTR file: './data/templates/templates20.stottr'.
+.\data\templates\templates20.stottr
+Location(s):
+- File ./data/templates/templates20.stottr
+
+
+2025-05-15 00:48:28,599 - INFO - Lutra processing time: 3.49 seconds
+2025-05-15 00:48:28,599 - ERROR - Lutra crashed with exit code 1

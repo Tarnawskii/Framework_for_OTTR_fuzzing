@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Club("YP\//OCWk","Paris Saint-Germain"@fr,"2016"^^xsd:gYear,"",a) .
+foot:Club(_:lTr,"",000^^xsd:gYear,"Anfield",J#1MRpeEI) ";"
+foot:Club("ctHiKx","Barcelona",00^^xsd:gYear,"Old Trafford","Egypt")  
+foot:Club( ~"]Dqfg,">(Nw",""^^xsd:gYear,"Parc des Princes","Portugal") " "?
+foot:Club(V,"Juventus",00000^^xsd:gYear,sFaS,"England"@en) "_"
+foot:Club(_:GUQ,BX,0^^xsd:gYear,Z":"b,"") .
+foot:Club(^-uyoA,"Manchester United","2015"^^xsd:gYear,"Camp Nou","France") ")""@"
+foot:Club(_:vjh,7dn,0000^^xsd:gYear,"%mL",a a) "/"
+foot:Club(_:JCn,"Liverpool",9n2z^^xsd:gYear,"Allianz Stadium",vO) "("
+foot:Club(w,4r"+"D,"2017"^^xsd:gYear,G"$""!"l,"Argentina") |.

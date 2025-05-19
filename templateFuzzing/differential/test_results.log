@@ -1,0 +1,140 @@
+Template 1: foot:Footballer [ ottr:bar ?, ] .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "]", found 'o'  (at char 18), (line:1, col:19)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:bar?' at line 7 column 27
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvbfhgr3i.stottr
+
+
+Processing time: 3.56 seconds
+
+Template 2: foot:S [ List<xsd:string> ?dateOfBirth, ? ?lastName, , xsd:date ?currentClub ? xsd:integer ?position ] {  } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "]", found ','  (at char 53), (line:1, col:54)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:S[List<xsd:string>?dateOfBirth,??lastName,,' at line 7 column 53
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4wmmodh8.stottr
+
+
+Processing time: 3.27 seconds
+
+Template 3: foot:Footballer! [  ] :: ottr:Triple(?personIRI, foot:country, ?country), ottr:Triple(?personIRI, foot:position, ?position) .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "[", found '!'  (at char 15), (line:1, col:16)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer!' at line 7 column 15[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 72
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp90q7qwkz.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp90q7qwkz.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp90q7qwkz.stottr
+
+
+Processing time: 3.28 seconds
+
+Template 4: foot:p [ List<xsd:integer> ?marketValue  ] :: { lYMdR } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "}", found 'l'  (at char 48), (line:1, col:49)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'lYMdR' expecting {'}', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 7 column 48
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpltp1coar.stottr
+
+[WARNING] Template http://example.org/football#p has an empty pattern. Instances of this template will yield an empty expansion result.
+Location(s):
+- Template with IRI 'http://example.org/football#p'
+- Signature with IRI 'http://example.org/football#p'
+- File C:\Users\adria\AppData\Local\Temp\tmpltp1coar.stottr
+
+
+Processing time: 3.46 seconds
+
+Template 5: foot:q [  ] { ottr:Triple(?personIRI, foaf:familyName, ?lastName) ptPbU } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "::", found '{'  (at char 12), (line:1, col:13)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:q[]{' at line 7 column 12[ERROR] Syntax error: mismatched input 'ptPbU' expecting '.' at line 7 column 66
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp404fa831.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:fa. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp404fa831.stottr
+
+
+Processing time: 3.75 seconds
+
+Template 6: foot:Footballer [ List<xsd:integer ] :: {  } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "]", found 'L'  (at char 18), (line:1, col:19)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:integer]' at line 7 column 35
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpn01qq5bx.stottr
+
+
+Processing time: 3.42 seconds
+
+Template 7: foot:G [ xsd:integer ?country :: { o-rdf:Type(?personIRI, foot:Footballer), QmAvh } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "]", found ':'  (at char 30), (line:1, col:31)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:G[xsd:integer?country::' at line 7 column 30[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 74
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8ipk9xi3.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8ipk9xi3.stottr
+
+
+Processing time: 3.30 seconds
+
+Template 8: foot:Footballer! List<xsd:foo> ?currentClub :: { ottr:Triple(?personIRI, foaf:name, ?firstName) } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "[", found '!'  (at char 15), (line:1, col:16)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer!' at line 7 column 15[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 96
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj27og0r1.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj27og0r1.stottr
+
+
+Processing time: 3.31 seconds
+
+Template 9: foot:K
+Result: Both rejected, different errors:
+pyOTTR error: Expected "[", found end of text  (at char 6), (line:1, col:7)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:K' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpiz66cf15.stottr
+
+
+Processing time: 3.41 seconds
+
+Template 10: foot:Foot ball xsd:integer ?personIRI, ,  :: { o-rdf:Type(?personIRI, foot:Footballer) } .
+Result: Both rejected, different errors:
+pyOTTR error: Expected "[", found 'b'  (at char 10), (line:1, col:11)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Football' at line 7 column 10[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4o0tb7uj.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4o0tb7uj.stottr
+
+
+Processing time: 3.39 seconds
+

@@ -1,0 +1,212 @@
+
+=== Test Summary ===
+Total template-instance pairs tested: 16
+Both accepted: 0
+Outputs match: 0
+Outputs differ: 0
+Both rejected with same error: 0
+Both rejected with different errors: 16
+pyOTTR accepted, Lutra rejected: 0
+Lutra accepted, pyOTTR rejected: 0
+
+Aggregated pyOTTR errors:
+  Expected "[", found 'W'  (at char 8), (line:1, col:9): 4
+  Expected "[", found 'x'  (at char 16), (line:1, col:17): 4
+  Expected "]", found '_'  (at char 46), (line:1, col:47): 4
+  Expected "]", found ','  (at char 42), (line:1, col:43): 4
+
+Aggregated Lutra errors:
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7wthn01y.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwavv3fnz.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp7hgd9io7.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ex:NameWith' at line 7 column 8[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 61
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?birthday,foot:Club. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7gij6bv.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpduawhk0o.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptor95cgk.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqcpm7l3o.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'ottr:Footballerxsd:integer' at line 7 column 16[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 137
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?marketValue,ex:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpj1wtrq43.stottr
+
+: 1
+  [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: ';' at line 7 column 12[ERROR] Syntax error: extraneous input 'uPZd' expecting {',', ')'} at line 7 column 16[ERROR] Syntax error: mismatched input '""' expecting {',', ')'} at line 7 column 74[ERROR] Syntax error: token recognition error at: '"), (n))\r' at line 7 column 80
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#League
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File C:\Users\adria\AppData\Local\Temp\tmp1ie03pb3.stottr
+
+: 1
+  [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'E' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 16[ERROR] Syntax error: mismatched input 'x' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 133
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Footballer
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Club
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3tk4yn0.stottr
+
+: 1
+  [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'a' expecting {'[', '(', ')', 'none', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 74[ERROR] Syntax error: mismatched input 'h' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 76[ERROR] Syntax error: mismatched input 'Ab' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 78[ERROR] Syntax error: mismatched input '^^' expecting '.' at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'Ab' at line 7 column 78
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Country'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'h' at line 7 column 76
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmpwxhak57u.stottr
+
+: 1
+  [WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?currentClub : rdfs:Resource (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://ns.ottr.xyz/0.4/Country. The template has a parameter ?array_of_topPlayers : ottr:IRI (arg no. 2) which does not occur in the pattern of the template.
+
+[ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'O' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 13[ERROR] Syntax error: token recognition error at: '^\r' at line 7 column 111
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+[ERROR] No signature found for IRI http://example.org/football#Country
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File C:\Users\adria\AppData\Local\Temp\tmp97cdewna.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjuqpg0wq.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpwiicl7yf.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppcufm34w.stottr
+
+: 1
+  [ERROR] Parsing stOTTR
+[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?LwecR,,' at line 7 column 42
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk7p6tri0.stottr
+
+: 1

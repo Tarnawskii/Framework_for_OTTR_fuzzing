@@ -1,0 +1,16 @@
+--- Oppsummering ---
+Genererte templates: 10000
+Output rows (Turtle file): 0
+Template Rule Coverage: 0.00%
+Last error: [ERROR] Reading stOTTR file: './data/templates/templates20.stottr'.
+
+Aggregated error counts (by type):
+Other errors: 1
+
+Exact error messages:
+'[ERROR] Reading stOTTR file: './data/templates/templates20.stottr'.': 1
+
+Non-critical messages:
+'.\data\templates\templates20.stottr': 1
+'Location(s):': 1
+'- File ./data/templates/templates20.stottr': 1

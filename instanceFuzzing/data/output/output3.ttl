@@ -1,0 +1,379 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:foundedYear  "2015"^^xsd:gYear ;
+        foaf:name         "Serie A" ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1 .
+
+_:b1    rdf:rest   _:b2 ;
+        rdf:first  "vR" .
+
+_:b3    rdf:rest   _:b4 ;
+        rdf:first  "MX" .
+
+_:b2    rdf:rest   _:b3 ;
+        rdf:first  "ZL" .
+
+_:b4    rdf:rest   rdf:nil ;
+        rdf:first  "fV" .
+
+_:b0    foot:teams  _:b5 .
+
+_:b5    rdf:rest   rdf:nil ;
+        rdf:first  _:b6 .
+
+_:b7    foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b8 .
+
+_:b9    rdf:rest   _:b10 ;
+        rdf:first  _:b11 .
+
+_:b8    rdf:rest   _:b9 ;
+        rdf:first  _:b12 .
+
+_:b13   rdf:rest   rdf:nil ;
+        rdf:first  _:b14 .
+
+_:b10   rdf:rest   _:b13 ;
+        rdf:first  _:b15 .
+
+_:b7    foot:fifaCode  "POR" .
+
+_:b16   foaf:name           "" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b17 .
+
+_:b18   rdf:rest   _:b19 ;
+        rdf:first  _:b20 .
+
+_:b19   rdf:rest   rdf:nil ;
+        rdf:first  _:b21 .
+
+_:b17   rdf:rest   _:b22 ;
+        rdf:first  _:b23 .
+
+_:b22   rdf:rest   _:b18 ;
+        rdf:first  _:b24 .
+
+_:b16   foot:fifaCode  "POR" .
+
+_:b25   foot:country      "Egypt" ;
+        foaf:birthDate    "2026-7-21"^^xsd:date ;
+        foot:clubHistory  _:b26 .
+
+_:b26   rdf:rest   rdf:nil ;
+        rdf:first  "SG" .
+
+_:b25   foot:marketValue  100000000 ;
+        foaf:name         "Kylian" ;
+        foot:position     "Goalkeeper" ;
+        rdf:type          foaf:Person ;
+        foaf:familyName   "Fernandes" ;
+        foot:currentClub  "Liverpool" .
+
+_:b27   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b28 .
+
+_:b29   rdf:rest   _:b30 ;
+        rdf:first  _:b31 .
+
+_:b28   rdf:rest   _:b29 ;
+        rdf:first  _:b32 .
+
+_:b30   rdf:rest   _:b33 ;
+        rdf:first  _:b34 .
+
+_:b33   rdf:rest   rdf:nil ;
+        rdf:first  _:b35 .
+
+_:b27   foot:fifaCode  "FRA" .
+
+_:b36   foaf:name           "" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b37 .
+
+_:b38   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b37   rdf:rest   _:b39 ;
+        rdf:first  _:b40 .
+
+_:b39   rdf:rest   _:b38 ;
+        rdf:first  _:b41 .
+
+_:b36   foot:fifaCode  "POR" .
+
+_:b42   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b43 .
+
+_:b44   rdf:rest   rdf:nil ;
+        rdf:first  _:b45 .
+
+_:b43   rdf:rest   _:b46 ;
+        rdf:first  _:b47 .
+
+_:b46   rdf:rest   _:b48 ;
+        rdf:first  _:b49 .
+
+_:b48   rdf:rest   _:b44 ;
+        rdf:first  _:b50 .
+
+_:b42   foot:fifaCode  "EGY" .
+
+_:b51   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b52 .
+
+_:b52   rdf:rest   rdf:nil ;
+        rdf:first  _:b53 .
+
+_:b51   foot:fifaCode  "ENG" .
+
+_:b54   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b55 .
+
+_:b55   rdf:rest   _:b56 ;
+        rdf:first  _:b57 .
+
+_:b56   rdf:rest   _:b58 ;
+        rdf:first  _:b59 .
+
+_:b60   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b58   rdf:rest   _:b60 ;
+        rdf:first  _:b61 .
+
+_:b54   foot:fifaCode  "ARG" .
+
+_:b62   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b63 .
+
+_:b64   rdf:rest   rdf:nil ;
+        rdf:first  _:b65 .
+
+_:b66   rdf:rest   _:b64 ;
+        rdf:first  _:b67 .
+
+_:b68   rdf:rest   _:b66 ;
+        rdf:first  _:b69 .
+
+_:b63   rdf:rest   _:b68 ;
+        rdf:first  _:b70 .
+
+_:b62   foot:continent  "South America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "EGY" .
+
+_:b71   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b72 .
+
+_:b73   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b74   rdf:rest   _:b75 ;
+        rdf:first  _:b76 .
+
+_:b72   rdf:rest   _:b74 ;
+        rdf:first  _:b77 .
+
+_:b75   rdf:rest   _:b73 ;
+        rdf:first  _:b78 .
+
+_:b71   foot:fifaCode  "ENG" .
+
+_:b79   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b80 .
+
+_:b81   rdf:rest   _:b82 ;
+        rdf:first  _:b83 .
+
+_:b84   rdf:rest   rdf:nil ;
+        rdf:first  "Wrong" .
+
+_:b80   rdf:rest   _:b81 ;
+        rdf:first  _:b85 .
+
+_:b82   rdf:rest   _:b84 ;
+        rdf:first  _:b86 .
+
+_:b79   foot:fifaCode  "POR" .
+
+_:b87   foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b88 .
+
+_:b89   rdf:rest   _:b90 ;
+        rdf:first  _:b91 .
+
+_:b88   rdf:rest   _:b89 ;
+        rdf:first  _:b92 .
+
+_:b90   rdf:rest   _:b93 ;
+        rdf:first  _:b94 .
+
+_:b93   rdf:rest   rdf:nil ;
+        rdf:first  _:b95 .
+
+_:b87   foot:fifaCode  "FRA" .
+
+_:b96   foot:foundedYear  "^Azy"^^xsd:gYear ;
+        foaf:name         "." ;
+        rdf:type          foot:League ;
+        foot:topTeams     rdf:nil ;
+        foot:teams        _:b97 .
+
+_:b97   rdf:rest   rdf:nil ;
+        rdf:first  _:b98 .
+
+_:b99   foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Europe" ;
+        foot:leagues        _:b100 .
+
+_:b101  rdf:rest   rdf:nil ;
+        rdf:first  "Wrong" .
+
+_:b102  rdf:rest   _:b103 ;
+        rdf:first  _:b104 .
+
+_:b100  rdf:rest   _:b102 ;
+        rdf:first  _:b105 .
+
+_:b103  rdf:rest   _:b101 ;
+        rdf:first  _:b106 .
+
+_:b99   foot:fifaCode  "FRA" .
+
+_:b107  foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "South America" ;
+        foot:leagues        _:b108 .
+
+_:b108  rdf:rest   _:b109 ;
+        rdf:first  _:b110 .
+
+_:b111  rdf:rest   _:b112 ;
+        rdf:first  _:b113 .
+
+_:b112  rdf:rest   rdf:nil ;
+        rdf:first  _:b114 .
+
+_:b109  rdf:rest   _:b111 ;
+        rdf:first  _:b115 .
+
+_:b107  foot:fifaCode  "ARG" .
+
+_:b116  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b117 .
+
+_:b118  rdf:rest   _:b119 ;
+        rdf:first  _:b120 .
+
+_:b117  rdf:rest   _:b121 ;
+        rdf:first  _:b122 .
+
+_:b119  rdf:rest   rdf:nil ;
+        rdf:first  _:b123 .
+
+_:b121  rdf:rest   _:b118 ;
+        rdf:first  _:b124 .
+
+_:b116  foot:fifaCode  "EGY" .
+
+_:b125  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b126 .
+
+_:b127  rdf:rest   rdf:nil ;
+        rdf:first  _:b128 .
+
+_:b126  rdf:rest   _:b129 ;
+        rdf:first  _:b130 .
+
+_:b131  rdf:rest   _:b127 ;
+        rdf:first  _:b132 .
+
+_:b129  rdf:rest   _:b131 ;
+        rdf:first  _:b133 .
+
+_:b125  foot:continent  "Asia" ;
+        foot:leagues    _:b134 .
+
+_:b135  rdf:rest   _:b136 ;
+        rdf:first  _:b137 .
+
+_:b134  rdf:rest   _:b135 ;
+        rdf:first  _:b138 .
+
+_:b136  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b125  foot:fifaCode  "ARG" .
+
+_:b139  foaf:name           "^" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "&bx" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "POR" .
+
+_:b140  foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b141 .
+
+_:b141  rdf:rest   _:b142 ;
+        rdf:first  _:b143 .
+
+_:b144  rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b145  rdf:rest   _:b144 ;
+        rdf:first  _:b146 .
+
+_:b142  rdf:rest   _:b145 ;
+        rdf:first  _:b147 .
+
+_:b140  foot:fifaCode  "ENG" .

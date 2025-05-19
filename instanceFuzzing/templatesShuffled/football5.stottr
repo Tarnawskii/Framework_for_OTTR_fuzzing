@@ -1,0 +1,85 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+foot:CountryLeague[ottr:IRI ?countryIRI, ottr:IRI ?league] :: {
+  ottr:Triple(?countryIRI, foot:leagues, ?league)
+} .
+
+foot:LeagueTeam[ottr:IRI ?leagueIRI, ottr:IRI ?team, !ottr:IRI ?property] :: {
+  ottr:Triple(?leagueIRI, ?property, ?team)
+} .
+
+foot:CountryPlayer[ottr:IRI ?countryIRI, xsd:string ?player] :: {
+  ottr:Triple(?countryIRI, foot:famousPlayers, ?player)
+} .
+
+foot:Club[ 
+  ottr:IRI ?clubIRI,
+  xsd:string ?clubName,
+  xsd:gYear ?foundedYear,
+  xsd:string ?stadiumName,
+  xsd:string ?country
+] :: {
+  o-rdf:Type(?clubIRI, foot:Club),
+  ottr:Triple(?clubIRI, foaf:name, ?clubName),
+  ottr:Triple(?clubIRI, foot:foundedYear, ?foundedYear),
+  ottr:Triple(?clubIRI, foot:stadiumName, ?stadiumName),
+  ottr:Triple(?clubIRI, foot:country, ?country)
+}.
+
+foot:League[
+  ottr:IRI ?leagueIRI,
+  xsd:string ?leagueName,
+  xsd:gYear ?foundedYear,
+  List<ottr:IRI> ?topTeams,
+  List<ottr:IRI> ?teams
+] :: {
+  o-rdf:Type(?leagueIRI, foot:League),
+  ottr:Triple(?leagueIRI, foaf:name, ?leagueName),
+  ottr:Triple(?leagueIRI, foot:foundedYear, ?foundedYear),
+  zipMax | foot:LeagueTeam(?leagueIRI, ++?topTeams, foot:topTeams),
+  zipMin | foot:LeagueTeam(?leagueIRI, ++?teams, foot:teams)
+} .
+
+foot:Country[
+  ottr:IRI ?countryIRI,
+  xsd:string ?countryName,
+  xsd:string ?continent,
+  xsd:string ?fifaCode,
+  List<xsd:string> ?famousPlayers,
+  List<ottr:IRI> ?leagues
+] :: {
+  o-rdf:Type(?countryIRI, foot:Country),
+  ottr:Triple(?countryIRI, foaf:name, ?countryName),
+  ottr:Triple(?countryIRI, foot:continent, ?continent),
+  ottr:Triple(?countryIRI, foot:fifaCode, ?fifaCode),
+  cross | foot:CountryPlayer(?countryIRI, ++?famousPlayers),
+  cross | foot:CountryLeague(?countryIRI, ++?leagues)
+} .
+
+foot:Footballer[
+  ottr:IRI ?personIRI,
+  xsd:string ?firstName,
+  xsd:string ?lastName, 
+  xsd:date ?dateOfBirth, 
+  ? ottr:IRI ?currentClub, 
+  ? List<xsd:string> ?clubHistory, 
+  xsd:integer ?marketValue, 
+  rdfs:Literal ?position, 
+  xsd:string ?country
+] :: {
+  o-rdf:Type(?personIRI, foot:Footballer),
+  ottr:Triple(?personIRI, foaf:name, ?firstName),
+  ottr:Triple(?personIRI, foaf:familyName, ?lastName),
+  ottr:Triple(?personIRI, foaf:birthDate, ?dateOfBirth),
+  ottr:Triple(?personIRI, foot:currentClub, ?currentClub),
+  ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory),
+  ottr:Triple(?personIRI, foot:marketValue, ?marketValue),
+  ottr:Triple(?personIRI, foot:position, ?position),
+  ottr:Triple(?personIRI, foot:country, ?country)
+}.

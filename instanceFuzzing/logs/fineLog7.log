@@ -1,0 +1,13 @@
+2025-04-09 21:50:35,967 - ERROR - Instance foot:Club(Dassd,2018"^^xsd:gYear("Camp Nou",_:france)"_"%)
+
+2025-04-09 21:50:35,967 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'Dassd' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 18[ERROR] Syntax error: token recognition error at: '"%)\n' at line 7 column 63
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxytnxqt4.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmpxytnxqt4.stottr
+
+

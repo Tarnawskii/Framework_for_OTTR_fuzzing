@@ -1,0 +1,16 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+hand:Player [ ? xsd:boolean ?AKk , +? xsd:date ?T6F  ] :: { { hand:Footballer (  ), hand:Player (  ) }, foot:Team (  ) } .
+foot:Footballer [  ] :: { hand:Player ( foot:Footballer ( ?d8r, none ) ) } .
+foot:Footballer [ *+ xsd:string ?z9N , ! ottr:IRI ?L1J ,  ] :: { hand:Player ( false ) } .
+hand:Footballer [ + xsd:integer ?O7g  ] :: { foot:Footballer ( true,  ), foot:Player ( false ), foot:Footballer (  ) } .
+hand:Team [  List<ottr:IRI> ?I2y = "to" ] :: { hand:Player ( 4 ), foot:Team ( ?G0X, <http://example.org/kxPa> ), foot:Footballer ( ?B5Z, 0 ) } .
+hand:Player [ ++ ottr:IRI ?W6m = -64 ] :: { foot:Footballer ( ?l3u ) } .
+hand:Footballer [ ?+ xsd:boolean ?D9s , ?? ottr:IRI ?xnt  ] :: { foot:Footballer (  ), hand:Team (  ), hand:Player (  ) } .
+foot:Team [ *? xsd:boolean ?qfp = -0, * xsd:string ?SVv , ??? xsd:string ?P6Y ,  ] :: { hand:Team ( ?wHU ) } .
+foot:Footballer [ ?* xsd:boolean ?jbE  ] :: { hand:Footballer (  ), hand:Footballer ( true,  ) } .
+foot:Footballer [ ?? ottr:IRI ?h3o , * xsd:string ?a7c  ] :: { hand:Team (  ), hand:Player (  ) } .

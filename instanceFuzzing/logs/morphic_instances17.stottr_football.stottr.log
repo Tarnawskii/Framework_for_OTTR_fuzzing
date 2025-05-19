@@ -1,0 +1,9 @@
+2025-05-15 00:34:52,433 - ERROR - Error during Lutra processing for interation 0: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-05-15 00:34:52,443 - INFO - shuffled version 0 is isomorphic to original.
+2025-05-15 00:35:30,542 - ERROR - Error during Lutra processing for interation 1: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-05-15 00:35:30,543 - INFO - shuffled version 1 is isomorphic to original.
+2025-05-15 00:35:47,380 - ERROR - Error during Lutra processing for interation 2: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#gYear
+
+2025-05-15 00:35:47,381 - INFO - shuffled version 2 is isomorphic to original.

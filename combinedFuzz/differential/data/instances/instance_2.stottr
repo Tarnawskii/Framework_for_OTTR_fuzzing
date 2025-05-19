@@ -1,0 +1,7 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(E,""^^xsd:string,""^^xsd:string,"0000-00-00"^^xsd:date,e,(g),a^^xsd:integer,""^^xsd:string,a^^xsd:string)  foot:Club(x,none^^xsd:string,0^^gYear, "Old Trafford"^^xsd:string, ""^^xsd:string) .

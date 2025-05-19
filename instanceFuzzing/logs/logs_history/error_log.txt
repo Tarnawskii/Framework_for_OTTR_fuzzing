@@ -1,0 +1,467 @@
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Country(_:country1, "England", "Europe", "ENG", (_:player1), (_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(+?eRLg,Tu,"2016"^^xsd:gYear,(),("IY", (_:DnH))).': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '+'  (at char 284), (line:7, col:13)
+Error processing instance 'foot:Country("-"">"AsEy,Jk,"South America","POR",(_:rcG,_:hjK,_:oUt),(_:xXi,_:ZzP,_:wfC)).': Expected ")", found 'A'  (at char 291), (line:7, col:20)
+Error processing instance 'foot:Club("~"@dFmB,"Paris Saint-Germain","&ba"^^xsd:gYear,"Parc des Princes","France").': Invalid argument "~"@dFmB used for parameter "<http://ns.ottr.xyz/0.4/IRI> ?clubIRI_1". Reason : expected an IRI but instead got a <class 'rdflib.term.Literal'> 
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Country(_:country1, "England", "Europe", "ENG", (_:player1), (_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(+?eRLg,Tu,"2016"^^xsd:gYear,(),("IY", (_:DnH))).': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '+'  (at char 284), (line:7, col:13)
+Error processing instance 'foot:Country("-"">"AsEy,Jk,"South America","POR",(_:rcG,_:hjK,_:oUt),(_:xXi,_:ZzP,_:wfC)).': Expected ")", found 'A'  (at char 291), (line:7, col:20)
+Error processing instance 'foot:Club("~"@dFmB,"Paris Saint-Germain","&ba"^^xsd:gYear,"Parc des Princes","France").': Invalid argument "~"@dFmB used for parameter "<http://ns.ottr.xyz/0.4/IRI> ?clubIRI_1". Reason : expected an IRI but instead got a <class 'rdflib.term.Literal'> 
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Country(_:country1, "England", "Europe", "ENG", (_:player1), (_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(+?eRLg,Tu,"2016"^^xsd:gYear,(),("IY", (_:DnH))).': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '+'  (at char 284), (line:7, col:13)
+Error processing instance 'foot:Country("-"">"AsEy,Jk,"South America","POR",(_:rcG,_:hjK,_:oUt),(_:xXi,_:ZzP,_:wfC)).': Expected ")", found 'A'  (at char 291), (line:7, col:20)
+Error processing instance 'foot:Club("~"@dFmB,"Paris Saint-Germain","&ba"^^xsd:gYear,"Parc des Princes","France").': Invalid argument "~"@dFmB used for parameter "<http://ns.ottr.xyz/0.4/IRI> ?clubIRI_1". Reason : expected an IRI but instead got a <class 'rdflib.term.Literal'> 
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+?' at line 11 column 12[ERROR] Syntax error: mismatched input 'eRLg' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 14[ERROR] Syntax error: mismatched input '">"' expecting {',', ')'} at line 12 column 16[ERROR] Syntax error: token recognition error at: '%"' at line 18 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 18 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 18 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 19 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#League()
+Location(s):
+- Signature with IRI 'http://example.org/football#League'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "-"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+[ERROR] Incompatible argument type. Argument "~"@dFmB : rdfs:Literal with type rdfs:Literal given to parameter ?clubIRI : ottr:IRI
+[ERROR] Incompatible argument type. Argument "France"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?country : ottr:IRI
+  [ERROR] Invalid literal value. The value '&ba' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#gYear'
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Country(_:country1, "England", "Europe", "ENG", (_:player1), (_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(+?eRLg,Tu,"2016"^^xsd:gYear,(),("IY", (_:DnH))).': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '+'  (at char 284), (line:7, col:13)
+Error processing instance 'foot:Country("-"">"AsEy,Jk,"South America","POR",(_:rcG,_:hjK,_:oUt),(_:xXi,_:ZzP,_:wfC)).': Expected ")", found 'A'  (at char 291), (line:7, col:20)
+Error processing instance 'foot:Club("~"@dFmB,"Paris Saint-Germain","&ba"^^xsd:gYear,"Parc des Princes","France").': Invalid argument "~"@dFmB used for parameter "<http://ns.ottr.xyz/0.4/IRI> ?clubIRI_1". Reason : expected an IRI but instead got a <class 'rdflib.term.Literal'> 
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 13 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 13 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 13 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 14 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 10 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 10 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 10 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 11 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 10 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 10 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 10 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 11 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 13 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 13 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 13 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 14 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 13 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 13 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 13 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 14 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Error processing instance 'foot:Footballer(_:player1,"John","Doe","1990-01-01"^^xsd:date,_:club1,(_:club2, _:club3),"50.5"^^xsd:decimal,"Forward", _:country1).': Invalid argument "John" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?firstName_0". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 12 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 12 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 12 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 13 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Footballer(_:player1, "John"^^xsd:string, "Doe"^^xsd:string, "1990-01-01"^^xsd:date, _:club1, (_:club2, _:club3), "50.5"^^xsd:decimal, "Forward"^^xsd:string, _:country1).': Object [rdflib.term.BNode('club2'), rdflib.term.BNode('club3')] must be an rdflib term
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 12 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 12 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 12 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 13 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Footballer(_:player1, "John"^^xsd:string, "Doe"^^xsd:string, "1990-01-01"^^xsd:date, _:club1, (_:club2, _:club3), "50.5"^^xsd:decimal, "Forward"^^xsd:string, _:country1).': Object [rdflib.term.BNode('club2'), rdflib.term.BNode('club3')] must be an rdflib term
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)
+Lutra error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%"' at line 12 column 11[ERROR] Syntax error: extraneous input '{' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 10[ERROR] Syntax error: mismatched input '"cdDR,"' expecting '.' at line 12 column 14[ERROR] Syntax error: token recognition error at: '") )\r' at line 12 column 66[ERROR] Syntax error: mismatched input '" "' expecting {',', ')'} at line 13 column 16
+Location(s):
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File instancesDiffTest.stottr
+
+[ERROR] Wrong number of arguments. Expected 6 arguments, but found 1 in instance: http://example.org/football#Country("["^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "["^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?countryIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Country'
+- File instancesDiffTest.stottr
+
+
+Error processing instance 'foot:Footballer(_:player1, "John"^^xsd:string, "Doe"^^xsd:string, "1990-01-01"^^xsd:date, _:club1, (_:club2, _:club3), "50.5"^^xsd:decimal, "Forward"^^xsd:string, _:country1).': Object [rdflib.term.BNode('club2'), rdflib.term.BNode('club3')] must be an rdflib term
+Error processing instance 'foot:Club(_:club1,"Liverpool FC","1892"^^xsd:gYear,"Anfield",_:country1).': Invalid argument "Liverpool FC" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?clubName_1". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:League(  _:league1,  "Premier League","1992"^^xsd:gYear,(_:club1, _:club2),(_:club1, _:club2, _:club3)).': Invalid argument "Premier League" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?leagueName_2". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Country(_:country1,"England","Europe","ENG",  (_:player1),(_:league1)).': Invalid argument "England" used for parameter "<http://www.w3.org/2001/XMLSchema#string> ?countryName_3". Reason : expected a Literal with datatype <http://www.w3.org/2001/XMLSchema#string> but instead got None 
+Error processing instance 'foot:Club({%")"cdDR,"Liverpool",An^^xsd:gYear,"Camp Nou","Portugal") )': Expected {"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)') | Group:({Suppress:("(") {{{"none" | Re:('(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+))') | Re:('"([^"\\\\]*(?:\\\\.[^"\\\\]*)*)"(?:@([a-zA-Z]+(?:-[a-zA-Z0-9]+)*)|\\^\\^(<([^:]+:[^\\s"<>]+)>|(([A-Za-z0-9]|-)+):([A-Za-z0-9]+)))?') | Re:('_:([A-Za-z0-9]*)')} Suppress:([","])}}... Suppress:(")")})}, found '{'  (at char 282), (line:7, col:11)
+Error processing instance 'foot:Country("["" "rBtH,"Argentina","Europe",YF,(),(QI,Nh,",Jx")) "-"?': Expected ")", found 'r'  (at char 291), (line:7, col:20)

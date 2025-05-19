@@ -1,0 +1,45 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foaf:name         "La Liga" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League ;
+        foot:topTeams     _:b1 ;
+        foot:topTeams     _:b2 ;
+        foot:topTeams     _:b3 ;
+        foot:topTeams     _:b4 ;
+        foot:topTeams     _:b5 ;
+        foot:topTeams     _:b6 ;
+        foot:topTeams     _:b7 ;
+        foot:topTeams     _:b8 .
+
+_:b9    foot:country      "Argentina" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b4 .
+
+_:b10   foot:country      "England" ;
+        foaf:birthDate    "1951-11-19"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Striker"@en ;
+        foaf:name         "Amadou" ;
+        foaf:familyName   "Núñez" .
+
+_:b11   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:leagues        _:b12 ;
+        foot:leagues        _:b13 ;
+        foot:leagues        _:b14 ;
+        foot:famousPlayers  "Amadou" ;
+        foot:continent      "Africa" ;
+        foot:fifaCode       "POR" .

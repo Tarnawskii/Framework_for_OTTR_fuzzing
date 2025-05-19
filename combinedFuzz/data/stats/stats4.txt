@@ -1,0 +1,16 @@
+--- Summary ---
+Input rows (ISLa generated): 1000
+Output rows (Turtle file): 26
+Total actual error lines (starting with '[ERROR]'): 9
+
+Last error before quitting: [ERROR] Invalid literal value. The value '12-11-1998' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+
+Aggregated error counts (by type):
+Invalid literal value: 9
+Aggregated error counts (by exact message, actual errors):
+'[ERROR] Invalid literal value. The value '12-11-1998' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'': 9
+
+Non-critical messages (not starting with '[ERROR]'):
+'Location(s):': 9
+'- Signature with IRI 'http://example.org/football#Footballer'': 9
+'- File instances4.stottr': 9

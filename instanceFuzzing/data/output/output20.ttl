@@ -1,0 +1,43 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "France" ;
+        foaf:birthDate    "0000-00-00"^^xsd:date ;
+        foot:clubHistory  rdf:nil ;
+        foot:marketValue  100000000 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "" ;
+        foot:position     "Forward" ;
+        foaf:familyName   "Fernandes" .
+
+_:b1    foot:country      "" ;
+        foaf:birthDate    "2002-15-11"^^xsd:date ;
+        foot:clubHistory  _:b2 .
+
+_:b3    rdf:rest   _:b4 ;
+        rdf:first  rdf:nil .
+
+_:b5    rdf:rest   rdf:nil ;
+        rdf:first  _:b6 .
+
+_:b4    rdf:rest   _:b5 ;
+        rdf:first  rdf:nil .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  _:b3 .
+
+_:b1    foot:marketValue  010 ;
+        rdf:type          foot:Footballer ;
+        foaf:name         "Cristiano" ;
+        foot:position     "Forward" ;
+        foaf:familyName   "" .

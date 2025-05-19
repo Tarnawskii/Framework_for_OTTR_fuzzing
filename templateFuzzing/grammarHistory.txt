@@ -1,0 +1,373 @@
+templates 1 and 2:
+TEMPLATE_GRAMMAR = {
+    "<start>": ["<template>"],
+    "<template>": ["<signature> :: <pattern_list> ."],
+    "<signature>": ["<template_name> [ <parameter_list> ]"],
+    "<template_name>": ["foot:Footballer", "foot:Club", "foot:League", "foot:Country"],
+    "<parameter_list>": ["<parameter>", "<parameter>, <parameter_list>"],
+    "<parameter>": ["<param_mode> <type> <variable> <default_value>"],
+    "<ottr:IRI>": ["<constant>"],
+    "<param_mode>": ["", "?", "!"],
+    "<type>": ["ottr:IRI", "xsd:string", "xsd:integer", "List<ottr:IRI>"],
+    "<variable>": ["?<letter><letter><letter>"],
+    "<default_value>": ["", "= <constant>"],
+    "<constant>": ["\"<string>\"", "<integer>", "none"],
+    "<pattern_list>": ["{ <instance_list> }"],
+    "<instance_list>": ["<instance>", "<instance>, <instance_list>"],
+    "<instance>": ["<template_name> ( <argument_list> )"],
+    "<argument_list>": ["<argument>", "<argument>, <argument_list>"],
+    "<argument>": ["<term>"],
+    "<term>": ["<variable>", "<constant>"],
+    "<string>": ["<letter><string>", "<letter>"],
+    "<integer>": ["<digit><integer>", "<digit>"],
+    "<letter>": list(string.ascii_letters),
+    "<digit>": list(string.digits),
+}
+
+template 5:
+
+
+TEMPLATE_GRAMMAR = {
+  "<start>": ["<template>"],
+  "<template>": ["<signature> :: <pattern_list> ."],
+  "<signature>": ["<template_name> [ <parameter_list> ]"],
+  "<template_prefix>": ["foot:"],
+  "<template_name>": ["<template_prefix>Footballer"],
+  "<parameter_list>": ["<parameter>", "<parameter>, <parameter_list>"],
+  "<parameter>": ["<param_mode> <type> <variable> <default_value>"],
+  "<param_mode>": ["", "?", "!", "*"],
+  "<type>": ["ottr:IRI", "xsd:string", "xsd:integer", "List<<ottr:IRI>>", "List<<xsd:string>>", "xsd:boolean","xsd:date"],
+  "<variable>": ["?<letter><letter><letter>", "?<letter><digit><letter>"],
+  "<xsd:string>": ["xsd:string"],
+  "<default_value>": ["", "= <constant>"],
+  "<constant>": ["\"<string>\"", "<integer>", "none", "<ottr:IRI>", "true", "false"],
+  "<ottr:IRI>": ["<http://example.org/<string>>", "<http://edgecase.org/<string>>"],
+  "<pattern_list>": ["{ <instance_list> }"],
+  "<instance_list>": ["<instance>", "<instance>, <instance_list>"],
+  "<instance>": ["<template_name> ( <argument_list> )"],
+  "<argument_list>": ["<argument>", "<argument>, <argument_list>"],
+  "<argument>": ["<term>"],
+  "<term>": ["<variable>", "<constant>"],
+  "<string>": ["<char><string>", "<char>"],
+  "<char>": list(string.ascii_letters + string.digits + "!@#$%^&*()_+-=[]{}|;:',.<>/?"),
+  "<integer>": ["-<positive_integer>", "<positive_integer>", "0"],
+  "<positive_integer>": ["<digit><positive_integer>", "<digit>"],
+  "<digit>": list(string.digits),
+  "<letter>": list(string.ascii_letters),
+}
+Template 8 and 9:
+TEMPLATE_GRAMMAR = {
+    "<start>": ["<template>"],
+    "<template>": ["<signature> :: <pattern_list> ."],
+    "<signature>": ["<template_name> [ <parameter_list> ]"],
+    "<template_prefix>": ["foot:"],  
+    "<template_name>": [
+        "<template_prefix>Footballer", 
+        "<template_prefix>Player", 
+        "<template_prefix>Team"
+    ],
+    
+    "<parameter_list>": ["", "<parameter>", "<parameter>, <parameter_list>"],
+    "<parameter>": ["<param_mode> <type> <variable> <default_value>"],
+    "<param_mode>": [
+        "", "?", "!", "*", "+", "?<param_mode>", "!<param_mode>", "*<param_mode>", "+<param_mode>"
+    ],
+    
+    "<type>": [
+        "ottr:IRI", 
+        "xsd:string", 
+        "xsd:integer", 
+        "xsd:boolean", 
+        "xsd:date", 
+        "List<<type>>"
+    ],
+    "<variable>": ["?<letter><letter><letter>", "?<letter><digit><letter>"],
+    "<default_value>": ["", "= <constant>"],
+    "<constant>": [
+        "\"<string>\"", 
+        "<integer>", 
+        "none", 
+        "<ottr:IRI>", 
+        "true", 
+        "false"
+    ],
+    "<ottr:IRI>": [
+        "<http://example.org/<string>>", 
+        "<http://case.org/<string>>"
+    ],
+    
+    "<pattern_list>": ["{ <instance_list> }"],
+    "<instance_list>": [
+        "<list_element>", 
+        "<list_element>, <instance_list>"
+    ],
+    "<list_element>": [
+        "<instance>", 
+        "<pattern_list>"  
+    ],
+    
+    "<instance>": ["<template_name> ( <argument_list> )"],
+    
+    "<argument_list>": [
+        "", 
+        "<argument>", 
+        "<argument>, <argument_list>"
+    ],
+    "<argument>": ["<term>"],
+    
+    "<term>": [
+        "<variable>", 
+        "<constant>", 
+        "<instance>"
+    ],
+    "<string>": ["<char><string>", "<char>"],
+    "<char>": list(string.ascii_letters + string.digits + "-_"),  
+    "<integer>": [
+        "-<positive_integer>", 
+        "<positive_integer>", 
+        "0", 
+        "-0"
+    ],
+    "<positive_integer>": ["<digit><positive_integer>", "<digit>"],
+    "<digit>": list(string.digits),
+    "<letter>": list(string.ascii_letters),
+}
+
+ITERATIONS 10-19
+
+TEMPLATE_GRAMMAR = {
+    "<start>": ["<template>"],
+    "<template>": [
+        "<signature> :: { <pattern_list> } .",               
+        "<signature> :: BASE .",                            
+        "<correct_signature> :: { <correct_pattern_list> } .", 
+        "<signature> :: { <pattern_list> ",                  
+        "<signature> :: BASE",                                
+        "<template_name> [ <parameter_list> ] { <pattern_list> } .",  
+        "<signature> <between> { <pattern_list> } <extra_dot>",       
+        "<signature> :: { <pattern_list> }",                  
+        "<signature> :: ( <pattern_list> ) .",                                         
+        "<signature> :: { <pattern_list> } <invalid_punctuation>" 
+    ],
+    "<between>": ["::", "<special_char>:", ":", ";"],         
+    "<extra_dot>": ["", ".", "..", "..."],                    
+    "<invalid_punctuation>": [",", ";", "(", ")"],            
+    "<signature>": [
+        "<template_name> [ <parameter_list> ] <annotation_list>", 
+        "<template_name> [ <parameter_list> ]",                    
+        "<correct_template_name> [ <correct_parameter_list> ]",   
+        "<template_name> <parameter_list> <annotation_list>",      
+        "<template_name> [ <parameter_list> <annotation_list>",    
+        "<template_name> [ ]",                                    
+        "<template_name>",                                        
+        "<template_name> [ <parameter_list> ] <invalid_term>"      
+    ],
+    "<invalid_term>": ["<string>", "<malformed_iri>", "<malformed_literal>", "<invalid_name>"],
+    "<template_name>": ["<prefixed_name>", "<malformed_iri>", "<ottr:IRI>", "<invalid_name>"],
+    "<prefixed_name>": ["<prefix>:<local_name>"],
+    "<prefix>": ["foot", "ex", "ottr", "o-rdf", "xsd", "owl", "http://example.com/", "badPrefix", ""], 
+    "<local_name>": ["Footballer", "Template1", "Template2", "Triple", "Type", "Annotation", "Invalid Space"],
+    "<malformed_iri>": [
+        "ex:Invalid Space", "ex:", ":noPrefix", "<unclosedIRI", "ex::doubleColon",
+        "http://invalid", "://noScheme", "bad::IRI", ""        
+    ],
+    "<invalid_name>": ["?var", "123", "\"string\""],          
+    "<correct_template_name>": ["foot:Footballer"],
+    "<parameter_list>": [
+        "<parameter>",
+        "<parameter> , <parameter_list>",
+        "<correct_parameter_list>",
+        "",                          
+        "<parameter> <parameter_list>", 
+        "<parameter> , , <parameter_list>", 
+        "<parameter> ,",                     
+        "<invalid_term>"                   
+    ],
+    "<correct_parameter_list>": [
+        "ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<<xsd:string>> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName"
+    ],
+    "<parameter>": [
+        "<modifiers> <type> <variable> <default_value>",  
+        "<modifiers> <variable> <default_value>",       
+        "<type> <variable>",                            
+        "<modifiers> <type> <variable> = <malformed_constant>",  
+        "<modifiers> <malformed_literal> <variable>",       
+        "<modifiers> <type>",                           
+        "<parameter_name> ?<variable_name>",
+        "<list_parameter> ?<variable_name>",
+        "<type> <invalid_term>",                       
+        "<list_expander> <type> <variable>"             
+    ],
+    "<modifiers>": ["", "?", "!", "?!", "?!!", "??", " ", "++", "++ ++"],
+    "<type>": [
+        "<literal>",
+        "<list_type>"
+        "<malformed_literal>",
+    ],
+    "<list_type>": [
+        "List<<type>>",
+        "NEList<<type>>",
+        "LUB<<basic_type>>",
+        "List<<<malformed_literal>>>",
+        "LUB<<List<<basic_type>>>>",
+        "NEList<<LUB<<basic_type>>>>",
+    ],
+      "<literal>": [
+        "ottr:IRI",
+        "xsd:string",
+        "xsd:integer",
+        "xsd:decimal",
+        "xsd:date",
+        "owl:Class",
+        "rdfs:Resource",
+        "ottr:Bot",
+        "xsd:boolean",
+        "owl:NamedIndividual",
+        "owl:ObjectProperty",
+        "owl:DatatypeProperty",
+        "owl:AnnotationProperty",
+        "rdfs:Datatype",
+        "t-pnd:Punned-Class-ObjectProperty",
+        "rdfs:Literal",
+        "xsd:normalizedString",
+        "xsd:token",
+        "xsd:language",
+        "xsd:Name",
+        "xsd:NCName",
+        "xsd:NMTOKEN",
+        "owl:real",
+        "owl:rational",
+        "xsd:long",
+        "xsd:int",
+        "xsd:short",
+        "xsd:byte",
+        "xsd:nonNegativeInteger",
+        "xsd:positiveInteger",
+        "xsd:unsignedLong",
+        "xsd:unsignedInt",
+        "xsd:unsignedShort",
+        "xsd:unsignedByte",
+        "xsd:nonPositiveInteger",
+        "xsd:negativeInteger",
+        "xsd:double",
+        "xsd:float",
+        "xsd:dateTime",
+        "xsd:dateTimeStamp",
+        "xsd:time",
+        "xsd:gYear",
+        "xsd:gMonth",
+        "xsd:gDay",
+        "xsd:gYearMonth",
+        "xsd:gMonthDay",
+        "xsd:duration",
+        "xsd:yearMonthDuration",
+        "xsd:dayTimeDuration",
+        "xsd:hexBinary",
+        "xsd:base64Binary",
+        "xsd:anyURI",
+        "rdf:HTML",
+        "rdf:XMLLiteral"
+    ],
+    "<malformed_literal>": [
+        "xsd:invalidType", "ottr:", "badPrefix:string", "List", "LUB",
+        ":noType", "invalid", "xsd::doubleColon", ""     
+    ],
+    "<parameter_name>": ["<parameter_type>:<datatype>", "<invalid_name>"],
+    "<parameter_type>": ["ottr", "foot", "xsd", "none", "bad"],
+    "<datatype>": ["<prefixed_name>", "<literal_type>", "foaf:name", "foot:clubHistory", "<malformed_iri>"],
+    "<literal_type>": ["string", "integer", "decimal", "boolean", "date", "invalid"],
+    "<list_parameter>": [
+        "List<<parameter>>", "List<List<<list_parameter>>>", "<NEList>", "<LUBList>", "<term_list>",
+        "List<<invalid_term>>",                         
+        "<list_expander> List<<type>>"                  
+    ],
+    "<NEList>": ["NEList<<parameter>>", "NEList<List<<list_parameter>>>", "NEList<<invalid_term>>"],
+    "<LUBList>": ["LUB<<basic_type>>", "LUB<List<<basic_type>>>", "LUB<<malformed_literal>>"],
+    "<variable>": ["?<variable_name>", "<invalid_variable>"],
+    "<variable_name>": ["<char>", "<char><variable_name>"],
+    "<char>": list(string.ascii_letters) + list(string.digits) + list(string.punctuation),
+    "<invalid_variable>": ["", "123", "\"string\""],  
+    "<default_value>": ["", "= <constant_term>", "= <variable>", "= <malformed_constant>"],
+    "<constant_term>": ["<constant>", "( <constant_term_list> )", "( <constant_term_list> ", "<invalid_term>"],
+    "<constant_term_list>": ["<constant_term>", "<constant_term> , <constant_term_list>", "", "<constant_term> ,,"],
+    "<constant>": [
+        "<prefixed_name>", "\"<string>\"", "<integer>", "<decimal>", "<boolean>",
+        "\"2023-01-01\"^^xsd:date", "none", "_:b1", "_:b2",
+        "\"malformed\"^^bad:datatype", "\"unclosed", "23.14.15",
+        "\"invalid\"^^<malformed_iri>"                   
+    ],
+    "<string>": ["\"<char>\"", "\"<char>*\"", "\"<char>+\"", "\"<char>*<char><char>*\"", "\"unclosed"],
+    "<integer>": ["<digit>+", "-<digit>+", "abc"],   
+    "<decimal>": ["<integer>.<integer>", "1..2"],     
+    "<boolean>": ["true", "false", "invalid"],         
+    "<digit>": list(string.digits),
+    "<malformed_constant>": [
+        "\"unclosed", "23.14.15", "\"malformed\"^^bad:datatype",
+        "\"value\"^^invalid", "invalid^^type"     
+    ],
+    "<annotation_list>": [
+        "", "@@ <instance>", "@@ <instance> , @@ <instance>",
+        "@@ <instance> @@ <instance>", "@ <instance>", "@@ <malformed_instance>",
+        "@@ <invalid_term>",                              
+        "@@ <instance> <invalid_punctuation>",            
+        "<list_expander> @@ <instance>"                  
+    ],
+    "<pattern_list>": [
+        "<pattern>", "<pattern> , <pattern_list>", "<correct_pattern_list>",
+        "", "<pattern> <pattern_list>", "<pattern> ,",
+        "<invalid_term>",                                
+        "<pattern> <invalid_punctuation>",               
+        "<instance>"                                      
+    ],
+    "<correct_pattern_list>": [
+        "o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), "
+        "ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), "
+        "ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), "
+        "ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName)"
+    ],
+    "<pattern>": [
+        "ottr:Triple(<subject>, <predicate>, <object>)",
+        "o-rdf:Type(<subject>, <object>)",
+        "ottr:Triple(<subject> <predicate> <object>)",   
+        "<malformed_iri>(<subject>, <object>)"            
+    ],
+    "<subject>": ["?<variable_name>", "<invalid_term>", "_:blank"],  
+    "<predicate>": ["<prefixed_name>", "<malformed_iri>"],
+    "<object>": ["?<variable_name>", "<constant>", "<invalid_term>"],
+    "<instance>": [
+        "<list_expander> <template_name> ( <argument_list> )",
+        "<template_name> ( <argument_list> )",
+        "<template_name> <argument_list>"                
+    ],
+    "<malformed_instance>": [
+        "ex:Template1 ( ?<variable_name>",               
+        "cross ex:Template1 ( ?<variable_name> )",
+        "<template_name> ?<variable_name> )",
+        "<template_name> ( <invalid_term> )",           
+        "<invalid_list_expander> <template_name> ( <argument_list> )"  
+    ],
+    "<list_expander>": ["cross | ", "zipMin | ", "zipMax | ", "", "invalid | ", "<invalid_list_expander>"],
+    "<invalid_list_expander>": ["wrong", "||", "cross"],  
+    "<argument_list>": [
+        "<argument>", "<argument> , <argument_list>", "",
+        "<argument> <argument_list>", "<argument> ,,",
+        "<invalid_term>",                                 
+        "<argument> <list_expander>"                    
+    ],
+    "<argument>": [
+        "++ <term>", "<term>", "++ ++ <term>",
+        "<term> ^^ <malformed_literal>",                  
+        "_:blank"                                       
+    ],
+    "<term>": ["<variable>", "<constant>", "( <term_list> )", "( <term_list> ) )", "<malformed_term>"],
+    "<malformed_term>": ["?var 1", "\"string\"^^^xsd:string", "( , )", "invalid term"],
+    "<term_list>": ["<term>", "<term> , <term_list>", "", "<term> ,,"],
+    "<special_char>": list(string.punctuation),
+    "<ottr:IRI>": ["ottr:IRI"],
+    "<correct_signature>": [
+        "foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, "
+        "xsd:date ?birthday, xsd:string ?currentClub, List<<xsd:string>> ?clubHistory, "
+        "xsd:decimal ?marketValue, xsd:string ?countryName ]"
+    ],
+    "<xsd:string>": ["xsd:string"],
+}

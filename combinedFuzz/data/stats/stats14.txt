@@ -1,0 +1,79 @@
+--- Summary ---
+Input rows (ISLa generated): 100
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 87
+
+Last error before quitting: [ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 98 column 153
+
+Aggregated error counts (by type):
+Syntax error: mismatched input: 31
+Syntax error: no viable alternative: 18
+Syntax error: extraneous input: 18
+Unrecognized prefix: 17
+Syntax error: token recognition error: 2
+Parsing stOTTR: 1
+Aggregated error counts (by exact message, actual errors):
+'[ERROR] Parsing stOTTR': 1
+'[ERROR] Syntax error: token recognition error at: '+)' at line 30 column 145[ERROR] Syntax error: token recognition error at: '+)' at line 103 column 121[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?List<xsd:boolean>' at line 10 column 17[ERROR] Syntax error: extraneous input '}' expecting '.' at line 10 column 86[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?o,!xsd:nonPositiveInteger?i,?!xsd:date?L]zipMin' at line 11 column 77[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 98[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 140[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 163[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:normalizedString?r,xsd:integer?R]zipMax' at line 20 column 62[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 83[ERROR] Syntax error: mismatched input '::' expecting '.' at line 20 column 97[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 141[ERROR] Syntax error: extraneous input '}' expecting '.' at line 20 column 164[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:dateTime' at line 22 column 22[ERROR] Syntax error: extraneous input '}' expecting '.' at line 22 column 71[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?!xsd:normalizedString?q,!xsd:duration?y]zipMax' at line 30 column 59[ERROR] Syntax error: mismatched input '::' expecting '.' at line 30 column 80[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 124[ERROR] Syntax error: extraneous input '+.2' expecting {',', ')'} at line 30 column 142[ERROR] Syntax error: no viable alternative at input 'foot:Ball[xsd:dateTimeStamp?m,?xsd:hexBinary' at line 31 column 39[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 100[ERROR] Syntax error: extraneous input '}' expecting '.' at line 31 column 123[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?xsd:double' at line 38 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 38 column 107[ERROR] Syntax error: extraneous input '}' expecting '.' at line 38 column 130[ERROR] Syntax error: no viable alternative at input 'foot:Ball[!xsd:dateTime?g]foot:Ball' at line 42 column 31[ERROR] Syntax error: mismatched input '::' expecting '.' at line 42 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 42 column 67[ERROR] Syntax error: extraneous input '}' expecting '.' at line 42 column 108[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:boolean?p,?!xsd:string?E]zipMin' at line 50 column 53[ERROR] Syntax error: mismatched input ',' expecting '.' at line 50 column 74[ERROR] Syntax error: mismatched input '::' expecting '.' at line 50 column 96[ERROR] Syntax error: mismatched input ',' expecting '.' at line 50 column 140[ERROR] Syntax error: extraneous input '}' expecting '.' at line 50 column 163[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?owl:Class' at line 52 column 22[ERROR] Syntax error: mismatched input ',' expecting '.' at line 52 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 52 column 99[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:negativeInteger?E,xsd:positiveInteger?S,?rdf:HTML' at line 61 column 73[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 105[ERROR] Syntax error: mismatched input '::' expecting '.' at line 61 column 119[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 145[ERROR] Syntax error: mismatched input ',' expecting '.' at line 61 column 168[ERROR] Syntax error: extraneous input '}' expecting '.' at line 61 column 191[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:negativeInteger?v,?xsd:NCName' at line 68 column 49[ERROR] Syntax error: mismatched input ',' expecting '.' at line 68 column 89[ERROR] Syntax error: extraneous input '}' expecting '.' at line 68 column 130[ERROR] Syntax error: no viable alternative at input 'foot:Ball[xsd:gYear?Q,!xsd:token?O]cross' at line 71 column 43[ERROR] Syntax error: mismatched input '::' expecting '.' at line 71 column 63[ERROR] Syntax error: mismatched input ',' expecting '.' at line 71 column 105[ERROR] Syntax error: mismatched input ',' expecting '.' at line 71 column 128[ERROR] Syntax error: extraneous input '}' expecting '.' at line 71 column 151[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:gDay?f,?xsd:anyURI' at line 81 column 36[ERROR] Syntax error: mismatched input '::' expecting '.' at line 81 column 70[ERROR] Syntax error: extraneous input '}' expecting '.' at line 81 column 97[ERROR] Syntax error: no viable alternative at input 'foot:Ball[rdfs:Resource?m]foot:Ball' at line 89 column 31[ERROR] Syntax error: mismatched input '::' expecting '.' at line 89 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 89 column 69[ERROR] Syntax error: extraneous input '}' expecting '.' at line 89 column 110[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!xsd:unsignedShort?R,?xsd:gYearMonth' at line 91 column 46[ERROR] Syntax error: mismatched input ',' expecting '.' at line 91 column 108[ERROR] Syntax error: extraneous input '}' expecting '.' at line 91 column 131[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?xsd:normalizedString' at line 99 column 16[ERROR] Syntax error: mismatched input ',' expecting '.' at line 99 column 68[ERROR] Syntax error: mismatched input '::' expecting '.' at line 99 column 82[ERROR] Syntax error: mismatched input ',' expecting '.' at line 99 column 106[ERROR] Syntax error: extraneous input '}' expecting '.' at line 99 column 129[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[?!xsd:gYearMonth?HFOVL=?Sk' at line 103 column 44[ERROR] Syntax error: mismatched input '::' expecting '.' at line 103 column 76[ERROR] Syntax error: extraneous input '+.3' expecting {',', ')'} at line 103 column 118': 1
+'[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 12 column 151': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:AnnotationProperty' at line 12 column 40': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 15 column 29': 1
+'[ERROR] Unrecognized prefix 'rdf' in 'rdf:HTML' at line 16 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 17 column 29': 1
+'[ERROR] Unrecognized prefix 'rdf' in 'rdf:XMLLiteral' at line 25 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:Class' at line 26 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 29 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 47 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 48 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 58 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:ObjectProperty' at line 60 column 44': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:real' at line 64 column 29': 1
+'[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 65 column 29': 1
+'[ERROR] Unrecognized prefix 't-pnd' in 't-pnd:Punned-Class-ObjectProperty' at line 84 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 94 column 29': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:DatatypeProperty' at line 98 column 153': 1
+
+Non-critical messages (not starting with '[ERROR]'):
+'Location(s):': 67
+'- File ./data/templates/templates14.stottr': 67
+'[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball': 60
+'[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer': 20
+'- Template with IRI 'http://example.org/football#Ball'': 13
+'- Signature with IRI 'http://example.org/football#Ball'': 13
+'[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.': 5
+'[INFO] Ignoring instance: zipMin|foot:Ball(). This parser accepts signatures, base templates and templates.': 4
+'- Template with IRI 'http://example.org/football#Footballer'': 4
+'- Signature with IRI 'http://example.org/football#Footballer'': 4
+'[INFO] Ignoring instance: zipMax|foot:Ball(). This parser accepts signatures, base templates and templates.': 3
+'[INFO] Ignoring instance: o-rdf:Type(?k,none). This parser accepts signatures, base templates and templates.': 2
+'[INFO] Ignoring instance: ottr:Triple(?Y,foot:Footballer. This parser accepts signatures, base templates and templates.': 2
+'[INFO] Ignoring instance: o-rdf:Type(?a,none). This parser accepts signatures, base templates and templates.': 2
+'[INFO] Ignoring instance: cross|foot:Ball(). This parser accepts signatures, base templates and templates.': 2
+'[INFO] Ignoring instance: o-rdf:Type(?c,none). This parser accepts signatures, base templates and templates.': 2
+'[INFO] Ignoring instance: o-rdf:Type(?WsvbU,foot:Footbal. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?V,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?W,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?I,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?bQ,?ow). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?t,4+.2}<missing '). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?s,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?v,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?B,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?s,?U). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?z,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?H,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?V,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?R,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?b,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?y,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?o,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?M,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?p,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?j,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?X,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?e,false). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?w,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?I,?r). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?f,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: zipMax|foot:Ball(++?j). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?oBC,foot:Football. This parser accepts signatures, base templates and templates.': 1

@@ -1,0 +1,14 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+foot:Footballer(_:OJp,"#","","0000-00-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","","0000-0-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","","0000-00-0"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","","0000-0-0"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","","000-00-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","","#"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","",2024-1-12,none,(_:l),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"#","","2024-12-12",none,(_:l),10,_:Forward,"Argentina") .

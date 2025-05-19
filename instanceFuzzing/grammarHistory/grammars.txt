@@ -1,0 +1,1882 @@
+GRAMMAR: Grammar = {
+    "<start>": ["<rdf_instance>"],
+    "<rdf_instance>": ["<footballer>", "<club>", "<league>", "<country>"],
+    "<footballer>": ["foot:Footballer(<id>, <first_name>,<last_name>,<birthday>^^xsd:date,<current_club>,<marketValue>,<position>,<countryName>) <dot>"],
+    "<club>": ["foot:Club(<id>,<clubName>,<year>^^xsd:gYear,<stadium>,<countryName>) <dot>"],
+    "<league>": ["foot:League(<id>,<leagueName>,<year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>) <dot>"],
+    "<country>": ["foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers>,<array_of_leagues>) <dot>"],
+    "<dot>": ["."," ","<special_character>"],
+    "<id>": ["<validID>","<invalidID>"],
+    "<validID>": ["_:<letter><letter><letter>"],
+    "<invalidID>": ["<special_character><special_character><letter><letter><letter><letter>"],
+
+    "<first_name>": ["<valid_first_name>","<invalid_first_name>"],
+    "<valid_first_name>": ['"Lionel"','"Cristiano"','"Bruno"','"Kylian"','"Mohamed"'],
+    "<invalid_first_name>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<last_name>": ["<valid_last_name>","<invalid_last_name>"],
+    "<valid_last_name>": ['"Messi"','"Ronaldo"','"Mbappe"','"Salah"','"Fernandes"'],
+    "<invalid_last_name>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<birthday>": ["\"<validBirthday>\"","\"<invalid_birthday>\""],
+    "<validBirthday>": ["19<fiveToNine><digit>-<month>-<day>", "20<zeroToTwo><digit>-<month>-<day>"],
+    "<fiveToNine>": ["5", "6", "7", "8", "9"],
+    "<zeroToTwo>": ["0", "1", "2"],
+    "<month>": ["<digit>", "1<digit>"],
+    "<day>": ["0<digit>", "1<digit>", "2<digit>"],
+
+    "<invalid_birthday>": ["19<random_invalid_digit>-<month>-<day>", "20<random_invalid_digit>-<month>-<day>"],
+    "<random_invalid_digit>": ["0", "3", "4", "5", "6", "7", "8", "9"],
+
+    "<year>": ["<valid_year>","<invalid_year>"],
+    "<valid_year>": ['"2015"','"2016"','"2017"','"2018"','"2019"'],
+    "<invalid_year>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<current_club>": ["<valid_current_club>","<invalid_current_club>"],
+    "<valid_current_club>": ['"Barcelona"','"Juventus"','"Paris Saint-Germain"','"Liverpool"','"Manchester United"'],
+    "<invalid_current_club>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<marketValue>": ["<valid_marketValue>","<invalid_marketValue>"],
+    "<valid_marketValue>": ['"100000000"','"150000000"','"200000000"','"250000000"','"300000000"'],
+    "<invalid_marketValue>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<position>": ["<valid_position>","<invalid_position>"],
+    "<valid_position>": ['"Forward"','"Midfielder"','"Defender"','"Goalkeeper"'],
+    "<invalid_position>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<countryName>": ["<valid_country>","<invalid_country>"],
+    "<valid_country>": ['"Argentina"','"Portugal"','"France"','"Egypt"','"England"'],
+    "<invalid_country>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<clubName>": ["<valid_clubName>","<invalid_clubName>"],
+    "<valid_clubName>": ['"Barcelona"','"Juventus"','"Paris Saint-Germain"','"Liverpool"','"Manchester United"'],
+    "<invalid_clubName>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<stadium>": ["<valid_stadium>","<invalid_stadium>"],
+    "<valid_stadium>": ['"Camp Nou"','"Allianz Stadium"','"Parc des Princes"','"Anfield"','"Old Trafford"'],
+    "<invalid_stadium>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<leagueName>": ["<valid_leagueName>","<invalid_leagueName>"],
+    "<valid_leagueName>": ['"La Liga"','"Serie A"','"Ligue 1"','"Premier League"','"Bundesliga"'],
+    "<invalid_leagueName>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<continent>": ["<valid_continent>","<invalid_continent>"],
+    "<valid_continent>": ['"Europe"','"South America"','"Africa"','"Asia"','"North America"'],
+    "<invalid_continent>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<fifaCode>": ["<valid_fifaCode>","<invalid_fifaCode>"],
+    "<valid_fifaCode>": ['"ARG"','"POR"','"FRA"','"EGY"','"ENG"'],
+    "<invalid_fifaCode>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<array_of_topTeams>": [
+        "()", 
+        "(<valid_team>)", 
+        "(<invalid_team>)", 
+        "(<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>,<invalid_team>)"
+    ],
+
+    "<array_of_teams>": [
+        "()", 
+        "(<valid_team>)", 
+        "(<invalid_team>)", 
+        "(<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>,<invalid_team>)"
+    ],
+    "<valid_team>": [
+        "<id>",
+    ],
+    "<invalid_team>": [
+        '"<random_long_string_with_special_characters>"', 
+        '"<random_long_string>"', 
+        '"<special_character_string>"'
+    ],
+
+    "<array_of_topPlayers>": [
+        "()", 
+        "(<valid_player>)", 
+        "(<invalid_player>)", 
+        "(<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>,<invalid_player>)"
+    ], 
+    "<valid_player>": [
+        '<id>',
+    ],
+    "<invalid_player>": [
+        '<random_long_string_with_special_characters>',
+        '<random_long_string>',
+        '<special_character_string>'
+    ],
+
+    "<array_of_leagues>": [
+        "()",
+        "(<valid_league>)",
+        "(<invalid_league>)",
+        "(<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>,<invalid_league>)"
+    ],
+    "<valid_league>": [
+        '<id>',
+    ],
+    "<invalid_league>": [
+        '<random_long_string_with_special_characters>',
+        '<random_long_string>',
+        '<special_character_string>'
+    ],
+    
+    "<random_string>": ["<letter><random_string>", "<digit><random_string>", "<letter>"],  
+    "<random_long_string>": ["<random_string><random_string>"],
+    "<random_long_string_with_special_characters>": ["<random_special_characters><random_long_string>", "<random_special_characters><random_string><random_special_characters>"],
+
+    "<random_special_characters>": ['<special_character>'],
+
+    "<special_character_string>": ['"<random_special_characters><random_long_string>"'],
+  
+    "<special_character>": ['"!"','"@"','"
+    "<letter>": list(string.ascii_letters),
+    "<digit>": list(string.digits)
+}
+
+instances 9:
+ 
+GRAMMAR: Grammar = {
+    "<start>": ["<rdf_instance>"],
+    "<rdf_instance>": ["<footballer>", "<club>", "<league>", "<country>"],
+    "<footballer>": ["foot:Footballer(<id><comma> <first_name>,<last_name>,<birthday>^^xsd:date,<current_club>,<array_of_teams>,<marketValue>,<position>,<countryName>) <dot>"],
+    "<club>": ["foot:Club(<id>,<clubName>,<year>^^xsd:gYear<comma><stadium>,<countryName>) <dot>"],
+    "<league>": ["foot:League(<id>,<leagueName>,<comma><year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>) <dot>"],
+    "<country>": ["foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers>,<array_of_leagues>) <dot>"],
+
+    "<dot>": ["."," ","<special_character>"],
+    "<comma>": [","," ","<special_character>",",,"],
+    "<id>": ["<validID>","<invalidID>"],
+    "<validID>": ["_:<letter><letter><letter>"],
+    "<invalidID>": ["<special_character><special_character><letter><letter><letter><letter>", '"<letter><letter><letter><letter><letter><letter>"', '"<letter><letter>\\//<letter><letter><letter><letter>"'],
+
+    "<first_name>": ["<valid_first_name>","<invalid_first_name>"],
+    "<valid_first_name>": ['"Lionel"','"Cristiano"','"Bruno"','"Kylian"'],
+    "<invalid_first_name>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>','"Ama\\dou"'],
+
+    "<last_name>": ["<valid_last_name>","<invalid_last_name>"],
+    "<valid_last_name>": ['"Messi"','"Ronaldo"','"Mbappe"','"Salah"','"Fernandes"'],
+    "<invalid_last_name>": ["Barcelona",'<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<birthday>": ['"<validBirthday>"','"<invalid_birthday>"'],
+    "<validBirthday>": ["19<fiveToNine><digit>-<month>-<day>", "20<zeroToTwo><digit>-<month>-<day>"],
+    "<fiveToNine>": ["5", "6", "7", "8", "9"],
+    "<zeroToTwo>": ["0", "1", "2"],
+    "<month>": ["<digit>", "1<digit>"],
+    "<day>": ["0<digit>", "1<digit>", "2<digit>"],
+
+    "<invalid_birthday>": ["199<random_invalid_digit>-<month>-<day>", "202<random_invalid_digit>-<month>-<day>"],
+    "<random_invalid_digit>": ["0", "3", "4", "5", "6", "7", "8", "9"],
+    "<year>": ["<valid_year>","<invalid_year>"],
+    "<valid_year>": ['"2015"','"2016"','"2017"','"2018"','"2019"'],
+    "<invalid_year>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<current_club>": ["<valid_current_club>","<invalid_current_club>"],
+    "<valid_current_club>": ['"Barcelona"','"Juventus"','"Paris Saint-Germain"','"Liverpool"','"Manchester United"'],
+    "<invalid_current_club>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<marketValue>": ["<valid_marketValue>","<invalid_marketValue>"],
+    "<valid_marketValue>": ["100000000","<digit><digit><digit><digit><digit><digit><digit><digit><digit>"],
+    "<invalid_marketValue>": ['<random_long_string_with_special_characters>','1million','Millions'],
+
+    "<position>": ["<valid_position>","<invalid_position>"],
+    "<valid_position>": ['"Forward"','"Midfielder"','"Defender"','"Goalkeeper"'],
+    "<invalid_position>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<countryName>": ["<valid_country>","<invalid_country>"],
+    "<valid_country>": ['"Argentina"','"Portugal"','"France"','"Egypt"','"England"'],
+    "<invalid_country>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<clubName>": ["<valid_clubName>","<invalid_clubName>"],
+    "<valid_clubName>": ['"Barcelona"','"Juventus"','"Paris Saint-Germain"','"Liverpool"','"Manchester United"'],
+    "<invalid_clubName>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<stadium>": ["<valid_stadium>","<invalid_stadium>"],
+    "<valid_stadium>": ['"Camp Nou"','"Allianz Stadium"','"Parc des Princes"','"Anfield"','"Old Trafford"'],
+    "<invalid_stadium>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<leagueName>": ["<valid_leagueName>","<invalid_leagueName>"],
+    "<valid_leagueName>": ['"La Liga"','"Serie A"','"Ligue 1"','"Premier League"','"Bundesliga"'],
+    "<invalid_leagueName>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<continent>": ["<valid_continent>","<invalid_continent>"],
+    "<valid_continent>": ['"Europe"','"South America"','"Africa"','"Asia"','"North America"'],
+    "<invalid_continent>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<fifaCode>": ["<valid_fifaCode>","<invalid_fifaCode>"],
+    "<valid_fifaCode>": ['"ARG"','"POR"','"FRA"','"EGY"','"ENG"'],
+    "<invalid_fifaCode>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<array_of_topTeams>": [
+        "( )", 
+        "(<valid_team>)", 
+        "(<invalid_team>)", 
+        "(<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>,<invalid_team>)"
+    ],
+
+    "<array_of_teams>": [ 
+    "(<valid_team>)", 
+    "(<invalid_team>)",
+    "(<invalid_team>, <array_of_teams>)",
+    ],
+
+    "<valid_team>": [
+        "<id>",
+        "<id>, <valid_team>",
+    ],
+    "<invalid_team>": [
+        '"<random_long_string_with_special_characters>"', 
+        '"<random_long_string>"', 
+        '"<special_character_string>"',
+        '"<random_long_string_with_special_characters>, <invalid_team>"',
+        '("<valid_team>")'
+    ],
+
+    "<array_of_topPlayers>": [
+        "( )", 
+        "(<valid_player>)", 
+        "(<invalid_player>)", 
+        "(<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>,<invalid_player>)"
+    ], 
+    "<valid_player>": [
+        '<id>',
+        '<id>, <valid_player>',
+    ],
+    "<invalid_player>": [
+        '<random_long_string_with_special_characters>',
+        '<random_long_string>',
+        '<special_character_string>',
+    ],
+
+    "<array_of_leagues>": [
+        "()",
+        "(<valid_league>)",
+        "(<invalid_league>)",
+        "(<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>,<invalid_league>)"
+    ],
+    "<valid_league>": [
+        '<id>',
+        '<id>, <valid_league>',
+    ],
+    "<invalid_league>": [
+        '<random_long_string_with_special_characters>',
+        '<random_long_string>',
+        '<special_character_string>',
+        '(This is invalid)',
+        '"Wrong"'
+    ],
+    
+    "<random_string>": ["<letter><random_string>", "<digit><random_string>", "<letter>"],  
+    "<random_long_string>": ["<random_string><random_string>"],
+    "<random_long_string_with_special_characters>": ["<random_string><special_character><random_string>"],
+
+    "<random_special_characters>": ['<special_character>'],
+
+    "<special_character_string>": ['"<random_special_characters><random_long_string>"'],
+
+    "<special_character>": ["<special_character_without_quotes>", "<special_character_with_quotes>", "<special_character_without_quotes><special_character>", "<special_character_with_quotes><special_character>"],
+    "<special_character_without_quotes>": ['!', '@', '
+    "<special_character_with_quotes>": ['"!"', '"@"', '"
+    "<letter>": list(string.ascii_letters) + ["<letter><letter>"],
+    "<digit>": list(string.digits) + ["<digit><digit>"],
+}
+
+Instances 10:
+
+GRAMMAR: Grammar = {
+    "<start>": ["<rdf_instance>"],
+    "<rdf_instance>": ["<footballer>", "<club>", "<league>", "<country>"],
+    "<footballer>": ["foot:Footballer(<id><comma> <first_name>,<last_name>,<birthday>^^xsd:date,<current_club>,<array_of_teams>,<marketValue>,<position>,<countryName>) <dot>"],
+    "<club>": ["foot:Club(<comma><id>,<clubName>,<year>^^xsd:gYear<comma><stadium>,<countryName>) <dot>"],
+    "<league>": ["foot:League(<id>,<leagueName>,<comma><year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>) <dot>"],
+    "<country>": ["foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers><comma><array_of_leagues>) <dot>"],
+
+    "<dot>": ["."," ","<special_character>"],
+    "<comma>": [","," ","<special_character>",",,"],
+
+    "<id>": ["<validID>","<invalidID>"],
+    "<validID>": ["_:<letter><letter><letter>"],
+    "<invalidID>": ["<special_character><special_character><letter><letter><letter><letter>", '"<letter><letter><letter><letter><letter><letter>"', '"<letter><letter>\\//<letter><letter><letter><letter>"'],
+
+    "<first_name>": ["<valid_first_name>","<invalid_first_name>"],
+    "<valid_first_name>": ['"Lionel"','"Cristiano"'],
+    "<invalid_first_name>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>','"Amadou"'],
+
+    "<last_name>": ["<valid_last_name>","<invalid_last_name>"],
+    "<valid_last_name>": [
+    '"Messi"', '"Ronaldo"', '"Fernandes"', '"Mbappe"', '"O\'Neil"',
+    '"O\'Connor"',           
+    '"Mc\'Donald"',          
+    '"Van der Waals"',       
+    '"Al-Hassan"',           
+    '"Müller"',              
+    '"Renée"',               
+    '"Fiancée"',             
+    '"D\'Artagnan"',         
+    '"Pérez"',               
+    '"Brontë"',              
+    '"Núñez"',               
+    '"Björk"',               
+    '"Çelik"',               
+    '"Østergaard"',          
+    '"Håkon"'                
+    ],
+    "<invalid_last_name>": ['""','<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<birthday>": ['"<validBirthday>"','"<invalid_birthday>"'],
+    "<validBirthday>": ["19<fiveToNine><digit>-<month>-<day>", "20<zeroToTwo><digit>-<month>-<day>"],
+    "<fiveToNine>": ["5", "6", "7", "8", "9"],
+    "<zeroToTwo>": ["0", "1", "2"],
+    "<month>": ["<digit>", "1<digit>"],
+    "<day>": ["0<digit>", "1<digit>", "2<digit>"],
+
+    "<invalid_birthday>": ["199<random_invalid_digit>-<month>-<day>", "202<random_invalid_digit>-<month>-<day>"],
+    "<random_invalid_digit>": ["0", "3", "4", "5", "6", "7", "8", "9"],
+
+    "<year>": ["<valid_year>","<invalid_year>"],
+    "<valid_year>": ['"2015"','"2016"','"2017"','"2018"','"2019"'],
+    "<invalid_year>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<current_club>": ["<valid_current_club>","<invalid_current_club>"],
+    "<valid_current_club>": ['<id>', '<array_of_teams>','<invalidID>'],
+    "<invalid_current_club>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<marketValue>": ["<valid_marketValue>","<invalid_marketValue>"],
+    "<valid_marketValue>": ["100000000","<digit><digit><digit><digit><digit><digit><digit><digit><digit>"],
+    "<invalid_marketValue>": ['<random_long_string_with_special_characters>','1million','Millions'],
+
+    "<position>": ["<valid_position>","<invalid_position>"],
+    "<valid_position>": ['"Forward"','"Midfielder"','"Defender"','"Goalkeeper"'],
+    "<invalid_position>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<countryName>": ["<valid_country>","<invalid_country>"],
+    "<valid_country>": ['"Argentina"','"Portugal"','"France"','"Egypt"','"England"'],
+    "<invalid_country>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<clubName>": ["<valid_clubName>","<invalid_clubName>"],
+    "<valid_clubName>": ['"Barcelona"','"Juventus"','"Paris Saint-Germain"','"Liverpool"','"Manchester United"'],
+    "<invalid_clubName>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<stadium>": ["<valid_stadium>","<invalid_stadium>"],
+    "<valid_stadium>": ['"Camp Nou"','"Allianz Stadium"','"Parc des Princes"','"Anfield"','"Old Trafford"'],
+    "<invalid_stadium>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<leagueName>": ["<valid_leagueName>","<invalid_leagueName>"],
+    "<valid_leagueName>": ['"La Liga"','"Serie A"','"Ligue 1"','"Premier League"','"Bundesliga"'],
+    "<invalid_leagueName>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<continent>": ["<valid_continent>","<invalid_continent>"],
+    "<valid_continent>": ['"Europe"','"South America"','"Africa"','"Asia"','"North America"'],
+    "<invalid_continent>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+
+    "<fifaCode>": ["<valid_fifaCode>","<invalid_fifaCode>"],
+    "<valid_fifaCode>": ['"ARG"','"POR"','"FRA"','"EGY"','"ENG"'],
+    "<invalid_fifaCode>": ['<random_long_string_with_special_characters>', '<random_long_string>','<special_character_string>'],
+    
+    "<array_of_topTeams>": [
+        "( )", 
+        "(<valid_team>)", 
+        "(<invalid_team>)", 
+        "(<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>,<invalid_team>)"
+    ],
+
+    "<array_of_teams>": [ 
+    "(<valid_team>)", 
+    "(<invalid_team>)",
+    "(<invalid_team>, <array_of_teams>)",
+    ],
+
+    "<valid_team>": [
+        "<id>",
+        "<id>, <valid_team>",
+    ],
+    "<invalid_team>": [
+        '"<random_long_string_with_special_characters>"', 
+        '"<random_long_string>"', 
+        '"<special_character_string>"',
+        '"<random_long_string_with_special_characters>, <invalid_team>"',
+        '("<valid_team>")'
+    ],
+
+    "<array_of_topPlayers>": [
+        "( )", 
+        "(<valid_player>)", 
+        "(<invalid_player>)", 
+        "(<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>,<invalid_player>)"
+    ], 
+    "<valid_player>": [
+        '<id>',
+        '<id>, <valid_player>',
+    ],
+    "<invalid_player>": [
+        '<random_long_string_with_special_characters>',
+        '<random_long_string>',
+        '<special_character_string>',
+    ],
+    
+    "<array_of_leagues>": [
+        "()",
+        "(<valid_league>)",
+        "(<invalid_league>)",
+        "(<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>,<invalid_league>)"
+    ],
+    "<valid_league>": [
+        '<id>',
+        '<id>, <valid_league>',
+    ],
+    "<invalid_league>": [
+        '<random_long_string_with_special_characters>',
+        '<random_long_string>',
+        '<special_character_string>',
+        '(This is invalid)',
+        '"Wrong"'
+    ],
+    
+    
+    "<random_string>": ["<letter><random_string>", "<digit><random_string>", "<letter>"],  
+    "<random_long_string>": ["<random_string><random_string>"],
+    "<random_long_string_with_special_characters>": ["<random_string><special_character><random_string>"],
+    
+    "<random_special_characters>": ['<special_character>'],
+    
+    "<special_character_string>": ['"<random_special_characters><random_long_string>"'],
+    
+    
+    
+    "<special_character>": ["<special_character_without_quotes>", "<special_character_with_quotes>", "<special_character_without_quotes><special_character>", "<special_character_with_quotes><special_character>"],
+    "<special_character_without_quotes>": ['!', '@', '
+    "<special_character_with_quotes>": ['"!"', '"@"', '"
+    "<letter>": list(string.ascii_letters) + ["<letter><letter>"],
+    
+    "<digit>": list(string.digits) + ["<digit><digit>"],
+}
+
+
+
+Input good v1:
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(
+    _:PB23,
+    "Pawel" ,
+    "Brozek" ,
+    "1983-04-21"^^xsd:date ,
+    "Retired" ,
+    ("Wisla Krakow", "Trabzonspor", "Celtic", "Recreativo Huelva", "Wisla Krakow") ,
+    0.00 ,
+    "Striker" ,
+    "Poland"
+) .
+
+foot:Club(
+    _:Club1 ,
+    "Wisła Kraków" ,
+    "1906"^^xsd:gYear ,
+    "Stadion Miejski" ,
+    "Ekstraklasa" ,
+    "Poland"
+) .
+
+foot:Club(
+    _:Club2 ,
+    "Trabzonspor" ,
+    "1967"^^xsd:gYear ,
+    "Şenol Güneş Stadium" ,
+    "Süper Lig" ,
+    "Turkey"
+) .
+
+foot:League(
+    _:League1 ,
+    "Ekstraklasa" ,
+    "1927"^^xsd:gYear ,
+    "Poland" ,
+    ("Legia Warsawa", "Lech Poznań", "Raków Czestochowa") ,
+    ("Lech Poznań", "Raków Czestochowa", "Jagiellonia Białystok", "Legia Warszawa", "Cracovia Kraków", "Górnik Zabrze", "Piast Gliwice", "Śląsk Wrocław", "Warta Poznań", "Zagłębie Lubin", "Pogoń Szczecin", "Wisła Płock", "Stal Mielec", "Widzew Łódź", "Korona Kielce", "Miedź Legnica", "Radomiak Radom", "Górnik Łęczna")
+) .
+foot:League(
+    _:League3 ,
+    "Fortuna 1. liga" ,
+    "1927"^^xsd:gYear ,
+    "Poland" ,
+    ("Wisla Krakow,Ruch Chorzow,Arka Gdynia") ,
+    ("Wisla Krakow","Miedz Legnica","Arka Gdynia","LKS Lodz","Bruk-Bet Termalica Nieciecza","Ruch Chorzow","Stal Rzeszow","GKS Tychy","Wisla Plock","Gornik Leczna","Odra Opole","Polonia Warsaw","Chrobry Glogow","Warta Poznan","Znicz Pruszkow","Stal Stalowa Wola","Pogon Siedlce","Kotwica Kolobrzeg")
+) .
+
+foot:League(
+    _:League2 ,
+    "Süper Lig" ,
+    "1959"^^xsd:gYear ,
+    "Turkey" ,
+    ("Galatasaray", "Fenerbahçe", "Trabzonspor"),
+    ("Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "İstanbul Başakşehir", "Konyaspor", "Sivasspor", "Alanyaspor", "Antalyaspor", "Kayserispor", "Göztepe", "Çaykur Rizespor", "Gaziantep FK", "Fatih Karagümrük", "Adana Demirspor", "Samsunspor", "Kasımpaşa", "Hatayspor")    
+) .
+
+foot:Country(
+    _:Country1 ,
+    "Poland" ,
+    "Europe" ,
+    "PL" ,
+    ("Robert Lewandowski", "Zbigniew Boniek", "Jerzy Górski") ,
+    ("Legia Warsaw", "Wisła Kraków", "Lech Poznań") ,
+    ("Ekstraklasa", "I Liga")
+) .
+
+foot:Country(
+    _:Country2 ,
+    "Turkey" ,
+    "Asia" ,
+    "TR" ,
+    ("Hakan Şükür", "Arda Turan", "Mehmet Scholl") ,
+    ("Galatasaray", "Fenerbahçe", "Trabzonspor") ,
+    ("Süper Lig", "TFF 1. Lig")
+) .
+
+foot:Footballer(
+    _:MR8,
+    "Marcus",
+    "Rashford",
+    "1997-10-31"^^xsd:date,
+    "Active",
+    ("Manchester United"),
+    50000000.00,
+    "Forward",
+    "England"
+) .
+
+foot:Footballer(
+    _:BF8,
+    "Bruno",
+    "Fernandes",
+    "1994-09-08"^^xsd:date,
+    "Active",
+    ("Sporting CP", "Manchester United"),
+    80000000.00,
+    "Midfielder",
+    "Portugal"
+) .
+
+foot:Footballer(
+    _:CR7,
+    "Cristiano",
+    "Ronaldo",
+    "1985-02-05"^^xsd:date,
+    "Active",
+    ("Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Manchester United", "Al Nassr"),
+    100000000.00,
+    "Forward",
+    "Portugal"
+) .
+
+foot:Footballer(
+    _:WR10,
+    "Wayne",
+    "Rooney",
+    "1985-10-24"^^xsd:date,
+    "Retired",
+    ("Everton", "Manchester United", "Everton", "DC United"),
+    0.00,
+    "Forward",
+    "England"
+) .
+
+foot:Club(
+    _:Club3,
+    "Manchester United",
+    "1878"^^xsd:gYear,
+    "Old Trafford",
+    "Premier League",
+    "England"
+) .
+
+foot:League(
+    _:League4,
+    "Premier League",
+    "1992"^^xsd:gYear,
+    "England",
+    ("Manchester City", "Arsenal", "Manchester United"),
+    ("Manchester City", "Arsenal", "Manchester United", "Liverpool", "Tottenham Hotspur", "Aston Villa", "Newcastle United", "Brighton & Hove Albion", "West Ham United", "Chelsea", "Brentford", "Crystal Palace", "Fulham", "Nottingham Forest", "Everton", "Luton Town", "Burnley", "Sheffield United")
+) .
+
+foot:Country(
+    _:Country3,
+    "England",
+    "Europe",
+    "EN",
+    ("Wayne Rooney", "David Beckham", "Bobby Charlton"),
+    ("Manchester United", "Liverpool", "Arsenal"),
+    ("Premier League", "Championship")
+) .
+
+foot:Footballer(
+    _:MH9,
+    "Erling",
+    "Haaland",
+    "2000-07-21"^^xsd:date,
+    "Active",
+    ("Molde FK", "Red Bull Salzburg", "Borussia Dortmund", "Manchester City"),
+    180000000.00,
+    "Striker",
+    "Norway"
+) .
+
+foot:Footballer(
+    _:MS11,
+    "Mohamed",
+    "Salah",
+    "1992-06-15"^^xsd:date,
+    "Active",
+    ("Al Mokawloon", "Basel", "Chelsea", "Fiorentina", "Roma", "Liverpool"),
+    100000000.00,
+    "Forward",
+    "Egypt"
+) .
+
+foot:Footballer(
+    _:HK9,
+    "Harry",
+    "Kane",
+    "1993-07-28"^^xsd:date,
+    "Active",
+    ("Tottenham Hotspur", "Bayern Munich"),
+    100000000.00,
+    "Striker",
+    "England"
+) .
+
+foot:Footballer(
+    _:KB9,
+    "Karim",
+    "Benzema",
+    "1987-12-19"^^xsd:date,
+    "Active",
+    ("Lyon", "Real Madrid", "Al-Ittihad"),
+    30000000.00,
+    "Striker",
+    "France"
+) .
+
+foot:Club(
+    _:Club4,
+    "Liverpool",
+    "1892"^^xsd:gYear,
+    "Anfield",
+    "Premier League",
+    "England"
+) .
+
+foot:Club(
+    _:Club5,
+    "Manchester City",
+    "1880"^^xsd:gYear,
+    "Etihad Stadium",
+    "Premier League",
+    "England"
+) .
+
+foot:Club(
+    _:Club6,
+    "Bayern Munich",
+    "1900"^^xsd:gYear,
+    "Allianz Arena",
+    "Bundesliga",
+    "Germany"
+) .
+
+foot:Club(
+    _:Club7,
+    "Real Madrid",
+    "1902"^^xsd:gYear,
+    "Santiago Bernabéu",
+    "La Liga",
+    "Spain"
+) .
+
+foot:League(
+    _:League5,
+    "Bundesliga",
+    "1963"^^xsd:gYear,
+    "Germany",
+    ("Bayern Munich", "Borussia Dortmund", "RB Leipzig"),
+    ("Bayern Munich", "Bayer Leverkusen", "Stuttgart", "Borussia Dortmund", "RB Leipzig", "Eintracht Frankfurt", "Hoffenheim", "Freiburg", "Wolfsburg", "Augsburg", "Borussia Mönchengladbach", "Werder Bremen", "Union Berlin", "Bochum", "Mainz 05", "FC Köln", "Darmstadt 98", "Heidenheim")
+) .
+
+foot:League(
+    _:League6,
+    "La Liga",
+    "1929"^^xsd:gYear,
+    "Spain",
+    ("Real Madrid", "Barcelona", "Atletico Madrid"),
+    ("Real Madrid", "Girona", "Barcelona", "Athletic Club", "Atletico Madrid", "Real Sociedad", "Real Betis", "Valencia", "Las Palmas", "Getafe", "Alaves", "Villarreal", "Rayo Vallecano", "Osasuna", "Sevilla", "Mallorca", "Celta Vigo", "Granada", "Cadiz", "Almeria")
+) .
+
+foot:Country(
+    _:Country4,
+    "Germany",
+    "Europe",
+    "DE",
+    ("Franz Beckenbauer", "Gerd Müller", "Lothar Matthäus"),
+    ("Bayern Munich", "Borussia Dortmund", "RB Leipzig"),
+    ("Bundesliga", "2. Bundesliga")
+) .
+
+foot:Country(
+    _:Country5,
+    "Spain",
+    "Europe",
+    "ES",
+    ("Andres Iniesta", "Xavi", "Raul"),
+    ("Real Madrid", "Barcelona", "Atletico Madrid"),
+    ("La Liga", "Segunda División")
+) .
+
+foot:Country(
+    _:Country6,
+    "France",
+    "Europe",
+    "FR",
+    ("Zinedine Zidane", "Michel Platini", "Thierry Henry"),
+    ("Paris Saint-Germain", "Marseille", "Lyon"),
+    ("Ligue 1", "Ligue 2")
+) .
+foot:Footballer(
+    _:RVP20,
+    "Robin",
+    "van Persie",
+    "1983-08-06"^^xsd:date,
+    "Retired",
+    ("Feyenoord", "Arsenal", "Manchester United", "Fenerbahce", "Feyenoord"),
+    0.00,
+    _:Striker,
+    "Netherlands"
+) .
+
+foot:Footballer(
+    _:FR17,
+    "Fred",
+    "Rodrigues",
+    "1993-03-05"^^xsd:date,
+    "Active",
+    ("Internacional", "Shakhtar Donetsk", "Manchester United", "Fenerbahce"),
+    20000000.00,
+    _:Midfielder,
+    "Brazil"
+) .
+
+foot:Country(
+    _:Country7,
+    "Netherlands",
+    "Europe",
+    "NL",
+    ("Johan Cruyff", "Marco van Basten", "Robin van Persie"),
+    ("Ajax", "PSV", "Feyenoord"),
+    ("Eredivisie", "Eerste Divisie")
+) .
+
+foot:Country(
+    _:Country8,
+    "Brazil",
+    "South America",
+    "BR",
+    ("Pele", "Ronaldo", "Ronaldinho"),
+    ("Flamengo", "Santos", "Sao Paulo"),
+    ("Brasileirao Serie A", "Brasileirao Serie B")
+) .
+
+foot:Footballer(
+    _:FR17,
+    "David",
+    "De Gea",
+    "1990-03-05"^^xsd:date,
+    "Active",
+    ("Atletico Madrid","Manchester United", "Fiorentina"),
+    20000000.00,
+    _:Goalkeeper,
+    "Spain"
+) .
+
+Instance 11 and 12
+GRAMMAR: Grammar = {
+    "<start>": ["<rdf_instance>"],
+    "<rdf_instance>": [
+        "<footballer>", 
+        "<club>", 
+        "<league>", 
+        "<country>",
+        "<deep_footballer>",  
+        "<malformed_instance>"  
+    ],
+    
+    "<footballer>": [
+        "foot:Footballer(<id><comma><first_name>,<last_name>,<birthday>^^xsd:date,<current_club>,<array_of_teams>,<marketValue>,<position>,<countryName>)<dot>"
+    ],
+    
+    "<deep_footballer>": [
+        "foot:Footballer(<id><comma><first_name>,<last_name>,<birthday>^^xsd:date,<deep_current_club>,<deep_array_of_teams>,<marketValue>,<position>,<countryName>)<dot>"
+    ],
+    
+    "<club>": [
+        "foot:Club(<comma><id>,<clubName>,<year>^^xsd:gYear<comma><stadium>,<countryName>)<dot>"
+    ],
+    
+    "<league>": [
+        "foot:League(<id>,<leagueName>,<comma><year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>)<dot>"
+    ],
+    
+    "<country>": [
+        "foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers><comma><array_of_leagues>)<dot>"
+    ],
+    
+    "<malformed_instance>": [  
+        "foot:Footballer(<id>",  
+        "foot:Club(<id>,)",  
+        "foot:League(<id>,<leagueName>,<year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>,<extra>)",  
+        "foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers>,<array_of_leagues>",  
+        "foot:Footballer(<id>,<first_name>,<last_name>,<birthday>^^<invalid_datatype>,<current_club>,<array_of_teams>,<marketValue>,<position>,<countryName>)"  
+    ],
+    
+    "<dot>": [".", " ", "<special_character>"],
+    "<comma>": [",", " ", "<special_character>", ",,"],
+    "<extra>": ["<random_long_string_with_special_characters>"],
+    "<invalid_datatype>": ["xsd:invalidDatatype"],
+
+    
+    
+    "<id>": ["<validID>", "<invalidID>"],
+    "<validID>": ["_:<letter><letter><letter>"],
+    "<invalidID>": [
+        "<special_character><special_character><letter><letter><letter><letter>", 
+        "\"<letter><letter><letter><letter><letter><letter>\"",
+        "\"<letter><letter>\\//<letter><letter><letter><letter>\"",
+        "<letter>"  
+    ],
+    
+    
+    "<first_name>": ["<valid_first_name>", "<invalid_first_name>"],
+    "<valid_first_name>": [
+        "\"Lionel\"",
+        "\"Cristiano\"",
+        "\"Amadou\""
+    ],
+    "<invalid_first_name>": [
+        "<random_long_string_with_special_characters>", 
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<last_name>": ["<valid_last_name>", "<invalid_last_name>"],
+    "<valid_last_name>": [
+        "\"Messi\"", "\"Ronaldo\"", "\"Fernandes\"", "\"Mbappe\"", "\"O'Neil\"",
+        "\"O'Connor\"", "\"Mc'Donald\"", "\"Van der Waals\"", "\"Al-Hassan\"",
+        "\"Müller\"", "\"Renée\"", "\"Fiancée\"", "\"D'Artagnan\"", "\"Pérez\"",
+        "\"Brontë\"", "\"Núñez\"", "\"Björk\"", "\"Çelik\"", "\"Østergaard\"", "\"Håkon\""
+    ],
+    "<invalid_last_name>": [
+        "\"\"",
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>"
+    ],
+    
+    
+    "<birthday>": ["\"<validBirthday>\"", "\"<invalid_birthday>\""],
+    "<validBirthday>": [
+        "19<fiveToNine><digit>-<month>-<day>", 
+        "20<zeroToTwo><digit>-<month>-<day>"
+    ],
+    "<fiveToNine>": ["5", "6", "7", "8", "9"],
+    "<zeroToTwo>": ["0", "1", "2"],
+    "<month>": ["<digit>", "1<digit>"],
+    "<day>": ["0<digit>", "1<digit>", "2<digit>"],
+    "<invalid_birthday>": [
+        "199<random_invalid_digit>-<month>-<day>", 
+        "202<random_invalid_digit>-<month>-<day>",
+        "<random_long_string>",  
+        "\"\""  
+    ],
+    "<random_invalid_digit>": ["0", "3", "4", "5", "6", "7", "8", "9"],
+    
+    
+    "<year>": ["<valid_year>", "<invalid_year>"],
+    "<valid_year>": ["\"2015\"", "\"2016\"", "\"2017\"", "\"2018\"", "\"2019\""],
+    "<invalid_year>": [
+        "<random_long_string_with_special_characters>", 
+        "<random_long_string>", 
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<current_club>": ["<valid_current_club>", "<invalid_current_club>"],
+    "<valid_current_club>": [
+        "<id>", 
+        "<array_of_teams>", 
+    ],
+    "<invalid_current_club>": [
+        "<random_long_string_with_special_characters>", 
+        "<random_long_string>", 
+        "<special_character_string>"
+    ],
+    
+    
+    "<deep_current_club>": [
+        "<valid_current_club>", 
+        "<valid_current_club>,<deep_current_club>"
+    ],
+    
+    
+    "<marketValue>": ["<valid_marketValue>", "<invalid_marketValue>", "<long_string>"],
+    "<valid_marketValue>": [
+        "100000000", 
+        "<digit><digit><digit><digit><digit><digit><digit><digit><digit>",
+        "0" * 1000,  
+        "010"
+
+    ],
+    "<invalid_marketValue>": [
+        "<random_long_string_with_special_characters>",
+        "1million",
+        "Millions",
+        "\"\""  
+    ],
+    
+    
+    "<position>": ["<valid_position>", "<invalid_position>"],
+    "<valid_position>": [
+        "\"Forward\"", 
+        "\"Midfielder\"", 
+        "\"Defender\"", 
+        "\"Goalkeeper\""
+    ],
+    "<invalid_position>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<countryName>": ["<valid_country>", "<invalid_country>", "<long_string>"],
+    "<valid_country>": [
+        "\"Argentina\"",
+        "\"Portugal\"",
+        "\"France\"",
+        "\"Egypt\"",
+        "\"England\""
+    ],
+    "<invalid_country>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<clubName>": ["<valid_clubName>", "<invalid_clubName>"],
+    "<valid_clubName>": [
+        "\"Barcelona\"", 
+        "\"Juventus\"", 
+        "\"Paris Saint-Germain\"", 
+        "\"Liverpool\"", 
+        "\"Manchester United\""
+    ],
+    "<invalid_clubName>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<stadium>": ["<valid_stadium>", "<invalid_stadium>"],
+    "<valid_stadium>": [
+        "\"Camp Nou\"",
+        "\"Allianz Stadium\"",
+        "\"Parc des Princes\"",
+        "\"Anfield\"",
+        "\"Old Trafford\""
+    ],
+    "<invalid_stadium>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<leagueName>": ["<valid_leagueName>", "<invalid_leagueName>"],
+    "<valid_leagueName>": [
+        "\"La Liga\"",
+        "\"Serie A\"",
+        "\"Ligue 1\"",
+        "\"Premier League\"",
+        "\"Bundesliga\""
+    ],
+    "<invalid_leagueName>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<continent>": ["<valid_continent>", "<invalid_continent>"],
+    "<valid_continent>": [
+        "\"Europe\"",
+        "\"South America\"",
+        "\"Africa\"",
+        "\"Asia\"",
+        "\"North America\""
+    ],
+    "<invalid_continent>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<fifaCode>": ["<valid_fifaCode>", "<invalid_fifaCode>"],
+    "<valid_fifaCode>": [
+        "\"ARG\"",
+        "\"POR\"",
+        "\"FRA\"",
+        "\"EGY\"",
+        "\"ENG\""
+    ],
+    "<invalid_fifaCode>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<array_of_topTeams>": [
+        "( )", 
+        "(<valid_team>)", 
+        "(<invalid_team>)", 
+        "(<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>)",
+        "(<valid_team>,<valid_team>,<valid_team>,<invalid_team>)", 
+        "(<valid_team>,<valid_team>,<valid_team>,<valid_team>)", 
+        "(<invalid_team>,<invalid_team>,<invalid_team>,<invalid_team>)"
+    ],
+    
+    
+    "<array_of_teams>": [ 
+        "(<valid_team>)", 
+        "(<invalid_team>)",
+        "(<invalid_team>,<array_of_teams>)",
+        "<footballer>"
+    ],
+    
+    
+    "<deep_array_of_teams>": [
+        "(<deep_team_list>)"
+    ],
+    "<deep_team_list>": [
+        "<valid_team>", 
+        "<valid_team>,<deep_team_list>",
+        "<invalid_team>",
+        "<invalid_team>,<deep_team_list>,<deep_team>"
+    ],
+    "<deep_team>": [
+        "<id>",
+        "<id>,<deep_team>"
+    ],
+    
+    "<valid_team>": [
+        "<id>",
+        "<id>,<valid_team>"
+    ],
+    "<invalid_team>": [
+        "\"<random_long_string_with_special_characters>\"",
+        "\"<random_long_string>\"",
+        "\"<special_character_string>\"",
+        "\"<random_long_string_with_special_characters>,<invalid_team>\"",
+        "(<valid_team>)"
+    ],
+    
+    
+    "<array_of_topPlayers>": [
+        "( )", 
+        "(<valid_player>)", 
+        "(<invalid_player>)", 
+        "(<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_team>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_team>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>,<invalid_player>)"
+    ], 
+    "<valid_player>": [
+        "<id>",
+        "<id>,<valid_player>"
+    ],
+    "<invalid_player>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>"
+    ],
+    
+    
+    "<array_of_leagues>": [
+        "()",
+        "(<valid_league>)",
+        "(<invalid_league>)",
+        "(<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>,<invalid_league>)"
+    ],
+    "<valid_league>": [
+        "<id>",
+        "<id>,<valid_league>"
+    ],
+    "<invalid_league>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "(This is invalid)",
+        "\"Wrong\""
+    ],
+    
+    
+    "<random_string>": [
+        "<letter><random_string>", 
+        "<digit><random_string>", 
+        "<letter>"
+    ],
+    "<random_long_string>": ["<random_string><random_string>"],
+    
+    
+    "<long_string>": [
+        "a", 
+        "<long_string> a", 
+        "<long_string> <long_string>"
+    ],
+    
+    "<random_long_string_with_special_characters>": [
+        "<random_string><special_character><random_string>"
+    ],
+    
+    "<random_special_characters>": ["<special_character>"],
+    "<special_character_string>": [
+        "\"<random_special_characters><random_long_string>\""
+    ],
+    
+    
+    "<special_character>": [
+        "<special_character_without_quotes>", 
+        "<special_character_with_quotes>", 
+        "<special_character_without_quotes><special_character>", 
+        "<special_character_with_quotes><special_character>"
+    ],
+    "<special_character_without_quotes>": [
+        "!", "@", "
+    ],
+    "<special_character_with_quotes>": [
+        "\"!\"", "\"@\"", "\"
+    ],
+    
+    
+    "<letter>": list(string.ascii_letters) + ["<letter><letter>"],
+    "<digit>": list(string.digits) + ["<digit><digit>"]
+
+Instance 13
+
+GRAMMAR: Grammar = {
+    "<start>": ["<rdf_instance>"],
+    "<rdf_instance>": [
+        "<footballer>", 
+        "<club>", 
+        "<league>", 
+        "<country>",
+        "<deep_footballer>",  
+        "<malformed_instance>"  
+    ],
+    
+    "<footballer>": [
+        "foot:Footballer(<id><comma><first_name>,<last_name>,<birthday>^^xsd:date,<current_club>,<array_of_teams>,<marketValue>,<position>,<countryName>)<dot>"
+    ],
+    
+    "<deep_footballer>": [
+        "foot:Footballer(<id><comma><first_name>,<last_name>,<birthday>^^xsd:date,<deep_current_club>,<deep_array_of_teams>,<marketValue>,<position>,<countryName>)<dot>"
+    ],
+    
+    "<club>": [
+        "foot:Club(<comma><id>,<clubName>,<year>^^xsd:gYear<comma><stadium>,<countryName>)<dot>"
+    ],
+    
+    "<league>": [
+        "foot:League(<id>,<leagueName>,<comma><year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>)<dot>"
+    ],
+    
+    "<country>": [
+        "foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers><comma><array_of_leagues>)<dot>"
+    ],
+    
+    "<malformed_instance>": [  
+        "foot:Footballer(<id>",  
+        "foot:Club(<id>,)",  
+        "foot:League(<id>,<leagueName>,<year>^^xsd:gYear,<array_of_topTeams>,<array_of_teams>,<extra>)",  
+        "foot:Country(<id>,<countryName>,<continent>,<fifaCode>,<array_of_topPlayers>,<array_of_leagues>",  
+        "foot:Footballer(<id>,<first_name>,<last_name>,<birthday>^^<invalid_datatype>,<current_club>,<array_of_teams>,<marketValue>,<position>,<countryName>)"  
+        "foot:Footballer(<id>,<first_name>,<last_name>,<birthday>^^xsd:date,none,<array_of_teams>,<marketValue>,<position>,<countryName>)", 
+        "foot:Club(<id>,<clubName>,<year>^^xsd:gYear<comma><stadium>,<countryName>)",  
+    ],
+    
+    "<dot>": [".", " ", "<special_character>"],
+    "<comma>": [",", " ", "<special_character>", ",,"],
+    "<extra>": ["<random_long_string_with_special_characters>"],
+    "<invalid_datatype>": ["xsd:invalidDatatype"],
+
+    
+    
+    "<id>": ["<validID>", "<invalidID>"],
+    "<validID>": ["_:<letter><letter><letter>"],
+    "<invalidID>": [
+        "<special_character><special_character><letter><letter><letter><letter>", 
+        "\"<letter><letter><letter><letter><letter><letter>\"",
+        "\"<letter><letter>\\//<letter><letter><letter><letter>\"",
+        "<letter>"  
+    ],
+    
+    
+    "<first_name>": ["<valid_first_name>", "<invalid_first_name>"],
+    "<valid_first_name>": [
+        "\"Lionel\"",
+        "\"Cristiano\"",
+        "\"Amadou\""
+    ],
+    "<invalid_first_name>": [
+        "<random_long_string_with_special_characters>", 
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<last_name>": ["<valid_last_name>", "<invalid_last_name>"],
+    "<valid_last_name>": [
+        "\"Messi\"", "\"Ronaldo\"", "\"Fernandes\"", "\"Mbappe\"", "\"O'Neil\"",
+        "\"O'Connor\"", "\"Mc'Donald\"", "\"Van der Waals\"", "\"Al-Hassan\"",
+        "\"Müller\"", "\"Renée\"", "\"Fiancée\"", "\"D'Artagnan\"", "\"Pérez\"",
+        "\"Brontë\"", "\"Núñez\"", "\"Björk\"", "\"Çelik\"", "\"Østergaard\"", "\"Håkon\""
+    ],
+    "<invalid_last_name>": [
+        "\"\"",
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>"
+    ],
+    
+    
+    "<birthday>": ["\"<validBirthday>\"", "\"<invalid_birthday>\""],
+    "<validBirthday>": [
+        "19<fiveToNine><digit>-<month>-<day>", 
+        "20<zeroToTwo><digit>-<month>-<day>"
+    ],
+    "<fiveToNine>": ["5", "6", "7", "8", "9"],
+    "<zeroToTwo>": ["0", "1", "2"],
+    "<month>": ["<digit>", "1<digit>"],
+    "<day>": ["0<digit>", "1<digit>", "2<digit>"],
+    "<invalid_birthday>": [
+        "199<random_invalid_digit>-<month>-<day>", 
+        "202<random_invalid_digit>-<month>-<day>",
+        "<random_long_string>",  
+        "\"\""  
+        "9999-99-99",  
+        "0000-00-00",  
+        "2020-13-32",  
+    ],
+    "<random_invalid_digit>": ["0", "3", "4", "5", "6", "7", "8", "9"],
+    
+    
+    "<year>": ["<valid_year>", "<invalid_year>"],
+    "<valid_year>": ["\"2015\"", "\"2016\"", "\"2017\"", "\"2018\"", "\"2019\""],
+    "<invalid_year>": [
+        "<random_long_string_with_special_characters>", 
+        "<random_long_string>", 
+        "<special_character_string>",
+        "\"\"",  
+        "0",
+        "00",
+        "000",
+        "0000",
+        "00000"
+    ],
+    
+    
+    "<current_club>": ["<valid_current_club>", "<invalid_current_club>"],
+    "<valid_current_club>": [
+        "<id>", 
+        "<array_of_teams>", 
+    ],
+    "<invalid_current_club>": [
+        "<random_long_string_with_special_characters>", 
+        "<random_long_string>", 
+        "<special_character_string>"
+    ],
+    
+    
+    "<deep_current_club>": [
+        "<valid_current_club>", 
+        "<valid_current_club>,<deep_current_club>"
+    ],
+    
+    
+    "<marketValue>": ["<valid_marketValue>", "<invalid_marketValue>", "<long_string>"],
+    "<valid_marketValue>": [
+        "100000000", 
+        "<digit><digit><digit><digit><digit><digit><digit><digit><digit>",
+        "10" * 1000,  
+        "010"
+
+    ],
+    "<invalid_marketValue>": [
+        "<random_long_string_with_special_characters>",
+        "1million",
+        "Millions",
+        "\"\""  
+    ],
+    
+    
+    "<position>": ["<valid_position>", "<invalid_position>"],
+    "<valid_position>": [
+        "\"Forward\"", 
+        "\"Midfielder\"", 
+        "\"Defender\"", 
+        "\"Goalkeeper\"",
+        "\"Striker\"@us"
+    ],
+    "<invalid_position>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<countryName>": ["<valid_country>", "<invalid_country>", "<long_string>"],
+    "<valid_country>": [
+        "\"Argentina\"",
+        "\"Portugal\"",
+        "\"France\"",
+        "\"Egypt\"",
+        "\"England\"@en"
+    ],
+    "<invalid_country>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<clubName>": ["<valid_clubName>", "<invalid_clubName>"],
+    "<valid_clubName>": [
+        "\"Barcelona\"", 
+        "\"Juventus\"", 
+        "\"Paris Saint-Germain\"@fr", 
+        "\"Liverpool\"", 
+        "\"Manchester United\""
+    ],
+    "<invalid_clubName>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<stadium>": ["<valid_stadium>", "<invalid_stadium>"],
+    "<valid_stadium>": [
+        "\"Camp Nou\"",
+        "\"Allianz Stadium\"",
+        "\"Parc des Princes\"",
+        "\"Anfield\"",
+        "\"Old Trafford\""
+    ],
+    "<invalid_stadium>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<leagueName>": ["<valid_leagueName>", "<invalid_leagueName>"],
+    "<valid_leagueName>": [
+        "\"La Liga\"",
+        "\"Serie A\"",
+        "\"Ligue 1\"",
+        "\"Premier League\"",
+        "\"Bundesliga\""
+    ],
+    "<invalid_leagueName>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<continent>": ["<valid_continent>", "<invalid_continent>"],
+    "<valid_continent>": [
+        "\"Europe\"",
+        "\"South America\"",
+        "\"Africa\"",
+        "\"Asia\"",
+        "\"North America\"@en"
+    ],
+    "<invalid_continent>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<fifaCode>": ["<valid_fifaCode>", "<invalid_fifaCode>"],
+    "<valid_fifaCode>": [
+        "\"ARG\"",
+        "\"POR\"",
+        "\"FRA\"",
+        "\"EGY\"",
+        "\"ENG\""
+    ],
+    "<invalid_fifaCode>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "\"\""  
+    ],
+    
+    
+    "<array_of_topTeams>": [
+        "( )", 
+        "(<valid_team>)", 
+        "(<invalid_team>)", 
+        "(<valid_team>,<invalid_team>)", 
+        "(<array_of_topTeams>,<valid_team>)",
+        "(<array_of_topTeams>,<invalid_team>)",
+
+    ],
+    
+    "<array_of_teams>": [ 
+        "(<valid_team>)", 
+        "(<invalid_team>)",
+        "(<invalid_team>,<array_of_teams>)",
+        "<footballer>",  
+        
+        "(<array_of_teams>)",
+        "(<array_of_teams>,<array_of_teams>)",
+        "(<array_of_teams>,<array_of_teams>,(<array_of_teams>))",
+    ],
+    
+    
+    "<deep_array_of_teams>": [
+        "(<deep_team_list>)"
+    ],
+    "<deep_team_list>": [
+        "<valid_team>", 
+        "<valid_team>,<deep_team_list>",
+        "<invalid_team>",
+        "<invalid_team>,<deep_team_list>,<deep_team>"
+    ],
+    "<deep_team>": [
+        "<id>",
+        "<id>,<deep_team>"
+    ],
+    
+    "<valid_team>": [
+        "<id>",
+        "<id>,<valid_team>"
+    ],
+    "<invalid_team>": [
+        "\"<random_long_string_with_special_characters>\"",
+        "\"<random_long_string>\"",
+        "\"<special_character_string>\"",
+        "\"<random_long_string_with_special_characters>,<invalid_team>\"",
+        "(<valid_team>)"
+    ],
+    
+    
+    "<array_of_topPlayers>": [
+        "( )", 
+        "(<valid_player>)", 
+        "(<invalid_player>)", 
+        "(<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_team>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_team>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<invalid_player>)", 
+        "(<valid_player>,<valid_player>,<valid_player>,<valid_player>)", 
+        "(<invalid_player>,<invalid_player>,<invalid_player>,<invalid_player>)"
+    ], 
+    "<valid_player>": [
+        "<id>",
+        "<id>,<valid_player>"
+    ],
+    "<invalid_player>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>"
+    ],
+    
+    
+    "<array_of_leagues>": [
+        "()",
+        "(<valid_league>)",
+        "(<invalid_league>)",
+        "(<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<invalid_league>)",
+        "(<valid_league>,<valid_league>,<valid_league>,<valid_league>)",
+        "(<invalid_league>,<invalid_league>,<invalid_league>,<invalid_league>)"
+    ],
+    "<valid_league>": [
+        "<id>",
+        "<id>,<valid_league>"
+    ],
+    "<invalid_league>": [
+        "<random_long_string_with_special_characters>",
+        "<random_long_string>",
+        "<special_character_string>",
+        "(This is invalid)",
+        "\"Wrong\""
+    ],
+    
+    
+    "<random_string>": [
+        "<letter><random_string>", 
+        "<digit><random_string>", 
+        "<letter>"
+    ],
+    "<random_long_string>": ["<random_string><random_string>"],
+    
+    
+    "<long_string>": [
+        "a", 
+        "<long_string> a", 
+        "<long_string> <long_string>"
+    ],
+    
+    "<random_long_string_with_special_characters>": [
+        "<random_string><special_character><random_string>"
+    ],
+    
+    "<random_special_characters>": ["<special_character>"],
+    "<special_character_string>": [
+        "\"<random_special_characters><random_long_string>\""
+    ],
+    
+    
+    "<special_character>": [
+        "<special_character_without_quotes>", 
+        "<special_character_with_quotes>", 
+        "<special_character_without_quotes><special_character>", 
+        "<special_character_with_quotes><special_character>"
+    ],
+    "<special_character_without_quotes>": [
+        "!", "@", "
+    ],
+    "<special_character_with_quotes>": [
+        "\"!\"", "\"@\"", "\"
+    ],
+    
+    
+    "<letter>": list(string.ascii_letters) + ["<letter><letter>"],
+    "<digit>": list(string.digits) + ["<digit><digit>"]
+}
+
+INSTANCES 20-25
+
+GRAMMAR = {
+    
+    "<start>": ["<rdf_instance>"],
+
+    
+    "<rdf_instance>": [
+        "<footballer_instance>",
+        "<club_instance>",
+        "<league_instance>",
+        "<country_instance>",
+        "<malformed_instance>",
+    ],
+
+    
+    "<footballer_instance>": [
+        "foot:Footballer(<validID>,<valid_first_name>,<valid_last_name>,\"<validBirthday>\"^^xsd:date,<valid_current_club>,<team_list>,<valid_marketValue>,<valid_position>,<valid_country>) .",
+    ],
+    "<club_instance>": [
+        "foot:Club(<validID>,<valid_clubIRI>,<valid_year>^^xsd:gYear,<valid_stadium>,<valid_country>) .",
+    ],
+    "<league_instance>": [
+        "foot:League(<validID>,<valid_leagueName>,<valid_year>^^xsd:gYear,<team_list>,<team_list>) .",
+    ],
+    "<country_instance>": [
+        "foot:Country(<validID>,<valid_country>,<valid_continent>,<valid_fifaCode>,<array_of_topPlayers>,<array_of_leagues>) .",
+    ],
+
+    
+    "<argument_list>": ["<argument>", "<argument>,<argument_list>"],
+
+    
+    "<argument>": ["<term>", "(<term_list>)"],
+
+    "<term_list>": ["<term>", "<term>,<term_list>"],  
+
+    
+    "<term>": [
+        "<validID>", "<valid_first_name>", "<valid_last_name>", "<validBirthday>", "<valid_current_club>",
+        "<team_list>", "<valid_marketValue>", "<valid_position>", "<valid_country>",
+       "<valid_year>", "<valid_stadium>", "<valid_leagueName>", "<valid_continent>",
+        "<valid_fifaCode>", "<array_of_topPlayers>", "<array_of_leagues>", "<variable>"
+    ],
+
+    
+    "<variable>": ["?<letter><letter><letter>"],
+
+    
+    "<malformed_instance>": [
+        "foot:Footballer(<validID>)",  
+        "foot:Club(<validID>,,)",  
+        "foot:League(<argument_list>,<argument>)",  
+        "foot:Country(<argument_list>",  
+        "foot:Footballer(<validID>,<valid_first_name>,<valid_last_name>,\"<validBirthday>\"^^xsd:invalidDatatype,<valid_current_club>,<team_list>,<valid_marketValue>,<valid_position>,<valid_country>)",
+        "foot:Club(<validID>,<valid_clubIRI>,<valid_year>^^xsd:gYear,<valid_stadium><comma><valid_country>)",  
+    ],
+
+    
+    "<comma>": ["<special_character>", ",,"],
+
+    
+    "<validID>": ["_:<letter><letter><letter>"],
+
+    
+    "<valid_first_name>": ["\"Lionel\"", "\"Cristiano\"", "\"Amadou\""],
+
+    
+    "<valid_last_name>": [
+        "\"Messi\"", "\"Ronaldo\"", "\"Fernandes\"", "\"Mbappe\"", "\"O'Neil\"",
+        "\"O'Connor\"", "\"Mc'Donald\"", "\"Van der Waals\"", "\"Al-Hassan\"",
+        "\"Müller\"", "\"Renée\"", "\"Fiancée\"", "\"D'Artagnan\"", "\"Pérez\"",
+        "\"Brontë\"", "\"Núñez\"", "\"Björk\"", "\"Çelik\"", "\"Østergaard\"", "\"Håkon\""
+    ],
+
+    
+    "<validBirthday>": [
+        "19<fiveToNine><digit>-<month>-<day>",
+        "20<zeroToTwo><digit>-<month>-<day>"
+    ],
+    "<fiveToNine>": ["5", "6", "7", "8", "9"],
+    "<zeroToTwo>": ["0", "1", "2"],
+    "<month>": ["0<digit>", "1<zeroToTwo>"],  
+    "<day>": ["0<digit>", "1<digit>", "2<digit>", "3<zeroOrOne>"],  
+    "<zeroOrOne>": ["0", "1"],
+
+    
+    "<valid_year>": ["\"2015\"", "\"2016\"", "\"2017\"", "\"2018\"", "\"2019\""],
+
+    
+    "<valid_current_club>": ["<valid_clubIRI>","none"],
+
+    
+    "<valid_marketValue>": [
+        "100000000",
+        "<digit><digit><digit><digit><digit><digit><digit><digit><digit>",
+        "100"*random.randint(1, 10),
+    ],
+
+    
+    "<valid_position>": [
+        "\"Forward\"", "\"Midfielder\"", "\"Defender\"", "\"Goalkeeper\"", "\"Striker\"@en"
+    ],
+
+    
+    "<valid_country>": ["\"Argentina\"", "\"Portugal\"", "\"France\"", "\"Egypt\"", "\"England\""],
+
+    
+    "<valid_clubIRI>": [
+        "_:Barcelona", "_:Juventus", "_:ParisSaintGermain", "_:Liverpool", "_:ManchesterUnited","_:RCStrasbourg","_:Vålerenga","_:WislaKrakow"
+    ],
+
+    
+    "<valid_stadium>": [
+        "\"Camp Nou\"", "\"Allianz Stadium\"", "\"Parc des Princes\"", "\"Anfield\"", "\"Old Trafford\""
+    ],
+
+    
+    "<valid_leagueName>": [
+        "\"La Liga\"", "\"Serie A\"", "\"Ligue 1\"", "\"Premier League\"", "\"Bundesliga\""
+    ],
+
+    
+    "<valid_continent>": [
+        "\"Europe\"", "\"South America\"", "\"Africa\"", "\"Asia\"", "\"North America\""
+    ],
+
+    
+    "<valid_fifaCode>": ["\"ARG\"", "\"POR\"", "\"FRA\"", "\"EGY\"", "\"ENG\""],
+      "<team_list>": [
+    "()",  
+    "(" + ", ".join(["<valid_team>" for _ in range(2)]) + ")",  
+    "(" + ", ".join(["<valid_team>" for _ in range(4)]) + ")",  
+    "(<valid_team>, <team_list>)",  
+    "(<team_list>, <long_team_list>)", 
+    "(<very_long_team_list>, <team_list>)",  
+    "(((<team_list>, <valid_team>)<team_list>)<team_list>)",  
+    "(<team_list>, <team_list>)",  
+
+
+],
+"<long_team_list>": [
+    "(" + ", ".join(["<valid_team>" for _ in range(8)]) + ")",  
+    "(" + ", ".join(["<valid_team>" for _ in range(16)]) + ")",  
+    "(" + ", ".join(["<team_list>" for _ in range(4)] + ["<valid_team>" for _ in range(4)]) + ")",  
+    "(<team_list>, <long_team_list>)"  
+],
+"<very_long_team_list>": [
+    "(" + ", ".join(["<valid_team>" for _ in range(32)]) + ")",  
+    "(" + ", ".join(["<valid_team>" for _ in range(64)]) + ")",  
+    "(" + ", ".join(["<valid_team>" for _ in range(128)]) + ")",  
+    "(" + ", ".join(["<team_list>" for _ in range(8)] + ["<long_team_list>" for _ in range(4)]) + ")",  
+    "(" + ", ".join(["(<valid_team>, (<team_list>, (<team_list>, (<valid_team>))))" for _ in range(16)]) + ")",  
+    "(<long_team_list>, <very_long_team_list>)"  
+],
+    "<valid_team>": ["<valid_clubIRI>"],
+
+    
+    "<array_of_topPlayers>": [
+        "( )",
+        "(<valid_player>)",
+        "(<valid_player>, <valid_player>)",
+        "(<valid_player>, <valid_player>, <valid_player>)"
+    ],
+    "<valid_player>": ["\"<valid_first_name> <valid_last_name>\""],  
+
+    
+    "<array_of_leagues>": [
+        "( )",
+        "(<valid_league>)",
+        "(<valid_league>, <valid_league>)",
+        "(<valid_league>, <valid_league>, <valid_league>)"
+    ],
+    "<valid_league>": ["<validID>"],
+
+    
+    "<special_character>": [
+        "!", "@", "
+    ],
+
+    
+    "<letter>": list(string.ascii_letters),
+    "<digit>": list(string.digits)
+}

@@ -1,0 +1,9 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+foot:Footballer(_:OJp,"John","Døe","2024-12-12"^^xsd:date,none,(_:i),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"John","Østergaard","2024-12-12"^^xsd:date,none,((10)),10,_:Forward,"Argentina") .
+foot:Footballer(_:OJp,"John","Doe","2024-12-12"^^xsd:date,none,("17-05-1999"^^xsd:date),10,_:Forward,"Argentina") .

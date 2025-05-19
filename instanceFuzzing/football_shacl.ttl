@@ -1,0 +1,165 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix foot:  <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+foot:ListShape
+  a sh:NodeShape ;
+  sh:targetClass rdf:List ;
+  sh:property [
+    sh:path    rdf:first ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path    rdf:rest ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:minCount 0 ;
+    sh:maxCount 50 ;
+  ] .
+
+# Footballer
+foot:FootballerShape
+  a sh:NodeShape ;
+  sh:targetClass foot:Footballer ;
+  sh:property [
+    sh:path   rdf:type ;
+    sh:hasValue foot:Footballer ;
+    sh:nodeKind sh:IRI ;
+  ] ;
+  
+  sh:property [
+    sh:path     foaf:name ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foaf:familyName ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foaf:birthDate ;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:currentClub ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 0 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:clubHistory ;
+    sh:node foot:ListShape ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:marketValue ;
+    sh:datatype xsd:integer ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:position ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:country ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] .
+
+# Club
+foot:ClubShape
+  a sh:NodeShape ;
+  sh:targetClass foot:Club ;
+  sh:property [
+    sh:path     rdf:type ;
+    sh:hasValue foot:Club ;
+    sh:nodeKind sh:IRI ;
+  ] ;
+  sh:property [
+    sh:path     foaf:name ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:foundedYear ;
+    sh:datatype xsd:gYear ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:stadiumName ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:country ;
+    sh:nodeKind sh:IRI ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] .
+
+# League
+foot:LeagueShape
+  a sh:NodeShape ;
+  sh:targetClass foot:League ;
+  sh:property [
+    sh:path     rdf:type ;
+    sh:hasValue foot:League ;
+    sh:nodeKind sh:IRI ;
+  ] ;
+  sh:property [
+    sh:path     foaf:name ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:foundedYear ;
+    sh:datatype xsd:gYear ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path    foot:topTeams ;
+    sh:node    foot:ListShape ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path    foot:teams ;
+    sh:node    foot:ListShape ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] .
+# Country
+foot:CountryShape
+  a sh:NodeShape ;
+  sh:targetClass foot:Country ;
+  sh:property [
+    sh:path     rdf:type ;
+    sh:hasValue foot:Country ;
+    sh:nodeKind sh:IRI ;
+  ] ;
+  sh:property [
+    sh:path     foaf:name ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:continent ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path     foot:fifaCode ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path    foot:famousPlayers ;
+    sh:node    foot:ListShape ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path    foot:leagues ;
+    sh:node    foot:ListShape ;
+    sh:minCount 1 ; sh:maxCount 1 ;
+  ] .

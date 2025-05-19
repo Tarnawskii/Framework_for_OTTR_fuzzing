@@ -1,0 +1,1754 @@
+2025-04-05 12:08:22,643 - INFO - Checking templates 1 to 100...
+2025-04-05 12:08:28,309 - ERROR - Lutra stderr: [FATAL] Illegal char <:> at index 4: http://ns.ottr.xyz/0.4/IRI
+
+2025-04-05 12:08:28,310 - INFO - Splitting into templates 1 to 50 and 51 to 100.
+2025-04-05 12:08:28,311 - INFO - Checking templates 1 to 50...
+2025-04-05 12:08:33,563 - ERROR - Lutra stderr: [FATAL] Illegal char <:> at index 4: http://ns.ottr.xyz/0.4/IRI
+
+2025-04-05 12:08:33,564 - INFO - Splitting into templates 1 to 25 and 26 to 50.
+2025-04-05 12:08:33,564 - INFO - Checking templates 1 to 25...
+2025-04-05 12:08:38,453 - ERROR - Lutra stderr: [FATAL] Illegal char <:> at index 4: http://ns.ottr.xyz/0.4/IRI
+
+2025-04-05 12:08:38,454 - INFO - Splitting into templates 1 to 13 and 14 to 25.
+2025-04-05 12:08:38,454 - INFO - Checking templates 1 to 13...
+2025-04-05 12:08:43,716 - ERROR - Lutra stderr: [FATAL] Illegal char <:> at index 4: http://ns.ottr.xyz/0.4/IRI
+
+2025-04-05 12:08:43,717 - INFO - Splitting into templates 1 to 7 and 8 to 13.
+2025-04-05 12:08:43,717 - INFO - Checking templates 1 to 7...
+2025-04-05 12:08:49,221 - ERROR - Lutra stderr: [FATAL] Illegal char <:> at index 4: http://ns.ottr.xyz/0.4/IRI
+
+2025-04-05 12:08:49,222 - INFO - Splitting into templates 1 to 4 and 5 to 7.
+2025-04-05 12:08:49,222 - INFO - Checking templates 1 to 4...
+2025-04-05 12:08:54,119 - ERROR - Lutra stderr: [FATAL] Illegal char <:> at index 4: http://ns.ottr.xyz/0.4/IRI
+
+2025-04-05 12:08:54,120 - INFO - Splitting into templates 1 to 2 and 3 to 4.
+2025-04-05 12:08:54,120 - INFO - Checking templates 1 to 2...
+2025-04-05 12:08:57,520 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '"^^4+), ottr:Triple(?PersonIRI, foot:8pUmxVAol, ?9+.-5+) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .\n' at line 8 column 98[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]foot:Footballer' at line 8 column 0[ERROR] Syntax error: extraneous input '"1Z, ?"' expecting {',', ')'} at line 8 column 76[ERROR] Syntax error: mismatched input '<EOF>' expecting '(' at line 9 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpk20poegc.stottr
+
+
+2025-04-05 12:08:57,521 - INFO - No anomaly found in templates 1 to 2.
+2025-04-05 12:08:57,521 - INFO - Checking templates 3 to 4...
+2025-04-05 12:09:00,900 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '<O\@' at line 7 column 27[ERROR] Syntax error: token recognition error at: '~' at line 7 column 35[ERROR] Syntax error: token recognition error at: '&' at line 7 column 37[ERROR] Syntax error: token recognition error at: '/:' at line 8 column 33[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?' at line 7 column 26[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 293[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 298[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?X]{' at line 8 column 36[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 63[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 100[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 8 column 138[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 8 column 167[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 173
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoutu_k2y.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:6,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoutu_k2y.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?G). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoutu_k2y.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:4,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoutu_k2y.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:0,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoutu_k2y.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:(,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoutu_k2y.stottr
+
+
+2025-04-05 12:09:00,900 - INFO - No anomaly found in templates 3 to 4.
+2025-04-05 12:09:00,901 - INFO - Checking templates 5 to 7...
+2025-04-05 12:09:04,131 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '`' at line 7 column 74[ERROR] Syntax error: token recognition error at: '^:' at line 8 column 251[ERROR] Syntax error: token recognition error at: '*' at line 9 column 242[ERROR] Syntax error: token recognition error at: '%)' at line 9 column 380[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?' at line 7 column 34[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 80[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<ottr:IRI?' at line 8 column 31[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 287[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 8 column 291[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 326[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?' at line 9 column 26[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 9 column 282[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 308[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 345[ERROR] Syntax error: extraneous input '!' expecting {',', ')'} at line 9 column 376[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 379
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:r,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Y,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:u,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?v). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:b,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:!,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp890n4dpv.stottr
+
+
+2025-04-05 12:09:04,131 - INFO - No anomaly found in templates 5 to 7.
+2025-04-05 12:09:04,132 - INFO - Checking templates 8 to 13...
+2025-04-05 12:09:07,488 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '+ ' at line 7 column 31[ERROR] Syntax error: token recognition error at: '~' at line 7 column 35[ERROR] Syntax error: token recognition error at: '$' at line 8 column 74[ERROR] Syntax error: token recognition error at: '') ottr:Triple(?PersonIRI, foot:9, ?>) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .\n' at line 8 column 78[ERROR] Syntax error: token recognition error at: '$' at line 9 column 56[ERROR] Syntax error: token recognition error at: '/)' at line 9 column 84[ERROR] Syntax error: token recognition error at: '`' at line 11 column 229[ERROR] Syntax error: token recognition error at: '<^' at line 11 column 265[ERROR] Syntax error: token recognition error at: '$' at line 12 column 46[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[LUB<false' at line 7 column 21[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 7 column 75[ERROR] Syntax error: extraneous input '{' expecting {',', ')'} at line 7 column 104[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 7 column 111[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 150[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 198[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 255[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 312[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 363[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 414[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 471[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 522[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 579[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[LUB<List<' at line 8 column 21[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 77[ERROR] Syntax error: extraneous input '[' expecting {',', ')'} at line 9 column 15[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 83[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 9 column 99[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 120[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 123[ERROR] Syntax error: extraneous input '}' expecting '.' at line 9 column 160[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]:' at line 11 column 230[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 11 column 263[ERROR] Syntax error: extraneous input '=' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 11 column 264[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 327[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 375[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 432[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 489[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 540[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 591[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 648[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 699[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 756[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?T,xsd:string?x]:' at line 12 column 47[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 80[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 12 column 111[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 114[ERROR] Syntax error: mismatched input 'false' expecting {IRIREF, PNAME_NS, PNAME_LN} at line 12 column 128[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 134[ERROR] Syntax error: extraneous input ',' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 166[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 174
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:M,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:{,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?,ottr:T. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:E,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:D<. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:},. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:,,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_e5iqj47.stottr
+
+
+2025-04-05 12:09:07,489 - INFO - No anomaly found in templates 8 to 13.
+2025-04-05 12:09:07,489 - INFO - Checking templates 14 to 25...
+2025-04-05 12:09:10,927 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '@:' at line 7 column 31[ERROR] Syntax error: token recognition error at: '*' at line 8 column 46[ERROR] Syntax error: token recognition error at: '/:' at line 9 column 67[ERROR] Syntax error: token recognition error at: '<: ' at line 11 column 36[ERROR] Syntax error: token recognition error at: '*' at line 11 column 142[ERROR] Syntax error: token recognition error at: '@,' at line 11 column 182[ERROR] Syntax error: token recognition error at: ''S ] ,: {ottr:Triple(?PersonIRI, foot:8, ?3+)} .\n' at line 12 column 69[ERROR] Syntax error: token recognition error at: '% ' at line 13 column 33[ERROR] Syntax error: token recognition error at: '$' at line 14 column 229[ERROR] Syntax error: token recognition error at: '+)' at line 14 column 311[ERROR] Syntax error: token recognition error at: '&' at line 14 column 349[ERROR] Syntax error: token recognition error at: '', ?"foot:clubHistory"^^-8+.7+)} .\n' at line 15 column 268[ERROR] Syntax error: token recognition error at: '': {o-rdf:Type(?personIRI, ?true), ottr:Triple(?personIRI, foot:9, ?true), ottr:Triple(?personIRI, foot:O, ?false)} .\n' at line 17 column 42[ERROR] Syntax error: token recognition error at: '*' at line 18 column 33[ERROR] Syntax error: token recognition error at: '", ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, ottr:IRI ?currentClub, List<ottr:IRI> ?clubHistory, xsd:date ?birthday, xsd:decimal ?marketValue, xsd:string ?position, xsd:string ?countryName ] ]: {ottr:Triple(?PersonIRI, foot::, ?false) ottr:Triple(?PersonIRI, foot:., ?false)} .\n' at line 18 column 61[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?o]{' at line 7 column 34[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 65[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 105[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 136[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 7 column 147[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 186[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 234[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 291[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 348[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 399[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 450[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 507[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 558[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 615[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[none:foot:clubHistory?CI-]:' at line 8 column 47[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 8 column 90[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 129[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 177[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 234[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 291[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 342[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 393[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 450[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 501[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 558[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[NEList<List<LUB<true' at line 9 column 33[ERROR] Syntax error: extraneous input '}' expecting '.' at line 9 column 109[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?d,xsd:string?Z,ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]?' at line 10 column 259[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 293[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 334[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 10 column 376[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 415[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 463[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 520[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 577[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 628[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 679[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 736[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 787[ERROR] Syntax error: extraneous input '}' expecting '.' at line 10 column 844[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[(' at line 11 column 17[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 70[ERROR] Syntax error: extraneous input '|' expecting {',', ')'} at line 11 column 101[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 111[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 11 column 153[ERROR] Syntax error: extraneous input '?true' expecting {',', ')'} at line 11 column 185[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 11 column 192[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 231[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 279[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 336[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 393[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 444[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 495[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 552[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 603[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 660[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<List<List<ottr:foot:Footballer?JKR6' at line 12 column 53[ERROR] Syntax error: mismatched input ',' expecting '.' at line 13 column 71[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 14 column 0[ERROR] Syntax error: extraneous input ':Footballer' expecting {',', ')'} at line 14 column 261[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 273[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 14 column 309[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 14 column 326[ERROR] Syntax error: extraneous input '4Vg' expecting {',', ')'} at line 14 column 350[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 14 column 357[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 396[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 444[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 501[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 558[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 609[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 660[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 717[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 768[ERROR] Syntax error: extraneous input '}' expecting '.' at line 14 column 825[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 16 column 0[ERROR] Syntax error: missing '(' at '[' at line 16 column 15[ERROR] Syntax error: mismatched input 'ottr:IRI' expecting {']', WS} at line 16 column 17[ERROR] Syntax error: missing '(' at '?personIRI' at line 16 column 26[ERROR] Syntax error: extraneous input '?firstName' expecting {',', ')'} at line 16 column 49[ERROR] Syntax error: extraneous input '?lastname' expecting {',', ')'} at line 16 column 72[ERROR] Syntax error: extraneous input '?currentClub' expecting {',', ')'} at line 16 column 92[ERROR] Syntax error: extraneous input 'List<' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 16 column 106[ERROR] Syntax error: extraneous input '>' expecting {',', ')'} at line 16 column 119[ERROR] Syntax error: extraneous input '?birthday' expecting {',', ')'} at line 16 column 144[ERROR] Syntax error: extraneous input '?marketValue' expecting {',', ')'} at line 16 column 167[ERROR] Syntax error: extraneous input '?position' expecting {',', ')'} at line 16 column 192[ERROR] Syntax error: extraneous input '?countryName' expecting {',', ')'} at line 16 column 214[ERROR] Syntax error: mismatched input '{' expecting '(' at line 16 column 232[ERROR] Syntax error: extraneous input ',' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 16 column 376[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[NEList<ottr:IRI?P' at line 17 column 33
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:3,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:(,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:X,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:b,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:Y,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:9,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:|,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:?t. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?foot:Fo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:Ae. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/IRI'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+  [ERROR] Error in instance of template '[IRI missing]'.
+    [ERROR] Unrecognized prefix '' in ':' at line 16 column 230
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI '[IRI missing]'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://tpl.ottr.xyz/rdf/0.1/Type'
+- File C:\Users\adria\AppData\Local\Temp\tmpb7bn_5mb.stottr
+
+
+2025-04-05 12:09:10,929 - INFO - No anomaly found in templates 14 to 25.
+2025-04-05 12:09:10,929 - INFO - Checking templates 26 to 50...
+2025-04-05 12:09:14,830 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '\:' at line 7 column 39[ERROR] Syntax error: token recognition error at: '": {o-rdf:Type(?personIRI, ?true), ottr:Triple(?personIRI, foot:[, ?false), ottr:Triple(?personIRI, foot:IyK, ?true)} .\n' at line 8 column 36[ERROR] Syntax error: token recognition error at: '\ ' at line 9 column 50[ERROR] Syntax error: token recognition error at: '+:' at line 10 column 40[ERROR] Syntax error: token recognition error at: '$' at line 12 column 229[ERROR] Syntax error: token recognition error at: '+)' at line 12 column 339[ERROR] Syntax error: token recognition error at: '%:' at line 15 column 242[ERROR] Syntax error: token recognition error at: '^:' at line 17 column 39[ERROR] Syntax error: token recognition error at: '+.-' at line 18 column 66[ERROR] Syntax error: token recognition error at: '+)' at line 18 column 70[ERROR] Syntax error: token recognition error at: '/ ' at line 18 column 95[ERROR] Syntax error: token recognition error at: '^*' at line 18 column 134[ERROR] Syntax error: token recognition error at: '\g' at line 19 column 34[ERROR] Syntax error: token recognition error at: '$' at line 19 column 37[ERROR] Syntax error: token recognition error at: '<s ' at line 19 column 38[ERROR] Syntax error: token recognition error at: '*' at line 19 column 43[ERROR] Syntax error: token recognition error at: '&' at line 19 column 104[ERROR] Syntax error: token recognition error at: '+,' at line 20 column 342[ERROR] Syntax error: token recognition error at: '"L, ?:1'@|NnOr)} .\n' at line 21 column 81[ERROR] Syntax error: token recognition error at: '`' at line 22 column 229[ERROR] Syntax error: token recognition error at: '+)' at line 23 column 270[ERROR] Syntax error: token recognition error at: '+)' at line 23 column 330[ERROR] Syntax error: token recognition error at: '+:' at line 24 column 41[ERROR] Syntax error: token recognition error at: '/,' at line 24 column 102[ERROR] Syntax error: token recognition error at: '&' at line 24 column 143[ERROR] Syntax error: token recognition error at: '", ?L)} .\n' at line 24 column 182[ERROR] Syntax error: token recognition error at: '*' at line 25 column 83[ERROR] Syntax error: token recognition error at: ''@{_d;Ni)) ?h-,J>>> ?+ ] $: {ottr:Triple(?PersonIRI, foot:Cl, ?Y)} .\n' at line 27 column 63[ERROR] Syntax error: token recognition error at: '`' at line 28 column 32[ERROR] Syntax error: token recognition error at: '': {o-rdf:Type(?personIRI, ?K), ottr:Triple(?personIRI, foot:D, ?W), ottr:Triple(?personIRI, foot:~, ?^) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .\n' at line 29 column 268[ERROR] Syntax error: token recognition error at: '\:' at line 30 column 37[ERROR] Syntax error: token recognition error at: '%,' at line 31 column 33[ERROR] Syntax error: token recognition error at: '*' at line 31 column 248[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?' at line 7 column 34[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 73[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 113[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 153[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[(' at line 8 column 17[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 87[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 127[ERROR] Syntax error: extraneous input '}' expecting '.' at line 9 column 167[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[LUB<List<' at line 10 column 21[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 74[ERROR] Syntax error: extraneous input '>' expecting {',', ')'} at line 10 column 105[ERROR] Syntax error: mismatched input ',' expecting '.' at line 10 column 114[ERROR] Syntax error: extraneous input '}' expecting '.' at line 10 column 154[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?C]=' at line 11 column 33[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 66[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 106[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 146[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]:' at line 12 column 230[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 263[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 303[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 337[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 12 column 354[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 378[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string?' at line 14 column 33[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 15 column 286[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 316[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 356[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 15 column 387[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 15 column 398[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 437[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 485[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 542[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 599[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 650[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 701[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 758[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 809[ERROR] Syntax error: extraneous input '}' expecting '.' at line 15 column 866[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?' at line 17 column 34[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 73[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 113[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 17 column 155[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 194[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 242[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 299[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 356[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 407[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 458[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 515[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 566[ERROR] Syntax error: extraneous input '}' expecting '.' at line 17 column 623[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<List<NEList<List<(' at line 18 column 39[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 18 column 133[ERROR] Syntax error: extraneous input '_' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 18 column 136[ERROR] Syntax error: mismatched input ',' expecting '.' at line 19 column 73[ERROR] Syntax error: mismatched input ',' expecting '.' at line 19 column 110[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 19 column 148[ERROR] Syntax error: extraneous input '}' expecting '.' at line 19 column 183[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?U,ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]_:' at line 20 column 244[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 274[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 311[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 20 column 345[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 20 column 349[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 388[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 436[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 493[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 550[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 601[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 652[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 709[ERROR] Syntax error: mismatched input ',' expecting '.' at line 20 column 760[ERROR] Syntax error: extraneous input '}' expecting '.' at line 20 column 817[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:foot:Footballer?' at line 21 column 38[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 22 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 22 column 260[ERROR] Syntax error: extraneous input '[' expecting {',', ')'} at line 22 column 291[ERROR] Syntax error: extraneous input '!' expecting {',', ')'} at line 23 column 264[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 23 column 267[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 23 column 285[ERROR] Syntax error: extraneous input '=' expecting {',', ')'} at line 23 column 303[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 23 column 306[ERROR] Syntax error: mismatched input '1' expecting {IRIREF, PNAME_NS, PNAME_LN} at line 23 column 326[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?' at line 24 column 34[ERROR] Syntax error: mismatched input ',' expecting '.' at line 24 column 71[ERROR] Syntax error: extraneous input '?false' expecting {',', ')'} at line 24 column 105[ERROR] Syntax error: mismatched input ',' expecting '.' at line 24 column 112[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 24 column 153[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 25 column 0[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 25 column 82[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 25 column 86[ERROR] Syntax error: mismatched input ',' expecting '.' at line 25 column 112[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 25 column 146[ERROR] Syntax error: mismatched input ',' expecting '.' at line 25 column 149[ERROR] Syntax error: extraneous input '}' expecting '.' at line 25 column 186[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 26 column 60[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:xsd:string?q,List<List<NEList<(' at line 27 column 53[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 28 column 87[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 28 column 103[ERROR] Syntax error: mismatched input ',' expecting '.' at line 28 column 127[ERROR] Syntax error: extraneous input '}' expecting '.' at line 28 column 164[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[foot:foot:clubHistory?n,ottr:IRI?F,ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]foot:Footballer' at line 30 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 67[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 104[ERROR] Syntax error: extraneous input '>' expecting {',', ')'} at line 30 column 135[ERROR] Syntax error: extraneous input '}' expecting '.' at line 30 column 141[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[none:foaf:name?' at line 31 column 32[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 31 column 284[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 31 column 288[ERROR] Syntax error: extraneous input ']' expecting {',', ')'} at line 31 column 317[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 31 column 324[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 31 column 360[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 399[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 447[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 504[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 561[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 612[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 663[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 720[ERROR] Syntax error: mismatched input ',' expecting '.' at line 31 column 771[ERROR] Syntax error: extraneous input '}' expecting '.' at line 31 column 828
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:N,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:c,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:w,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:b,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:>,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:l,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:3,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:S,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:y,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:3,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:5,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:b,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:0,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:a,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:D<. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?p). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:Z,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:X,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?A). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:W,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?{. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:lw. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?yP). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:[. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+  [ERROR] Error in instance of template 'http://ns.ottr.xyz/0.4/Triple'.
+    [ERROR] Error in argument.
+      [ERROR] Unrecognized literal datatype IRI  in '"foot:Footballer"^^1+.3' at line 23 column 307
+        [ERROR] IRI expected, but no IRI found  in '1+.3' at line 23 column 326
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://tpl.ottr.xyz/rdf/0.1/Type'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?M). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?f. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:5,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?U). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:0,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:o,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+  [ERROR] Error in instance of template 'http://tpl.ottr.xyz/rdf/0.1/Type'.
+    [ERROR] Error in argument.
+      [ERROR] Unrecognized instance argument  in '?' at line 26 column 60
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://tpl.ottr.xyz/rdf/0.1/Type'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?(),ottr. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:r,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?s). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:v,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:>,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Z,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:],. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:k,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp08zb9cvh.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+
+2025-04-05 12:09:14,833 - INFO - No anomaly found in templates 26 to 50.
+2025-04-05 12:09:14,833 - INFO - Checking templates 51 to 100...
+2025-04-05 12:09:18,729 - ERROR - Lutra stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '%,' at line 7 column 264[ERROR] Syntax error: extraneous input '?false' expecting {',', ')'} at line 7 column 267[ERROR] Syntax error: extraneous input ':Footballer' expecting {',', ')'} at line 7 column 304[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 352[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 7 column 388[ERROR] Syntax error: mismatched input 'E_4k' expecting '.' at line 7 column 389[ERROR] Syntax error: token recognition error at: '+)' at line 7 column 399[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 441[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 489[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 546[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 603[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 654[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 705[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 762[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 813[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 870[ERROR] Syntax error: token recognition error at: '+.-' at line 8 column 258[ERROR] Syntax error: token recognition error at: '+)' at line 8 column 262[ERROR] Syntax error: token recognition error at: '+,' at line 8 column 298[ERROR] Syntax error: token recognition error at: '*' at line 9 column 29[ERROR] Syntax error: token recognition error at: '`' at line 9 column 46[ERROR] Syntax error: token recognition error at: '@)' at line 9 column 148[ERROR] Syntax error: token recognition error at: '@:' at line 11 column 38[ERROR] Syntax error: token recognition error at: '<x8tIv1, ' at line 11 column 79[ERROR] Syntax error: token recognition error at: '%:' at line 12 column 31[ERROR] Syntax error: token recognition error at: '/,' at line 12 column 92[ERROR] Syntax error: token recognition error at: '~' at line 12 column 133[ERROR] Syntax error: token recognition error at: '^3' at line 13 column 38[ERROR] Syntax error: token recognition error at: '", ?2), ottr:Triple(?personIRI, foot:(, ?u)} .\n' at line 13 column 104[ERROR] Syntax error: token recognition error at: '*' at line 14 column 40[ERROR] Syntax error: token recognition error at: '', ?b)} .\n' at line 14 column 109[ERROR] Syntax error: token recognition error at: '`' at line 15 column 26[ERROR] Syntax error: token recognition error at: '": {ottr:Triple(?PersonIRI, foot:JhU, ?$f)} .\n' at line 15 column 41[ERROR] Syntax error: token recognition error at: '$' at line 16 column 229[ERROR] Syntax error: token recognition error at: '@:' at line 17 column 229[ERROR] Syntax error: token recognition error at: '+)' at line 18 column 75[ERROR] Syntax error: token recognition error at: '": {o-rdf:Type(?personIRI, ?false), ottr:Triple(?personIRI, foot:#, ?false), ottr:Triple(?personIRI, foot:\,' at line 19 column 229[ERROR] Syntax error: token recognition error at: '': {ottr:Triple(?PersonIRI, foot:+SWNC, ?foot:Footballer)} .\n' at line 20 column 49[ERROR] Syntax error: token recognition error at: '~' at line 21 column 35[ERROR] Syntax error: token recognition error at: ';' at line 22 column 90[ERROR] Syntax error: token recognition error at: '+.-' at line 22 column 101[ERROR] Syntax error: token recognition error at: '+)' at line 22 column 105[ERROR] Syntax error: token recognition error at: '&' at line 23 column 122[ERROR] Syntax error: token recognition error at: '' ] &: {o-rdf:Type(?personIRI, ?X), ottr:Triple(?personIRI, foot:w, ?(), ottr:Triple(?personIRI, foot:n0F, ?y)} .\n' at line 25 column 29[ERROR] Syntax error: token recognition error at: '/)' at line 26 column 331[ERROR] Syntax error: token recognition error at: ';' at line 27 column 27[ERROR] Syntax error: token recognition error at: '@:' at line 28 column 229[ERROR] Syntax error: token recognition error at: '`' at line 29 column 395[ERROR] Syntax error: token recognition error at: '+.-' at line 32 column 27[ERROR] Syntax error: token recognition error at: '+>' at line 32 column 31[ERROR] Syntax error: token recognition error at: '/ ' at line 33 column 57[ERROR] Syntax error: token recognition error at: '": {o-rdf:Type(?personIRI, ?false), ottr:Triple(?personIRI, foot:\,' at line 35 column 47[ERROR] Syntax error: token recognition error at: '<$|' at line 37 column 41[ERROR] Syntax error: token recognition error at: '+)' at line 38 column 268[ERROR] Syntax error: token recognition error at: '": {o-rdf:Type(?personIRI, ?false), ottr:Triple(?personIRI, foot:), ?true), ottr:Triple(?personIRI, foot:d, ?false) ottr:Triple(?PersonIRI, foot:o, ?b) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .\n' at line 39 column 33[ERROR] Syntax error: token recognition error at: '$' at line 40 column 229[ERROR] Syntax error: token recognition error at: '%:' at line 41 column 40[ERROR] Syntax error: token recognition error at: '`' at line 41 column 144[ERROR] Syntax error: token recognition error at: '^,' at line 42 column 35[ERROR] Syntax error: token recognition error at: '%,' at line 43 column 61[ERROR] Syntax error: token recognition error at: '/#' at line 43 column 83[ERROR] Syntax error: token recognition error at: '/:' at line 43 column 331[ERROR] Syntax error: token recognition error at: '&' at line 44 column 37[ERROR] Syntax error: token recognition error at: '*' at line 44 column 71[ERROR] Syntax error: token recognition error at: '+)' at line 44 column 200[ERROR] Syntax error: token recognition error at: ';' at line 45 column 56[ERROR] Syntax error: token recognition error at: '~' at line 46 column 36[ERROR] Syntax error: token recognition error at: '+[' at line 46 column 77[ERROR] Syntax error: token recognition error at: ';' at line 46 column 80[ERROR] Syntax error: token recognition error at: '+:' at line 47 column 229[ERROR] Syntax error: token recognition error at: '^,' at line 47 column 331[ERROR] Syntax error: token recognition error at: '~' at line 49 column 36[ERROR] Syntax error: token recognition error at: '%,' at line 50 column 29[ERROR] Syntax error: token recognition error at: '*' at line 50 column 42[ERROR] Syntax error: token recognition error at: '<, ' at line 50 column 48[ERROR] Syntax error: token recognition error at: '/:' at line 51 column 40[ERROR] Syntax error: token recognition error at: ''), ottr:Triple(?personIRI, foot:p, ?@), ottr:Triple(?personIRI, foot:w, ?0)} .\n' at line 51 column 70[ERROR] Syntax error: token recognition error at: '"), ottr:Triple(?personIRI, foot:8, ?B), ottr:Triple(?personIRI, foot:e, ?P)} .\n' at line 52 column 72[ERROR] Syntax error: token recognition error at: '/)' at line 54 column 65[ERROR] Syntax error: token recognition error at: '+,' at line 55 column 352[ERROR] Syntax error: token recognition error at: '\:' at line 56 column 48[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName],' at line 8 column 229[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 256[ERROR] Syntax error: extraneous input '6' expecting {',', ')'} at line 8 column 261[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 8 column 277[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 8 column 301[ERROR] Syntax error: mismatched input ',' expecting '.' at line 8 column 307[ERROR] Syntax error: extraneous input '{' expecting {',', ')'} at line 8 column 338[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 8 column 341[ERROR] Syntax error: mismatched input '"R"' expecting {IRIREF, PNAME_NS, PNAME_LN} at line 8 column 353[ERROR] Syntax error: extraneous input '}' expecting '.' at line 8 column 357[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?' at line 9 column 28[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 76[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 113[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 147[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 9 column 162[ERROR] Syntax error: extraneous input '=' expecting {',', ')'} at line 9 column 180[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 9 column 187[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 226[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 274[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 331[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 388[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 439[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 490[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 547[ERROR] Syntax error: mismatched input ',' expecting '.' at line 9 column 598[ERROR] Syntax error: extraneous input '}' expecting '.' at line 9 column 655[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<List<List<List<xsd:string>?' at line 10 column 49[ERROR] Syntax error: extraneous input '?a' expecting {',', ')'} at line 11 column 88[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 91[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?' at line 12 column 26[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 58[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 61[ERROR] Syntax error: extraneous input '?Z' expecting {',', ')'} at line 12 column 95[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 98[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 132[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 12 column 136[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 12 column 172[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 211[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 259[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 316[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 373[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 424[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 475[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 532[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 583[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 640[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[NEList<ottr:IRI?Q' at line 13 column 33[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 70[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 72[ERROR] Syntax error: mismatched input ',' expecting '.' at line 13 column 73[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 14 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 14 column 74[ERROR] Syntax error: extraneous input 'foot:Footballer' expecting {',', ')'} at line 15 column 0[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 16 column 272[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 301[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 342[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 16 column 384[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 423[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 471[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 528[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 585[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 636[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 687[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 744[ERROR] Syntax error: mismatched input ',' expecting '.' at line 16 column 795[ERROR] Syntax error: extraneous input '}' expecting '.' at line 16 column 852[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]{' at line 17 column 232[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 272[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 320[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 377[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 434[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 485[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 536[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 593[ERROR] Syntax error: mismatched input ',' expecting '.' at line 17 column 644[ERROR] Syntax error: extraneous input '}' expecting '.' at line 17 column 701[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?J:_' at line 18 column 30[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 72[ERROR] Syntax error: extraneous input 'ottr:Triple' expecting {',', ')'} at line 18 column 78[ERROR] Syntax error: extraneous input '{' expecting {',', ')'} at line 18 column 107[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 18 column 110[ERROR] Syntax error: mismatched input ')' expecting {']', WS} at line 18 column 112[ERROR] Syntax error: mismatched input ',' expecting '.' at line 18 column 113[ERROR] Syntax error: mismatched input ',' expecting '.' at line 18 column 144[ERROR] Syntax error: extraneous input '.' expecting {',', ')'} at line 18 column 175[ERROR] Syntax error: extraneous input ',' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 18 column 176[ERROR] Syntax error: extraneous input '}' expecting '.' at line 18 column 226[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]?true' at line 19 column 338[ERROR] Syntax error: extraneous input '}' expecting '.' at line 19 column 384[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?G,xsd:foaf:name?' at line 20 column 44[ERROR] Syntax error: mismatched input ',' expecting '.' at line 21 column 72[ERROR] Syntax error: mismatched input ',' expecting '.' at line 21 column 112[ERROR] Syntax error: mismatched input ',' expecting '.' at line 21 column 144[ERROR] Syntax error: extraneous input '=' expecting {',', ')'} at line 22 column 91[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 22 column 99[ERROR] Syntax error: extraneous input '1' expecting {',', ')'} at line 22 column 104[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<List<NEList<ottr:IRI?u' at line 23 column 43[ERROR] Syntax error: mismatched input ',' expecting '.' at line 23 column 87[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 23 column 121[ERROR] Syntax error: mismatched input ',' expecting '.' at line 23 column 124[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 23 column 158[ERROR] Syntax error: extraneous input '}' expecting '.' at line 23 column 161[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<ottr:IRI?x' at line 24 column 31[ERROR] Syntax error: mismatched input ',' expecting '.' at line 26 column 259[ERROR] Syntax error: mismatched input ',' expecting '.' at line 26 column 296[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 26 column 330[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?' at line 27 column 26[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 75[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 123[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 180[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 237[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 288[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 339[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 396[ERROR] Syntax error: mismatched input ',' expecting '.' at line 27 column 447[ERROR] Syntax error: extraneous input '}' expecting '.' at line 27 column 504[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]{' at line 28 column 232[ERROR] Syntax error: mismatched input ',' expecting '.' at line 28 column 259[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 28 column 290[ERROR] Syntax error: mismatched input ',' expecting '.' at line 28 column 300[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 28 column 341[ERROR] Syntax error: extraneous input '}' expecting '.' at line 28 column 379[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?' at line 29 column 34[ERROR] Syntax error: mismatched input ',' expecting '.' at line 29 column 292[ERROR] Syntax error: mismatched input ',' expecting '.' at line 29 column 324[ERROR] Syntax error: mismatched input ',' expecting '.' at line 29 column 364[ERROR] Syntax error: extraneous input '}' expecting '.' at line 29 column 404[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?g,ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]}' at line 30 column 244[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 277[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 318[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 30 column 360[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 30 column 399[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 438[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 486[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 543[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 600[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 651[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 702[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 759[ERROR] Syntax error: mismatched input ',' expecting '.' at line 30 column 810[ERROR] Syntax error: extraneous input '}' expecting '.' at line 30 column 867[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]{' at line 31 column 229[ERROR] Syntax error: extraneous input '[' expecting {',', ')'} at line 31 column 262[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 31 column 273[ERROR] Syntax error: extraneous input '}' expecting '.' at line 31 column 311[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[LUB<List<' at line 32 column 21[ERROR] Syntax error: extraneous input ':Footballer' expecting {',', ')'} at line 32 column 83[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 32 column 96[ERROR] Syntax error: extraneous input '}' expecting '.' at line 32 column 135[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:foaf:name?' at line 33 column 31[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 33 column 97[ERROR] Syntax error: extraneous input '}' expecting '.' at line 33 column 103[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?R,ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]_:' at line 34 column 244[ERROR] Syntax error: mismatched input ',' expecting '.' at line 34 column 277[ERROR] Syntax error: mismatched input 'foot:-' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 34 column 303[ERROR] Syntax error: mismatched input ',' expecting '.' at line 34 column 318[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 34 column 359[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 34 column 398[ERROR] Syntax error: extraneous input '}' expecting '.' at line 34 column 436[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<(' at line 35 column 22[ERROR] Syntax error: missing '.' at 'ottr:Triple' at line 35 column 163[ERROR] Syntax error: extraneous input '}' expecting '.' at line 35 column 202[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[LUB<false' at line 36 column 21[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 301[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 349[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 406[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 463[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 514[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 565[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 622[ERROR] Syntax error: mismatched input ',' expecting '.' at line 37 column 673[ERROR] Syntax error: extraneous input '}' expecting '.' at line 37 column 730[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 38 column 265[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 38 column 270[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?_]foot:Footballer' at line 40 column 0[ERROR] Syntax error: mismatched input ',' expecting '.' at line 40 column 263[ERROR] Syntax error: mismatched input ',' expecting '.' at line 40 column 303[ERROR] Syntax error: mismatched input ',' expecting '.' at line 40 column 343[ERROR] Syntax error: extraneous input '}' expecting '.' at line 40 column 384[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<ottr:IRI?M' at line 41 column 31[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 73[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 113[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 41 column 155[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 194[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 242[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 299[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 356[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 407[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 458[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 515[ERROR] Syntax error: mismatched input ',' expecting '.' at line 41 column 566[ERROR] Syntax error: extraneous input '}' expecting '.' at line 41 column 623[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?' at line 42 column 34[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 42 column 293[ERROR] Syntax error: mismatched input ',' expecting '.' at line 42 column 323[ERROR] Syntax error: mismatched input ',' expecting '.' at line 42 column 363[ERROR] Syntax error: extraneous input '}' expecting {',', ')'} at line 42 column 394[ERROR] Syntax error: extraneous input '}' expecting '.' at line 42 column 403[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[NEList<List<List<(' at line 43 column 34[ERROR] Syntax error: extraneous input ':Footballer' expecting {',', ')'} at line 43 column 372[ERROR] Syntax error: extraneous input '}' expecting '.' at line 43 column 384[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:foaf:name?J]:' at line 44 column 38[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 44 column 74[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 44 column 80[ERROR] Syntax error: mismatched input ',' expecting '.' at line 44 column 106[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 44 column 140[ERROR] Syntax error: mismatched input '"4*"' expecting {IRIREF, PNAME_NS, PNAME_LN} at line 44 column 155[ERROR] Syntax error: mismatched input ',' expecting '.' at line 44 column 160[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 44 column 194[ERROR] Syntax error: extraneous input '+.9' expecting {',', ')'} at line 44 column 197[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?C,xsd:foot:clubHistory?R]:' at line 45 column 57[ERROR] Syntax error: mismatched input ',' expecting '.' at line 45 column 86[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 45 column 120[ERROR] Syntax error: mismatched input ',' expecting '.' at line 45 column 123[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 45 column 157[ERROR] Syntax error: extraneous input '}' expecting '.' at line 45 column 160[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[none:foaf:name?a63])' at line 46 column 40[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 46 column 76[ERROR] Syntax error: extraneous input '}' expecting '.' at line 46 column 84[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[ottr:IRI?personIRI,xsd:string?firstName,xsd:string?lastname,ottr:IRI?currentClub,List<ottr:IRI>?clubHistory,xsd:date?birthday,xsd:decimal?marketValue,xsd:string?position,xsd:string?countryName]{' at line 47 column 232[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 263[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 47 column 297[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 300[ERROR] Syntax error: extraneous input '?true' expecting {',', ')'} at line 47 column 334[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 340[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 47 column 381[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 420[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 468[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 525[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 582[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 633[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 684[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 741[ERROR] Syntax error: mismatched input ',' expecting '.' at line 47 column 792[ERROR] Syntax error: extraneous input '}' expecting '.' at line 47 column 849[ERROR] Syntax error: extraneous input ':Footballer' expecting {',', ')'} at line 48 column 76[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<xsd:string>?H,,' at line 49 column 38[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 49 column 285[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 49 column 289[ERROR] Syntax error: mismatched input 'true' expecting {IRIREF, PNAME_NS, PNAME_LN} at line 49 column 303[ERROR] Syntax error: extraneous input '}' expecting '.' at line 49 column 308[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?' at line 50 column 28[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 51 column 67[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[List<List<LUB<true' at line 52 column 31[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 52 column 71[ERROR] Syntax error: extraneous input '[' expecting {',', ')'} at line 53 column 15[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 53 column 271[ERROR] Syntax error: mismatched input ',' expecting '.' at line 53 column 274[ERROR] Syntax error: mismatched input ',' expecting '.' at line 53 column 311[ERROR] Syntax error: extraneous input '}' expecting '.' at line 53 column 348[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[none:foaf:name?I]?' at line 54 column 37[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 54 column 64[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 54 column 80[ERROR] Syntax error: mismatched input ',' expecting '.' at line 54 column 104[ERROR] Syntax error: extraneous input '}' expecting '.' at line 54 column 141[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:foot:clubHistory?' at line 55 column 38[ERROR] Syntax error: mismatched input ',' expecting '.' at line 55 column 284[ERROR] Syntax error: mismatched input ',' expecting '.' at line 55 column 321[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 55 column 355[ERROR] Syntax error: extraneous input '}' expecting '.' at line 55 column 358[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?' at line 56 column 28[ERROR] Syntax error: missing '.' at 'o-rdf:Type' at line 56 column 88[ERROR] Syntax error: mismatched input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 56 column 111[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 56 column 127[ERROR] Syntax error: mismatched input ',' expecting '.' at line 56 column 151[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 56 column 185[ERROR] Syntax error: extraneous input '}' expecting '.' at line 56 column 188
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[ERROR] Error building template.
+  [ERROR] Error in instance of template 'http://ns.ottr.xyz/0.4/Triple'.
+    [ERROR] Error in argument.
+      [ERROR] Unrecognized prefix '' in ':j' at line 7 column 353
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://tpl.ottr.xyz/rdf/0.1/Type'
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?36,ottr. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:{,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?y). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:B,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:A,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:n5. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?0). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?Z. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:o,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:d,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?,). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:M,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:L,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:T,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:1q. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:{,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:<m. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:k,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Q,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:D,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:=a. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?E). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:s,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:4,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?c). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:5,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:H,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?M). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:b,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:F,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:_,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:p,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:d,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:l,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:6,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:[,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:u,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:0,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:f,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:h,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:-,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:L,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:O,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:t,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:y,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:J,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:p,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:T,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:i,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?true). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:D,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:,?. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:t,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:P,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:},. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:B,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:S,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?l). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:U,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:I,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?A). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:f,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:8,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:e,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?false). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:v,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?t. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:5,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,foot:Foo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foaf:na. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cl. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:cu. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:la. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:bi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:ma. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:po. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:co. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:(Z. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?}<missi. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?foot:Fo. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?{). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:u,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:V,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?,ottr:T. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:6,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?t). This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:a,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:?!. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?PersonIRI,foot:Y,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: o-rdf:Type(?personIRI,?\),ottr. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI,foot:q,. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpi2_fnay_.stottr
+
+[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer
+
+
+2025-04-05 12:09:18,731 - INFO - No anomaly found in templates 51 to 100.

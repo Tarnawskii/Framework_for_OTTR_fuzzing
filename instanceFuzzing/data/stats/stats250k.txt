@@ -1,0 +1,42 @@
+--- Summary ---
+Input rows (ISLa generated): 250000
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 0
+
+Aggregated error counts (by type):
+Aggregated error counts (by exact message, actual errors):
+
+Non-critical messages (not starting with '[ERROR]'):
+'Exception in thread "main" java.lang.OutOfMemoryError: Java heap space': 1
+'	at java.base/java.lang.StackTraceElement.of(StackTraceElement.java:522)': 1
+'	at java.base/java.lang.Throwable.getOurStackTrace(Throwable.java:840)': 1
+'	at java.base/java.lang.Throwable.getStackTrace(Throwable.java:832)': 1
+'	at java.base/java.lang.Thread.getStackTrace(Thread.java:1598)': 1
+'	at xyz.ottr.lutra.system.Message.<init>(Message.java:88)': 1
+'	at xyz.ottr.lutra.system.Message.error(Message.java:104)': 1
+'	at xyz.ottr.lutra.system.Result.error(Result.java:192)': 1
+'	at xyz.ottr.lutra.stottr.parser.ErrorToMessageListener.syntaxError(ErrorToMessageListener.java:49)': 1
+'	at org.antlr.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:41)': 1
+'	at org.antlr.v4.runtime.Parser.notifyErrorListeners(Parser.java:544)': 1
+'	at org.antlr.v4.runtime.DefaultErrorStrategy.reportInputMismatch(DefaultErrorStrategy.java:327)': 1
+'	at org.antlr.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139)': 1
+'	at xyz.ottr.lutra.stottr.antlr.stOTTRParser.argumentList(stOTTRParser.java:1029)': 1
+'	at xyz.ottr.lutra.stottr.antlr.stOTTRParser.instance(stOTTRParser.java:948)': 1
+'	at xyz.ottr.lutra.stottr.antlr.stOTTRParser.statement(stOTTRParser.java:276)': 1
+'	at xyz.ottr.lutra.stottr.antlr.stOTTRParser.stOTTRDoc(stOTTRParser.java:188)': 1
+'	at xyz.ottr.lutra.stottr.parser.AbstractStOTTRParser.parseDocument(AbstractStOTTRParser.java:84)': 1
+'	at xyz.ottr.lutra.stottr.parser.AbstractStOTTRParser.apply(AbstractStOTTRParser.java:57)': 1
+'	at xyz.ottr.lutra.stottr.parser.AbstractStOTTRParser.apply(AbstractStOTTRParser.java:38)': 1
+'	at java.base/java.util.Optional.map(Optional.java:258)': 1
+'	at xyz.ottr.lutra.system.Result.map(Result.java:466)': 1
+'	at xyz.ottr.lutra.system.Result.mapToStream(Result.java:501)': 1
+'	at xyz.ottr.lutra.system.ResultStream.lambda$innerFlatMap$4(ResultStream.java:273)': 1
+'	at xyz.ottr.lutra.system.ResultStream$$Lambda$196/0x0000000800d6e1c0.apply(Unknown Source)': 1
+'	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:271)': 1
+'	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)': 1
+'	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)': 1
+'	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)': 1
+'	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)': 1
+'	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)': 1
+'	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)': 1
+'	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)': 1

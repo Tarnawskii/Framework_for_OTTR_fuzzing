@@ -1,0 +1,15 @@
+--- Oppsummering ---
+Genererte templates: 100
+Output rows (Turtle file): 0
+Totalt antall feil (starter med '[ERROR]'): 0
+Template Rule Coverage: 100.00%
+Variability (Avg Levenshtein Distance): 123.31
+
+No actual errors found.
+
+Aggregated error counts (by type):
+
+Exact error messages:
+
+Non-critical messages:
+'[FATAL] Duplicate key firstName (attempted merging values ?firstName : xsd:string and ?firstName : xsd:string)': 1

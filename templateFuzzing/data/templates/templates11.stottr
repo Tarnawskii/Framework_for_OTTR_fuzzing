@@ -1,0 +1,106 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer [ xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:N ?foot:Footballer)} .
+foot:Footballer [ xsd:string ?firstName, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:q ?()), ottr:Triple(?personIRI foot:$ ?()) ottr:Triple(?PersonIRI foot:G ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:w ?"integer"^^true) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:h ?()), ottr:Triple(?personIRI foot:2 ?())} .
+foot:Footballer [ List<xsd:string ?firstName> ?l ] :: {o-rdf:Type(?personIRI, ?false), ottr:Triple(?personIRI foot:# ?true), ottr:Triple(?personIRI foot:\ ?())} .
+foot:Footballer [ List<xsd:strings> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:U@F4P ?-4+.9+)} .
+foot:Footballer [ xsd:string ?firstName, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:= ?()), ottr:Triple(?personIRI foot:/ ?()) ottr:Triple(?PersonIRI foot:J ?()) ottr:Triple(?PersonIRI foot:B ?())} .
+foot:Footballer [ xsd:decimal ?E>gi ] :: {ottr:Triple(?PersonIRI foot:] ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:v ?()), ottr:Triple(?personIRI foot:r ?()) ottr:Triple(?PersonIRI foot:1 ?())} .
+foot:Footballer [ List<List<List<xsd:string ?firstName>>> ?H ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:) ?()), ottr:Triple(?personIRI foot:{ ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:? ?()), ottr:Triple(?personIRI foot:- ?())} .
+foot:Footballer [ ottr:foot:Footballer ?`| ] :: {ottr:Triple(?PersonIRI foot:6%L ?-8+)} .
+foot:Footballer [ ottr:IRI ?personIRI, List<xsd:string ?firstName> ?P ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:1 ?()), ottr:Triple(?personIRI foot:k ?()) ottr:Triple(?PersonIRI foot:u ?())} .
+foot:Footballer [ xsd:boolean ?'28, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:YAHO ?true)} .
+foot:Footballer [ List<xsd:strings> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:6 ?foot:Footballer) ottr:Triple(?PersonIRI foot:n ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:o ?()), ottr:Triple(?personIRI foot:$ ?())} .
+foot:Footballer [ List<xsd:string ?firstName> ?+ ] :: {ottr:Triple(?PersonIRI foot:z ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:] ?()), ottr:Triple(?personIRI foot:< ?())} .
+foot:Footballer [ List<List<List<ottr:IRI ?personIRI>>> ?=, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:. ?()), ottr:Triple(?personIRI foot:[ ?())} .
+foot:Footballer [ foot:decimal ?G ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:C ?()), ottr:Triple(?personIRI foot:" ?()) ottr:Triple(?PersonIRI foot:N ?())} .
+foot:Footballer [ ottr:integer ?d\w ] :: {ottr:Triple(?PersonIRI foot:S: ?"foot:Footballer"^^4+)} .
+foot:Footballer [ List<List<List<foot:string ?R0>X9> ?#E{?;va> ?K> ?, ] :: {ottr:Triple(?PersonIRI foot:bV ?-6+.-9+)} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:c ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:r ?()), ottr:Triple(?personIRI foot:! ?())} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:& ?()), ottr:Triple(?personIRI foot:4 ?()) ottr:Triple(?PersonIRI foot:* ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:C ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:e ?()), ottr:Triple(?personIRI foot:T ?())} .
+foot:Footballer [ foot:string ?{, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:] ?()), ottr:Triple(?personIRI foot:o ?()) ottr:Triple(?PersonIRI foot:[ ?())} .
+foot:Footballer [ List<xsd:strings> ?clubHistory, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:} ?()) ottr:Triple(?PersonIRI foot:ry~ ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?" ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:g ?()), ottr:Triple(?personIRI foot:G ?foot:Footballer)} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:= ?()), ottr:Triple(?personIRI foot:& ?()) ottr:Triple(?PersonIRI foot:. ?()) ottr:Triple(?PersonIRI foot:W ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?H ] :: {o-rdf:Type(?personIRI, ?8+), ottr:Triple(?personIRI foot:^( ?-7+.-2+), ottr:Triple(?personIRI foot:| ?false)} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:D ?()), ottr:Triple(?personIRI foot:5 ?())} .
+foot:Footballer [ List<List<List<xsd:string ?firstName>>> ?# ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:j ?()), ottr:Triple(?personIRI foot:B ?()) ottr:Triple(?PersonIRI foot:a ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:i ?()), ottr:Triple(?personIRI foot:! ?()) ottr:Triple(?PersonIRI foot:> ?()) ottr:Triple(?PersonIRI foot:U ?())} .
+foot:Footballer [ ottr:decimal ?z ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:q ?()), ottr:Triple(?personIRI foot:/ ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:8 ?()), ottr:Triple(?personIRI foot:7 ?())} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:( ?()), ottr:Triple(?personIRI foot:, ?()) ottr:Triple(?PersonIRI foot:j ?())} .
+foot:Footballer [ xsd:string ?firstName, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:% ?()) ottr:Triple(?PersonIRI foot:b ?()) ottr:Triple(?PersonIRI foot:C ?())} .
+foot:Footballer [ xsd:string ?firstName, List<xsd:strings> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:c ?()) ottr:Triple(?PersonIRI foot:> ?()) ottr:Triple(?PersonIRI foot:: ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:R ?()), ottr:Triple(?personIRI foot:e ?()) ottr:Triple(?PersonIRI foot:r ?())} .
+foot:Footballer [ List<List<List<xsd:string ?firstName>>> ?F ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:[ ?()), ottr:Triple(?personIRI foot:f ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:h ?()), ottr:Triple(?personIRI foot:+ ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:W=o ?-4+.2+)} .
+foot:Footballer [ xsd:foot:Footballer ?GTi? ] :: {o-rdf:Type(?personIRI, ?"U"), ottr:Triple(?personIRI foot:4 ?false), ottr:Triple(?personIRI foot:t ?foot:Footballer)} .
+foot:Footballer [ xsd:string ?firstName, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?"integer"^^true), ottr:Triple(?personIRI foot:< ?()), ottr:Triple(?personIRI foot:a ?())} .
+foot:Footballer [ ottr:string ?2u ] :: {ottr:Triple(?PersonIRI foot:kd ?( false+ ))} .
+foot:Footballer [ foot:decimal ?\ ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:` ?()), ottr:Triple(?personIRI foot:* ?()) ottr:Triple(?PersonIRI foot:p ?())} .
+foot:Footballer [ List<xsd:strings> ?clubHistory, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?"integer"^^-1+.3+), ottr:Triple(?personIRI foot:yPA ?foot:Footballer), ottr:Triple(?personIRI foot:`N ?( 7++ ))} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:M ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:l ?()), ottr:Triple(?personIRI foot:; ?())} .
+foot:Footballer [ foot:decimal ?9, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?true), ottr:Triple(?personIRI foot:k ?()), ottr:Triple(?personIRI foot:@ ?())} .
+foot:Footballer [ List<List<List<ottr:boolean ?|F4>>> ?v, xsd:foot:Footballer ?s ] :: {ottr:Triple(?PersonIRI foot:Kc ?"Z*")} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:{ ?()), ottr:Triple(?personIRI foot:" ?()) ottr:Triple(?PersonIRI foot:R ?()) ottr:Triple(?PersonIRI foot:8 ?()) ottr:Triple(?PersonIRI foot:V ?())} .
+foot:Footballer [ xsd:string ?firstName, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:# ?()), ottr:Triple(?personIRI foot:% ?()) ottr:Triple(?PersonIRI foot:7 ?())} .
+foot:Footballer [ List<xsd:string ?u> ?: ] :: {ottr:Triple(?PersonIRI foot:W ?()) ottr:Triple(?PersonIRI foot:t ?()) ottr:Triple(?PersonIRI foot:~ ?())} .
+foot:Footballer [ List<xsd:string ?&Dw> ?m=, List<List<xsd:string ?firstName> ?x> ?0* ] :: {ottr:Triple(?PersonIRI foot:Hf<U)Td+ ?"]+")} .
+foot:Footballer [ ottr:boolean ?6J ] :: {ottr:Triple(?PersonIRI foot:p ?()) ottr:Triple(?PersonIRI foot:} ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:[ ?()), ottr:Triple(?personIRI foot:^ ?()) ottr:Triple(?PersonIRI foot:i ?()) ottr:Triple(?PersonIRI foot:_ ?())} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:r ?()), ottr:Triple(?personIRI foot:- ?()) ottr:Triple(?PersonIRI foot:E ?())} .
+foot:Footballer [ List<xsd:strings> ?clubHistory, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:y ?()), ottr:Triple(?personIRI foot:t ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:a ?()), ottr:Triple(?personIRI foot:> ?())} .
+foot:Footballer [ List<List<List<foot:decimal ?BL+>>> ?{jM_K\ ] :: {ottr:Triple(?PersonIRI foot:l#)4Wc*@ ?foot:Footballer)} .
+foot:Footballer [ xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:o ?()) ottr:Triple(?PersonIRI foot:G ?())} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:/ ?()) ottr:Triple(?PersonIRI foot:1 ?()) ottr:Triple(?PersonIRI foot:n ?()) ottr:Triple(?PersonIRI foot:| ?())} .
+foot:Footballer [ ottr:boolean ?A ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:v ?true), ottr:Triple(?personIRI foot:& ?())} .
+foot:Footballer [ xsd:string ?q, xsd:string ?firstName, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?false), ottr:Triple(?personIRI foot:D ?4+.-3+), ottr:Triple(?personIRI foot:Z ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:e ?()), ottr:Triple(?personIRI foot:^ ?()) ottr:Triple(?PersonIRI foot:i ?()) ottr:Triple(?PersonIRI foot:Q ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:X ?()), ottr:Triple(?personIRI foot:s ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:C ?()), ottr:Triple(?personIRI foot:P ?()) ottr:Triple(?PersonIRI foot:2 ?())} .
+foot:Footballer [ xsd:string ?firstName, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:v ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:3 ?()), ottr:Triple(?personIRI foot:^ ?())} .
+foot:Footballer [ xsd:foot:Footballer ?EL- ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:Z ?()), ottr:Triple(?personIRI foot:C ?())} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:m ?()), ottr:Triple(?personIRI foot:Q ?()) ottr:Triple(?PersonIRI foot:8 ?()) ottr:Triple(?PersonIRI foot:< ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?N4:2, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:c ?()) ottr:Triple(?PersonIRI foot:/ ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:7 ?()), ottr:Triple(?personIRI foot:i ?()) ottr:Triple(?PersonIRI foot:P ?()) ottr:Triple(?PersonIRI foot:} ?())} .
+foot:Footballer [ List<xsd:strings> ?clubHistory, List<List<List<ottr:boolean ?jVH>>> ?x*qe.A ] :: {ottr:Triple(?PersonIRI foot:Y ?-5+)} .
+foot:Footballer [ xsd:string ?firstName, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:, ?()), ottr:Triple(?personIRI foot:W ?()) ottr:Triple(?PersonIRI foot:f ?()) ottr:Triple(?PersonIRI foot:' ?())} .
+foot:Footballer [ xsd:string ?firstName, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:& ?()), ottr:Triple(?personIRI foot:g ?()) ottr:Triple(?PersonIRI foot:h ?()) ottr:Triple(?PersonIRI foot:F ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?foot:Footballer), ottr:Triple(?personIRI foot:t ?()), ottr:Triple(?personIRI foot:@69 ?())} .
+foot:Footballer [ foot:string ?[p(~ ] :: {ottr:Triple(?PersonIRI foot:{y0 ?-7+.3+)} .
+foot:Footballer [ ottr:foot:Footballer ?Vp, xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:A>%#q ?7+.-6+)} .
+foot:Footballer [ List<xsd:strings> ?clubHistory ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:) ?()), ottr:Triple(?personIRI foot:1 ?()) ottr:Triple(?PersonIRI foot:r ?()) ottr:Triple(?PersonIRI foot:s ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?,a: ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:b ?()), ottr:Triple(?personIRI foot:~ ?())} .
+foot:Footballer [ xsd:boolean ?N, List<List<List<xsd:string ?firstName>>> ?P? ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:6 ?()), ottr:Triple(?personIRI foot:E ?foot:Footballer)} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:I ?()), ottr:Triple(?personIRI foot:f ?()) ottr:Triple(?PersonIRI foot:Z ?()) ottr:Triple(?PersonIRI foot:d ?())} .
+foot:Footballer [ foot:decimal ?^ ] :: {ottr:Triple(?PersonIRI foot:J ?()) ottr:Triple(?PersonIRI foot:y ?()) ottr:Triple(?PersonIRI foot:j ?()) ottr:Triple(?PersonIRI foot:u ?())} .
+foot:Footballer [ foot:string ?7 ] :: {o-rdf:Type(?personIRI, ?-8+), ottr:Triple(?personIRI foot:i ?false), ottr:Triple(?personIRI foot:L ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:integer ?&, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:= ?()), ottr:Triple(?personIRI foot:5 ?())} .
+foot:Footballer [ List<xsd:string ?firstName> ?n, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:x ?()), ottr:Triple(?personIRI foot:R ?())} .
+foot:Footballer [ xsd:foot:Footballer ?HwDc0 ] :: {ottr:Triple(?PersonIRI foot:O3 ?"_*")} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?-4+), ottr:Triple(?personIRI foot:" ?()), ottr:Triple(?personIRI foot:Z~(.7}RW8u#nxKA:?6CQYJ` ?foot:Footballer)} .
+foot:Footballer [ ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:T ?false) ottr:Triple(?PersonIRI foot:g ?()) ottr:Triple(?PersonIRI foot:y ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:t ?()), ottr:Triple(?personIRI foot:2 ?()) ottr:Triple(?PersonIRI foot:e ?()) ottr:Triple(?PersonIRI foot:S ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?r ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:G ?()), ottr:Triple(?personIRI foot:E ?()) ottr:Triple(?PersonIRI foot:m ?())} .
+foot:Footballer [ foot:boolean ?M, List<xsd:strings> ?clubHistory, xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:X ?-5+.2+)} .
+foot:Footballer [ List<List<List<xsd:integer ?-V{>>> ?PfNo ] :: {ottr:Triple(?PersonIRI foot:^ ?"foot:Footballer"^^"'*")} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:4 ?()) ottr:Triple(?PersonIRI foot:L ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:q ?()), ottr:Triple(?personIRI foot:d ?())} .
+foot:Footballer [ ottr:decimal ?w, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:9 ?()), ottr:Triple(?personIRI foot:+ ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:[ ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:H ?()), ottr:Triple(?personIRI foot:$ ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, List<ottr:IRI ?personIRI> ?v ] :: {ottr:Triple(?PersonIRI foot:s ?()) ottr:Triple(?PersonIRI foot:b ?()) ottr:Triple(?PersonIRI foot:> ?())} .
+foot:Footballer [ xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:( ?foot:Footballer), ottr:Triple(?personIRI foot:E ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?&F, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:] ?()) ottr:Triple(?PersonIRI foot:m ?())} .
+foot:Footballer [ foot:decimal ?|, xsd:string ?firstName ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:n ?()), ottr:Triple(?personIRI foot:O ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:v ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:C ?()), ottr:Triple(?personIRI foot:. ?()) ottr:Triple(?PersonIRI foot:7 ?())} .
+foot:Footballer [ ottr:IRI ?personIRI, ottr:IRI ?personIRI ] :: {ottr:Triple(?PersonIRI foot:P ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:} ?()), ottr:Triple(?personIRI foot:G ?()) ottr:Triple(?PersonIRI foot:e ?())} .
+foot:Footballer [ List<xsd:strings> ?clubHistory ] :: {o-rdf:Type(?personIRI, ?4+), ottr:Triple(?personIRI foot:VJTa ?false), ottr:Triple(?personIRI foot:^c? ?true)} .
+foot:Footballer [ xsd:string ?firstName ] :: {ottr:Triple(?PersonIRI foot:A ?()) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:i ?()), ottr:Triple(?personIRI foot:j ?()) ottr:Triple(?PersonIRI foot:z ?())} .
+foot:Footballer [ xsd:string ?firstName, xsd:string ?firstName, ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:0 ?()), ottr:Triple(?personIRI foot:_ ?()) ottr:Triple(?PersonIRI foot:L ?())} .
+foot:Footballer [ List<ottr:IRI ?personIRI> ?N ] :: {ottr:Triple(?PersonIRI foot:[ ?"boolean"^^true) o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:o ?()), ottr:Triple(?personIRI foot:w ?())} .
+foot:Footballer [ List<List<List<xsd:foot:Footballer ?8!,u{->>> ?p ] :: {ottr:Triple(?PersonIRI foot:Qt9 ?5+.-3+)} .

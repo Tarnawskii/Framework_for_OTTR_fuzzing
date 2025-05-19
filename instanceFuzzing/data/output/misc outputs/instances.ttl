@@ -1,0 +1,7 @@
+
+@prefix ex: <http://example.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ex:Test(_:x, (_:y, _:z), 10.5).
+ex:Test(_:x, (_:y, _:z), "10.5"^^xsd:decimal).
+ex:Test(_:x, (), 10.5).
+ex:Test(_:x, (), "10.5"^^xsd:decimal).

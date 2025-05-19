@@ -1,0 +1,630 @@
+2025-05-13 22:17:32,453 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-00-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:32,453 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpywc02f_v.stottr
+
+
+2025-05-13 22:17:36,016 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-0-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:36,017 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp68ujet2s.stottr
+
+
+2025-05-13 22:17:39,492 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-00-0"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:39,492 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp8hw7q8pd.stottr
+
+
+2025-05-13 22:17:43,377 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-0-0"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:43,377 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmplvp54unf.stottr
+
+
+2025-05-13 22:17:47,574 - ERROR - Instance foot:Footballer(_:OJp,"#","","000-00-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:47,574 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9dls0gq_.stottr
+
+
+2025-05-13 22:17:51,513 - ERROR - Instance foot:Footballer(_:OJp,"#","","#"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:51,513 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpoldg0i_f.stottr
+
+
+2025-05-13 22:17:55,407 - ERROR - Instance foot:Footballer(_:OJp,"#","",2024-1-12,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:17:55,408 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: mismatched input '2024-1-12' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 37
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpav1mw69l.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Footballer'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '2024-1-12' at line 9 column 37
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpav1mw69l.stottr
+
+
+2025-05-13 22:17:59,413 - ERROR - Instance foot:Footballer(_:OJp,"#","","2024-12-12",none,(_:l),10,_:Forward,"Argentina") .
+2025-05-13 22:17:59,413 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpjitn8q49.stottr
+
+[ERROR] Incompatible argument type. Argument "2024-12-12"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?dateOfBirth : xsd:date
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpjitn8q49.stottr
+
+
+2025-05-13 22:23:56,418 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-00-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:23:56,418 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmcx834ka.stottr
+
+
+2025-05-13 22:23:59,900 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-0-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:23:59,900 - ERROR - Instance 8 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdmzyay47.stottr
+
+
+2025-05-13 22:24:03,368 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-00-0"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:24:03,368 - ERROR - Instance 9 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+[ERROR] Invalid literal value. The value '0000-00-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpn9p1014s.stottr
+
+
+2025-05-13 22:24:07,082 - ERROR - Instance foot:Footballer(_:OJp,"#","","0000-0-0"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:24:07,082 - ERROR - Instance 10 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+[ERROR] Invalid literal value. The value '0000-0-0' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpmy6q7rt9.stottr
+
+
+2025-05-13 22:24:10,574 - ERROR - Instance foot:Footballer(_:OJp,"#","","000-00-00"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:24:10,574 - ERROR - Instance 11 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+[ERROR] Invalid literal value. The value '000-00-00' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpaj9rftum.stottr
+
+
+2025-05-13 22:24:14,138 - ERROR - Instance foot:Footballer(_:OJp,"#","","#"^^xsd:date,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:24:14,139 - ERROR - Instance 12 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+[ERROR] Invalid literal value. The value '#' is not in the lexical space of the datatype 'http://www.w3.org/2001/XMLSchema#date'
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp9utxr5z9.stottr
+
+
+2025-05-13 22:24:17,633 - ERROR - Instance foot:Footballer(_:OJp,"#","",2024-1-12,none,(_:l),10,_:Forward,"Argentina") .
+
+2025-05-13 22:24:17,633 - ERROR - Instance 13 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0[ERROR] Syntax error: mismatched input '2024-1-12' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 9 column 37
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphpbvyyo1.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Footballer'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in '2024-1-12' at line 9 column 37
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmphpbvyyo1.stottr
+
+
+2025-05-13 22:24:21,084 - ERROR - Instance foot:Footballer(_:OJp,"#","","2024-12-12",none,(_:l),10,_:Forward,"Argentina") .
+2025-05-13 22:24:21,084 - ERROR - Instance 14 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: token recognition error at: '",\n' at line 8 column 0
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpnn_gsbbq.stottr
+
+[ERROR] Incompatible argument type. Argument "2024-12-12"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?dateOfBirth : xsd:date
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpnn_gsbbq.stottr
+
+

@@ -1,0 +1,14 @@
+
+=== Sammendrag av tester ===
+Antall instanser testet: 7
+Begge verktøy gyldig (output): 1
+pyOTTR OK: 1
+Lutra OK: 1
+Begge feilet med samme feil: 0
+Begge feilet med ulike feil: 0
+Én OK og én feilet: 0
+Gyldige instanser med ikke-isomorfe grafer: 1
+
+Aggregerte pyOTTR-feil:
+
+Aggregerte Lutra-feil:

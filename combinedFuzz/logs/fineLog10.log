@@ -1,0 +1,7 @@
+2025-05-11 23:19:45,012 - INFO - Template 1 processed in 3.26 seconds
+2025-05-11 23:19:45,013 - WARNING - No valid output for template 1: ./data/output\instances10\output_template_1.ttl
+2025-05-11 23:19:48,788 - INFO - Template 2 processed in 3.77 seconds
+2025-05-11 23:19:53,111 - INFO - Template 2 processed in 4.16 seconds
+2025-05-11 23:19:55,593 - INFO - Metamorphic test passed for template 2
+2025-05-11 23:19:58,964 - INFO - Template 3 processed in 3.37 seconds
+2025-05-11 23:19:58,965 - WARNING - No valid output for template 3: ./data/output\instances10\output_template_3.ttl

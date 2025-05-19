@@ -1,0 +1,229 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foot:country      "" ;
+        foaf:birthDate    "1991-5-10"^^xsd:date ;
+        foot:marketValue  010 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Striker"@us ;
+        foaf:name         "" ;
+        foaf:familyName   "" .
+
+_:b1    foot:country      "France" ;
+        foaf:birthDate    "2010-12-25"^^xsd:date ;
+        foot:marketValue  010 ;
+        foot:clubHistory  _:b2 .
+
+_:b3    rdf:rest   _:b4 ;
+        rdf:first  rdf:nil .
+
+_:b5    rdf:rest   rdf:nil ;
+        rdf:first  _:b6 .
+
+_:b2    rdf:rest   _:b3 ;
+        rdf:first  rdf:nil .
+
+_:b4    rdf:rest   rdf:nil ;
+        rdf:first  _:b5 .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b1    rdf:type         foot:Footballer ;
+        foot:position    "Defender" ;
+        foaf:name        "" ;
+        foaf:familyName  "Fiancée" .
+
+_:b7    foot:country      "" ;
+        foaf:birthDate    "9999-99-99"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  _:b8 .
+
+_:b8    rdf:rest   _:b9 ;
+        rdf:first  rdf:nil .
+
+_:b9    rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b7    rdf:type         foot:Footballer ;
+        foot:position    "Midfielder" ;
+        foaf:name        "" ;
+        foaf:familyName  "Al-Hassan" .
+
+_:b10   foot:country      "" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b11   foot:country      "" ;
+        foaf:birthDate    "1954-11-19"^^xsd:date ;
+        foot:marketValue  010 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Midfielder" ;
+        foaf:name         "Cristiano" ;
+        foaf:familyName   "" .
+
+_:b12   foot:country      "Portugal" ;
+        foaf:birthDate    "2020-13-32"^^xsd:date ;
+        foot:marketValue  010 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "" ;
+        foaf:name         "" ;
+        foaf:familyName   "" .
+
+_:b13   foot:country      "?" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b14   foot:country      "Egypt" ;
+        foaf:birthDate    "1998-2-13"^^xsd:date ;
+        foot:marketValue  547902461 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "" ;
+        foaf:name         "Amadou" ;
+        foaf:familyName   "" .
+
+_:b15   foot:country      "" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b16   foot:country      "Portugal" ;
+        foaf:birthDate    "9999-99-99"^^xsd:date ;
+        foot:marketValue  10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010 ;
+        foot:clubHistory  _:b17 .
+
+_:b18   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b19   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b20   rdf:rest   _:b21 ;
+        rdf:first  rdf:nil .
+
+_:b17   rdf:rest   _:b18 ;
+        rdf:first  _:b22 .
+
+_:b22   rdf:rest   rdf:nil ;
+        rdf:first  _:b20 .
+
+_:b23   rdf:rest   rdf:nil ;
+        rdf:first  _:b19 .
+
+_:b21   rdf:rest   _:b23 ;
+        rdf:first  rdf:nil .
+
+_:b16   rdf:type         foot:Footballer ;
+        foot:position    "Midfielder" ;
+        foaf:name        "" ;
+        foaf:familyName  "Fiancée" .
+
+_:b24   foot:country      "" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Liverpool" .
+
+_:b25   foot:country      "Portugal" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "|2F258654106C01oDm35cC"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b26   foot:country      "" ;
+        foaf:birthDate    "1978-13-00"^^xsd:date ;
+        foot:marketValue  100000000 ;
+        foot:clubHistory  _:b27 .
+
+_:b27   rdf:rest   _:b28 ;
+        rdf:first  rdf:nil .
+
+_:b28   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b26   rdf:type         foot:Footballer ;
+        foot:position    "" ;
+        foaf:name        "" ;
+        foaf:familyName  "Brontë" .
+
+_:b29   foot:country      "France" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b30   foot:country      "_Bq" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b31   foot:country      "" ;
+        foaf:birthDate    "2027-13-11"^^xsd:date ;
+        foot:marketValue  010 ;
+        foot:clubHistory  rdf:nil ;
+        rdf:type          foot:Footballer ;
+        foot:position     "Striker"@us ;
+        foaf:name         "" ;
+        foaf:familyName   "Van der Waals" .
+
+_:b32   foot:country      "" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Manchester United" .
+
+_:b33   foot:country      "" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b34   foot:country      "" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         _:b35 .
+
+_:b36   foot:country      "Argentina" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b37   foot:country      "Egypt" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b38   foot:country      "" ;
+        foaf:birthDate    "9999-99-99"^^xsd:date ;
+        foot:marketValue  10101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010 ;
+        foot:clubHistory  _:b39 .
+
+_:b39   rdf:rest   _:b40 ;
+        rdf:first  rdf:nil .
+
+_:b41   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b42   rdf:rest   rdf:nil ;
+        rdf:first  _:b41 .
+

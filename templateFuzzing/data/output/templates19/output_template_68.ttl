@@ -1,0 +1,25 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+
+_:b0    foaf:lastName     _:b1 ;
+        foot:birthday     "1987-06-24"^^xsd:date ;
+        foot:clubHistory  _:b2 .
+
+_:b2    rdf:rest   _:b3 ;
+        rdf:first  "Barcelona" .
+
+_:b3    rdf:rest   rdf:nil ;
+        rdf:first  "Paris Saint-Germain" .
+
+_:b0    foot:marketValue  80000000.00 ;
+        foot:countryName  "Argentina" ;
+        foaf:name         "Lionel" ;
+        rdf:type          foot:Footballer ;
+        foot:currentClub  "Paris Saint-Germain" .

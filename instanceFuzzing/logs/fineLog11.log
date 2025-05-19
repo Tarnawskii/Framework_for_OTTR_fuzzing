@@ -1,0 +1,15 @@
+2025-04-09 21:52:28,515 - ERROR - Instance foot:Club(_:D,klwer,"2018"^^xsd:gYear("Camp Nou",_:france)"_"%)
+
+2025-04-09 21:52:28,517 - ERROR - Instance 7 failed: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'klwer' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 22[ERROR] Syntax error: extraneous input '(' expecting {',', ')'} at line 7 column 45[ERROR] Syntax error: token recognition error at: '%)' at line 7 column 69[ERROR] Syntax error: mismatched input '"_"' expecting '.' at line 7 column 66
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmptyuruvij.stottr
+
+[ERROR] Error in instance of template 'http://example.org/football#Club'.
+  [ERROR] Error in argument.
+    [ERROR] Unrecognized instance argument  in 'klwer' at line 7 column 22
+Location(s):
+- Signature with IRI 'http://example.org/football#Club'
+- File C:\Users\adria\AppData\Local\Temp\tmptyuruvij.stottr
+
+

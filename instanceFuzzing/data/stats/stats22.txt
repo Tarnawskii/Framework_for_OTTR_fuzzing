@@ -1,0 +1,50 @@
+--- Summary ---
+Input rows (ISLa generated): 10
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 23
+
+Last error before quitting: [ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()
+
+Aggregated error counts (by type):
+Syntax error: mismatched input: 8
+Wrong number of arguments: 7
+Syntax error: token recognition error: 6
+Syntax error: extraneous input: 5
+Incompatible argument type: 5
+Error in instance of template: 3
+Error in argument: 3
+Unrecognized instance argument: 3
+Parsing stOTTR: 1
+Aggregated error counts (by exact message, actual errors):
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 0 in instance: http://example.org/football#Club()': 3
+'[ERROR] Error in instance of template 'http://example.org/football#Club'.': 3
+'  [ERROR] Error in argument.': 3
+'[ERROR] Parsing stOTTR': 1
+'[ERROR] Syntax error: token recognition error at: '"YP\/' at line 7 column 10[ERROR] Syntax error: token recognition error at: '/O' at line 7 column 15[ERROR] Syntax error: extraneous input 'CWk' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 17[ERROR] Syntax error: mismatched input 'Paris' expecting {',', ')'} at line 7 column 23[ERROR] Syntax error: token recognition error at: '",a) .\r' at line 7 column 66[ERROR] Syntax error: extraneous input '^^' expecting {',', ')'} at line 8 column 22[ERROR] Syntax error: extraneous input '^^' expecting {',', ')'} at line 9 column 33[ERROR] Syntax error: token recognition error at: '~' at line 10 column 11[ERROR] Syntax error: mismatched input '>' expecting {',', ')'} at line 10 column 20[ERROR] Syntax error: token recognition error at: '"?\r' at line 10 column 73[ERROR] Syntax error: mismatched input 'V' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 11 column 10[ERROR] Syntax error: mismatched input 'BX' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 12 column 16[ERROR] Syntax error: extraneous input '^^' expecting {',', ')'} at line 12 column 20[ERROR] Syntax error: token recognition error at: '^-' at line 13 column 10[ERROR] Syntax error: mismatched input 'uyoA' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 13 column 12[ERROR] Syntax error: mismatched input '7dn' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 14 column 16[ERROR] Syntax error: extraneous input '^^' expecting {',', ')'} at line 14 column 24[ERROR] Syntax error: mismatched input '9n2z' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 15 column 28[ERROR] Syntax error: mismatched input 'w' expecting {'[', '(', ')', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 16 column 10': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 1 in instance: http://example.org/football#Club(","^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] Incompatible argument type. Argument ","^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubIRI : ottr:IRI': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club(blank501 : LUB<rdfs:Resource>, ""^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "000"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer)': 1
+'[ERROR] Incompatible argument type. Argument "000"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer with type xsd:integer given to parameter ?foundedYear : xsd:gYear': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 3 in instance: http://example.org/football#Club("ctHiKx"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "Barcelona"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, "00"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer)': 1
+'[ERROR] Incompatible argument type. Argument "ctHiKx"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubIRI : ottr:IRI': 1
+'[ERROR] Incompatible argument type. Argument "00"^^http://www.w3.org/2001/XMLSchema#integer : xsd:integer with type xsd:integer given to parameter ?foundedYear : xsd:gYear': 1
+'[ERROR] Wrong number of arguments. Expected 5 arguments, but found 1 in instance: http://example.org/football#Club("]Dqfg,"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)': 1
+'[ERROR] Incompatible argument type. Argument "]Dqfg,"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubIRI : ottr:IRI': 1
+'    [ERROR] Unrecognized instance argument  in 'BX' at line 12 column 16': 1
+'    [ERROR] Unrecognized instance argument  in '7dn' at line 14 column 16': 1
+'    [ERROR] Unrecognized instance argument  in '9n2z^^' at line 15 column 28': 1
+
+Non-critical messages (not starting with '[ERROR]'):
+'Location(s):': 11
+'- File ./data/instances/instances22.stottr': 11
+'- Signature with IRI 'http://example.org/football#Club'': 10
+
+SHACL validation results:
+(rdflib.term.BNode('N69ed63295ec747a3bcac35e4a2a5fc9c'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#ValidationReport')): 1
+SHACL validation results:
+(rdflib.term.BNode('N69ed63295ec747a3bcac35e4a2a5fc9c'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#ValidationReport'))
+(rdflib.term.BNode('N69ed63295ec747a3bcac35e4a2a5fc9c'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#conforms'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean')))
+(rdflib.term.BNode('N69ed63295ec747a3bcac35e4a2a5fc9c'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#conforms'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean'))): 1
+SHACL validation results:
+(rdflib.term.BNode('N69ed63295ec747a3bcac35e4a2a5fc9c'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#ValidationReport'))
+(rdflib.term.BNode('N69ed63295ec747a3bcac35e4a2a5fc9c'), rdflib.term.URIRef('http://www.w3.org/ns/shacl#conforms'), rdflib.term.Literal('true', datatype=rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema#boolean')))

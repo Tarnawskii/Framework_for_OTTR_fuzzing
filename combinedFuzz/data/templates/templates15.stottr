@@ -1,0 +1,17 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+foot:Footballer [ ottr:IRI ?personIRI , NEList<xsd:nonNegativeInteger> ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:string> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Ball[ottr:IRI ?ballIRI, xsd:byte ?ballType] :: { o-rdf:Type(?ballIRI, foot:Ball), ottr:Triple(?ballIRI, foot:ballType, ?ballType) } .
+foot:Footballer [ xsd:double ?U = none , !xsd:dateTimeStamp ?y ]  :: { o-rdf:Type(?x, ?vA) } .
+foot:Ball [ ?!xsd:token ?c , ?ottr:IRI ?B ] foot:Ball() :: { ottr:Triple(?i, foot:Footballer, none) , o-rdf:Type(?M, none) , o-rdf:Type(?J, none) } .
+foot:Footballer [ ottr:IRI ?personIRI , xsd:string ?firstName , xsd:string ?lastname , xsd:date ?birthday , xsd:string ?currentClub , List<xsd:int> ?clubHistory , xsd:decimal ?marketValue , rdfs:Literal ?position , xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer) , ottr:Triple(?personIRI, foaf:name, ?firstName) , ottr:Triple(?personIRI, foaf:lastName, ?lastname) , ottr:Triple(?personIRI, foot:birthday, ?birthday) , ottr:Triple(?personIRI, foot:currentClub, ?currentClub) , ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory) , ottr:Triple(?personIRI, foot:marketValue, ?marketValue) , ottr:Triple(?personIRI, foot:position, ?position) , ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Ball[ottr:IRI ?ballIRI, xsd:duration ?ballType] :: { o-rdf:Type(?ballIRI, foot:Ball), ottr:Triple(?ballIRI, foot:ballType, ?ballType) } .
+foot:Ball[ottr:IRI ?ballIRI, xsd:unsignedInt ?ballType] :: { o-rdf:Type(?ballIRI, foot:Ball), ottr:Triple(?ballIRI, foot:ballType, ?ballType) } .
+foot:Ball[ottr:IRI ?ballIRI, owl:NamedIndividual ?ballType] :: { o-rdf:Type(?ballIRI, foot:Ball), ottr:Triple(?ballIRI, foot:ballType, ?ballType) } .
+foot:Ball[ottr:IRI ?ballIRI, xsd:nonPositiveInteger ?ballType] :: { o-rdf:Type(?ballIRI, foot:Ball), ottr:Triple(?ballIRI, foot:ballType, ?ballType) } .
+foot:Ball[ottr:IRI ?ballIRI, rdfs:Literal ?ballType] :: { o-rdf:Type(?ballIRI, foot:Ball), ottr:Triple(?ballIRI, foot:ballType, ?ballType) } .

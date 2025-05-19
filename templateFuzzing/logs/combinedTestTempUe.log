@@ -1,0 +1,104 @@
+2025-04-15 11:58:43,118 - INFO - Template 1 processed in 4.17 seconds
+2025-04-15 11:58:43,119 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'O' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 6 column 50
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvuzz3f_c.stottr
+
+[WARNING] Template http://www.w3.org/2001/XMLSchema#Annotation has an empty pattern. Instances of this template will yield an empty expansion result.
+Location(s):
+- Template with IRI 'http://www.w3.org/2001/XMLSchema#Annotation'
+- Signature with IRI 'http://www.w3.org/2001/XMLSchema#Annotation'
+- File C:\Users\adria\AppData\Local\Temp\tmpvuzz3f_c.stottr
+
+
+2025-04-15 11:58:43,120 - ERROR - Output: 
+2025-04-15 11:58:43,120 - ERROR - Template 1: xsd:Annotation [  ] :: {  } .
+
+2025-04-15 11:58:43,120 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'O' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 6 column 50
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpvuzz3f_c.stottr
+
+[WARNING] Template http://www.w3.org/2001/XMLSchema#Annotation has an empty pattern. Instances of this template will yield an empty expansion result.
+Location(s):
+- Template with IRI 'http://www.w3.org/2001/XMLSchema#Annotation'
+- Signature with IRI 'http://www.w3.org/2001/XMLSchema#Annotation'
+- File C:\Users\adria\AppData\Local\Temp\tmpvuzz3f_c.stottr
+
+
+2025-04-15 11:58:43,120 - ERROR - Output: 
+2025-04-15 11:58:46,852 - INFO - Template 2 processed in 3.73 seconds
+2025-04-15 11:58:46,853 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'O' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 6 column 50
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb2ezmji6.stottr
+
+[WARNING] Template http://example.org/football#Footballer has an empty pattern. Instances of this template will yield an empty expansion result.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpb2ezmji6.stottr
+
+
+2025-04-15 11:58:46,853 - ERROR - Output: 
+2025-04-15 11:58:46,853 - ERROR - Template 2: foot:Footballer [  ] :: {  } .
+
+2025-04-15 11:58:46,853 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'O' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 6 column 50
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpb2ezmji6.stottr
+
+[WARNING] Template http://example.org/football#Footballer has an empty pattern. Instances of this template will yield an empty expansion result.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpb2ezmji6.stottr
+
+
+2025-04-15 11:58:46,853 - ERROR - Output: 
+2025-04-15 11:58:50,441 - INFO - Template 3 processed in 3.58 seconds
+2025-04-15 11:58:50,442 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'O' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 6 column 50[ERROR] Syntax error: token recognition error at: '//' at line 7 column 74[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: token recognition error at: '/f' at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp3kulx5d.stottr
+
+[ERROR] Error building template.
+  [ERROR] Error in instance of template 'http://ns.ottr.xyz/0.4/Triple'.
+    [ERROR] Error in argument.
+      [ERROR] Unrecognized prefix 'http' in 'http:' at line 7 column 69
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3kulx5d.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3kulx5d.stottr
+
+
+2025-04-15 11:58:50,442 - ERROR - Output: 
+2025-04-15 11:58:50,442 - ERROR - Template 3: foot:Footballer [ ottr:IRI ?personIRI ] :: { ottr:Triple(?personIRI, http://example.org/football#d, ?object) } .
+2025-04-15 11:58:50,442 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'O' expecting {<EOF>, 'BASE', '@prefix', '@base', 'PREFIX', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 6 column 50[ERROR] Syntax error: token recognition error at: '//' at line 7 column 74[ERROR] Syntax error: extraneous input 'example.org' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: token recognition error at: '/f' at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp3kulx5d.stottr
+
+[ERROR] Error building template.
+  [ERROR] Error in instance of template 'http://ns.ottr.xyz/0.4/Triple'.
+    [ERROR] Error in argument.
+      [ERROR] Unrecognized prefix 'http' in 'http:' at line 7 column 69
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://ns.ottr.xyz/0.4/Triple'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3kulx5d.stottr
+
+[ERROR] Error building template.
+Location(s):
+- Template with IRI 'http://example.org/football#Footballer'
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpp3kulx5d.stottr
+
+
+2025-04-15 11:58:50,442 - ERROR - Output: 

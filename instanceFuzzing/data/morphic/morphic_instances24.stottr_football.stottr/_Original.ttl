@@ -1,0 +1,162 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foaf:name         "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b1    foaf:name         "" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b2    foaf:name         "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b3    foaf:name         "" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b4    foaf:name         ")" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b5    foaf:name         "" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b6    foot:country      "Argentina" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b7    foot:country      "Egypt" ;
+        foot:stadiumName  "Parc des Princes" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         ";" .
+
+_:b8    foot:country      "Argentina" ;
+        foot:stadiumName  "Anfield" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "%" .
+
+_:b9    foaf:name         "[PK" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b10   foot:country      "*jb6Gt" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b11   foaf:name         "Serie A" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b12   foaf:name         "Premier League" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b13   foaf:name         "" ;
+        foot:foundedYear  "2018"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b14   foot:country      "Portugal" ;
+        foaf:birthDate    "2028-12-03"^^xsd:date ;
+        foot:marketValue  010 ;
+        foot:clubHistory  _:b15 .
+
+_:b15   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b14   rdf:type         foot:Footballer ;
+        foot:position    "Striker"@us ;
+        foaf:name        "" ;
+        foaf:familyName  "Mbappe" .
+
+_:b16   foot:country      ";" ;
+        foot:stadiumName  "Allianz Stadium" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Liverpool" .
+
+_:b17   foaf:name         "" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b18   foot:country      "Egypt" ;
+        foot:stadiumName  "Camp Nou" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Barcelona" .
+
+_:b19   foaf:name         "La Liga" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b20   foot:country      "Argentina" ;
+        foot:stadiumName  "Old Trafford" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "-" .
+
+_:b21   foaf:name         "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b22   foaf:name         "Premier League" ;
+        foot:foundedYear  "2017"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b23   foaf:name         "La Liga" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b24   foot:country      "" ;
+        foot:stadiumName  "(" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Juventus" .
+
+_:b25   foaf:name         "" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b26   foot:country      "" ;
+        foot:stadiumName  "" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "" .
+
+_:b27   foaf:name         "Serie A" ;
+        foot:foundedYear  "2015"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b28   foaf:name         "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b29   foaf:name         "" ;
+        foot:foundedYear  "2019"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b30   foaf:name         "" ;
+        foot:foundedYear  "2016"^^xsd:gYear ;
+        rdf:type          foot:League .
+
+_:b31   foot:country      "France" ;
+        foot:stadiumName  "^" ;
+        foot:foundedYear  ""^^xsd:gYear ;
+        rdf:type          foot:Club ;
+        foaf:name         "Liverpool" .

@@ -1,0 +1,107 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+foot:Footballer(_:FVz,"Lionel","Mbappe","2021-11-13"^^xsd:date,none,(),100000000,"Goalkeeper","England") .
+foot:Footballer(_:ORX,"Amadou","Ronaldo","1974-01-02"^^xsd:date,_:Juventus,((), ()),100100100100100100100100100,"Striker"@en,"Argentina") .
+foot:Footballer(_:WMN,"Cristiano","Núñez","1968-09-07"^^xsd:date,_:ParisSaintGermain,(("Vålerenga"@no, ()), ((), (), (), (), "Inter Milan", "AS Roma", "Borussia Dortmund", "Arsenal FC")),502498674,"Defender","Egypt") .
+foot:Footballer(_:iUG,"Lionel","Østergaard","1958-06-03"^^xsd:date,none,(),100000000,"Forward","Portugal") .
+foot:Footballer(_:weg,"Lionel","Mc'Donald","1990-08-04"^^xsd:date,none,(),100000000,"Midfielder","France") .
+foot:Footballer(_:yPa,"Amadou","Al-Hassan","1983-10-05"^^xsd:date,none,(),584654859,"Forward","France") .
+foot:Footballer(_:DlE,"Lionel","Håkon","1991-03-10"^^xsd:date,none,("Manchester United", "Paris Saint-Germain", "Valencia CF", "Olympique Lyonnais"),100100100100100100100100100,"Goalkeeper","Egypt") .
+foot:Footballer(_:hSm,"Amadou","Van der Waals","2012-05-06"^^xsd:date,none,(((), (), (), (), (), (), (), (), ((), (), (), (), "Arsenal FC", "Juventus FC", "Valencia CF", "FC Barcelona"), ((), (), (), (), "FC Schalke 04", "FC Porto", "Tottenham Hotspur", "Olympique de Marseille"), ((), (), (), (), "Real Madrid", "Atletico Madrid", "Tottenham Hotspur", "Juventus FC"), ((), (), (), (), "Ajax Amsterdam", "Benfica", "Olympique de Marseille", "AC Milan")), ()),100100100100100100100100100,"Defender","Argentina") .
+foot:Footballer(_:jtd,"Cristiano","Fernandes","2001-04-15"^^xsd:date,_:Barcelona,((("Ajax Amsterdam", ((), ((), ("Borussia Dortmund")))), ("Vålerenga"@no, ((), ((), ("Benfica")))), ("Benfica", ((), ((), ("AS Roma")))), ("Benfica", ((), ((), ("Atletico Madrid")))), ("Juventus FC", ((), ((), ("FC Porto")))), ("AS Roma", ((), ((), ("AS Roma")))), ("FC Barcelona", ((), ((), ("FC Barcelona")))), ("Vålerenga"@no, ((), ((), ("Ajax Amsterdam")))), ("Manchester United", ((), ((), ("Atletico Madrid")))), ("Valencia CF", ((), ((), ("Vålerenga"@no)))), ("Arsenal FC", ((), ((), ("Benfica")))), ("Atletico Madrid", ((), ((), ("Inter Milan")))), ("Inter Milan", ((), ((), ("Borussia Dortmund")))), ("Borussia Dortmund", ((), ((), ("Benfica")))), ("Valencia CF", ((), ((), ("Olympique de Marseille")))), ("Paris Saint-Germain", ((), ((), ("FC Barcelona"))))),(((), ((), (), (), (), "Borussia Dortmund", "Real Madrid", "Benfica", "Real Madrid")))),100000000,"Goalkeeper","Argentina") .
+foot:Footballer(_:kuf,"Cristiano","Brontë","1959-12-16"^^xsd:date,none,((((), "FC Porto")())()),100100100100100100100100100,"Defender","France") .
+foot:Footballer(_:Bvu,"Lionel","Ronaldo","1951-03-07"^^xsd:date,_:WislaKrakow,(("FC Schalke 04"@zh, "AS Roma"), (("Inter Milan", ((), ("Ajax Amsterdam"))), ("Borussia Dortmund", ((), ("Tottenham Hotspur"))), ("Juventus FC", ((), ("Benfica"))), ("Valencia CF", ((), ("Atletico Madrid"))), ("Paris Saint-Germain", ((), ("FC Barcelona"))), ("AC Milan", ((), ("Vålerenga"@no))), ("Arsenal FC", ((), ("FC Porto"))), ("Olympique de Marseille", ((), ("Real Madrid"))))),100000000,"Midfielder","Argentina") .
+foot:Footballer(_:JeW,"Cristiano","Çelik","2009-11-14"^^xsd:date,none,(),100100100100100100100100100,"Goalkeeper","Egypt") .
+foot:Footballer(_:AaN,"Amadou","Pérez","1998-02-04"^^xsd:date,none,((), ()),100100100100100100100100100,"Defender","France") .
+foot:Footballer(_:zEO,"Amadou","Messi","1975-09-17"^^xsd:date,none,(),100100100100100100100100100,"Forward","England") .
+foot:Footballer(_:Fjt,"Amadou","D'Artagnan","1986-01-12"^^xsd:date,none,(),100000000,"Striker"@en,"Portugal") .
+foot:Footballer(_:Hbi,"Amadou","Al-Hassan","2020-06-08"^^xsd:date,none,(((), (), (), (), (), (), (), (), ((), (), (), (), "Olympique Lyonnais", "Olympique de Marseille", "Ajax Amsterdam", "AC Milan"), ((), (), (), (), "Manchester United", "FC Barcelona", "AC Milan", "Olympique Lyonnais"), ((), (), (), (), "Juventus FC", "Real Madrid", "Inter Milan", "Valencia CF"), ((), (), (), (), "Juventus FC", "Real Madrid", "Olympique Lyonnais", "Atletico Madrid")), ()),100100100100100100100100100,"Midfielder","Egypt") .
+foot:Footballer(_:dsh,"Cristiano","Núñez","1962-03-05"^^xsd:date,_:Barcelona,("FC Schalke 04", ()),287958335,"Midfielder","England") .
+foot:Footballer(_:gRY,"Cristiano","Björk","2014-11-05"^^xsd:date,_:VAlerenga,(),395780623,"Midfielder","France") .
+foot:Footballer(_:xoI,"Cristiano","Van der Waals","2013-11-05"^^xsd:date,none,(),288466538,"Midfielder","Argentina") .
+foot:Footballer(_:KPC,"Lionel","Müller","1965-11-01"^^xsd:date,none,((((), "AS Roma")())()),100000000,"Goalkeeper","France") .
+foot:Footballer(_:hql,"Amadou","Mbappe","1984-11-06"^^xsd:date,none,(),100100100100100100100100100,"Goalkeeper","England") .
+foot:Footballer(_:syN,"Cristiano","Mc'Donald","2006-01-11"^^xsd:date,none,(),100000000,"Forward","Portugal") .
+foot:Footballer(_:XnR,"Lionel","O'Neil","1967-07-10"^^xsd:date,none,(),100100100100100100100100100,"Striker"@en,"Egypt") .
+foot:Footballer(_:bFZ,"Amadou","Fernandes","1993-02-08"^^xsd:date,none,(),100000000,"Midfielder","France") .
+foot:Footballer(_:MLH,"Cristiano","Ronaldo","1972-05-03"^^xsd:date,none,(),100100100100100100100100100,"Defender","Argentina") .
+foot:Footballer(_:aJW,"Amadou","Brontë","1959-12-04"^^xsd:date,none,("Tottenham Hotspur", ()),100000000,"Forward","Portugal") .
+foot:Footballer(_:AeU,"Cristiano","Renée","1968-09-15"^^xsd:date,none,(),100000000,"Forward","Portugal") .
+foot:Footballer(_:pIV,"Amadou","Van der Waals","2024-12-03"^^xsd:date,none,(),100000000,"Midfielder","Argentina") .
+foot:Footballer(_:Kic,"Cristiano","Björk","1975-09-10"^^xsd:date,none,(),502239045,"Goalkeeper","Portugal") .
+foot:Footballer(_:mYB,"Amadou","Müller","2029-09-08"^^xsd:date,none,(),100100100100100100100100100,"Defender","Portugal") .
+foot:Footballer(_:jbE,"Amadou","Núñez","2024-11-19"^^xsd:date,none,(),100000000,"Striker"@en,"France") .
+foot:Footballer(_:uZL,"Lionel","Mbappe","1980-09-04"^^xsd:date,none,(),100100100100100100100100100,"Defender","Argentina") .
+foot:Footballer(_:kiP,"Cristiano","Ronaldo","1998-05-01"^^xsd:date,none,(),100100100100100100100100100,"Midfielder","Egypt") .
+foot:Footballer(_:WQc,"Lionel","D'Artagnan","1967-06-11"^^xsd:date,none,(),100000000,"Forward","Portugal") .
+foot:Footballer(_:fIO,"Amadou","Østergaard","1973-03-16"^^xsd:date,none,(),100100100100100100100100100,"Goalkeeper","England") .
+foot:Footballer(_:vSo,"Lionel","Messi","1950-02-08"^^xsd:date,none,(),594125305,"Striker"@en,"Portugal") .
+foot:Footballer(_:dnA,"Cristiano","Çelik","2007-08-07"^^xsd:date,none,(),100000000,"Forward","Egypt") .
+foot:Footballer(_:mYl,"Amadou","Pérez","1950-10-05"^^xsd:date,none,(),100000000,"Forward","France") .
+foot:Footballer(_:DJG,"Cristiano","O'Neil","1999-02-11"^^xsd:date,none,(),715056908,"Goalkeeper","England") .
+foot:Footballer(_:TXV,"Cristiano","Fernandes","2014-11-15"^^xsd:date,none,(),100000000,"Defender","France") .
+foot:Footballer(_:VeO,"Cristiano","Østergaard","2007-12-12"^^xsd:date,none,(),100000000,"Defender","Argentina") .
+foot:Footballer(_:QpL,"Amadou","Çelik","1989-09-01"^^xsd:date,none,(),100100100100100100100100100,"Midfielder","Portugal") .
+foot:Footballer(_:CAi,"Lionel","Messi","1970-08-14"^^xsd:date,_:WislaKrakow,(),100100100100100100100100100,"Goalkeeper","France") .
+foot:Footballer(_:ngM,"Lionel","Van der Waals","1996-07-05"^^xsd:date,_:ManchesterUnited,("Benfica", "Paris Saint-Germain"),100100100100100100100100100,"Striker"@en,"England") .
+foot:Footballer(_:ISP,"Lionel","Fernandes","1963-04-03"^^xsd:date,none,(),100100100100100100100100100,"Forward","Egypt") .
+foot:Footballer(_:Utz,"Lionel","Ronaldo","1955-02-18"^^xsd:date,none,(),100100100100100100100100100,"Forward","Argentina") .
+foot:Footballer(_:Wch,"Lionel","Núñez","2018-11-11"^^xsd:date,_:RCStrasbourg,(),100100100100100100100100100,"Forward","Portugal") .
+foot:Footballer(_:dXJ,"Amadou","Håkon","2008-06-10"^^xsd:date,_:Barcelona,((), ((), (), (), (), "Inter Milan", "Borussia Dortmund", "AS Roma", "Tottenham Hotspur")),100100100100100100100100100,"Goalkeeper","France") .
+foot:Footballer(_:Kau,"Lionel","Brontë","2005-02-13"^^xsd:date,_:ParisSaintGermain,(),104227043,"Striker"@en,"England") .
+foot:Footballer(_:HkE,"Cristiano","Pérez","1990-11-14"^^xsd:date,none,(),100100100100100100100100100,"Goalkeeper","Egypt") .
+foot:Footballer(_:VIM,"Amadou","Håkon","2007-05-09"^^xsd:date,none,("Borussia Dortmund", "Olympique Lyonnais"),100100100100100100100100100,"Goalkeeper","Portugal") .
+foot:Footballer(_:PkQ,"Lionel","Renée","1994-11-18"^^xsd:date,none,(),241351960,"Forward","Egypt") .
+foot:Footballer(_:dwO,"Cristiano","O'Connor","1962-04-06"^^xsd:date,none,("Vålerenga"@no, ()),100000000,"Midfielder","England") .
+foot:Footballer(_:nlx,"Amadou","Messi","1970-08-01"^^xsd:date,none,(),508328369,"Striker"@en,"Argentina") .
+foot:Footballer(_:UrC,"Lionel","Çelik","1985-03-02"^^xsd:date,none,(),100100100100100100100100100,"Defender","France") .
+foot:Footballer(_:YmD,"Lionel","Al-Hassan","1950-12-07"^^xsd:date,none,(),100000000,"Striker"@en,"England") .
+foot:Footballer(_:Seu,"Cristiano","Núñez","2004-12-07"^^xsd:date,none,(),100000000,"Goalkeeper","England") .
+foot:Footballer(_:NHF,"Cristiano","O'Neil","2025-12-14"^^xsd:date,_:ParisSaintGermain,(((), (), (), (), (), (), (), (), ((), (), (), (), "FC Porto", "Real Madrid", "Atletico Madrid", "Arsenal FC"), ((), (), (), (), "FC Barcelona", "Atletico Madrid", "FC Schalke 04", "Real Madrid"), ((), (), (), (), "Manchester United", "Ajax Amsterdam", "Olympique de Marseille", "Inter Milan"), ((), (), (), (), "AC Milan", "AS Roma", "Paris Saint-Germain", "FC Barcelona")),(((), (), (), (), "Tottenham Hotspur", "Benfica", "Juventus FC", "Valencia CF"))),050035053,"Forward","Argentina") .
+foot:Footballer(_:Lvy,"Lionel","Fiancée","2026-09-01"^^xsd:date,none,(((), (), (), (), (), (), (), (), ((), (), (), (), "AS Roma", "Paris Saint-Germain", "Olympique Lyonnais", "Manchester United"), ((), (), (), (), "AC Milan", "FC Schalke 04", "Ajax Amsterdam", "Benfica"), ((), (), (), (), "Manchester United", "FC Porto", "FC Porto", "Juventus FC"), ((), (), (), (), "Real Madrid", "Benfica", "Tottenham Hotspur", "Tottenham Hotspur")), ()),100000000,"Forward","Egypt") .
+foot:Footballer(_:pTz,"Amadou","Østergaard","2006-08-08"^^xsd:date,none,(),100000000,"Defender","Egypt") .
+foot:Footballer(_:ZuT,"Cristiano","Núñez","1999-11-16"^^xsd:date,none,(),100000000,"Forward","England") .
+foot:Footballer(_:hHC,"Lionel","Håkon","2027-07-09"^^xsd:date,none,(),100100100100100100100100100,"Striker"@en,"Portugal") .
+foot:Footballer(_:VUz,"Amadou","Fiancée","1951-05-10"^^xsd:date,none,(),100100100100100100100100100,"Goalkeeper","Egypt") .
+foot:Footballer(_:XgN,"Lionel","Müller","1985-03-06"^^xsd:date,_:RCStrasbourg,(((), (), (), (), (), (), (), (), ((), (), (), (), "Juventus FC", "FC Schalke 04", "Manchester United", "AC Milan"), ((), (), (), (), "AS Roma", "Paris Saint-Germain", "Borussia Dortmund", "Inter Milan"), ((), (), (), (), "Olympique de Marseille", "Real Madrid", "Arsenal FC", "Benfica"), ((), (), (), (), "Ajax Amsterdam", "Vålerenga"@no, "Atletico Madrid", "FC Porto")),(((), (), (), (), "Olympique Lyonnais", "FC Barcelona", "Valencia CF", "Tottenham Hotspur"))),100000000,"Defender","France") .
+foot:Footballer(_:Ert,"Cristiano","O'Connor","1978-01-02"^^xsd:date,none,(),100000000,"Midfielder","Argentina") .
+foot:Footballer(_:kab,"Cristiano","Björk","1960-04-08"^^xsd:date,none,(),249457436,"Striker"@en,"Egypt") .
+foot:Footballer(_:WLq,"Cristiano","Østergaard","2002-10-11"^^xsd:date,none,((((), "Manchester United")())()),100100100100100100100100100,"Defender","England") .
+foot:Footballer(_:OQd,"Lionel","D'Artagnan","2005-12-03"^^xsd:date,_:Juventus,("AS Roma"@sv, "Ajax Amsterdam", "Manchester United", "Arsenal FC"),100000000,"Striker"@en,"France") .
+foot:Footballer(_:sBm,"Cristiano","Fernandes","1985-11-18"^^xsd:date,none,(),100000000,"Defender","France") .
+foot:Footballer(_:pDo,"Cristiano","Pérez","2001-11-17"^^xsd:date,none,(),100100100100100100100100100,"Forward","France") .
+foot:Footballer(_:XdV,"Cristiano","Al-Hassan","2027-05-01"^^xsd:date,none,(((), (), (), (), (), (), (), (), ((), (), (), (), "Benfica", "Paris Saint-Germain", "Juventus FC", "Arsenal FC"), ((), (), (), (), "FC Barcelona", "Olympique Lyonnais", "Manchester United", "AS Roma"), ((), (), (), (), "Inter Milan", "Olympique de Marseille", "Ajax Amsterdam", "Valencia CF"), ((), (), (), (), "Real Madrid", "Vålerenga"@no, "FC Schalke 04", "AC Milan")),(((), (), (), (), "FC Porto", "Atletico Madrid", "Tottenham Hotspur", "Borussia Dortmund"))),100100100100100100100100100,"Defender","England") .
+foot:Footballer(_:Kak,"Amadou","Ronaldo","1960-10-19"^^xsd:date,none,(),130386452,"Striker"@en,"Portugal") .
+foot:Footballer(_:xCB,"Lionel","Håkon","1998-06-09"^^xsd:date,none,(),100000000,"Goalkeeper","Egypt") .
+foot:Footballer(_:hrI,"Cristiano","Müller","1984-04-07"^^xsd:date,_:Liverpool,(),100000000,"Forward","France") .
+foot:Footballer(_:EHT,"Cristiano","Pérez","1952-03-08"^^xsd:date,none,(),100000000,"Midfielder","Argentina") .
+foot:Footballer(_:QOA,"Cristiano","O'Neil","1976-11-02"^^xsd:date,none,(),100100100100100100100100100,"Striker"@en,"France") .
+foot:Footballer(_:iwz,"Lionel","Mbappe","1956-10-02"^^xsd:date,none,(),100100100100100100100100100,"Midfielder","Portugal") .
+foot:Footballer(_:jSq,"Lionel","O'Connor","1991-12-05"^^xsd:date,_:VAlerenga,(),100100100100100100100100100,"Midfielder","England") .
+foot:Footballer(_:syN,"Amadou","Østergaard","2002-09-11"^^xsd:date,none,("Juventus FC", ()),100100100100100100100100100,"Forward","France") .
+foot:Footballer(_:RbW,"Amadou","Mc'Donald","1995-11-15"^^xsd:date,_:ParisSaintGermain,("FC Schalke 04", "Olympique de Marseille", "Olympique Lyonnais", "Paris Saint-Germain"),100000000,"Defender","England") .
+foot:Footballer(_:pRZ,"Amadou","Fiancée","2026-04-09"^^xsd:date,none,(),100000000,"Midfielder","France") .
+foot:Footballer(_:qEH,"Lionel","Pérez","1991-11-14"^^xsd:date,_:Barcelona,(),892087935,"Forward","Portugal") .
+foot:Footballer(_:bkM,"Cristiano","O'Connor","1955-08-01"^^xsd:date,none,(),100100100100100100100100100,"Defender","Egypt") .
+foot:Footballer(_:GeS,"Cristiano","Van der Waals","1978-02-03"^^xsd:date,none,(),100000000,"Striker"@en,"England") .
+foot:Footballer(_:QiK,"Lionel","Çelik","1967-06-07"^^xsd:date,none,(),100000000,"Goalkeeper","Argentina") .
+foot:Footballer(_:PJo,"Lionel","Brontë","1987-10-05"^^xsd:date,none,("Olympique Lyonnais", ()),100000000,"Forward","England") .
+foot:Footballer(_:Yfl,"Amadou","Mbappe","2011-12-19"^^xsd:date,none,(),100000000,"Midfielder","Argentina") .
+foot:Footballer(_:rCu,"Cristiano","Fernandes","1971-07-11"^^xsd:date,none,(),816943117,"Forward","France") .
+foot:Footballer(_:gOd,"Amadou","O'Neil","1967-05-10"^^xsd:date,none,((((), "Vålerenga"@no)())()),100000000,"Defender","Argentina") .
+foot:Footballer(_:WLy,"Cristiano","D'Artagnan","2003-10-18"^^xsd:date,none,(),100100100100100100100100100,"Defender","England") .
+foot:Footballer(_:tHu,"Amadou","Núñez","1983-02-01"^^xsd:date,none,(),100000000,"Striker"@en,"France") .
+foot:Footballer(_:ByC,"Lionel","Messi","2005-11-11"^^xsd:date,_:Juventus,(((), (), (), (), (), (), (), (), ((), (), (), (), "Arsenal FC", "AC Milan", "Real Madrid", "Olympique Lyonnais"), ((), (), (), (), "Atletico Madrid", "Ajax Amsterdam", "Valencia CF", "Juventus FC"), ((), (), (), (), "Inter Milan", "FC Schalke 04", "Benfica", "Olympique de Marseille"), ((), (), (), (), "Paris Saint-Germain", "Vålerenga"@no, "Manchester United", "Borussia Dortmund")),(((), (), (), (), "Tottenham Hotspur", "AS Roma", "FC Porto", "FC Barcelona"))),100100100100100100100100100,"Forward","Argentina") .
+foot:Footballer(_:DVm,"Cristiano","O'Neil","1970-04-06"^^xsd:date,none,(),452765982,"Defender","Egypt") .
+foot:Footballer(_:jXK,"Amadou","Björk","1996-05-08"^^xsd:date,_:Liverpool,(((), (("Olympique de Marseille", ((), ("Inter Milan"))), ("Olympique Lyonnais", ((), ("FC Barcelona"))), ("Ajax Amsterdam", ((), ("Borussia Dortmund"))), ("Vålerenga"@no, ((), ("Manchester United"))), ("FC Barcelona", ((), ("Arsenal FC"))), ("Inter Milan", ((), ("Real Madrid"))), ("Olympique de Marseille", ((), ("Valencia CF"))), ("Juventus FC", ((), ("Benfica"))))), ()),100100100100100100100100100,"Midfielder","England") .
+foot:Footballer(_:NQw,"Amadou","Mc'Donald","1953-03-07"^^xsd:date,none,((((), "AC Milan")())()),100000000,"Goalkeeper","Portugal") .
+foot:Footballer(_:YkP,"Lionel","Müller","1966-09-01"^^xsd:date,none,(),859978695,"Goalkeeper","England") .
+foot:Footballer(_:dUT,"Amadou","Al-Hassan","2028-05-13"^^xsd:date,none,("Olympique de Marseille", "Juventus FC"),100000000,"Defender","Portugal") .
+foot:Footballer(_:cSz,"Lionel","Pérez","1953-03-04"^^xsd:date,none,("Paris Saint-Germain", ()),100000000,"Defender","Portugal") .
+foot:Footballer(_:Jsa,"Cristiano","Østergaard","1957-12-13"^^xsd:date,none,(),178517105,"Midfielder","France") .
+foot:Footballer(_:MoZ,"Amadou","Ronaldo","2004-12-12"^^xsd:date,none,(),100100100100100100100100100,"Defender","France") .

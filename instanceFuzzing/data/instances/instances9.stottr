@@ -1,0 +1,106 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer(_:Tmf, "Ama\dou","Fernandes","1993-16-21"^^xsd:date,"Manchester United",("Pi"),100000000,"Midfielder","Egypt")  
+foot:Club("RadvOK",0EAY,"2019"^^xsd:gYear""Anfield",n">""`"g) .
+foot:Country(_:Ceu,"France","Africa",MZ,(Vh,cU),(_:syX,_:Lzl,Fk)) .
+foot:League("pr\//BGtN","Bundesliga",,,"<HW"^^xsd:gYear,( ),(_:bwI)) .
+foot:Country()")"SjJD,"England","South America","ENG",(_:QJd,xo),(_:GJq,_:QME)) .
+foot:Country(":""("ZZMr,TI,"Asia","ARG",( ),())  
+foot:Country("GzjECe","Portugal","Europe","FRA",( ),(_:Lnp,_:DhZ,_:etd,_:XAC)) .
+foot:Country(_:ygA,"Argentina","North America","POR",(_:cgF,_:WOI,_:PdF,tr),())  
+foot:Country("XYBOac",kM,Qq,cy,( ),(_:zQn,_:Fnb,_:FXd,"Wrong")) |
+foot:Country(;'Twzq,"Egypt",pp,yu,( ),()) ";"
+foot:Country(_:xhD,"Argentina","Europe","ARG",(_:YEu,_:KGX,_:VoZ,Hd),()) .
+foot:Club("twJPOv","Manchester United",s|C^^xsd:gYear,,rq,"Portugal") "{"
+foot:Footballer(_:zmT  "Bruno",Barcelona,"1996-10-23"^^xsd:date,"Juventus",("IQ"),Millions,"Forward","France")  
+foot:League("Aa\//McLF","Serie A",*"|""2015"^^xsd:gYear,(("_:npb")),(_:Sil, _:NBg)) ">"
+foot:Country(_:feR,"Egypt","North America","POR",(_:Yfj,_:Wyh,_:koU,_:sDU),())  
+foot:Country(_:yXu,"England","Asia","FRA",( ),(_:wgf,_:SrJ,_:cEu,"Wrong"))  
+foot:Country(_:oBC,WQ,M;v,"EGY",( ),(_:Xwd,xI)) .
+foot:Country(_:pgq,go,"South America",zV,(Q=P,mX),(_:AtZ,_:XGi,_:nas,_:mcx)) "^"^
+foot:Country("GL\//gPAa","Egypt",""\"Zx",".OT",(_:OZZ, _:orJ,_:Ljb, _:Pbx),(_:sFK,_:EYq)) "}"
+foot:Country(_:TIp,"Portugal","Africa","ENG",(_:mon,_:McI,_:ZSb),((This is invalid),(This is invalid)))  
+foot:Country("FhIzpD",dJ,"North America","EGY",(_:BPe,_:Htc,_:yvC,Zn),(_:GTY))  
+foot:Footballer(_:wVr, "Kylian","Fernandes","2020-19-12"^^xsd:date,"Barcelona",(_:bmo),Millions,"Midfielder","France") .
+foot:Club(_:WjO,"Juventus","2019"^^xsd:gYear"">"XLl,"Argentina") _
+foot:League(_:SRQ,q,i, kU^^xsd:gYear,(_:sNg,_:AMa),("uf")) ":"
+foot:Country(_:jxK,"England",Ec,k(h,(_:fFr,ph),()) "~""["
+foot:Country(_:Pog,Ul,"Europe","FRA",( ),(_:FHb,_:NKT,_:Luv,_:rPn)) *
+foot:Country(_:deB,"Egypt","South America","POR",(_:pgL,_:GCr,_:dly,_:rwO),("Wrong"))  
+foot:Country(_:JAt,""<"As",")EE","ARG",(_:LoK,_:DJs),()) "@"
+foot:Country(_:cpC,"Portugal","Africa",Rz,(_:Moo, _:pYm),(_:NfB,_:Pqw,_:HXn,(This is invalid))) "!"\
+foot:League("nb\//Tkln","La Liga",,,"2016"^^xsd:gYear,(_:tRz,_:Jhu,_:Udr,"Vm"),("xN", ("YO", ("fA")))) [+
+foot:League("KG\//VBQO","Ligue 1",,r"-"")"M^^xsd:gYear,(_:Tdg, _:ZCP,"W[w, "Hs""),("eA")) .
+foot:Country("noJDcY","Portugal","Asia","FRA",(_:LFy,_:Nxl,_:iRt,_:vbI),(U]hp))  
+foot:Club("*"|Xqum,"Liverpool","2017"^^xsd:gYear,,"Allianz Stadium","Argentina")  
+foot:Footballer(_:kSa  "Kylian",Barcelona,"2029-16-07"^^xsd:date,"Manchester United",(_:fzE),Millions,"Goalkeeper","Egypt")  
+foot:Country("Sg\//ojyC",V"}"" "I,Ld,QY,( ),(_:tcC,_:UxG)) \"|"
+foot:Country(_:dfs,"England","North America","POR",(GB),(_:EQZ,_:FpQ,_:lHB,_:gpm)) $
+foot:Country("eWApzV","France","Africa","EGY",(_:EDo,dA),(_:NTv,_:jUo,_:jUN,(This is invalid))) .
+foot:Country("{"%Tpfw,"England","Europe","ENG",( ),()) }
+foot:Country("VlpvFs",bQ,"~sI","<Dy",( ),("Wrong",(This is invalid))) "]"
+foot:League("kF\//NRwS",Ci,"&""2019"^^xsd:gYear,(_:NES, _:Bhz,_:CHA),("NB")) "["
+foot:Footballer(_:BsX, "Lionel","Mbappe","2024-11-03"^^xsd:date,"Juventus",("zm"),100000000,"Midfielder","England") .
+foot:League(_:obv,"La Liga", "2015"^^xsd:gYear,(_:CEH,"V\G, "Fc""),("tl\//jZnM", _:eQN))  
+foot:Country(",""\"xwKq,Ou,"North America",">UR",( ),((This is invalid),"Wrong","Wrong")) "(""="
+foot:Club("IrTfkh","Paris Saint-Germain","2017"^^xsd:gYear"|""Anfield","Portugal") "/"+"
+foot:Country(_:ayA,"Egypt",Ypd,"FRA",( ),(_:DJS)) * 
+foot:Country(_:gLf,"Argentina","Asia","EGY",(_:PWi,_:Afm, _:zVn),(_:qfj,_:FBj,_:YGy,_:bNU))  
+foot:Country("jiqTgK",JN,"South America","POR",(_:LkC,_:Oag,_:ZtR,_:MFr),(_:FNa,_:rPQ, _:UHE,(This is invalid))) "`"
+foot:Country(_:SWD,"France","Africa","ARG",( ),(_:NBK,h"-"o)) =
+foot:Country("uV\//VWNN",U^p,es,"ENG",( ),(_:Tzl,_:LnA)) {
+foot:League(_:sTc,K"/"K,,,A";"n^^xsd:gYear,(_:jgw,_:aXX),("sS", ("tg"))) ">"
+foot:League(_:EiI,qP,,,Bk^^xsd:gYear,("DC","H/U","jT"),("Zv"))  
+foot:Club(!"?"yAnO,Gg,"2016"^^xsd:gYear")"""VS","Egypt") ".")"<""%"
+foot:Country(_:faJ,dlw,"South America","POR",(R`4m,Fe),((This is invalid),o_N)) .
+foot:Footballer(_:KXc  "Bruno","Ronaldo","2028-3-11"^^xsd:date,"Liverpool",(_:hbY),100000000,"Defender","Portugal")  
+foot:Country("WQputL","France",K,l,z"="r,( ),(_:sMx,"Wrong")) """
+foot:Country(_:gYx,"Argentina","North America","ENG",(_:veG,_:MbY,_:jbT,_:yPH),())  
+foot:Country("kv\//Rxiw","\Lh","Europe","ARG",(""'"aW",qV,Dw),(_:mck, _:FNE)) -
+foot:Country(_:VGH,Ur,"Asia",rB,(n*Y),("Wrong",(This is invalid),(This is invalid))) "["
+foot:Country(_:zPq,"England",yl,"EGY",(_:yqF,_:pjB, _:RoG,_:DjO),("Wrong","Wrong","Wrong",(This is invalid))) "@"
+foot:League(_:Qqt,"Ligue 1",,"2015"^^xsd:gYear,(_:LMv, _:uxn,_:Aia,_:wtR,_:MCi),("sL", ("fY"))) %
+foot:Country(_:Pys,"England","Africa","EGY",(_:Ero,_:Cme,_:TnY,_:JAb),()) .
+foot:Club("Dw\//jBzH",fq,"2016"^^xsd:gYear,,"="?"hI",GS) "["'
+foot:League("'"`RdWp,ut,,L~K^^xsd:gYear,( ),(_:vZX))  
+foot:Footballer(_:cMV  "Ama\dou","Mbappe","2023-12-29"^^xsd:date,"Manchester United",("kN"),Millions,"Midfielder","France")  
+foot:Country(_:OFl,"Egypt","Asia",gUQ,(_:hax,iT),()) "_"
+foot:Country("EwBVJU","Portugal","North America","POR",( ),()) "."
+foot:Country(_:RwY,"Argentina",Yh,"ENG",( ),((This is invalid),(This is invalid),"Wrong","Wrong")) .
+foot:Country(_:zen,"England","Europe","ARG",(_:TaH,_:gUW,UL),((This is invalid),"Wrong",(This is invalid))) .
+foot:Country(_:ZKY,"Argentina","South America","FRA",( ),(_:mqR,_:IAn,_:Auc,_:OUa)) .
+foot:Country()<AyAP,iY,Jk,dF,(vh,Hp,vq),())  
+foot:Country(_:dnB,"Portugal",O(R,"POR",(_:Esi,_:UkP,_:caG,me),(_:Ioq, _:CFV,_:YtQ))  
+foot:Footballer(_:yHD  "Bruno","Salah","2024-9-06"^^xsd:date,"Juventus",("Sx"),Millions,"Goalkeeper","England") .
+foot:League("]")MzNT,rL,,,wX^^xsd:gYear,( ),(("_:upW"), (_:jAf))) "\""!"
+foot:Club("Jv\//bgKF","Juventus","2019"^^xsd:gYear}"["Zv,l/h)  
+foot:Country("ZqmGen","France","Asia","EGY",( ),()) .
+foot:Country(_:fIgt,"Argentina","Europe",f"|"J,(Tp,H<A,""`"Py",""@"Sy"),((This is invalid))) %
+foot:Country("ugCogK",wK,"North America","ARG",(_:sFc, _:alW),(_:ZxC, _:usq,_:lon,_:Bry)) '
+foot:Country(_:wRb,pb,VQ,"ENG",(_:QZV,_:doN,yg),(_:ChK,_:yeL,_:wVL,"Wrong")) "
+foot:Country(">""^"PrYi,"Egypt","South America",nd,( ),()) .
+foot:Country(- ORPF,"Egypt","Africa","FRA",( ),(_:skG,(This is invalid))) .
+foot:Footballer(_:VLo,, "Kylian",Barcelona,"2024-7-26"^^xsd:date,"Manchester United",("YD"),1million,"Forward","France")  
+foot:League("qZuAiH","La Liga","*";"."XW^^xsd:gYear,(_:kjN,_:nPO,_:yUp,_:Elc),(_:wQm)) .
+foot:Club("|""/"!"{":TvhzG,"Barcelona","2019"^^xsd:gYear "Allianz Stadium",J1xg) ^
+foot:Country("eM\//CFtr","Portugal","South America","EGY",( ),()) .
+foot:Country(_:SsB,"England","Europe","FRA",(_:hbf,_:iRN,_:Kda,IR),()) .
+foot:Country(_:mjA,"Argentina",HE,"ENG",(_:cKV,_:Tbc,wW),(m[O))  
+foot:Country(_:rSD,JE,"Asia",lO,(_:rhi,_:Ajh,_:Yzj),((This is invalid),"Wrong","Wrong")) $
+foot:Country(_:Cnm,HG,"North America","POR",( ),(_:iEV,_:Pru,")mA")) ">""%"
+foot:Country(_:mDR,Tl,Fd,"ARG",( ),("Wrong",(This is invalid),"Wrong",(This is invalid))) <
+foot:Country("'".imnZ,"~ia",h"["Q,ru,(",kh"),()) "<"
+foot:Footballer(_:mgr, "Lionel","Mbappe","1994-16-04"^^xsd:date,"Juventus",(_:Mhs),1million,"Midfielder","Argentina") .
+foot:Country(_:LGF,"England","South America","EGY",(_:yNC,_:WTt,_:bdc,Rv),())  
+foot:Club("xU\//XpeK","Liverpool","2016"^^xsd:gYear "Camp Nou",oB)  
+foot:League(_:DOk,w"]"n,,,fu^^xsd:gYear,(_:zjY,_:HAP,_:IEl,_:SiV),("Jq")) @
+foot:Country(_:ZaP,"France",qQ,wV,(_:XfL,_:kiA,EU),(_:qbH,_:nzP,_:QgK,_:DQh)) .
+foot:Country(_:HXS,"Portugal","North America","ENG",( ),(_:KmD,_:zrO,_:vvq,(This is invalid)))  
+foot:Country("=""~"DirY,"Egypt","Asia","ARG",( ),()) \
+foot:Country(_:FgU,"Argentina","Europe","FRA",(Hw,MG,QR),(_:VMJ,_:JmR,"Wrong"))  
+foot:Country("vaKKOb",k"`"g,qf,""&"dL",(_:NTr,pH),(_:rRA, _:whT,(This is invalid))) _
+foot:Country((;FDXf,DT,"Africa","POR",(Gp),((This is invalid),(This is invalid))) .

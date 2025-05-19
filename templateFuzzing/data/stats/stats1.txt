@@ -1,0 +1,7 @@
+--- Oppsummering ---
+Genererte templates: 100
+Antall templates med feil: 1
+Totalt antall feilmeldinger: 2
+
+Feil på linje 11:
+  [ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!List' at line 11 column 20[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 63[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 90[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[!Listnone' at line 12 column 20[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 84[ERROR] Syntax error: mismatched input ',' expecting '.' at line 12 column 106[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 133[ERROR] Syntax error: no viable alternative at input 'foot:Club[!ottr:IRI?ljB,?Listnone' at line 15 column 32[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 84[ERROR] Syntax error: mismatched input ',' expecting '.' at line 15 column 104[ERROR] Syntax error: extraneous input '}' expecting '.' at line 15 column 128

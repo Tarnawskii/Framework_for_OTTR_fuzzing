@@ -1,0 +1,158 @@
+<start> ::= <rdf_instance>
+<rdf_instance> ::= <footballer> | <club> | <league> | <country>
+<footballer> ::= 
+    "foot:Footballer(" 
+        <id> ", " 
+        <random_input_string> ", " 
+        <random_input_string> ", " 
+        <birthday> "^^xsd:date, " 
+        <random_input_string> ","
+        <array_of_strings> ","
+        <value> ","
+        <position_str> ","
+        <random_input_string> 
+    ")" "." 
+  | "foot:Footballer(" 
+        <invalid_id> ", " 
+        <random_invalid_input_string> ", " 
+        <random_input_string> ", " 
+        <random_invalid_birthday> "^^xsd:date, " 
+        <random_invalid_input_string> ","
+        <array_of_strings> ","
+        <random_invalid_value> ","
+        <random_invalid_position> ","
+        <random_input_string>
+    ")" "."
+<club> ::= 
+    "foot:Club(" 
+        <id> ", " 
+        <random_input_string> ", " 
+        <year> "^^xsd:gYear, " 
+        <random_input_string> ", " 
+        <random_input_string> ", " 
+        <random_input_string> 
+    ")" "."
+  | "foot:Club(" 
+        <invalid_id> ", " 
+        <random_invalid_input_string> ", " 
+        <random_invalid_year> "^^xsd:gYear, " 
+        <random_invalid_input_string> ", " 
+        <random_input_string> ", " 
+        <random_input_string> 
+    ")" "."
+<league> ::= 
+    "foot:League(" 
+        <id> ", " 
+        <random_leagueName> ", " 
+        <year> "^^xsd:gYear, " 
+        <random_input_string> ", " 
+        <array_of_strings> ", " 
+        <array_of_strings> 
+    ")" "."
+  | "foot:League(" 
+        <invalid_id> ", " 
+        <random_invalid_leagueName> ", " 
+        <random_invalid_year> "^^xsd:gYear, " 
+        <random_invalid_input_string> ", " 
+        <array_of_strings> ", " 
+        <array_of_strings> 
+    ")" "."
+<country> ::= 
+    "foot:Country(" 
+        <id> ", " 
+        <random_countryName> ", " 
+        <random_continent> ", " 
+        <random_fifaCode> ", " 
+        <array_of_strings> ", " 
+        <array_of_strings> ", " 
+        <array_of_strings> 
+    ")" "."
+  | "foot:Country(" 
+        <invalid_id> ", " 
+        <random_invalid_countryName> ", " 
+        <random_invalid_continent> ", " 
+        <random_invalid_fifaCode> ", " 
+        <array_of_strings> ", " 
+        <array_of_strings> ", " 
+        <array_of_strings> 
+    ")" "."
+<random_invalid_birthday> ::= 
+    "\"1989-" <random_invalid_month> "-" <random_invalid_day> "\"^^xsd:date"
+  | "\"2000-00-00\"^^xsd:date"
+  | "\"2025-02-30\"^^xsd:date"
+<random_invalid_year> ::= 
+    "\"" <random_invalid_number> "\""
+  | "\"abcd\""
+<random_invalid_value> ::= 
+    <random_large_number>
+  | "-" <random_large_number>
+<random_invalid_position> ::= 
+    "\"" <random_invalid_position_name> "\""
+<random_invalid_leagueName> ::= 
+    "\"" <random_invalid_string> "\""
+<random_invalid_countryName> ::= 
+    "\"" <random_invalid_string> "\""
+<random_invalid_continent> ::= 
+    "\"" <random_special_characters> "\""
+<random_invalid_fifaCode> ::= 
+    "\"" <random_special_characters> "\""
+<random_invalid_input_string> ::= 
+    "\"" <random_special_characters> <random_long_string> "\""
+<random_invalid_month> ::= 
+    "13"
+  | "00"
+  | "25"
+<random_invalid_day> ::= 
+    "00"
+  | "30"
+  | "32"
+<random_invalid_number> ::= 
+    "12345"
+  | "abcd"
+<random_invalid_position_name> ::= 
+    "Goalie" | <random_invalid_string>
+<random_special_characters> ::=
+    "!" | "@" | "#" | "$" | "%" | "^" | "&" | "*" | "(" | ")" | "-" | "_" | "+" | "=" | "[" | "]" | "{" | "}" | "|" | ";" | ":" | "'" | "\"" | "," | "<" | ">" | "." | "?" | "/" | "\\" | "`" | "~"
+<random_char> ::= 
+    <random_letter> | <random_digit> | <random_special_characters>
+<random_letter> ::= 
+    "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" 
+  | "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z"
+<random_digit> ::= 
+    "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<random_string> ::=
+    <random_char> <random_string> | ""
+<random_large_number> ::= "1234567890" | "9876543210" | "1000000000"
+<id> ::= "_:" <letter_or_digit> <letter_or_digit> <letter_or_digit>
+<invalid_id> ::= "_:" <random_invalid_character> | "_:" <id_without_valid_characters>
+<random_invalid_character> ::= 
+    "!" | "@" | "#" | "$" | "%" | "^" | "&" | "*" | "(" | ")" | "-" | "_" | "+" | "=" | "[" | "]" | "{" | "}" | "|" | ";" | ":" | "'" | "\"" | "," | "<" | ">" | "." | "?" | "/" | "\\" | "`" | "~"
+<id_without_valid_characters> ::= "_:" <random_invalid_character> <random_invalid_character> <random_invalid_character>
+<random_input_string> ::= "\"" <random_string> "\""
+<random_countryName> ::= <random_input_string>
+<random_continent> ::= <random_input_string>
+<random_fifaCode> ::= <random_input_string>
+<random_leagueName> ::= <random_input_string>
+<random_number> ::= "12345" | "67890" | "54321" | "98765" | "10101" | "20202" | "30303" | "40404" | "50505" | "60606" | "70707" | "80808" | "90909" | "00000"
+<random_position> ::= "Goalkeeper" | "Defender" | "Midfielder" | "Striker"
+<random_input_string> ::= "\"" <random_string> "\""
+<random_digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<letter_or_digit> ::= <letter> | <digit>
+<letter> ::= 
+    "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" 
+  | "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z"
+<digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<birthday> ::= "\"" "19" <fiveToNine> <digit> "-" <month> "-" <day> "\"" | "\"" "20" <zeroToTwo> <digit> "-" <month> "-" <day> "\""
+<fiveToNine> ::= "5" | "6" | "7" | "8" | "9"
+<zeroToTwo> ::= "0" | "1" | "2"
+<month> ::= "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12"
+<day> ::= "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "10" | "11" | "12" | "13" | "14" | "15" | "16" | "17" | "18" | "19" | "20" | "21" | "22" | "23" | "24" | "25" | "26" | "27" | "28" | "29" | "30" | "31"
+<array_of_strings> ::= "(" <random_input_string> "," <random_input_string> "," <random_input_string> ")" | "(" <random_input_string> "," <random_input_string> ")" | "(" <random_input_string> ")"
+<value> ::= <random_number>
+<position_str> ::= "\"" <random_position> "\""
+<year> ::= "\"" <digit> <digit> <digit> <digit> "\""
+<random_invalid_string> ::= "ab!" | "12#3" | "$%&"
+<random_invalid_input_string> ::= "\"" "ab!" "\"" | "\"" "12#3" "\"" | "\"" "$%&" "\""
+<random_invalid_month> ::= "13" | "00" | "25"
+<random_invalid_day> ::= "00" | "30" | "32"
+<random_invalid_number> ::= "12345" | "abcd"

@@ -1,0 +1,5 @@
+--- Oppsummering ---
+Genererte templates: 100
+Antall templates med feil: 0
+Totalt antall feilmeldinger: 1
+

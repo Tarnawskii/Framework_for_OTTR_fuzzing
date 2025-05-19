@@ -1,0 +1,7 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+foot:Footballer(foot:Player2, "string1", "string4", "2023-01-01"^^xsd:date, _:OSb, (("string1", ("string4", ("string1"))), ("string2", ("string5", ("string4"))), ("string2", ("string1", ("string2"))), ("string4", ("string1", ("string1"))), ("string3", ("string3", ("string3"))), ("string2", ("string5", ("string1"))), ("string2", ("string2", ("string2"))), ("string2", ("string5", ("string4"))), ("string2", ("string2", ("string4"))), ("string3", ("string3", ("string1")))), 3, "string3", "string2").

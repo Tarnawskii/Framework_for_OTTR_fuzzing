@@ -1,0 +1,10 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer[ xsd:foot:clubHistory ?e ] :: {ottr:Triple(?PersonIRI, foot:"1Z, ?"foot:Footballer"^^4+), ottr:Triple(?PersonIRI, foot:8pUmxVAol, ?9+.-5+) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:lastname, ?lastname), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:position, ?position), ottr:Triple(?personIRI, foot:countryName, ?countryName)} .
+foot:Footballer[ ottr:IRI ?<O\@HsQP~-&_W)kf, ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, ottr:IRI ?currentClub, List<ottr:IRI> ?clubHistory, xsd:date ?birthday, xsd:decimal ?marketValue, xsd:string ?position, xsd:string ?countryName ] :: {ottr:Triple(?PersonIRI, foot:6, ?"I")} .
+foot:Footballer[ xsd:string ?m ] :: {ottr:Triple(?PersonIRI, foot:j, ?false) o-rdf:Type(?personIRI, ?A), ottr:Triple(?personIRI, foot:", ?true), ottr:Triple(?personIRI, foot:B, ?true)} .
+foot:Footballer[ ottr:IRI ?personIRI, xsd:string ?firstName, List<xsd:string> ?clubHistory ] \: {o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory)} .

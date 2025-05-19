@@ -1,0 +1,1755 @@
+2025-03-23 20:01:41,986 - WARNING - Template 1 might be incomplete: ottr:Triple(?personIRI foot:a ?())
+2025-03-23 20:01:48,618 - INFO - Template 1 processed in 6.63 seconds
+2025-03-23 20:01:48,620 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'foot:a' expecting {',', ')'} at line 7 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_gsfa7u6.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_gsfa7u6.stottr
+
+
+2025-03-23 20:01:48,621 - ERROR - Output: 
+2025-03-23 20:01:48,621 - ERROR - Template 1: ottr:Triple(?personIRI foot:a ?())
+
+2025-03-23 20:01:48,622 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'foot:a' expecting {',', ')'} at line 7 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_gsfa7u6.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_gsfa7u6.stottr
+
+
+2025-03-23 20:01:48,623 - ERROR - Output: 
+2025-03-23 20:01:48,628 - WARNING - Template 2 might be incomplete: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:a ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?PersonIRI foot:} ?())}
+2025-03-23 20:01:55,719 - INFO - Template 2 processed in 7.09 seconds
+2025-03-23 20:01:55,721 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#a
+
+2025-03-23 20:01:55,722 - ERROR - Output: 
+2025-03-23 20:01:55,722 - ERROR - Template 2: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()), ottr:Triple(?personIRI foot:a ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?PersonIRI foot:} ?())}
+2025-03-23 20:01:55,722 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#a
+
+2025-03-23 20:01:55,722 - ERROR - Output: 
+2025-03-23 20:02:15,821 - WARNING - Template 1 might be incomplete: ottr:Triple(?personIRI foot:a ?())
+2025-03-23 20:02:20,568 - INFO - Template 1 processed in 4.74 seconds
+2025-03-23 20:02:20,570 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'foot:a' expecting {',', ')'} at line 7 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5rn93057.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5rn93057.stottr
+
+
+2025-03-23 20:02:20,570 - ERROR - Output: 
+2025-03-23 20:02:20,570 - ERROR - Template 1: ottr:Triple(?personIRI foot:a ?())
+
+2025-03-23 20:02:20,570 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: mismatched input 'foot:a' expecting {',', ')'} at line 7 column 23
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5rn93057.stottr
+
+[INFO] Ignoring instance: ottr:Triple(?personIRI. This parser accepts signatures, base templates and templates.
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5rn93057.stottr
+
+
+2025-03-23 20:02:20,571 - ERROR - Output: 
+2025-03-23 20:02:20,577 - WARNING - Template 2 might be incomplete: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?PersonIRI foot:} ?())}
+2025-03-23 20:02:27,158 - INFO - Template 2 processed in 6.58 seconds
+2025-03-23 20:02:27,162 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-23 20:02:27,162 - ERROR - Output: 
+2025-03-23 20:02:27,163 - ERROR - Template 2: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?PersonIRI foot:} ?())}
+2025-03-23 20:02:27,163 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-23 20:02:27,163 - ERROR - Output: 
+2025-03-23 20:04:55,537 - WARNING - Template 1 might be incomplete: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:)} ?())}
+2025-03-23 20:05:01,950 - INFO - Template 1 processed in 6.41 seconds
+2025-03-23 20:05:01,953 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-23 20:05:01,953 - ERROR - Output: 
+2025-03-23 20:05:01,954 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:)} ?())}
+2025-03-23 20:05:01,954 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-23 20:05:01,954 - ERROR - Output: 
+2025-03-23 20:05:12,057 - WARNING - Template 1 might be incomplete: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+2025-03-23 20:05:17,976 - INFO - Template 1 processed in 5.92 seconds
+2025-03-23 20:05:17,979 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-23 20:05:17,980 - ERROR - Output: 
+2025-03-23 20:05:17,980 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+2025-03-23 20:05:17,980 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-23 20:05:17,980 - ERROR - Output: 
+2025-03-23 20:32:21,199 - WARNING - Template 1 might be incomplete: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+2025-03-26 12:36:14,701 - INFO - Template 1 processed in 4.22 seconds
+2025-03-26 12:36:14,704 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 12:36:14,705 - ERROR - Output: 
+2025-03-26 12:36:14,705 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 12:36:14,705 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 12:36:14,705 - ERROR - Output: 
+2025-03-26 12:36:18,379 - INFO - Template 2 processed in 3.67 seconds
+2025-03-26 12:36:22,019 - INFO - Template 3 processed in 3.64 seconds
+2025-03-26 12:36:22,020 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 12:36:22,020 - ERROR - Output: 
+2025-03-26 12:36:22,020 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 12:36:22,020 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 12:36:22,020 - ERROR - Output: 
+2025-03-26 12:36:26,095 - INFO - Template 4 processed in 4.07 seconds
+2025-03-26 12:36:26,096 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#F
+
+2025-03-26 12:36:26,096 - ERROR - Output: 
+2025-03-26 12:36:26,096 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:F ?"g+")} .
+2025-03-26 12:36:26,096 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#F
+
+2025-03-26 12:36:26,096 - ERROR - Output: 
+2025-03-26 16:37:51,604 - INFO - Template 1 processed in 5.04 seconds
+2025-03-26 16:37:51,606 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:37:51,606 - ERROR - Output: 
+2025-03-26 16:37:51,606 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 16:37:51,607 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:37:51,607 - ERROR - Output: 
+2025-03-26 16:37:55,247 - INFO - Template 2 processed in 3.64 seconds
+2025-03-26 16:37:59,496 - INFO - Template 3 processed in 4.25 seconds
+2025-03-26 16:37:59,497 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:37:59,497 - ERROR - Output: 
+2025-03-26 16:37:59,498 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:37:59,498 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:37:59,498 - ERROR - Output: 
+2025-03-26 16:38:03,167 - INFO - Template 4 processed in 3.66 seconds
+2025-03-26 16:38:03,168 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#F
+
+2025-03-26 16:38:03,168 - ERROR - Output: 
+2025-03-26 16:38:03,168 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:F ?"g+")} .
+2025-03-26 16:38:03,168 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#F
+
+2025-03-26 16:38:03,168 - ERROR - Output: 
+2025-03-26 16:44:02,202 - INFO - Template 1 processed in 4.25 seconds
+2025-03-26 16:44:02,204 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:44:02,204 - ERROR - Output: 
+2025-03-26 16:44:02,204 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 16:44:02,204 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:44:02,204 - ERROR - Output: 
+2025-03-26 16:44:06,077 - INFO - Template 2 processed in 3.87 seconds
+2025-03-26 16:44:10,307 - INFO - Template 3 processed in 4.23 seconds
+2025-03-26 16:44:10,308 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:44:10,308 - ERROR - Output: 
+2025-03-26 16:44:10,308 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:44:10,308 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:44:10,309 - ERROR - Output: 
+2025-03-26 16:44:14,489 - INFO - Template 4 processed in 4.18 seconds
+2025-03-26 16:44:14,490 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:44:14,491 - ERROR - Output: 
+2025-03-26 16:44:14,491 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 16:44:14,491 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:44:14,491 - ERROR - Output: 
+2025-03-26 16:44:18,755 - INFO - Template 5 processed in 4.26 seconds
+2025-03-26 16:44:18,756 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:44:18,756 - ERROR - Output: 
+2025-03-26 16:44:18,756 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 16:44:18,756 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:44:18,756 - ERROR - Output: 
+2025-03-26 16:47:10,512 - INFO - Template 1 processed in 5.79 seconds
+2025-03-26 16:47:10,514 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:47:10,514 - ERROR - Output: 
+2025-03-26 16:47:10,514 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 16:47:10,514 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:47:10,515 - ERROR - Output: 
+2025-03-26 16:47:14,227 - INFO - Template 2 processed in 3.71 seconds
+2025-03-26 16:47:17,947 - INFO - Template 3 processed in 3.72 seconds
+2025-03-26 16:47:17,948 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:47:17,948 - ERROR - Output: 
+2025-03-26 16:47:17,948 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:47:17,948 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:47:17,948 - ERROR - Output: 
+2025-03-26 16:47:21,852 - INFO - Template 4 processed in 3.90 seconds
+2025-03-26 16:47:21,855 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:47:21,855 - ERROR - Output: 
+2025-03-26 16:47:21,855 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 16:47:21,856 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:47:21,856 - ERROR - Output: 
+2025-03-26 16:47:26,171 - INFO - Template 5 processed in 4.31 seconds
+2025-03-26 16:47:26,172 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:47:26,172 - ERROR - Output: 
+2025-03-26 16:47:26,172 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 16:47:26,172 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:47:26,172 - ERROR - Output: 
+2025-03-26 16:47:30,296 - INFO - Template 6 processed in 4.12 seconds
+2025-03-26 16:47:30,297 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:47:30,297 - ERROR - Output: 
+2025-03-26 16:47:30,297 - ERROR - Template 6: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:47:30,298 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:47:30,298 - ERROR - Output: 
+2025-03-26 16:48:05,888 - INFO - Template 1 processed in 4.05 seconds
+2025-03-26 16:48:05,889 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:48:05,890 - ERROR - Output: 
+2025-03-26 16:48:05,890 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 16:48:05,890 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:48:05,890 - ERROR - Output: 
+2025-03-26 16:48:09,129 - INFO - Template 2 processed in 3.24 seconds
+2025-03-26 16:48:12,637 - INFO - Template 3 processed in 3.50 seconds
+2025-03-26 16:48:12,639 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:48:12,639 - ERROR - Output: 
+2025-03-26 16:48:12,639 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:48:12,639 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:48:12,639 - ERROR - Output: 
+2025-03-26 16:48:16,402 - INFO - Template 4 processed in 3.76 seconds
+2025-03-26 16:48:16,402 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:48:16,402 - ERROR - Output: 
+2025-03-26 16:48:16,403 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 16:48:16,403 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:48:16,403 - ERROR - Output: 
+2025-03-26 16:48:20,299 - INFO - Template 5 processed in 3.89 seconds
+2025-03-26 16:48:20,299 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:48:20,299 - ERROR - Output: 
+2025-03-26 16:48:20,300 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 16:48:20,300 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:48:20,300 - ERROR - Output: 
+2025-03-26 16:48:24,540 - INFO - Template 6 processed in 4.24 seconds
+2025-03-26 16:48:24,542 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:48:24,542 - ERROR - Output: 
+2025-03-26 16:48:24,542 - ERROR - Template 6: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:48:24,543 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:48:24,543 - ERROR - Output: 
+2025-03-26 16:48:28,449 - INFO - Template 7 processed in 3.90 seconds
+2025-03-26 16:48:28,450 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:48:28,450 - ERROR - Output: 
+2025-03-26 16:48:28,450 - ERROR - Template 7: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:48:28,450 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:48:28,450 - ERROR - Output: 
+2025-03-26 16:49:18,152 - INFO - Template 1 processed in 5.37 seconds
+2025-03-26 16:49:18,154 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:49:18,154 - ERROR - Output: 
+2025-03-26 16:49:18,154 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 16:49:18,155 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:49:18,155 - ERROR - Output: 
+2025-03-26 16:49:21,631 - INFO - Template 2 processed in 3.47 seconds
+2025-03-26 16:49:25,176 - INFO - Template 3 processed in 3.54 seconds
+2025-03-26 16:49:25,177 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:49:25,177 - ERROR - Output: 
+2025-03-26 16:49:25,177 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:49:25,177 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:49:25,177 - ERROR - Output: 
+2025-03-26 16:49:28,755 - INFO - Template 4 processed in 3.57 seconds
+2025-03-26 16:49:28,756 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:49:28,756 - ERROR - Output: 
+2025-03-26 16:49:28,756 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 16:49:28,756 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:49:28,757 - ERROR - Output: 
+2025-03-26 16:49:32,449 - INFO - Template 5 processed in 3.69 seconds
+2025-03-26 16:49:32,449 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:32,450 - ERROR - Output: 
+2025-03-26 16:49:32,450 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 16:49:32,450 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:32,450 - ERROR - Output: 
+2025-03-26 16:49:36,343 - INFO - Template 6 processed in 3.89 seconds
+2025-03-26 16:49:36,344 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:36,344 - ERROR - Output: 
+2025-03-26 16:49:36,344 - ERROR - Template 6: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:49:36,344 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:36,344 - ERROR - Output: 
+2025-03-26 16:49:40,449 - INFO - Template 7 processed in 4.10 seconds
+2025-03-26 16:49:40,450 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:40,450 - ERROR - Output: 
+2025-03-26 16:49:40,450 - ERROR - Template 7: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:49:40,450 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:40,451 - ERROR - Output: 
+2025-03-26 16:49:44,546 - INFO - Template 8 processed in 4.09 seconds
+2025-03-26 16:49:44,547 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:44,547 - ERROR - Output: 
+2025-03-26 16:49:44,547 - ERROR - Template 8: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?clubHistory)} .
+
+2025-03-26 16:49:44,547 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:49:44,547 - ERROR - Output: 
+2025-03-26 16:51:04,832 - INFO - Template 1 processed in 3.84 seconds
+2025-03-26 16:51:04,833 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:51:04,833 - ERROR - Output: 
+2025-03-26 16:51:04,833 - ERROR - Template 1: foot:Footballer [ ottr:IRI ?personIRI ] :: {o-rdf:Type(?personIRI, ?()),ottr:Triple(?personIRI foot:& ?()),ottr:Triple(?personIRI foot:* ?()),ottr:Triple(?personIRI foot:: ?()),ottr:Triple(?personIRI foot:has)} ?())}
+
+2025-03-26 16:51:04,833 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#
+
+2025-03-26 16:51:04,833 - ERROR - Output: 
+2025-03-26 16:51:08,259 - INFO - Template 2 processed in 3.42 seconds
+2025-03-26 16:51:12,158 - INFO - Template 3 processed in 3.90 seconds
+2025-03-26 16:51:12,158 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:51:12,158 - ERROR - Output: 
+2025-03-26 16:51:12,158 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:51:12,159 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:51:12,159 - ERROR - Output: 
+2025-03-26 16:51:16,288 - INFO - Template 4 processed in 4.13 seconds
+2025-03-26 16:51:16,289 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:51:16,289 - ERROR - Output: 
+2025-03-26 16:51:16,290 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 16:51:16,290 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:51:16,290 - ERROR - Output: 
+2025-03-26 16:51:20,420 - INFO - Template 5 processed in 4.12 seconds
+2025-03-26 16:51:20,423 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:51:20,423 - ERROR - Output: 
+2025-03-26 16:51:20,424 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 16:51:20,424 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:51:20,424 - ERROR - Output: 
+2025-03-26 16:51:24,444 - INFO - Template 6 processed in 4.02 seconds
+2025-03-26 16:51:24,445 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:51:24,445 - ERROR - Output: 
+2025-03-26 16:51:24,445 - ERROR - Template 6: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:51:24,445 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:51:24,445 - ERROR - Output: 
+2025-03-26 16:51:27,700 - INFO - Template 7 processed in 3.25 seconds
+2025-03-26 16:51:27,701 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp6b9vd0az.stottr
+
+
+2025-03-26 16:51:27,701 - ERROR - Output: 
+2025-03-26 16:51:27,702 - ERROR - Template 7: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 16:51:27,702 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp6b9vd0az.stottr
+
+
+2025-03-26 16:51:27,702 - ERROR - Output: 
+2025-03-26 16:51:31,338 - INFO - Template 8 processed in 3.63 seconds
+2025-03-26 16:51:31,338 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpkg3d04wm.stottr
+
+
+2025-03-26 16:51:31,339 - ERROR - Output: 
+2025-03-26 16:51:31,339 - ERROR - Template 8: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 16:51:31,339 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpkg3d04wm.stottr
+
+
+2025-03-26 16:51:31,339 - ERROR - Output: 
+2025-03-26 16:51:34,719 - INFO - Template 9 processed in 3.37 seconds
+2025-03-26 16:51:34,720 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0otz8r1i.stottr
+
+
+2025-03-26 16:51:34,720 - ERROR - Output: 
+2025-03-26 16:51:34,720 - ERROR - Template 9: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 16:51:34,720 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0otz8r1i.stottr
+
+
+2025-03-26 16:51:34,721 - ERROR - Output: 
+2025-03-26 16:51:37,971 - INFO - Template 10 processed in 3.25 seconds
+2025-03-26 16:51:37,972 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpndoex13m.stottr
+
+
+2025-03-26 16:51:37,972 - ERROR - Output: 
+2025-03-26 16:51:37,972 - ERROR - Template 10: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, <http://example.org/football#Fa6i>, ?"g+")} .
+
+2025-03-26 16:51:37,972 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpndoex13m.stottr
+
+
+2025-03-26 16:51:37,972 - ERROR - Output: 
+2025-03-26 16:51:41,240 - INFO - Template 11 processed in 3.26 seconds
+2025-03-26 16:51:41,241 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpyq9emud_.stottr
+
+
+2025-03-26 16:51:41,241 - ERROR - Output: 
+2025-03-26 16:51:41,241 - ERROR - Template 11: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?"g+")} .
+
+2025-03-26 16:51:41,241 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpyq9emud_.stottr
+
+
+2025-03-26 16:51:41,241 - ERROR - Output: 
+2025-03-26 16:51:44,594 - INFO - Template 12 processed in 3.35 seconds
+2025-03-26 16:51:44,595 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmps8ysr2e2.stottr
+
+
+2025-03-26 16:51:44,596 - ERROR - Output: 
+2025-03-26 16:51:44,596 - ERROR - Template 12: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 16:51:44,596 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmps8ysr2e2.stottr
+
+
+2025-03-26 16:51:44,596 - ERROR - Output: 
+2025-03-26 16:51:48,126 - INFO - Template 13 processed in 3.52 seconds
+2025-03-26 16:51:48,127 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdry2qqew.stottr
+
+
+2025-03-26 16:51:48,127 - ERROR - Output: 
+2025-03-26 16:51:48,127 - ERROR - Template 13: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 16:51:48,127 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpdry2qqew.stottr
+
+
+2025-03-26 16:51:48,127 - ERROR - Output: 
+2025-03-26 16:51:51,622 - INFO - Template 14 processed in 3.49 seconds
+2025-03-26 16:51:51,623 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpytsuvvxu.stottr
+
+
+2025-03-26 16:51:51,623 - ERROR - Output: 
+2025-03-26 16:51:51,624 - ERROR - Template 14: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 16:51:51,624 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpytsuvvxu.stottr
+
+
+2025-03-26 16:51:51,624 - ERROR - Output: 
+2025-03-26 16:58:17,784 - INFO - Template 1 processed in 3.57 seconds
+2025-03-26 16:58:21,858 - INFO - Template 2 processed in 4.06 seconds
+2025-03-26 16:58:21,859 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:58:21,859 - ERROR - Output: 
+2025-03-26 16:58:21,859 - ERROR - Template 2: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 16:58:21,859 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:58:21,859 - ERROR - Output: 
+2025-03-26 16:58:25,236 - INFO - Template 3 processed in 3.37 seconds
+2025-03-26 16:58:25,237 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpd6rxobx6.stottr
+
+
+2025-03-26 16:58:25,237 - ERROR - Output: 
+2025-03-26 16:58:25,237 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?"g+")} .
+
+2025-03-26 16:58:25,237 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpd6rxobx6.stottr
+
+
+2025-03-26 16:58:25,238 - ERROR - Output: 
+2025-03-26 16:58:29,082 - INFO - Template 4 processed in 3.84 seconds
+2025-03-26 16:58:29,085 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcr7sibng.stottr
+
+
+2025-03-26 16:58:29,086 - ERROR - Output: 
+2025-03-26 16:58:29,086 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?"g+")} .
+
+2025-03-26 16:58:29,086 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpcr7sibng.stottr
+
+
+2025-03-26 16:58:29,086 - ERROR - Output: 
+2025-03-26 16:58:32,774 - INFO - Template 5 processed in 3.68 seconds
+2025-03-26 16:58:32,775 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:58:32,775 - ERROR - Output: 
+2025-03-26 16:58:32,775 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 16:58:32,775 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 16:58:32,775 - ERROR - Output: 
+2025-03-26 16:58:36,852 - INFO - Template 6 processed in 4.07 seconds
+2025-03-26 16:58:36,853 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:58:36,853 - ERROR - Output: 
+2025-03-26 16:58:36,854 - ERROR - Template 6: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 16:58:36,854 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:58:36,854 - ERROR - Output: 
+2025-03-26 16:58:40,956 - INFO - Template 7 processed in 4.10 seconds
+2025-03-26 16:58:40,957 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:58:40,957 - ERROR - Output: 
+2025-03-26 16:58:40,957 - ERROR - Template 7: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 16:58:40,957 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 16:58:40,957 - ERROR - Output: 
+2025-03-26 16:58:44,312 - INFO - Template 8 processed in 3.35 seconds
+2025-03-26 16:58:44,313 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpigqyi_qz.stottr
+
+
+2025-03-26 16:58:44,313 - ERROR - Output: 
+2025-03-26 16:58:44,313 - ERROR - Template 8: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 16:58:44,313 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpigqyi_qz.stottr
+
+
+2025-03-26 16:58:44,313 - ERROR - Output: 
+2025-03-26 16:58:47,702 - INFO - Template 9 processed in 3.39 seconds
+2025-03-26 16:58:47,703 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpnqckn7bu.stottr
+
+
+2025-03-26 16:58:47,703 - ERROR - Output: 
+2025-03-26 16:58:47,703 - ERROR - Template 9: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 16:58:47,703 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpnqckn7bu.stottr
+
+
+2025-03-26 16:58:47,703 - ERROR - Output: 
+2025-03-26 16:58:51,120 - INFO - Template 10 processed in 3.41 seconds
+2025-03-26 16:58:51,121 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9_5waox7.stottr
+
+
+2025-03-26 16:58:51,123 - ERROR - Output: 
+2025-03-26 16:58:51,124 - ERROR - Template 10: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 16:58:51,124 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9_5waox7.stottr
+
+
+2025-03-26 16:58:51,124 - ERROR - Output: 
+2025-03-26 16:58:54,266 - INFO - Template 11 processed in 3.14 seconds
+2025-03-26 16:58:54,267 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp37fr2aip.stottr
+
+
+2025-03-26 16:58:54,267 - ERROR - Output: 
+2025-03-26 16:58:54,267 - ERROR - Template 11: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, <http://example.org/football#Fa6i>, ?"g+")} .
+
+2025-03-26 16:58:54,267 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp37fr2aip.stottr
+
+
+2025-03-26 16:58:54,267 - ERROR - Output: 
+2025-03-26 16:58:57,524 - INFO - Template 12 processed in 3.25 seconds
+2025-03-26 16:58:57,526 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_2ytm51x.stottr
+
+
+2025-03-26 16:58:57,527 - ERROR - Output: 
+2025-03-26 16:58:57,527 - ERROR - Template 12: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?"g+")} .
+
+2025-03-26 16:58:57,527 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_2ytm51x.stottr
+
+
+2025-03-26 16:58:57,527 - ERROR - Output: 
+2025-03-26 16:59:01,022 - INFO - Template 13 processed in 3.49 seconds
+2025-03-26 16:59:01,023 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpsqbcxzgg.stottr
+
+
+2025-03-26 16:59:01,023 - ERROR - Output: 
+2025-03-26 16:59:01,023 - ERROR - Template 13: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 16:59:01,023 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpsqbcxzgg.stottr
+
+
+2025-03-26 16:59:01,023 - ERROR - Output: 
+2025-03-26 16:59:04,488 - INFO - Template 14 processed in 3.46 seconds
+2025-03-26 16:59:04,489 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpnbx5xbf6.stottr
+
+
+2025-03-26 16:59:04,489 - ERROR - Output: 
+2025-03-26 16:59:04,489 - ERROR - Template 14: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 16:59:04,489 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpnbx5xbf6.stottr
+
+
+2025-03-26 16:59:04,490 - ERROR - Output: 
+2025-03-26 16:59:08,078 - INFO - Template 15 processed in 3.58 seconds
+2025-03-26 16:59:08,079 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp5ki8l_tk.stottr
+
+
+2025-03-26 16:59:08,079 - ERROR - Output: 
+2025-03-26 16:59:08,079 - ERROR - Template 15: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 16:59:08,079 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp5ki8l_tk.stottr
+
+
+2025-03-26 16:59:08,079 - ERROR - Output: 
+2025-03-26 17:02:04,018 - INFO - Template 1 processed in 3.37 seconds
+2025-03-26 17:02:07,879 - INFO - Template 2 processed in 3.86 seconds
+2025-03-26 17:02:07,880 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:02:07,880 - ERROR - Output: 
+2025-03-26 17:02:07,880 - ERROR - Template 2: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 17:02:07,880 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:02:07,880 - ERROR - Output: 
+2025-03-26 17:02:11,123 - INFO - Template 3 processed in 3.24 seconds
+2025-03-26 17:02:11,123 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp83s6sbls.stottr
+
+
+2025-03-26 17:02:11,124 - ERROR - Output: 
+2025-03-26 17:02:11,124 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?"g+")} .
+
+2025-03-26 17:02:11,124 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp83s6sbls.stottr
+
+
+2025-03-26 17:02:11,124 - ERROR - Output: 
+2025-03-26 17:02:14,590 - INFO - Template 4 processed in 3.46 seconds
+2025-03-26 17:02:14,591 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0d3cs89w.stottr
+
+
+2025-03-26 17:02:14,591 - ERROR - Output: 
+2025-03-26 17:02:14,591 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:02:14,591 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0d3cs89w.stottr
+
+
+2025-03-26 17:02:14,592 - ERROR - Output: 
+2025-03-26 17:02:17,981 - INFO - Template 5 processed in 3.39 seconds
+2025-03-26 17:02:17,983 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxncfmfsq.stottr
+
+
+2025-03-26 17:02:17,984 - ERROR - Output: 
+2025-03-26 17:02:17,984 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:02:17,984 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxncfmfsq.stottr
+
+
+2025-03-26 17:02:17,984 - ERROR - Output: 
+2025-03-26 17:02:21,336 - INFO - Template 6 processed in 3.35 seconds
+2025-03-26 17:02:21,337 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpxam4vkin.stottr
+
+
+2025-03-26 17:02:21,337 - ERROR - Output: 
+2025-03-26 17:02:21,338 - ERROR - Template 6: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 17:02:21,338 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpxam4vkin.stottr
+
+
+2025-03-26 17:02:21,338 - ERROR - Output: 
+2025-03-26 17:02:25,504 - INFO - Template 7 processed in 4.16 seconds
+2025-03-26 17:02:25,505 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:02:25,505 - ERROR - Output: 
+2025-03-26 17:02:25,505 - ERROR - Template 7: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 17:02:25,506 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:02:25,506 - ERROR - Output: 
+2025-03-26 17:02:29,479 - INFO - Template 8 processed in 3.97 seconds
+2025-03-26 17:02:29,480 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:02:29,480 - ERROR - Output: 
+2025-03-26 17:02:29,480 - ERROR - Template 8: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 17:02:29,480 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:02:29,480 - ERROR - Output: 
+2025-03-26 17:02:33,171 - INFO - Template 9 processed in 3.69 seconds
+2025-03-26 17:02:33,172 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:02:33,172 - ERROR - Output: 
+2025-03-26 17:02:33,172 - ERROR - Template 9: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 17:02:33,172 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:02:33,172 - ERROR - Output: 
+2025-03-26 17:02:36,420 - INFO - Template 10 processed in 3.25 seconds
+2025-03-26 17:02:36,421 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp86gnizez.stottr
+
+
+2025-03-26 17:02:36,422 - ERROR - Output: 
+2025-03-26 17:02:36,422 - ERROR - Template 10: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:02:36,422 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp86gnizez.stottr
+
+
+2025-03-26 17:02:36,422 - ERROR - Output: 
+2025-03-26 17:02:39,801 - INFO - Template 11 processed in 3.38 seconds
+2025-03-26 17:02:39,801 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp4weum74d.stottr
+
+
+2025-03-26 17:02:39,801 - ERROR - Output: 
+2025-03-26 17:02:39,801 - ERROR - Template 11: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 17:02:39,801 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp4weum74d.stottr
+
+
+2025-03-26 17:02:39,802 - ERROR - Output: 
+2025-03-26 17:02:43,295 - INFO - Template 12 processed in 3.49 seconds
+2025-03-26 17:02:43,296 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0idlyqie.stottr
+
+
+2025-03-26 17:02:43,296 - ERROR - Output: 
+2025-03-26 17:02:43,297 - ERROR - Template 12: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:02:43,297 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp0idlyqie.stottr
+
+
+2025-03-26 17:02:43,297 - ERROR - Output: 
+2025-03-26 17:02:46,676 - INFO - Template 13 processed in 3.38 seconds
+2025-03-26 17:02:46,677 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6o3l23f4.stottr
+
+
+2025-03-26 17:02:46,678 - ERROR - Output: 
+2025-03-26 17:02:46,678 - ERROR - Template 13: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, <http://example.org/football#Fa6i>, ?"g+")} .
+
+2025-03-26 17:02:46,678 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6o3l23f4.stottr
+
+
+2025-03-26 17:02:46,678 - ERROR - Output: 
+2025-03-26 17:02:50,253 - INFO - Template 14 processed in 3.57 seconds
+2025-03-26 17:02:50,253 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6jvak21w.stottr
+
+
+2025-03-26 17:02:50,254 - ERROR - Output: 
+2025-03-26 17:02:50,254 - ERROR - Template 14: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?"g+")} .
+
+2025-03-26 17:02:50,254 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp6jvak21w.stottr
+
+
+2025-03-26 17:02:50,254 - ERROR - Output: 
+2025-03-26 17:02:53,630 - INFO - Template 15 processed in 3.37 seconds
+2025-03-26 17:02:53,631 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp39a4mgn0.stottr
+
+
+2025-03-26 17:02:53,631 - ERROR - Output: 
+2025-03-26 17:02:53,631 - ERROR - Template 15: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:02:53,631 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp39a4mgn0.stottr
+
+
+2025-03-26 17:02:53,631 - ERROR - Output: 
+2025-03-26 17:02:57,063 - INFO - Template 16 processed in 3.43 seconds
+2025-03-26 17:02:57,064 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpabbr9va1.stottr
+
+
+2025-03-26 17:02:57,064 - ERROR - Output: 
+2025-03-26 17:02:57,064 - ERROR - Template 16: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:02:57,064 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpabbr9va1.stottr
+
+
+2025-03-26 17:02:57,064 - ERROR - Output: 
+2025-03-26 17:05:14,357 - INFO - Template 1 processed in 3.48 seconds
+2025-03-26 17:05:18,614 - INFO - Template 2 processed in 4.25 seconds
+2025-03-26 17:05:18,615 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:05:18,616 - ERROR - Output: 
+2025-03-26 17:05:18,616 - ERROR - Template 2: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 17:05:18,616 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:05:18,616 - ERROR - Output: 
+2025-03-26 17:05:22,079 - INFO - Template 3 processed in 3.46 seconds
+2025-03-26 17:05:22,081 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2m5jbjcl.stottr
+
+
+2025-03-26 17:05:22,081 - ERROR - Output: 
+2025-03-26 17:05:22,081 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?"g+")} .
+
+2025-03-26 17:05:22,081 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp2m5jbjcl.stottr
+
+
+2025-03-26 17:05:22,081 - ERROR - Output: 
+2025-03-26 17:05:25,240 - INFO - Template 4 processed in 3.16 seconds
+2025-03-26 17:05:25,241 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4k8a8uae.stottr
+
+
+2025-03-26 17:05:25,241 - ERROR - Output: 
+2025-03-26 17:05:25,241 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:05:25,241 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4k8a8uae.stottr
+
+
+2025-03-26 17:05:25,242 - ERROR - Output: 
+2025-03-26 17:05:28,510 - INFO - Template 5 processed in 3.27 seconds
+2025-03-26 17:05:28,511 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphm3cgj_m.stottr
+
+
+2025-03-26 17:05:28,511 - ERROR - Output: 
+2025-03-26 17:05:28,511 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:05:28,511 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmphm3cgj_m.stottr
+
+
+2025-03-26 17:05:28,511 - ERROR - Output: 
+2025-03-26 17:05:31,829 - INFO - Template 6 processed in 3.31 seconds
+2025-03-26 17:05:31,830 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpiai9sill.stottr
+
+
+2025-03-26 17:05:31,830 - ERROR - Output: 
+2025-03-26 17:05:31,831 - ERROR - Template 6: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 17:05:31,831 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpiai9sill.stottr
+
+
+2025-03-26 17:05:31,831 - ERROR - Output: 
+2025-03-26 17:05:35,591 - INFO - Template 7 processed in 3.76 seconds
+2025-03-26 17:05:35,591 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:05:35,592 - ERROR - Output: 
+2025-03-26 17:05:35,592 - ERROR - Template 7: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 17:05:35,592 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:05:35,592 - ERROR - Output: 
+2025-03-26 17:05:39,740 - INFO - Template 8 processed in 4.14 seconds
+2025-03-26 17:05:39,740 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:05:39,740 - ERROR - Output: 
+2025-03-26 17:05:39,741 - ERROR - Template 8: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 17:05:39,741 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:05:39,741 - ERROR - Output: 
+2025-03-26 17:05:43,819 - INFO - Template 9 processed in 4.07 seconds
+2025-03-26 17:05:43,820 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:05:43,820 - ERROR - Output: 
+2025-03-26 17:05:43,821 - ERROR - Template 9: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 17:05:43,821 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:05:43,821 - ERROR - Output: 
+2025-03-26 17:05:47,190 - INFO - Template 10 processed in 3.37 seconds
+2025-03-26 17:05:47,191 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp5mjqg2ej.stottr
+
+
+2025-03-26 17:05:47,191 - ERROR - Output: 
+2025-03-26 17:05:47,191 - ERROR - Template 10: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:05:47,191 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp5mjqg2ej.stottr
+
+
+2025-03-26 17:05:47,192 - ERROR - Output: 
+2025-03-26 17:05:50,686 - INFO - Template 11 processed in 3.49 seconds
+2025-03-26 17:05:50,687 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp96x60_r6.stottr
+
+
+2025-03-26 17:05:50,687 - ERROR - Output: 
+2025-03-26 17:05:50,687 - ERROR - Template 11: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?clubHistory)} .
+
+2025-03-26 17:05:50,688 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank502 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp96x60_r6.stottr
+
+
+2025-03-26 17:05:50,688 - ERROR - Output: 
+2025-03-26 17:05:54,147 - INFO - Template 12 processed in 3.46 seconds
+2025-03-26 17:05:54,149 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpidm1t_kv.stottr
+
+
+2025-03-26 17:05:54,149 - ERROR - Output: 
+2025-03-26 17:05:54,149 - ERROR - Template 12: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:05:54,149 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpidm1t_kv.stottr
+
+
+2025-03-26 17:05:54,149 - ERROR - Output: 
+2025-03-26 17:05:57,724 - INFO - Template 13 processed in 3.57 seconds
+2025-03-26 17:05:57,725 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9p6wplej.stottr
+
+
+2025-03-26 17:05:57,725 - ERROR - Output: 
+2025-03-26 17:05:57,725 - ERROR - Template 13: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, <http://example.org/football#Fa6i>, ?"g+")} .
+
+2025-03-26 17:05:57,725 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp9p6wplej.stottr
+
+
+2025-03-26 17:05:57,726 - ERROR - Output: 
+2025-03-26 17:06:01,853 - INFO - Template 14 processed in 4.12 seconds
+2025-03-26 17:06:01,854 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpei0_6tz5.stottr
+
+
+2025-03-26 17:06:01,854 - ERROR - Output: 
+2025-03-26 17:06:01,855 - ERROR - Template 14: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?"g+")} .
+
+2025-03-26 17:06:01,855 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpei0_6tz5.stottr
+
+
+2025-03-26 17:06:01,855 - ERROR - Output: 
+2025-03-26 17:06:05,766 - INFO - Template 15 processed in 3.91 seconds
+2025-03-26 17:06:05,767 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgf6wek0v.stottr
+
+
+2025-03-26 17:06:05,767 - ERROR - Output: 
+2025-03-26 17:06:05,767 - ERROR - Template 15: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:06:05,767 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpgf6wek0v.stottr
+
+
+2025-03-26 17:06:05,767 - ERROR - Output: 
+2025-03-26 17:06:09,476 - INFO - Template 16 processed in 3.70 seconds
+2025-03-26 17:06:09,477 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpj9s0fy_h.stottr
+
+
+2025-03-26 17:06:09,477 - ERROR - Output: 
+2025-03-26 17:06:09,477 - ERROR - Template 16: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:06:09,477 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Wrong number of arguments. Expected 1 arguments, but found 3 in instance: http://example.org/football#Footballer(blank503 : LUB<rdfs:Resource>, "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string, ("Player"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)(id: 14))
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpj9s0fy_h.stottr
+
+
+2025-03-26 17:06:09,477 - ERROR - Output: 
+2025-03-26 17:06:21,408 - INFO - Template 1 processed in 3.32 seconds
+2025-03-26 17:06:21,409 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org/football#Footballer("Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp83jkzsqv.stottr
+
+
+2025-03-26 17:06:21,409 - ERROR - Output: 
+2025-03-26 17:06:21,410 - ERROR - Template 1: foot:Footballer[ ottr:IRI ?personIRI, xsd:string ?firstName, List<xsd:string> ?clubHistory ] :: {o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory)} .
+
+2025-03-26 17:06:21,410 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org/football#Footballer("Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp83jkzsqv.stottr
+
+
+2025-03-26 17:06:21,410 - ERROR - Output: 
+2025-03-26 17:06:25,651 - INFO - Template 2 processed in 4.24 seconds
+2025-03-26 17:06:25,652 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:06:25,652 - ERROR - Output: 
+2025-03-26 17:06:25,652 - ERROR - Template 2: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?"g+")} .
+
+2025-03-26 17:06:25,652 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:06:25,652 - ERROR - Output: 
+2025-03-26 17:06:28,906 - INFO - Template 3 processed in 3.25 seconds
+2025-03-26 17:06:28,906 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqzy8wpii.stottr
+
+
+2025-03-26 17:06:28,906 - ERROR - Output: 
+2025-03-26 17:06:28,907 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?"g+")} .
+
+2025-03-26 17:06:28,907 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqzy8wpii.stottr
+
+
+2025-03-26 17:06:28,907 - ERROR - Output: 
+2025-03-26 17:06:32,058 - INFO - Template 4 processed in 3.15 seconds
+2025-03-26 17:06:32,059 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4qe_g7g_.stottr
+
+
+2025-03-26 17:06:32,059 - ERROR - Output: 
+2025-03-26 17:06:32,059 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:06:32,059 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp4qe_g7g_.stottr
+
+
+2025-03-26 17:06:32,059 - ERROR - Output: 
+2025-03-26 17:06:35,637 - INFO - Template 5 processed in 3.58 seconds
+2025-03-26 17:06:35,638 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkm276z35.stottr
+
+
+2025-03-26 17:06:35,638 - ERROR - Output: 
+2025-03-26 17:06:35,638 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:06:35,638 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpkm276z35.stottr
+
+
+2025-03-26 17:06:35,638 - ERROR - Output: 
+2025-03-26 17:06:39,130 - INFO - Template 6 processed in 3.49 seconds
+2025-03-26 17:06:43,184 - INFO - Template 7 processed in 4.05 seconds
+2025-03-26 17:06:43,185 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:06:43,185 - ERROR - Output: 
+2025-03-26 17:06:43,185 - ERROR - Template 7: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 17:06:43,185 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:06:43,185 - ERROR - Output: 
+2025-03-26 17:06:47,016 - INFO - Template 8 processed in 3.83 seconds
+2025-03-26 17:06:47,017 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:06:47,017 - ERROR - Output: 
+2025-03-26 17:06:47,017 - ERROR - Template 8: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 17:06:47,017 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:06:47,017 - ERROR - Output: 
+2025-03-26 17:06:51,271 - INFO - Template 9 processed in 4.25 seconds
+2025-03-26 17:06:51,272 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:06:51,272 - ERROR - Output: 
+2025-03-26 17:06:51,272 - ERROR - Template 9: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 17:06:51,272 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:06:51,272 - ERROR - Output: 
+2025-03-26 17:06:54,615 - INFO - Template 10 processed in 3.34 seconds
+2025-03-26 17:06:54,617 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+
+2025-03-26 17:06:54,617 - ERROR - Output: 
+2025-03-26 17:06:54,617 - ERROR - Template 10: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:06:54,617 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+
+2025-03-26 17:06:54,617 - ERROR - Output: 
+2025-03-26 17:06:58,493 - INFO - Template 11 processed in 3.87 seconds
+2025-03-26 17:07:02,694 - INFO - Template 12 processed in 4.20 seconds
+2025-03-26 17:07:02,695 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp10auy2qt.stottr
+
+
+2025-03-26 17:07:02,695 - ERROR - Output: 
+2025-03-26 17:07:02,695 - ERROR - Template 12: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:07:02,695 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp10auy2qt.stottr
+
+
+2025-03-26 17:07:02,695 - ERROR - Output: 
+2025-03-26 17:07:06,537 - INFO - Template 13 processed in 3.84 seconds
+2025-03-26 17:07:06,538 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5jis8y4p.stottr
+
+
+2025-03-26 17:07:06,538 - ERROR - Output: 
+2025-03-26 17:07:06,538 - ERROR - Template 13: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, <http://example.org/football#Fa6i>, ?"g+")} .
+
+2025-03-26 17:07:06,538 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp5jis8y4p.stottr
+
+
+2025-03-26 17:07:06,539 - ERROR - Output: 
+2025-03-26 17:07:10,172 - INFO - Template 14 processed in 3.63 seconds
+2025-03-26 17:07:10,173 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp2ym2vb7.stottr
+
+
+2025-03-26 17:07:10,173 - ERROR - Output: 
+2025-03-26 17:07:10,173 - ERROR - Template 14: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?"g+")} .
+
+2025-03-26 17:07:10,173 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpp2ym2vb7.stottr
+
+
+2025-03-26 17:07:10,173 - ERROR - Output: 
+2025-03-26 17:07:14,812 - INFO - Template 15 processed in 4.64 seconds
+2025-03-26 17:07:14,813 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubHistory : List<xsd:string>
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7enrlm6p.stottr
+
+
+2025-03-26 17:07:14,813 - ERROR - Output: 
+2025-03-26 17:07:14,813 - ERROR - Template 15: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:07:14,813 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubHistory : List<xsd:string>
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp7enrlm6p.stottr
+
+
+2025-03-26 17:07:14,813 - ERROR - Output: 
+2025-03-26 17:07:19,577 - INFO - Template 16 processed in 4.76 seconds
+2025-03-26 17:07:19,578 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+
+2025-03-26 17:07:19,578 - ERROR - Output: 
+2025-03-26 17:07:19,578 - ERROR - Template 16: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:07:19,578 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+
+2025-03-26 17:07:19,578 - ERROR - Output: 
+2025-03-26 17:14:09,196 - INFO - Template 1 processed in 3.71 seconds
+2025-03-26 17:14:09,200 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org/football#Footballer("Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1m2frj_n.stottr
+
+
+2025-03-26 17:14:09,201 - ERROR - Output: 
+2025-03-26 17:14:09,201 - ERROR - Template 1: foot:Footballer[ ottr:IRI ?personIRI, xsd:string ?firstName, List<xsd:string> ?clubHistory ] :: {o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory)} .
+
+2025-03-26 17:14:09,201 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org/football#Footballer("Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmp1m2frj_n.stottr
+
+
+2025-03-26 17:14:09,201 - ERROR - Output: 
+2025-03-26 17:14:14,027 - INFO - Template 2 processed in 4.82 seconds
+2025-03-26 17:14:14,028 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:14:14,028 - ERROR - Output: 
+2025-03-26 17:14:14,028 - ERROR - Template 2: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?clubHistory)} .
+
+2025-03-26 17:14:14,028 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:14:14,029 - ERROR - Output: 
+2025-03-26 17:14:17,390 - INFO - Template 3 processed in 3.36 seconds
+2025-03-26 17:14:17,391 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppftr8x6g.stottr
+
+
+2025-03-26 17:14:17,391 - ERROR - Output: 
+2025-03-26 17:14:17,391 - ERROR - Template 3: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?clubHistory)} .
+
+2025-03-26 17:14:17,391 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 87
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmppftr8x6g.stottr
+
+
+2025-03-26 17:14:17,391 - ERROR - Output: 
+2025-03-26 17:14:20,446 - INFO - Template 4 processed in 3.05 seconds
+2025-03-26 17:14:20,447 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqn5vqg9r.stottr
+
+
+2025-03-26 17:14:20,447 - ERROR - Output: 
+2025-03-26 17:14:20,447 - ERROR - Template 4: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?clubHistory)} .
+
+2025-03-26 17:14:20,447 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 76
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpqn5vqg9r.stottr
+
+
+2025-03-26 17:14:20,447 - ERROR - Output: 
+2025-03-26 17:14:23,840 - INFO - Template 5 processed in 3.39 seconds
+2025-03-26 17:14:23,841 - ERROR - Stderr: [ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubHistory : List<xsd:string>
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpir7e0nsb.stottr
+
+
+2025-03-26 17:14:23,842 - ERROR - Output: 
+2025-03-26 17:14:23,842 - ERROR - Template 5: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?clubHistory)} .
+
+2025-03-26 17:14:23,842 - ERROR - Error: [ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubHistory : List<xsd:string>
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpir7e0nsb.stottr
+
+
+2025-03-26 17:14:23,842 - ERROR - Output: 
+2025-03-26 17:14:27,358 - INFO - Template 6 processed in 3.51 seconds
+2025-03-26 17:14:31,619 - INFO - Template 7 processed in 4.26 seconds
+2025-03-26 17:14:31,620 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:14:31,620 - ERROR - Output: 
+2025-03-26 17:14:31,620 - ERROR - Template 7: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI <http://example.org/football#Fa6i> ?"g+")} .
+
+2025-03-26 17:14:31,620 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:14:31,620 - ERROR - Output: 
+2025-03-26 17:14:35,887 - INFO - Template 8 processed in 4.26 seconds
+2025-03-26 17:14:35,889 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:14:35,889 - ERROR - Output: 
+2025-03-26 17:14:35,889 - ERROR - Template 8: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?"g+")} .
+
+2025-03-26 17:14:35,889 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:14:35,889 - ERROR - Output: 
+2025-03-26 17:14:40,027 - INFO - Template 9 processed in 4.13 seconds
+2025-03-26 17:14:40,028 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:14:40,028 - ERROR - Output: 
+2025-03-26 17:14:40,028 - ERROR - Template 9: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI xsd:string ?g)} .
+
+2025-03-26 17:14:40,029 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://www.w3.org/2001/XMLSchema#string
+
+2025-03-26 17:14:40,029 - ERROR - Output: 
+2025-03-26 17:14:43,506 - INFO - Template 10 processed in 3.47 seconds
+2025-03-26 17:14:43,507 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+
+2025-03-26 17:14:43,507 - ERROR - Output: 
+2025-03-26 17:14:43,507 - ERROR - Template 10: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:14:43,507 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : xsd:string (arg no. 1) which does not occur in the pattern of the template.
+
+
+2025-03-26 17:14:43,508 - ERROR - Output: 
+2025-03-26 17:14:47,569 - INFO - Template 11 processed in 4.06 seconds
+2025-03-26 17:14:50,961 - INFO - Template 12 processed in 3.39 seconds
+2025-03-26 17:14:50,962 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpo0x610xk.stottr
+
+
+2025-03-26 17:14:50,962 - ERROR - Output: 
+2025-03-26 17:14:50,962 - ERROR - Template 12: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i, ?"g+")} .
+
+2025-03-26 17:14:50,962 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 88
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpo0x610xk.stottr
+
+
+2025-03-26 17:14:50,962 - ERROR - Output: 
+2025-03-26 17:14:54,435 - INFO - Template 13 processed in 3.47 seconds
+2025-03-26 17:14:54,436 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7yi4jyc.stottr
+
+
+2025-03-26 17:14:54,436 - ERROR - Output: 
+2025-03-26 17:14:54,436 - ERROR - Template 13: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, <http://example.org/football#Fa6i>, ?"g+")} .
+
+2025-03-26 17:14:54,436 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 113
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpq7yi4jyc.stottr
+
+
+2025-03-26 17:14:54,436 - ERROR - Output: 
+2025-03-26 17:14:57,950 - INFO - Template 14 processed in 3.51 seconds
+2025-03-26 17:14:57,951 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfa7vvnpo.stottr
+
+
+2025-03-26 17:14:57,951 - ERROR - Output: 
+2025-03-26 17:14:57,951 - ERROR - Template 14: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?"g+")} .
+
+2025-03-26 17:14:57,951 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 7 column 89
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpfa7vvnpo.stottr
+
+
+2025-03-26 17:14:57,951 - ERROR - Output: 
+2025-03-26 17:15:01,490 - INFO - Template 15 processed in 3.54 seconds
+2025-03-26 17:15:01,491 - ERROR - Stderr: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubHistory : List<xsd:string>
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpxqgsi3uc.stottr
+
+
+2025-03-26 17:15:01,491 - ERROR - Output: 
+2025-03-26 17:15:01,491 - ERROR - Template 15: foot:Footballer[ List<xsd:string> ?clubHistory ] :: {ottr:Triple(?PersonIRI, xsd:string, ?g)} .
+
+2025-03-26 17:15:01,491 - ERROR - Error: [WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[WARNING] Unused parameter in template http://example.org/football#Footballer. The template has a parameter ?clubHistory : List<xsd:string> (arg no. 1) which does not occur in the pattern of the template.
+
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?clubHistory : List<xsd:string>
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpxqgsi3uc.stottr
+
+
+2025-03-26 17:15:01,491 - ERROR - Output: 
+2025-03-26 17:15:08,257 - INFO - Template 1 processed in 3.28 seconds
+2025-03-26 17:15:08,259 - ERROR - Stderr: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org/football#Footballer("Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpwsj_gpim.stottr
+
+
+2025-03-26 17:15:08,259 - ERROR - Output: 
+2025-03-26 17:15:08,259 - ERROR - Template 1: foot:Footballer[ ottr:IRI ?personIRI, xsd:string ?firstName, List<xsd:string> ?clubHistory ] :: {o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory)} .
+
+2025-03-26 17:15:08,259 - ERROR - Error: [ERROR] Wrong number of arguments. Expected 3 arguments, but found 1 in instance: http://example.org/football#Footballer("Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string)
+[ERROR] Incompatible argument type. Argument "Dummy"^^http://www.w3.org/2001/XMLSchema#string : xsd:string with type xsd:string given to parameter ?personIRI : ottr:IRI
+Location(s):
+- Signature with IRI 'http://example.org/football#Footballer'
+- File C:\Users\adria\AppData\Local\Temp\tmpwsj_gpim.stottr
+
+
+2025-03-26 17:15:08,259 - ERROR - Output: 
+2025-03-26 17:15:12,468 - INFO - Template 2 processed in 4.21 seconds
+2025-03-26 17:15:12,469 - ERROR - Stderr: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:15:12,469 - ERROR - Output: 
+2025-03-26 17:15:12,469 - ERROR - Template 2: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i ?clubHistory)} .
+
+2025-03-26 17:15:12,470 - ERROR - Error: [FATAL] Illegal char <:> at index 4: http://example.org/football#Fa6i
+
+2025-03-26 17:15:12,470 - ERROR - Output: 
+2025-03-26 17:15:15,604 - INFO - Template 3 processed in 3.13 seconds
+2025-03-26 17:15:15,606 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_psqfzpx.stottr
+
+
+2025-03-26 17:15:15,606 - ERROR - Output: 
+2025-03-26 17:15:15,606 - ERROR - Template 3: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI, foot:Fa6i ?clubHistory)} .
+
+2025-03-26 17:15:15,606 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input '?clubHistory' expecting {',', ')'} at line 7 column 81
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmp_psqfzpx.stottr
+
+
+2025-03-26 17:15:15,606 - ERROR - Output: 
+2025-03-26 17:15:18,771 - INFO - Template 4 processed in 3.16 seconds
+2025-03-26 17:15:18,772 - ERROR - Stderr: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxn32r90n.stottr
+
+
+2025-03-26 17:15:18,772 - ERROR - Output: 
+2025-03-26 17:15:18,772 - ERROR - Template 4: foot:Footballer[ xsd:string ?clubHistory ] :: {ottr:Triple(?PersonIRI foot:Fa6i, ?clubHistory)} .
+
+2025-03-26 17:15:18,772 - ERROR - Error: [ERROR] Parsing stOTTR
+[ERROR] Syntax error: extraneous input 'foot:Fa6i' expecting {',', ')'} at line 7 column 70
+Location(s):
+- File C:\Users\adria\AppData\Local\Temp\tmpxn32r90n.stottr
+
+
+2025-03-26 17:15:18,772 - ERROR - Output: 
+2025-03-26 17:15:22,140 - INFO - Template 5 processed in 3.36 seconds
+2025-03-26 17:15:25,635 - INFO - Template 6 processed in 3.49 seconds

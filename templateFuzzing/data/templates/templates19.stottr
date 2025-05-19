@@ -1,0 +1,106 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+http://invalid :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } (
+xsd:Footballer [ ] :: ( ottr:Triple(?0> o-rdf:Invalid Space "L+") ; ) .
+"string" [ NEList<List<List<List<invalid |  List<List<<badPrefix:string>>>>>>> ?)w NEList<<LUB<owl:Class>>> List , bad::IRI ] 123 :: BASE .
+ [ ! List<owl:DatatypeProperty> owl:ObjectProperty ] { ottr:IRI _:blank ,, } .
+://noScheme [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: BASE
+:noPrefix [  @@ ex:Invalid Space ( ++ ( ( ?R,QfEt! ,, ) ) ,  ) , "string"^^^xsd:string LUB ) @@ zipMax |  ex: (  ) :: { o-rdf:Type(xsd::doubleColon, ?o)  
+@base ex::doubleColon .
+?var [ ?! LUB<xsd:string> 123  , ]  ; { <unclosedIRI(_:blank, 23.14.15) ,  } ..
+foot:Template1 ++ ++ invalid "string" , , LUB<<List<owl:AnnotationProperty>>>  ?   ??  ,  @@  http://example.com/:Type ( _:blank cross ) :: { ottr:Triple(?{, <unclosedIRI, true) , }
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: { ottr:Triple(?8n@y, ottr:Triple, _:b1) } .
+?var [   "string"  LUB<owl:NamedIndividual>  , , ++ ++ LUB<<List<xsd:integer>>> 123  @@ ex::doubleColon  ) :: BASE
+ottr:IRI [ ] :: ( o-rdf:Type(_:blank, ""+") o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) ) .
+xsd:Type [ "string" ] :noType :: { :noPrefix }
+://noScheme [  List<owl:Class> xsd:decimal , ] @@ cross ex:Template1 ( ?*^ ) :: { invalid |  bad::IRI ( ++ ++ (  ) ) ) } (
+ex:Invalid Space :: BASE .
+<unclosedIRI [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] { ottr:Triple(xsd:invalidType :Triple ?M) , } .
+http://invalid  @@ ex: ( _:b2 ^^ invalid _:blank ,, ) :: { ottr:Triple(?u, , _:b1) ,  } .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: { :noPrefix(?C, "malformed"^^bad:datatype) ; 
+@base  .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+ex::doubleColon [ "(*" ] :: {  } .
+foot:Template1 cross LUB<<List<owl:DatatypeProperty>>>  , , ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName @@ badPrefix:string :: BASE
+ottr:IRI [  NEList<<LUB<xsd:boolean>>> ?a = "unclosed ] { ottr:Triple(?Tw# xsd:Footballer "invalid"^^) , ottr:Triple(_:blank, bad::IRI, ?`) o-rdf:Type("string", <unclosedIRI) } .
+123 [ ? "string"  , ] @@ ex:Invalid Space  , @@ :noPrefix (  ) >: { http://invalid(?P}, "2023-01-01"^^xsd:date) ; } ..
+://noScheme [ NEList<List<<:noType>>> 123 ,  ] List :: { invalid 
+?var [ ] :: { ex:(?/X), 23.14.15) , } (
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+@base ex: .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: ( o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) ) .
+ex:Annotation [ ottr:  ?? LUB<owl:AnnotationProperty> , "string" ?? cross |  @@ invalid |  o-rdf:Triple ( _:blank zipMax |  ) :: BASE .
+?var :: BASE
+ottr:IRI [ ? List<<xsd::doubleColon>> , ++ rdfs:Datatype 123 = "unclosed , @@ http://invalid (  ) @@ <unclosedIRI  : { (invalid, ?X) } ...
+xsd:Type [ ] :: ( ottr:Triple(?"vo ex: _:b1) o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) ) .
+bad::IRI [  ] @@  ://noScheme ( ++ (  ) ) , "string" ) , @@ zipMin |  ex:Invalid Space ( ++ ++ ( ?var 1 , "malformed"^^bad:datatype ) ) :: BASE .
+123 [ ex::doubleColon ] "*+" :: {  } ,
+:noPrefix cross |  xsd:invalidType ?[ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName  :: { ottr:Triple(?8k, badPrefix:Annotation, :noType) , o-rdf:Type(_:blank, -6+.1+) , } .
+@base http://invalid .
+foot:Footballer [ List<List<NEList<"C*">>> ?x- , , ?!! List<owl:NamedIndividual> ottr:IRI   ] { badPrefix:string } .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: { || o-rdf:Template1 ( "string" ^^ ottr: ,, ) }
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+123 [ NEList<<LUB<ottr:Bot>>> http://invalid , ] :: BASE .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+bad::IRI [ ++ ++  = invalid^^type , , List<++ NEList<ottr:> ?m = "unclosed> ?\H ] { o-rdf:Type(badPrefix:string, ?var) , } .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) }
+ottr:IRI :: { ottr:Triple(?,E); ottr:Type ?%)  } .
+http://example.com/:Footballer [ "string" ?4:X_*  List<t-pnd:Punned-Class-ObjectProperty> owl:Class , ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName @@ ://noScheme ( _:blank wrong ) ) :: { ex::doubleColon(_:blank, "2023-01-01"^^xsd:date) } (
+ "R*OP*"  :: ( ottr:Triple(?5, <unclosedIRI, ""unclosed") , ) .
+ex: [  ] @@ invalid |  :noPrefix ( ++ ++ ?var 1 ,, ) @@  ://noScheme (  ) : { ex:Invalid Space ( ( "string" , "unclosed ,, ) ) ) } ..
+@base :noPrefix .
+ex:Template2 [ zipMax |  List<List<<LUB>>> 123 ] List :: { invalid 
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+?var [ ] :: { :noPrefix(?Y, _:b2) 
+ottr:Footballer [  ?m ?!! NEList<<LUB<owl:ObjectProperty>>> , ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] @@ ex:  @@ ottr:IRI (  ) :: BASE
+ex::doubleColon [  @@ zipMin |  ://noScheme ( ( invalid term ,, ) ) , "invalid"^^ex:Invalid Space ^^  http://invalid ) ( ; {  } ...
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: BASE .
+ List @@  123 ( _:blank ) , @@ cross "string" ( ++ ++ ( ?N , xsd:Triple ) cross |  ) :: { ottr:Triple("string", bad::IRI, ?,.) ) }
+<unclosedIRI :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } ;
+@base ex::doubleColon .
+ex:Annotation [ ?! xsd:invalidType "string" ] :: ( o-rdf:Type(_:blank, "r*") , invalid |  foot:Template2 ( ++ 23.14.15 ,, ) ) .
+badPrefix:Invalid Space [ zipMax |  xsd:decimal  , ] ottr: :: { ottr:Triple(_:blank :Type "unclosed) invalid } .
+?var  @@ cross |  ottr:IRI ( ++ ( invalid term ) ) invalid |  ) , :: ( o-rdf:Annotation 2+.abc ^^ invalid ) .
+bad::IRI [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] @@ ://noScheme ( ++ ++ ( ?e\ ,  ) ,, ) @@ cross  ( _:blank 123 ) :: BASE .
+ex:Invalid Space [ :noPrefix zipMax |  @@ zipMin |  http://invalid (  ) :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+<unclosedIRI :: { ottr:Triple(:noType owl:Footballer "+*|n*") } ..
+ex::doubleColon [ ] :: { ex:(?au, -7+) ottr:Triple(_:blank, ex:, ?]) , o-rdf:Type(?loiPw, true) , 
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: BASE
+"string" [ ++  123 ] :: { o-rdf:Type(?0*, ex:Type) ( }
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+:Triple [  List<xsd:invalidType> ?: , , xsd:http://example.com/:Invalid Space ?N , ? "string"  , ] ottr: :: {  } ;
+badPrefix:Template1 [ ! List<rdfs:Datatype> ottr:IRI  = invalid^^type  LUB<<List<ottr:Bot>>> , ] { LUB } .
+ex:Invalid Space [  NEList<<LUB<xsd:decimal>>> ?!!   , ,  ] @@ cross |  ottr:IRI (  ) @@ "string"  :: BASE
+http://example.com/:Template1 [ ? ottr:IRI 123 = 23.14.15 , List<<:noType>> ?u ] { ottr:Triple(_:blank badPrefix:Invalid Space "2023-01-01"^^xsd:date) o-rdf:Type(123, _:b2) , } .
+ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName @ invalid |  ://noScheme ( "string"^^^xsd:string ) :: { ex::doubleColon ( _:blank , ( 23.14.15 ,, ) ) ^^ badPrefix:string ,, ) 
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] ; { http://invalid(?&[q0, ) } ...
+:noPrefix :: BASE .
+@base <unclosedIRI .
+bad::IRI [ ottr: ] "unclosed :: { ottr:Triple(?yd, ex:Invalid Space, ?iS<:_) , ex: } ;
+?var [ ] :: ( o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) ) .
+:Annotation [ ! invalid "string" , ] :: {  } .
+ottr:IRI [  ?+ao' ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] { :noPrefix(_:blank, ??) } .
+?var invalid |  NEList<<LUB<ottr:Bot>>>  , , NEList<LUB<<List<owl:ObjectProperty>>>> ex:Invalid Space  :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } ;
+ex:Template2 :: { ottr:Triple(?C http://example.com/:Footballer "O*") ) } .
+@base ex: .
+ [ ?? badPrefix:string 123 , || List<LUB<xsd:integer>> ?M , ] :noType :: { <unclosedIRI _:blank ,, }
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: BASE
+ex::doubleColon [  ] @@ bad::IRI ( ++ ++ "string" cross |  ) ; { ottr:Triple(123, ://noScheme, -1+) , o-rdf:Type(?A, 23.14.15) ottr: } .
+"string" [ LUB @@ zipMin |  http://invalid ( List ) @@ zipMax |  ://noScheme (  ) :: ( bad::IRI(?|, "invalid"^^ex:) , ) .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+foot:Invalid Space [ ] :: BASE .
+ottr:IRI [ "`*" ] @@  :: BASE .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastname, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:decimal ?marketValue, xsd:string ?countryName ] :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+@base ex: .
+?var [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] {  } .
+foot:Footballer [ ottr:IRI ?personIRI, xsd:string ?firstName, xsd:string ?lastName, xsd:date ?birthday, xsd:string ?currentClub, List<xsd:string> ?clubHistory, xsd:integer ?marketValue, xsd:string ?countryName ] :: ( ottr:Triple("string" http://example.com/:Template2 abc) ) ) .
+:Annotation ? invalid  , @@ zipMin |  ex:Invalid Space ( ++ "string"^^^xsd:string _:blank zipMax |  ) , @@ ex::doubleColon ( ++ ++ (  ) ) , "invalid"^^http://invalid ^^ xsd:invalidType ,, ) :: { o-rdf:Type(?personIRI, foot:Footballer), ottr:Triple(?personIRI, foaf:name, ?firstName), ottr:Triple(?personIRI, foaf:lastName, ?lastName), ottr:Triple(?personIRI, foot:birthday, ?birthday), ottr:Triple(?personIRI, foot:currentClub, ?currentClub), ottr:Triple(?personIRI, foot:clubHistory, ?clubHistory), ottr:Triple(?personIRI, foot:marketValue, ?marketValue), ottr:Triple(?personIRI, foot:countryName, ?countryName) } .
+<unclosedIRI [ LUB ?>Xzd3 , , invalid |  List<LUB<owl:DatatypeProperty>> ?F , ! List<owl:ObjectProperty> rdfs:Datatype  ] ://noScheme :: { o-rdf:Type(_:blank, badPrefix:string) (?@jD, ?c) , } ,
+:noPrefix [ ] :: { ottr:Triple(?Ev, bad::IRI, "malformed"^^bad:datatype) }
+123 [   List<<ottr:>> "string" = "value"^^invalid ] :: BASE
+ottr:Type ': { ottr:Triple(?-, owl:Footballer, 23.14.15) , badPrefix:Invalid Space  } .

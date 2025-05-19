@@ -1,0 +1,178 @@
+@prefix schema: <http://schema.org/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foot: <http://example.org/football#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:b0    foaf:name           "France" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b1 .
+
+_:b2    rdf:rest   rdf:nil ;
+        rdf:first  "!" .
+
+_:b3    rdf:rest   _:b2 ;
+        rdf:first  _:b4 .
+
+_:b1    rdf:rest   _:b3 ;
+        rdf:first  _:b5 .
+
+_:b0    foot:continent  "Africa" ;
+        foot:leagues    _:b6 .
+
+_:b6    rdf:rest   rdf:nil ;
+        rdf:first  ")) " .
+
+_:b0    foot:fifaCode  "" .
+
+_:b7    foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        rdf:nil ;
+        foot:fifaCode       "ENG" .
+
+_:b8    foaf:name           "England" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b9 .
+
+_:b10   rdf:rest   _:b11 ;
+        rdf:first  _:b12 .
+
+_:b9    rdf:rest   _:b10 ;
+        rdf:first  _:b13 .
+
+_:b11   rdf:rest   _:b14 ;
+        rdf:first  _:b15 .
+
+_:b14   rdf:rest   rdf:nil ;
+        rdf:first  rdf:nil .
+
+_:b8    foot:fifaCode  "ARG" .
+
+_:b16   foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b17 .
+
+_:b17   rdf:rest   _:b18 ;
+        rdf:first  _:b19 .
+
+_:b20   rdf:rest   rdf:nil ;
+        rdf:first  _:b21 .
+
+_:b22   rdf:rest   _:b20 ;
+        rdf:first  _:b23 .
+
+_:b18   rdf:rest   _:b22 ;
+        rdf:first  _:b24 .
+
+_:b16   foot:continent  "South America" ;
+        foot:leagues    _:b25 .
+
+_:b26   rdf:rest   _:b27 ;
+        rdf:first  _:b28 .
+
+_:b25   rdf:rest   _:b26 ;
+        rdf:first  _:b29 .
+
+_:b27   rdf:rest   rdf:nil ;
+        rdf:first  _:b30 .
+
+_:b16   foot:fifaCode  "ARG" .
+
+_:b31   foaf:name           "Egypt" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Africa" ;
+        foot:leagues        _:b32 .
+
+_:b33   rdf:rest   _:b34 ;
+        rdf:first  _:b35 .
+
+_:b36   rdf:rest   rdf:nil ;
+        rdf:first  "Wrong" .
+
+_:b34   rdf:rest   _:b36 ;
+        rdf:first  _:b37 .
+
+_:b32   rdf:rest   _:b33 ;
+        rdf:first  _:b38 .
+
+_:b31   foot:fifaCode  "EGY" .
+
+_:b39   foaf:name           "." ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b40 .
+
+_:b40   rdf:rest   rdf:nil ;
+        rdf:first  "S," .
+
+_:b39   foot:continent  "" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b41   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "Asia" ;
+        foot:leagues        _:b42 .
+
+_:b43   rdf:rest   _:b44 ;
+        rdf:first  _:b45 .
+
+_:b46   rdf:rest   rdf:nil ;
+        rdf:first  _:b47 .
+
+_:b42   rdf:rest   _:b43 ;
+        rdf:first  _:b48 .
+
+_:b44   rdf:rest   _:b46 ;
+        rdf:first  _:b49 .
+
+_:b41   foot:fifaCode  "FRA" .
+
+_:b50   foaf:name           "Argentina" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  _:b51 .
+
+_:b52   rdf:rest   _:b53 ;
+        rdf:first  _:b54 .
+
+_:b53   rdf:rest   _:b55 ;
+        rdf:first  _:b56 .
+
+_:b51   rdf:rest   _:b52 ;
+        rdf:first  _:b57 .
+
+_:b55   rdf:rest   rdf:nil ;
+        rdf:first  _:b58 .
+
+_:b50   foot:continent  "North America" ;
+        foot:leagues    rdf:nil ;
+        foot:fifaCode   "POR" .
+
+_:b59   foaf:name           "Portugal" ;
+        rdf:type            foot:Country ;
+        foot:famousPlayers  rdf:nil ;
+        foot:continent      "North America" ;
+        foot:leagues        _:b60 .
+
+_:b60   rdf:rest   _:b61 ;
+        rdf:first  _:b62 .
+
+_:b61   rdf:rest   _:b63 ;
+        rdf:first  _:b64 .
+
+_:b65   rdf:rest   rdf:nil ;
+        rdf:first  _:b66 .
+
+_:b63   rdf:rest   _:b65 ;
+        rdf:first  _:b67 .
+
+_:b59   foot:fifaCode  "ARG" .

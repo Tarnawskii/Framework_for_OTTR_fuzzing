@@ -1,0 +1,106 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+@prefix foot: <http://example.org/football#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+foot:Footballer [ *? xsd:date ?j0P , *+ xsd:string ?WJi  ] :: { foot:Footballer ( false, true ), foot:Footballer ( none ) } .
+foot:Footballer [ ??? xsd:boolean ?b7C = true ] :: { foot:Footballer ( ?w6K, true, false ) } .
+foot:Footballer [ +? xsd:integer ?c3k ,  ottr:IRI ?M5t  ] :: { foot:Footballer ( false ), foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [ ? xsd:date ?d8f , ?+ xsd:boolean ?p2y  ] :: { foot:Footballer ( -9 ) } .
+foot:Footballer [ ?* xsd:boolean ?q1Q , ?? xsd:string ?S4g  ] :: { foot:Footballer ( none ), foot:Footballer ( true ), foot:Footballer ( none ), foot:Footballer ( true ) } .
+foot:Footballer [ ! xsd:string ?uHm , * ottr:IRI ?YFG , + xsd:integer ?vhn  ] :: { foot:Footballer ( none ), foot:Footballer ( false ), foot:Footballer ( none ) } .
+foot:Footballer [ ++ xsd:boolean ?zLa = false ] :: { foot:Footballer ( false ), foot:Footballer ( none ) } .
+foot:Footballer [ *? xsd:date ?DZE ,  ottr:IRI ?sTA , *+ xsd:date ?X7l  ] :: { foot:Footballer ( false ), foot:Footballer ( false ) } .
+foot:Footballer [ +? List<xsd:string> ?V5x = <http://example.org/:Oo> ] :: { foot:Footballer ( "@" ) } .
+foot:Footballer [ * List<<http://edgecase.org/r>> ?e9O  ] :: { foot:Footballer ( ?UIN, ?orR ) } .
+foot:Footballer [ *+ xsd:string ?O9X  ] :: { foot:Footballer ( ?lov, -4, true, false, <http://example.org/S9v> ), foot:Footballer ( "R" ) } .
+foot:Footballer [ *? xsd:date ?N2c , ++ ottr:IRI ?P0q  ] :: { foot:Footballer ( none ), foot:Footballer ( none ) } .
+foot:Footballer [ ? xsd:integer ?j7R = 0, ?+ List<<http://edgecase.org/T>> ?a3H = -0 ] :: { foot:Footballer ( ?t5Y ) } .
+foot:Footballer [ +? xsd:boolean ?b8z  ] :: { foot:Footballer ( true ), foot:Footballer ( true ) } .
+foot:Footballer [ ??? xsd:boolean ?d1Z , + ottr:IRI ?Q6U  ] :: { foot:Footballer ( none ), foot:Footballer ( true ), foot:Footballer ( false ) } .
+foot:Footballer [ ?? List<xsd:string> ?kAL  ] :: { foot:Footballer ( true, true ), foot:Footballer ( false ) } .
+foot:Footballer [ ! List<<http://edgecase.org/Y>> ?EhF = false,  xsd:integer ?xyB  ] :: { foot:Footballer ( false, none ), foot:Footballer ( true ) } .
+foot:Footballer [ ?* List<<http://example.org/'oi>> ?i1s = 5773 ] :: { foot:Footballer ( ?I5w ) } .
+foot:Footballer [ * xsd:integer ?pmD , ??? xsd:integer ?K9C  ] :: { foot:Footballer ( none, true ) } .
+foot:Footballer [ + xsd:date ?JSW , ?? xsd:integer ?n7V , * xsd:string ?M2u  ] :: { foot:Footballer ( true, true ) } .
+foot:Footballer [ ?? List<<http://edgecase.org/?>> ?BMo , + ottr:IRI ?N8Y = false ] :: { foot:Footballer ( ?c3a ) } .
+foot:Footballer [  xsd:boolean ?R7b , ++ xsd:string ?F4P  ] :: { foot:Footballer ( true ), foot:Footballer ( false ), foot:Footballer ( none ) } .
+foot:Footballer [ +? xsd:date ?K0w , ?+ xsd:integer ?Q6V  ] :: { foot:Footballer ( none ), foot:Footballer ( true, false ) } .
+foot:Footballer [ * List<xsd:string> ?r9H = 0 ] :: { foot:Footballer ( <http://example.org/xL>, "p" ) } .
+foot:Footballer [ *? List<<http://edgecase.org/Fs>> ?t1X = -25 ] :: { foot:Footballer ( ?h9k, ?lng, ?s6j, ?z8d, ?i9q, ?xGW ) } .
+foot:Footballer [ ?* xsd:string ?DOv , ??? xsd:integer ?fLU  ] :: { foot:Footballer ( ?JpZ ), foot:Footballer ( false ), foot:Footballer ( none ) } .
+foot:Footballer [ ! List<<http://example.org/Ok>> ?CuT = 251 ] :: { foot:Footballer ( ?m7e ) } .
+foot:Footballer [ ? List<<http://edgecase.org/1>> ?SAy = -0 ] :: { foot:Footballer ( ?C8e, "+5!" ), foot:Footballer ( ?E0I ) } .
+foot:Footballer [ ++ xsd:date ?F1i , *+ ottr:IRI ?cIB , + xsd:integer ?B6b , +? xsd:string ?vLj  ] :: { foot:Footballer ( true, false ) } .
+foot:Footballer [  List<<http://edgecase.org/X>> ?SJx = "ji*" ] :: { foot:Footballer ( "<", "My" ) } .
+foot:Footballer [ ? xsd:boolean ?net = "N", ??? List<<http://edgecase.org/J;>> ?p4o  ] :: { foot:Footballer ( ?F1L ) } .
+foot:Footballer [ ! ottr:IRI ?k5f , * xsd:integer ?W3R  ] :: { foot:Footballer ( none ), foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [ ?? xsd:date ?g2h , ?+ xsd:string ?x9O , +? ottr:IRI ?B7y  ] :: { foot:Footballer ( false ), foot:Footballer ( none ), foot:Footballer ( false ) } .
+foot:Footballer [ *+ List<xsd:string> ?j6v = -80 ] :: { foot:Footballer ( <http://example.org/|@r>, ?zSd, ?rNC ) } .
+foot:Footballer [  List<<http://example.org/R>> ?JPi , *? xsd:date ?M2q  ] :: { foot:Footballer ( none ), foot:Footballer ( none ), foot:Footballer ( none ) } .
+foot:Footballer [ ++ List<<http://example.org/e>> ?b4G = -0 ] :: { foot:Footballer ( ?lHA, ?Y3w ) } .
+foot:Footballer [ ?* xsd:date ?DQZ = false ] :: { foot:Footballer ( false ), foot:Footballer ( none ), foot:Footballer ( false ) } .
+foot:Footballer [ + List<<http://example.org/$Z>>> ?V0a = none ] :: { foot:Footballer ( ?KUu ), foot:Footballer ( none ) } .
+foot:Footballer [ ?+ List<<http://edgecase.org/!>> ?smE , + xsd:date ?IcX , *? xsd:date ?TfE , ?* xsd:date ?l5R  ] :: { foot:Footballer ( none ) } .
+foot:Footballer [ + xsd:date ?pEe , ?* xsd:boolean ?EuB  ] :: { foot:Footballer ( false ) } .
+foot:Footballer [ ?? xsd:date ?NvS , ! xsd:boolean ?d4u  ] :: { foot:Footballer ( false, true ) } .
+foot:Footballer [ ?+ ottr:IRI ?Q0e , *+ xsd:string ?f2z  ] :: { foot:Footballer ( none ), foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [ +? xsd:integer ?G1U , * xsd:string ?h9i  ] :: { foot:Footballer ( false, none ) } .
+foot:Footballer [ *? List<<http://edgecase.org/'>> ?V5w , ??? xsd:boolean ?Z3m  ] :: { foot:Footballer ( none, true ) } .
+foot:Footballer [ ?* xsd:date ?t6X , + xsd:boolean ?C7y  ] :: { foot:Footballer ( none ) } .
+foot:Footballer [ ? List<xsd:string> ?W8M = true ] :: { foot:Footballer ( ?g5B ), foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [  List<<http://example.org/>>> ?j6o = true ] :: { foot:Footballer ( true ), foot:Footballer ( none ), foot:Footballer ( true ) } .
+foot:Footballer [ ?? xsd:integer ?YFq , ++ xsd:boolean ?kaP  ] :: { foot:Footballer ( none, false, none ) } .
+foot:Footballer [ *+ xsd:date ?A0r , ?* xsd:date ?nsp  ] :: { foot:Footballer ( true ), foot:Footballer ( true ) } .
+foot:Footballer [ +? ottr:IRI ?ObL  ] :: { foot:Footballer ( none ), foot:Footballer ( false, false ) } .
+foot:Footballer [ * xsd:string ?I8h , ! ottr:IRI ?XRl  ] :: { foot:Footballer ( true, false ) } .
+foot:Footballer [ ? xsd:date ?n6r = none ] :: { foot:Footballer ( <http://example.org/T> ), foot:Footballer ( ?S3o ) } .
+foot:Footballer [ *+ xsd:integer ?w5U = 20 ] :: { foot:Footballer ( "PES" ) } .
+foot:Footballer [ ++ xsd:boolean ?O7p = -0 ] :: { foot:Footballer ( ?a9A ), foot:Footballer ( ?z4m, ?f1V, ?sHY, ?tQg ) } .
+foot:Footballer [ + List<xsd:string> ?v9q = -1 ] :: { foot:Footballer ( ?bFk ) } .
+foot:Footballer [ *? List<<http://edgecase.org/_D>> ?D8j = 0 ] :: { foot:Footballer ( ?idx ) } .
+foot:Footballer [  xsd:date ?KZG  ] :: { foot:Footballer ( true, true ), foot:Footballer ( none ), foot:Footballer ( false ) } .
+foot:Footballer [ ?* List<<http://edgecase.org/(.>> ?CeP = "#jVI" ] :: { foot:Footballer ( ?yTc ) } .
+foot:Footballer [ +? xsd:string ?WuN = false, ?+ xsd:integer ?ELM  ] :: { foot:Footballer ( false ) } .
+foot:Footballer [ ??? xsd:string ?B2J , ?? ottr:IRI ?LMg , ? xsd:boolean ?v4y  ] :: { foot:Footballer ( true, false ) } .
+foot:Footballer [ + xsd:string ?i2Z = <http://edgecase.org/$> ] :: { foot:Footballer ( ?ERr ) } .
+foot:Footballer [ +? xsd:date ?k6n , ? xsd:boolean ?f1F  ] :: { foot:Footballer ( true ), foot:Footballer ( none ) } .
+foot:Footballer [ ! ottr:IRI ?y9l , ?* List<xsd:string> ?H5Q  ] :: { foot:Footballer ( false ), foot:Footballer ( true ), foot:Footballer ( none ) } .
+foot:Footballer [ ?? List<<http://example.org/_>> ?e4G = -0 ] :: { foot:Footballer ( "AI", 0 ) } .
+foot:Footballer [  xsd:integer ?T3p = 78 ] :: { foot:Footballer ( ?S0x ) } .
+foot:Footballer [ ?+ xsd:boolean ?b8C = none, *+ xsd:date ?M0O  ] :: { foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [ * ottr:IRI ?WgX , ++ xsd:date ?wzD  ] :: { foot:Footballer ( none ), foot:Footballer ( none ), foot:Footballer ( none ) } .
+foot:Footballer [ ??? xsd:integer ?u7c = true, *? xsd:string ?mIY  ] :: { foot:Footballer ( true, true, none ) } .
+foot:Footballer [ ? xsd:integer ?V2A = true ] :: { foot:Footballer ( true, false ), foot:Footballer ( none ) } .
+foot:Footballer [ ? List<<http://edgecase.org/Z>> ?LdB = -5 ] :: { foot:Footballer ( ?v2N ) } .
+foot:Footballer [ ??? xsd:integer ?w3E = <http://example.org/q>, ?+ xsd:string ?Qdu  ] :: { foot:Footballer ( true ) } .
+foot:Footballer [ + xsd:date ?z0l ,  xsd:boolean ?I1H  ] :: { foot:Footballer ( none ), foot:Footballer ( false ) } .
+foot:Footballer [ *? ottr:IRI ?g6t , +? xsd:integer ?X4o  ] :: { foot:Footballer ( false ), foot:Footballer ( none ), foot:Footballer ( false ) } .
+foot:Footballer [ ++ xsd:integer ?c5Z , *+ xsd:date ?G8U  ] :: { foot:Footballer ( none ), foot:Footballer ( none ), foot:Footballer ( true ) } .
+foot:Footballer [ ?? List<xsd:string> ?n7O = true, ?* xsd:date ?B2x  ] :: { foot:Footballer ( ?k9S, none ), foot:Footballer ( none, true ) } .
+foot:Footballer [ * ottr:IRI ?MTr , ! ottr:IRI ?Fsj  ] :: { foot:Footballer ( false ) } .
+foot:Footballer [ ? List<<http://edgecase.org/f|1>> ?h9K = "d" ] :: { foot:Footballer ( 0 ) } .
+foot:Footballer [ ?? List<<http://edgecase.org/T>> ?L2m = -0, ! xsd:integer ?a7A  ] :: { foot:Footballer ( true ) } .
+foot:Footballer [ ? List<<http://example.org/=>> ?ybf = 8 ] :: { foot:Footballer ( ?V5q ) } .
+foot:Footballer [ ??? ottr:IRI ?e7Y , * xsd:string ?DWv ,  xsd:integer ?P5J  ] :: { foot:Footballer ( true ) } .
+foot:Footballer [ +? xsd:integer ?MXk , + xsd:boolean ?C5L  ] :: { foot:Footballer ( none ) } .
+foot:Footballer [ ?? xsd:date ?J8b  ] :: { foot:Footballer ( true, false ), foot:Footballer ( true ), foot:Footballer ( none ) } .
+foot:Footballer [ * ottr:IRI ?m4e = <http://example.org/w>,  xsd:string ?T1p , *+ xsd:boolean ?j3s  ] :: { foot:Footballer ( ?r6F ) } .
+foot:Footballer [ ? xsd:date ?y2P  ] :: { foot:Footballer ( none, none ), foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [ ??? List<<http://edgecase.org/G(>> ?d0I = "A" ] :: { foot:Footballer ( -0 ), foot:Footballer ( -7 ) } .
+foot:Footballer [ ! List<xsd:string> ?azx = 0 ] :: { foot:Footballer ( ?Y9Z, none ), foot:Footballer ( none, false ) } .
+foot:Footballer [ *? xsd:string ?G0D , ?+ xsd:string ?BEU , ++ xsd:string ?H1R  ] :: { foot:Footballer ( true ), foot:Footballer ( true ) } .
+foot:Footballer [ ?* xsd:integer ?uAV , ++ xsd:boolean ?i1c  ] :: { foot:Footballer ( none, none ) } .
+foot:Footballer [ * List<<http://edgecase.org/}>> ?nqg = 7540 ] :: { foot:Footballer ( ?ofv, ?KQh ) } .
+foot:Footballer [ ?* xsd:string ?l5W , + xsd:integer ?SwO  ] :: { foot:Footballer ( none, none, none ) } .
+foot:Footballer [ +? xsd:boolean ?SsX  ] :: { foot:Footballer ( ?h6y ) } .
+foot:Footballer [ ?? xsd:date ?r9g , ++ xsd:string ?J4j  ] :: { foot:Footballer ( false, true ), foot:Footballer ( none ) } .
+foot:Footballer [ ?* List<xsd:string> ?Y2f = <http://edgecase.org/0> ] :: { foot:Footballer ( -37 ) } .
+foot:Footballer [ *+ ottr:IRI ?v1e = 0 ] :: { foot:Footballer ( "Mg", ?q8A ) } .
+foot:Footballer [ *? xsd:integer ?D0t = true, ?+ xsd:integer ?I5Q  ] :: { foot:Footballer ( true ) } .
+foot:Footballer [  List<<http://example.org/K>> ?czw = 3 ] :: { foot:Footballer ( ?i4W, ?N3V, ?OpR ) } .
+foot:Footballer [ ! xsd:date ?n8b , * xsd:string ?C5T  ] :: { foot:Footballer ( none, none, none ) } .
+foot:Footballer [ + xsd:string ?k0a , ? ottr:IRI ?K4L  ] :: { foot:Footballer ( false ), foot:Footballer ( false ), foot:Footballer ( true ) } .
+foot:Footballer [ ??? List<<http://example.org/v>> ?ZBu = true ] :: { foot:Footballer ( true, ?F4o, false ) } .
+foot:Footballer [ ! xsd:boolean ?xmU = false, ?* xsd:integer ?MEP , ??? xsd:string ?dAG , ??? xsd:integer ?H6l , + xsd:integer ?P9m  ] :: { foot:Footballer ( none ) } .

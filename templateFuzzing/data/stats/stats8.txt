@@ -1,0 +1,29 @@
+--- Oppsummering ---
+Genererte templates: 100
+Antall templates med feil: 7
+Totalt antall feilmeldinger: 60
+
+Feil på linje 7:
+  [ERROR] Syntax error: token recognition error at: '+?' at line 7 column 35[ERROR] Syntax error: extraneous input '{' expecting {'}', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 7 column 60[ERROR] Syntax error: mismatched input ',' expecting '.' at line 7 column 102[ERROR] Syntax error: extraneous input '}' expecting '.' at line 7 column 119[ERROR] Syntax error: mismatched input '(' expecting {',', ')'} at line 8 column 56[ERROR] Syntax error: extraneous input 'none' expecting {'}', ListExpander, IRIREF, PNAME_NS, PNAME_LN} at line 8 column 64[ERROR] Syntax error: token recognition error at: '*' at line 9 column 18[ERROR] Syntax error: token recognition error at: '+ ' at line 9 column 19[ERROR] Syntax error: token recognition error at: '+ ' at line 10 column 18[ERROR] Syntax error: token recognition error at: '+ ' at line 13 column 19[ERROR] Syntax error: token recognition error at: '*' at line 14 column 12[ERROR] Syntax error: token recognition error at: '*' at line 14 column 38[ERROR] Syntax error: token recognition error at: '*' at line 15 column 19[ERROR] Syntax error: token recognition error at: '*' at line 16 column 37[ERROR] Syntax error: no viable alternative at input 'foot:Footballer[xsd:string?z9N,!ottr:IRI?L1J,]' at line 9 column 58[ERROR] Syntax error: extraneous input '}' expecting '.' at line 9 column 87[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 10 column 70[ERROR] Syntax error: no viable alternative at input 'hand:Player[++' at line 12 column 14[ERROR] Syntax error: extraneous input '}' expecting '.' at line 12 column 69[ERROR] Syntax error: no viable alternative at input 'foot:Team[?xsd:boolean?qfp=-0,xsd:string?SVv,???xsd:string?P6Y,]' at line 14 column 81[ERROR] Syntax error: extraneous input '}' expecting '.' at line 14 column 107[ERROR] Syntax error: mismatched input ')' expecting {'[', '(', 'none', '++', Variable, BooleanLiteral, String, IRIREF, PNAME_NS, PNAME_LN, BLANK_NODE_LABEL, INTEGER, DECIMAL, DOUBLE} at line 15 column 93
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Footballer' at line 7 column 62
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Player' at line 7 column 84
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Player' at line 7 column 0
+Feil på linje 8:
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Player' at line 8 column 26
+Feil på linje 10:
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Footballer' at line 10 column 0
+        [ERROR] Unrecognized instance argument  in '' at line 10 column 70
+Feil på linje 11:
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Player' at line 11 column 47
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Team' at line 11 column 0
+Feil på linje 13:
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Team' at line 13 column 87
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Player' at line 13 column 103
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Footballer' at line 13 column 0
+Feil på linje 15:
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Footballer' at line 15 column 46
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Footballer' at line 15 column 68
+        [ERROR] Unrecognized instance argument  in '' at line 15 column 93
+Feil på linje 16:
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Player' at line 16 column 79
+      [ERROR] Unrecognized prefix 'hand' in 'hand:Team' at line 16 column 63

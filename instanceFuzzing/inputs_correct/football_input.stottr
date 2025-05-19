@@ -1,0 +1,354 @@
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix foot: <http://example.org/football#> .
+@prefix o-rdf: <http://tpl.ottr.xyz/rdf/0.1/> .
+
+foot:Footballer(
+    _:PB23,
+    "Pawel" ,
+    "Brozek" ,
+    "1983-04-21"^^xsd:date ,
+    "Retired" ,
+    ("Wisla Krakow", "Trabzonspor", "Celtic", "Recreativo Huelva", "Wisla Krakow") ,
+    0.00 ,
+    "Striker" ,
+    "Poland"
+) .
+
+foot:Club(
+    _:Club1 ,
+    "Wisła Kraków" ,
+    "1906"^^xsd:gYear ,
+    "Stadion Miejski" ,
+    "Ekstraklasa" ,
+    "Poland"
+) .
+
+foot:Club(
+    _:Club2 ,
+    "Trabzonspor" ,
+    "1967"^^xsd:gYear ,
+    "Şenol Güneş Stadium" ,
+    "Süper Lig" ,
+    "Turkey"
+) .
+
+foot:League(
+    _:League1 ,
+    "Ekstraklasa" ,
+    "1927"^^xsd:gYear ,
+    "Poland" ,
+    ("Legia Warsawa", "Lech Poznań", "Raków Czestochowa") ,
+    ("Lech Poznań", "Raków Czestochowa", "Jagiellonia Białystok", "Legia Warszawa", "Cracovia Kraków", "Górnik Zabrze", "Piast Gliwice", "Śląsk Wrocław", "Warta Poznań", "Zagłębie Lubin", "Pogoń Szczecin", "Wisła Płock", "Stal Mielec", "Widzew Łódź", "Korona Kielce", "Miedź Legnica", "Radomiak Radom", "Górnik Łęczna")
+) .
+foot:League(
+    _:League3 ,
+    "Fortuna 1. liga" ,
+    "1927"^^xsd:gYear ,
+    "Poland" ,
+    ("Wisla Krakow,Ruch Chorzow,Arka Gdynia") ,
+    ("Wisla Krakow","Miedz Legnica","Arka Gdynia","LKS Lodz","Bruk-Bet Termalica Nieciecza","Ruch Chorzow","Stal Rzeszow","GKS Tychy","Wisla Plock","Gornik Leczna","Odra Opole","Polonia Warsaw","Chrobry Glogow","Warta Poznan","Znicz Pruszkow","Stal Stalowa Wola","Pogon Siedlce","Kotwica Kolobrzeg")
+) .
+
+foot:League(
+    _:League2 ,
+    "Süper Lig" ,
+    "1959"^^xsd:gYear ,
+    "Turkey" ,
+    ("Galatasaray", "Fenerbahçe", "Trabzonspor"),
+    ("Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "İstanbul Başakşehir", "Konyaspor", "Sivasspor", "Alanyaspor", "Antalyaspor", "Kayserispor", "Göztepe", "Çaykur Rizespor", "Gaziantep FK", "Fatih Karagümrük", "Adana Demirspor", "Samsunspor", "Kasımpaşa", "Hatayspor")    
+) .
+
+foot:Country(
+    _:Country1 ,
+    "Poland" ,
+    "Europe" ,
+    "PL" ,
+    ("Robert Lewandowski", "Zbigniew Boniek", "Jerzy Górski") ,
+    ("Legia Warsaw", "Wisła Kraków", "Lech Poznań") ,
+    ("Ekstraklasa", "I Liga")
+) .
+
+foot:Country(
+    _:Country2 ,
+    "Turkey" ,
+    "Asia" ,
+    "TR" ,
+    ("Hakan Şükür", "Arda Turan", "Mehmet Scholl") ,
+    ("Galatasaray", "Fenerbahçe", "Trabzonspor") ,
+    ("Süper Lig", "TFF 1. Lig")
+) .
+
+foot:Footballer(
+    _:MR8,
+    "Marcus",
+    "Rashford",
+    "1997-10-31"^^xsd:date,
+    "Active",
+    ("Manchester United"),
+    50000000.00,
+    "Forward",
+    "England"
+) .
+
+foot:Footballer(
+    _:BF8,
+    "Bruno",
+    "Fernandes",
+    "1994-09-08"^^xsd:date,
+    "Active",
+    ("Sporting CP", "Manchester United"),
+    80000000.00,
+    "Midfielder",
+    "Portugal"
+) .
+
+
+foot:Footballer(
+    _:CR7,
+    "Cristiano",
+    "Ronaldo",
+    "1985-02-05"^^xsd:date,
+    "Active",
+    ("Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Manchester United", "Al Nassr"),
+    100000000.00,
+    "Forward",
+    "Portugal"
+) .
+
+foot:Footballer(
+    _:WR10,
+    "Wayne",
+    "Rooney",
+    "1985-10-24"^^xsd:date,
+    "Retired",
+    ("Everton", "Manchester United", "Everton", "DC United"),
+    0.00,
+    "Forward",
+    "England"
+) .
+
+
+foot:Club(
+    _:Club3,
+    "Manchester United",
+    "1878"^^xsd:gYear,
+    "Old Trafford",
+    "Premier League",
+    "England"
+) .
+
+
+foot:League(
+    _:League4,
+    "Premier League",
+    "1992"^^xsd:gYear,
+    "England",
+    ("Manchester City", "Arsenal", "Manchester United"),
+    ("Manchester City", "Arsenal", "Manchester United", "Liverpool", "Tottenham Hotspur", "Aston Villa", "Newcastle United", "Brighton & Hove Albion", "West Ham United", "Chelsea", "Brentford", "Crystal Palace", "Fulham", "Nottingham Forest", "Everton", "Luton Town", "Burnley", "Sheffield United")
+) .
+
+
+foot:Country(
+    _:Country3,
+    "England",
+    "Europe",
+    "EN",
+    ("Wayne Rooney", "David Beckham", "Bobby Charlton"),
+    ("Manchester United", "Liverpool", "Arsenal"),
+    ("Premier League", "Championship")
+) .
+
+foot:Footballer(
+    _:MH9,
+    "Erling",
+    "Haaland",
+    "2000-07-21"^^xsd:date,
+    "Active",
+    ("Molde FK", "Red Bull Salzburg", "Borussia Dortmund", "Manchester City"),
+    180000000.00,
+    "Striker",
+    "Norway"
+) .
+
+foot:Footballer(
+    _:MS11,
+    "Mohamed",
+    "Salah",
+    "1992-06-15"^^xsd:date,
+    "Active",
+    ("Al Mokawloon", "Basel", "Chelsea", "Fiorentina", "Roma", "Liverpool"),
+    100000000.00,
+    "Forward",
+    "Egypt"
+) .
+
+foot:Footballer(
+    _:HK9,
+    "Harry",
+    "Kane",
+    "1993-07-28"^^xsd:date,
+    "Active",
+    ("Tottenham Hotspur", "Bayern Munich"),
+    100000000.00,
+    "Striker",
+    "England"
+) .
+
+foot:Footballer(
+    _:KB9,
+    "Karim",
+    "Benzema",
+    "1987-12-19"^^xsd:date,
+    "Active",
+    ("Lyon", "Real Madrid", "Al-Ittihad"),
+    30000000.00,
+    "Striker",
+    "France"
+) .
+
+
+foot:Club(
+    _:Club4,
+    "Liverpool",
+    "1892"^^xsd:gYear,
+    "Anfield",
+    "Premier League",
+    "England"
+) .
+
+foot:Club(
+    _:Club5,
+    "Manchester City",
+    "1880"^^xsd:gYear,
+    "Etihad Stadium",
+    "Premier League",
+    "England"
+) .
+
+foot:Club(
+    _:Club6,
+    "Bayern Munich",
+    "1900"^^xsd:gYear,
+    "Allianz Arena",
+    "Bundesliga",
+    "Germany"
+) .
+
+foot:Club(
+    _:Club7,
+    "Real Madrid",
+    "1902"^^xsd:gYear,
+    "Santiago Bernabéu",
+    "La Liga",
+    "Spain"
+) .
+
+
+foot:League(
+    _:League5,
+    "Bundesliga",
+    "1963"^^xsd:gYear,
+    "Germany",
+    ("Bayern Munich", "Borussia Dortmund", "RB Leipzig"),
+    ("Bayern Munich", "Bayer Leverkusen", "Stuttgart", "Borussia Dortmund", "RB Leipzig", "Eintracht Frankfurt", "Hoffenheim", "Freiburg", "Wolfsburg", "Augsburg", "Borussia Mönchengladbach", "Werder Bremen", "Union Berlin", "Bochum", "Mainz 05", "FC Köln", "Darmstadt 98", "Heidenheim")
+) .
+
+foot:League(
+    _:League6,
+    "La Liga",
+    "1929"^^xsd:gYear,
+    "Spain",
+    ("Real Madrid", "Barcelona", "Atletico Madrid"),
+    ("Real Madrid", "Girona", "Barcelona", "Athletic Club", "Atletico Madrid", "Real Sociedad", "Real Betis", "Valencia", "Las Palmas", "Getafe", "Alaves", "Villarreal", "Rayo Vallecano", "Osasuna", "Sevilla", "Mallorca", "Celta Vigo", "Granada", "Cadiz", "Almeria")
+) .
+
+
+foot:Country(
+    _:Country4,
+    "Germany",
+    "Europe",
+    "DE",
+    ("Franz Beckenbauer", "Gerd Müller", "Lothar Matthäus"),
+    ("Bayern Munich", "Borussia Dortmund", "RB Leipzig"),
+    ("Bundesliga", "2. Bundesliga")
+) .
+
+foot:Country(
+    _:Country5,
+    "Spain",
+    "Europe",
+    "ES",
+    ("Andres Iniesta", "Xavi", "Raul"),
+    ("Real Madrid", "Barcelona", "Atletico Madrid"),
+    ("La Liga", "Segunda División")
+) .
+
+foot:Country(
+    _:Country6,
+    "France",
+    "Europe",
+    "FR",
+    ("Zinedine Zidane", "Michel Platini", "Thierry Henry"),
+    ("Paris Saint-Germain", "Marseille", "Lyon"),
+    ("Ligue 1", "Ligue 2")
+) .
+foot:Footballer(
+    _:RVP20,
+    "Robin",
+    "van Persie",
+    "1983-08-06"^^xsd:date,
+    "Retired",
+    ("Feyenoord", "Arsenal", "Manchester United", "Fenerbahce", "Feyenoord"),
+    0.00,
+    _:Striker,
+    "Netherlands"
+) .
+
+foot:Footballer(
+    _:FR17,
+    "Fred",
+    "Rodrigues",
+    "1993-03-05"^^xsd:date,
+    "Active",
+    ("Internacional", "Shakhtar Donetsk", "Manchester United", "Fenerbahce"),
+    20000000.00,
+    _:Midfielder,
+    "Brazil"
+) .
+
+
+foot:Country(
+    _:Country7,
+    "Netherlands",
+    "Europe",
+    "NL",
+    ("Johan Cruyff", "Marco van Basten", "Robin van Persie"),
+    ("Ajax", "PSV", "Feyenoord"),
+    ("Eredivisie", "Eerste Divisie")
+) .
+
+
+foot:Country(
+    _:Country8,
+    "Brazil",
+    "South America",
+    "BR",
+    ("Pele", "Ronaldo", "Ronaldinho"),
+    ("Flamengo", "Santos", "Sao Paulo"),
+    ("Brasileirao Serie A", "Brasileirao Serie B")
+) .
+
+foot:Footballer(
+    _:FR17,
+    "David",
+    "De Gea",
+    "1990-03-05"^^xsd:date,
+    "Active",
+    ("Atletico Madrid","Manchester United", "Fiorentina"),
+    20000000.00,
+    _:Goalkeeper,
+    "Spain"
+) .

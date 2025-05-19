@@ -1,0 +1,29 @@
+--- Summary ---
+Input rows (ISLa generated): 10
+Output rows (Turtle file): 0
+Total actual error lines (starting with '[ERROR]'): 7
+
+Last error before quitting: [ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 15 column 29
+
+Aggregated error counts (by type):
+Syntax error: mismatched input: 3
+Parsing stOTTR: 1
+Syntax error: no viable alternative: 1
+Syntax error: extraneous input: 1
+Unrecognized prefix: 1
+Aggregated error counts (by exact message, actual errors):
+'[ERROR] Parsing stOTTR': 1
+'[ERROR] Syntax error: no viable alternative at input 'foot:Ball[?!xsd:token?c,?ottr:IRI' at line 11 column 34[ERROR] Syntax error: mismatched input '::' expecting '.' at line 11 column 56[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 100[ERROR] Syntax error: mismatched input ',' expecting '.' at line 11 column 123[ERROR] Syntax error: extraneous input '}' expecting '.' at line 11 column 146': 1
+'[ERROR] Unrecognized prefix 'owl' in 'owl:NamedIndividual' at line 15 column 29': 1
+
+Non-critical messages (not starting with '[ERROR]'):
+'Location(s):': 6
+'- File ./data/templates/templates15.stottr': 6
+'[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Ball': 5
+'[WARNING] There exist duplicate templates which may conflict with each other: http://example.org/football#Footballer': 2
+'[INFO] Ignoring instance: foot:Ball(). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: ottr:Triple(?i,foot:Footballer. This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?M,none). This parser accepts signatures, base templates and templates.': 1
+'[INFO] Ignoring instance: o-rdf:Type(?J,none). This parser accepts signatures, base templates and templates.': 1
+'- Template with IRI 'http://example.org/football#Ball'': 1
+'- Signature with IRI 'http://example.org/football#Ball'': 1

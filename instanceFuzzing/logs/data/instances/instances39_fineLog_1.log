@@ -1,0 +1,72 @@
+2025-05-05 20:48:38,853 - ERROR - Instance foot:Country(_:ceq,"England"@en,"Africa","POR",( ),(H,E,A,"Wrong")) .
+
+2025-05-05 20:48:38,854 - ERROR - Instance 7 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:38,855 - ERROR - Fatal error at instance 7: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:43,244 - ERROR - Instance foot:Footballer(_:Izu,"Lionel","Fiancée",1979-2-05^^xsd:date,( ),( ),10,"Midfielder","Egypt") .
+
+2025-05-05 20:48:43,244 - ERROR - Instance 8 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:43,246 - ERROR - Fatal error at instance 8: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:48,177 - ERROR - Instance foot:Country("&"*")8pSJ",++("Old Trafford",tYLfMi,)
+
+2025-05-05 20:48:48,177 - ERROR - Instance 9 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:48,179 - ERROR - Fatal error at instance 9: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:53,876 - ERROR - Instance foot:Club(_:Xsb,"Barcelona","2018"^^xsd:gYear,"Camp Nou","Portugal") .
+
+2025-05-05 20:48:53,876 - ERROR - Instance 10 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:53,878 - ERROR - Fatal error at instance 10: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:59,619 - ERROR - Instance foot:League(_:okx,"Bundesliga","2017"^^xsd:gYear,( ),(("Juventus", "Manchester United", "Liverpool", "Paris Saint-Germain"@fr), ( ))) .
+
+2025-05-05 20:48:59,620 - ERROR - Instance 11 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:48:59,622 - ERROR - Fatal error at instance 11: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:04,741 - ERROR - Instance foot:Footballer(_:jPn,"","Brontë","2024-16-27"^^xsd:date,none,(( ), (( ), (( ), ( ), ( ), ( ), "Juventus", "Liverpool", "Paris Saint-Germain"@fr, "Juventus"))),100000000,"Defender","Argentina")
+
+2025-05-05 20:49:04,741 - ERROR - Instance 12 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:04,742 - ERROR - Fatal error at instance 12: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:09,807 - ERROR - Instance foot:Footballer("wGmORvV"
+
+2025-05-05 20:49:09,807 - ERROR - Instance 13 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:09,809 - ERROR - Fatal error at instance 13: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:14,983 - ERROR - Instance foot:League("["*KrlW,"","2019"^^xsd:gYear,(((("Barcelona", ( )), "Liverpool")( ))( )),( )) .
+
+2025-05-05 20:49:14,984 - ERROR - Instance 14 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:14,985 - ERROR - Fatal error at instance 14: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:21,040 - ERROR - Instance foot:Club("Nd\//FgZD","Manchester United"@@en@@nl,""^^xsd:gYear,"","") .
+
+2025-05-05 20:49:21,040 - ERROR - Instance 15 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:21,041 - ERROR - Fatal error at instance 15: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:27,042 - ERROR - Instance foot:Footballer(U,"Cristiano","","0000-00-00"^^xsd:invalidDatatype,( ),( ),Millions,"",a)
+
+2025-05-05 20:49:27,042 - ERROR - Instance 16 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:27,043 - ERROR - Fatal error at instance 16: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:50,490 - ERROR - Instance foot:Country(_:ceq,"England"@en,"Africa","POR",( ),(H,E,A,"Wrong")) .
+
+2025-05-05 20:49:50,490 - ERROR - Instance 7 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:50,491 - ERROR - Fatal error at instance 7: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:55,200 - ERROR - Instance foot:Footballer(_:Izu,"Lionel","Fiancée",1979-2-05^^xsd:date,( ),( ),10,"Midfielder","Egypt") .
+
+2025-05-05 20:49:55,201 - ERROR - Instance 8 failed: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
+2025-05-05 20:49:55,202 - ERROR - Fatal error at instance 8: [FATAL] Illegal char <:> at index 4: http://example.org/football#LeagueTeam
+
