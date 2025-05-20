@@ -16,7 +16,7 @@ python gen_diff_instances.py -n 100 -version 1 -generate yes
 python diffTest.py -input_file ./differential/data/diffInstances.py
 ```
 
-For template fuzzing, as described in Section 3.1.1, the following commands apply:
+For template fuzzing, as described in Section 3.1.2, the following commands apply:
 
 ```bash
 cd templateFuzzing
